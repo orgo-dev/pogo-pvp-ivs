@@ -84,10 +84,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                18,
-                2,
-                14,
-                7
+                17.5,
+                4,
+                13,
+                10
             ],
             "cp1500": [
                 50,
@@ -198,16 +198,16 @@
         ],
         "defaultIVs": {
             "cp500": [
-                11.5,
-                2,
-                7,
+                11,
+                5,
+                14,
                 13
             ],
             "cp1500": [
-                36.5,
-                3,
-                15,
-                14
+                37.5,
+                4,
+                13,
+                10
             ],
             "cp2500": [
                 50,
@@ -2261,61 +2261,6 @@
     },
     {
         "dex": 19,
-        "speciesName": "Rattata (Shadow)",
-        "speciesId": "rattata_shadow",
-        "baseStats": {
-            "atk": 103,
-            "def": 70,
-            "hp": 102
-        },
-        "types": [
-            "normal",
-            "none"
-        ],
-        "fastMoves": [
-            "QUICK_ATTACK",
-            "TACKLE"
-        ],
-        "chargedMoves": [
-            "BODY_SLAM",
-            "DIG",
-            "HYPER_FANG"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                26.5,
-                5,
-                15,
-                10
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "buddyDistance": 1,
-        "thirdMoveCost": 10000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_RATTATA",
-            "evolutions": [
-                "raticate_shadow"
-            ]
-        }
-    },
-    {
-        "dex": 19,
         "speciesName": "Rattata (Alolan) (Shadow)",
         "speciesId": "rattata_alolan_shadow",
         "baseStats": {
@@ -2367,6 +2312,61 @@
             "id": "FAMILY_RATTATA",
             "evolutions": [
                 "raticate_alolan_shadow"
+            ]
+        }
+    },
+    {
+        "dex": 19,
+        "speciesName": "Rattata (Shadow)",
+        "speciesId": "rattata_shadow",
+        "baseStats": {
+            "atk": 103,
+            "def": 70,
+            "hp": 102
+        },
+        "types": [
+            "normal",
+            "none"
+        ],
+        "fastMoves": [
+            "QUICK_ATTACK",
+            "TACKLE"
+        ],
+        "chargedMoves": [
+            "BODY_SLAM",
+            "DIG",
+            "HYPER_FANG"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                26.5,
+                5,
+                15,
+                10
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_RATTATA",
+            "evolutions": [
+                "raticate_shadow"
             ]
         }
     },
@@ -2482,59 +2482,6 @@
     },
     {
         "dex": 20,
-        "speciesName": "Raticate (Shadow)",
-        "speciesId": "raticate_shadow",
-        "baseStats": {
-            "atk": 161,
-            "def": 139,
-            "hp": 146
-        },
-        "types": [
-            "normal",
-            "none"
-        ],
-        "fastMoves": [
-            "BITE",
-            "QUICK_ATTACK"
-        ],
-        "chargedMoves": [
-            "DIG",
-            "HYPER_BEAM",
-            "HYPER_FANG"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                11,
-                4,
-                10,
-                13
-            ],
-            "cp1500": [
-                34.5,
-                5,
-                13,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "buddyDistance": 1,
-        "thirdMoveCost": 10000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_RATTATA",
-            "parent": "rattata_alolan_shadow"
-        }
-    },
-    {
-        "dex": 20,
         "speciesName": "Raticate (Alolan) (Shadow)",
         "speciesId": "raticate_alolan_shadow",
         "baseStats": {
@@ -2580,6 +2527,59 @@
             ]
         },
         "searchPriority": 2,
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_RATTATA",
+            "parent": "rattata_alolan_shadow"
+        }
+    },
+    {
+        "dex": 20,
+        "speciesName": "Raticate (Shadow)",
+        "speciesId": "raticate_shadow",
+        "baseStats": {
+            "atk": 161,
+            "def": 139,
+            "hp": 146
+        },
+        "types": [
+            "normal",
+            "none"
+        ],
+        "fastMoves": [
+            "BITE",
+            "QUICK_ATTACK"
+        ],
+        "chargedMoves": [
+            "DIG",
+            "HYPER_BEAM",
+            "HYPER_FANG"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                11,
+                4,
+                10,
+                13
+            ],
+            "cp1500": [
+                34.5,
+                5,
+                13,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -3583,65 +3583,6 @@
     },
     {
         "dex": 27,
-        "speciesName": "Sandshrew (Shadow)",
-        "speciesId": "sandshrew_shadow",
-        "baseStats": {
-            "atk": 126,
-            "def": 120,
-            "hp": 137
-        },
-        "types": [
-            "ground",
-            "none"
-        ],
-        "fastMoves": [
-            "MUD_SHOT",
-            "SCRATCH"
-        ],
-        "chargedMoves": [
-            "DIG",
-            "ROCK_SLIDE",
-            "ROCK_TOMB",
-            "SAND_TOMB"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                15.5,
-                2,
-                11,
-                15
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "eliteMoves": [
-            "ROCK_TOMB"
-        ],
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_SANDSHREW",
-            "evolutions": [
-                "sandslash_shadow"
-            ]
-        }
-    },
-    {
-        "dex": 27,
         "speciesName": "Sandshrew (Alolan) (Shadow)",
         "speciesId": "sandshrew_alolan_shadow",
         "baseStats": {
@@ -3693,6 +3634,65 @@
             "id": "FAMILY_SANDSHREW",
             "evolutions": [
                 "sandslash_alolan_shadow"
+            ]
+        }
+    },
+    {
+        "dex": 27,
+        "speciesName": "Sandshrew (Shadow)",
+        "speciesId": "sandshrew_shadow",
+        "baseStats": {
+            "atk": 126,
+            "def": 120,
+            "hp": 137
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "MUD_SHOT",
+            "SCRATCH"
+        ],
+        "chargedMoves": [
+            "DIG",
+            "ROCK_SLIDE",
+            "ROCK_TOMB",
+            "SAND_TOMB"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                15,
+                5,
+                13,
+                15
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
+        "eliteMoves": [
+            "ROCK_TOMB"
+        ],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_SANDSHREW",
+            "evolutions": [
+                "sandslash_shadow"
             ]
         }
     },
@@ -3829,69 +3829,6 @@
     },
     {
         "dex": 28,
-        "speciesName": "Sandslash (Shadow)",
-        "speciesId": "sandslash_shadow",
-        "baseStats": {
-            "atk": 182,
-            "def": 175,
-            "hp": 181
-        },
-        "types": [
-            "ground",
-            "none"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "MUD_SHOT"
-        ],
-        "chargedMoves": [
-            "BULLDOZE",
-            "EARTHQUAKE",
-            "ROCK_TOMB",
-            "NIGHT_SLASH"
-        ],
-        "eliteMoves": [
-            "NIGHT_SLASH"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                8,
-                4,
-                10,
-                15
-            ],
-            "cp1500": [
-                23.5,
-                4,
-                12,
-                15
-            ],
-            "cp2500": [
-                49.5,
-                4,
-                11,
-                15
-            ],
-            "cp2500l40": [
-                40,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_SANDSHREW",
-            "parent": "sandshrew_shadow"
-        }
-    },
-    {
-        "dex": 28,
         "speciesName": "Sandslash (Alolan) (Shadow)",
         "speciesId": "sandslash_alolan_shadow",
         "baseStats": {
@@ -3954,6 +3891,69 @@
         "family": {
             "id": "FAMILY_SANDSHREW",
             "parent": "sandshrew_alolan_shadow"
+        }
+    },
+    {
+        "dex": 28,
+        "speciesName": "Sandslash (Shadow)",
+        "speciesId": "sandslash_shadow",
+        "baseStats": {
+            "atk": 182,
+            "def": 175,
+            "hp": 181
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "METAL_CLAW",
+            "MUD_SHOT"
+        ],
+        "chargedMoves": [
+            "BULLDOZE",
+            "EARTHQUAKE",
+            "ROCK_TOMB",
+            "NIGHT_SLASH"
+        ],
+        "eliteMoves": [
+            "NIGHT_SLASH"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                8,
+                4,
+                10,
+                15
+            ],
+            "cp1500": [
+                23.5,
+                4,
+                12,
+                15
+            ],
+            "cp2500": [
+                49.5,
+                4,
+                11,
+                15
+            ],
+            "cp2500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_SANDSHREW",
+            "parent": "sandshrew_shadow"
         }
     },
     {
@@ -5604,9 +5604,9 @@
         "defaultIVs": {
             "cp500": [
                 16,
-                2,
-                12,
-                12
+                4,
+                11,
+                9
             ],
             "cp1500": [
                 50,
@@ -6323,61 +6323,6 @@
     },
     {
         "dex": 50,
-        "speciesName": "Diglett (Shadow)",
-        "speciesId": "diglett_shadow",
-        "baseStats": {
-            "atk": 109,
-            "def": 78,
-            "hp": 67
-        },
-        "types": [
-            "ground",
-            "none"
-        ],
-        "fastMoves": [
-            "MUD_SLAP",
-            "SCRATCH"
-        ],
-        "chargedMoves": [
-            "DIG",
-            "MUD_BOMB",
-            "ROCK_TOMB"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                28.5,
-                6,
-                13,
-                13
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_DIGLETT",
-            "evolutions": [
-                "dugtrio_shadow"
-            ]
-        }
-    },
-    {
-        "dex": 50,
         "speciesName": "Diglett (Alolan) (Shadow)",
         "speciesId": "diglett_alolan_shadow",
         "baseStats": {
@@ -6429,6 +6374,61 @@
             "id": "FAMILY_DIGLETT",
             "evolutions": [
                 "dugtrio_alolan_shadow"
+            ]
+        }
+    },
+    {
+        "dex": 50,
+        "speciesName": "Diglett (Shadow)",
+        "speciesId": "diglett_shadow",
+        "baseStats": {
+            "atk": 109,
+            "def": 78,
+            "hp": 67
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "MUD_SLAP",
+            "SCRATCH"
+        ],
+        "chargedMoves": [
+            "DIG",
+            "MUD_BOMB",
+            "ROCK_TOMB"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                28.5,
+                6,
+                13,
+                13
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_DIGLETT",
+            "evolutions": [
+                "dugtrio_shadow"
             ]
         }
     },
@@ -6553,6 +6553,60 @@
     },
     {
         "dex": 51,
+        "speciesName": "Dugtrio (Alolan) (Shadow)",
+        "speciesId": "dugtrio_alolan_shadow",
+        "baseStats": {
+            "atk": 201,
+            "def": 142,
+            "hp": 111
+        },
+        "types": [
+            "ground",
+            "steel"
+        ],
+        "fastMoves": [
+            "METAL_CLAW",
+            "MUD_SLAP"
+        ],
+        "chargedMoves": [
+            "EARTHQUAKE",
+            "IRON_HEAD",
+            "MUD_BOMB"
+        ],
+        "tags": [
+            "alolan",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                10,
+                5,
+                10,
+                10
+            ],
+            "cp1500": [
+                29,
+                6,
+                13,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_DIGLETT",
+            "parent": "diglett_alolan_shadow"
+        }
+    },
+    {
+        "dex": 51,
         "speciesName": "Dugtrio (Shadow)",
         "speciesId": "dugtrio_shadow",
         "baseStats": {
@@ -6608,60 +6662,6 @@
         "family": {
             "id": "FAMILY_DIGLETT",
             "parent": "diglett_shadow"
-        }
-    },
-    {
-        "dex": 51,
-        "speciesName": "Dugtrio (Alolan) (Shadow)",
-        "speciesId": "dugtrio_alolan_shadow",
-        "baseStats": {
-            "atk": 201,
-            "def": 142,
-            "hp": 111
-        },
-        "types": [
-            "ground",
-            "steel"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "MUD_SLAP"
-        ],
-        "chargedMoves": [
-            "EARTHQUAKE",
-            "IRON_HEAD",
-            "MUD_BOMB"
-        ],
-        "tags": [
-            "alolan",
-            "shadow"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                10,
-                5,
-                10,
-                10
-            ],
-            "cp1500": [
-                29,
-                6,
-                13,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_DIGLETT",
-            "parent": "diglett_alolan_shadow"
         }
     },
     {
@@ -8232,15 +8232,15 @@
         "defaultIVs": {
             "cp500": [
                 14,
-                2,
-                13,
-                15
+                6,
+                11,
+                14
             ],
             "cp1500": [
                 50,
                 13,
-                14,
-                15
+                15,
+                14
             ],
             "cp2500": [
                 50,
@@ -9019,10 +9019,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                19,
-                2,
-                11,
-                15
+                18,
+                6,
+                15,
+                14
             ],
             "cp1500": [
                 50,
@@ -9136,14 +9136,14 @@
         ],
         "defaultIVs": {
             "cp500": [
-                12,
-                3,
-                12,
-                8
+                11.5,
+                7,
+                15,
+                10
             ],
             "cp1500": [
-                39.5,
-                3,
+                38.5,
+                6,
                 15,
                 14
             ],
@@ -9544,9 +9544,9 @@
         "defaultIVs": {
             "cp500": [
                 15,
-                3,
-                10,
-                15
+                5,
+                7,
+                14
             ],
             "cp1500": [
                 50,
@@ -9722,15 +9722,15 @@
         "defaultIVs": {
             "cp500": [
                 10,
-                2,
-                13,
-                13
+                5,
+                11,
+                11
             ],
             "cp1500": [
-                30,
+                30.5,
                 4,
-                10,
-                14
+                6,
+                15
             ],
             "cp2500": [
                 50,
@@ -11310,14 +11310,14 @@
         "defaultIVs": {
             "cp500": [
                 14,
-                3,
-                15,
-                10
+                5,
+                13,
+                9
             ],
             "cp1500": [
-                49.5,
-                10,
-                15,
+                49,
+                13,
+                13,
                 15
             ],
             "cp2500": [
@@ -13065,6 +13065,64 @@
     },
     {
         "dex": 103,
+        "speciesName": "Exeggutor (Alolan) (Shadow)",
+        "speciesId": "exeggutor_alolan_shadow",
+        "baseStats": {
+            "atk": 230,
+            "def": 153,
+            "hp": 216
+        },
+        "types": [
+            "grass",
+            "dragon"
+        ],
+        "fastMoves": [
+            "BULLET_SEED",
+            "DRAGON_TAIL"
+        ],
+        "chargedMoves": [
+            "DRAGON_PULSE",
+            "SEED_BOMB",
+            "SOLAR_BEAM",
+            "DRACO_METEOR"
+        ],
+        "eliteMoves": [
+            "DRACO_METEOR"
+        ],
+        "tags": [
+            "alolan",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                6.5,
+                4,
+                9,
+                7
+            ],
+            "cp1500": [
+                18.5,
+                4,
+                11,
+                12
+            ],
+            "cp2500": [
+                30,
+                6,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_EXEGGCUTE",
+            "parent": "exeggcute_shadow"
+        }
+    },
+    {
+        "dex": 103,
         "speciesName": "Exeggutor (Shadow)",
         "speciesId": "exeggutor_shadow",
         "baseStats": {
@@ -13114,64 +13172,6 @@
             "ZEN_HEADBUTT"
         ],
         "searchPriority": 2,
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_EXEGGCUTE",
-            "parent": "exeggcute_shadow"
-        }
-    },
-    {
-        "dex": 103,
-        "speciesName": "Exeggutor (Alolan) (Shadow)",
-        "speciesId": "exeggutor_alolan_shadow",
-        "baseStats": {
-            "atk": 230,
-            "def": 153,
-            "hp": 216
-        },
-        "types": [
-            "grass",
-            "dragon"
-        ],
-        "fastMoves": [
-            "BULLET_SEED",
-            "DRAGON_TAIL"
-        ],
-        "chargedMoves": [
-            "DRAGON_PULSE",
-            "SEED_BOMB",
-            "SOLAR_BEAM",
-            "DRACO_METEOR"
-        ],
-        "eliteMoves": [
-            "DRACO_METEOR"
-        ],
-        "tags": [
-            "alolan",
-            "shadow"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                6.5,
-                4,
-                9,
-                7
-            ],
-            "cp1500": [
-                18.5,
-                4,
-                11,
-                12
-            ],
-            "cp2500": [
-                30,
-                6,
-                15,
-                15
-            ]
-        },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -13412,60 +13412,6 @@
     },
     {
         "dex": 105,
-        "speciesName": "Marowak (Shadow)",
-        "speciesId": "marowak_shadow",
-        "baseStats": {
-            "atk": 144,
-            "def": 186,
-            "hp": 155
-        },
-        "types": [
-            "ground",
-            "none"
-        ],
-        "fastMoves": [
-            "MUD_SLAP",
-            "ROCK_SMASH"
-        ],
-        "chargedMoves": [
-            "BONE_CLUB",
-            "DIG",
-            "EARTHQUAKE",
-            "ROCK_SLIDE"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                10.5,
-                5,
-                9,
-                10
-            ],
-            "cp1500": [
-                32,
-                5,
-                9,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "tags": [
-            "shadow"
-        ],
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_CUBONE",
-            "parent": "cubone_shadow"
-        }
-    },
-    {
-        "dex": 105,
         "speciesName": "Marowak (Alolan) (Shadow)",
         "speciesId": "marowak_alolan_shadow",
         "baseStats": {
@@ -13517,6 +13463,60 @@
             ]
         },
         "searchPriority": 8,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_CUBONE",
+            "parent": "cubone_shadow"
+        }
+    },
+    {
+        "dex": 105,
+        "speciesName": "Marowak (Shadow)",
+        "speciesId": "marowak_shadow",
+        "baseStats": {
+            "atk": 144,
+            "def": 186,
+            "hp": 155
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "MUD_SLAP",
+            "ROCK_SMASH"
+        ],
+        "chargedMoves": [
+            "BONE_CLUB",
+            "DIG",
+            "EARTHQUAKE",
+            "ROCK_SLIDE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                10.5,
+                5,
+                9,
+                10
+            ],
+            "cp1500": [
+                32,
+                5,
+                9,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "shadow"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -13940,10 +13940,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                16,
-                3,
+                15.5,
+                4,
                 15,
-                11
+                15
             ],
             "cp1500": [
                 50,
@@ -14124,19 +14124,19 @@
         "defaultIVs": {
             "cp500": [
                 8.5,
-                2,
-                5,
-                13
+                4,
+                10,
+                6
             ],
             "cp1500": [
                 24.5,
-                3,
+                5,
                 13,
-                14
+                11
             ],
             "cp2500": [
-                50,
-                9,
+                48.5,
+                12,
                 14,
                 14
             ],
@@ -15454,16 +15454,16 @@
                 13
             ],
             "cp1500": [
-                24,
-                2,
+                23.5,
+                7,
                 14,
-                13
+                14
             ],
             "cp2500": [
-                49.5,
-                6,
+                46.5,
                 13,
-                15
+                15,
+                14
             ],
             "cp2500l40": [
                 40,
@@ -17868,7 +17868,7 @@
         "defaultIVs": {
             "cp500": [
                 19,
-                5,
+                4,
                 13,
                 15
             ],
@@ -21347,16 +21347,16 @@
         ],
         "defaultIVs": {
             "cp500": [
+                8.5,
                 9,
-                3,
-                9,
-                11
+                15,
+                14
             ],
             "cp1500": [
-                27,
-                2,
-                9,
-                11
+                26,
+                5,
+                15,
+                12
             ],
             "cp2500": [
                 50,
@@ -21404,16 +21404,16 @@
         ],
         "defaultIVs": {
             "cp500": [
+                8.5,
                 9,
-                3,
-                9,
-                11
+                15,
+                14
             ],
             "cp1500": [
-                27,
-                2,
-                9,
-                11
+                26,
+                5,
+                15,
+                12
             ],
             "cp2500": [
                 50,
@@ -23080,10 +23080,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                20.5,
-                3,
-                15,
-                8
+                20,
+                4,
+                14,
+                12
             ],
             "cp1500": [
                 50,
@@ -23292,10 +23292,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                18,
-                3,
-                12,
-                10
+                17,
+                6,
+                15,
+                14
             ],
             "cp1500": [
                 50,
@@ -26325,16 +26325,16 @@
         ],
         "defaultIVs": {
             "cp500": [
+                8.5,
                 9,
-                2,
-                7,
-                11
+                14,
+                12
             ],
             "cp1500": [
                 26,
-                3,
-                13,
-                13
+                4,
+                15,
+                8
             ],
             "cp2500": [
                 50,
@@ -28246,21 +28246,21 @@
         ],
         "defaultIVs": {
             "cp500": [
-                5,
-                1,
-                1,
-                1
+                4.5,
+                10,
+                15,
+                15
             ],
             "cp1500": [
-                13,
-                15,
-                12,
+                13.5,
+                5,
+                10,
                 15
             ],
             "cp2500": [
-                22,
+                22.5,
+                6,
                 9,
-                12,
                 15
             ]
         },
@@ -28474,22 +28474,22 @@
         ],
         "defaultIVs": {
             "cp500": [
-                5,
-                1,
-                1,
-                1
+                4.5,
+                9,
+                15,
+                15
             ],
             "cp1500": [
                 13,
-                12,
-                10,
-                12
+                4,
+                14,
+                15
             ],
             "cp2500": [
                 22,
-                6,
-                10,
-                12
+                4,
+                11,
+                13
             ]
         },
         "eliteMoves": [
@@ -28580,10 +28580,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                17,
-                3,
-                15,
-                12
+                16.5,
+                7,
+                14,
+                15
             ],
             "cp1500": [
                 50,
@@ -28698,15 +28698,15 @@
         "defaultIVs": {
             "cp500": [
                 10.5,
-                5,
-                14,
-                15
+                7,
+                15,
+                9
             ],
             "cp1500": [
-                35,
-                2,
-                10,
-                15
+                33.5,
+                5,
+                13,
+                13
             ],
             "cp2500": [
                 50,
@@ -28789,6 +28789,63 @@
     },
     {
         "dex": 260,
+        "speciesName": "Swampert (Mega)",
+        "speciesId": "swampert_mega",
+        "baseStats": {
+            "atk": 283,
+            "def": 218,
+            "hp": 225
+        },
+        "types": [
+            "water",
+            "ground"
+        ],
+        "fastMoves": [
+            "MUD_SHOT",
+            "WATER_GUN"
+        ],
+        "chargedMoves": [
+            "EARTHQUAKE",
+            "SLUDGE_WAVE",
+            "SURF",
+            "HYDRO_CANNON",
+            "MUDDY_WATER"
+        ],
+        "tags": [
+            "starter",
+            "shadoweligible",
+            "mega"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4.5,
+                6,
+                7,
+                13
+            ],
+            "cp1500": [
+                12.5,
+                4,
+                15,
+                9
+            ],
+            "cp2500": [
+                20.5,
+                6,
+                13,
+                15
+            ]
+        },
+        "eliteMoves": [
+            "HYDRO_CANNON"
+        ],
+        "level25CP": 2796,
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true
+    },
+    {
+        "dex": 260,
         "speciesName": "Swampert (Shadow)",
         "speciesId": "swampert_shadow",
         "baseStats": {
@@ -28846,63 +28903,6 @@
             "id": "FAMILY_MUDKIP",
             "parent": "marshtomp_shadow"
         }
-    },
-    {
-        "dex": 260,
-        "speciesName": "Swampert (Mega)",
-        "speciesId": "swampert_mega",
-        "baseStats": {
-            "atk": 283,
-            "def": 218,
-            "hp": 225
-        },
-        "types": [
-            "water",
-            "ground"
-        ],
-        "fastMoves": [
-            "MUD_SHOT",
-            "WATER_GUN"
-        ],
-        "chargedMoves": [
-            "EARTHQUAKE",
-            "SLUDGE_WAVE",
-            "SURF",
-            "HYDRO_CANNON",
-            "MUDDY_WATER"
-        ],
-        "tags": [
-            "starter",
-            "shadoweligible",
-            "mega"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                4.5,
-                5,
-                6,
-                6
-            ],
-            "cp1500": [
-                12.5,
-                7,
-                13,
-                7
-            ],
-            "cp2500": [
-                21,
-                5,
-                5,
-                14
-            ]
-        },
-        "eliteMoves": [
-            "HYDRO_CANNON"
-        ],
-        "level25CP": 2796,
-        "buddyDistance": 3,
-        "thirdMoveCost": 10000,
-        "released": true
     },
     {
         "dex": 261,
@@ -31934,10 +31934,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                21,
-                2,
-                8,
-                11
+                20,
+                4,
+                11,
+                15
             ],
             "cp1500": [
                 50,
@@ -32608,21 +32608,21 @@
         "defaultIVs": {
             "cp500": [
                 4.5,
-                9,
+                11,
                 15,
-                13
+                15
             ],
             "cp1500": [
                 13,
-                10,
-                9,
-                13
+                7,
+                12,
+                15
             ],
             "cp2500": [
                 22,
-                6,
-                7,
-                14
+                5,
+                14,
+                13
             ]
         },
         "released": "true"
@@ -32874,9 +32874,9 @@
         "defaultIVs": {
             "cp500": [
                 20,
-                2,
-                15,
-                13
+                4,
+                14,
+                11
             ],
             "cp1500": [
                 50,
@@ -36596,21 +36596,21 @@
         ],
         "defaultIVs": {
             "cp500": [
+                5.5,
                 5,
-                12,
-                15,
-                15
+                9,
+                6
             ],
             "cp1500": [
                 15,
-                9,
-                13,
-                13
+                10,
+                12,
+                14
             ],
             "cp2500": [
                 25,
-                5,
-                13,
+                9,
+                12,
                 15
             ]
         },
@@ -36646,21 +36646,21 @@
         "defaultIVs": {
             "cp500": [
                 8,
-                5,
+                8,
                 15,
-                14
+                13
             ],
             "cp1500": [
                 24.5,
                 4,
-                9,
-                15
+                13,
+                10
             ],
             "cp2500": [
-                50,
-                8,
+                47,
                 15,
-                12
+                14,
+                15
             ],
             "cp2500l40": [
                 40,
@@ -37372,19 +37372,19 @@
         "defaultIVs": {
             "cp500": [
                 6,
-                6,
-                10,
+                4,
+                13,
                 8
             ],
             "cp1500": [
-                16.5,
-                11,
-                15,
-                13
+                17,
+                7,
+                14,
+                10
             ],
             "cp2500": [
                 28,
-                5,
+                7,
                 14,
                 14
             ]
@@ -38423,9 +38423,9 @@
         ],
         "defaultIVs": {
             "cp500": [
-                20,
-                3,
-                15,
+                20.5,
+                4,
+                7,
                 14
             ],
             "cp1500": [
@@ -41045,10 +41045,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                22.5,
-                2,
-                12,
-                15
+                21.5,
+                6,
+                15,
+                13
             ],
             "cp1500": [
                 50,
@@ -41163,16 +41163,16 @@
         ],
         "defaultIVs": {
             "cp500": [
-                13,
-                4,
-                13,
-                7
+                12.5,
+                6,
+                14,
+                13
             ],
             "cp1500": [
-                47.5,
-                3,
-                15,
-                11
+                45.5,
+                5,
+                14,
+                15
             ],
             "cp2500": [
                 50,
@@ -46884,16 +46884,16 @@
         ],
         "defaultIVs": {
             "cp500": [
-                9.5,
-                2,
-                13,
-                7
+                9,
+                6,
+                14,
+                14
             ],
             "cp1500": [
-                28,
-                2,
-                8,
-                14
+                27.5,
+                4,
+                7,
+                15
             ],
             "cp2500": [
                 50,
@@ -58545,21 +58545,21 @@
         "defaultIVs": {
             "cp500": [
                 5,
-                13,
-                13,
+                14,
+                11,
                 15
             ],
             "cp1500": [
-                15,
-                4,
-                14,
-                8
+                1,
+                0,
+                0,
+                0
             ],
             "cp2500": [
-                24.5,
-                6,
+                24,
+                11,
                 14,
-                14
+                13
             ]
         },
         "tags": [
@@ -58601,21 +58601,21 @@
         "defaultIVs": {
             "cp500": [
                 5,
-                13,
-                13,
+                14,
+                11,
                 15
             ],
             "cp1500": [
-                15,
-                4,
-                14,
-                8
+                14.5,
+                12,
+                12,
+                13
             ],
             "cp2500": [
-                24.5,
-                6,
+                24,
+                11,
                 14,
-                14
+                13
             ]
         },
         "tags": [
@@ -62850,6 +62850,60 @@
                 15
             ]
         },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_BERGMITE",
+            "parent": "bergmite"
+        }
+    },
+    {
+        "dex": 713,
+        "speciesName": "Avalugg (Hisuian)",
+        "speciesId": "avalugg_hisuian",
+        "baseStats": {
+            "atk": 214,
+            "def": 238,
+            "hp": 216
+        },
+        "types": [
+            "ice",
+            "rock"
+        ],
+        "fastMoves": [
+            "BITE",
+            "TACKLE",
+            "POWDER_SNOW"
+        ],
+        "chargedMoves": [
+            "CRUNCH",
+            "ROCK_SLIDE",
+            "BLIZZARD"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                5.5,
+                6,
+                15,
+                15
+            ],
+            "cp1500": [
+                16,
+                5,
+                14,
+                12
+            ],
+            "cp2500": [
+                26.5,
+                7,
+                14,
+                11
+            ]
+        },
+        "tags": [
+            "hisuian"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -68571,9 +68625,9 @@
             ],
             "cp1500": [
                 15,
-                4,
-                11,
-                13
+                7,
+                9,
+                12
             ],
             "cp2500": [
                 25,

@@ -75,18 +75,18 @@ Rattata,normal
 Rattata,none
 Rattata (Alolan),dark
 Rattata (Alolan),normal
-Rattata (Shadow),normal
-Rattata (Shadow),none
 Rattata (Alolan) (Shadow),dark
 Rattata (Alolan) (Shadow),normal
+Rattata (Shadow),normal
+Rattata (Shadow),none
 Raticate,normal
 Raticate,none
 Raticate (Alolan),dark
 Raticate (Alolan),normal
-Raticate (Shadow),normal
-Raticate (Shadow),none
 Raticate (Alolan) (Shadow),dark
 Raticate (Alolan) (Shadow),normal
+Raticate (Shadow),normal
+Raticate (Shadow),none
 Spearow,normal
 Spearow,flying
 Fearow,normal
@@ -123,18 +123,18 @@ Sandshrew,ground
 Sandshrew,none
 Sandshrew (Alolan),ice
 Sandshrew (Alolan),steel
-Sandshrew (Shadow),ground
-Sandshrew (Shadow),none
 Sandshrew (Alolan) (Shadow),ice
 Sandshrew (Alolan) (Shadow),steel
+Sandshrew (Shadow),ground
+Sandshrew (Shadow),none
 Sandslash,ground
 Sandslash,none
 Sandslash (Alolan),ice
 Sandslash (Alolan),steel
-Sandslash (Shadow),ground
-Sandslash (Shadow),none
 Sandslash (Alolan) (Shadow),ice
 Sandslash (Alolan) (Shadow),steel
+Sandslash (Shadow),ground
+Sandslash (Shadow),none
 Nidoran Female,poison
 Nidoran Female,none
 Nidoran Female (Shadow),poison
@@ -215,18 +215,18 @@ Diglett,ground
 Diglett,none
 Diglett (Alolan),ground
 Diglett (Alolan),steel
-Diglett (Shadow),ground
-Diglett (Shadow),none
 Diglett (Alolan) (Shadow),ground
 Diglett (Alolan) (Shadow),steel
+Diglett (Shadow),ground
+Diglett (Shadow),none
 Dugtrio,ground
 Dugtrio,none
 Dugtrio (Alolan),ground
 Dugtrio (Alolan),steel
-Dugtrio (Shadow),ground
-Dugtrio (Shadow),none
 Dugtrio (Alolan) (Shadow),ground
 Dugtrio (Alolan) (Shadow),steel
+Dugtrio (Shadow),ground
+Dugtrio (Shadow),none
 Meowth,normal
 Meowth,none
 Meowth (Alolan),dark
@@ -443,10 +443,10 @@ Exeggutor,grass
 Exeggutor,psychic
 Exeggutor (Alolan),grass
 Exeggutor (Alolan),dragon
-Exeggutor (Shadow),grass
-Exeggutor (Shadow),psychic
 Exeggutor (Alolan) (Shadow),grass
 Exeggutor (Alolan) (Shadow),dragon
+Exeggutor (Shadow),grass
+Exeggutor (Shadow),psychic
 Cubone,ground
 Cubone,none
 Cubone (Shadow),ground
@@ -455,10 +455,10 @@ Marowak,ground
 Marowak,none
 Marowak (Alolan),fire
 Marowak (Alolan),ghost
-Marowak (Shadow),ground
-Marowak (Shadow),none
 Marowak (Alolan) (Shadow),fire
 Marowak (Alolan) (Shadow),ghost
+Marowak (Shadow),ground
+Marowak (Shadow),none
 Hitmonlee,fighting
 Hitmonlee,none
 Hitmonlee (Shadow),fighting
@@ -975,10 +975,10 @@ Marshtomp (Shadow),water
 Marshtomp (Shadow),ground
 Swampert,water
 Swampert,ground
-Swampert (Shadow),water
-Swampert (Shadow),ground
 Swampert (Mega),water
 Swampert (Mega),ground
+Swampert (Shadow),water
+Swampert (Shadow),ground
 Poochyena,dark
 Poochyena,none
 Poochyena (Shadow),dark
@@ -2219,6 +2219,8 @@ Bergmite,ice
 Bergmite,none
 Avalugg,ice
 Avalugg,none
+Avalugg (Hisuian),ice
+Avalugg (Hisuian),rock
 Noibat,flying
 Noibat,dragon
 Noivern,flying
