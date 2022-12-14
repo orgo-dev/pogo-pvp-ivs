@@ -1,0 +1,343 @@
+attacking_type,defending_type,effect,multiplier
+normal,normal,Neutral,1
+normal,fighting,Neutral,1
+normal,flying,Neutral,1
+normal,poison,Neutral,1
+normal,ground,Neutral,1
+normal,rock,Resisted,0.625
+normal,bug,Neutral,1
+normal,ghost,Double resisted,0.390625
+normal,steel,Resisted,0.625
+normal,fire,Neutral,1
+normal,water,Neutral,1
+normal,grass,Neutral,1
+normal,electric,Neutral,1
+normal,psychic,Neutral,1
+normal,ice,Neutral,1
+normal,dragon,Neutral,1
+normal,dark,Neutral,1
+normal,fairy,Neutral,1
+normal,none,Neutral,1
+fighting,normal,Super effective,1.6
+fighting,fighting,Neutral,1
+fighting,flying,Resisted,0.625
+fighting,poison,Resisted,0.625
+fighting,ground,Neutral,1
+fighting,rock,Super effective,1.6
+fighting,bug,Resisted,0.625
+fighting,ghost,Double resisted,0.390625
+fighting,steel,Super effective,1.6
+fighting,fire,Neutral,1
+fighting,water,Neutral,1
+fighting,grass,Neutral,1
+fighting,electric,Neutral,1
+fighting,psychic,Resisted,0.625
+fighting,ice,Super effective,1.6
+fighting,dragon,Neutral,1
+fighting,dark,Super effective,1.6
+fighting,fairy,Resisted,0.625
+fighting,none,Neutral,1
+flying,normal,Neutral,1
+flying,fighting,Super effective,1.6
+flying,flying,Neutral,1
+flying,poison,Neutral,1
+flying,ground,Neutral,1
+flying,rock,Resisted,0.625
+flying,bug,Super effective,1.6
+flying,ghost,Neutral,1
+flying,steel,Resisted,0.625
+flying,fire,Neutral,1
+flying,water,Neutral,1
+flying,grass,Super effective,1.6
+flying,electric,Resisted,0.625
+flying,psychic,Neutral,1
+flying,ice,Neutral,1
+flying,dragon,Neutral,1
+flying,dark,Neutral,1
+flying,fairy,Neutral,1
+flying,none,Neutral,1
+poison,normal,Neutral,1
+poison,fighting,Neutral,1
+poison,flying,Neutral,1
+poison,poison,Resisted,0.625
+poison,ground,Resisted,0.625
+poison,rock,Resisted,0.625
+poison,bug,Neutral,1
+poison,ghost,Resisted,0.625
+poison,steel,Double resisted,0.390625
+poison,fire,Neutral,1
+poison,water,Neutral,1
+poison,grass,Super effective,1.6
+poison,electric,Neutral,1
+poison,psychic,Neutral,1
+poison,ice,Neutral,1
+poison,dragon,Neutral,1
+poison,dark,Neutral,1
+poison,fairy,Super effective,1.6
+poison,none,Neutral,1
+ground,normal,Neutral,1
+ground,fighting,Neutral,1
+ground,flying,Double resisted,0.390625
+ground,poison,Super effective,1.6
+ground,ground,Neutral,1
+ground,rock,Super effective,1.6
+ground,bug,Resisted,0.625
+ground,ghost,Neutral,1
+ground,steel,Super effective,1.6
+ground,fire,Super effective,1.6
+ground,water,Neutral,1
+ground,grass,Resisted,0.625
+ground,electric,Super effective,1.6
+ground,psychic,Neutral,1
+ground,ice,Neutral,1
+ground,dragon,Neutral,1
+ground,dark,Neutral,1
+ground,fairy,Neutral,1
+ground,none,Neutral,1
+rock,normal,Neutral,1
+rock,fighting,Resisted,0.625
+rock,flying,Super effective,1.6
+rock,poison,Neutral,1
+rock,ground,Resisted,0.625
+rock,rock,Neutral,1
+rock,bug,Super effective,1.6
+rock,ghost,Neutral,1
+rock,steel,Resisted,0.625
+rock,fire,Super effective,1.6
+rock,water,Neutral,1
+rock,grass,Neutral,1
+rock,electric,Neutral,1
+rock,psychic,Neutral,1
+rock,ice,Super effective,1.6
+rock,dragon,Neutral,1
+rock,dark,Neutral,1
+rock,fairy,Neutral,1
+rock,none,Neutral,1
+bug,normal,Neutral,1
+bug,fighting,Resisted,0.625
+bug,flying,Neutral,1
+bug,poison,Resisted,0.625
+bug,ground,Neutral,1
+bug,rock,Neutral,1
+bug,bug,Neutral,1
+bug,ghost,Resisted,0.625
+bug,steel,Resisted,0.625
+bug,fire,Resisted,0.625
+bug,water,Neutral,1
+bug,grass,Super effective,1.6
+bug,electric,Neutral,1
+bug,psychic,Super effective,1.6
+bug,ice,Neutral,1
+bug,dragon,Neutral,1
+bug,dark,Super effective,1.6
+bug,fairy,Resisted,0.625
+bug,none,Neutral,1
+ghost,normal,Double resisted,0.390625
+ghost,fighting,Neutral,1
+ghost,flying,Neutral,1
+ghost,poison,Neutral,1
+ghost,ground,Neutral,1
+ghost,rock,Neutral,1
+ghost,bug,Neutral,1
+ghost,ghost,Super effective,1.6
+ghost,steel,Neutral,1
+ghost,fire,Neutral,1
+ghost,water,Neutral,1
+ghost,grass,Neutral,1
+ghost,electric,Neutral,1
+ghost,psychic,Super effective,1.6
+ghost,ice,Neutral,1
+ghost,dragon,Neutral,1
+ghost,dark,Resisted,0.625
+ghost,fairy,Neutral,1
+ghost,none,Neutral,1
+steel,normal,Neutral,1
+steel,fighting,Neutral,1
+steel,flying,Neutral,1
+steel,poison,Neutral,1
+steel,ground,Neutral,1
+steel,rock,Super effective,1.6
+steel,bug,Neutral,1
+steel,ghost,Neutral,1
+steel,steel,Resisted,0.625
+steel,fire,Resisted,0.625
+steel,water,Resisted,0.625
+steel,grass,Neutral,1
+steel,electric,Resisted,0.625
+steel,psychic,Neutral,1
+steel,ice,Super effective,1.6
+steel,dragon,Neutral,1
+steel,dark,Neutral,1
+steel,fairy,Super effective,1.6
+steel,none,Neutral,1
+fire,normal,Neutral,1
+fire,fighting,Neutral,1
+fire,flying,Neutral,1
+fire,poison,Neutral,1
+fire,ground,Neutral,1
+fire,rock,Resisted,0.625
+fire,bug,Super effective,1.6
+fire,ghost,Neutral,1
+fire,steel,Super effective,1.6
+fire,fire,Resisted,0.625
+fire,water,Resisted,0.625
+fire,grass,Super effective,1.6
+fire,electric,Neutral,1
+fire,psychic,Neutral,1
+fire,ice,Super effective,1.6
+fire,dragon,Resisted,0.625
+fire,dark,Neutral,1
+fire,fairy,Neutral,1
+fire,none,Neutral,1
+water,normal,Neutral,1
+water,fighting,Neutral,1
+water,flying,Neutral,1
+water,poison,Neutral,1
+water,ground,Super effective,1.6
+water,rock,Super effective,1.6
+water,bug,Neutral,1
+water,ghost,Neutral,1
+water,steel,Neutral,1
+water,fire,Super effective,1.6
+water,water,Resisted,0.625
+water,grass,Resisted,0.625
+water,electric,Neutral,1
+water,psychic,Neutral,1
+water,ice,Neutral,1
+water,dragon,Resisted,0.625
+water,dark,Neutral,1
+water,fairy,Neutral,1
+water,none,Neutral,1
+grass,normal,Neutral,1
+grass,fighting,Neutral,1
+grass,flying,Resisted,0.625
+grass,poison,Resisted,0.625
+grass,ground,Super effective,1.6
+grass,rock,Super effective,1.6
+grass,bug,Resisted,0.625
+grass,ghost,Neutral,1
+grass,steel,Resisted,0.625
+grass,fire,Resisted,0.625
+grass,water,Super effective,1.6
+grass,grass,Resisted,0.625
+grass,electric,Neutral,1
+grass,psychic,Neutral,1
+grass,ice,Neutral,1
+grass,dragon,Resisted,0.625
+grass,dark,Neutral,1
+grass,fairy,Neutral,1
+grass,none,Neutral,1
+electric,normal,Neutral,1
+electric,fighting,Neutral,1
+electric,flying,Super effective,1.6
+electric,poison,Neutral,1
+electric,ground,Double resisted,0.390625
+electric,rock,Neutral,1
+electric,bug,Neutral,1
+electric,ghost,Neutral,1
+electric,steel,Neutral,1
+electric,fire,Neutral,1
+electric,water,Super effective,1.6
+electric,grass,Resisted,0.625
+electric,electric,Resisted,0.625
+electric,psychic,Neutral,1
+electric,ice,Neutral,1
+electric,dragon,Resisted,0.625
+electric,dark,Neutral,1
+electric,fairy,Neutral,1
+electric,none,Neutral,1
+psychic,normal,Neutral,1
+psychic,fighting,Super effective,1.6
+psychic,flying,Neutral,1
+psychic,poison,Super effective,1.6
+psychic,ground,Neutral,1
+psychic,rock,Neutral,1
+psychic,bug,Neutral,1
+psychic,ghost,Neutral,1
+psychic,steel,Resisted,0.625
+psychic,fire,Neutral,1
+psychic,water,Neutral,1
+psychic,grass,Neutral,1
+psychic,electric,Neutral,1
+psychic,psychic,Resisted,0.625
+psychic,ice,Neutral,1
+psychic,dragon,Neutral,1
+psychic,dark,Double resisted,0.390625
+psychic,fairy,Neutral,1
+psychic,none,Neutral,1
+ice,normal,Neutral,1
+ice,fighting,Neutral,1
+ice,flying,Super effective,1.6
+ice,poison,Neutral,1
+ice,ground,Super effective,1.6
+ice,rock,Neutral,1
+ice,bug,Neutral,1
+ice,ghost,Neutral,1
+ice,steel,Resisted,0.625
+ice,fire,Resisted,0.625
+ice,water,Resisted,0.625
+ice,grass,Super effective,1.6
+ice,electric,Neutral,1
+ice,psychic,Neutral,1
+ice,ice,Resisted,0.625
+ice,dragon,Super effective,1.6
+ice,dark,Neutral,1
+ice,fairy,Neutral,1
+ice,none,Neutral,1
+dragon,normal,Neutral,1
+dragon,fighting,Neutral,1
+dragon,flying,Neutral,1
+dragon,poison,Neutral,1
+dragon,ground,Neutral,1
+dragon,rock,Neutral,1
+dragon,bug,Neutral,1
+dragon,ghost,Neutral,1
+dragon,steel,Resisted,0.625
+dragon,fire,Neutral,1
+dragon,water,Neutral,1
+dragon,grass,Neutral,1
+dragon,electric,Neutral,1
+dragon,psychic,Neutral,1
+dragon,ice,Neutral,1
+dragon,dragon,Super effective,1.6
+dragon,dark,Neutral,1
+dragon,fairy,Double resisted,0.390625
+dragon,none,Neutral,1
+dark,normal,Neutral,1
+dark,fighting,Resisted,0.625
+dark,flying,Neutral,1
+dark,poison,Neutral,1
+dark,ground,Neutral,1
+dark,rock,Neutral,1
+dark,bug,Neutral,1
+dark,ghost,Super effective,1.6
+dark,steel,Neutral,1
+dark,fire,Neutral,1
+dark,water,Neutral,1
+dark,grass,Neutral,1
+dark,electric,Neutral,1
+dark,psychic,Super effective,1.6
+dark,ice,Neutral,1
+dark,dragon,Neutral,1
+dark,dark,Resisted,0.625
+dark,fairy,Resisted,0.625
+dark,none,Neutral,1
+fairy,normal,Neutral,1
+fairy,fighting,Super effective,1.6
+fairy,flying,Neutral,1
+fairy,poison,Resisted,0.625
+fairy,ground,Neutral,1
+fairy,rock,Neutral,1
+fairy,bug,Neutral,1
+fairy,ghost,Neutral,1
+fairy,steel,Resisted,0.625
+fairy,fire,Resisted,0.625
+fairy,water,Neutral,1
+fairy,grass,Neutral,1
+fairy,electric,Neutral,1
+fairy,psychic,Neutral,1
+fairy,ice,Neutral,1
+fairy,dragon,Super effective,1.6
+fairy,dark,Super effective,1.6
+fairy,fairy,Neutral,1
+fairy,none,Neutral,1

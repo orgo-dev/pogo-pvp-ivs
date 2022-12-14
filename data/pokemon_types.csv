@@ -1,0 +1,2697 @@
+pokemon,type
+Bulbasaur,grass
+Bulbasaur,poison
+Bulbasaur (Shadow),grass
+Bulbasaur (Shadow),poison
+Ivysaur,grass
+Ivysaur,poison
+Ivysaur (Shadow),grass
+Ivysaur (Shadow),poison
+Venusaur,grass
+Venusaur,poison
+Venusaur (Mega),grass
+Venusaur (Mega),poison
+Venusaur (Shadow),grass
+Venusaur (Shadow),poison
+Charmander,fire
+Charmander,none
+Charmander (Shadow),fire
+Charmander (Shadow),none
+Charmeleon,fire
+Charmeleon,none
+Charmeleon (Shadow),fire
+Charmeleon (Shadow),none
+Charizard,fire
+Charizard,flying
+Charizard (Mega X),fire
+Charizard (Mega X),dragon
+Charizard (Mega Y),fire
+Charizard (Mega Y),flying
+Charizard (Shadow),fire
+Charizard (Shadow),flying
+Squirtle,water
+Squirtle,none
+Squirtle (Shadow),water
+Squirtle (Shadow),none
+Wartortle,water
+Wartortle,none
+Wartortle (Shadow),water
+Wartortle (Shadow),none
+Blastoise,water
+Blastoise,none
+Blastoise (Mega),water
+Blastoise (Mega),none
+Blastoise (Shadow),water
+Blastoise (Shadow),none
+Caterpie,bug
+Caterpie,none
+Metapod,bug
+Metapod,none
+Butterfree,bug
+Butterfree,flying
+Weedle,bug
+Weedle,poison
+Weedle (Shadow),bug
+Weedle (Shadow),poison
+Kakuna,bug
+Kakuna,poison
+Kakuna (Shadow),bug
+Kakuna (Shadow),poison
+Beedrill,bug
+Beedrill,poison
+Beedrill (Mega),bug
+Beedrill (Mega),poison
+Beedrill (Shadow),bug
+Beedrill (Shadow),poison
+Pidgey,normal
+Pidgey,flying
+Pidgeotto,normal
+Pidgeotto,flying
+Pidgeot,normal
+Pidgeot,flying
+Pidgeot (Mega),normal
+Pidgeot (Mega),flying
+Rattata,normal
+Rattata,none
+Rattata (Alolan),dark
+Rattata (Alolan),normal
+Rattata (Shadow),normal
+Rattata (Shadow),none
+Rattata (Alolan) (Shadow),dark
+Rattata (Alolan) (Shadow),normal
+Raticate,normal
+Raticate,none
+Raticate (Alolan),dark
+Raticate (Alolan),normal
+Raticate (Shadow),normal
+Raticate (Shadow),none
+Raticate (Alolan) (Shadow),dark
+Raticate (Alolan) (Shadow),normal
+Spearow,normal
+Spearow,flying
+Fearow,normal
+Fearow,flying
+Ekans,poison
+Ekans,none
+Ekans (Shadow),poison
+Ekans (Shadow),none
+Arbok,poison
+Arbok,none
+Arbok (Shadow),poison
+Arbok (Shadow),none
+Pikachu,electric
+Pikachu,none
+Pikachu (5th Anniversary),electric
+Pikachu (5th Anniversary),none
+Pikachu (Flying),electric
+Pikachu (Flying),none
+Pikachu (Kariyushi),electric
+Pikachu (Kariyushi),none
+Pikachu (Libre),electric
+Pikachu (Libre),none
+Pikachu (Pop Star),electric
+Pikachu (Pop Star),none
+Pikachu (Rock Star),electric
+Pikachu (Rock Star),none
+Pikachu (Shaymin Scarf),electric
+Pikachu (Shaymin Scarf),none
+Raichu,electric
+Raichu,none
+Raichu (Alolan),electric
+Raichu (Alolan),psychic
+Sandshrew,ground
+Sandshrew,none
+Sandshrew (Alolan),ice
+Sandshrew (Alolan),steel
+Sandshrew (Shadow),ground
+Sandshrew (Shadow),none
+Sandshrew (Alolan) (Shadow),ice
+Sandshrew (Alolan) (Shadow),steel
+Sandslash,ground
+Sandslash,none
+Sandslash (Alolan),ice
+Sandslash (Alolan),steel
+Sandslash (Shadow),ground
+Sandslash (Shadow),none
+Sandslash (Alolan) (Shadow),ice
+Sandslash (Alolan) (Shadow),steel
+Nidoran Female,poison
+Nidoran Female,none
+Nidoran Female (Shadow),poison
+Nidoran Female (Shadow),none
+Nidorina,poison
+Nidorina,none
+Nidorina (Shadow),poison
+Nidorina (Shadow),none
+Nidoqueen,poison
+Nidoqueen,ground
+Nidoqueen (Shadow),poison
+Nidoqueen (Shadow),ground
+Nidoran Male,poison
+Nidoran Male,none
+Nidoran Male (Shadow),poison
+Nidoran Male (Shadow),none
+Nidorino,poison
+Nidorino,none
+Nidorino (Shadow),poison
+Nidorino (Shadow),none
+Nidoking,poison
+Nidoking,ground
+Nidoking (Shadow),poison
+Nidoking (Shadow),ground
+Clefairy,fairy
+Clefairy,none
+Clefable,fairy
+Clefable,none
+Vulpix,fire
+Vulpix,none
+Vulpix (Alolan),ice
+Vulpix (Alolan),none
+Vulpix (Shadow),fire
+Vulpix (Shadow),none
+Ninetales,fire
+Ninetales,none
+Ninetales (Alolan),ice
+Ninetales (Alolan),fairy
+Ninetales (Shadow),fire
+Ninetales (Shadow),none
+Jigglypuff,normal
+Jigglypuff,fairy
+Wigglytuff,normal
+Wigglytuff,fairy
+Zubat,poison
+Zubat,flying
+Zubat (Shadow),poison
+Zubat (Shadow),flying
+Golbat,poison
+Golbat,flying
+Golbat (Shadow),poison
+Golbat (Shadow),flying
+Oddish,grass
+Oddish,poison
+Oddish (Shadow),grass
+Oddish (Shadow),poison
+Gloom,grass
+Gloom,poison
+Gloom (Shadow),grass
+Gloom (Shadow),poison
+Vileplume,grass
+Vileplume,poison
+Vileplume (Shadow),grass
+Vileplume (Shadow),poison
+Paras,bug
+Paras,grass
+Parasect,bug
+Parasect,grass
+Venonat,bug
+Venonat,poison
+Venonat (Shadow),bug
+Venonat (Shadow),poison
+Venomoth,bug
+Venomoth,poison
+Venomoth (Shadow),bug
+Venomoth (Shadow),poison
+Diglett,ground
+Diglett,none
+Diglett (Alolan),ground
+Diglett (Alolan),steel
+Diglett (Shadow),ground
+Diglett (Shadow),none
+Diglett (Alolan) (Shadow),ground
+Diglett (Alolan) (Shadow),steel
+Dugtrio,ground
+Dugtrio,none
+Dugtrio (Alolan),ground
+Dugtrio (Alolan),steel
+Dugtrio (Shadow),ground
+Dugtrio (Shadow),none
+Dugtrio (Alolan) (Shadow),ground
+Dugtrio (Alolan) (Shadow),steel
+Meowth,normal
+Meowth,none
+Meowth (Alolan),dark
+Meowth (Alolan),none
+Meowth (Galarian),steel
+Meowth (Galarian),none
+Meowth (Shadow),normal
+Meowth (Shadow),none
+Persian,normal
+Persian,none
+Persian (Alolan),dark
+Persian (Alolan),none
+Persian (Shadow),normal
+Persian (Shadow),none
+Psyduck,water
+Psyduck,none
+Psyduck (Shadow),water
+Psyduck (Shadow),none
+Golduck,water
+Golduck,none
+Golduck (Shadow),water
+Golduck (Shadow),none
+Mankey,fighting
+Mankey,none
+Primeape,fighting
+Primeape,none
+Growlithe,fire
+Growlithe,none
+Growlithe (Hisuian),fire
+Growlithe (Hisuian),rock
+Growlithe (Shadow),fire
+Growlithe (Shadow),none
+Arcanine,fire
+Arcanine,none
+Arcanine (Hisuian),fire
+Arcanine (Hisuian),rock
+Arcanine (Shadow),fire
+Arcanine (Shadow),none
+Poliwag,water
+Poliwag,none
+Poliwag (Shadow),water
+Poliwag (Shadow),none
+Poliwhirl,water
+Poliwhirl,none
+Poliwhirl (Shadow),water
+Poliwhirl (Shadow),none
+Poliwrath,water
+Poliwrath,fighting
+Poliwrath (Shadow),water
+Poliwrath (Shadow),fighting
+Abra,psychic
+Abra,none
+Abra (Shadow),psychic
+Abra (Shadow),none
+Kadabra,psychic
+Kadabra,none
+Kadabra (Shadow),psychic
+Kadabra (Shadow),none
+Alakazam,psychic
+Alakazam,none
+Alakazam (Mega),psychic
+Alakazam (Mega),none
+Alakazam (Shadow),psychic
+Alakazam (Shadow),none
+Machop,fighting
+Machop,none
+Machop (Shadow),fighting
+Machop (Shadow),none
+Machoke,fighting
+Machoke,none
+Machoke (Shadow),fighting
+Machoke (Shadow),none
+Machamp,fighting
+Machamp,none
+Machamp (Shadow),fighting
+Machamp (Shadow),none
+Bellsprout,grass
+Bellsprout,poison
+Bellsprout (Shadow),grass
+Bellsprout (Shadow),poison
+Weepinbell,grass
+Weepinbell,poison
+Weepinbell (Shadow),grass
+Weepinbell (Shadow),poison
+Victreebel,grass
+Victreebel,poison
+Victreebel (Shadow),grass
+Victreebel (Shadow),poison
+Tentacool,water
+Tentacool,poison
+Tentacruel,water
+Tentacruel,poison
+Geodude,rock
+Geodude,ground
+Geodude (Alolan),rock
+Geodude (Alolan),electric
+Geodude (Shadow),rock
+Geodude (Shadow),ground
+Graveler,rock
+Graveler,ground
+Graveler (Alolan),rock
+Graveler (Alolan),electric
+Graveler (Shadow),rock
+Graveler (Shadow),ground
+Golem,rock
+Golem,ground
+Golem (Alolan),rock
+Golem (Alolan),electric
+Golem (Shadow),rock
+Golem (Shadow),ground
+Ponyta,fire
+Ponyta,none
+Ponyta (Galarian),psychic
+Ponyta (Galarian),none
+Rapidash,fire
+Rapidash,none
+Rapidash (Galarian),psychic
+Rapidash (Galarian),fairy
+Slowpoke,water
+Slowpoke,psychic
+Slowpoke (Galarian),psychic
+Slowpoke (Galarian),none
+Slowpoke (Shadow),water
+Slowpoke (Shadow),psychic
+Slowbro,water
+Slowbro,psychic
+Slowbro (Galarian),poison
+Slowbro (Galarian),psychic
+Slowbro (Mega),water
+Slowbro (Mega),psychic
+Slowbro (Shadow),water
+Slowbro (Shadow),psychic
+Magnemite,electric
+Magnemite,steel
+Magnemite (Shadow),electric
+Magnemite (Shadow),steel
+Magneton,electric
+Magneton,steel
+Magneton (Shadow),electric
+Magneton (Shadow),steel
+Farfetch'd,normal
+Farfetch'd,flying
+Farfetch'd (Galarian),fighting
+Farfetch'd (Galarian),none
+Doduo,normal
+Doduo,flying
+Dodrio,normal
+Dodrio,flying
+Seel,water
+Seel,none
+Dewgong,water
+Dewgong,ice
+Grimer,poison
+Grimer,none
+Grimer (Alolan),poison
+Grimer (Alolan),dark
+Grimer (Shadow),poison
+Grimer (Shadow),none
+Muk,poison
+Muk,none
+Muk (Alolan),poison
+Muk (Alolan),dark
+Muk (Shadow),poison
+Muk (Shadow),none
+Shellder,water
+Shellder,none
+Shellder (Shadow),water
+Shellder (Shadow),none
+Cloyster,water
+Cloyster,ice
+Cloyster (Shadow),water
+Cloyster (Shadow),ice
+Gastly,ghost
+Gastly,poison
+Haunter,ghost
+Haunter,poison
+Gengar,ghost
+Gengar,poison
+Gengar (Mega),ghost
+Gengar (Mega),poison
+Onix,rock
+Onix,ground
+Onix (Shadow),rock
+Onix (Shadow),ground
+Drowzee,psychic
+Drowzee,none
+Drowzee (Shadow),psychic
+Drowzee (Shadow),none
+Hypno,psychic
+Hypno,none
+Hypno (Shadow),psychic
+Hypno (Shadow),none
+Krabby,water
+Krabby,none
+Kingler,water
+Kingler,none
+Voltorb,electric
+Voltorb,none
+Voltorb (Hisuian),grass
+Voltorb (Hisuian),electric
+Voltorb (Shadow),electric
+Voltorb (Shadow),none
+Electrode,electric
+Electrode,none
+Electrode (Hisuian),electric
+Electrode (Hisuian),grass
+Electrode (Shadow),electric
+Electrode (Shadow),none
+Exeggcute,grass
+Exeggcute,psychic
+Exeggcute (Shadow),grass
+Exeggcute (Shadow),psychic
+Exeggutor,grass
+Exeggutor,psychic
+Exeggutor (Alolan),grass
+Exeggutor (Alolan),dragon
+Exeggutor (Shadow),grass
+Exeggutor (Shadow),psychic
+Exeggutor (Alolan) (Shadow),grass
+Exeggutor (Alolan) (Shadow),dragon
+Cubone,ground
+Cubone,none
+Cubone (Shadow),ground
+Cubone (Shadow),none
+Marowak,ground
+Marowak,none
+Marowak (Alolan),fire
+Marowak (Alolan),ghost
+Marowak (Shadow),ground
+Marowak (Shadow),none
+Marowak (Alolan) (Shadow),fire
+Marowak (Alolan) (Shadow),ghost
+Hitmonlee,fighting
+Hitmonlee,none
+Hitmonlee (Shadow),fighting
+Hitmonlee (Shadow),none
+Hitmonchan,fighting
+Hitmonchan,none
+Hitmonchan (Shadow),fighting
+Hitmonchan (Shadow),none
+Lickitung,normal
+Lickitung,none
+Koffing,poison
+Koffing,none
+Koffing (Shadow),poison
+Koffing (Shadow),none
+Weezing,poison
+Weezing,none
+Weezing (Galarian),poison
+Weezing (Galarian),fairy
+Weezing (Shadow),poison
+Weezing (Shadow),none
+Rhyhorn,ground
+Rhyhorn,rock
+Rhydon,ground
+Rhydon,rock
+Chansey,normal
+Chansey,none
+Tangela,grass
+Tangela,none
+Tangela (Shadow),grass
+Tangela (Shadow),none
+Kangaskhan,normal
+Kangaskhan,none
+Kangaskhan (Mega),normal
+Kangaskhan (Mega),none
+Horsea,water
+Horsea,none
+Horsea (Shadow),water
+Horsea (Shadow),none
+Seadra,water
+Seadra,none
+Seadra (Shadow),water
+Seadra (Shadow),none
+Goldeen,water
+Goldeen,none
+Seaking,water
+Seaking,none
+Staryu,water
+Staryu,none
+Starmie,water
+Starmie,psychic
+Mr. Mime,psychic
+Mr. Mime,fairy
+Mr. Mime (Galarian),ice
+Mr. Mime (Galarian),psychic
+Scyther,bug
+Scyther,flying
+Scyther (Shadow),bug
+Scyther (Shadow),flying
+Jynx,ice
+Jynx,psychic
+Electabuzz,electric
+Electabuzz,none
+Electabuzz (Shadow),electric
+Electabuzz (Shadow),none
+Magmar,fire
+Magmar,none
+Magmar (Shadow),fire
+Magmar (Shadow),none
+Pinsir,bug
+Pinsir,none
+Pinsir (Shadow),bug
+Pinsir (Shadow),none
+Tauros,normal
+Tauros,none
+Magikarp,water
+Magikarp,none
+Magikarp (Shadow),water
+Magikarp (Shadow),none
+Gyarados,water
+Gyarados,flying
+Gyarados (Mega),water
+Gyarados (Mega),dark
+Gyarados (Shadow),water
+Gyarados (Shadow),flying
+Lapras,water
+Lapras,ice
+Lapras (Shadow),water
+Lapras (Shadow),ice
+Ditto,normal
+Ditto,none
+Eevee,normal
+Eevee,none
+Vaporeon,water
+Vaporeon,none
+Jolteon,electric
+Jolteon,none
+Flareon,fire
+Flareon,none
+Porygon,normal
+Porygon,none
+Porygon (Shadow),normal
+Porygon (Shadow),none
+Omanyte,rock
+Omanyte,water
+Omanyte (Shadow),rock
+Omanyte (Shadow),water
+Omastar,rock
+Omastar,water
+Omastar (Shadow),rock
+Omastar (Shadow),water
+Kabuto,rock
+Kabuto,water
+Kabutops,rock
+Kabutops,water
+Aerodactyl,rock
+Aerodactyl,flying
+Aerodactyl (Mega),rock
+Aerodactyl (Mega),flying
+Aerodactyl (Shadow),rock
+Aerodactyl (Shadow),flying
+Snorlax,normal
+Snorlax,none
+Snorlax (Shadow),normal
+Snorlax (Shadow),none
+Articuno,ice
+Articuno,flying
+Articuno (Galarian),psychic
+Articuno (Galarian),flying
+Articuno (Shadow),ice
+Articuno (Shadow),flying
+Zapdos,electric
+Zapdos,flying
+Zapdos (Galarian),fighting
+Zapdos (Galarian),flying
+Zapdos (Shadow),electric
+Zapdos (Shadow),flying
+Moltres,fire
+Moltres,flying
+Moltres (Galarian),dark
+Moltres (Galarian),flying
+Moltres (Shadow),fire
+Moltres (Shadow),flying
+Dratini,dragon
+Dratini,none
+Dratini (Shadow),dragon
+Dratini (Shadow),none
+Dragonair,dragon
+Dragonair,none
+Dragonair (Shadow),dragon
+Dragonair (Shadow),none
+Dragonite,dragon
+Dragonite,flying
+Dragonite (Shadow),dragon
+Dragonite (Shadow),flying
+Mewtwo,psychic
+Mewtwo,none
+Mewtwo (Armored),psychic
+Mewtwo (Armored),none
+Mewtwo (Shadow),psychic
+Mewtwo (Shadow),none
+Mew,psychic
+Mew,none
+Chikorita,grass
+Chikorita,none
+Chikorita (Shadow),grass
+Chikorita (Shadow),none
+Bayleef,grass
+Bayleef,none
+Bayleef (Shadow),grass
+Bayleef (Shadow),none
+Meganium,grass
+Meganium,none
+Meganium (Shadow),grass
+Meganium (Shadow),none
+Cyndaquil,fire
+Cyndaquil,none
+Cyndaquil (Shadow),fire
+Cyndaquil (Shadow),none
+Quilava,fire
+Quilava,none
+Quilava (Shadow),fire
+Quilava (Shadow),none
+Typhlosion,fire
+Typhlosion,none
+Typhlosion (Shadow),fire
+Typhlosion (Shadow),none
+Totodile,water
+Totodile,none
+Totodile (Shadow),water
+Totodile (Shadow),none
+Croconaw,water
+Croconaw,none
+Croconaw (Shadow),water
+Croconaw (Shadow),none
+Feraligatr,water
+Feraligatr,none
+Feraligatr (Shadow),water
+Feraligatr (Shadow),none
+Sentret,normal
+Sentret,none
+Furret,normal
+Furret,none
+Hoothoot,normal
+Hoothoot,flying
+Noctowl,normal
+Noctowl,flying
+Ledyba,bug
+Ledyba,flying
+Ledian,bug
+Ledian,flying
+Spinarak,bug
+Spinarak,poison
+Ariados,bug
+Ariados,poison
+Crobat,poison
+Crobat,flying
+Crobat (Shadow),poison
+Crobat (Shadow),flying
+Chinchou,water
+Chinchou,electric
+Lanturn,water
+Lanturn,electric
+Pichu,electric
+Pichu,none
+Cleffa,fairy
+Cleffa,none
+Igglybuff,normal
+Igglybuff,fairy
+Togepi,fairy
+Togepi,none
+Togetic,fairy
+Togetic,flying
+Natu,psychic
+Natu,flying
+Natu (Shadow),psychic
+Natu (Shadow),flying
+Xatu,psychic
+Xatu,flying
+Xatu (Shadow),psychic
+Xatu (Shadow),flying
+Mareep,electric
+Mareep,none
+Mareep (Shadow),electric
+Mareep (Shadow),none
+Flaaffy,electric
+Flaaffy,none
+Flaaffy (Shadow),electric
+Flaaffy (Shadow),none
+Ampharos,electric
+Ampharos,none
+Ampharos (Mega),electric
+Ampharos (Mega),dragon
+Ampharos (Shadow),electric
+Ampharos (Shadow),none
+Bellossom,grass
+Bellossom,none
+Bellossom (Shadow),grass
+Bellossom (Shadow),none
+Marill,water
+Marill,fairy
+Azumarill,water
+Azumarill,fairy
+Sudowoodo,rock
+Sudowoodo,none
+Sudowoodo (Shadow),rock
+Sudowoodo (Shadow),none
+Politoed,water
+Politoed,none
+Politoed (Shadow),water
+Politoed (Shadow),none
+Hoppip,grass
+Hoppip,flying
+Hoppip (Shadow),grass
+Hoppip (Shadow),flying
+Skiploom,grass
+Skiploom,flying
+Skiploom (Shadow),grass
+Skiploom (Shadow),flying
+Jumpluff,grass
+Jumpluff,flying
+Jumpluff (Shadow),grass
+Jumpluff (Shadow),flying
+Aipom,normal
+Aipom,none
+Aipom (Shadow),normal
+Aipom (Shadow),none
+Sunkern,grass
+Sunkern,none
+Sunflora,grass
+Sunflora,none
+Yanma,bug
+Yanma,flying
+Wooper,water
+Wooper,ground
+Wooper (Shadow),water
+Wooper (Shadow),ground
+Quagsire,water
+Quagsire,ground
+Quagsire (Shadow),water
+Quagsire (Shadow),ground
+Espeon,psychic
+Espeon,none
+Umbreon,dark
+Umbreon,none
+Murkrow,dark
+Murkrow,flying
+Murkrow (Shadow),dark
+Murkrow (Shadow),flying
+Slowking,water
+Slowking,psychic
+Slowking (Galarian),poison
+Slowking (Galarian),psychic
+Slowking (Shadow),water
+Slowking (Shadow),psychic
+Misdreavus,ghost
+Misdreavus,none
+Misdreavus (Shadow),ghost
+Misdreavus (Shadow),none
+Unown,psychic
+Unown,none
+Wobbuffet,psychic
+Wobbuffet,none
+Wobbuffet (Shadow),psychic
+Wobbuffet (Shadow),none
+Girafarig,normal
+Girafarig,psychic
+Girafarig (Shadow),normal
+Girafarig (Shadow),psychic
+Pineco,bug
+Pineco,none
+Pineco (Shadow),bug
+Pineco (Shadow),none
+Forretress,bug
+Forretress,steel
+Forretress (Shadow),bug
+Forretress (Shadow),steel
+Dunsparce,normal
+Dunsparce,none
+Gligar,ground
+Gligar,flying
+Gligar (Shadow),ground
+Gligar (Shadow),flying
+Steelix,steel
+Steelix,ground
+Steelix (Mega),steel
+Steelix (Mega),ground
+Steelix (Shadow),steel
+Steelix (Shadow),ground
+Snubbull,fairy
+Snubbull,none
+Snubbull (Shadow),fairy
+Snubbull (Shadow),none
+Granbull,fairy
+Granbull,none
+Granbull (Shadow),fairy
+Granbull (Shadow),none
+Qwilfish,water
+Qwilfish,poison
+Qwilfish (Hisuian),dark
+Qwilfish (Hisuian),poison
+Scizor,bug
+Scizor,steel
+Scizor (Mega),bug
+Scizor (Mega),steel
+Scizor (Shadow),bug
+Scizor (Shadow),steel
+Shuckle,bug
+Shuckle,rock
+Shuckle (Shadow),bug
+Shuckle (Shadow),rock
+Heracross,bug
+Heracross,fighting
+Sneasel,dark
+Sneasel,ice
+Sneasel (Hisuian),fighting
+Sneasel (Hisuian),poison
+Sneasel (Shadow),dark
+Sneasel (Shadow),ice
+Teddiursa,normal
+Teddiursa,none
+Teddiursa (Shadow),normal
+Teddiursa (Shadow),none
+Ursaring,normal
+Ursaring,none
+Ursaring (Shadow),normal
+Ursaring (Shadow),none
+Slugma,fire
+Slugma,none
+Magcargo,fire
+Magcargo,rock
+Swinub,ice
+Swinub,ground
+Swinub (Shadow),ice
+Swinub (Shadow),ground
+Piloswine,ice
+Piloswine,ground
+Piloswine (Shadow),ice
+Piloswine (Shadow),ground
+Corsola,water
+Corsola,rock
+Remoraid,water
+Remoraid,none
+Octillery,water
+Octillery,none
+Delibird,ice
+Delibird,flying
+Delibird (Shadow),ice
+Delibird (Shadow),flying
+Mantine,water
+Mantine,flying
+Skarmory,steel
+Skarmory,flying
+Skarmory (Shadow),steel
+Skarmory (Shadow),flying
+Houndour,dark
+Houndour,fire
+Houndour (Shadow),dark
+Houndour (Shadow),fire
+Houndoom,dark
+Houndoom,fire
+Houndoom (Mega),dark
+Houndoom (Mega),fire
+Houndoom (Shadow),dark
+Houndoom (Shadow),fire
+Kingdra,water
+Kingdra,dragon
+Kingdra (Shadow),water
+Kingdra (Shadow),dragon
+Phanpy,ground
+Phanpy,none
+Donphan,ground
+Donphan,none
+Porygon2,normal
+Porygon2,none
+Porygon2 (Shadow),normal
+Porygon2 (Shadow),none
+Stantler,normal
+Stantler,none
+Stantler (Shadow),normal
+Stantler (Shadow),none
+Smeargle,normal
+Smeargle,none
+Tyrogue,fighting
+Tyrogue,none
+Hitmontop,fighting
+Hitmontop,none
+Smoochum,ice
+Smoochum,psychic
+Elekid,electric
+Elekid,none
+Magby,fire
+Magby,none
+Miltank,normal
+Miltank,none
+Blissey,normal
+Blissey,none
+Raikou,electric
+Raikou,none
+Raikou (Shadow),electric
+Raikou (Shadow),none
+Entei,fire
+Entei,none
+Entei (Shadow),fire
+Entei (Shadow),none
+Suicune,water
+Suicune,none
+Suicune (Shadow),water
+Suicune (Shadow),none
+Larvitar,rock
+Larvitar,ground
+Larvitar (Shadow),rock
+Larvitar (Shadow),ground
+Pupitar,rock
+Pupitar,ground
+Pupitar (Shadow),rock
+Pupitar (Shadow),ground
+Tyranitar,rock
+Tyranitar,dark
+Tyranitar (Shadow),rock
+Tyranitar (Shadow),dark
+Lugia,psychic
+Lugia,flying
+Lugia (Shadow),psychic
+Lugia (Shadow),flying
+Ho-Oh,fire
+Ho-Oh,flying
+Ho-Oh (Shadow),fire
+Ho-Oh (Shadow),flying
+Celebi,psychic
+Celebi,grass
+Treecko,grass
+Treecko,none
+Grovyle,grass
+Grovyle,none
+Sceptile,grass
+Sceptile,none
+Sceptile (Mega),grass
+Sceptile (Mega),dragon
+Torchic,fire
+Torchic,none
+Combusken,fire
+Combusken,fighting
+Blaziken,fire
+Blaziken,fighting
+Blaziken (Mega),fire
+Blaziken (Mega),fighting
+Mudkip,water
+Mudkip,none
+Mudkip (Shadow),water
+Mudkip (Shadow),none
+Marshtomp,water
+Marshtomp,ground
+Marshtomp (Shadow),water
+Marshtomp (Shadow),ground
+Swampert,water
+Swampert,ground
+Swampert (Shadow),water
+Swampert (Shadow),ground
+Swampert (Mega),water
+Swampert (Mega),ground
+Poochyena,dark
+Poochyena,none
+Poochyena (Shadow),dark
+Poochyena (Shadow),none
+Mightyena,dark
+Mightyena,none
+Mightyena (Shadow),dark
+Mightyena (Shadow),none
+Zigzagoon,normal
+Zigzagoon,none
+Zigzagoon (Galarian),dark
+Zigzagoon (Galarian),normal
+Linoone,normal
+Linoone,none
+Linoone (Galarian),dark
+Linoone (Galarian),normal
+Wurmple,bug
+Wurmple,none
+Silcoon,bug
+Silcoon,none
+Beautifly,bug
+Beautifly,flying
+Cascoon,bug
+Cascoon,none
+Dustox,bug
+Dustox,poison
+Lotad,water
+Lotad,grass
+Lombre,water
+Lombre,grass
+Ludicolo,water
+Ludicolo,grass
+Seedot,grass
+Seedot,none
+Seedot (Shadow),grass
+Seedot (Shadow),none
+Nuzleaf,grass
+Nuzleaf,dark
+Nuzleaf (Shadow),grass
+Nuzleaf (Shadow),dark
+Shiftry,grass
+Shiftry,dark
+Shiftry (Shadow),grass
+Shiftry (Shadow),dark
+Taillow,normal
+Taillow,flying
+Swellow,normal
+Swellow,flying
+Wingull,water
+Wingull,flying
+Pelipper,water
+Pelipper,flying
+Ralts,psychic
+Ralts,fairy
+Ralts (Shadow),psychic
+Ralts (Shadow),fairy
+Kirlia,psychic
+Kirlia,fairy
+Kirlia (Shadow),psychic
+Kirlia (Shadow),fairy
+Gardevoir,psychic
+Gardevoir,fairy
+Gardevoir (Shadow),psychic
+Gardevoir (Shadow),fairy
+Surskit,bug
+Surskit,water
+Masquerain,bug
+Masquerain,flying
+Shroomish,grass
+Shroomish,none
+Breloom,grass
+Breloom,fighting
+Slakoth,normal
+Slakoth,none
+Vigoroth,normal
+Vigoroth,none
+Slaking,normal
+Slaking,none
+Nincada,bug
+Nincada,ground
+Ninjask,bug
+Ninjask,flying
+Shedinja,bug
+Shedinja,ghost
+Whismur,normal
+Whismur,none
+Whismur (Shadow),normal
+Whismur (Shadow),none
+Loudred,normal
+Loudred,none
+Loudred (Shadow),normal
+Loudred (Shadow),none
+Exploud,normal
+Exploud,none
+Exploud (Shadow),normal
+Exploud (Shadow),none
+Makuhita,fighting
+Makuhita,none
+Makuhita (Shadow),fighting
+Makuhita (Shadow),none
+Hariyama,fighting
+Hariyama,none
+Hariyama (Shadow),fighting
+Hariyama (Shadow),none
+Azurill,normal
+Azurill,fairy
+Nosepass,rock
+Nosepass,none
+Nosepass (Shadow),rock
+Nosepass (Shadow),none
+Skitty,normal
+Skitty,none
+Delcatty,normal
+Delcatty,none
+Sableye,dark
+Sableye,ghost
+Sableye (Shadow),dark
+Sableye (Shadow),ghost
+Mawile,steel
+Mawile,fairy
+Mawile (Shadow),steel
+Mawile (Shadow),fairy
+Aron,steel
+Aron,rock
+Aron (Shadow),steel
+Aron (Shadow),rock
+Lairon,steel
+Lairon,rock
+Lairon (Shadow),steel
+Lairon (Shadow),rock
+Aggron,steel
+Aggron,rock
+Aggron (Mega),steel
+Aggron (Mega),none
+Aggron (Shadow),steel
+Aggron (Shadow),rock
+Meditite,fighting
+Meditite,psychic
+Medicham,fighting
+Medicham,psychic
+Electrike,electric
+Electrike,none
+Electrike (Shadow),electric
+Electrike (Shadow),none
+Manectric,electric
+Manectric,none
+Manectric (Mega),electric
+Manectric (Mega),none
+Manectric (Shadow),electric
+Manectric (Shadow),none
+Plusle,electric
+Plusle,none
+Minun,electric
+Minun,none
+Volbeat,bug
+Volbeat,none
+Illumise,bug
+Illumise,none
+Roselia,grass
+Roselia,poison
+Gulpin,poison
+Gulpin,none
+Swalot,poison
+Swalot,none
+Carvanha,water
+Carvanha,dark
+Carvanha (Shadow),water
+Carvanha (Shadow),dark
+Sharpedo,water
+Sharpedo,dark
+Sharpedo (Shadow),water
+Sharpedo (Shadow),dark
+Wailmer,water
+Wailmer,none
+Wailmer (Shadow),water
+Wailmer (Shadow),none
+Wailord,water
+Wailord,none
+Wailord (Shadow),water
+Wailord (Shadow),none
+Numel,fire
+Numel,ground
+Numel (Shadow),fire
+Numel (Shadow),ground
+Camerupt,fire
+Camerupt,ground
+Camerupt (Shadow),fire
+Camerupt (Shadow),ground
+Torkoal,fire
+Torkoal,none
+Spoink,psychic
+Spoink,none
+Grumpig,psychic
+Grumpig,none
+Spinda,normal
+Spinda,none
+Trapinch,ground
+Trapinch,none
+Trapinch (Shadow),ground
+Trapinch (Shadow),none
+Vibrava,ground
+Vibrava,dragon
+Vibrava (Shadow),ground
+Vibrava (Shadow),dragon
+Flygon,ground
+Flygon,dragon
+Flygon (Shadow),ground
+Flygon (Shadow),dragon
+Cacnea,grass
+Cacnea,none
+Cacnea (Shadow),grass
+Cacnea (Shadow),none
+Cacturne,grass
+Cacturne,dark
+Cacturne (Shadow),grass
+Cacturne (Shadow),dark
+Swablu,normal
+Swablu,flying
+Altaria,dragon
+Altaria,flying
+Altaria (Mega),dragon
+Altaria (Mega),fairy
+Zangoose,normal
+Zangoose,none
+Seviper,poison
+Seviper,none
+Lunatone,rock
+Lunatone,psychic
+Solrock,rock
+Solrock,psychic
+Barboach,water
+Barboach,ground
+Whiscash,water
+Whiscash,ground
+Corphish,water
+Corphish,none
+Crawdaunt,water
+Crawdaunt,dark
+Baltoy,ground
+Baltoy,psychic
+Claydol,ground
+Claydol,psychic
+Lileep,rock
+Lileep,grass
+Lileep (Shadow),rock
+Lileep (Shadow),grass
+Cradily,rock
+Cradily,grass
+Cradily (Shadow),rock
+Cradily (Shadow),grass
+Anorith,rock
+Anorith,bug
+Anorith (Shadow),rock
+Anorith (Shadow),bug
+Armaldo,rock
+Armaldo,bug
+Armaldo (Shadow),rock
+Armaldo (Shadow),bug
+Feebas,water
+Feebas,none
+Milotic,water
+Milotic,none
+Castform,normal
+Castform,none
+Castform (Rainy),water
+Castform (Rainy),none
+Castform (Snowy),ice
+Castform (Snowy),none
+Castform (Sunny),fire
+Castform (Sunny),none
+Kecleon,normal
+Kecleon,none
+Shuppet,ghost
+Shuppet,none
+Shuppet (Shadow),ghost
+Shuppet (Shadow),none
+Banette,ghost
+Banette,none
+Banette (Mega),ghost
+Banette (Mega),none
+Banette (Shadow),ghost
+Banette (Shadow),none
+Duskull,ghost
+Duskull,none
+Duskull (Shadow),ghost
+Duskull (Shadow),none
+Dusclops,ghost
+Dusclops,none
+Dusclops (Shadow),ghost
+Dusclops (Shadow),none
+Tropius,grass
+Tropius,flying
+Chimecho,psychic
+Chimecho,none
+Absol,dark
+Absol,none
+Absol (Mega),dark
+Absol (Mega),none
+Absol (Shadow),dark
+Absol (Shadow),none
+Wynaut,psychic
+Wynaut,none
+Snorunt,ice
+Snorunt,none
+Glalie,ice
+Glalie,none
+Glalie (Mega),ice
+Glalie (Mega),none
+Spheal,ice
+Spheal,water
+Spheal (Shadow),ice
+Spheal (Shadow),water
+Sealeo,ice
+Sealeo,water
+Sealeo (Shadow),ice
+Sealeo (Shadow),water
+Walrein,ice
+Walrein,water
+Walrein (Shadow),ice
+Walrein (Shadow),water
+Clamperl,water
+Clamperl,none
+Huntail,water
+Huntail,none
+Gorebyss,water
+Gorebyss,none
+Relicanth,water
+Relicanth,rock
+Luvdisc,water
+Luvdisc,none
+Bagon,dragon
+Bagon,none
+Bagon (Shadow),dragon
+Bagon (Shadow),none
+Shelgon,dragon
+Shelgon,none
+Shelgon (Shadow),dragon
+Shelgon (Shadow),none
+Salamence,dragon
+Salamence,flying
+Salamence (Shadow),dragon
+Salamence (Shadow),flying
+Beldum,steel
+Beldum,psychic
+Beldum (Shadow),steel
+Beldum (Shadow),psychic
+Metang,steel
+Metang,psychic
+Metang (Shadow),steel
+Metang (Shadow),psychic
+Metagross,steel
+Metagross,psychic
+Metagross (Shadow),steel
+Metagross (Shadow),psychic
+Regirock,rock
+Regirock,none
+Regice,ice
+Regice,none
+Registeel,steel
+Registeel,none
+Latias,dragon
+Latias,psychic
+Latias (Mega),dragon
+Latias (Mega),psychic
+Latias (Shadow),dragon
+Latias (Shadow),psychic
+Latios,dragon
+Latios,psychic
+Latios (Mega),dragon
+Latios (Mega),psychic
+Latios (Shadow),dragon
+Latios (Shadow),psychic
+Kyogre,water
+Kyogre,none
+Groudon,ground
+Groudon,none
+Rayquaza,dragon
+Rayquaza,flying
+Jirachi,steel
+Jirachi,psychic
+Deoxys,psychic
+Deoxys,none
+Deoxys (Attack),psychic
+Deoxys (Attack),none
+Deoxys (Defense),psychic
+Deoxys (Defense),none
+Deoxys (Speed),psychic
+Deoxys (Speed),none
+Turtwig,grass
+Turtwig,none
+Turtwig (Shadow),grass
+Turtwig (Shadow),none
+Grotle,grass
+Grotle,none
+Grotle (Shadow),grass
+Grotle (Shadow),none
+Torterra,grass
+Torterra,ground
+Torterra (Shadow),grass
+Torterra (Shadow),ground
+Chimchar,fire
+Chimchar,none
+Monferno,fire
+Monferno,fighting
+Infernape,fire
+Infernape,fighting
+Piplup,water
+Piplup,none
+Prinplup,water
+Prinplup,none
+Empoleon,water
+Empoleon,steel
+Starly,normal
+Starly,flying
+Starly (Shadow),normal
+Starly (Shadow),flying
+Staravia,normal
+Staravia,flying
+Staravia (Shadow),normal
+Staravia (Shadow),flying
+Staraptor,normal
+Staraptor,flying
+Staraptor (Shadow),normal
+Staraptor (Shadow),flying
+Bidoof,normal
+Bidoof,none
+Bidoof (Shadow),normal
+Bidoof (Shadow),none
+Bibarel,normal
+Bibarel,water
+Bibarel (Shadow),normal
+Bibarel (Shadow),water
+Kricketot,bug
+Kricketot,none
+Kricketune,bug
+Kricketune,none
+Shinx,electric
+Shinx,none
+Shinx (Shadow),electric
+Shinx (Shadow),none
+Luxio,electric
+Luxio,none
+Luxio (Shadow),electric
+Luxio (Shadow),none
+Luxray,electric
+Luxray,none
+Luxray (Shadow),electric
+Luxray (Shadow),none
+Budew,grass
+Budew,poison
+Roserade,grass
+Roserade,poison
+Cranidos,rock
+Cranidos,none
+Rampardos,rock
+Rampardos,none
+Shieldon,rock
+Shieldon,steel
+Bastiodon,rock
+Bastiodon,steel
+Burmy (Plant),bug
+Burmy (Plant),none
+Burmy (Sandy),bug
+Burmy (Sandy),none
+Burmy (Trash),bug
+Burmy (Trash),none
+Wormadam (Plant),bug
+Wormadam (Plant),grass
+Wormadam (Sandy),bug
+Wormadam (Sandy),ground
+Wormadam (Trash),bug
+Wormadam (Trash),steel
+Mothim,bug
+Mothim,flying
+Combee,bug
+Combee,flying
+Vespiquen,bug
+Vespiquen,flying
+Pachirisu,electric
+Pachirisu,none
+Buizel,water
+Buizel,none
+Floatzel,water
+Floatzel,none
+Cherubi,grass
+Cherubi,none
+Cherrim (Overcast),grass
+Cherrim (Overcast),none
+Cherrim (Sunshine),grass
+Cherrim (Sunshine),none
+Shellos,water
+Shellos,none
+Gastrodon,water
+Gastrodon,ground
+Ambipom,normal
+Ambipom,none
+Ambipom (Shadow),normal
+Ambipom (Shadow),none
+Drifloon,ghost
+Drifloon,flying
+Drifblim,ghost
+Drifblim,flying
+Buneary,normal
+Buneary,none
+Lopunny,normal
+Lopunny,none
+Lopunny (Mega),normal
+Lopunny (Mega),fighting
+Mismagius,ghost
+Mismagius,none
+Mismagius (Shadow),ghost
+Mismagius (Shadow),none
+Honchkrow,dark
+Honchkrow,flying
+Honchkrow (Shadow),dark
+Honchkrow (Shadow),flying
+Glameow,normal
+Glameow,none
+Purugly,normal
+Purugly,none
+Chingling,psychic
+Chingling,none
+Stunky,poison
+Stunky,dark
+Stunky (Shadow),poison
+Stunky (Shadow),dark
+Skuntank,poison
+Skuntank,dark
+Skuntank (Shadow),poison
+Skuntank (Shadow),dark
+Bronzor,steel
+Bronzor,psychic
+Bronzong,steel
+Bronzong,psychic
+Bonsly,rock
+Bonsly,none
+Mime (Jr),psychic
+Mime (Jr),fairy
+Happiny,normal
+Happiny,none
+Chatot,normal
+Chatot,flying
+Spiritomb,ghost
+Spiritomb,dark
+Gible,dragon
+Gible,ground
+Gabite,dragon
+Gabite,ground
+Garchomp,dragon
+Garchomp,ground
+Munchlax,normal
+Munchlax,none
+Riolu,fighting
+Riolu,none
+Lucario,fighting
+Lucario,steel
+Hippopotas,ground
+Hippopotas,none
+Hippopotas (Shadow),ground
+Hippopotas (Shadow),none
+Hippowdon,ground
+Hippowdon,none
+Hippowdon (Shadow),ground
+Hippowdon (Shadow),none
+Skorupi,poison
+Skorupi,bug
+Skorupi (Shadow),poison
+Skorupi (Shadow),bug
+Drapion,poison
+Drapion,dark
+Drapion (Shadow),poison
+Drapion (Shadow),dark
+Croagunk,poison
+Croagunk,fighting
+Toxicroak,poison
+Toxicroak,fighting
+Carnivine,grass
+Carnivine,none
+Finneon,water
+Finneon,none
+Lumineon,water
+Lumineon,none
+Mantyke,water
+Mantyke,flying
+Snover,grass
+Snover,ice
+Snover (Shadow),grass
+Snover (Shadow),ice
+Abomasnow,grass
+Abomasnow,ice
+Abomasnow (Mega),grass
+Abomasnow (Mega),ice
+Abomasnow (Shadow),grass
+Abomasnow (Shadow),ice
+Weavile,dark
+Weavile,ice
+Weavile (Shadow),dark
+Weavile (Shadow),ice
+Magnezone,electric
+Magnezone,steel
+Magnezone (Shadow),electric
+Magnezone (Shadow),steel
+Lickilicky,normal
+Lickilicky,none
+Rhyperior,ground
+Rhyperior,rock
+Tangrowth,grass
+Tangrowth,none
+Tangrowth (Shadow),grass
+Tangrowth (Shadow),none
+Electivire,electric
+Electivire,none
+Electivire (Shadow),electric
+Electivire (Shadow),none
+Magmortar,fire
+Magmortar,none
+Magmortar (Shadow),fire
+Magmortar (Shadow),none
+Togekiss,fairy
+Togekiss,flying
+Yanmega,bug
+Yanmega,flying
+Leafeon,grass
+Leafeon,none
+Glaceon,ice
+Glaceon,none
+Gliscor,ground
+Gliscor,flying
+Gliscor (Shadow),ground
+Gliscor (Shadow),flying
+Mamoswine,ice
+Mamoswine,ground
+Mamoswine (Shadow),ice
+Mamoswine (Shadow),ground
+Porygon-Z,normal
+Porygon-Z,none
+Porygon-Z (Shadow),normal
+Porygon-Z (Shadow),none
+Gallade,psychic
+Gallade,fighting
+Gallade (Shadow),psychic
+Gallade (Shadow),fighting
+Probopass,rock
+Probopass,steel
+Probopass (Shadow),rock
+Probopass (Shadow),steel
+Dusknoir,ghost
+Dusknoir,none
+Dusknoir (Shadow),ghost
+Dusknoir (Shadow),none
+Froslass,ice
+Froslass,ghost
+Rotom,electric
+Rotom,ghost
+Rotom (Fan),electric
+Rotom (Fan),flying
+Rotom (Frost),electric
+Rotom (Frost),ice
+Rotom (Heat),electric
+Rotom (Heat),fire
+Rotom (Mow),electric
+Rotom (Mow),grass
+Rotom (Wash),electric
+Rotom (Wash),water
+Uxie,psychic
+Uxie,none
+Mesprit,psychic
+Mesprit,none
+Azelf,psychic
+Azelf,none
+Dialga,steel
+Dialga,dragon
+Palkia,water
+Palkia,dragon
+Heatran,fire
+Heatran,steel
+Regigigas,normal
+Regigigas,none
+Giratina (Altered),ghost
+Giratina (Altered),dragon
+Giratina (Origin),ghost
+Giratina (Origin),dragon
+Cresselia,psychic
+Cresselia,none
+Phione,water
+Phione,none
+Manaphy,water
+Manaphy,none
+Darkrai,dark
+Darkrai,none
+Shaymin (Land),grass
+Shaymin (Land),none
+Shaymin (Sky),grass
+Shaymin (Sky),flying
+Arceus,normal
+Arceus,none
+Arceus (Bug),bug
+Arceus (Bug),none
+Arceus (Dark),dark
+Arceus (Dark),none
+Arceus (Dragon),dragon
+Arceus (Dragon),none
+Arceus (Electric),electric
+Arceus (Electric),none
+Arceus (Fairy),fairy
+Arceus (Fairy),none
+Arceus (Fighting),fighting
+Arceus (Fighting),none
+Arceus (Fire),fire
+Arceus (Fire),none
+Arceus (Flying),flying
+Arceus (Flying),none
+Arceus (Ghost),ghost
+Arceus (Ghost),none
+Arceus (Grass),grass
+Arceus (Grass),none
+Arceus (Ground),ground
+Arceus (Ground),none
+Arceus (Ice),ice
+Arceus (Ice),none
+Arceus (Poison),poison
+Arceus (Poison),none
+Arceus (Psychic),psychic
+Arceus (Psychic),none
+Arceus (Rock),rock
+Arceus (Rock),none
+Arceus (Steel),steel
+Arceus (Steel),none
+Arceus (Water),water
+Arceus (Water),none
+Victini,psychic
+Victini,fire
+Snivy,grass
+Snivy,none
+Servine,grass
+Servine,none
+Serperior,grass
+Serperior,none
+Tepig,fire
+Tepig,none
+Pignite,fire
+Pignite,fighting
+Emboar,fire
+Emboar,fighting
+Oshawott,water
+Oshawott,none
+Dewott,water
+Dewott,none
+Samurott,water
+Samurott,none
+Patrat,normal
+Patrat,none
+Patrat (Shadow),normal
+Patrat (Shadow),none
+Watchog,normal
+Watchog,none
+Watchog (Shadow),normal
+Watchog (Shadow),none
+Lillipup,normal
+Lillipup,none
+Herdier,normal
+Herdier,none
+Stoutland,normal
+Stoutland,none
+Purrloin,dark
+Purrloin,none
+Purrloin (Shadow),dark
+Purrloin (Shadow),none
+Liepard,dark
+Liepard,none
+Liepard (Shadow),dark
+Liepard (Shadow),none
+Pansage,grass
+Pansage,none
+Simisage,grass
+Simisage,none
+Pansear,fire
+Pansear,none
+Simisear,fire
+Simisear,none
+Panpour,water
+Panpour,none
+Simipour,water
+Simipour,none
+Munna,psychic
+Munna,none
+Musharna,psychic
+Musharna,none
+Pidove,normal
+Pidove,flying
+Tranquill,normal
+Tranquill,flying
+Unfezant,normal
+Unfezant,flying
+Blitzle,electric
+Blitzle,none
+Zebstrika,electric
+Zebstrika,none
+Roggenrola,rock
+Roggenrola,none
+Boldore,rock
+Boldore,none
+Gigalith,rock
+Gigalith,none
+Woobat,psychic
+Woobat,flying
+Swoobat,psychic
+Swoobat,flying
+Drilbur,ground
+Drilbur,none
+Excadrill,ground
+Excadrill,steel
+Audino,normal
+Audino,none
+Timburr,fighting
+Timburr,none
+Gurdurr,fighting
+Gurdurr,none
+Conkeldurr,fighting
+Conkeldurr,none
+Tympole,water
+Tympole,none
+Palpitoad,water
+Palpitoad,ground
+Seismitoad,water
+Seismitoad,ground
+Throh,fighting
+Throh,none
+Sawk,fighting
+Sawk,none
+Sewaddle,bug
+Sewaddle,grass
+Swadloon,bug
+Swadloon,grass
+Leavanny,bug
+Leavanny,grass
+Venipede,bug
+Venipede,poison
+Whirlipede,bug
+Whirlipede,poison
+Scolipede,bug
+Scolipede,poison
+Cottonee,grass
+Cottonee,fairy
+Whimsicott,grass
+Whimsicott,fairy
+Petilil,grass
+Petilil,none
+Lilligant,grass
+Lilligant,none
+Basculin,water
+Basculin,none
+Sandile,ground
+Sandile,dark
+Krokorok,ground
+Krokorok,dark
+Krookodile,ground
+Krookodile,dark
+Darumaka,fire
+Darumaka,none
+Darumaka (Galarian),ice
+Darumaka (Galarian),none
+Darmanitan (Galarian Zen),ice
+Darmanitan (Galarian Zen),fire
+Darmanitan (Galarian),ice
+Darmanitan (Galarian),none
+Darmanitan (Standard),fire
+Darmanitan (Standard),none
+Darmanitan (Zen),fire
+Darmanitan (Zen),psychic
+Maractus,grass
+Maractus,none
+Dwebble,bug
+Dwebble,rock
+Crustle,bug
+Crustle,rock
+Scraggy,dark
+Scraggy,fighting
+Scrafty,dark
+Scrafty,fighting
+Sigilyph,psychic
+Sigilyph,flying
+Yamask,ghost
+Yamask,none
+Yamask (Galarian),ground
+Yamask (Galarian),ghost
+Cofagrigus,ghost
+Cofagrigus,none
+Tirtouga,water
+Tirtouga,rock
+Carracosta,water
+Carracosta,rock
+Archen,rock
+Archen,flying
+Archeops,rock
+Archeops,flying
+Trubbish,poison
+Trubbish,none
+Garbodor,poison
+Garbodor,none
+Zorua,dark
+Zorua,none
+Zoroark,dark
+Zoroark,none
+Minccino,normal
+Minccino,none
+Cinccino,normal
+Cinccino,none
+Gothita,psychic
+Gothita,none
+Gothorita,psychic
+Gothorita,none
+Gothitelle,psychic
+Gothitelle,none
+Solosis,psychic
+Solosis,none
+Duosion,psychic
+Duosion,none
+Reuniclus,psychic
+Reuniclus,none
+Ducklett,water
+Ducklett,flying
+Ducklett (Shadow),water
+Ducklett (Shadow),flying
+Swanna,water
+Swanna,flying
+Swanna (Shadow),water
+Swanna (Shadow),flying
+Vanillite,ice
+Vanillite,none
+Vanillish,ice
+Vanillish,none
+Vanilluxe,ice
+Vanilluxe,none
+Deerling,normal
+Deerling,grass
+Sawsbuck,normal
+Sawsbuck,grass
+Emolga,electric
+Emolga,flying
+Karrablast,bug
+Karrablast,none
+Escavalier,bug
+Escavalier,steel
+Foongus,grass
+Foongus,poison
+Foongus (Shadow),grass
+Foongus (Shadow),poison
+Amoonguss,grass
+Amoonguss,poison
+Amoonguss (Shadow),grass
+Amoonguss (Shadow),poison
+Frillish,water
+Frillish,ghost
+Jellicent,water
+Jellicent,ghost
+Alomomola,water
+Alomomola,none
+Joltik,bug
+Joltik,electric
+Galvantula,bug
+Galvantula,electric
+Ferroseed,grass
+Ferroseed,steel
+Ferrothorn,grass
+Ferrothorn,steel
+Klink,steel
+Klink,none
+Klang,steel
+Klang,none
+Klinklang,steel
+Klinklang,none
+Tynamo,electric
+Tynamo,none
+Eelektrik,electric
+Eelektrik,none
+Eelektross,electric
+Eelektross,none
+Elgyem,psychic
+Elgyem,none
+Beheeyem,psychic
+Beheeyem,none
+Litwick,ghost
+Litwick,fire
+Lampent,ghost
+Lampent,fire
+Chandelure,ghost
+Chandelure,fire
+Axew,dragon
+Axew,none
+Fraxure,dragon
+Fraxure,none
+Haxorus,dragon
+Haxorus,none
+Cubchoo,ice
+Cubchoo,none
+Beartic,ice
+Beartic,none
+Cryogonal,ice
+Cryogonal,none
+Shelmet,bug
+Shelmet,none
+Accelgor,bug
+Accelgor,none
+Stunfisk,ground
+Stunfisk,electric
+Stunfisk (Galarian),ground
+Stunfisk (Galarian),steel
+Mienfoo,fighting
+Mienfoo,none
+Mienshao,fighting
+Mienshao,none
+Druddigon,dragon
+Druddigon,none
+Golett,ground
+Golett,ghost
+Golett (Shadow),ground
+Golett (Shadow),ghost
+Golurk,ground
+Golurk,ghost
+Golurk (Shadow),ground
+Golurk (Shadow),ghost
+Pawniard,dark
+Pawniard,steel
+Bisharp,dark
+Bisharp,steel
+Bouffalant,normal
+Bouffalant,none
+Rufflet,normal
+Rufflet,flying
+Braviary,normal
+Braviary,flying
+Braviary (Hisuian),psychic
+Braviary (Hisuian),flying
+Vullaby,dark
+Vullaby,flying
+Mandibuzz,dark
+Mandibuzz,flying
+Heatmor,fire
+Heatmor,none
+Durant,bug
+Durant,steel
+Deino,dark
+Deino,dragon
+Zweilous,dark
+Zweilous,dragon
+Hydreigon,dark
+Hydreigon,dragon
+Larvesta,bug
+Larvesta,fire
+Volcarona,bug
+Volcarona,fire
+Cobalion,steel
+Cobalion,fighting
+Terrakion,rock
+Terrakion,fighting
+Virizion,grass
+Virizion,fighting
+Tornadus (Incarnate),flying
+Tornadus (Incarnate),none
+Tornadus (Therian),flying
+Tornadus (Therian),none
+Thundurus (Incarnate),electric
+Thundurus (Incarnate),flying
+Thundurus (Therian),electric
+Thundurus (Therian),flying
+Reshiram,dragon
+Reshiram,fire
+Zekrom,dragon
+Zekrom,electric
+Landorus (Incarnate),ground
+Landorus (Incarnate),flying
+Landorus (Therian),ground
+Landorus (Therian),flying
+Kyurem,dragon
+Kyurem,ice
+Kyurem (Black),dragon
+Kyurem (Black),ice
+Kyurem (White),dragon
+Kyurem (White),ice
+Keldeo (Ordinary),water
+Keldeo (Ordinary),fighting
+Keldeo (Resolute),water
+Keldeo (Resolute),fighting
+Meloetta (Aria),normal
+Meloetta (Aria),psychic
+Meloetta (Pirouette),normal
+Meloetta (Pirouette),fighting
+Genesect,bug
+Genesect,steel
+Genesect (Burn),bug
+Genesect (Burn),steel
+Genesect (Chill),bug
+Genesect (Chill),steel
+Genesect (Douse),bug
+Genesect (Douse),steel
+Genesect (Shock),bug
+Genesect (Shock),steel
+Chespin,grass
+Chespin,none
+Quilladin,grass
+Quilladin,none
+Chesnaught,grass
+Chesnaught,fighting
+Fennekin,fire
+Fennekin,none
+Braixen,fire
+Braixen,none
+Delphox,fire
+Delphox,psychic
+Froakie,water
+Froakie,none
+Frogadier,water
+Frogadier,none
+Greninja,water
+Greninja,dark
+Bunnelby,normal
+Bunnelby,none
+Diggersby,normal
+Diggersby,ground
+Fletchling,normal
+Fletchling,flying
+Fletchinder,fire
+Fletchinder,flying
+Talonflame,fire
+Talonflame,flying
+Scatterbug,bug
+Scatterbug,none
+Spewpa,bug
+Spewpa,none
+Vivillon,bug
+Vivillon,flying
+Litleo,fire
+Litleo,normal
+Pyroar,fire
+Pyroar,normal
+Flabebe,fairy
+Flabebe,none
+Floette,fairy
+Floette,none
+Florges,fairy
+Florges,none
+Skiddo,grass
+Skiddo,none
+Gogoat,grass
+Gogoat,none
+Pancham,fighting
+Pancham,none
+Pangoro,fighting
+Pangoro,dark
+Furfrou,normal
+Furfrou,none
+Espurr,psychic
+Espurr,none
+Meowstic (Female),psychic
+Meowstic (Female),none
+Meowstic (Male),psychic
+Meowstic (Male),none
+Honedge,steel
+Honedge,ghost
+Doublade,steel
+Doublade,ghost
+Aegislash,steel
+Aegislash,ghost
+Spritzee,fairy
+Spritzee,none
+Aromatisse,fairy
+Aromatisse,none
+Swirlix,fairy
+Swirlix,none
+Slurpuff,fairy
+Slurpuff,none
+Inkay,dark
+Inkay,psychic
+Malamar,dark
+Malamar,psychic
+Binacle,rock
+Binacle,water
+Barbaracle,rock
+Barbaracle,water
+Skrelp,poison
+Skrelp,water
+Dragalge,poison
+Dragalge,dragon
+Clauncher,water
+Clauncher,none
+Clawitzer,water
+Clawitzer,none
+Helioptile,electric
+Helioptile,normal
+Heliolisk,electric
+Heliolisk,normal
+Tyrunt,rock
+Tyrunt,dragon
+Tyrantrum,rock
+Tyrantrum,dragon
+Amaura,rock
+Amaura,ice
+Aurorus,rock
+Aurorus,ice
+Sylveon,fairy
+Sylveon,none
+Hawlucha,fighting
+Hawlucha,flying
+Dedenne,electric
+Dedenne,fairy
+Carbink,rock
+Carbink,fairy
+Goomy,dragon
+Goomy,none
+Sliggoo,dragon
+Sliggoo,none
+Goodra,dragon
+Goodra,none
+Klefki,steel
+Klefki,fairy
+Phantump,ghost
+Phantump,grass
+Trevenant,ghost
+Trevenant,grass
+Pumpkaboo (Average),ghost
+Pumpkaboo (Average),grass
+Pumpkaboo (Large),ghost
+Pumpkaboo (Large),grass
+Pumpkaboo (Small),ghost
+Pumpkaboo (Small),grass
+Pumpkaboo (Super),ghost
+Pumpkaboo (Super),grass
+Gourgeist (Average),ghost
+Gourgeist (Average),grass
+Gourgeist (Large),ghost
+Gourgeist (Large),grass
+Gourgeist (Small),ghost
+Gourgeist (Small),grass
+Gourgeist (Super),ghost
+Gourgeist (Super),grass
+Bergmite,ice
+Bergmite,none
+Avalugg,ice
+Avalugg,none
+Noibat,flying
+Noibat,dragon
+Noivern,flying
+Noivern,dragon
+Xerneas,fairy
+Xerneas,none
+Yveltal,dark
+Yveltal,flying
+Zygarde,dragon
+Zygarde,ground
+Diancie,rock
+Diancie,fairy
+Hoopa,psychic
+Hoopa,ghost
+Hoopa (Confined),psychic
+Hoopa (Confined),ghost
+Hoopa (Unbound),psychic
+Hoopa (Unbound),dark
+Volcanion,fire
+Volcanion,water
+Rowlet,grass
+Rowlet,flying
+Dartrix,grass
+Dartrix,flying
+Decidueye,grass
+Decidueye,ghost
+Litten,fire
+Litten,none
+Torracat,fire
+Torracat,none
+Incineroar,fire
+Incineroar,dark
+Popplio,water
+Popplio,none
+Brionne,water
+Brionne,none
+Primarina,water
+Primarina,fairy
+Pikipek,normal
+Pikipek,flying
+Trumbeak,normal
+Trumbeak,flying
+Toucannon,normal
+Toucannon,flying
+Yungoos,normal
+Yungoos,none
+Gumshoos,normal
+Gumshoos,none
+Grubbin,bug
+Grubbin,none
+Charjabug,bug
+Charjabug,electric
+Vikavolt,bug
+Vikavolt,electric
+Crabrawler,fighting
+Crabrawler,none
+Crabominable,fighting
+Crabominable,ice
+Oricorio (Baile),fire
+Oricorio (Baile),flying
+Oricorio (Pa'u),psychic
+Oricorio (Pa'u),flying
+Oricorio (Pom-Pom),electric
+Oricorio (Pom-Pom),flying
+Oricorio (Sensu),ghost
+Oricorio (Sensu),flying
+Cutiefly,bug
+Cutiefly,fairy
+Ribombee,bug
+Ribombee,fairy
+Rockruff,rock
+Rockruff,none
+Lycanroc (Dusk),rock
+Lycanroc (Dusk),none
+Lycanroc (Midday),rock
+Lycanroc (Midday),none
+Lycanroc (Midnight),rock
+Lycanroc (Midnight),none
+Wishiwashi,water
+Wishiwashi,none
+Wishiwashi (School),water
+Wishiwashi (School),none
+Wishiwashi_solo,water
+Wishiwashi_solo,none
+Mareanie,poison
+Mareanie,water
+Toxapex,poison
+Toxapex,water
+Mudbray,ground
+Mudbray,none
+Mudsdale,ground
+Mudsdale,none
+Dewpider,water
+Dewpider,bug
+Araquanid,water
+Araquanid,bug
+Fomantis,grass
+Fomantis,none
+Lurantis,grass
+Lurantis,none
+Morelull,grass
+Morelull,fairy
+Shiinotic,grass
+Shiinotic,fairy
+Salandit,poison
+Salandit,fire
+Salazzle,poison
+Salazzle,fire
+Stufful,normal
+Stufful,fighting
+Bewear,normal
+Bewear,fighting
+Bounsweet,grass
+Bounsweet,none
+Steenee,grass
+Steenee,none
+Tsareena,grass
+Tsareena,none
+Comfey,fairy
+Comfey,none
+Oranguru,normal
+Oranguru,psychic
+Passimian,fighting
+Passimian,none
+Wimpod,bug
+Wimpod,water
+Golisopod,bug
+Golisopod,water
+Sandygast,ghost
+Sandygast,ground
+Palossand,ghost
+Palossand,ground
+Pyukumuku,water
+Pyukumuku,none
+Type (Null),normal
+Type (Null),none
+Silvally,normal
+Silvally,none
+Silvally (Bug),bug
+Silvally (Bug),none
+Silvally (Dark),dark
+Silvally (Dark),none
+Silvally (Dragon),dragon
+Silvally (Dragon),none
+Silvally (Electric),electric
+Silvally (Electric),none
+Silvally (Fairy),fairy
+Silvally (Fairy),none
+Silvally (Fighting),fighting
+Silvally (Fighting),none
+Silvally (Fire),fire
+Silvally (Fire),none
+Silvally (Flying),flying
+Silvally (Flying),none
+Silvally (Ghost),ghost
+Silvally (Ghost),none
+Silvally (Grass),grass
+Silvally (Grass),none
+Silvally (Ground),ground
+Silvally (Ground),none
+Silvally (Ice),ice
+Silvally (Ice),none
+Silvally (Poison),poison
+Silvally (Poison),none
+Silvally (Psychic),psychic
+Silvally (Psychic),none
+Silvally (Rock),rock
+Silvally (Rock),none
+Silvally (Steel),steel
+Silvally (Steel),none
+Silvally (Water),water
+Silvally (Water),none
+Minior (Core),rock
+Minior (Core),flying
+Minior (Meteor),rock
+Minior (Meteor),flying
+Komala,normal
+Komala,none
+Turtonator,fire
+Turtonator,dragon
+Togedemaru,electric
+Togedemaru,steel
+Mimikyu,ghost
+Mimikyu,fairy
+Bruxish,water
+Bruxish,psychic
+Drampa,normal
+Drampa,dragon
+Dhelmise,ghost
+Dhelmise,grass
+Jangmo-o,dragon
+Jangmo-o,none
+Hakamo-o,dragon
+Hakamo-o,fighting
+Kommo-o,dragon
+Kommo-o,fighting
+Tapu Koko,electric
+Tapu Koko,fairy
+Tapu Lele,psychic
+Tapu Lele,fairy
+Tapu Bulu,grass
+Tapu Bulu,fairy
+Tapu Fini,water
+Tapu Fini,fairy
+Cosmog,psychic
+Cosmog,none
+Cosmoem,psychic
+Cosmoem,none
+Solgaleo,psychic
+Solgaleo,steel
+Lunala,psychic
+Lunala,ghost
+Nihilego,rock
+Nihilego,poison
+Buzzwole,bug
+Buzzwole,fighting
+Pheromosa,bug
+Pheromosa,fighting
+Xurkitree,electric
+Xurkitree,none
+Celesteela,steel
+Celesteela,flying
+Kartana,grass
+Kartana,steel
+Guzzlord,dark
+Guzzlord,dragon
+Necrozma,psychic
+Necrozma,none
+Necrozma (Dawn Wings),psychic
+Necrozma (Dawn Wings),ghost
+Necrozma (Dusk Mane),psychic
+Necrozma (Dusk Mane),steel
+Necrozma (Ultra),psychic
+Necrozma (Ultra),dragon
+Magearna,steel
+Magearna,fairy
+Poipole,poison
+Poipole,none
+Naganadel,poison
+Naganadel,dragon
+Stakataka,rock
+Stakataka,steel
+Blacephalon,fire
+Blacephalon,ghost
+Zeraora,electric
+Zeraora,none
+Meltan,steel
+Meltan,none
+Melmetal,steel
+Melmetal,none
+Grookey,grass
+Grookey,none
+Thwackey,grass
+Thwackey,none
+Rillaboom,grass
+Rillaboom,none
+Scorbunny,fire
+Scorbunny,none
+Raboot,fire
+Raboot,none
+Cinderace,fire
+Cinderace,none
+Sobble,water
+Sobble,none
+Drizzile,water
+Drizzile,none
+Inteleon,water
+Inteleon,none
+Skwovet,normal
+Skwovet,none
+Greedent,normal
+Greedent,none
+Rookidee,flying
+Rookidee,none
+Corvisquire,flying
+Corvisquire,none
+Corviknight,flying
+Corviknight,steel
+Blipbug,bug
+Blipbug,none
+Dottler,bug
+Dottler,psychic
+Orbeetle,bug
+Orbeetle,psychic
+Nickit,dark
+Nickit,none
+Thievul,dark
+Thievul,none
+Gossifleur,grass
+Gossifleur,none
+Eldegoss,grass
+Eldegoss,none
+Wooloo,normal
+Wooloo,none
+Dubwool,normal
+Dubwool,none
+Chewtle,water
+Chewtle,none
+Drednaw,water
+Drednaw,rock
+Yamper,electric
+Yamper,none
+Boltund,electric
+Boltund,none
+Rolycoly,rock
+Rolycoly,none
+Carkol,rock
+Carkol,fire
+Coalossal,rock
+Coalossal,fire
+Applin,grass
+Applin,dragon
+Flapple,grass
+Flapple,dragon
+Appletun,grass
+Appletun,dragon
+Silicobra,ground
+Silicobra,none
+Sandaconda,ground
+Sandaconda,none
+Cramorant,flying
+Cramorant,water
+Arrokuda,water
+Arrokuda,none
+Barraskewda,water
+Barraskewda,none
+Toxel,electric
+Toxel,poison
+Toxtricity,electric
+Toxtricity,poison
+Toxtricity_amped,electric
+Toxtricity_amped,poison
+Toxtricity_low_key,electric
+Toxtricity_low_key,poison
+Sizzlipede,fire
+Sizzlipede,bug
+Centiskorch,fire
+Centiskorch,bug
+Clobbopus,fighting
+Clobbopus,none
+Grapploct,fighting
+Grapploct,none
+Sinistea,ghost
+Sinistea,none
+Sinistea_antique,ghost
+Sinistea_antique,none
+Sinistea_phony,ghost
+Sinistea_phony,none
+Polteageist,ghost
+Polteageist,none
+Polteageist_antique,ghost
+Polteageist_antique,none
+Polteageist_phony,ghost
+Polteageist_phony,none
+Hatenna,psychic
+Hatenna,none
+Hattrem,psychic
+Hattrem,none
+Hatterene,psychic
+Hatterene,fairy
+Impidimp,dark
+Impidimp,fairy
+Morgrem,dark
+Morgrem,fairy
+Grimmsnarl,dark
+Grimmsnarl,fairy
+Obstagoon,dark
+Obstagoon,normal
+Perrserker,steel
+Perrserker,none
+Cursola,ghost
+Cursola,none
+Sirfetch'd,fighting
+Sirfetch'd,none
+Mr. Rime,ice
+Mr. Rime,psychic
+Runerigus,ground
+Runerigus,ghost
+Milcery,fairy
+Milcery,none
+Alcremie,fairy
+Alcremie,none
+Falinks,fighting
+Falinks,none
+Pincurchin,electric
+Pincurchin,none
+Snom,ice
+Snom,bug
+Frosmoth,ice
+Frosmoth,bug
+Stonjourner,rock
+Stonjourner,none
+Eiscue,ice
+Eiscue,none
+Eiscue_ice,ice
+Eiscue_ice,none
+Eiscue_noice,ice
+Eiscue_noice,none
+Indeedee,psychic
+Indeedee,normal
+Indeedee_female,psychic
+Indeedee_female,normal
+Indeedee_male,psychic
+Indeedee_male,normal
+Morpeko,electric
+Morpeko,dark
+Morpeko_full_belly,electric
+Morpeko_full_belly,dark
+Morpeko_hangry,electric
+Morpeko_hangry,dark
+Cufant,steel
+Cufant,none
+Copperajah,steel
+Copperajah,none
+Dracozolt,electric
+Dracozolt,dragon
+Arctozolt,electric
+Arctozolt,ice
+Dracovish,water
+Dracovish,dragon
+Arctovish,water
+Arctovish,ice
+Duraludon,steel
+Duraludon,dragon
+Dreepy,dragon
+Dreepy,ghost
+Drakloak,dragon
+Drakloak,ghost
+Dragapult,dragon
+Dragapult,ghost
+Zacian,fairy
+Zacian,steel
+Zacian (Hero),fairy
+Zacian (Hero),none
+Zacian_crowned_sword,fairy
+Zacian_crowned_sword,steel
+Zamazenta,fighting
+Zamazenta,steel
+Zamazenta (Hero),fighting
+Zamazenta (Hero),none
+Zamazenta_crowned_shield,fighting
+Zamazenta_crowned_shield,steel
+Eternatus,poison
+Eternatus,dragon
+Eternatus_eternamax,poison
+Eternatus_eternamax,dragon
+Kubfu,fighting
+Kubfu,none
+Urshifu,fighting
+Urshifu,none
+Urshifu_rapid_strike,fighting
+Urshifu_rapid_strike,water
+Urshifu_single_strike,fighting
+Urshifu_single_strike,dark
+Zarude,dark
+Zarude,grass
+Regieleki,electric
+Regieleki,none
+Regidrago,dragon
+Regidrago,none
+Glastrier,ice
+Glastrier,none
+Spectrier,ghost
+Spectrier,none
+Calyrex,psychic
+Calyrex,grass
+Calyrex_ice_rider,psychic
+Calyrex_ice_rider,ice
+Ursaluna,ground
+Ursaluna,normal
+Ursaluna (Shadow),ground
+Ursaluna (Shadow),normal
+Sneasler,fighting
+Sneasler,poison
+Overqwil,dark
+Overqwil,poison
