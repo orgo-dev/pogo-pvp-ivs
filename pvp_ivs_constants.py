@@ -3,10 +3,10 @@ from config import PATH_DATA
 
 MAX_LEVEL = 50
 LEAGUE_CPS = dict(
-    little=500,
-    great=1500,
-    ultra=2500,
-    master=9e9,
+    Little=500,
+    Great=1500,
+    Ultra=2500,
+    Master=9e9,
 )
 IVS_ALL = [
     dict(iv_attack=a, iv_defense=d, iv_stamina=s)

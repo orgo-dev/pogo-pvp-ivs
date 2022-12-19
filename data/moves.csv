@@ -86,6 +86,7 @@ FURY_CUTTER,Fury Cutter,fast,bug,2,4,1,2.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 FUTURE_SIGHT,Future Sight,charged,psychic,120,0,1,,,65,1.85,,Nuke,nan,,,nan,nan
 GIGA_DRAIN,Giga Drain,charged,grass,50,0,1,,,80,0.62,,High Energy,nan,,,nan,nan
 GIGA_IMPACT,Giga Impact,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
+GLACIATE,Glaciate,charged,ice,60,0,1,,,40,1.5,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 GRASS_KNOT,Grass Knot,charged,grass,90,0,1,,,50,1.8,,General,nan,,,nan,nan
 GUNK_SHOT,Gunk Shot,charged,poison,130,0,1,,,75,1.73,,Nuke,nan,,,nan,nan
 GUST,Gust,fast,flying,16,12,4,4.0,3.0,0,,,Multipurpose,nan,,,nan,nan

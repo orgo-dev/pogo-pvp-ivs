@@ -1052,9 +1052,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 661,fletchling,Fletchling,95,80,128,"['normal', 'flying']","['PECK', 'QUICK_ATTACK']","['AERIAL_ACE', 'HEAT_WAVE', 'SWIFT']",nan,nan,1.0,10000,True,FAMILY_FLETCHLING,['fletchinder'],,nan
 662,fletchinder,Fletchinder,145,110,158,"['fire', 'flying']","['PECK', 'EMBER', 'STEEL_WING']","['AERIAL_ACE', 'HEAT_WAVE', 'FLAME_CHARGE']",nan,nan,1.0,10000,True,FAMILY_FLETCHLING,['talonflame'],fletchling,nan
 663,talonflame,Talonflame,176,155,186,"['fire', 'flying']","['PECK', 'FIRE_SPIN', 'STEEL_WING', 'INCINERATE']","['BRAVE_BIRD', 'FIRE_BLAST', 'FLAME_CHARGE', 'HURRICANE']",['INCINERATE'],nan,1.0,10000,True,FAMILY_FLETCHLING,nan,fletchinder,nan
-664,scatterbug,Scatterbug,63,63,116,"['bug', 'none']","['BUG_BITE', 'TACKLE']",['STRUGGLE'],nan,nan,1.0,10000,False,FAMILY_SCATTERBUG,['spewpa'],,nan
+664,scatterbug,Scatterbug,63,63,116,"['bug', 'none']","['BUG_BITE', 'TACKLE']",['STRUGGLE'],nan,nan,1.0,10000,True,FAMILY_SCATTERBUG,['spewpa'],,nan
 665,spewpa,Spewpa,48,89,128,"['bug', 'none']","['BUG_BITE', 'TACKLE']",['STRUGGLE'],nan,nan,1.0,10000,False,FAMILY_SCATTERBUG,['vivillon'],scatterbug,nan
-666,vivillon,Vivillon,176,103,190,"['bug', 'flying']","['BUG_BITE', 'GUST', 'STRUGGLE_BUG']","['BUG_BUZZ', 'AERIAL_ACE', 'ENERGY_BALL', 'HURRICANE']",nan,nan,1.0,10000,False,FAMILY_SCATTERBUG,nan,spewpa,nan
+666,vivillon,Vivillon,176,103,190,"['bug', 'flying']","['BUG_BITE', 'GUST', 'STRUGGLE_BUG']","['BUG_BUZZ', 'AERIAL_ACE', 'ENERGY_BALL', 'HURRICANE']",nan,nan,1.0,10000,True,FAMILY_SCATTERBUG,nan,spewpa,nan
 667,litleo,Litleo,139,112,158,"['fire', 'normal']","['FIRE_FANG', 'TACKLE', 'EMBER', 'INCINERATE']","['FLAME_CHARGE', 'FLAMETHROWER', 'CRUNCH']",nan,nan,3.0,10000,True,FAMILY_LITLEO,"['pyroar', 'pyroar']",,nan
 668,pyroar,Pyroar,221,149,200,"['fire', 'normal']","['FIRE_FANG', 'TAKE_DOWN', 'INCINERATE', 'EMBER']","['FLAME_CHARGE', 'SOLAR_BEAM', 'DARK_PULSE', 'OVERHEAT']",nan,nan,3.0,10000,True,FAMILY_LITLEO,nan,litleo,nan
 669,flabebe,Flabebe,108,120,127,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3.0,50000,True,FAMILY_FLABEBE,['floette'],,nan

@@ -154,8 +154,6 @@ def add_pokemon_iv_notes(row):
         notes.append("max defense")
     if row["is_max_stamina"]:
         notes.append("max stamina")
-    # if row["is_efficient"]:
-    #     notes.append("efficient")
     if row["iv_attack"] == 15 and row["iv_defense"] == 15 and row["iv_stamina"] == 15:
         notes.append("100% iv")
     if row["level"] > 50:
@@ -225,10 +223,20 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
     df["is_max_defense"] = df["level_defense"] == df["level_defense"].max()
     df["is_max_stamina"] = df["level_stamina"] == df["level_stamina"].max()
 
-    # add pareto efficient bool
+    # add pareto efficient bools for max level and best buddy
     stat_cols = ["level_attack", "level_defense", "level_stamina"]
-    df["is_efficient"] = get_pareto_efficient_stats(df[stat_cols].values)
-    df["Efficient"] = df["is_efficient"].map({True: "True", False: ""})
+    df["is_efficient_best_buddy"] = get_pareto_efficient_stats(df[stat_cols].values)
+    if df["level"].max() > MAX_LEVEL:
+        max_level_idx = df[df.level <= MAX_LEVEL].index
+        df.loc[max_level_idx, "is_efficient_max_level"] = get_pareto_efficient_stats(
+            df.loc[max_level_idx, stat_cols].values
+        )
+        df["is_efficient_max_level"].fillna(False, inplace=True)
+    else:
+        df["is_efficient_max_level"] = df["is_efficient_best_buddy"]
+    display_true = {True: "True", False: ""}
+    df[f"Efficient @{MAX_LEVEL}"] = df["is_efficient_max_level"].map(display_true)
+    df[f"Efficient @{MAX_LEVEL+1}"] = df["is_efficient_best_buddy"].map(display_true)
 
     # add r1 cmp
     rank1_attack = df.at[rank_indices[0], "level_attack"]
@@ -272,7 +280,6 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
                 "pct_max_stats_product": "Pct Max Stats",
                 "bulk_prod": "Bulk Prod",
                 "rank_bulk": "Rank Bulk",
-                # "is_efficient" "Efficient":
                 "notes": "Notes",
                 "r1_cmp": "R1 CMP",
                 "regular_xl_candy_total": "Regular XLs",
@@ -298,7 +305,8 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
                 "Atk",
                 "Def",
                 "HP",
-                "Efficient",
+                f"Efficient @{MAX_LEVEL}",
+                f"Efficient @{MAX_LEVEL+1}",
                 "Notes",
                 "Input",
                 "Regular XLs",
@@ -313,7 +321,8 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
                 "is_max_attack",
                 "is_max_defense",
                 "is_max_stamina",
-                "is_efficient",
+                "is_efficient_max_level",
+                "is_efficient_best_buddy",
             ]
         ]
     )
@@ -351,9 +360,13 @@ def app(**kwargs):
         st.title("Pokemon League Stats")
 
         # inputs
-        selected_league = st.selectbox(
-            "Select a league", ["Little", "Great", "Ultra", "Master"], 1
-        ).lower()
+        leagues = ["Little", "Great", "Ultra", "Master"]
+        default_league = kwargs.get("league", ["Great"])[0]
+        default_league_idx = (
+            1 if default_league not in leagues else leagues.index(default_league)
+        )
+        league = st.selectbox("Select a league", leagues, default_league_idx)
+
         default_pokemon = kwargs.get("pokemon", ["Swampert"])[0]
         default_pokemon_idx = (
             0 if default_pokemon not in pokemons else pokemons.index(default_pokemon)
@@ -454,14 +467,24 @@ def app(**kwargs):
 
         # ~~~FILTERS~~~
         st.markdown("Filters Options")
-        # show_only_efficient = st.checkbox("Only show efficient IVs", True)
-        filter_check_boxes = st.columns(2)
+        filter_check_boxes = st.columns(3)
         with filter_check_boxes[0]:
             default_filter_inputs = kwargs.get("filter_inputs", ["False"])[0] == "True"
-            filter_inputs = st.checkbox("Filter input IVs", default_filter_inputs)
+            filter_inputs = st.checkbox("Filter inputs", default_filter_inputs)
         with filter_check_boxes[1]:
-            default_only_efficient = kwargs.get("only_efficient", ["True"])[0] == "True"
-            only_efficient = st.checkbox("Only efficient", default_only_efficient)
+            default_efficient_max_level = (
+                kwargs.get("efficient_max_level", ["True"])[0] == "True"
+            )
+            efficient_max_level = st.checkbox(
+                f"Efficient@{MAX_LEVEL}", default_efficient_max_level
+            )
+        with filter_check_boxes[2]:
+            default_efficient_best_buddy = (
+                kwargs.get("efficient_best_buddy", ["False"])[0] == "True"
+            )
+            efficient_best_buddy = st.checkbox(
+                f"Efficient@{MAX_LEVEL+1}", default_efficient_best_buddy
+            )
 
         # min iv cols
         min_ivs_cols = st.columns(3)
@@ -552,12 +575,11 @@ def app(**kwargs):
         st.markdown("---")
 
     # main app
-    # st.text(input_ivs)
     st.subheader(pokemon)
     ivs = parse_ivs(input_ivs)
 
     # get df with all rows
-    df = get_league_pokemon_df(selected_league, pokemon, input_ivs)
+    df = get_league_pokemon_df(league, pokemon, input_ivs)
 
     # filter df based on options selected
     mask_t = pd.Series(True, df.index)
@@ -585,7 +607,8 @@ def app(**kwargs):
 
     # mask filter
     mask_filter = (
-        (df["is_efficient"] if only_efficient else mask_t)
+        (df["is_efficient_max_level"] if efficient_max_level else mask_t)
+        & (df["is_efficient_best_buddy"] if efficient_best_buddy else mask_t)
         & (df["IV Atk"] >= iv_atk_ge)
         & (df["IV Def"] >= iv_def_ge)
         & (df["IV HP"] >= iv_hp_ge)
@@ -679,7 +702,8 @@ def app(**kwargs):
         "is_max_attack",
         "is_max_defense",
         "is_max_stamina",
-        "is_efficient",
+        "is_efficient_max_level",
+        "is_efficient_best_buddy",
     ]
     gb.configure_columns(bool_cols, hide=True)
 
@@ -795,7 +819,6 @@ def app(**kwargs):
         ]
     )
 
-    # pvpoke_pre_text = f"{pokemon_txt},{moves_txt}"
     if len(selected_ivs) and len(fast_move) and len(charged_moves):
         pvpoke_text_lines = []
         for row in selected_ivs:
@@ -804,17 +827,17 @@ def app(**kwargs):
                 **pvpoke_text
             )
             pvpoke_text_lines.append(txt)
-
-        # print in chunks of 100 since pvpoke matrix only fits 100
-        pvpoke_lines_cols = st.columns([1,30])
+        pvpoke_lines_cols = st.columns([1, 30])
         with pvpoke_lines_cols[0]:
-            st.text("\n".join([str(i+1) for i in range(len(pvpoke_text_lines))]))
+            line_numbers = "\n".join([str(i + 1) for i in range(len(pvpoke_text_lines))])
+            st.code(line_numbers, language=None)
         with pvpoke_lines_cols[1]:
-            st.text("\n".join(pvpoke_text_lines))
+            st.code("\n".join(pvpoke_text_lines), language=None)
 
     # create sharable url
     with st.sidebar:
         params_list = [
+            "league",
             "pokemon",
             "input_ivs",
             "stats_rank",
@@ -834,7 +857,8 @@ def app(**kwargs):
             "iv_def_exact",
             "iv_hp_exact",
             "filter_inputs",
-            "only_efficient",
+            "efficient_max_level",
+            "efficient_best_buddy",
             "iv_atk_ge",
             "iv_def_ge",
             "iv_hp_ge",
