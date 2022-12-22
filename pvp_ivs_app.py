@@ -398,51 +398,54 @@ def app(**kwargs):
             )
 
         # level max stats / hundo ivs
-        show_level_and_hundo_cols = st.columns(2)
-        with show_level_and_hundo_cols[0]:
+        search_options_row1 = st.columns(3)
+        with search_options_row1[0]:
+            default_all_ivs = kwargs.get("all_ivs", ["False"])[0] == "True"
+            all_ivs = st.checkbox("All IVs", default_all_ivs)
+        with search_options_row1[1]:
             default_level_max_stats = (
                 kwargs.get("level_max_stats", ["False"])[0] == "True"
             )
-            level_max_stats = st.checkbox("Level max stats", default_level_max_stats)
-        with show_level_and_hundo_cols[1]:
+            level_max_stats = st.checkbox("Level Maxes", default_level_max_stats)
+        with search_options_row1[2]:
             default_show_100 = kwargs.get("show_100", ["False"])[0] == "True"
             show_100 = st.checkbox("15/15/15 IV", default_show_100)
 
         iv_stat_cols = ["Atk", "Def", "HP"]
 
         # max stat cols
-        show_max_stat_cols = st.columns(3)
-        with show_max_stat_cols[0]:
+        search_options_row2 = st.columns(3)
+        with search_options_row2[0]:
             default_max_atk = kwargs.get("max_atk", ["False"])[0] == "True"
             max_atk = st.checkbox("Max Atk", default_max_atk)
-        with show_max_stat_cols[1]:
+        with search_options_row2[1]:
             default_max_def = kwargs.get("max_def", ["False"])[0] == "True"
             max_def = st.checkbox("Max Def", default_max_def)
-        with show_max_stat_cols[2]:
+        with search_options_row2[2]:
             default_max_hp = kwargs.get("max_hp", ["False"])[0] == "True"
             max_hp = st.checkbox("Max HP", default_max_hp)
 
         # 15 iv cols
-        show_15_iv_cols = st.columns(3)
-        with show_15_iv_cols[0]:
+        search_options_row3 = st.columns(3)
+        with search_options_row3[0]:
             default_iv_atk_15 = kwargs.get("iv_atk_15", ["False"])[0] == "True"
             iv_atk_15 = st.checkbox("15 Atk IV", default_iv_atk_15)
-        with show_15_iv_cols[1]:
+        with search_options_row3[1]:
             default_iv_def_15 = kwargs.get("iv_def_15", ["False"])[0] == "True"
             iv_def_15 = st.checkbox("15 Def IV", default_iv_def_15)
-        with show_15_iv_cols[2]:
+        with search_options_row3[2]:
             default_iv_hp_15 = kwargs.get("iv_hp_15", ["False"])[0] == "True"
             iv_hp_15 = st.checkbox("15 HP IV", default_iv_hp_15)
 
         # 0 iv cols
-        show_0_iv_cols = st.columns(3)
-        with show_0_iv_cols[0]:
+        search_options_row4 = st.columns(3)
+        with search_options_row4[0]:
             default_iv_atk_0 = kwargs.get("iv_atk_0", ["False"])[0] == "True"
             iv_atk_0 = st.checkbox("0 Atk IV", default_iv_atk_0)
-        with show_0_iv_cols[1]:
+        with search_options_row4[1]:
             default_iv_def_0 = kwargs.get("iv_def_0", ["False"])[0] == "True"
             iv_def_0 = st.checkbox("0 Def IV", default_iv_def_0)
-        with show_0_iv_cols[2]:
+        with search_options_row4[2]:
             default_iv_hp_0 = kwargs.get("iv_hp_0", ["False"])[0] == "True"
             iv_hp_0 = st.checkbox("0 HP IV", default_iv_hp_0)
 
@@ -517,9 +520,9 @@ def app(**kwargs):
                 "Def Stat >=", min_value=0.0, max_value=9001.0, value=default_stats_def_ge
             )
         with min_stats_cols[2]:
-            default_stats_hp_ge = float(kwargs.get("stats_hp_ge", [0.0])[0])
+            default_stats_hp_ge = int(kwargs.get("stats_hp_ge", [0])[0])
             stats_hp_ge = st.number_input(
-                "HP Stat >=", min_value=0.0, max_value=9001.0, value=default_stats_hp_ge
+                "HP Stat >=", min_value=0, max_value=9001, value=default_stats_hp_ge
             )
 
         filter_level_cp = st.columns(3)
@@ -547,11 +550,11 @@ def app(**kwargs):
         default_show_individual_ivs = (
             kwargs.get("show_individual_ivs", ["False"])[0] == "True"
         )
+        default_show_prod_cols = kwargs.get("show_prod_cols", ["False"])[0] == "True"
+        show_prod_cols = st.checkbox("Show stats/bulk columns", default_show_prod_cols)
         show_individual_ivs = st.checkbox(
             "Show individual IV columns", default_show_individual_ivs
         )
-        default_show_bulk_cols = kwargs.get("show_bulk_cols", ["False"])[0] == "True"
-        show_bulk_cols = st.checkbox("Show bulk product columns", default_show_bulk_cols)
         st.markdown("Show XL costs")
 
         # xl cost cols
@@ -589,8 +592,9 @@ def app(**kwargs):
     mask_searched = (
         (df["Rank"] <= stats_rank)
         | (df["Rank Bulk"] <= bulk_rank)
-        | (df["is_max_iv"] if show_100 else mask_f)
+        | (mask_t if all_ivs else mask_f)
         | (df["is_level_max_stats"] if level_max_stats else mask_f)
+        | (df["is_max_iv"] if show_100 else mask_f)
         | (df["is_max_attack"] if max_atk else mask_f)
         | (df["is_max_defense"] if max_def else mask_f)
         | (df["is_max_stamina"] if max_hp else mask_f)
@@ -627,6 +631,22 @@ def app(**kwargs):
     # combining both and filtering
     mask = (mask_searched & mask_filter) | mask_inputs_with_filter
     df = df[mask].reset_index(drop=True)
+
+    # add after filters efficient col
+    stat_cols = ["Atk", "Def", "HP"]
+    df["is_efficient_filtered"] = get_pareto_efficient_stats(df[stat_cols].values)
+    display_true = {True: "True", False: ""}
+    df[f"Efficient @Filters"] = df["is_efficient_filtered"].map(display_true)
+
+    # set order of columns
+    df_col_order = (
+        "Rank,Level,CP,IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,Stats Prod,Bulk Prod,"
+        "Rank Bulk,Atk,Def,HP,Efficient @50,Efficient @51,Efficient @Filters,Notes,Input,"
+        "Regular XLs,Lucky XLs,Shadow XLs,Purified XLs"
+    ).split(",")
+    df = df[df_col_order]
+
+    # caption for results
     st.caption(
         "Results from "
         f"{mask_inputs.sum()} inputs, "
@@ -674,18 +694,19 @@ def app(**kwargs):
         "Stats Prod",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
+        hide=not show_prod_cols,
     )
     gb.configure_column(
         "Pct Max Stats",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
     )
-    gb.configure_column("Rank Bulk", hide=not show_bulk_cols)
+    gb.configure_column("Rank Bulk", hide=not show_prod_cols)
     gb.configure_column(
         "Bulk Prod",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
-        hide=not show_bulk_cols,
+        hide=not show_prod_cols,
     )
     gb.configure_column("Input", hide=not bool(ivs))
     gb.configure_columns("Regular XLs", hide=not show_xl_regular)
@@ -693,19 +714,6 @@ def app(**kwargs):
     gb.configure_columns("Shadow XLs", hide=not show_xl_shadow)
     gb.configure_columns("Purified XLs", hide=not show_xl_purified)
 
-    bool_cols = [
-        "is_max_iv",
-        "is_max_stats",
-        "is_max_bulk",
-        "is_level_max_stats",
-        "is_level_max_bulk",
-        "is_max_attack",
-        "is_max_defense",
-        "is_max_stamina",
-        "is_efficient_max_level",
-        "is_efficient_best_buddy",
-    ]
-    gb.configure_columns(bool_cols, hide=True)
 
     grid_options = gb.build()
     ivs_response = AgGrid(
@@ -842,6 +850,7 @@ def app(**kwargs):
             "input_ivs",
             "stats_rank",
             "bulk_rank",
+            "all_ivs",
             "level_max_stats",
             "show_100",
             "max_atk",
@@ -870,7 +879,7 @@ def app(**kwargs):
             "level_le",
             "show_cmp",
             "show_individual_ivs",
-            "show_bulk_cols",
+            "show_prod_cols",
             "show_xl_regular",
             "show_xl_lucky",
             "show_xl_shadow",
@@ -881,6 +890,62 @@ def app(**kwargs):
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
         st.markdown(f"[Share this output]({url})")
+        st.markdown("---")
+
+        # help strings
+        with st.expander("Help"):
+
+            # about the app
+            st.subheader("About this app.")
+            st.markdown(
+                "Hello there! I built this app to make it easier to search, filter, "
+                "compare, and sim IVs."
+            )
+
+            # searching and filtering
+            st.subheader("Searching and Filtering")
+            st.markdown(
+                "This app outputs IVs to a table in two steps:\n\n"
+                "1. Find all IVs that match inputs or search options\n"
+                "2. Exclude any IVs that don't match the filter options"
+            )
+
+            # efficient ivs example
+            example_efficient_url = get_query_params_url(
+                "league,pokemon,stats_rank,efficient_max_level,efficient_best_buddy".split(
+                    ","
+                ),
+                dict(
+                    league="Ultra",
+                    pokemon="Talonflame",
+                    stats_rank=25,
+                    efficient_max_level=False,
+                    efficient_best_buddy=False,
+                ),
+            )
+            st.subheader("Efficient IVs")
+            st.markdown(
+                "Efficient IVs are IVs that result in stats for a pokemon plus league "
+                "where no other IVs dominate in all 3 of attack, defense, and hp stats. "
+                "In masters league, 15/15/15 IVs are usually the only efficient IVs "
+                "(except in cases of the hp stat rounding which makes 15/15/14 equal) "
+                "since no other set of IVs are strictly superior. In little/great/ultra "
+                "leagues its harder to figure out which IVs are efficient, so filters "
+                "and columns are included here.\n"
+                f"* `Efficient @{MAX_LEVEL}` means IVs that are efficient when "
+                "excluding IVs that max out with best buddy levels\n"
+                f"* `Efficient @{MAX_LEVEL+1}` means IVs that are efficient when "
+                "including IVs that max out with best buddy levels. "
+                f"If a pokemon doesn't have any IVs that max out above {MAX_LEVEL}, "
+                f"then both @{MAX_LEVEL} and @{MAX_LEVEL+1} will be the same. "
+                f"[Ultra league Talonflame]({example_efficient_url}) provides a good "
+                "example of the difference between the two.\n"
+                "* The `Efficient @Filters` column indicates IVs that are efficient from "
+                "of all the IVs remaining in the output table (so after all searches + "
+                "filters have been applied). This can be useful for tasks like comparing "
+                "a ton of input IVs or pokemon with IV floors (e.g. 10+ for raids)."
+            )
+
         st.markdown("---")
 
 

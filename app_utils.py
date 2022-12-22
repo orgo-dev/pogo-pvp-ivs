@@ -25,16 +25,18 @@ def get_query_params_url(params_list, params_dict, **kwargs):
         **kwargs :
             Extra keyword args to add to the url
     """
-    # get the base url
-    base_url = str(
-        st_javascript("await fetch('').then(r => window.parent.location.href)")
-    ).split("?")[0]
-
     # get the url params
     url_params = {k: listify(params_dict[k])[0] for k in params_list}
     url_params.update(kwargs)
     url_params = parse_url_parameters(url_params)
     url_params_str = "&".join(f"{k}={v}" for k, v in url_params.items())
+
+    # get the base url
+    base_url = str(
+        st_javascript(
+            "await fetch('').then(r => window.parent.location.href)", key=url_params_str
+        )
+    ).split("?")[0]
 
     return f"{base_url}?{url_params_str}"
 
