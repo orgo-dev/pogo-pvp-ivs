@@ -58386,7 +58386,11 @@
         "chargedMoves": [
             "DRAGON_CLAW",
             "BLIZZARD",
-            "DRACO_METEOR"
+            "DRACO_METEOR",
+            "GLACIATE"
+        ],
+        "eliteMoves": [
+            "GLACIATE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -59128,7 +59132,11 @@
             "GYRO_BALL",
             "ENERGY_BALL",
             "SUPER_POWER",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "FRENZY_PLANT"
+        ],
+        "eliteMoves": [
+            "FRENZY_PLANT"
         ],
         "tags": [
             "starter"
@@ -68283,6 +68291,9 @@
                 13
             ]
         },
+        "tags": [
+            "legendary"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -68334,6 +68345,9 @@
                 13
             ]
         },
+        "tags": [
+            "legendary"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
