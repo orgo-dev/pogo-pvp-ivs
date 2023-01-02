@@ -544,9 +544,15 @@ def app(**kwargs):
         st.markdown("---")
 
         # ~~~ COLUMN OPTIONS ~~~
-        st.markdown("Column Options")
-        default_show_r1_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
-        show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_r1_cmp)
+        st.markdown("Output Options")
+        default_select_all_output_rows = (
+            kwargs.get("select_all_output_rows", ["False"])[0] == "True"
+        )
+        select_all_output_rows = st.checkbox(
+            "Select all output rows", default_select_all_output_rows
+        )
+        default_show_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
+        show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_cmp)
         default_show_individual_ivs = (
             kwargs.get("show_individual_ivs", ["False"])[0] == "True"
         )
@@ -656,8 +662,11 @@ def app(**kwargs):
     )
 
     # setup default preselected_ivs
-    input_ivs_rows = ",".join([str(i) for i in df[df["Input"] == "True"].index])
-    default_preselected_ivs = kwargs.get("preselected_ivs", [input_ivs_rows])[0]
+    if select_all_output_rows:
+        selected_output_rows = ",".join([str(i) for i in df.index])
+    else:
+        selected_output_rows = ",".join([str(i) for i in df[df["Input"] == "True"].index])
+    default_preselected_ivs = kwargs.get("preselected_ivs", [selected_output_rows])[0]
     default_preselected_ivs_ints = [
         int(i) for i in default_preselected_ivs.split(",") if i
     ]
@@ -713,7 +722,6 @@ def app(**kwargs):
     gb.configure_columns("Lucky XLs", hide=not show_xl_lucky)
     gb.configure_columns("Shadow XLs", hide=not show_xl_shadow)
     gb.configure_columns("Purified XLs", hide=not show_xl_purified)
-
 
     grid_options = gb.build()
     ivs_response = AgGrid(
@@ -877,6 +885,7 @@ def app(**kwargs):
             "min_cp",
             "level_ge",
             "level_le",
+            "select_all_output_rows",
             "show_cmp",
             "show_individual_ivs",
             "show_prod_cols",
