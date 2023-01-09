@@ -1,12 +1,4 @@
 import streamlit as st
-
-st.set_page_config(
-    page_title="Pogo PVP IVs",
-    page_icon="https://www.google.com/s2/favicons?domain=pokemongolive.com",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
 import math, re, sqlite3, pandas as pd, numpy as np
 from bisect import bisect
 from st_aggrid import (
@@ -17,9 +9,10 @@ from st_aggrid import (
     JsCode,
     ColumnsAutoSizeMode,
 )
-
-from app_utils import get_query_params_url
-from pvp_ivs_constants import (
+from app_utils import (
+    get_query_params_url,
+    get_poke_fast_moves,
+    get_poke_charged_moves,
     MAX_LEVEL,
     LEAGUE_CPS,
     IVS_ALL,
@@ -328,36 +321,12 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
     )
 
 
-def get_poke_fast_moves(pokemon):
-    return (
-        DF_POKEMON_FAST_MOVES.loc[pokemon]
-        .drop(["pokemon", "move_kind"], axis=1)
-        .reset_index(drop=True)
-    )
-
-
-def get_poke_charged_moves(pokemon):
-    return (
-        DF_POKEMON_CHARGED_MOVES.loc[pokemon]
-        .drop(["pokemon", "move_kind"], axis=1)
-        .reset_index(drop=True)
-    )
-
-
-def chunk_list(l, n):
-    "Chunk a list `l` into sizes of `n`."
-    for i in range(0, len(l), n):
-        yield l[i : i + n]
-
-
-def app(**kwargs):
+def app(app="GBL IV Stats", **kwargs):
 
     pokemons = list(ALL_POKEMON_STATS.keys())
 
     # get eligible pokemon
     with st.sidebar:
-
-        st.title("Pokemon League Stats")
 
         # inputs
         leagues = ["Little", "Great", "Ultra", "Master"]
@@ -714,7 +683,6 @@ def app(**kwargs):
     gb.configure_columns("Shadow XLs", hide=not show_xl_shadow)
     gb.configure_columns("Purified XLs", hide=not show_xl_purified)
 
-
     grid_options = gb.build()
     ivs_response = AgGrid(
         df,
@@ -845,6 +813,7 @@ def app(**kwargs):
     # create sharable url
     with st.sidebar:
         params_list = [
+            "app",
             "league",
             "pokemon",
             "input_ivs",
@@ -889,7 +858,7 @@ def app(**kwargs):
             "preselected_charged",
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
-        st.markdown(f"[Share this output]({url})")
+        st.markdown(f"[Share this app's output]({url})")
         st.markdown("---")
 
         # help strings
@@ -949,4 +918,5 @@ def app(**kwargs):
         st.markdown("---")
 
 
-app(**query_params)
+if __name__ == "__main__":
+    app(**query_params)
