@@ -36399,7 +36399,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 353,
@@ -38348,6 +38348,60 @@
             "id": "FAMILY_BAGON",
             "parent": "shelgon_shadow"
         }
+    },
+    {
+        "dex": 373,
+        "speciesName": "Salamence (Mega)",
+        "speciesId": "salamence_mega",
+        "baseStats": {
+            "atk": 310,
+            "def": 251,
+            "hp": 216
+        },
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "fastMoves": [
+            "BITE",
+            "DRAGON_TAIL",
+            "FIRE_FANG"
+        ],
+        "chargedMoves": [
+            "DRACO_METEOR",
+            "FIRE_BLAST",
+            "HYDRO_PUMP",
+            "OUTRAGE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4,
+                0,
+                13,
+                15
+            ],
+            "cp1500": [
+                10.5,
+                9,
+                15,
+                15
+            ],
+            "cp2500": [
+                18,
+                8,
+                8,
+                15
+            ]
+        },
+        "level25CP": 3220,
+        "tags": [
+            "shadoweligible",
+            "mega"
+        ],
+        "eliteMoves": [
+            "OUTRAGE"
+        ],
+        "released": false
     },
     {
         "dex": 374,
@@ -58183,7 +58237,11 @@
             "CRUNCH",
             "OVERHEAT",
             "DRACO_METEOR",
-            "STONE_EDGE"
+            "STONE_EDGE",
+            "FUSION_FLARE"
+        ],
+        "eliteMoves": [
+            "FUSION_FLARE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -58234,7 +58292,11 @@
             "OUTRAGE",
             "WILD_CHARGE",
             "FLASH_CANNON",
-            "CRUNCH"
+            "CRUNCH",
+            "FUSION_BOLT"
+        ],
+        "eliteMoves": [
+            "FUSION_BOLT"
         ],
         "defaultIVs": {
             "cp500": [

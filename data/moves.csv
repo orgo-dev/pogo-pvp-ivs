@@ -84,7 +84,7 @@ FROST_BREATH,Frost Breath,fast,ice,7,5,2,3.5,2.5,0,,,Heavy Damage,nan,,,nan,nan
 FRUSTRATION,Frustration,charged,normal,10,0,1,,,70,0.14,,High Energy,nan,,,nan,nan
 FURY_CUTTER,Fury Cutter,fast,bug,2,4,1,2.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 FUSION_BOLT,Fusion Bolt,charged,electric,90,0,1,,,45,2.0,,General,nan,,,nan,nan
-FUSION_FLARE,Fusion FLARE,charged,fire,90,0,1,,,45,2.0,,General,nan,,,nan,nan
+FUSION_FLARE,Fusion Flare,charged,fire,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 FUTURE_SIGHT,Future Sight,charged,psychic,120,0,1,,,65,1.85,,Nuke,nan,,,nan,nan
 GIGA_DRAIN,Giga Drain,charged,grass,50,0,1,,,80,0.62,,High Energy,nan,,,nan,nan
 GIGA_IMPACT,Giga Impact,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan

@@ -624,7 +624,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 351,castform_rainy,Castform (Rainy),139,139,172,"['water', 'none']","['TACKLE', 'WATER_GUN']","['HYDRO_PUMP', 'THUNDER', 'WEATHER_BALL_WATER']",nan,nan,5.0,75000,True,,nan,,nan
 351,castform_snowy,Castform (Snowy),139,139,172,"['ice', 'none']","['POWDER_SNOW', 'TACKLE']","['BLIZZARD', 'ICE_BEAM', 'WEATHER_BALL_ICE']",nan,nan,5.0,75000,True,,nan,,nan
 351,castform_sunny,Castform (Sunny),139,139,172,"['fire', 'none']","['EMBER', 'TACKLE']","['FIRE_BLAST', 'SOLAR_BEAM', 'WEATHER_BALL_FIRE']",nan,nan,5.0,75000,True,,nan,,nan
-352,kecleon,Kecleon,161,189,155,"['normal', 'none']","['LICK', 'SUCKER_PUNCH']","['AERIAL_ACE', 'FLAMETHROWER', 'FOUL_PLAY', 'ICE_BEAM', 'SHADOW_SNEAK', 'THUNDER']",nan,nan,5.0,75000,False,,nan,,nan
+352,kecleon,Kecleon,161,189,155,"['normal', 'none']","['LICK', 'SUCKER_PUNCH']","['AERIAL_ACE', 'FLAMETHROWER', 'FOUL_PLAY', 'ICE_BEAM', 'SHADOW_SNEAK', 'THUNDER']",nan,nan,5.0,75000,True,,nan,,nan
 353,shuppet,Shuppet,138,65,127,"['ghost', 'none']","['ASTONISH', 'FEINT_ATTACK']","['NIGHT_SHADE', 'OMINOUS_WIND', 'SHADOW_SNEAK', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SHUPPET,['banette'],,['shadoweligible']
 353,shuppet_shadow,Shuppet (Shadow),138,65,127,"['ghost', 'none']","['ASTONISH', 'FEINT_ATTACK']","['NIGHT_SHADE', 'OMINOUS_WIND', 'SHADOW_SNEAK', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_SHUPPET,['banette_shadow'],,['shadow']
 354,banette,Banette,218,126,162,"['ghost', 'none']","['HEX', 'SHADOW_CLAW']","['DAZZLING_GLEAM', 'SHADOW_BALL', 'THUNDER', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SHUPPET,nan,shuppet,['shadoweligible']
@@ -660,6 +660,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 372,shelgon_shadow,Shelgon (Shadow),172,155,163,"['dragon', 'none']","['DRAGON_BREATH', 'EMBER']","['DRAGON_PULSE', 'FLAMETHROWER', 'TWISTER', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_BAGON,['salamence_shadow'],bagon_shadow,['shadow']
 373,salamence,Salamence,277,168,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE', 'RETURN']",['OUTRAGE'],nan,5.0,75000,True,FAMILY_BAGON,nan,shelgon,['shadoweligible']
 373,salamence_shadow,Salamence (Shadow),277,168,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE', 'FRUSTRATION']",['OUTRAGE'],nan,5.0,75000,True,FAMILY_BAGON,nan,shelgon_shadow,['shadow']
+373,salamence_mega,Salamence (Mega),310,251,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE']",['OUTRAGE'],nan,,,False,,nan,,"['shadoweligible', 'mega']"
 374,beldum,Beldum,96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['STRUGGLE', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang'],,['shadoweligible']
 374,beldum_shadow,Beldum (Shadow),96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['STRUGGLE', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang_shadow'],,['shadow']
 375,metang,Metang,138,176,155,"['steel', 'psychic']","['METAL_CLAW', 'ZEN_HEADBUTT']","['GYRO_BALL', 'PSYCHIC', 'PSYSHOCK', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metagross'],beldum,['shadoweligible']
@@ -1022,8 +1023,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 641,tornadus_therian,Tornadus (Therian),238,189,188,"['flying', 'none']","['ASTONISH', 'GUST']","['HEAT_WAVE', 'PSYCHIC', 'FOCUS_BLAST', 'HURRICANE']",nan,nan,20.0,100000,True,,nan,,['legendary']
 642,thundurus_incarnate,Thundurus (Incarnate),266,164,188,"['electric', 'flying']","['ASTONISH', 'THUNDER_SHOCK']","['CRUNCH', 'THUNDER', 'BRICK_BREAK', 'THUNDER_PUNCH']",nan,nan,20.0,100000,True,,nan,,['legendary']
 642,thundurus_therian,Thundurus (Therian),295,161,188,"['electric', 'flying']","['BITE', 'VOLT_SWITCH']","['SLUDGE_WAVE', 'THUNDER', 'FOCUS_BLAST', 'THUNDERBOLT']",nan,nan,20.0,100000,True,,nan,,['legendary']
-643,reshiram,Reshiram,275,211,205,"['dragon', 'fire']","['DRAGON_BREATH', 'FIRE_FANG']","['CRUNCH', 'OVERHEAT', 'DRACO_METEOR', 'STONE_EDGE']",nan,nan,20.0,100000,True,,nan,,['legendary']
-644,zekrom,Zekrom,275,211,205,"['dragon', 'electric']","['DRAGON_BREATH', 'CHARGE_BEAM']","['OUTRAGE', 'WILD_CHARGE', 'FLASH_CANNON', 'CRUNCH']",nan,nan,20.0,100000,True,,nan,,['legendary']
+643,reshiram,Reshiram,275,211,205,"['dragon', 'fire']","['DRAGON_BREATH', 'FIRE_FANG']","['CRUNCH', 'OVERHEAT', 'DRACO_METEOR', 'STONE_EDGE', 'FUSION_FLARE']",['FUSION_FLARE'],nan,20.0,100000,True,,nan,,['legendary']
+644,zekrom,Zekrom,275,211,205,"['dragon', 'electric']","['DRAGON_BREATH', 'CHARGE_BEAM']","['OUTRAGE', 'WILD_CHARGE', 'FLASH_CANNON', 'CRUNCH', 'FUSION_BOLT']",['FUSION_BOLT'],nan,20.0,100000,True,,nan,,['legendary']
 645,landorus_incarnate,Landorus (Incarnate),261,182,205,"['ground', 'flying']","['MUD_SHOT', 'ROCK_THROW']","['EARTH_POWER', 'OUTRAGE', 'ROCK_SLIDE', 'FOCUS_BLAST']",nan,nan,20.0,100000,True,,nan,,['legendary']
 645,landorus_therian,Landorus (Therian),289,179,205,"['ground', 'flying']","['MUD_SHOT', 'EXTRASENSORY']","['EARTHQUAKE', 'STONE_EDGE', 'SUPER_POWER', 'BULLDOZE']",nan,nan,20.0,100000,True,,nan,,['legendary']
 646,kyurem,Kyurem,246,170,245,"['dragon', 'ice']","['DRAGON_BREATH', 'STEEL_WING']","['DRAGON_CLAW', 'BLIZZARD', 'DRACO_METEOR', 'GLACIATE']",['GLACIATE'],nan,20.0,100000,True,,nan,,['legendary']
