@@ -186,11 +186,11 @@ def app(**kwargs):
 
     # create sharable url
     with st.sidebar:
-        params_list = ["app", "pokemon"]
+        params_list = ["app", "pokemon", "preselected_fast", "preselected_charged"]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
         st.markdown(f"[Share this app's output]({url})")
         st.markdown("---")
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     app(**query_params)
