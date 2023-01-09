@@ -2,7 +2,11 @@ import streamlit as st
 from st_keyup import st_keyup
 import math, re, sqlite3, pandas as pd, numpy as np
 from config import PATH_DATA
-from app_utils import get_query_params_url, DF_POKEMON_FAST_MOVES, DF_POKEMON_CHARGED_MOVES
+from app_utils import (
+    get_query_params_url,
+    DF_POKEMON_FAST_MOVES,
+    DF_POKEMON_CHARGED_MOVES,
+)
 
 
 @st.cache
@@ -107,30 +111,32 @@ def app(**kwargs):
 
     # sidebar for inputs
     with st.sidebar:
+        default_display_limit = 10
+        default_limit_outputs = kwargs.get("limit_outputs", ["True"])[0] == "True"
+        limit_outputs = st.checkbox(
+            f"Limit outputs to first {default_display_limit}, making app respond a little faster.",
+            default_limit_outputs,
+        )
+        display_limit = default_display_limit if limit_outputs else None
 
-        # real time filtering input
-        st.header("Enter text to filter pokemon.")
-        # st.caption("Letters only have to be typed in the right order to match.")
-        search_text = st_keyup("")
-        search_text_letters = "".join(filter(str.isalpha, search_text))
-        search_pattern = re.compile(".*".join(search_text_letters.lower()))
-        selected_pokemon = [p for p in all_pokemons if search_pattern.match(p.lower())]
+    # real time filtering input
+    st.markdown("Enter text to filter pokemon.")
+    search_text = st_keyup(label="", value="swamp")
+    search_text_letters = "".join(filter(str.isalpha, search_text))
+    search_pattern = re.compile(".*".join(search_text_letters.lower()))
+    selected_pokemon = [p for p in all_pokemons if search_pattern.match(p.lower())]
+    st.markdown("---")
 
     # display move counts for matching pokemon
-    for p in selected_pokemon:
+
+    for p in selected_pokemon[:display_limit]:
         pokemon_move_count_text = all_pokemons_move_counts.get(p)
         if pokemon_move_count_text:
             st.text(pokemon_move_count_text)
             st.markdown("---")
 
-
     # create sharable url
     with st.sidebar:
-        params_list = ["app"]
-        url = get_query_params_url(params_list, {**kwargs, **locals()})
-        st.markdown(f"[Share this app]({url})")
-        st.markdown("---")
-
         # help strings
         with st.expander("About this app"):
 
@@ -158,8 +164,12 @@ def app(**kwargs):
                 "fast moves are required for the first, second, and third charged move."
             )
 
+        # sharing app
+        params_list = ["app"]
+        url = get_query_params_url(params_list, {**kwargs, **locals()})
+        st.markdown(f"[Share this app]({url})")
         st.markdown("---")
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     app(**query_params)
