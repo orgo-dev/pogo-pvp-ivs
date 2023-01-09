@@ -131,6 +131,35 @@ def app(**kwargs):
         st.markdown(f"[Share this app]({url})")
         st.markdown("---")
 
+        # help strings
+        with st.expander("About this app"):
+
+            # about the app
+            st.markdown(
+                "Hello there! I built this app to make searching pokemon move counts "
+                "super fast and super simple."
+            )
+
+            # searching and filtering
+            st.subheader("Searching")
+            st.markdown(
+                "Simply just type text and pokemon with names matching the text "
+                "will be shown. The names will match as long as the characters "
+                "are in the right order. For example, if you type in `swmp`, you will "
+                "see results for `Swampert` since the letters appear in the same order "
+                "as they do in the name."
+            )
+
+            # searching and filtering
+            st.subheader("Outputs")
+            st.markdown(
+                "The outputs show fast moves along the top as columns and charged moves "
+                "along the bottom as rows. The numbers in each cell represent how many "
+                "fast moves are required for the first, second, and third charged move."
+            )
+
+        st.markdown("---")
+
 
 if __name__=="__main__":
     app(**query_params)
