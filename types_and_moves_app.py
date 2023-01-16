@@ -35,15 +35,11 @@ def app(**kwargs):
     pokemons = list(ALL_POKEMON_STATS.keys())
 
     # get eligible pokemon
-    with st.sidebar:
-        default_pokemon = kwargs.get("pokemon", ["Swampert"])[0]
-        default_pokemon_idx = (
-            0 if default_pokemon not in pokemons else pokemons.index(default_pokemon)
-        )
-        pokemon = st.selectbox("Select a Pokemon", pokemons, default_pokemon_idx)
-
-    # main app
-    st.subheader(pokemon)
+    default_pokemon = kwargs.get("pokemon", ["Swampert"])[0]
+    default_pokemon_idx = (
+        0 if default_pokemon not in pokemons else pokemons.index(default_pokemon)
+    )
+    pokemon = st.selectbox("Select a Pokemon", pokemons, default_pokemon_idx)
 
     # types display
     image_type = JsCode(
