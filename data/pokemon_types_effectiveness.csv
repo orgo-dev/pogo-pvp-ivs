@@ -12203,6 +12203,24 @@ Kyogre,ice,0.625
 Kyogre,dragon,1.0
 Kyogre,dark,1.0
 Kyogre,fairy,1.0
+Kyogre (Primal),normal,1.0
+Kyogre (Primal),fighting,1.0
+Kyogre (Primal),flying,1.0
+Kyogre (Primal),poison,1.0
+Kyogre (Primal),ground,1.0
+Kyogre (Primal),rock,1.0
+Kyogre (Primal),bug,1.0
+Kyogre (Primal),ghost,1.0
+Kyogre (Primal),steel,0.625
+Kyogre (Primal),fire,0.625
+Kyogre (Primal),water,0.625
+Kyogre (Primal),grass,1.6
+Kyogre (Primal),electric,1.6
+Kyogre (Primal),psychic,1.0
+Kyogre (Primal),ice,0.625
+Kyogre (Primal),dragon,1.0
+Kyogre (Primal),dark,1.0
+Kyogre (Primal),fairy,1.0
 Groudon,normal,1.0
 Groudon,fighting,1.0
 Groudon,flying,1.0
@@ -12221,6 +12239,24 @@ Groudon,ice,1.6
 Groudon,dragon,1.0
 Groudon,dark,1.0
 Groudon,fairy,1.0
+Groudon (Primal),normal,1.0
+Groudon (Primal),fighting,1.0
+Groudon (Primal),flying,1.0
+Groudon (Primal),poison,0.625
+Groudon (Primal),ground,1.6
+Groudon (Primal),rock,1.0
+Groudon (Primal),bug,0.625
+Groudon (Primal),ghost,1.0
+Groudon (Primal),steel,0.625
+Groudon (Primal),fire,0.625
+Groudon (Primal),water,2.56
+Groudon (Primal),grass,1.0
+Groudon (Primal),electric,0.391
+Groudon (Primal),psychic,1.0
+Groudon (Primal),ice,1.0
+Groudon (Primal),dragon,1.0
+Groudon (Primal),dark,1.0
+Groudon (Primal),fairy,0.625
 Rayquaza,normal,1.0
 Rayquaza,fighting,0.625
 Rayquaza,flying,1.0
