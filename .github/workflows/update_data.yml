@@ -2,7 +2,7 @@ name: update_data
 
 on:
   schedule:
-    - cron: '6 17 * * *' # runs at 23:00 UTC every day
+    - cron: '49 17 * * *' # runs at 23:00 UTC every day
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "update data" -a
+          git commit -m "update data"  || echo "No changes to commit"
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
