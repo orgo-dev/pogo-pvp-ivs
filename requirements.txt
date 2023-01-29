@@ -5,3 +5,4 @@ streamlit-aggrid==0.3.3
 streamlit-javascript==0.1.5
 pysqlite3==0.4.7
 streamlit-keyup==0.2.0
+fire==0.4.0
