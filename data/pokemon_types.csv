@@ -75,18 +75,18 @@ Rattata,normal
 Rattata,none
 Rattata (Alolan),dark
 Rattata (Alolan),normal
-Rattata (Alolan) (Shadow),dark
-Rattata (Alolan) (Shadow),normal
 Rattata (Shadow),normal
 Rattata (Shadow),none
+Rattata (Alolan) (Shadow),dark
+Rattata (Alolan) (Shadow),normal
 Raticate,normal
 Raticate,none
 Raticate (Alolan),dark
 Raticate (Alolan),normal
-Raticate (Alolan) (Shadow),dark
-Raticate (Alolan) (Shadow),normal
 Raticate (Shadow),normal
 Raticate (Shadow),none
+Raticate (Alolan) (Shadow),dark
+Raticate (Alolan) (Shadow),normal
 Spearow,normal
 Spearow,flying
 Fearow,normal
@@ -123,18 +123,18 @@ Sandshrew,ground
 Sandshrew,none
 Sandshrew (Alolan),ice
 Sandshrew (Alolan),steel
-Sandshrew (Alolan) (Shadow),ice
-Sandshrew (Alolan) (Shadow),steel
 Sandshrew (Shadow),ground
 Sandshrew (Shadow),none
+Sandshrew (Alolan) (Shadow),ice
+Sandshrew (Alolan) (Shadow),steel
 Sandslash,ground
 Sandslash,none
 Sandslash (Alolan),ice
 Sandslash (Alolan),steel
-Sandslash (Alolan) (Shadow),ice
-Sandslash (Alolan) (Shadow),steel
 Sandslash (Shadow),ground
 Sandslash (Shadow),none
+Sandslash (Alolan) (Shadow),ice
+Sandslash (Alolan) (Shadow),steel
 Nidoran Female,poison
 Nidoran Female,none
 Nidoran Female (Shadow),poison
@@ -169,12 +169,16 @@ Vulpix (Alolan),ice
 Vulpix (Alolan),none
 Vulpix (Shadow),fire
 Vulpix (Shadow),none
+Vulpix (Alolan) (Shadow),ice
+Vulpix (Alolan) (Shadow),none
 Ninetales,fire
 Ninetales,none
 Ninetales (Alolan),ice
 Ninetales (Alolan),fairy
 Ninetales (Shadow),fire
 Ninetales (Shadow),none
+Ninetales (Alolan) (Shadow),ice
+Ninetales (Alolan) (Shadow),fairy
 Jigglypuff,normal
 Jigglypuff,fairy
 Wigglytuff,normal
@@ -215,18 +219,18 @@ Diglett,ground
 Diglett,none
 Diglett (Alolan),ground
 Diglett (Alolan),steel
-Diglett (Alolan) (Shadow),ground
-Diglett (Alolan) (Shadow),steel
 Diglett (Shadow),ground
 Diglett (Shadow),none
+Diglett (Alolan) (Shadow),ground
+Diglett (Alolan) (Shadow),steel
 Dugtrio,ground
 Dugtrio,none
 Dugtrio (Alolan),ground
 Dugtrio (Alolan),steel
-Dugtrio (Alolan) (Shadow),ground
-Dugtrio (Alolan) (Shadow),steel
 Dugtrio (Shadow),ground
 Dugtrio (Shadow),none
+Dugtrio (Alolan) (Shadow),ground
+Dugtrio (Alolan) (Shadow),steel
 Meowth,normal
 Meowth,none
 Meowth (Alolan),dark
@@ -443,10 +447,10 @@ Exeggutor,grass
 Exeggutor,psychic
 Exeggutor (Alolan),grass
 Exeggutor (Alolan),dragon
-Exeggutor (Alolan) (Shadow),grass
-Exeggutor (Alolan) (Shadow),dragon
 Exeggutor (Shadow),grass
 Exeggutor (Shadow),psychic
+Exeggutor (Alolan) (Shadow),grass
+Exeggutor (Alolan) (Shadow),dragon
 Cubone,ground
 Cubone,none
 Cubone (Shadow),ground
@@ -455,10 +459,10 @@ Marowak,ground
 Marowak,none
 Marowak (Alolan),fire
 Marowak (Alolan),ghost
-Marowak (Alolan) (Shadow),fire
-Marowak (Alolan) (Shadow),ghost
 Marowak (Shadow),ground
 Marowak (Shadow),none
+Marowak (Alolan) (Shadow),fire
+Marowak (Alolan) (Shadow),ghost
 Hitmonlee,fighting
 Hitmonlee,none
 Hitmonlee (Shadow),fighting
@@ -1171,8 +1175,12 @@ Torkoal,fire
 Torkoal,none
 Spoink,psychic
 Spoink,none
+Spoink (Shadow),psychic
+Spoink (Shadow),none
 Grumpig,psychic
 Grumpig,none
+Grumpig (Shadow),psychic
+Grumpig (Shadow),none
 Spinda,normal
 Spinda,none
 Trapinch,ground
@@ -1319,10 +1327,10 @@ Shelgon (Shadow),dragon
 Shelgon (Shadow),none
 Salamence,dragon
 Salamence,flying
-Salamence (Shadow),dragon
-Salamence (Shadow),flying
 Salamence (Mega),dragon
 Salamence (Mega),flying
+Salamence (Shadow),dragon
+Salamence (Shadow),flying
 Beldum,steel
 Beldum,psychic
 Beldum (Shadow),steel
@@ -1341,6 +1349,8 @@ Regice,ice
 Regice,none
 Registeel,steel
 Registeel,none
+Registeel (Shadow),steel
+Registeel (Shadow),none
 Latias,dragon
 Latias,psychic
 Latias (Mega),dragon
@@ -1781,8 +1791,12 @@ Unfezant,normal
 Unfezant,flying
 Blitzle,electric
 Blitzle,none
+Blitzle (Shadow),electric
+Blitzle (Shadow),none
 Zebstrika,electric
 Zebstrika,none
+Zebstrika (Shadow),electric
+Zebstrika (Shadow),none
 Roggenrola,rock
 Roggenrola,none
 Boldore,rock
@@ -1945,8 +1959,12 @@ Alomomola,water
 Alomomola,none
 Joltik,bug
 Joltik,electric
+Joltik (Shadow),bug
+Joltik (Shadow),electric
 Galvantula,bug
 Galvantula,electric
+Galvantula (Shadow),bug
+Galvantula (Shadow),electric
 Ferroseed,grass
 Ferroseed,steel
 Ferrothorn,grass
