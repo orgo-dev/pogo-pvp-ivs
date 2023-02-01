@@ -2516,6 +2516,13 @@ Gardevoir,Psychic,charged,psychic,1.2,90,0,1,,,55.0,1.64,10.0% chance -1 Def opp
 Gardevoir,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Gardevoir,Shadow Ball,charged,ghost,1.0,100,0,1,,,55.0,1.82,,Nuke,
 Gardevoir,Synchronoise,charged,psychic,1.2,80,0,1,,,50.0,1.6,,General,elite
+Gardevoir (Mega),Charge Beam,fast,electric,1.0,5,11,3,1.67,3.67,,,,Fast Charge,
+Gardevoir (Mega),Charm,fast,fairy,1.2,15,6,3,5.0,2.0,,,,Heavy Damage,
+Gardevoir (Mega),Confusion,fast,psychic,1.2,16,12,4,4.0,3.0,,,,Multipurpose,
+Gardevoir (Mega),Dazzling Gleam,charged,fairy,1.2,110,0,1,,,70.0,1.57,,Nuke,
+Gardevoir (Mega),Psychic,charged,psychic,1.2,90,0,1,,,55.0,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
+Gardevoir (Mega),Shadow Ball,charged,ghost,1.0,100,0,1,,,55.0,1.82,,Nuke,
+Gardevoir (Mega),Synchronoise,charged,psychic,1.2,80,0,1,,,50.0,1.6,,General,elite
 Gardevoir (Shadow),Charge Beam,fast,electric,1.0,5,11,3,1.67,3.67,,,,Fast Charge,
 Gardevoir (Shadow),Charm,fast,fairy,1.2,15,6,3,5.0,2.0,,,,Heavy Damage,
 Gardevoir (Shadow),Confusion,fast,psychic,1.2,16,12,4,4.0,3.0,,,,Multipurpose,
