@@ -17,9 +17,10 @@ BITE,Bite,fast,dark,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
 BLAST_BURN,Blast Burn,charged,fire,110,0,1,,,50,2.2,,General,nan,,,nan,nan
 BLIZZARD,Blizzard,charged,ice,140,0,1,,,75,1.87,,Nuke,nan,,,nan,nan
 BODY_SLAM,Body Slam,charged,normal,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
+BOOMBURST,Boomburst (Speculative),charged,normal,150,0,1,,,75,2.0,,Nuke,nan,,,nan,nan
 BONE_CLUB,Bone Club,charged,ground,40,0,1,,,35,1.14,,Spam/Bait,nan,,,nan,nan
 BRAVE_BIRD,Brave Bird,charged,flying,130,0,1,,,55,2.36,100% chance -3 Def self,Self-Debuff Nuke,"[0, -3]",self,1,nan,nan
-BREAKING_SWIPE,Breaking Swipe (Speculative),charged,dragon,50,0,1,,,40,1.25,100% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,1,nan,nan
+BREAKING_SWIPE,Breaking Swipe,charged,dragon,50,0,1,,,35,1.43,100% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,1,nan,nan
 BRICK_BREAK,Brick Break,charged,fighting,40,0,1,,,35,1.14,,Spam/Bait,nan,,,nan,nan
 BRUTAL_SWING,Brutal Swing,charged,dark,65,0,1,,,40,1.62,,General,nan,,,nan,nan
 BRINE,Brine,charged,water,60,0,1,,,50,1.2,,General,nan,,,nan,nan
