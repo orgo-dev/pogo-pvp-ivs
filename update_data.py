@@ -1,4 +1,5 @@
-import os, json, fire, requests, pathlib, collections, pandas as pd, numpy as np
+import os, json, fire, requests, pathlib, collections, datetime
+import pandas as pd, numpy as np
 from config import PATH_DATA
 
 
@@ -8,6 +9,7 @@ def main():
     df_pokemon_types = update_pokemon_types(df_pokemons)
     update_pokemon_types_effectiveness(df_pokemons, df_pokemon_types)
     update_pokemon_moves(df_pokemons, df_moves, df_pokemon_types)
+    updated_timestamp()
 
 
 def update_pokemon():
@@ -402,6 +404,14 @@ def parse_pokemon_move_notes(r):
         if r[f"{tag}_move_id"] is not np.nan:
             notes.append(tag)
     return ", ".join(notes) if notes else ""
+
+
+def updated_timestamp():
+    # rewrite the updated_timestamp.py module.  since the streamlit app imports this,
+    # module, modifiying it will cause streamlit to rerun the app when data is updated.
+    file_path = pathlib.Path(".") / "updated_timestamp.py"
+    with open(file_path, "w") as fp:
+        fp.write(f'"Updated {str(datetime.datetime.now(datetime.timezone.utc))}"\n')
 
 
 if __name__ == "__main__":

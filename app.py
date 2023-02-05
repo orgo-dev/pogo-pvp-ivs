@@ -10,6 +10,7 @@ st.set_page_config(
 from pvp_ivs_app import app as gbl_iv_stats
 from move_counts_app import app as move_counts
 from types_and_moves_app import app as types_and_moves
+import updated_timestamp  # hack to make sure streamlit reruns when data is updated
 
 # class for multipage drop down
 class MultiPage:

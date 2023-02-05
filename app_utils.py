@@ -1,5 +1,4 @@
-from streamlit_javascript import st_javascript
-import streamlit as st, pandas as pd
+import streamlit as st, pandas as pd, os
 from urllib.parse import quote_plus
 from config import PATH_DATA
 
@@ -18,8 +17,9 @@ IVS_ALL = [
 ]
 
 
-@st.cache
-def load_app_db_constants():
+@st.cache()
+def load_app_db_constants(s):
+    "Loads app data. Uses `s` as a check for new file sizes to skip cache."
 
     # pokemon stats
     df_pokes = pd.read_csv(f"{PATH_DATA}/pokemon.csv")
@@ -105,6 +105,14 @@ def load_app_db_constants():
         DF_POKEMON_TYPE_EFFECTIVENESS,
     )
 
+# get data files and sizes to skip cache lookup if any changed
+_data_file_sizes = ",".join(
+    [
+        f"{fnm}:{os.path.getsize(os.path.join(path, fnm))}"
+        for path, _, fnms in os.walk("data")
+        for fnm in sorted(fnms)
+    ]
+)
 
 (
     ALL_POKEMON_STATS,
@@ -116,7 +124,7 @@ def load_app_db_constants():
     DF_POKEMON_CHARGED_MOVES,
     DF_POKEMON_TYPES,
     DF_POKEMON_TYPE_EFFECTIVENESS,
-) = load_app_db_constants()
+_) = load_app_db_constants(data_file_sizes)
 
 
 def get_poke_fast_moves(pokemon):
