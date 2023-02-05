@@ -3191,6 +3191,7 @@ Noctowl,Sky Attack,charged,flying,1.2,75,45,1.67,,General,
 Noibat,Air Cutter,charged,flying,1.2,60,55,1.09,,High Energy,
 Noibat,Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Noibat,Heat Wave,charged,fire,1.0,95,75,1.27,,High Energy,
+Noivern,Boomburst,charged,normal,1.0,150,75,2.0,,Nuke,elite
 Noivern,Draco Meteor,charged,dragon,1.2,150,65,2.31,100% chance -2 Atk self,Self-Debuff Nuke,
 Noivern,Heat Wave,charged,fire,1.0,95,75,1.27,,High Energy,
 Noivern,Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,

@@ -1124,7 +1124,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 713,avalugg,Avalugg,196,240,216,"['ice', 'none']","['BITE', 'ICE_FANG']","['CRUNCH', 'AVALANCHE', 'EARTHQUAKE', 'BODY_SLAM', 'MIRROR_COAT']",nan,nan,3.0,50000,True,FAMILY_BERGMITE,nan,bergmite,nan
 713,avalugg_hisuian,Avalugg (Hisuian),214,238,216,"['ice', 'rock']","['BITE', 'TACKLE', 'POWDER_SNOW']","['CRUNCH', 'ROCK_SLIDE', 'BLIZZARD']",nan,nan,3.0,50000,True,FAMILY_BERGMITE,nan,bergmite,['hisuian']
 714,noibat,Noibat,83,73,120,"['flying', 'dragon']","['WING_ATTACK', 'BITE']","['DRAGON_PULSE', 'AIR_CUTTER', 'HEAT_WAVE']",nan,nan,5.0,75000,True,FAMILY_NOIBAT,['noivern'],,nan
-715,noivern,Noivern,205,175,198,"['flying', 'dragon']","['AIR_SLASH', 'BITE']","['DRACO_METEOR', 'HURRICANE', 'HEAT_WAVE', 'PSYCHIC']",nan,nan,5.0,75000,True,FAMILY_NOIBAT,nan,noibat,nan
+715,noivern,Noivern,205,175,198,"['flying', 'dragon']","['AIR_SLASH', 'BITE']","['DRACO_METEOR', 'HURRICANE', 'HEAT_WAVE', 'PSYCHIC', 'BOOMBURST']",['BOOMBURST'],nan,5.0,75000,True,FAMILY_NOIBAT,nan,noibat,nan
 716,xerneas,Xerneas,250,185,246,"['fairy', 'none']","['TACKLE', 'ZEN_HEADBUTT']","['MOONBLAST', 'MEGAHORN', 'CLOSE_COMBAT', 'GIGA_IMPACT', 'THUNDER']",nan,nan,20.0,100000,True,,nan,,['legendary']
 717,yveltal,Yveltal,250,185,246,"['dark', 'flying']","['SUCKER_PUNCH', 'SNARL', 'GUST']","['DARK_PULSE', 'HURRICANE', 'FOCUS_BLAST', 'HYPER_BEAM', 'PSYCHIC']",nan,nan,20.0,100000,True,,nan,,['legendary']
 718,zygarde,Zygarde,203,232,239,"['dragon', 'ground']","['DRAGON_TAIL', 'BITE', 'ZEN_HEADBUTT']","['OUTRAGE', 'EARTHQUAKE', 'CRUNCH', 'HYPER_BEAM', 'BULLDOZE']",nan,nan,20.0,100000,False,,nan,,['legendary']

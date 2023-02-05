@@ -63772,7 +63772,11 @@
             "DRACO_METEOR",
             "HURRICANE",
             "HEAT_WAVE",
-            "PSYCHIC"
+            "PSYCHIC",
+            "BOOMBURST"
+        ],
+        "eliteMoves": [
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [

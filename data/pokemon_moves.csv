@@ -5123,6 +5123,7 @@ Noibat,Dragon Pulse,charged,dragon,1.2,90,0,1,,,60.0,1.5,,High Energy,
 Noibat,Heat Wave,charged,fire,1.0,95,0,1,,,75.0,1.27,,High Energy,
 Noivern,Air Slash,fast,flying,1.2,9,9,3,3.0,3.0,,,,General,
 Noivern,Bite,fast,dark,1.0,4,2,1,4.0,2.0,,,,Heavy Damage,
+Noivern,Boomburst,charged,normal,1.0,150,0,1,,,75.0,2.0,,Nuke,elite
 Noivern,Draco Meteor,charged,dragon,1.2,150,0,1,,,65.0,2.31,100% chance -2 Atk self,Self-Debuff Nuke,
 Noivern,Heat Wave,charged,fire,1.0,95,0,1,,,75.0,1.27,,High Energy,
 Noivern,Hurricane,charged,flying,1.2,110,0,1,,,65.0,1.69,,Nuke,
