@@ -124,7 +124,7 @@ _data_file_sizes = ",".join(
     DF_POKEMON_CHARGED_MOVES,
     DF_POKEMON_TYPES,
     DF_POKEMON_TYPE_EFFECTIVENESS,
-_) = load_app_db_constants(data_file_sizes)
+_) = load_app_db_constants(_data_file_sizes)
 
 
 def get_poke_fast_moves(pokemon):
