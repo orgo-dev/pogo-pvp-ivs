@@ -4,12 +4,13 @@ from config import PATH_DATA
 
 
 def main():
+    data_file_sizes = get_data_file_sizes()
     df_pokemons = update_pokemon()
     df_moves = update_moves()
     df_pokemon_types = update_pokemon_types(df_pokemons)
     update_pokemon_types_effectiveness(df_pokemons, df_pokemon_types)
     update_pokemon_moves(df_pokemons, df_moves, df_pokemon_types)
-    updated_timestamp()
+    updated_timestamp(data_file_sizes)
 
 
 def update_pokemon():
@@ -406,12 +407,28 @@ def parse_pokemon_move_notes(r):
     return ", ".join(notes) if notes else ""
 
 
-def updated_timestamp():
-    # rewrite the updated_timestamp.py module.  since the streamlit app imports this,
-    # module, modifiying it will cause streamlit to rerun the app when data is updated.
-    file_path = pathlib.Path(".") / "updated_timestamp.py"
-    with open(file_path, "w") as fp:
-        fp.write(f'"Updated {str(datetime.datetime.now(datetime.timezone.utc))}"\n')
+def get_data_file_sizes():
+    return ",".join(
+        [
+            f"{fnm}:{os.path.getsize(os.path.join(path, fnm))}"
+            for path, _, fnms in os.walk("data")
+            for fnm in sorted(fnms)
+        ]
+    )
+
+
+def updated_timestamp(previous_data_file_sizes):
+    """
+    Rewrites the updated_timestamp.py module with an updated time stamp if data
+    files are updated.  This is done so that the deployed streamlit app will
+    update since app.py imports the updated file and streamlit watches for file
+    changes of dependent modules.
+    """
+    new_data_file_sizes = get_data_file_sizes()
+    if new_data_file_sizes != previous_data_file_sizes:
+        file_path = pathlib.Path(".") / "updated_timestamp.py"
+        with open(file_path, "w") as fp:
+            fp.write(f'"Updated {str(datetime.datetime.now(datetime.timezone.utc))}"\n')
 
 
 if __name__ == "__main__":
