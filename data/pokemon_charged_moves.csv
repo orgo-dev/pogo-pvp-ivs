@@ -1649,6 +1649,7 @@ Giratina (Altered),Shadow Sneak,charged,ghost,1.2,50,45,1.11,,General,
 Giratina (Origin),Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Giratina (Origin),Ominous Wind,charged,ghost,1.2,45,45,1.0,10.0% chance +1 Atk +1 Def self,Boost,
 Giratina (Origin),Shadow Ball,charged,ghost,1.2,100,55,1.82,,Nuke,
+Giratina (Origin),Shadow Force,charged,ghost,1.2,120,90,1.33,,Nuke,elite
 Glaceon,Avalanche,charged,ice,1.2,90,45,2.0,,General,
 Glaceon,Ice Beam,charged,ice,1.2,90,55,1.64,,High Energy,
 Glaceon,Icy Wind,charged,ice,1.2,60,45,1.33,100% chance -1 Atk opponent,Debuff,

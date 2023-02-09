@@ -48371,7 +48371,11 @@
         "chargedMoves": [
             "OMINOUS_WIND",
             "DRAGON_PULSE",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "SHADOW_FORCE"
+        ],
+        "eliteMoves": [
+            "SHADOW_FORCE"
         ],
         "tags": [
             "legendary"

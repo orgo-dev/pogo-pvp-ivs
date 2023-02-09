@@ -2667,6 +2667,7 @@ Giratina (Origin),Shadow Claw,fast,ghost,1.2,6,8,2,3.0,4.0,,,,Multipurpose,
 Giratina (Origin),Dragon Pulse,charged,dragon,1.2,90,0,1,,,60.0,1.5,,High Energy,
 Giratina (Origin),Ominous Wind,charged,ghost,1.2,45,0,1,,,45.0,1.0,10.0% chance +1 Atk +1 Def self,Boost,
 Giratina (Origin),Shadow Ball,charged,ghost,1.2,100,0,1,,,55.0,1.82,,Nuke,
+Giratina (Origin),Shadow Force,charged,ghost,1.2,120,0,1,,,90.0,1.33,,Nuke,elite
 Glaceon,Frost Breath,fast,ice,1.2,7,5,2,3.5,2.5,,,,Heavy Damage,
 Glaceon,Ice Shard,fast,ice,1.2,9,10,3,3.0,3.33,,,,General,
 Glaceon,Avalanche,charged,ice,1.2,90,0,1,,,45.0,2.0,,General,
