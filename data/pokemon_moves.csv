@@ -2992,12 +2992,14 @@ Groudon,Mud Shot,fast,ground,1.2,3,9,2,1.5,4.5,,,,Fast Charge,
 Groudon,Earthquake,charged,ground,1.2,120,0,1,,,65.0,1.85,,Nuke,
 Groudon,Fire Blast,charged,fire,1.0,140,0,1,,,80.0,1.75,,Nuke,
 Groudon,Fire Punch,charged,fire,1.0,55,0,1,,,40.0,1.38,,Spam/Bait,elite
+Groudon,Precipice Blades,charged,ground,1.2,130,0,1,,,60.0,2.17,,Nuke,elite
 Groudon,Solar Beam,charged,grass,1.0,150,0,1,,,80.0,1.88,,Nuke,
 Groudon (Primal),Dragon Tail,fast,dragon,1.0,13,9,3,4.33,3.0,,,,Multipurpose,
 Groudon (Primal),Mud Shot,fast,ground,1.2,3,9,2,1.5,4.5,,,,Fast Charge,
 Groudon (Primal),Earthquake,charged,ground,1.2,120,0,1,,,65.0,1.85,,Nuke,
 Groudon (Primal),Fire Blast,charged,fire,1.2,140,0,1,,,80.0,1.75,,Nuke,
 Groudon (Primal),Fire Punch,charged,fire,1.2,55,0,1,,,40.0,1.38,,Spam/Bait,elite
+Groudon (Primal),Precipice Blades,charged,ground,1.2,130,0,1,,,60.0,2.17,,Nuke,elite
 Groudon (Primal),Solar Beam,charged,grass,1.0,150,0,1,,,80.0,1.88,,Nuke,
 Grovyle,Bullet Seed,fast,grass,1.2,5,13,3,1.67,4.33,,,,Fast Charge,
 Grovyle,Quick Attack,fast,normal,1.0,5,8,2,2.5,4.0,,,,Fast Charge,
@@ -3760,11 +3762,13 @@ Kubfu,Dynamic Punch,charged,fighting,1.2,90,0,1,,,50.0,1.8,,General,
 Kyogre,Waterfall,fast,water,1.2,12,8,3,4.0,2.67,,,,Heavy Damage,
 Kyogre,Blizzard,charged,ice,1.0,140,0,1,,,75.0,1.87,,Nuke,
 Kyogre,Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
+Kyogre,Origin Pulse,charged,water,1.2,130,0,1,,,60.0,2.17,,Nuke,elite
 Kyogre,Surf,charged,water,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
 Kyogre,Thunder,charged,electric,1.0,100,0,1,,,60.0,1.67,,High Energy,
 Kyogre (Primal),Waterfall,fast,water,1.2,12,8,3,4.0,2.67,,,,Heavy Damage,
 Kyogre (Primal),Blizzard,charged,ice,1.0,140,0,1,,,75.0,1.87,,Nuke,
 Kyogre (Primal),Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
+Kyogre (Primal),Origin Pulse,charged,water,1.2,130,0,1,,,60.0,2.17,,Nuke,elite
 Kyogre (Primal),Surf,charged,water,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
 Kyogre (Primal),Thunder,charged,electric,1.0,100,0,1,,,60.0,1.67,,High Energy,
 Kyurem,Dragon Breath,fast,dragon,1.2,4,3,1,4.0,3.0,,,,Multipurpose,

@@ -39626,7 +39626,11 @@
             "BLIZZARD",
             "HYDRO_PUMP",
             "THUNDER",
-            "SURF"
+            "SURF",
+            "ORIGIN_PULSE"
+        ],
+        "eliteMoves": [
+            "ORIGIN_PULSE"
         ],
         "tags": [
             "legendary"
@@ -39676,7 +39680,11 @@
             "BLIZZARD",
             "HYDRO_PUMP",
             "THUNDER",
-            "SURF"
+            "SURF",
+            "ORIGIN_PULSE"
+        ],
+        "eliteMoves": [
+            "ORIGIN_PULSE"
         ],
         "tags": [
             "legendary",
@@ -39705,7 +39713,7 @@
         "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 383,
@@ -39728,6 +39736,11 @@
             "EARTHQUAKE",
             "FIRE_BLAST",
             "SOLAR_BEAM",
+            "FIRE_PUNCH",
+            "PRECIPICE_BLADES"
+        ],
+        "eliteMoves": [
+            "PRECIPICE_BLADES",
             "FIRE_PUNCH"
         ],
         "tags": [
@@ -39753,9 +39766,6 @@
                 7
             ]
         },
-        "eliteMoves": [
-            "FIRE_PUNCH"
-        ],
         "searchPriority": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -39782,6 +39792,11 @@
             "EARTHQUAKE",
             "FIRE_BLAST",
             "SOLAR_BEAM",
+            "FIRE_PUNCH",
+            "PRECIPICE_BLADES"
+        ],
+        "eliteMoves": [
+            "PRECIPICE_BLADES",
             "FIRE_PUNCH"
         ],
         "tags": [
@@ -39808,13 +39823,10 @@
                 13
             ]
         },
-        "eliteMoves": [
-            "FIRE_PUNCH"
-        ],
         "searchPriority": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 384,
