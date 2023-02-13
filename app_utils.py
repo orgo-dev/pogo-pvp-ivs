@@ -125,7 +125,7 @@ _data_file_sizes = get_data_file_sizes()
 
 def get_poke_fast_moves(pokemon):
     return (
-        DF_POKEMON_FAST_MOVES.loc[pokemon]
+        DF_POKEMON_FAST_MOVES.loc[[pokemon]]
         .drop(["pokemon", "move_kind"], axis=1)
         .reset_index(drop=True)
     )
@@ -133,7 +133,7 @@ def get_poke_fast_moves(pokemon):
 
 def get_poke_charged_moves(pokemon):
     return (
-        DF_POKEMON_CHARGED_MOVES.loc[pokemon]
+        DF_POKEMON_CHARGED_MOVES.loc[[pokemon]]
         .drop(["pokemon", "move_kind"], axis=1)
         .reset_index(drop=True)
     )
