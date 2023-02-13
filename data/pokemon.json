@@ -8627,6 +8627,8 @@
             "DAZZLING_GLEAM",
             "PSYCHIC"
         ],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
         "released": true
     },
     {
@@ -24352,7 +24354,9 @@
             "mega"
         ],
         "level25CP": 2581,
-        "released": "true",
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
         "family": {
             "id": "FAMILY_SCYTHER",
             "parent": "scyther"
@@ -30772,6 +30776,62 @@
     },
     {
         "dex": 282,
+        "speciesName": "Gardevoir (Mega)",
+        "speciesId": "gardevoir_mega",
+        "baseStats": {
+            "atk": 326,
+            "def": 229,
+            "hp": 169
+        },
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "fastMoves": [
+            "CHARGE_BEAM",
+            "CONFUSION",
+            "CHARM"
+        ],
+        "chargedMoves": [
+            "DAZZLING_GLEAM",
+            "PSYCHIC",
+            "SHADOW_BALL",
+            "SYNCHRONOISE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4,
+                15,
+                15,
+                15
+            ],
+            "cp1500": [
+                12,
+                11,
+                8,
+                13
+            ],
+            "cp2500": [
+                19.5,
+                15,
+                15,
+                13
+            ]
+        },
+        "tags": [
+            "shadoweligible",
+            "mega"
+        ],
+        "eliteMoves": [
+            "SYNCHRONOISE"
+        ],
+        "level25CP": 2861,
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true
+    },
+    {
+        "dex": 282,
         "speciesName": "Gardevoir (Shadow)",
         "speciesId": "gardevoir_shadow",
         "baseStats": {
@@ -30827,60 +30887,6 @@
             "id": "FAMILY_RALTS",
             "parent": "kirlia_shadow"
         }
-    },
-    {
-        "dex": 282,
-        "speciesName": "Gardevoir (Mega)",
-        "speciesId": "gardevoir_mega",
-        "baseStats": {
-            "atk": 326,
-            "def": 229,
-            "hp": 169
-        },
-        "types": [
-            "psychic",
-            "fairy"
-        ],
-        "fastMoves": [
-            "CHARGE_BEAM",
-            "CONFUSION",
-            "CHARM"
-        ],
-        "chargedMoves": [
-            "DAZZLING_GLEAM",
-            "PSYCHIC",
-            "SHADOW_BALL",
-            "SYNCHRONOISE"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                4,
-                15,
-                15,
-                15
-            ],
-            "cp1500": [
-                12,
-                11,
-                8,
-                13
-            ],
-            "cp2500": [
-                19.5,
-                15,
-                15,
-                13
-            ]
-        },
-        "tags": [
-            "shadoweligible",
-            "mega"
-        ],
-        "eliteMoves": [
-            "SYNCHRONOISE"
-        ],
-        "level25CP": 2861,
-        "released": true
     },
     {
         "dex": 283,
@@ -32782,6 +32788,7 @@
             "METEOR_BEAM"
         ],
         "tags": [
+            "shadoweligible",
             "mega"
         ],
         "defaultIVs": {
@@ -32804,7 +32811,10 @@
                 13
             ]
         },
-        "released": "true"
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "level25CP": 2629
     },
     {
         "dex": 306,
@@ -33172,6 +33182,7 @@
             "PSYCHIC_FANGS"
         ],
         "tags": [
+            "shadoweligible",
             "mega"
         ],
         "defaultIVs": {
@@ -33200,7 +33211,8 @@
         "family": {
             "id": "FAMILY_ELECTRIKE",
             "parent": "electrike"
-        }
+        },
+        "level25CP": 2238
     },
     {
         "dex": 310,
@@ -36921,6 +36933,8 @@
             ]
         },
         "level25CP": 2240,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
         "tags": [
             "shadoweligible",
             "mega"
@@ -37432,6 +37446,7 @@
         },
         "level25CP": 1534,
         "tags": [
+            "shadoweligible",
             "mega"
         ],
         "buddyDistance": 5,
@@ -38649,6 +38664,8 @@
         "eliteMoves": [
             "OUTRAGE"
         ],
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
         "released": true
     },
     {
@@ -39362,6 +39379,7 @@
         ],
         "tags": [
             "legendary",
+            "shadoweligible",
             "mega"
         ],
         "defaultIVs": {
@@ -39386,7 +39404,8 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "level25CP": 3062
     },
     {
         "dex": 380,
@@ -39526,6 +39545,7 @@
         ],
         "tags": [
             "legendary",
+            "shadoweligible",
             "mega"
         ],
         "defaultIVs": {
@@ -39550,7 +39570,8 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "level25CP": 3198
     },
     {
         "dex": 381,
