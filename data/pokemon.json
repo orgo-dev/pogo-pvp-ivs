@@ -39686,9 +39686,9 @@
         "speciesName": "Kyogre (Primal)",
         "speciesId": "kyogre_primal",
         "baseStats": {
-            "atk": 331,
-            "def": 251,
-            "hp": 205
+            "atk": 353,
+            "def": 268,
+            "hp": 218
         },
         "types": [
             "water",
@@ -39714,21 +39714,21 @@
         "defaultIVs": {
             "cp500": [
                 3.5,
-                15,
-                11,
-                15
+                4,
+                9,
+                7
             ],
             "cp1500": [
-                10.5,
-                6,
-                8,
-                13
+                9,
+                10,
+                15,
+                15
             ],
             "cp2500": [
-                17,
-                11,
-                15,
-                13
+                15.5,
+                4,
+                13,
+                9
             ]
         },
         "searchPriority": 10,
@@ -39797,9 +39797,9 @@
         "speciesName": "Groudon (Primal)",
         "speciesId": "groudon_primal",
         "baseStats": {
-            "atk": 331,
-            "def": 251,
-            "hp": 205
+            "atk": 353,
+            "def": 268,
+            "hp": 218
         },
         "types": [
             "fire",
@@ -39827,21 +39827,21 @@
         "defaultIVs": {
             "cp500": [
                 3.5,
-                15,
-                11,
-                15
+                4,
+                9,
+                7
             ],
             "cp1500": [
-                10.5,
-                6,
-                8,
-                13
+                9,
+                10,
+                15,
+                15
             ],
             "cp2500": [
-                17,
-                11,
-                15,
-                13
+                15.5,
+                4,
+                13,
+                9
             ]
         },
         "searchPriority": 20,
@@ -39870,10 +39870,12 @@
             "AERIAL_ACE",
             "ANCIENT_POWER",
             "OUTRAGE",
-            "HURRICANE"
+            "HURRICANE",
+            "BREAKING_SWIPE"
         ],
         "eliteMoves": [
-            "HURRICANE"
+            "HURRICANE",
+            "BREAKING_SWIPE"
         ],
         "tags": [
             "legendary"
