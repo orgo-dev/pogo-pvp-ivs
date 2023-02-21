@@ -10,18 +10,19 @@ from st_aggrid import (
     JsCode,
     ColumnsAutoSizeMode,
 )
-
 from app_utils import (
     get_query_params_url,
     get_poke_fast_moves,
     get_poke_charged_moves,
-    ALL_POKEMON_STATS,
-    DF_POKEMON_TYPES,
-    DF_POKEMON_TYPE_EFFECTIVENESS,
+    load_app_db_constants,
 )
 
 
-def get_poke_types_dfs(pokemon):
+def get_poke_types_dfs(
+    pokemon,
+    DF_POKEMON_TYPES,
+    DF_POKEMON_TYPE_EFFECTIVENESS,
+):
     types_poke = DF_POKEMON_TYPES.loc[pokemon].reset_index(drop=True)
     types_poke = types_poke[types_poke["Type"] != "none"]
     df = DF_POKEMON_TYPE_EFFECTIVENESS.loc[pokemon]
@@ -31,6 +32,16 @@ def get_poke_types_dfs(pokemon):
 
 
 def app(**kwargs):
+    (
+        ALL_POKEMON_STATS,
+        CP_MULTS,
+        CP_COEF_PCTS,
+        DF_XL_COSTS,
+        DF_POKEMON_FAST_MOVES,
+        DF_POKEMON_CHARGED_MOVES,
+        DF_POKEMON_TYPES,
+        DF_POKEMON_TYPE_EFFECTIVENESS,
+    ) = load_app_db_constants()
 
     pokemons = list(ALL_POKEMON_STATS.keys())
 
@@ -54,7 +65,11 @@ def app(**kwargs):
     }"""
     )
 
-    types_poke, types_resist, types_weak = get_poke_types_dfs(pokemon)
+    types_poke, types_resist, types_weak = get_poke_types_dfs(
+        pokemon,
+        DF_POKEMON_TYPES,
+        DF_POKEMON_TYPE_EFFECTIVENESS,
+    )
     types_columns = st.columns(3)
     types_css = {
         ".ag-theme-streamlit-dark": {
@@ -120,7 +135,7 @@ def app(**kwargs):
     st.caption(
         "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
     )
-    df_fast = get_poke_fast_moves(pokemon)
+    df_fast = get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES)
     gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
 
     default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
@@ -147,7 +162,7 @@ def app(**kwargs):
 
     # charged moves
     st.caption("Charged moves (damage includes STAB bonus)")
-    df_charged = get_poke_charged_moves(pokemon)
+    df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
     if len(fast_move):
         df_charged["Count"] = (df_charged["Energy"] / fast_move[0]["Energy Gain"]).apply(
             math.ceil

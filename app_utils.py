@@ -1,6 +1,5 @@
 import streamlit as st, pandas as pd, os
 from urllib.parse import quote_plus
-from update_data import get_data_file_sizes
 from config import PATH_DATA
 
 MAX_LEVEL = 50
@@ -18,9 +17,9 @@ IVS_ALL = [
 ]
 
 
-@st.cache()
-def load_app_db_constants(s):
-    "Loads app data. Uses `s` as a check for new file sizes to skip cache."
+@st.cache_data(ttl=3600)
+def load_app_db_constants():
+    "Loads app data. Uses a 1 hour ttl to use updated data when available."
 
     # pokemon stats
     df_pokes = pd.read_csv(f"{PATH_DATA}/pokemon.csv")
@@ -107,23 +106,7 @@ def load_app_db_constants(s):
     )
 
 
-# get data files and sizes to skip cache lookup if any changed
-_data_file_sizes = get_data_file_sizes()
-
-(
-    ALL_POKEMON_STATS,
-    # LEVELS,
-    CP_MULTS,
-    CP_COEF_PCTS,
-    DF_XL_COSTS,
-    DF_POKEMON_FAST_MOVES,
-    DF_POKEMON_CHARGED_MOVES,
-    DF_POKEMON_TYPES,
-    DF_POKEMON_TYPE_EFFECTIVENESS,
-) = load_app_db_constants(_data_file_sizes)
-
-
-def get_poke_fast_moves(pokemon):
+def get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES):
     return (
         DF_POKEMON_FAST_MOVES.loc[[pokemon]]
         .drop(["pokemon", "move_kind"], axis=1)
@@ -131,7 +114,7 @@ def get_poke_fast_moves(pokemon):
     )
 
 
-def get_poke_charged_moves(pokemon):
+def get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES):
     return (
         DF_POKEMON_CHARGED_MOVES.loc[[pokemon]]
         .drop(["pokemon", "move_kind"], axis=1)

@@ -2,15 +2,11 @@ import streamlit as st
 from st_keyup import st_keyup
 import math, re, sqlite3, pandas as pd, numpy as np
 from config import PATH_DATA
-from app_utils import (
-    get_query_params_url,
-    DF_POKEMON_FAST_MOVES,
-    DF_POKEMON_CHARGED_MOVES,
-)
+from app_utils import get_query_params_url, load_app_db_constants
 
 
-@st.cache
-def get_pokemons():
+@st.cache_data(ttl=3600)
+def get_pokemons(DF_POKEMON_FAST_MOVES):
     # pokemon with valid fast moves
     valid_pokemon = DF_POKEMON_FAST_MOVES[
         DF_POKEMON_FAST_MOVES["Energy Gain"] != 0
@@ -40,8 +36,12 @@ def create_move_count_print_str(pokemon, df):
     return "\n".join([pokemon] + print_rows)
 
 
-@st.cache
-def get_all_pokemon_move_counts(all_pokemons):
+@st.cache_data(ttl=3600)
+def get_all_pokemon_move_counts(
+    all_pokemons,
+    DF_POKEMON_FAST_MOVES,
+    DF_POKEMON_CHARGED_MOVES,
+):
     df_fast = (
         DF_POKEMON_FAST_MOVES[
             (DF_POKEMON_FAST_MOVES["pokemon"].isin(all_pokemons))
@@ -104,10 +104,25 @@ def get_all_pokemon_move_counts(all_pokemons):
 
 
 def app(**kwargs):
+    print("RUNNING move_counts_app app")
+    (
+        ALL_POKEMON_STATS,
+        CP_MULTS,
+        CP_COEF_PCTS,
+        DF_XL_COSTS,
+        DF_POKEMON_FAST_MOVES,
+        DF_POKEMON_CHARGED_MOVES,
+        DF_POKEMON_TYPES,
+        DF_POKEMON_TYPE_EFFECTIVENESS,
+    ) = load_app_db_constants()
 
     # load things
-    all_pokemons = get_pokemons()
-    all_pokemons_move_counts = get_all_pokemon_move_counts(all_pokemons)
+    all_pokemons = get_pokemons(DF_POKEMON_FAST_MOVES)
+    all_pokemons_move_counts = get_all_pokemon_move_counts(
+        all_pokemons,
+        DF_POKEMON_FAST_MOVES,
+        DF_POKEMON_CHARGED_MOVES,
+    )
 
     # sidebar for inputs
     with st.sidebar:

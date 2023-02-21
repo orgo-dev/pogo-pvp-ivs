@@ -1,6 +1,6 @@
 pandas==1.4.3
 numpy==1.23.1
-streamlit==1.12.2
+streamlit==1.18.0
 streamlit-aggrid==0.3.3
 pysqlite3==0.4.7
 streamlit-keyup==0.2.0

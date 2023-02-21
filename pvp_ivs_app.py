@@ -13,18 +13,11 @@ from app_utils import (
     get_query_params_url,
     get_poke_fast_moves,
     get_poke_charged_moves,
+    load_app_db_constants,
     MAX_LEVEL,
     LEAGUE_CPS,
     IVS_ALL,
-    ALL_POKEMON_STATS,
-    CP_MULTS,
-    CP_COEF_PCTS,
-    DF_XL_COSTS,
-    DF_POKEMON_FAST_MOVES,
-    DF_POKEMON_CHARGED_MOVES,
 )
-
-query_params = st.experimental_get_query_params()
 
 
 def calc_level_stats(
@@ -35,7 +28,7 @@ def calc_level_stats(
     base_attack,
     base_defense,
     base_stamina,
-    cp_mults=CP_MULTS,
+    cp_mults,
 ):
     cp_multiplier = cp_mults[level]
     level_attack = (base_attack + iv_attack) * cp_multiplier
@@ -59,7 +52,8 @@ def calc_poke_level_stats(
     iv_attack,
     iv_defense,
     iv_stamina,
-    all_pokemon_stats=ALL_POKEMON_STATS,
+    all_pokemon_stats,
+    cp_mults,
 ):
     pokemon_dict = dict(
         pokemon=pokemon,
@@ -69,7 +63,12 @@ def calc_poke_level_stats(
         iv_stamina=iv_stamina,
     )
     stats = calc_level_stats(
-        level, iv_attack, iv_defense, iv_stamina, **all_pokemon_stats[pokemon]
+        level,
+        iv_attack,
+        iv_defense,
+        iv_stamina,
+        **all_pokemon_stats[pokemon],
+        cp_mults=cp_mults,
     )
     return {**pokemon_dict, **stats}
 
@@ -80,8 +79,10 @@ def find_league_iv_level_stats(
     iv_attack,
     iv_defense,
     iv_stamina,
+    all_pokemon_stats,
+    cp_mults,
+    cp_coef_pcts,
     max_level=MAX_LEVEL,
-    cp_coef_pcts=CP_COEF_PCTS,
     league_cps=LEAGUE_CPS,
     add_non_best_buddy_stats=True,
     log=False,
@@ -91,6 +92,8 @@ def find_league_iv_level_stats(
         iv_attack=iv_attack,
         iv_defense=iv_defense,
         iv_stamina=iv_stamina,
+        all_pokemon_stats=all_pokemon_stats,
+        cp_mults=cp_mults,
     )
     max_cp = league_cps[league]
     cp_high = calc_poke_level_stats(**stats_args, level=55)["cp"]
@@ -126,10 +129,26 @@ def find_league_iv_level_stats(
     return [dict(league=league, **x) for x in rtn]
 
 
-def get_league_pokemon_all_ivs_stats(league, pokemon, IVS_ALL=IVS_ALL):
+def get_league_pokemon_all_ivs_stats(
+    league,
+    pokemon,
+    all_pokemon_stats,
+    cp_mults,
+    cp_coef_pcts,
+    IVS_ALL=IVS_ALL,
+):
     results = []
     for ivs in IVS_ALL:
-        results.extend(find_league_iv_level_stats(league, pokemon, **ivs))
+        results.extend(
+            find_league_iv_level_stats(
+                league,
+                pokemon,
+                all_pokemon_stats=all_pokemon_stats,
+                cp_mults=cp_mults,
+                cp_coef_pcts=cp_coef_pcts,
+                **ivs,
+            )
+        )
     return pd.DataFrame(results)
 
 
@@ -176,9 +195,19 @@ def get_pareto_efficient_stats(stats):
     return ~is_inefficient
 
 
-def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
+def get_league_pokemon_df(
+    league,
+    pokemon,
+    ivs,
+    all_pokemon_stats,
+    cp_mults,
+    cp_coef_pcts,
+    df_xl_costs,
+):
     # stats df
-    df = get_league_pokemon_all_ivs_stats(league, pokemon)
+    df = get_league_pokemon_all_ivs_stats(
+        league, pokemon, all_pokemon_stats, cp_mults, cp_coef_pcts
+    )
 
     # add ivs col
     iv_cols = ["iv_attack", "iv_defense", "iv_stamina"]
@@ -322,6 +351,16 @@ def get_league_pokemon_df(league, pokemon, ivs, df_xl_costs=DF_XL_COSTS):
 
 
 def app(app="GBL IV Stats", **kwargs):
+    (
+        ALL_POKEMON_STATS,
+        CP_MULTS,
+        CP_COEF_PCTS,
+        DF_XL_COSTS,
+        DF_POKEMON_FAST_MOVES,
+        DF_POKEMON_CHARGED_MOVES,
+        DF_POKEMON_TYPES,
+        DF_POKEMON_TYPE_EFFECTIVENESS,
+    ) = load_app_db_constants()
 
     pokemons = list(ALL_POKEMON_STATS.keys())
 
@@ -551,7 +590,9 @@ def app(app="GBL IV Stats", **kwargs):
     ivs = parse_ivs(input_ivs)
 
     # get df with all rows
-    df = get_league_pokemon_df(league, pokemon, input_ivs)
+    df = get_league_pokemon_df(
+        league, pokemon, input_ivs, ALL_POKEMON_STATS, CP_MULTS, CP_COEF_PCTS, DF_XL_COSTS
+    )
 
     # filter df based on options selected
     mask_t = pd.Series(True, df.index)
@@ -704,7 +745,7 @@ def app(app="GBL IV Stats", **kwargs):
     st.caption(
         "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
     )
-    df_fast = get_poke_fast_moves(pokemon)
+    df_fast = get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES)
     gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
 
     default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
@@ -731,7 +772,7 @@ def app(app="GBL IV Stats", **kwargs):
 
     # chargedmoves
     st.caption("Charged moves (damage includes STAB bonus)")
-    df_charged = get_poke_charged_moves(pokemon)
+    df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
     if len(fast_move):
         df_charged["Count"] = (df_charged["Energy"] / fast_move[0]["Energy Gain"]).apply(
             math.ceil
@@ -919,4 +960,5 @@ def app(app="GBL IV Stats", **kwargs):
 
 
 if __name__ == "__main__":
+    query_params = st.experimental_get_query_params()
     app(**query_params)
