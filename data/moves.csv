@@ -47,6 +47,7 @@ DIG,Dig,charged,ground,100,0,1,,,80,1.25,,High Energy,nan,,,nan,nan
 DISARMING_VOICE,Disarming Voice,charged,fairy,70,0,1,,,45,1.56,,General,nan,,,nan,nan
 DISCHARGE,Discharge,charged,electric,65,0,1,,,45,1.44,,General,nan,,,nan,nan
 DOOM_DESIRE,Doom Desire,charged,steel,75,0,1,,,40,1.88,,Spam/Bait,nan,,,nan,nan
+DOUBLE_IRON_BASH,Double Iron Bash,charged,steel,50,0,1,,,35,1.43,,Spam/Bait,nan,,,nan,nan
 DOUBLE_KICK,Double Kick,fast,fighting,8,12,3,2.67,4.0,0,,,Multipurpose,nan,,,nan,nan
 DRACO_METEOR,Draco Meteor,charged,dragon,150,0,1,,,65,2.31,100% chance -2 Atk self,Self-Debuff Nuke,"[-2, 0]",self,1,nan,nan
 DRAGON_BREATH,Dragon Breath,fast,dragon,4,3,1,4.0,3.0,0,,,Multipurpose,nan,,,nan,nan
