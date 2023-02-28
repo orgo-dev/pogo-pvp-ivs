@@ -1362,3 +1362,5 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 901,ursaluna_shadow,Ursaluna (Shadow),243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'FRUSTRATION']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring_shadow,['shadow']
 903,sneasler,Sneasler,259,158,190,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB', 'SHADOW_CLAW']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR']",nan,nan,5,75000,True,FAMILY_SNEASEL,nan,sneasel_hisuian,nan
 904,overqwil,Overqwil,222,171,198,"['dark', 'poison']","['POISON_STING', 'POISON_JAB']","['AQUA_TAIL', 'ICE_BEAM', 'SLUDGE_BOMB', 'DARK_PULSE', 'SHADOW_BALL']",nan,nan,3,50000,True,FAMILY_QWILFISH,nan,qwilfish_hisuian,nan
+999,gimmighoul,Gimmighoul,140,76,128,"['ghost', 'none']",['ASTONISH'],['SHADOW_BALL'],nan,nan,1,10000,True,FAMILY_GIMMIGHOUL,['gholdengo'],,nan
+1000,gholdengo,Gholdengo,252,190,202,"['steel', 'ghost']","['ASTONISH', 'HEX']","['SHADOW_BALL', 'DAZZLING_GLEAM', 'FOCUS_BLAST']",nan,nan,1,10000,True,FAMILY_GIMMIGHOUL,nan,gimmighoul,nan
