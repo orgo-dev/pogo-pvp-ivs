@@ -31668,7 +31668,8 @@
         "chargedMoves": [
             "CRUNCH",
             "DISARMING_VOICE",
-            "FIRE_BLAST"
+            "FIRE_BLAST",
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -31728,7 +31729,8 @@
         "chargedMoves": [
             "CRUNCH",
             "DISARMING_VOICE",
-            "FIRE_BLAST"
+            "FIRE_BLAST",
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -34940,7 +34942,8 @@
             "DRAGON_CLAW",
             "EARTHQUAKE",
             "STONE_EDGE",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -35004,7 +35007,8 @@
             "DRAGON_CLAW",
             "EARTHQUAKE",
             "STONE_EDGE",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -52899,7 +52903,8 @@
         ],
         "fastMoves": [
             "CHARM",
-            "RAZOR_LEAF"
+            "RAZOR_LEAF",
+            "FAIRY_WIND"
         ],
         "chargedMoves": [
             "GRASS_KNOT",
@@ -55949,7 +55954,8 @@
         "chargedMoves": [
             "SHADOW_BALL",
             "ICE_BEAM",
-            "BUBBLE_BEAM"
+            "BUBBLE_BEAM",
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -62717,13 +62723,12 @@
             "flying"
         ],
         "fastMoves": [
-            "WING_ATTACK",
             "LOW_KICK",
             "POISON_JAB"
         ],
         "chargedMoves": [
             "FLYING_PRESS",
-            "SKY_ATTACK",
+            "AERIAL_ACE",
             "X_SCISSOR",
             "POWER_UP_PUNCH"
         ],
@@ -62755,7 +62760,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 702,
@@ -68770,7 +68775,8 @@
         "chargedMoves": [
             "DRAGON_CLAW",
             "CLOSE_COMBAT",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "BOOMBURST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -70098,7 +70104,11 @@
             "HYPER_BEAM",
             "ROCK_SLIDE",
             "THUNDERBOLT",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "DOUBLE_IRON_BASH"
+        ],
+        "eliteMoves": [
+            "DOUBLE_IRON_BASH"
         ],
         "defaultIVs": {
             "cp500": [
