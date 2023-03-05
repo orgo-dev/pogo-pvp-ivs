@@ -2331,8 +2331,8 @@ Wishiwashi,water
 Wishiwashi,none
 Wishiwashi (School),water
 Wishiwashi (School),none
-Wishiwashi_solo,water
-Wishiwashi_solo,none
+Wishiwashi (Solo),water
+Wishiwashi (Solo),none
 Mareanie,poison
 Mareanie,water
 Toxapex,poison
@@ -2579,10 +2579,10 @@ Toxel,electric
 Toxel,poison
 Toxtricity,electric
 Toxtricity,poison
-Toxtricity_amped,electric
-Toxtricity_amped,poison
-Toxtricity_low_key,electric
-Toxtricity_low_key,poison
+Toxtricity (Amped),electric
+Toxtricity (Amped),poison
+Toxtricity (Low Key),electric
+Toxtricity (Low Key),poison
 Sizzlipede,fire
 Sizzlipede,bug
 Centiskorch,fire
@@ -2593,16 +2593,16 @@ Grapploct,fighting
 Grapploct,none
 Sinistea,ghost
 Sinistea,none
-Sinistea_antique,ghost
-Sinistea_antique,none
-Sinistea_phony,ghost
-Sinistea_phony,none
+Sinistea (Antique),ghost
+Sinistea (Antique),none
+Sinistea (Phony),ghost
+Sinistea (Phony),none
 Polteageist,ghost
 Polteageist,none
-Polteageist_antique,ghost
-Polteageist_antique,none
-Polteageist_phony,ghost
-Polteageist_phony,none
+Polteageist (Antique),ghost
+Polteageist (Antique),none
+Polteageist (Phony),ghost
+Polteageist (Phony),none
 Hatenna,psychic
 Hatenna,none
 Hattrem,psychic
@@ -2643,22 +2643,22 @@ Stonjourner,rock
 Stonjourner,none
 Eiscue,ice
 Eiscue,none
-Eiscue_ice,ice
-Eiscue_ice,none
-Eiscue_noice,ice
-Eiscue_noice,none
+Eiscue (Ice),ice
+Eiscue (Ice),none
+Eiscue (Noice),ice
+Eiscue (Noice),none
 Indeedee,psychic
 Indeedee,normal
-Indeedee_female,psychic
-Indeedee_female,normal
-Indeedee_male,psychic
-Indeedee_male,normal
+Indeedee (Female),psychic
+Indeedee (Female),normal
+Indeedee (Male),psychic
+Indeedee (Male),normal
 Morpeko,electric
 Morpeko,dark
-Morpeko_full_belly,electric
-Morpeko_full_belly,dark
-Morpeko_hangry,electric
-Morpeko_hangry,dark
+Morpeko (Full Belly),electric
+Morpeko (Full Belly),dark
+Morpeko (Hangry),electric
+Morpeko (Hangry),dark
 Cufant,steel
 Cufant,none
 Copperajah,steel
@@ -2683,26 +2683,26 @@ Zacian,fairy
 Zacian,steel
 Zacian (Hero),fairy
 Zacian (Hero),none
-Zacian_crowned_sword,fairy
-Zacian_crowned_sword,steel
+Zacian (Crowned Sword),fairy
+Zacian (Crowned Sword),steel
 Zamazenta,fighting
 Zamazenta,steel
 Zamazenta (Hero),fighting
 Zamazenta (Hero),none
-Zamazenta_crowned_shield,fighting
-Zamazenta_crowned_shield,steel
+Zamazenta (Crowned Shield),fighting
+Zamazenta (Crowned Shield),steel
 Eternatus,poison
 Eternatus,dragon
-Eternatus_eternamax,poison
-Eternatus_eternamax,dragon
+Eternatus (Eternamax),poison
+Eternatus (Eternamax),dragon
 Kubfu,fighting
 Kubfu,none
 Urshifu,fighting
 Urshifu,none
-Urshifu_rapid_strike,fighting
-Urshifu_rapid_strike,water
-Urshifu_single_strike,fighting
-Urshifu_single_strike,dark
+Urshifu (Rapid Strike),fighting
+Urshifu (Rapid Strike),water
+Urshifu (Single Strike),fighting
+Urshifu (Single Strike),dark
 Zarude,dark
 Zarude,grass
 Regieleki,electric
@@ -2715,8 +2715,8 @@ Spectrier,ghost
 Spectrier,none
 Calyrex,psychic
 Calyrex,grass
-Calyrex_ice_rider,psychic
-Calyrex_ice_rider,ice
+Calyrex (Ice Rider),psychic
+Calyrex (Ice Rider),ice
 Ursaluna,ground
 Ursaluna,normal
 Ursaluna (Shadow),ground

@@ -20987,24 +20987,24 @@ Wishiwashi (School),ice,0.625
 Wishiwashi (School),dragon,1.0
 Wishiwashi (School),dark,1.0
 Wishiwashi (School),fairy,1.0
-Wishiwashi_solo,normal,1.0
-Wishiwashi_solo,fighting,1.0
-Wishiwashi_solo,flying,1.0
-Wishiwashi_solo,poison,1.0
-Wishiwashi_solo,ground,1.0
-Wishiwashi_solo,rock,1.0
-Wishiwashi_solo,bug,1.0
-Wishiwashi_solo,ghost,1.0
-Wishiwashi_solo,steel,0.625
-Wishiwashi_solo,fire,0.625
-Wishiwashi_solo,water,0.625
-Wishiwashi_solo,grass,1.6
-Wishiwashi_solo,electric,1.6
-Wishiwashi_solo,psychic,1.0
-Wishiwashi_solo,ice,0.625
-Wishiwashi_solo,dragon,1.0
-Wishiwashi_solo,dark,1.0
-Wishiwashi_solo,fairy,1.0
+Wishiwashi (Solo),normal,1.0
+Wishiwashi (Solo),fighting,1.0
+Wishiwashi (Solo),flying,1.0
+Wishiwashi (Solo),poison,1.0
+Wishiwashi (Solo),ground,1.0
+Wishiwashi (Solo),rock,1.0
+Wishiwashi (Solo),bug,1.0
+Wishiwashi (Solo),ghost,1.0
+Wishiwashi (Solo),steel,0.625
+Wishiwashi (Solo),fire,0.625
+Wishiwashi (Solo),water,0.625
+Wishiwashi (Solo),grass,1.6
+Wishiwashi (Solo),electric,1.6
+Wishiwashi (Solo),psychic,1.0
+Wishiwashi (Solo),ice,0.625
+Wishiwashi (Solo),dragon,1.0
+Wishiwashi (Solo),dark,1.0
+Wishiwashi (Solo),fairy,1.0
 Mareanie,normal,1.0
 Mareanie,fighting,0.625
 Mareanie,flying,1.0
@@ -23219,42 +23219,42 @@ Toxtricity,ice,1.0
 Toxtricity,dragon,1.0
 Toxtricity,dark,1.0
 Toxtricity,fairy,0.625
-Toxtricity_amped,normal,1.0
-Toxtricity_amped,fighting,0.625
-Toxtricity_amped,flying,0.625
-Toxtricity_amped,poison,0.625
-Toxtricity_amped,ground,2.56
-Toxtricity_amped,rock,1.0
-Toxtricity_amped,bug,0.625
-Toxtricity_amped,ghost,1.0
-Toxtricity_amped,steel,0.625
-Toxtricity_amped,fire,1.0
-Toxtricity_amped,water,1.0
-Toxtricity_amped,grass,0.625
-Toxtricity_amped,electric,0.625
-Toxtricity_amped,psychic,1.6
-Toxtricity_amped,ice,1.0
-Toxtricity_amped,dragon,1.0
-Toxtricity_amped,dark,1.0
-Toxtricity_amped,fairy,0.625
-Toxtricity_low_key,normal,1.0
-Toxtricity_low_key,fighting,0.625
-Toxtricity_low_key,flying,0.625
-Toxtricity_low_key,poison,0.625
-Toxtricity_low_key,ground,2.56
-Toxtricity_low_key,rock,1.0
-Toxtricity_low_key,bug,0.625
-Toxtricity_low_key,ghost,1.0
-Toxtricity_low_key,steel,0.625
-Toxtricity_low_key,fire,1.0
-Toxtricity_low_key,water,1.0
-Toxtricity_low_key,grass,0.625
-Toxtricity_low_key,electric,0.625
-Toxtricity_low_key,psychic,1.6
-Toxtricity_low_key,ice,1.0
-Toxtricity_low_key,dragon,1.0
-Toxtricity_low_key,dark,1.0
-Toxtricity_low_key,fairy,0.625
+Toxtricity (Amped),normal,1.0
+Toxtricity (Amped),fighting,0.625
+Toxtricity (Amped),flying,0.625
+Toxtricity (Amped),poison,0.625
+Toxtricity (Amped),ground,2.56
+Toxtricity (Amped),rock,1.0
+Toxtricity (Amped),bug,0.625
+Toxtricity (Amped),ghost,1.0
+Toxtricity (Amped),steel,0.625
+Toxtricity (Amped),fire,1.0
+Toxtricity (Amped),water,1.0
+Toxtricity (Amped),grass,0.625
+Toxtricity (Amped),electric,0.625
+Toxtricity (Amped),psychic,1.6
+Toxtricity (Amped),ice,1.0
+Toxtricity (Amped),dragon,1.0
+Toxtricity (Amped),dark,1.0
+Toxtricity (Amped),fairy,0.625
+Toxtricity (Low Key),normal,1.0
+Toxtricity (Low Key),fighting,0.625
+Toxtricity (Low Key),flying,0.625
+Toxtricity (Low Key),poison,0.625
+Toxtricity (Low Key),ground,2.56
+Toxtricity (Low Key),rock,1.0
+Toxtricity (Low Key),bug,0.625
+Toxtricity (Low Key),ghost,1.0
+Toxtricity (Low Key),steel,0.625
+Toxtricity (Low Key),fire,1.0
+Toxtricity (Low Key),water,1.0
+Toxtricity (Low Key),grass,0.625
+Toxtricity (Low Key),electric,0.625
+Toxtricity (Low Key),psychic,1.6
+Toxtricity (Low Key),ice,1.0
+Toxtricity (Low Key),dragon,1.0
+Toxtricity (Low Key),dark,1.0
+Toxtricity (Low Key),fairy,0.625
 Sizzlipede,normal,1.0
 Sizzlipede,fighting,0.625
 Sizzlipede,flying,1.6
@@ -23345,42 +23345,42 @@ Sinistea,ice,1.0
 Sinistea,dragon,1.0
 Sinistea,dark,1.6
 Sinistea,fairy,1.0
-Sinistea_antique,normal,0.391
-Sinistea_antique,fighting,0.391
-Sinistea_antique,flying,1.0
-Sinistea_antique,poison,0.625
-Sinistea_antique,ground,1.0
-Sinistea_antique,rock,1.0
-Sinistea_antique,bug,0.625
-Sinistea_antique,ghost,1.6
-Sinistea_antique,steel,1.0
-Sinistea_antique,fire,1.0
-Sinistea_antique,water,1.0
-Sinistea_antique,grass,1.0
-Sinistea_antique,electric,1.0
-Sinistea_antique,psychic,1.0
-Sinistea_antique,ice,1.0
-Sinistea_antique,dragon,1.0
-Sinistea_antique,dark,1.6
-Sinistea_antique,fairy,1.0
-Sinistea_phony,normal,0.391
-Sinistea_phony,fighting,0.391
-Sinistea_phony,flying,1.0
-Sinistea_phony,poison,0.625
-Sinistea_phony,ground,1.0
-Sinistea_phony,rock,1.0
-Sinistea_phony,bug,0.625
-Sinistea_phony,ghost,1.6
-Sinistea_phony,steel,1.0
-Sinistea_phony,fire,1.0
-Sinistea_phony,water,1.0
-Sinistea_phony,grass,1.0
-Sinistea_phony,electric,1.0
-Sinistea_phony,psychic,1.0
-Sinistea_phony,ice,1.0
-Sinistea_phony,dragon,1.0
-Sinistea_phony,dark,1.6
-Sinistea_phony,fairy,1.0
+Sinistea (Antique),normal,0.391
+Sinistea (Antique),fighting,0.391
+Sinistea (Antique),flying,1.0
+Sinistea (Antique),poison,0.625
+Sinistea (Antique),ground,1.0
+Sinistea (Antique),rock,1.0
+Sinistea (Antique),bug,0.625
+Sinistea (Antique),ghost,1.6
+Sinistea (Antique),steel,1.0
+Sinistea (Antique),fire,1.0
+Sinistea (Antique),water,1.0
+Sinistea (Antique),grass,1.0
+Sinistea (Antique),electric,1.0
+Sinistea (Antique),psychic,1.0
+Sinistea (Antique),ice,1.0
+Sinistea (Antique),dragon,1.0
+Sinistea (Antique),dark,1.6
+Sinistea (Antique),fairy,1.0
+Sinistea (Phony),normal,0.391
+Sinistea (Phony),fighting,0.391
+Sinistea (Phony),flying,1.0
+Sinistea (Phony),poison,0.625
+Sinistea (Phony),ground,1.0
+Sinistea (Phony),rock,1.0
+Sinistea (Phony),bug,0.625
+Sinistea (Phony),ghost,1.6
+Sinistea (Phony),steel,1.0
+Sinistea (Phony),fire,1.0
+Sinistea (Phony),water,1.0
+Sinistea (Phony),grass,1.0
+Sinistea (Phony),electric,1.0
+Sinistea (Phony),psychic,1.0
+Sinistea (Phony),ice,1.0
+Sinistea (Phony),dragon,1.0
+Sinistea (Phony),dark,1.6
+Sinistea (Phony),fairy,1.0
 Polteageist,normal,0.391
 Polteageist,fighting,0.391
 Polteageist,flying,1.0
@@ -23399,42 +23399,42 @@ Polteageist,ice,1.0
 Polteageist,dragon,1.0
 Polteageist,dark,1.6
 Polteageist,fairy,1.0
-Polteageist_antique,normal,0.391
-Polteageist_antique,fighting,0.391
-Polteageist_antique,flying,1.0
-Polteageist_antique,poison,0.625
-Polteageist_antique,ground,1.0
-Polteageist_antique,rock,1.0
-Polteageist_antique,bug,0.625
-Polteageist_antique,ghost,1.6
-Polteageist_antique,steel,1.0
-Polteageist_antique,fire,1.0
-Polteageist_antique,water,1.0
-Polteageist_antique,grass,1.0
-Polteageist_antique,electric,1.0
-Polteageist_antique,psychic,1.0
-Polteageist_antique,ice,1.0
-Polteageist_antique,dragon,1.0
-Polteageist_antique,dark,1.6
-Polteageist_antique,fairy,1.0
-Polteageist_phony,normal,0.391
-Polteageist_phony,fighting,0.391
-Polteageist_phony,flying,1.0
-Polteageist_phony,poison,0.625
-Polteageist_phony,ground,1.0
-Polteageist_phony,rock,1.0
-Polteageist_phony,bug,0.625
-Polteageist_phony,ghost,1.6
-Polteageist_phony,steel,1.0
-Polteageist_phony,fire,1.0
-Polteageist_phony,water,1.0
-Polteageist_phony,grass,1.0
-Polteageist_phony,electric,1.0
-Polteageist_phony,psychic,1.0
-Polteageist_phony,ice,1.0
-Polteageist_phony,dragon,1.0
-Polteageist_phony,dark,1.6
-Polteageist_phony,fairy,1.0
+Polteageist (Antique),normal,0.391
+Polteageist (Antique),fighting,0.391
+Polteageist (Antique),flying,1.0
+Polteageist (Antique),poison,0.625
+Polteageist (Antique),ground,1.0
+Polteageist (Antique),rock,1.0
+Polteageist (Antique),bug,0.625
+Polteageist (Antique),ghost,1.6
+Polteageist (Antique),steel,1.0
+Polteageist (Antique),fire,1.0
+Polteageist (Antique),water,1.0
+Polteageist (Antique),grass,1.0
+Polteageist (Antique),electric,1.0
+Polteageist (Antique),psychic,1.0
+Polteageist (Antique),ice,1.0
+Polteageist (Antique),dragon,1.0
+Polteageist (Antique),dark,1.6
+Polteageist (Antique),fairy,1.0
+Polteageist (Phony),normal,0.391
+Polteageist (Phony),fighting,0.391
+Polteageist (Phony),flying,1.0
+Polteageist (Phony),poison,0.625
+Polteageist (Phony),ground,1.0
+Polteageist (Phony),rock,1.0
+Polteageist (Phony),bug,0.625
+Polteageist (Phony),ghost,1.6
+Polteageist (Phony),steel,1.0
+Polteageist (Phony),fire,1.0
+Polteageist (Phony),water,1.0
+Polteageist (Phony),grass,1.0
+Polteageist (Phony),electric,1.0
+Polteageist (Phony),psychic,1.0
+Polteageist (Phony),ice,1.0
+Polteageist (Phony),dragon,1.0
+Polteageist (Phony),dark,1.6
+Polteageist (Phony),fairy,1.0
 Hatenna,normal,1.0
 Hatenna,fighting,0.625
 Hatenna,flying,1.0
@@ -23795,42 +23795,42 @@ Eiscue,ice,0.625
 Eiscue,dragon,1.0
 Eiscue,dark,1.0
 Eiscue,fairy,1.0
-Eiscue_ice,normal,1.0
-Eiscue_ice,fighting,1.6
-Eiscue_ice,flying,1.0
-Eiscue_ice,poison,1.0
-Eiscue_ice,ground,1.0
-Eiscue_ice,rock,1.6
-Eiscue_ice,bug,1.0
-Eiscue_ice,ghost,1.0
-Eiscue_ice,steel,1.6
-Eiscue_ice,fire,1.6
-Eiscue_ice,water,1.0
-Eiscue_ice,grass,1.0
-Eiscue_ice,electric,1.0
-Eiscue_ice,psychic,1.0
-Eiscue_ice,ice,0.625
-Eiscue_ice,dragon,1.0
-Eiscue_ice,dark,1.0
-Eiscue_ice,fairy,1.0
-Eiscue_noice,normal,1.0
-Eiscue_noice,fighting,1.6
-Eiscue_noice,flying,1.0
-Eiscue_noice,poison,1.0
-Eiscue_noice,ground,1.0
-Eiscue_noice,rock,1.6
-Eiscue_noice,bug,1.0
-Eiscue_noice,ghost,1.0
-Eiscue_noice,steel,1.6
-Eiscue_noice,fire,1.6
-Eiscue_noice,water,1.0
-Eiscue_noice,grass,1.0
-Eiscue_noice,electric,1.0
-Eiscue_noice,psychic,1.0
-Eiscue_noice,ice,0.625
-Eiscue_noice,dragon,1.0
-Eiscue_noice,dark,1.0
-Eiscue_noice,fairy,1.0
+Eiscue (Ice),normal,1.0
+Eiscue (Ice),fighting,1.6
+Eiscue (Ice),flying,1.0
+Eiscue (Ice),poison,1.0
+Eiscue (Ice),ground,1.0
+Eiscue (Ice),rock,1.6
+Eiscue (Ice),bug,1.0
+Eiscue (Ice),ghost,1.0
+Eiscue (Ice),steel,1.6
+Eiscue (Ice),fire,1.6
+Eiscue (Ice),water,1.0
+Eiscue (Ice),grass,1.0
+Eiscue (Ice),electric,1.0
+Eiscue (Ice),psychic,1.0
+Eiscue (Ice),ice,0.625
+Eiscue (Ice),dragon,1.0
+Eiscue (Ice),dark,1.0
+Eiscue (Ice),fairy,1.0
+Eiscue (Noice),normal,1.0
+Eiscue (Noice),fighting,1.6
+Eiscue (Noice),flying,1.0
+Eiscue (Noice),poison,1.0
+Eiscue (Noice),ground,1.0
+Eiscue (Noice),rock,1.6
+Eiscue (Noice),bug,1.0
+Eiscue (Noice),ghost,1.0
+Eiscue (Noice),steel,1.6
+Eiscue (Noice),fire,1.6
+Eiscue (Noice),water,1.0
+Eiscue (Noice),grass,1.0
+Eiscue (Noice),electric,1.0
+Eiscue (Noice),psychic,1.0
+Eiscue (Noice),ice,0.625
+Eiscue (Noice),dragon,1.0
+Eiscue (Noice),dark,1.0
+Eiscue (Noice),fairy,1.0
 Indeedee,normal,1.0
 Indeedee,fighting,1.0
 Indeedee,flying,1.0
@@ -23849,42 +23849,42 @@ Indeedee,ice,1.0
 Indeedee,dragon,1.0
 Indeedee,dark,1.6
 Indeedee,fairy,1.0
-Indeedee_female,normal,1.0
-Indeedee_female,fighting,1.0
-Indeedee_female,flying,1.0
-Indeedee_female,poison,1.0
-Indeedee_female,ground,1.0
-Indeedee_female,rock,1.0
-Indeedee_female,bug,1.6
-Indeedee_female,ghost,0.625
-Indeedee_female,steel,1.0
-Indeedee_female,fire,1.0
-Indeedee_female,water,1.0
-Indeedee_female,grass,1.0
-Indeedee_female,electric,1.0
-Indeedee_female,psychic,0.625
-Indeedee_female,ice,1.0
-Indeedee_female,dragon,1.0
-Indeedee_female,dark,1.6
-Indeedee_female,fairy,1.0
-Indeedee_male,normal,1.0
-Indeedee_male,fighting,1.0
-Indeedee_male,flying,1.0
-Indeedee_male,poison,1.0
-Indeedee_male,ground,1.0
-Indeedee_male,rock,1.0
-Indeedee_male,bug,1.6
-Indeedee_male,ghost,0.625
-Indeedee_male,steel,1.0
-Indeedee_male,fire,1.0
-Indeedee_male,water,1.0
-Indeedee_male,grass,1.0
-Indeedee_male,electric,1.0
-Indeedee_male,psychic,0.625
-Indeedee_male,ice,1.0
-Indeedee_male,dragon,1.0
-Indeedee_male,dark,1.6
-Indeedee_male,fairy,1.0
+Indeedee (Female),normal,1.0
+Indeedee (Female),fighting,1.0
+Indeedee (Female),flying,1.0
+Indeedee (Female),poison,1.0
+Indeedee (Female),ground,1.0
+Indeedee (Female),rock,1.0
+Indeedee (Female),bug,1.6
+Indeedee (Female),ghost,0.625
+Indeedee (Female),steel,1.0
+Indeedee (Female),fire,1.0
+Indeedee (Female),water,1.0
+Indeedee (Female),grass,1.0
+Indeedee (Female),electric,1.0
+Indeedee (Female),psychic,0.625
+Indeedee (Female),ice,1.0
+Indeedee (Female),dragon,1.0
+Indeedee (Female),dark,1.6
+Indeedee (Female),fairy,1.0
+Indeedee (Male),normal,1.0
+Indeedee (Male),fighting,1.0
+Indeedee (Male),flying,1.0
+Indeedee (Male),poison,1.0
+Indeedee (Male),ground,1.0
+Indeedee (Male),rock,1.0
+Indeedee (Male),bug,1.6
+Indeedee (Male),ghost,0.625
+Indeedee (Male),steel,1.0
+Indeedee (Male),fire,1.0
+Indeedee (Male),water,1.0
+Indeedee (Male),grass,1.0
+Indeedee (Male),electric,1.0
+Indeedee (Male),psychic,0.625
+Indeedee (Male),ice,1.0
+Indeedee (Male),dragon,1.0
+Indeedee (Male),dark,1.6
+Indeedee (Male),fairy,1.0
 Morpeko,normal,1.0
 Morpeko,fighting,1.6
 Morpeko,flying,0.625
@@ -23903,42 +23903,42 @@ Morpeko,ice,1.0
 Morpeko,dragon,1.0
 Morpeko,dark,0.625
 Morpeko,fairy,1.6
-Morpeko_full_belly,normal,1.0
-Morpeko_full_belly,fighting,1.6
-Morpeko_full_belly,flying,0.625
-Morpeko_full_belly,poison,1.0
-Morpeko_full_belly,ground,1.6
-Morpeko_full_belly,rock,1.0
-Morpeko_full_belly,bug,1.6
-Morpeko_full_belly,ghost,0.625
-Morpeko_full_belly,steel,0.625
-Morpeko_full_belly,fire,1.0
-Morpeko_full_belly,water,1.0
-Morpeko_full_belly,grass,1.0
-Morpeko_full_belly,electric,0.625
-Morpeko_full_belly,psychic,0.391
-Morpeko_full_belly,ice,1.0
-Morpeko_full_belly,dragon,1.0
-Morpeko_full_belly,dark,0.625
-Morpeko_full_belly,fairy,1.6
-Morpeko_hangry,normal,1.0
-Morpeko_hangry,fighting,1.6
-Morpeko_hangry,flying,0.625
-Morpeko_hangry,poison,1.0
-Morpeko_hangry,ground,1.6
-Morpeko_hangry,rock,1.0
-Morpeko_hangry,bug,1.6
-Morpeko_hangry,ghost,0.625
-Morpeko_hangry,steel,0.625
-Morpeko_hangry,fire,1.0
-Morpeko_hangry,water,1.0
-Morpeko_hangry,grass,1.0
-Morpeko_hangry,electric,0.625
-Morpeko_hangry,psychic,0.391
-Morpeko_hangry,ice,1.0
-Morpeko_hangry,dragon,1.0
-Morpeko_hangry,dark,0.625
-Morpeko_hangry,fairy,1.6
+Morpeko (Full Belly),normal,1.0
+Morpeko (Full Belly),fighting,1.6
+Morpeko (Full Belly),flying,0.625
+Morpeko (Full Belly),poison,1.0
+Morpeko (Full Belly),ground,1.6
+Morpeko (Full Belly),rock,1.0
+Morpeko (Full Belly),bug,1.6
+Morpeko (Full Belly),ghost,0.625
+Morpeko (Full Belly),steel,0.625
+Morpeko (Full Belly),fire,1.0
+Morpeko (Full Belly),water,1.0
+Morpeko (Full Belly),grass,1.0
+Morpeko (Full Belly),electric,0.625
+Morpeko (Full Belly),psychic,0.391
+Morpeko (Full Belly),ice,1.0
+Morpeko (Full Belly),dragon,1.0
+Morpeko (Full Belly),dark,0.625
+Morpeko (Full Belly),fairy,1.6
+Morpeko (Hangry),normal,1.0
+Morpeko (Hangry),fighting,1.6
+Morpeko (Hangry),flying,0.625
+Morpeko (Hangry),poison,1.0
+Morpeko (Hangry),ground,1.6
+Morpeko (Hangry),rock,1.0
+Morpeko (Hangry),bug,1.6
+Morpeko (Hangry),ghost,0.625
+Morpeko (Hangry),steel,0.625
+Morpeko (Hangry),fire,1.0
+Morpeko (Hangry),water,1.0
+Morpeko (Hangry),grass,1.0
+Morpeko (Hangry),electric,0.625
+Morpeko (Hangry),psychic,0.391
+Morpeko (Hangry),ice,1.0
+Morpeko (Hangry),dragon,1.0
+Morpeko (Hangry),dark,0.625
+Morpeko (Hangry),fairy,1.6
 Cufant,normal,0.625
 Cufant,fighting,1.6
 Cufant,flying,0.625
@@ -24155,24 +24155,24 @@ Zacian (Hero),ice,1.0
 Zacian (Hero),dragon,0.391
 Zacian (Hero),dark,0.625
 Zacian (Hero),fairy,1.0
-Zacian_crowned_sword,normal,0.625
-Zacian_crowned_sword,fighting,1.0
-Zacian_crowned_sword,flying,0.625
-Zacian_crowned_sword,poison,0.625
-Zacian_crowned_sword,ground,1.6
-Zacian_crowned_sword,rock,0.625
-Zacian_crowned_sword,bug,0.391
-Zacian_crowned_sword,ghost,1.0
-Zacian_crowned_sword,steel,1.0
-Zacian_crowned_sword,fire,1.6
-Zacian_crowned_sword,water,1.0
-Zacian_crowned_sword,grass,0.625
-Zacian_crowned_sword,electric,1.0
-Zacian_crowned_sword,psychic,0.625
-Zacian_crowned_sword,ice,0.625
-Zacian_crowned_sword,dragon,0.244
-Zacian_crowned_sword,dark,0.625
-Zacian_crowned_sword,fairy,0.625
+Zacian (Crowned Sword),normal,0.625
+Zacian (Crowned Sword),fighting,1.0
+Zacian (Crowned Sword),flying,0.625
+Zacian (Crowned Sword),poison,0.625
+Zacian (Crowned Sword),ground,1.6
+Zacian (Crowned Sword),rock,0.625
+Zacian (Crowned Sword),bug,0.391
+Zacian (Crowned Sword),ghost,1.0
+Zacian (Crowned Sword),steel,1.0
+Zacian (Crowned Sword),fire,1.6
+Zacian (Crowned Sword),water,1.0
+Zacian (Crowned Sword),grass,0.625
+Zacian (Crowned Sword),electric,1.0
+Zacian (Crowned Sword),psychic,0.625
+Zacian (Crowned Sword),ice,0.625
+Zacian (Crowned Sword),dragon,0.244
+Zacian (Crowned Sword),dark,0.625
+Zacian (Crowned Sword),fairy,0.625
 Zamazenta,normal,0.625
 Zamazenta,fighting,1.6
 Zamazenta,flying,1.0
@@ -24209,24 +24209,24 @@ Zamazenta (Hero),ice,1.0
 Zamazenta (Hero),dragon,1.0
 Zamazenta (Hero),dark,0.625
 Zamazenta (Hero),fairy,1.6
-Zamazenta_crowned_shield,normal,0.625
-Zamazenta_crowned_shield,fighting,1.6
-Zamazenta_crowned_shield,flying,1.0
-Zamazenta_crowned_shield,poison,0.391
-Zamazenta_crowned_shield,ground,1.6
-Zamazenta_crowned_shield,rock,0.391
-Zamazenta_crowned_shield,bug,0.391
-Zamazenta_crowned_shield,ghost,1.0
-Zamazenta_crowned_shield,steel,0.625
-Zamazenta_crowned_shield,fire,1.6
-Zamazenta_crowned_shield,water,1.0
-Zamazenta_crowned_shield,grass,0.625
-Zamazenta_crowned_shield,electric,1.0
-Zamazenta_crowned_shield,psychic,1.0
-Zamazenta_crowned_shield,ice,0.625
-Zamazenta_crowned_shield,dragon,0.625
-Zamazenta_crowned_shield,dark,0.625
-Zamazenta_crowned_shield,fairy,1.0
+Zamazenta (Crowned Shield),normal,0.625
+Zamazenta (Crowned Shield),fighting,1.6
+Zamazenta (Crowned Shield),flying,1.0
+Zamazenta (Crowned Shield),poison,0.391
+Zamazenta (Crowned Shield),ground,1.6
+Zamazenta (Crowned Shield),rock,0.391
+Zamazenta (Crowned Shield),bug,0.391
+Zamazenta (Crowned Shield),ghost,1.0
+Zamazenta (Crowned Shield),steel,0.625
+Zamazenta (Crowned Shield),fire,1.6
+Zamazenta (Crowned Shield),water,1.0
+Zamazenta (Crowned Shield),grass,0.625
+Zamazenta (Crowned Shield),electric,1.0
+Zamazenta (Crowned Shield),psychic,1.0
+Zamazenta (Crowned Shield),ice,0.625
+Zamazenta (Crowned Shield),dragon,0.625
+Zamazenta (Crowned Shield),dark,0.625
+Zamazenta (Crowned Shield),fairy,1.0
 Eternatus,normal,1.0
 Eternatus,fighting,0.625
 Eternatus,flying,1.0
@@ -24245,24 +24245,24 @@ Eternatus,ice,1.6
 Eternatus,dragon,1.6
 Eternatus,dark,1.0
 Eternatus,fairy,1.0
-Eternatus_eternamax,normal,1.0
-Eternatus_eternamax,fighting,0.625
-Eternatus_eternamax,flying,1.0
-Eternatus_eternamax,poison,0.625
-Eternatus_eternamax,ground,1.6
-Eternatus_eternamax,rock,1.0
-Eternatus_eternamax,bug,0.625
-Eternatus_eternamax,ghost,1.0
-Eternatus_eternamax,steel,1.0
-Eternatus_eternamax,fire,0.625
-Eternatus_eternamax,water,0.625
-Eternatus_eternamax,grass,0.391
-Eternatus_eternamax,electric,0.625
-Eternatus_eternamax,psychic,1.6
-Eternatus_eternamax,ice,1.6
-Eternatus_eternamax,dragon,1.6
-Eternatus_eternamax,dark,1.0
-Eternatus_eternamax,fairy,1.0
+Eternatus (Eternamax),normal,1.0
+Eternatus (Eternamax),fighting,0.625
+Eternatus (Eternamax),flying,1.0
+Eternatus (Eternamax),poison,0.625
+Eternatus (Eternamax),ground,1.6
+Eternatus (Eternamax),rock,1.0
+Eternatus (Eternamax),bug,0.625
+Eternatus (Eternamax),ghost,1.0
+Eternatus (Eternamax),steel,1.0
+Eternatus (Eternamax),fire,0.625
+Eternatus (Eternamax),water,0.625
+Eternatus (Eternamax),grass,0.391
+Eternatus (Eternamax),electric,0.625
+Eternatus (Eternamax),psychic,1.6
+Eternatus (Eternamax),ice,1.6
+Eternatus (Eternamax),dragon,1.6
+Eternatus (Eternamax),dark,1.0
+Eternatus (Eternamax),fairy,1.0
 Kubfu,normal,1.0
 Kubfu,fighting,1.0
 Kubfu,flying,1.6
@@ -24299,42 +24299,42 @@ Urshifu,ice,1.0
 Urshifu,dragon,1.0
 Urshifu,dark,0.625
 Urshifu,fairy,1.6
-Urshifu_rapid_strike,normal,1.0
-Urshifu_rapid_strike,fighting,1.0
-Urshifu_rapid_strike,flying,1.6
-Urshifu_rapid_strike,poison,1.0
-Urshifu_rapid_strike,ground,1.0
-Urshifu_rapid_strike,rock,0.625
-Urshifu_rapid_strike,bug,0.625
-Urshifu_rapid_strike,ghost,1.0
-Urshifu_rapid_strike,steel,0.625
-Urshifu_rapid_strike,fire,0.625
-Urshifu_rapid_strike,water,0.625
-Urshifu_rapid_strike,grass,1.6
-Urshifu_rapid_strike,electric,1.6
-Urshifu_rapid_strike,psychic,1.6
-Urshifu_rapid_strike,ice,0.625
-Urshifu_rapid_strike,dragon,1.0
-Urshifu_rapid_strike,dark,0.625
-Urshifu_rapid_strike,fairy,1.6
-Urshifu_single_strike,normal,1.0
-Urshifu_single_strike,fighting,1.6
-Urshifu_single_strike,flying,1.6
-Urshifu_single_strike,poison,1.0
-Urshifu_single_strike,ground,1.0
-Urshifu_single_strike,rock,0.625
-Urshifu_single_strike,bug,1.0
-Urshifu_single_strike,ghost,0.625
-Urshifu_single_strike,steel,1.0
-Urshifu_single_strike,fire,1.0
-Urshifu_single_strike,water,1.0
-Urshifu_single_strike,grass,1.0
-Urshifu_single_strike,electric,1.0
-Urshifu_single_strike,psychic,0.625
-Urshifu_single_strike,ice,1.0
-Urshifu_single_strike,dragon,1.0
-Urshifu_single_strike,dark,0.391
-Urshifu_single_strike,fairy,2.56
+Urshifu (Rapid Strike),normal,1.0
+Urshifu (Rapid Strike),fighting,1.0
+Urshifu (Rapid Strike),flying,1.6
+Urshifu (Rapid Strike),poison,1.0
+Urshifu (Rapid Strike),ground,1.0
+Urshifu (Rapid Strike),rock,0.625
+Urshifu (Rapid Strike),bug,0.625
+Urshifu (Rapid Strike),ghost,1.0
+Urshifu (Rapid Strike),steel,0.625
+Urshifu (Rapid Strike),fire,0.625
+Urshifu (Rapid Strike),water,0.625
+Urshifu (Rapid Strike),grass,1.6
+Urshifu (Rapid Strike),electric,1.6
+Urshifu (Rapid Strike),psychic,1.6
+Urshifu (Rapid Strike),ice,0.625
+Urshifu (Rapid Strike),dragon,1.0
+Urshifu (Rapid Strike),dark,0.625
+Urshifu (Rapid Strike),fairy,1.6
+Urshifu (Single Strike),normal,1.0
+Urshifu (Single Strike),fighting,1.6
+Urshifu (Single Strike),flying,1.6
+Urshifu (Single Strike),poison,1.0
+Urshifu (Single Strike),ground,1.0
+Urshifu (Single Strike),rock,0.625
+Urshifu (Single Strike),bug,1.0
+Urshifu (Single Strike),ghost,0.625
+Urshifu (Single Strike),steel,1.0
+Urshifu (Single Strike),fire,1.0
+Urshifu (Single Strike),water,1.0
+Urshifu (Single Strike),grass,1.0
+Urshifu (Single Strike),electric,1.0
+Urshifu (Single Strike),psychic,0.625
+Urshifu (Single Strike),ice,1.0
+Urshifu (Single Strike),dragon,1.0
+Urshifu (Single Strike),dark,0.391
+Urshifu (Single Strike),fairy,2.56
 Zarude,normal,1.0
 Zarude,fighting,1.6
 Zarude,flying,1.6
@@ -24443,24 +24443,24 @@ Calyrex,ice,1.6
 Calyrex,dragon,1.0
 Calyrex,dark,1.6
 Calyrex,fairy,1.0
-Calyrex_ice_rider,normal,1.0
-Calyrex_ice_rider,fighting,1.0
-Calyrex_ice_rider,flying,1.0
-Calyrex_ice_rider,poison,1.0
-Calyrex_ice_rider,ground,1.0
-Calyrex_ice_rider,rock,1.6
-Calyrex_ice_rider,bug,1.6
-Calyrex_ice_rider,ghost,1.6
-Calyrex_ice_rider,steel,1.6
-Calyrex_ice_rider,fire,1.6
-Calyrex_ice_rider,water,1.0
-Calyrex_ice_rider,grass,1.0
-Calyrex_ice_rider,electric,1.0
-Calyrex_ice_rider,psychic,0.625
-Calyrex_ice_rider,ice,0.625
-Calyrex_ice_rider,dragon,1.0
-Calyrex_ice_rider,dark,1.6
-Calyrex_ice_rider,fairy,1.0
+Calyrex (Ice Rider),normal,1.0
+Calyrex (Ice Rider),fighting,1.0
+Calyrex (Ice Rider),flying,1.0
+Calyrex (Ice Rider),poison,1.0
+Calyrex (Ice Rider),ground,1.0
+Calyrex (Ice Rider),rock,1.6
+Calyrex (Ice Rider),bug,1.6
+Calyrex (Ice Rider),ghost,1.6
+Calyrex (Ice Rider),steel,1.6
+Calyrex (Ice Rider),fire,1.6
+Calyrex (Ice Rider),water,1.0
+Calyrex (Ice Rider),grass,1.0
+Calyrex (Ice Rider),electric,1.0
+Calyrex (Ice Rider),psychic,0.625
+Calyrex (Ice Rider),ice,0.625
+Calyrex (Ice Rider),dragon,1.0
+Calyrex (Ice Rider),dark,1.6
+Calyrex (Ice Rider),fairy,1.0
 Ursaluna,normal,1.0
 Ursaluna,fighting,1.6
 Ursaluna,flying,1.0

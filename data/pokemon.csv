@@ -519,7 +519,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 279,pelipper,Pelipper,175,174,155,"['water', 'flying']","['WATER_GUN', 'WING_ATTACK']","['BLIZZARD', 'HURRICANE', 'HYDRO_PUMP', 'WEATHER_BALL_WATER']",nan,nan,3,50000,True,FAMILY_WINGULL,nan,wingull,nan
 280,ralts,Ralts,79,59,99,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION']","['DISARMING_VOICE', 'PSYSHOCK', 'SHADOW_SNEAK', 'RETURN']",nan,nan,5,75000,True,FAMILY_RALTS,['kirlia'],,['shadoweligible']
 280,ralts_shadow,Ralts (Shadow),79,59,99,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION']","['DISARMING_VOICE', 'PSYSHOCK', 'SHADOW_SNEAK', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_RALTS,['kirlia_shadow'],,['shadow']
-281,kirlia,Kirlia,117,90,116,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION']","['DISARMING_VOICE', 'PSYCHIC', 'SHADOW_SNEAK', 'DRAINING_KISS', 'RETURN']",['DRAINING_KISS'],nan,5,75000,True,FAMILY_RALTS,"['gallade', 'gardevoir']",ralts,['shadoweligible']
+281,kirlia,Kirlia,117,90,116,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION']","['DISARMING_VOICE', 'PSYCHIC', 'SHADOW_SNEAK', 'DRAINING_KISS', 'RETURN']",nan,['DRAINING_KISS'],5,75000,True,FAMILY_RALTS,"['gallade', 'gardevoir']",ralts,['shadoweligible']
 281,kirlia_shadow,Kirlia (Shadow),117,90,116,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION']","['DISARMING_VOICE', 'PSYCHIC', 'SHADOW_SNEAK', 'DRAINING_KISS', 'FRUSTRATION']",['DRAINING_KISS'],nan,5,75000,True,FAMILY_RALTS,"['gallade_shadow', 'gardevoir_shadow']",ralts_shadow,['shadow']
 282,gardevoir,Gardevoir,237,195,169,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION', 'CHARM']","['DAZZLING_GLEAM', 'PSYCHIC', 'SHADOW_BALL', 'SYNCHRONOISE', 'RETURN']",['SYNCHRONOISE'],nan,5,75000,True,FAMILY_RALTS,nan,kirlia,['shadoweligible']
 282,gardevoir_mega,Gardevoir (Mega),326,229,169,"['psychic', 'fairy']","['CHARGE_BEAM', 'CONFUSION', 'CHARM']","['DAZZLING_GLEAM', 'PSYCHIC', 'SHADOW_BALL', 'SYNCHRONOISE']",['SYNCHRONOISE'],nan,5,75000,True,,nan,,"['shadoweligible', 'mega']"
@@ -935,7 +935,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),323,123,233,"['ice', 'fire']","['TACKLE', 'ICE_FANG']","['OVERHEAT', 'AVALANCHE', 'SUPER_POWER', 'ICE_PUNCH']",nan,nan,3,50000,False,FAMILY_DARUMAKA,nan,darumaka,['galarian']
 555,darmanitan_galarian_standard,Darmanitan (Galarian),263,114,233,"['ice', 'none']","['TACKLE', 'ICE_FANG']","['OVERHEAT', 'AVALANCHE', 'SUPER_POWER', 'ICE_PUNCH']",nan,nan,3,50000,True,FAMILY_DARUMAKA,nan,darumaka,['galarian']
 555,darmanitan_standard,Darmanitan (Standard),263,114,233,"['fire', 'none']","['TACKLE', 'FIRE_FANG', 'INCINERATE']","['OVERHEAT', 'FOCUS_BLAST', 'PSYCHIC', 'ROCK_SLIDE']",nan,nan,3,50000,True,FAMILY_DARUMAKA,nan,darumaka,nan
-555,darmanitan_zen,Darmanitan (Zen),243,202,233,"['fire', 'psychic']","['TACKLE', 'FIRE_FANG']","['OVERHEAT', 'FOCUS_BLAST', 'PSYCHIC', 'ROCK_SLIDE']",nan,nan,3,50000,False,FAMILY_DARUMAKA,nan,darumaka,nan
+555,darmanitan_zen,Darmanitan (Zen),243,202,233,"['fire', 'psychic']","['TACKLE', 'FIRE_FANG', 'INCINERATE']","['OVERHEAT', 'FOCUS_BLAST', 'PSYCHIC', 'ROCK_SLIDE']",nan,nan,3,50000,False,FAMILY_DARUMAKA,nan,darumaka,nan
 556,maractus,Maractus,201,130,181,"['grass', 'none']","['BULLET_SEED', 'POISON_JAB']","['AERIAL_ACE', 'PETAL_BLIZZARD', 'SOLAR_BEAM']",nan,nan,1,10000,True,,nan,,['regional']
 557,dwebble,Dwebble,118,128,137,"['bug', 'rock']","['CUT', 'SMACK_DOWN']","['ROCK_BLAST', 'X_SCISSOR', 'ROCK_TOMB']",nan,nan,1,10000,True,FAMILY_DWEBBLE,['crustle'],,nan
 558,crustle,Crustle,188,200,172,"['bug', 'rock']","['FURY_CUTTER', 'SMACK_DOWN']","['ROCK_BLAST', 'X_SCISSOR', 'ROCK_SLIDE']",nan,nan,1,10000,True,FAMILY_DWEBBLE,nan,dwebble,nan
@@ -949,7 +949,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 565,carracosta,Carracosta,192,197,179,"['water', 'rock']","['WATER_GUN', 'ROCK_THROW']","['SURF', 'ANCIENT_POWER', 'BODY_SLAM']",nan,nan,5,75000,True,FAMILY_TIRTOUGA,nan,tirtouga,nan
 566,archen,Archen,213,89,146,"['rock', 'flying']","['QUICK_ATTACK', 'WING_ATTACK']","['DRAGON_CLAW', 'ANCIENT_POWER', 'CRUNCH']",nan,nan,5,75000,True,FAMILY_ARCHEN,['archeops'],,nan
 567,archeops,Archeops,292,139,181,"['rock', 'flying']","['STEEL_WING', 'WING_ATTACK']","['DRAGON_CLAW', 'ANCIENT_POWER', 'CRUNCH']",nan,nan,5,75000,True,FAMILY_ARCHEN,nan,archen,nan
-568,trubbish,Trubbish,96,122,137,"['poison', 'none']","['POUND', 'TAKE_DOWN']","['GUNK_SHOT', 'SEED_BOMB', 'GUNK_SHOT']",nan,nan,3,50000,True,FAMILY_TRUBBISH,['garbodor'],,nan
+568,trubbish,Trubbish,96,122,137,"['poison', 'none']","['POUND', 'TAKE_DOWN']","['GUNK_SHOT', 'SEED_BOMB']",nan,nan,3,50000,True,FAMILY_TRUBBISH,['garbodor'],,nan
 569,garbodor,Garbodor,181,164,190,"['poison', 'none']","['INFESTATION', 'TAKE_DOWN']","['ACID_SPRAY', 'SEED_BOMB', 'GUNK_SHOT', 'BODY_SLAM']",nan,nan,3,50000,True,FAMILY_TRUBBISH,nan,trubbish,nan
 570,zorua,Zorua,153,78,120,"['dark', 'none']","['SCRATCH', 'FEINT_ATTACK']","['FOUL_PLAY', 'AERIAL_ACE', 'DARK_PULSE']",nan,nan,5,75000,True,FAMILY_ZORUA,['zoroark'],,nan
 571,zoroark,Zoroark,250,127,155,"['dark', 'none']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER']",nan,nan,5,75000,True,FAMILY_ZORUA,nan,zorua,nan
@@ -1067,8 +1067,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 662,fletchinder,Fletchinder,145,110,158,"['fire', 'flying']","['PECK', 'EMBER', 'STEEL_WING']","['AERIAL_ACE', 'HEAT_WAVE', 'FLAME_CHARGE']",nan,nan,1,10000,True,FAMILY_FLETCHLING,['talonflame'],fletchling,nan
 663,talonflame,Talonflame,176,155,186,"['fire', 'flying']","['PECK', 'FIRE_SPIN', 'STEEL_WING', 'INCINERATE']","['BRAVE_BIRD', 'FIRE_BLAST', 'FLAME_CHARGE', 'HURRICANE']",['INCINERATE'],nan,1,10000,True,FAMILY_FLETCHLING,nan,fletchinder,nan
 664,scatterbug,Scatterbug,63,63,116,"['bug', 'none']","['BUG_BITE', 'TACKLE']",['STRUGGLE'],nan,nan,1,10000,True,FAMILY_SCATTERBUG,['spewpa'],,nan
-665,spewpa,Spewpa,48,89,128,"['bug', 'none']","['BUG_BITE', 'TACKLE']",['STRUGGLE'],nan,nan,1,10000,False,FAMILY_SCATTERBUG,['vivillon'],scatterbug,nan
-666,vivillon,Vivillon,176,103,190,"['bug', 'flying']","['BUG_BITE', 'GUST', 'STRUGGLE_BUG']","['BUG_BUZZ', 'AERIAL_ACE', 'ENERGY_BALL', 'HURRICANE']",nan,nan,1,10000,True,FAMILY_SCATTERBUG,nan,spewpa,nan
+665,spewpa,Spewpa,48,89,128,"['bug', 'none']",['STRUGGLE_BUG'],['STRUGGLE'],nan,nan,1,10000,False,FAMILY_SCATTERBUG,['vivillon'],scatterbug,nan
+666,vivillon,Vivillon,176,103,190,"['bug', 'flying']","['GUST', 'STRUGGLE_BUG']","['BUG_BUZZ', 'AERIAL_ACE', 'ENERGY_BALL', 'HURRICANE']",nan,nan,1,10000,True,FAMILY_SCATTERBUG,nan,spewpa,nan
 667,litleo,Litleo,139,112,158,"['fire', 'normal']","['FIRE_FANG', 'TACKLE', 'EMBER', 'INCINERATE']","['FLAME_CHARGE', 'FLAMETHROWER', 'CRUNCH']",nan,nan,3,10000,True,FAMILY_LITLEO,"['pyroar', 'pyroar']",,nan
 668,pyroar,Pyroar,221,149,200,"['fire', 'normal']","['FIRE_FANG', 'TAKE_DOWN', 'INCINERATE', 'EMBER']","['FLAME_CHARGE', 'SOLAR_BEAM', 'DARK_PULSE', 'OVERHEAT']",nan,nan,3,10000,True,FAMILY_LITLEO,nan,litleo,nan
 669,flabebe,Flabebe,108,120,127,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLABEBE,['floette'],,nan
@@ -1121,7 +1121,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 711,gourgeist_large,Gourgeist (Large),179,206,181,"['ghost', 'grass']","['HEX', 'RAZOR_LEAF']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FIRE_BLAST', 'POLTERGEIST']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,nan,pumpkaboo_large,['teambuilderexclude']
 711,gourgeist_small,Gourgeist (Small),171,219,146,"['ghost', 'grass']","['HEX', 'RAZOR_LEAF']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FIRE_BLAST', 'POLTERGEIST']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,nan,pumpkaboo_small,['teambuilderexclude']
 711,gourgeist_super,Gourgeist (Super),182,200,198,"['ghost', 'grass']","['HEX', 'RAZOR_LEAF']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FIRE_BLAST', 'POLTERGEIST']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,nan,pumpkaboo_super,nan
-712,bergmite,Bergmite,117,120,146,"['ice', 'none']","['BITE', 'TACKLE']","['CRUNCH', 'ICY_WIND']",nan,nan,3,50000,True,FAMILY_BERGMITE,['avalugg'],,nan
+712,bergmite,Bergmite,117,120,146,"['ice', 'none']","['BITE', 'TACKLE']","['CRUNCH', 'ICY_WIND', 'MIRROR_COAT']",nan,nan,3,50000,True,FAMILY_BERGMITE,['avalugg'],,nan
 713,avalugg,Avalugg,196,240,216,"['ice', 'none']","['BITE', 'ICE_FANG']","['CRUNCH', 'AVALANCHE', 'EARTHQUAKE', 'BODY_SLAM', 'MIRROR_COAT']",nan,nan,3,50000,True,FAMILY_BERGMITE,nan,bergmite,nan
 713,avalugg_hisuian,Avalugg (Hisuian),214,238,216,"['ice', 'rock']","['BITE', 'TACKLE', 'POWDER_SNOW']","['CRUNCH', 'ROCK_SLIDE', 'BLIZZARD']",nan,nan,3,50000,True,FAMILY_BERGMITE,nan,bergmite,['hisuian']
 714,noibat,Noibat,83,73,120,"['flying', 'dragon']","['WING_ATTACK', 'BITE']","['DRAGON_PULSE', 'AIR_CUTTER', 'HEAT_WAVE']",nan,nan,5,75000,True,FAMILY_NOIBAT,['noivern'],,nan
@@ -1165,7 +1165,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 745,lycanroc_midnight,Lycanroc (Midnight),218,152,198,"['rock', 'none']","['COUNTER', 'ROCK_THROW']","['STONE_EDGE', 'PSYCHIC_FANGS', 'CRUNCH']",nan,nan,5,50000,True,FAMILY_ROCKRUFF,nan,rockruff,nan
 746,wishiwashi,Wishiwashi,46,43,128,"['water', 'none']","['WATER_GUN', 'WATERFALL', 'IRON_TAIL']","['BRINE', 'SURF', 'AQUA_TAIL']",nan,nan,1,75000,False,,nan,,nan
 746,wishiwashi_school,Wishiwashi (School),255,242,128,"['water', 'none']","['WATER_GUN', 'WATERFALL', 'IRON_TAIL']","['BRINE', 'SURF', 'AQUA_TAIL']",nan,nan,1,75000,False,,nan,,nan
-746,wishiwashi_solo,Wishiwashi_solo,46,43,128,"['water', 'none']","['WATER_GUN', 'WATERFALL', 'IRON_TAIL']","['BRINE', 'SURF', 'AQUA_TAIL']",nan,nan,1,75000,False,,nan,,nan
+746,wishiwashi_solo,Wishiwashi (Solo),46,43,128,"['water', 'none']","['WATER_GUN', 'WATERFALL', 'IRON_TAIL']","['BRINE', 'SURF', 'AQUA_TAIL']",nan,nan,1,75000,False,,nan,,nan
 747,mareanie,Mareanie,98,110,137,"['poison', 'water']","['POISON_STING', 'BITE']","['BRINE', 'GUNK_SHOT', 'SLUDGE_WAVE']",nan,nan,3,50000,True,FAMILY_MAREANIE,['toxapex'],,nan
 748,toxapex,Toxapex,114,273,137,"['poison', 'water']","['POISON_JAB', 'BITE']","['BRINE', 'GUNK_SHOT', 'SLUDGE_WAVE']",nan,nan,3,50000,True,FAMILY_MAREANIE,nan,mareanie,nan
 749,mudbray,Mudbray,175,121,172,"['ground', 'none']","['MUD_SLAP', 'ROCK_SMASH']","['BULLDOZE', 'BODY_SLAM', 'EARTHQUAKE']",nan,nan,3,50000,False,FAMILY_MUDBRAY,['mudsdale'],,nan
@@ -1287,20 +1287,20 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 845,cramorant,Cramorant,173,163,172,"['flying', 'water']","['PECK', 'WATER_GUN']","['DRILL_PECK', 'FLY', 'HYDRO_PUMP']",nan,nan,3,50000,False,,nan,,nan
 846,arrokuda,Arrokuda,118,72,121,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3,50000,False,FAMILY_ARROKUDA,['barraskewda'],,nan
 847,barraskewda,Barraskewda,258,127,156,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3,50000,False,FAMILY_ARROKUDA,nan,arrokuda,nan
-848,toxel,Toxel,97,65,120,"['electric', 'poison']",['ACID'],['POWER_UP_PUNCH'],nan,nan,5,75000,False,FAMILY_TOXEL,"['toxtricity', 'toxtricity']",,nan
+848,toxel,Toxel,97,65,120,"['electric', 'poison']",['ACID'],['POWER_UP_PUNCH'],nan,nan,5,75000,False,FAMILY_TOXEL,"['toxtricity_amped', 'toxtricity_low_key']",,nan
 849,toxtricity,Toxtricity,224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
-849,toxtricity_amped,Toxtricity_amped,224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
-849,toxtricity_low_key,Toxtricity_low_key,224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
+849,toxtricity_amped,Toxtricity (Amped),224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
+849,toxtricity_low_key,Toxtricity (Low Key),224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
 850,sizzlipede,Sizzlipede,118,90,137,"['fire', 'bug']","['BUG_BITE', 'EMBER']","['HEAT_WAVE', 'BUG_BUZZ', 'CRUNCH']",nan,nan,5,75000,False,FAMILY_SIZZLIPEDE,['centiskorch'],,nan
 851,centiskorch,Centiskorch,220,158,225,"['fire', 'bug']","['BUG_BITE', 'EMBER']","['HEAT_WAVE', 'BUG_BUZZ', 'CRUNCH', 'LUNGE']",nan,nan,5,75000,False,FAMILY_SIZZLIPEDE,nan,sizzlipede,nan
 852,clobbopus,Clobbopus,121,103,137,"['fighting', 'none']",['ROCK_SMASH'],"['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH']",nan,nan,3,50000,False,FAMILY_CLOBBOPUS,['grapploct'],,nan
 853,grapploct,Grapploct,209,162,190,"['fighting', 'none']","['ROCK_SMASH', 'WATERFALL']","['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH', 'SURF']",nan,nan,3,50000,False,FAMILY_CLOBBOPUS,nan,clobbopus,nan
 854,sinistea,Sinistea,134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,['polteageist'],,nan
-854,sinistea_antique,Sinistea_antique,134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,['polteageist'],,nan
-854,sinistea_phony,Sinistea_phony,134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,['polteageist'],,nan
+854,sinistea_antique,Sinistea (Antique),134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,['polteageist'],,nan
+854,sinistea_phony,Sinistea (Phony),134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,['polteageist'],,nan
 855,polteageist,Polteageist,248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
-855,polteageist_antique,Polteageist_antique,248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
-855,polteageist_phony,Polteageist_phony,248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
+855,polteageist_antique,Polteageist (Antique),248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
+855,polteageist_phony,Polteageist (Phony),248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
 856,hatenna,Hatenna,98,93,123,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5,50000,False,FAMILY_HATENNA,['hattrem'],,nan
 857,hattrem,Hattrem,153,133,149,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5,50000,False,FAMILY_HATENNA,['hatterene'],hatenna,nan
 858,hatterene,Hatterene,237,182,149,"['psychic', 'fairy']","['CONFUSION', 'CHARM', 'PSYCHO_CUT']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM', 'POWER_WHIP']",nan,nan,5,50000,False,FAMILY_HATENNA,nan,hattrem,nan
@@ -1321,14 +1321,14 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 873,frosmoth,Frosmoth,230,155,172,"['ice', 'bug']","['POWDER_SNOW', 'BUG_BITE']","['ICY_WIND', 'BUG_BUZZ', 'ICE_BEAM', 'HURRICANE']",nan,nan,5,75000,False,FAMILY_SNOM,nan,snom,nan
 874,stonjourner,Stonjourner,222,182,225,"['rock', 'none']",['ROCK_THROW'],"['STONE_EDGE', 'ROCK_SLIDE', 'STOMP']",nan,nan,5,75000,False,,nan,,nan
 875,eiscue,Eiscue,148,195,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5,75000,False,,nan,,nan
-875,eiscue_ice,Eiscue_ice,148,195,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5,75000,False,,nan,,nan
-875,eiscue_noice,Eiscue_noice,173,139,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5,75000,False,,nan,,nan
+875,eiscue_ice,Eiscue (Ice),148,195,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5,75000,False,,nan,,nan
+875,eiscue_noice,Eiscue (Noice),173,139,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5,75000,False,,nan,,nan
 876,indeedee,Indeedee,208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3,50000,False,,nan,,nan
-876,indeedee_female,Indeedee_female,184,184,172,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,3,50000,False,,nan,,nan
-876,indeedee_male,Indeedee_male,208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3,50000,False,,nan,,nan
+876,indeedee_female,Indeedee (Female),184,184,172,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,3,50000,False,,nan,,nan
+876,indeedee_male,Indeedee (Male),208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3,50000,False,,nan,,nan
 877,morpeko,Morpeko,192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3,50000,False,,nan,,nan
-877,morpeko_full_belly,Morpeko_full_belly,192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3,50000,False,,nan,,nan
-877,morpeko_hangry,Morpeko_hangry,192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3,50000,False,,nan,,nan
+877,morpeko_full_belly,Morpeko (Full Belly),192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3,50000,False,,nan,,nan
+877,morpeko_hangry,Morpeko (Hangry),192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3,50000,False,,nan,,nan
 878,cufant,Cufant,140,91,176,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH']",nan,nan,5,75000,False,FAMILY_CUFANT,['copperajah'],,nan
 879,copperajah,Copperajah,226,126,263,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH', 'HEAVY_SLAM']",nan,nan,5,75000,False,FAMILY_CUFANT,nan,cufant,nan
 880,dracozolt,Dracozolt,195,165,207,"['electric', 'dragon']","['DRAGON_TAIL', 'THUNDER_SHOCK']","['DISCHARGE', 'DRAGON_PULSE', 'ANCIENT_POWER']",nan,nan,5,75000,False,,nan,,nan
@@ -1341,26 +1341,26 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 887,dragapult,Dragapult,266,170,204,"['dragon', 'ghost']","['HEX', 'DRAGON_TAIL']","['DRAGON_PULSE', 'SHADOW_BALL', 'OUTRAGE']",nan,nan,5,75000,False,FAMILY_DREEPY,nan,drakloak,nan
 888,zacian,Zacian,254,236,192,"['fairy', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
 888,zacian_hero,Zacian (Hero),254,236,192,"['fairy', 'none']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20,100000,True,,nan,,['legendary']
-888,zacian_crowned_sword,Zacian_crowned_sword,332,240,192,"['fairy', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
+888,zacian_crowned_sword,Zacian (Crowned Sword),332,240,192,"['fairy', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
 889,zamazenta,Zamazenta,254,236,192,"['fighting', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
 889,zamazenta_hero,Zamazenta (Hero),254,236,192,"['fighting', 'none']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,True,,nan,,['legendary']
-889,zamazenta_crowned_shield,Zamazenta_crowned_shield,250,292,192,"['fighting', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
+889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),250,292,192,"['fighting', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,False,,nan,,nan
 890,eternatus,Eternatus,278,192,268,"['poison', 'dragon']","['DRAGON_TAIL', 'POISON_JAB']","['CROSS_POISON', 'DRAGON_PULSE', 'FLAMETHROWER']",nan,nan,20,100000,False,,nan,,nan
-890,eternatus_eternamax,Eternatus_eternamax,251,505,452,"['poison', 'dragon']","['DRAGON_TAIL', 'POISON_JAB']","['CROSS_POISON', 'DRAGON_PULSE', 'FLAMETHROWER', 'HYPER_BEAM']",nan,nan,20,100000,False,,nan,,nan
+890,eternatus_eternamax,Eternatus (Eternamax),251,505,452,"['poison', 'dragon']","['DRAGON_TAIL', 'POISON_JAB']","['CROSS_POISON', 'DRAGON_PULSE', 'FLAMETHROWER', 'HYPER_BEAM']",nan,nan,20,100000,False,,nan,,nan
 891,kubfu,Kubfu,170,112,155,"['fighting', 'none']","['ROCK_SMASH', 'COUNTER']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,False,FAMILY_KUBFU,"['urshifu', 'urshifu']",,nan
 892,urshifu,Urshifu,254,177,225,"['fighting', 'none']","['ROCK_SMASH', 'COUNTER']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
-892,urshifu_rapid_strike,Urshifu_rapid_strike,254,177,225,"['fighting', 'water']","['ROCK_SMASH', 'COUNTER', 'WATERFALL']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'AQUA_JET']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
-892,urshifu_single_strike,Urshifu_single_strike,254,177,225,"['fighting', 'dark']","['ROCK_SMASH', 'COUNTER', 'SUCKER_PUNCH']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'PAYBACK']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
+892,urshifu_rapid_strike,Urshifu (Rapid Strike),254,177,225,"['fighting', 'water']","['ROCK_SMASH', 'COUNTER', 'WATERFALL']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'AQUA_JET']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
+892,urshifu_single_strike,Urshifu (Single Strike),254,177,225,"['fighting', 'dark']","['ROCK_SMASH', 'COUNTER', 'SUCKER_PUNCH']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'PAYBACK']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
 893,zarude,Zarude,242,215,233,"['dark', 'grass']","['VINE_WHIP', 'BITE']","['POWER_WHIP', 'ENERGY_BALL', 'DARK_PULSE']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
 894,regieleki,Regieleki,250,125,190,"['electric', 'none']","['THUNDER_SHOCK', 'LOCK_ON']","['THUNDERBOLT', 'THUNDER', 'HYPER_BEAM']",nan,nan,20,100000,False,,nan,,nan
 895,regidrago,Regidrago,202,101,400,"['dragon', 'none']",['BITE'],"['HYPER_BEAM', 'OUTRAGE', 'DRAGON_PULSE']",nan,nan,20,100000,False,,nan,,nan
 896,glastrier,Glastrier,246,223,225,"['ice', 'none']","['TACKLE', 'TAKE_DOWN']","['AVALANCHE', 'ICY_WIND', 'BULLDOZE']",nan,nan,20,100000,False,,nan,,nan
 897,spectrier,Spectrier,273,146,205,"['ghost', 'none']","['TACKLE', 'TAKE_DOWN']","['SHADOW_BALL', 'FOUL_PLAY', 'BULLDOZE']",nan,nan,20,100000,False,,nan,,nan
 898,calyrex,Calyrex,162,162,225,"['psychic', 'grass']","['POUND', 'CONFUSION']","['PSYSHOCK', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,20,100000,False,,nan,,nan
-898,calyrex_ice_rider,Calyrex_ice_rider,268,246,205,"['psychic', 'ice']","['CONFUSION', 'TAKE_DOWN']","['PSYSHOCK', 'PSYCHIC', 'ENERGY_BALL', 'AVALANCHE']",nan,nan,20,100000,False,,nan,,nan
+898,calyrex_ice_rider,Calyrex (Ice Rider),268,246,205,"['psychic', 'ice']","['CONFUSION', 'TAKE_DOWN']","['PSYSHOCK', 'PSYCHIC', 'ENERGY_BALL', 'AVALANCHE']",nan,nan,20,100000,False,,nan,,nan
 901,ursaluna,Ursaluna,243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'RETURN']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring,['shadoweligible']
 901,ursaluna_shadow,Ursaluna (Shadow),243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'FRUSTRATION']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring_shadow,['shadow']
 903,sneasler,Sneasler,259,158,190,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB', 'SHADOW_CLAW']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR']",nan,nan,5,75000,True,FAMILY_SNEASEL,nan,sneasel_hisuian,nan
-904,overqwil,Overqwil,222,171,198,"['dark', 'poison']","['POISON_STING', 'POISON_JAB']","['AQUA_TAIL', 'ICE_BEAM', 'SLUDGE_BOMB', 'DARK_PULSE', 'SHADOW_BALL']",nan,nan,3,50000,True,FAMILY_QWILFISH,nan,qwilfish_hisuian,nan
+904,overqwil,Overqwil,222,171,198,"['dark', 'poison']","['POISON_STING', 'POISON_JAB']","['AQUA_TAIL', 'ICE_BEAM', 'SLUDGE_BOMB', 'DARK_PULSE', 'SHADOW_BALL']",nan,nan,5,75000,True,FAMILY_QWILFISH,nan,qwilfish_hisuian,nan
 999,gimmighoul,Gimmighoul,140,76,128,"['ghost', 'none']",['ASTONISH'],['SHADOW_BALL'],nan,nan,1,10000,True,FAMILY_GIMMIGHOUL,['gholdengo'],,nan
 1000,gholdengo,Gholdengo,252,190,202,"['steel', 'ghost']","['ASTONISH', 'HEX']","['SHADOW_BALL', 'DAZZLING_GLEAM', 'FOCUS_BLAST']",nan,nan,1,10000,True,FAMILY_GIMMIGHOUL,nan,gimmighoul,nan
