@@ -562,7 +562,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 306,aggron_shadow,Aggron (Shadow),198,257,172,"['steel', 'rock']","['DRAGON_TAIL', 'IRON_TAIL', 'SMACK_DOWN']","['HEAVY_SLAM', 'STONE_EDGE', 'THUNDER', 'ROCK_TOMB', 'METEOR_BEAM', 'FRUSTRATION']",nan,nan,1,10000,True,FAMILY_ARON,nan,lairon_shadow,['shadow']
 307,meditite,Meditite,78,107,102,"['fighting', 'psychic']","['CONFUSION', 'ROCK_SMASH']","['ICE_PUNCH', 'LOW_SWEEP', 'PSYSHOCK']",nan,nan,3,50000,True,FAMILY_MEDITITE,['medicham'],,nan
 308,medicham,Medicham,121,152,155,"['fighting', 'psychic']","['COUNTER', 'PSYCHO_CUT']","['DYNAMIC_PUNCH', 'ICE_PUNCH', 'PSYCHIC', 'POWER_UP_PUNCH']",nan,nan,3,50000,True,FAMILY_MEDITITE,nan,meditite,nan
-308,medicham_mega,Medicham (Mega),205,179,155,"['fighting', 'psychic']","['COUNTER', 'PSYCHO_CUT']","['DYNAMIC_PUNCH', 'ICE_PUNCH', 'PSYCHIC', 'POWER_UP_PUNCH']",nan,nan,3,50000,False,,nan,,['mega']
+308,medicham_mega,Medicham (Mega),205,179,155,"['fighting', 'psychic']","['COUNTER', 'PSYCHO_CUT']","['DYNAMIC_PUNCH', 'ICE_PUNCH', 'PSYCHIC', 'POWER_UP_PUNCH']",nan,nan,3,50000,True,,nan,,['mega']
 309,electrike,Electrike,123,78,120,"['electric', 'none']","['QUICK_ATTACK', 'SPARK']","['DISCHARGE', 'SWIFT', 'THUNDERBOLT', 'RETURN']",nan,nan,3,50000,True,FAMILY_ELECTRIKE,['manectric'],,['shadoweligible']
 309,electrike_shadow,Electrike (Shadow),123,78,120,"['electric', 'none']","['QUICK_ATTACK', 'SPARK']","['DISCHARGE', 'SWIFT', 'THUNDERBOLT', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_ELECTRIKE,['manectric_shadow'],,['shadow']
 310,manectric,Manectric,215,127,172,"['electric', 'none']","['CHARGE_BEAM', 'SNARL', 'THUNDER_FANG']","['FLAME_BURST', 'THUNDER', 'WILD_CHARGE', 'OVERHEAT', 'PSYCHIC_FANGS', 'RETURN']",nan,nan,3,50000,True,FAMILY_ELECTRIKE,nan,electrike,['shadoweligible']
@@ -1216,7 +1216,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE']",nan,nan,5,75000,False,,nan,,nan
 777,togedemaru,Togedemaru,190,145,163,"['electric', 'steel']","['THUNDER_SHOCK', 'SPARK']","['FELL_STINGER', 'WILD_CHARGE', 'GYRO_BALL']",nan,nan,3,50000,True,,nan,,nan
 778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5,50000,False,,nan,,nan
-779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3,50000,False,,nan,,nan
+779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3,50000,True,,nan,,nan
 780,drampa,Drampa,231,164,186,"['normal', 'dragon']","['DRAGON_BREATH', 'EXTRASENSORY']","['OUTRAGE', 'DRAGON_PULSE', 'FLY']",nan,nan,5,75000,False,,nan,,nan
 781,dhelmise,Dhelmise,233,179,172,"['ghost', 'grass']","['ASTONISH', 'SHADOW_CLAW']","['POWER_WHIP', 'SHADOW_BALL', 'HEAVY_SLAM']",nan,nan,5,50000,False,,nan,,nan
 782,jangmo_o,Jangmo-o,102,108,128,"['dragon', 'none']","['TACKLE', 'DRAGON_TAIL']","['DRAGON_CLAW', 'BRICK_BREAK', 'DRAGON_PULSE']",nan,nan,5,75000,True,FAMILY_JANGMO_O,['hakamo_o'],,nan
