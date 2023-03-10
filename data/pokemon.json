@@ -75477,6 +75477,10 @@
                 15
             ]
         },
+        "tags": [
+            "legendary"
+        ],
+        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -75510,10 +75514,10 @@
                 11
             ],
             "cp1500": [
-                19,
-                4,
-                12,
-                8
+                20,
+                3,
+                3,
+                3
             ],
             "cp2500": [
                 31.5,
@@ -75522,9 +75526,13 @@
                 13
             ]
         },
+        "tags": [
+            "legendary"
+        ],
+        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 896,
