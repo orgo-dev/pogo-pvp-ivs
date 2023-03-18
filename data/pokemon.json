@@ -10478,7 +10478,11 @@
         "chargedMoves": [
             "ICE_BEAM",
             "PSYCHIC",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -10516,7 +10520,8 @@
         "family": {
             "id": "FAMILY_SLOWPOKE",
             "parent": "slowpoke"
-        }
+        },
+        "searchPriority": 3
     },
     {
         "dex": 80,
@@ -10538,7 +10543,11 @@
         "chargedMoves": [
             "FOCUS_BLAST",
             "PSYCHIC",
-            "SLUDGE_BOMB"
+            "SLUDGE_BOMB",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -10597,7 +10606,11 @@
         "chargedMoves": [
             "ICE_BEAM",
             "PSYCHIC",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -10650,7 +10663,11 @@
         "chargedMoves": [
             "ICE_BEAM",
             "PSYCHIC",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -22809,7 +22826,11 @@
         "chargedMoves": [
             "BLIZZARD",
             "FIRE_BLAST",
-            "PSYCHIC"
+            "PSYCHIC",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -22870,7 +22891,11 @@
         "chargedMoves": [
             "FUTURE_SIGHT",
             "SHADOW_BALL",
-            "SLUDGE_WAVE"
+            "SLUDGE_WAVE",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -22901,7 +22926,8 @@
         "family": {
             "id": "FAMILY_SLOWPOKE",
             "parent": "slowpoke_galarian"
-        }
+        },
+        "searchPriority": 2
     },
     {
         "dex": 199,
@@ -22923,7 +22949,11 @@
         "chargedMoves": [
             "BLIZZARD",
             "FIRE_BLAST",
-            "PSYCHIC"
+            "PSYCHIC",
+            "SURF"
+        ],
+        "eliteMoves": [
+            "SURF"
         ],
         "defaultIVs": {
             "cp500": [

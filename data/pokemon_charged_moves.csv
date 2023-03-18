@@ -4325,28 +4325,35 @@ Sliggoo,Water Pulse,charged,water,1.0,70,60,1.17,,High Energy,
 Slowbro,Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,
 Slowbro,Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
 Slowbro,Return,charged,normal,1.0,130,70,1.86,,Nuke,
+Slowbro,Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,elite
 Slowbro,Water Pulse,charged,water,1.2,70,60,1.17,,High Energy,
 Slowbro (Galarian),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Slowbro (Galarian),Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
 Slowbro (Galarian),Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
+Slowbro (Galarian),Surf,charged,water,1.0,65,40,1.62,,Spam/Bait,elite
 Slowbro (Mega),Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,
 Slowbro (Mega),Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
+Slowbro (Mega),Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,elite
 Slowbro (Mega),Water Pulse,charged,water,1.2,70,60,1.17,,High Energy,
 Slowbro (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Slowbro (Shadow),Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,
 Slowbro (Shadow),Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
+Slowbro (Shadow),Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,elite
 Slowbro (Shadow),Water Pulse,charged,water,1.2,70,60,1.17,,High Energy,
 Slowking,Blizzard,charged,ice,1.0,140,75,1.87,,Nuke,
 Slowking,Fire Blast,charged,fire,1.0,140,80,1.75,,Nuke,
 Slowking,Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
 Slowking,Return,charged,normal,1.0,130,70,1.86,,Nuke,
+Slowking,Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,elite
 Slowking (Galarian),Future Sight,charged,psychic,1.2,120,65,1.85,,Nuke,
 Slowking (Galarian),Shadow Ball,charged,ghost,1.0,100,55,1.82,,Nuke,
 Slowking (Galarian),Sludge Wave,charged,poison,1.2,110,65,1.69,,Nuke,
+Slowking (Galarian),Surf,charged,water,1.0,65,40,1.62,,Spam/Bait,elite
 Slowking (Shadow),Blizzard,charged,ice,1.0,140,75,1.87,,Nuke,
 Slowking (Shadow),Fire Blast,charged,fire,1.0,140,80,1.75,,Nuke,
 Slowking (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Slowking (Shadow),Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
+Slowking (Shadow),Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,elite
 Slowpoke,Psychic,charged,psychic,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
 Slowpoke,Psyshock,charged,psychic,1.2,70,45,1.56,,General,
 Slowpoke,Return,charged,normal,1.0,130,70,1.86,,Nuke,
