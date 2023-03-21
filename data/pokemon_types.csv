@@ -389,12 +389,16 @@ Grimer (Alolan),poison
 Grimer (Alolan),dark
 Grimer (Shadow),poison
 Grimer (Shadow),none
+Grimer (Alolan) (Shadow),poison
+Grimer (Alolan) (Shadow),dark
 Muk,poison
 Muk,none
 Muk (Alolan),poison
 Muk (Alolan),dark
 Muk (Shadow),poison
 Muk (Shadow),none
+Muk (Alolan) (Shadow),poison
+Muk (Alolan) (Shadow),dark
 Shellder,water
 Shellder,none
 Shellder (Shadow),water
@@ -893,8 +897,12 @@ Kingdra (Shadow),water
 Kingdra (Shadow),dragon
 Phanpy,ground
 Phanpy,none
+Phanpy (Shadow),ground
+Phanpy (Shadow),none
 Donphan,ground
 Donphan,none
+Donphan (Shadow),ground
+Donphan (Shadow),none
 Porygon2,normal
 Porygon2,none
 Porygon2 (Shadow),normal
@@ -955,20 +963,32 @@ Celebi,psychic
 Celebi,grass
 Treecko,grass
 Treecko,none
+Treecko (Shadow),grass
+Treecko (Shadow),none
 Grovyle,grass
 Grovyle,none
+Grovyle (Shadow),grass
+Grovyle (Shadow),none
 Sceptile,grass
 Sceptile,none
 Sceptile (Mega),grass
 Sceptile (Mega),dragon
+Sceptile (Shadow),grass
+Sceptile (Shadow),none
 Torchic,fire
 Torchic,none
+Torchic (Shadow),fire
+Torchic (Shadow),none
 Combusken,fire
 Combusken,fighting
+Combusken (Shadow),fire
+Combusken (Shadow),fighting
 Blaziken,fire
 Blaziken,fighting
 Blaziken (Mega),fire
 Blaziken (Mega),fighting
+Blaziken (Shadow),fire
+Blaziken (Shadow),fighting
 Mudkip,water
 Mudkip,none
 Mudkip (Shadow),water
@@ -1499,8 +1519,12 @@ Ambipom (Shadow),normal
 Ambipom (Shadow),none
 Drifloon,ghost
 Drifloon,flying
+Drifloon (Shadow),ghost
+Drifloon (Shadow),flying
 Drifblim,ghost
 Drifblim,flying
+Drifblim (Shadow),ghost
+Drifblim (Shadow),flying
 Buneary,normal
 Buneary,none
 Lopunny,normal
@@ -2681,16 +2705,16 @@ Dragapult,dragon
 Dragapult,ghost
 Zacian,fairy
 Zacian,steel
-Zacian (Hero),fairy
-Zacian (Hero),none
 Zacian (Crowned Sword),fairy
 Zacian (Crowned Sword),steel
+Zacian (Hero),fairy
+Zacian (Hero),none
 Zamazenta,fighting
 Zamazenta,steel
-Zamazenta (Hero),fighting
-Zamazenta (Hero),none
 Zamazenta (Crowned Shield),fighting
 Zamazenta (Crowned Shield),steel
+Zamazenta (Hero),fighting
+Zamazenta (Hero),none
 Eternatus,poison
 Eternatus,dragon
 Eternatus (Eternamax),poison

@@ -10704,7 +10704,8 @@
         "family": {
             "id": "FAMILY_SLOWPOKE",
             "parent": "slowpoke_shadow"
-        }
+        },
+        "searchPriority": 3
     },
     {
         "dex": 81,
@@ -11388,7 +11389,8 @@
             "SLUDGE_BOMB"
         ],
         "tags": [
-            "alolan"
+            "alolan",
+            "shadoweligible"
         ],
         "legacyMoves": [
             "ACID"
@@ -11427,7 +11429,8 @@
             "evolutions": [
                 "muk_alolan"
             ]
-        }
+        },
+        "level25CP": 787
     },
     {
         "dex": 88,
@@ -11487,6 +11490,68 @@
             "id": "FAMILY_GRIMER",
             "evolutions": [
                 "muk_shadow"
+            ]
+        }
+    },
+    {
+        "dex": 88,
+        "speciesName": "Grimer (Alolan) (Shadow)",
+        "speciesId": "grimer_alolan_shadow",
+        "baseStats": {
+            "atk": 135,
+            "def": 90,
+            "hp": 190
+        },
+        "types": [
+            "poison",
+            "dark"
+        ],
+        "fastMoves": [
+            "BITE",
+            "POISON_JAB"
+        ],
+        "chargedMoves": [
+            "CRUNCH",
+            "GUNK_SHOT",
+            "SLUDGE_BOMB"
+        ],
+        "tags": [
+            "alolan",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                14,
+                5,
+                13,
+                9
+            ],
+            "cp1500": [
+                49,
+                13,
+                13,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp1500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_GRIMER",
+            "evolutions": [
+                "muk_alolan_shadow"
             ]
         }
     },
@@ -11579,7 +11644,8 @@
             "ACID_SPRAY"
         ],
         "tags": [
-            "alolan"
+            "alolan",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -11608,7 +11674,8 @@
         "family": {
             "id": "FAMILY_GRIMER",
             "parent": "grimer_alolan"
-        }
+        },
+        "level25CP": 1696
     },
     {
         "dex": 89,
@@ -11667,6 +11734,63 @@
         "family": {
             "id": "FAMILY_GRIMER",
             "parent": "grimer_shadow"
+        }
+    },
+    {
+        "dex": 89,
+        "speciesName": "Muk (Alolan) (Shadow)",
+        "speciesId": "muk_alolan_shadow",
+        "baseStats": {
+            "atk": 190,
+            "def": 172,
+            "hp": 233
+        },
+        "types": [
+            "poison",
+            "dark"
+        ],
+        "fastMoves": [
+            "BITE",
+            "POISON_JAB",
+            "SNARL"
+        ],
+        "chargedMoves": [
+            "DARK_PULSE",
+            "GUNK_SHOT",
+            "SLUDGE_WAVE",
+            "ACID_SPRAY"
+        ],
+        "tags": [
+            "alolan",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                7,
+                4,
+                10,
+                11
+            ],
+            "cp1500": [
+                20.5,
+                4,
+                12,
+                9
+            ],
+            "cp2500": [
+                37,
+                4,
+                15,
+                14
+            ]
+        },
+        "searchPriority": 17,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_GRIMER",
+            "parent": "grimer_alolan_shadow"
         }
     },
     {
@@ -26208,7 +26332,66 @@
             "evolutions": [
                 "donphan"
             ]
-        }
+        },
+        "level25CP": 679,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 231,
+        "speciesName": "Phanpy (Shadow)",
+        "speciesId": "phanpy_shadow",
+        "baseStats": {
+            "atk": 107,
+            "def": 98,
+            "hp": 207
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "ROCK_SMASH",
+            "TACKLE"
+        ],
+        "chargedMoves": [
+            "BODY_SLAM",
+            "BULLDOZE",
+            "ROCK_SLIDE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                16,
+                6,
+                12,
+                12
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PHANPY",
+            "evolutions": [
+                "donphan_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 232,
@@ -26261,7 +26444,67 @@
         "family": {
             "id": "FAMILY_PHANPY",
             "parent": "phanpy"
-        }
+        },
+        "level25CP": 1868,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 232,
+        "speciesName": "Donphan (Shadow)",
+        "speciesId": "donphan_shadow",
+        "baseStats": {
+            "atk": 214,
+            "def": 185,
+            "hp": 207
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "COUNTER",
+            "MUD_SLAP",
+            "TACKLE",
+            "CHARM"
+        ],
+        "chargedMoves": [
+            "EARTHQUAKE",
+            "HEAVY_SLAM",
+            "PLAY_ROUGH",
+            "BODY_SLAM"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                6.5,
+                4,
+                7,
+                9
+            ],
+            "cp1500": [
+                18.5,
+                5,
+                10,
+                14
+            ],
+            "cp2500": [
+                31.5,
+                4,
+                11,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PHANPY",
+            "parent": "phanpy_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 233,
@@ -28228,7 +28471,8 @@
             "GRASS_KNOT"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28258,6 +28502,63 @@
             "evolutions": [
                 "grovyle"
             ]
+        },
+        "level25CP": 587
+    },
+    {
+        "dex": 252,
+        "speciesName": "Treecko (Shadow)",
+        "speciesId": "treecko_shadow",
+        "baseStats": {
+            "atk": 124,
+            "def": 94,
+            "hp": 120
+        },
+        "types": [
+            "grass",
+            "none"
+        ],
+        "fastMoves": [
+            "BULLET_SEED",
+            "POUND"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "ENERGY_BALL",
+            "GRASS_KNOT"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                18,
+                6,
+                15,
+                11
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TREECKO",
+            "evolutions": [
+                "grovyle_shadow"
+            ]
         }
     },
     {
@@ -28283,7 +28584,8 @@
             "LEAF_BLADE"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28314,6 +28616,64 @@
             "evolutions": [
                 "sceptile"
             ]
+        },
+        "level25CP": 983
+    },
+    {
+        "dex": 253,
+        "speciesName": "Grovyle (Shadow)",
+        "speciesId": "grovyle_shadow",
+        "baseStats": {
+            "atk": 172,
+            "def": 120,
+            "hp": 137
+        },
+        "types": [
+            "grass",
+            "none"
+        ],
+        "fastMoves": [
+            "BULLET_SEED",
+            "QUICK_ATTACK"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "GRASS_KNOT",
+            "LEAF_BLADE"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                11.5,
+                4,
+                7,
+                14
+            ],
+            "cp1500": [
+                37.5,
+                5,
+                11,
+                14
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TREECKO",
+            "parent": "treecko_shadow",
+            "evolutions": [
+                "sceptile_shadow"
+            ]
         }
     },
     {
@@ -28341,7 +28701,8 @@
             "DRAGON_CLAW"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28373,7 +28734,8 @@
         "family": {
             "id": "FAMILY_TREECKO",
             "parent": "grovyle"
-        }
+        },
+        "level25CP": 1696
     },
     {
         "dex": 254,
@@ -28401,7 +28763,8 @@
         ],
         "tags": [
             "starter",
-            "mega"
+            "mega",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28428,7 +28791,68 @@
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": true
+        "released": true,
+        "level25CP": 2553
+    },
+    {
+        "dex": 254,
+        "speciesName": "Sceptile (Shadow)",
+        "speciesId": "sceptile_shadow",
+        "baseStats": {
+            "atk": 223,
+            "def": 169,
+            "hp": 172
+        },
+        "types": [
+            "grass",
+            "none"
+        ],
+        "fastMoves": [
+            "BULLET_SEED",
+            "FURY_CUTTER"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "EARTHQUAKE",
+            "LEAF_BLADE",
+            "FRENZY_PLANT",
+            "DRAGON_CLAW"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                7,
+                4,
+                10,
+                9
+            ],
+            "cp1500": [
+                19.5,
+                9,
+                15,
+                15
+            ],
+            "cp2500": [
+                37,
+                4,
+                13,
+                13
+            ]
+        },
+        "eliteMoves": [
+            "FRENZY_PLANT"
+        ],
+        "searchPriority": 2,
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TREECKO",
+            "parent": "grovyle_shadow"
+        }
     },
     {
         "dex": 255,
@@ -28453,7 +28877,8 @@
             "ROCK_TOMB"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28483,6 +28908,63 @@
             "evolutions": [
                 "combusken"
             ]
+        },
+        "level25CP": 612
+    },
+    {
+        "dex": 255,
+        "speciesName": "Torchic (Shadow)",
+        "speciesId": "torchic_shadow",
+        "baseStats": {
+            "atk": 130,
+            "def": 87,
+            "hp": 128
+        },
+        "types": [
+            "fire",
+            "none"
+        ],
+        "fastMoves": [
+            "EMBER",
+            "SCRATCH"
+        ],
+        "chargedMoves": [
+            "FLAME_CHARGE",
+            "FLAMETHROWER",
+            "ROCK_TOMB"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                17,
+                6,
+                15,
+                15
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TORCHIC",
+            "evolutions": [
+                "combusken_shadow"
+            ]
         }
     },
     {
@@ -28508,7 +28990,8 @@
             "ROCK_SLIDE"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28539,6 +29022,64 @@
             "evolutions": [
                 "blaziken"
             ]
+        },
+        "level25CP": 970
+    },
+    {
+        "dex": 256,
+        "speciesName": "Combusken (Shadow)",
+        "speciesId": "combusken_shadow",
+        "baseStats": {
+            "atk": 163,
+            "def": 115,
+            "hp": 155
+        },
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "fastMoves": [
+            "EMBER",
+            "PECK"
+        ],
+        "chargedMoves": [
+            "FLAME_CHARGE",
+            "FLAMETHROWER",
+            "ROCK_SLIDE"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                11,
+                9,
+                14,
+                15
+            ],
+            "cp1500": [
+                39,
+                4,
+                12,
+                12
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TORCHIC",
+            "parent": "torchic_shadow",
+            "evolutions": [
+                "blaziken_shadow"
+            ]
         }
     },
     {
@@ -28567,7 +29108,8 @@
             "BLAZE_KICK"
         ],
         "tags": [
-            "starter"
+            "starter",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28600,7 +29142,8 @@
         "family": {
             "id": "FAMILY_TORCHIC",
             "parent": "combusken"
-        }
+        },
+        "level25CP": 1752
     },
     {
         "dex": 257,
@@ -28629,7 +29172,8 @@
         ],
         "tags": [
             "starter",
-            "mega"
+            "mega",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -28657,7 +29201,70 @@
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": true
+        "released": true,
+        "level25CP": 2622
+    },
+    {
+        "dex": 257,
+        "speciesName": "Blaziken (Shadow)",
+        "speciesId": "blaziken_shadow",
+        "baseStats": {
+            "atk": 240,
+            "def": 141,
+            "hp": 190
+        },
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "fastMoves": [
+            "COUNTER",
+            "FIRE_SPIN"
+        ],
+        "chargedMoves": [
+            "BRAVE_BIRD",
+            "FOCUS_BLAST",
+            "OVERHEAT",
+            "STONE_EDGE",
+            "BLAST_BURN",
+            "BLAZE_KICK"
+        ],
+        "tags": [
+            "starter",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                6.5,
+                11,
+                15,
+                11
+            ],
+            "cp1500": [
+                19,
+                8,
+                15,
+                13
+            ],
+            "cp2500": [
+                34,
+                4,
+                15,
+                14
+            ]
+        },
+        "eliteMoves": [
+            "BLAST_BURN",
+            "STONE_EDGE"
+        ],
+        "searchPriority": 2,
+        "buddyDistance": 3,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TORCHIC",
+            "parent": "combusken_shadow"
+        }
     },
     {
         "dex": 258,
@@ -30704,8 +31311,7 @@
         "chargedMoves": [
             "DISARMING_VOICE",
             "PSYCHIC",
-            "SHADOW_SNEAK",
-            "DRAINING_KISS"
+            "SHADOW_SNEAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -30729,9 +31335,6 @@
         },
         "tags": [
             "shadow"
-        ],
-        "eliteMoves": [
-            "DRAINING_KISS"
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
@@ -43448,7 +44051,66 @@
             "evolutions": [
                 "drifblim"
             ]
-        }
+        },
+        "level25CP": 671,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 425,
+        "speciesName": "Drifloon (Shadow)",
+        "speciesId": "drifloon_shadow",
+        "baseStats": {
+            "atk": 117,
+            "def": 80,
+            "hp": 207
+        },
+        "types": [
+            "ghost",
+            "flying"
+        ],
+        "fastMoves": [
+            "ASTONISH",
+            "HEX"
+        ],
+        "chargedMoves": [
+            "ICY_WIND",
+            "OMINOUS_WIND",
+            "SHADOW_BALL"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                16,
+                6,
+                15,
+                7
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_DRIFLOON",
+            "evolutions": [
+                "drifblim_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 426,
@@ -43504,7 +44166,70 @@
         "family": {
             "id": "FAMILY_DRIFLOON",
             "parent": "drifloon"
-        }
+        },
+        "level25CP": 1432,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 426,
+        "speciesName": "Drifblim (Shadow)",
+        "speciesId": "drifblim_shadow",
+        "baseStats": {
+            "atk": 180,
+            "def": 102,
+            "hp": 312
+        },
+        "types": [
+            "ghost",
+            "flying"
+        ],
+        "fastMoves": [
+            "ASTONISH",
+            "HEX"
+        ],
+        "chargedMoves": [
+            "ICY_WIND",
+            "OMINOUS_WIND",
+            "SHADOW_BALL"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                8,
+                5,
+                12,
+                11
+            ],
+            "cp1500": [
+                23,
+                7,
+                15,
+                14
+            ],
+            "cp2500": [
+                49,
+                5,
+                13,
+                14
+            ],
+            "cp2500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_DRIFLOON",
+            "parent": "drifloon_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 427,
@@ -74864,6 +75589,55 @@
     },
     {
         "dex": 888,
+        "speciesName": "Zacian (Crowned Sword)",
+        "speciesId": "zacian_crowned_sword",
+        "baseStats": {
+            "atk": 332,
+            "def": 240,
+            "hp": 192
+        },
+        "types": [
+            "fairy",
+            "steel"
+        ],
+        "fastMoves": [
+            "METAL_CLAW",
+            "SNARL",
+            "QUICK_ATTACK",
+            "FIRE_FANG"
+        ],
+        "chargedMoves": [
+            "PLAY_ROUGH",
+            "IRON_HEAD",
+            "WILD_CHARGE",
+            "CLOSE_COMBAT"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4,
+                6,
+                15,
+                8
+            ],
+            "cp1500": [
+                11,
+                5,
+                14,
+                10
+            ],
+            "cp2500": [
+                18,
+                4,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": false
+    },
+    {
+        "dex": 888,
         "speciesName": "Zacian (Hero)",
         "speciesId": "zacian_hero",
         "baseStats": {
@@ -74916,55 +75690,6 @@
         "searchPriority": 5
     },
     {
-        "dex": 888,
-        "speciesName": "Zacian (Crowned Sword)",
-        "speciesId": "zacian_crowned_sword",
-        "baseStats": {
-            "atk": 332,
-            "def": 240,
-            "hp": 192
-        },
-        "types": [
-            "fairy",
-            "steel"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
-            "FIRE_FANG"
-        ],
-        "chargedMoves": [
-            "PLAY_ROUGH",
-            "IRON_HEAD",
-            "WILD_CHARGE",
-            "CLOSE_COMBAT"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                4,
-                6,
-                15,
-                8
-            ],
-            "cp1500": [
-                11,
-                5,
-                14,
-                10
-            ],
-            "cp2500": [
-                18,
-                4,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 20,
-        "thirdMoveCost": 100000,
-        "released": false
-    },
-    {
         "dex": 889,
         "speciesName": "Zamazenta",
         "speciesId": "zamazenta",
@@ -75007,6 +75732,55 @@
                 6,
                 15,
                 15
+            ]
+        },
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": false
+    },
+    {
+        "dex": 889,
+        "speciesName": "Zamazenta (Crowned Shield)",
+        "speciesId": "zamazenta_crowned_shield",
+        "baseStats": {
+            "atk": 250,
+            "def": 292,
+            "hp": 192
+        },
+        "types": [
+            "fighting",
+            "steel"
+        ],
+        "fastMoves": [
+            "METAL_CLAW",
+            "SNARL",
+            "QUICK_ATTACK",
+            "ICE_FANG"
+        ],
+        "chargedMoves": [
+            "MOONBLAST",
+            "IRON_HEAD",
+            "CRUNCH",
+            "CLOSE_COMBAT"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4.5,
+                13,
+                15,
+                15
+            ],
+            "cp1500": [
+                13,
+                5,
+                15,
+                15
+            ],
+            "cp2500": [
+                22,
+                4,
+                15,
+                11
             ]
         },
         "buddyDistance": 20,
@@ -75065,55 +75839,6 @@
         "thirdMoveCost": 100000,
         "released": true,
         "searchPriority": 5
-    },
-    {
-        "dex": 889,
-        "speciesName": "Zamazenta (Crowned Shield)",
-        "speciesId": "zamazenta_crowned_shield",
-        "baseStats": {
-            "atk": 250,
-            "def": 292,
-            "hp": 192
-        },
-        "types": [
-            "fighting",
-            "steel"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
-            "ICE_FANG"
-        ],
-        "chargedMoves": [
-            "MOONBLAST",
-            "IRON_HEAD",
-            "CRUNCH",
-            "CLOSE_COMBAT"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                4.5,
-                13,
-                15,
-                15
-            ],
-            "cp1500": [
-                13,
-                5,
-                15,
-                15
-            ],
-            "cp2500": [
-                22,
-                4,
-                15,
-                11
-            ]
-        },
-        "buddyDistance": 20,
-        "thirdMoveCost": 100000,
-        "released": false
     },
     {
         "dex": 890,
