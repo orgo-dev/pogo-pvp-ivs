@@ -3837,7 +3837,13 @@ Rayquaza,Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
 Regice,Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
 Regice,Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,
 Regice,Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
+Regice,Return,charged,normal,1.0,130,70,1.86,,Nuke,
 Regice,Thunder,charged,electric,1.0,100,60,1.67,,High Energy,elite
+Regice (Shadow),Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
+Regice (Shadow),Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,
+Regice (Shadow),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
+Regice (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
+Regice (Shadow),Thunder,charged,electric,1.0,100,60,1.67,,High Energy,elite
 Regidrago,Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Regidrago,Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
 Regidrago,Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
