@@ -66356,7 +66356,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CUTIEFLY",
             "evolutions": [
@@ -66407,7 +66407,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CUTIEFLY",
             "parent": "cutiefly"

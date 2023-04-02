@@ -1170,8 +1170,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 741,oricorio_pau,Oricorio (Pa'u),196,145,181,"['psychic', 'flying']","['POUND', 'AIR_SLASH']","['AERIAL_ACE', 'AIR_CUTTER', 'HURRICANE']",nan,nan,3,75000,True,,nan,,nan
 741,oricorio_pom_pom,Oricorio (Pom-Pom),196,145,181,"['electric', 'flying']","['POUND', 'AIR_SLASH']","['AERIAL_ACE', 'AIR_CUTTER', 'HURRICANE']",nan,nan,3,75000,True,,nan,,nan
 741,oricorio_sensu,Oricorio (Sensu),196,145,181,"['ghost', 'flying']","['POUND', 'AIR_SLASH']","['AERIAL_ACE', 'AIR_CUTTER', 'HURRICANE']",nan,nan,3,75000,True,,nan,,nan
-742,cutiefly,Cutiefly,110,81,120,"['bug', 'fairy']","['FAIRY_WIND', 'STRUGGLE_BUG']","['DAZZLING_GLEAM', 'BUG_BUZZ']",nan,nan,1,10000,False,FAMILY_CUTIEFLY,['ribombee'],,nan
-743,ribombee,Ribombee,198,146,155,"['bug', 'fairy']","['FAIRY_WIND', 'STRUGGLE_BUG']","['DAZZLING_GLEAM', 'BUG_BUZZ']",nan,nan,1,10000,False,FAMILY_CUTIEFLY,nan,cutiefly,nan
+742,cutiefly,Cutiefly,110,81,120,"['bug', 'fairy']","['FAIRY_WIND', 'STRUGGLE_BUG']","['DAZZLING_GLEAM', 'BUG_BUZZ']",nan,nan,1,10000,True,FAMILY_CUTIEFLY,['ribombee'],,nan
+743,ribombee,Ribombee,198,146,155,"['bug', 'fairy']","['FAIRY_WIND', 'STRUGGLE_BUG']","['DAZZLING_GLEAM', 'BUG_BUZZ']",nan,nan,1,10000,True,FAMILY_CUTIEFLY,nan,cutiefly,nan
 744,rockruff,Rockruff,117,78,128,"['rock', 'none']","['TACKLE', 'ROCK_THROW']","['STONE_EDGE', 'ROCK_TOMB', 'CRUNCH']",nan,nan,5,50000,True,FAMILY_ROCKRUFF,"['lycanroc_midnight', 'lycanroc_midday']",,nan
 745,lycanroc_dusk,Lycanroc (Dusk),234,139,181,"['rock', 'none']","['COUNTER', 'SUCKER_PUNCH', 'ROCK_THROW']","['STONE_EDGE', 'IRON_HEAD', 'CRUNCH']",nan,nan,5,50000,False,FAMILY_ROCKRUFF,nan,rockruff,nan
 745,lycanroc_midday,Lycanroc (Midday),231,140,181,"['rock', 'none']","['SUCKER_PUNCH', 'ROCK_THROW']","['STONE_EDGE', 'DRILL_RUN', 'CRUNCH']",nan,nan,5,50000,True,FAMILY_ROCKRUFF,nan,rockruff,nan
