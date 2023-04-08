@@ -1117,7 +1117,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 698,amaura,Amaura,124,109,184,"['rock', 'ice']","['POWDER_SNOW', 'FROST_BREATH']","['WEATHER_BALL_ICE', 'ANCIENT_POWER', 'AURORA_BEAM', 'THUNDERBOLT']",nan,nan,5,75000,True,FAMILY_AMAURA,['aurorus'],,nan
 699,aurorus,Aurorus,186,163,265,"['rock', 'ice']","['POWDER_SNOW', 'FROST_BREATH', 'ROCK_THROW']","['WEATHER_BALL_ICE', 'ANCIENT_POWER', 'BLIZZARD', 'THUNDERBOLT', 'HYPER_BEAM', 'METEOR_BEAM']",nan,nan,5,75000,True,FAMILY_AMAURA,nan,amaura,nan
 700,sylveon,Sylveon,203,205,216,"['fairy', 'none']","['CHARM', 'QUICK_ATTACK']","['MOONBLAST', 'DAZZLING_GLEAM', 'DRAINING_KISS', 'LAST_RESORT', 'PSYSHOCK']","['LAST_RESORT', 'PSYSHOCK']",nan,5,75000,True,FAMILY_EEVEE,nan,eevee,nan
-701,hawlucha,Hawlucha,195,153,186,"['fighting', 'flying']","['LOW_KICK', 'POISON_JAB']","['FLYING_PRESS', 'AERIAL_ACE', 'X_SCISSOR', 'POWER_UP_PUNCH']",nan,nan,5,75000,True,,nan,,nan
+701,hawlucha,Hawlucha,195,153,186,"['fighting', 'flying']","['LOW_KICK', 'POISON_JAB']","['FLYING_PRESS', 'AERIAL_ACE', 'X_SCISSOR', 'POWER_UP_PUNCH']",nan,nan,5,75000,True,,nan,,['regional']
 702,dedenne,Dedenne,164,134,167,"['electric', 'fairy']","['TACKLE', 'THUNDER_SHOCK']","['DISCHARGE', 'PLAY_ROUGH']",nan,nan,3,50000,True,,nan,,nan
 703,carbink,Carbink,95,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,5,75000,False,,nan,,nan
 704,goomy,Goomy,101,112,128,"['dragon', 'none']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER']",nan,nan,5,75000,True,FAMILY_GOOMY,['sliggoo'],,nan
@@ -1365,7 +1365,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 892,urshifu_rapid_strike,Urshifu (Rapid Strike),254,177,225,"['fighting', 'water']","['ROCK_SMASH', 'COUNTER', 'WATERFALL']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'AQUA_JET']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
 892,urshifu_single_strike,Urshifu (Single Strike),254,177,225,"['fighting', 'dark']","['ROCK_SMASH', 'COUNTER', 'SUCKER_PUNCH']","['BRICK_BREAK', 'DYNAMIC_PUNCH', 'CLOSE_COMBAT', 'PAYBACK']",nan,nan,20,100000,False,FAMILY_KUBFU,nan,kubfu,nan
 893,zarude,Zarude,242,215,233,"['dark', 'grass']","['VINE_WHIP', 'BITE']","['POWER_WHIP', 'ENERGY_BALL', 'DARK_PULSE']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
-894,regieleki,Regieleki,250,125,190,"['electric', 'none']","['THUNDER_SHOCK', 'LOCK_ON']","['THUNDERBOLT', 'THUNDER', 'HYPER_BEAM']",nan,nan,20,100000,False,,nan,,['legendary']
+894,regieleki,Regieleki,250,125,190,"['electric', 'none']","['THUNDER_SHOCK', 'LOCK_ON']","['ZAP_CANNON', 'THUNDER', 'HYPER_BEAM']",nan,nan,20,100000,True,,nan,,['legendary']
 895,regidrago,Regidrago,202,101,400,"['dragon', 'none']",['BITE'],"['HYPER_BEAM', 'OUTRAGE', 'DRAGON_PULSE']",nan,nan,20,100000,True,,nan,,['legendary']
 896,glastrier,Glastrier,246,223,225,"['ice', 'none']","['TACKLE', 'TAKE_DOWN']","['AVALANCHE', 'ICY_WIND', 'BULLDOZE']",nan,nan,20,100000,False,,nan,,nan
 897,spectrier,Spectrier,273,146,205,"['ghost', 'none']","['TACKLE', 'TAKE_DOWN']","['SHADOW_BALL', 'FOUL_PLAY', 'BULLDOZE']",nan,nan,20,100000,False,,nan,,nan

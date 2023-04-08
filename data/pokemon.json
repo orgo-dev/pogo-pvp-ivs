@@ -708,7 +708,10 @@
         "family": {
             "id": "FAMILY_CHARMANDER",
             "parent": "charmeleon"
-        }
+        },
+        "nicknames": [
+            "zard"
+        ]
     },
     {
         "dex": 6,
@@ -776,7 +779,10 @@
         "family": {
             "id": "FAMILY_CHARMANDER",
             "parent": "charmeleon"
-        }
+        },
+        "nicknames": [
+            "zardx"
+        ]
     },
     {
         "dex": 6,
@@ -844,7 +850,10 @@
         "family": {
             "id": "FAMILY_CHARMANDER",
             "parent": "charmeleon"
-        }
+        },
+        "nicknames": [
+            "zardy"
+        ]
     },
     {
         "dex": 6,
@@ -911,7 +920,10 @@
         "family": {
             "id": "FAMILY_CHARMANDER",
             "parent": "charmeleon_shadow"
-        }
+        },
+        "nicknames": [
+            "zard"
+        ]
     },
     {
         "dex": 7,
@@ -3400,7 +3412,10 @@
         "family": {
             "id": "FAMILY_PIKACHU",
             "parent": "pikachu"
-        }
+        },
+        "nicknames": [
+            "kchu"
+        ]
     },
     {
         "dex": 26,
@@ -3462,7 +3477,10 @@
         "family": {
             "id": "FAMILY_PIKACHU",
             "parent": "pikachu"
-        }
+        },
+        "nicknames": [
+            "achu"
+        ]
     },
     {
         "dex": 27,
@@ -3522,7 +3540,10 @@
             "evolutions": [
                 "sandslash"
             ]
-        }
+        },
+        "nicknames": [
+            "kshrew"
+        ]
     },
     {
         "dex": 27,
@@ -3579,7 +3600,10 @@
             "evolutions": [
                 "sandslash_alolan"
             ]
-        }
+        },
+        "nicknames": [
+            "ashrew"
+        ]
     },
     {
         "dex": 27,
@@ -3638,7 +3662,10 @@
             "evolutions": [
                 "sandslash_shadow"
             ]
-        }
+        },
+        "nicknames": [
+            "kshrew"
+        ]
     },
     {
         "dex": 27,
@@ -3694,7 +3721,10 @@
             "evolutions": [
                 "sandslash_alolan_shadow"
             ]
-        }
+        },
+        "nicknames": [
+            "ashrew"
+        ]
     },
     {
         "dex": 28,
@@ -3758,7 +3788,10 @@
         "family": {
             "id": "FAMILY_SANDSHREW",
             "parent": "sandshrew"
-        }
+        },
+        "nicknames": [
+            "kslash"
+        ]
     },
     {
         "dex": 28,
@@ -3825,7 +3858,10 @@
         "family": {
             "id": "FAMILY_SANDSHREW",
             "parent": "sandshrew_alolan"
-        }
+        },
+        "nicknames": [
+            "aslash"
+        ]
     },
     {
         "dex": 28,
@@ -3888,7 +3924,10 @@
         "family": {
             "id": "FAMILY_SANDSHREW",
             "parent": "sandshrew_shadow"
-        }
+        },
+        "nicknames": [
+            "kslash"
+        ]
     },
     {
         "dex": 28,
@@ -3954,7 +3993,10 @@
         "family": {
             "id": "FAMILY_SANDSHREW",
             "parent": "sandshrew_alolan_shadow"
-        }
+        },
+        "nicknames": [
+            "aslash"
+        ]
     },
     {
         "dex": 29,
@@ -4245,7 +4287,10 @@
         "family": {
             "id": "FAMILY_NIDORAN_FEMALE",
             "parent": "nidorina"
-        }
+        },
+        "nicknames": [
+            "queen"
+        ]
     },
     {
         "dex": 31,
@@ -5093,7 +5138,10 @@
         "family": {
             "id": "FAMILY_VULPIX",
             "parent": "vulpix"
-        }
+        },
+        "nicknames": [
+            "k9"
+        ]
     },
     {
         "dex": 38,
@@ -5158,7 +5206,10 @@
             "id": "FAMILY_VULPIX",
             "parent": "vulpix_alolan"
         },
-        "level25CP": 1401
+        "level25CP": 1401,
+        "nicknames": [
+            "a9"
+        ]
     },
     {
         "dex": 38,
@@ -5228,7 +5279,10 @@
         "family": {
             "id": "FAMILY_VULPIX",
             "parent": "vulpix_shadow"
-        }
+        },
+        "nicknames": [
+            "k9"
+        ]
     },
     {
         "dex": 38,
@@ -5292,7 +5346,10 @@
         "family": {
             "id": "FAMILY_VULPIX",
             "parent": "vulpix_alolan_shadow"
-        }
+        },
+        "nicknames": [
+            "a9"
+        ]
     },
     {
         "dex": 39,
@@ -8201,7 +8258,10 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl"
-        }
+        },
+        "nicknames": [
+            "wrath"
+        ]
     },
     {
         "dex": 62,
@@ -8268,7 +8328,10 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl_shadow"
-        }
+        },
+        "nicknames": [
+            "wrath"
+        ]
     },
     {
         "dex": 63,
@@ -9532,7 +9595,10 @@
         "family": {
             "id": "FAMILY_TENTACOOL",
             "parent": "tentacool"
-        }
+        },
+        "nicknames": [
+            "cruel"
+        ]
     },
     {
         "dex": 74,
@@ -9821,7 +9887,10 @@
             "evolutions": [
                 "golem_alolan"
             ]
-        }
+        },
+        "nicknames": [
+            "agrav"
+        ]
     },
     {
         "dex": 75,
@@ -10287,7 +10356,10 @@
         "family": {
             "id": "FAMILY_PONYTA",
             "parent": "ponyta_galarian"
-        }
+        },
+        "nicknames": [
+            "gdash"
+        ]
     },
     {
         "dex": 79,
@@ -11675,6 +11747,9 @@
             "id": "FAMILY_GRIMER",
             "parent": "grimer_alolan"
         },
+        "nicknames": [
+            "amuk"
+        ],
         "level25CP": 1696
     },
     {
@@ -13676,7 +13751,10 @@
         "family": {
             "id": "FAMILY_CUBONE",
             "parent": "cubone"
-        }
+        },
+        "nicknames": [
+            "awak"
+        ]
     },
     {
         "dex": 105,
@@ -13791,7 +13869,10 @@
         "family": {
             "id": "FAMILY_CUBONE",
             "parent": "cubone_shadow"
-        }
+        },
+        "nicknames": [
+            "awak"
+        ]
     },
     {
         "dex": 106,
@@ -14364,7 +14445,10 @@
         "family": {
             "id": "FAMILY_KOFFING",
             "parent": "koffing"
-        }
+        },
+        "nicknames": [
+            "gweez"
+        ]
     },
     {
         "dex": 110,
@@ -15385,7 +15469,11 @@
         "family": {
             "id": "FAMILY_MR_MIME",
             "parent": "mime_jr"
-        }
+        },
+        "nicknames": [
+            "mime",
+            "mr mime"
+        ]
     },
     {
         "dex": 122,
@@ -15441,7 +15529,11 @@
             "evolutions": [
                 "mr_rime"
             ]
-        }
+        },
+        "nicknames": [
+            "mime",
+            "mr mime"
+        ]
     },
     {
         "dex": 123,
@@ -16215,7 +16307,10 @@
         "family": {
             "id": "FAMILY_MAGIKARP",
             "parent": "magikarp"
-        }
+        },
+        "nicknames": [
+            "gary"
+        ]
     },
     {
         "dex": 130,
@@ -16280,7 +16375,10 @@
         "family": {
             "id": "FAMILY_MAGIKARP",
             "parent": "magikarp"
-        }
+        },
+        "nicknames": [
+            "gary"
+        ]
     },
     {
         "dex": 130,
@@ -16344,7 +16442,10 @@
         "family": {
             "id": "FAMILY_MAGIKARP",
             "parent": "magikarp_shadow"
-        }
+        },
+        "nicknames": [
+            "gary"
+        ]
     },
     {
         "dex": 131,
@@ -17507,7 +17608,10 @@
         "family": {
             "id": "FAMILY_SNORLAX",
             "parent": "munchlax"
-        }
+        },
+        "nicknames": [
+            "lax"
+        ]
     },
     {
         "dex": 143,
@@ -18222,7 +18326,10 @@
             "evolutions": [
                 "dragonite"
             ]
-        }
+        },
+        "nicknames": [
+            "dnair"
+        ]
     },
     {
         "dex": 148,
@@ -18279,7 +18386,10 @@
             "evolutions": [
                 "dragonite_shadow"
             ]
-        }
+        },
+        "nicknames": [
+            "dnair"
+        ]
     },
     {
         "dex": 149,
@@ -18343,7 +18453,10 @@
         "family": {
             "id": "FAMILY_DRATINI",
             "parent": "dragonair"
-        }
+        },
+        "nicknames": [
+            "dnite"
+        ]
     },
     {
         "dex": 149,
@@ -18406,7 +18519,10 @@
         "family": {
             "id": "FAMILY_DRATINI",
             "parent": "dragonair_shadow"
-        }
+        },
+        "nicknames": [
+            "dnite"
+        ]
     },
     {
         "dex": 150,
@@ -18467,7 +18583,10 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "m2"
+        ]
     },
     {
         "dex": 150,
@@ -18521,7 +18640,10 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "am2"
+        ]
     },
     {
         "dex": 150,
@@ -18581,7 +18703,10 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "m2"
+        ]
     },
     {
         "dex": 151,
@@ -19942,7 +20067,10 @@
         "family": {
             "id": "FAMILY_HOOTHOOT",
             "parent": "hoothoot"
-        }
+        },
+        "nicknames": [
+            "owl"
+        ]
     },
     {
         "dex": 165,
@@ -21766,7 +21894,10 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl"
-        }
+        },
+        "nicknames": [
+            "toed"
+        ]
     },
     {
         "dex": 186,
@@ -21831,7 +21962,10 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl_shadow"
-        }
+        },
+        "nicknames": [
+            "toed"
+        ]
     },
     {
         "dex": 187,
@@ -24404,7 +24538,10 @@
             "evolutions": [
                 "overqwil"
             ]
-        }
+        },
+        "nicknames": [
+            "hqwil"
+        ]
     },
     {
         "dex": 212,
@@ -28074,7 +28211,10 @@
         "family": {
             "id": "FAMILY_LARVITAR",
             "parent": "pupitar"
-        }
+        },
+        "nicknames": [
+            "ttar"
+        ]
     },
     {
         "dex": 248,
@@ -28132,7 +28272,10 @@
         "family": {
             "id": "FAMILY_LARVITAR",
             "parent": "pupitar_shadow"
-        }
+        },
+        "nicknames": [
+            "ttar"
+        ]
     },
     {
         "dex": 249,
@@ -28316,7 +28459,11 @@
         "searchPriority": 4,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "hooh",
+            "ho oh"
+        ]
     },
     {
         "dex": 250,
@@ -28390,7 +28537,11 @@
         "searchPriority": 4,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "hooh",
+            "ho oh"
+        ]
     },
     {
         "dex": 251,
@@ -36784,7 +36935,10 @@
         "family": {
             "id": "FAMILY_LILEEP",
             "parent": "lileep"
-        }
+        },
+        "nicknames": [
+            "dily"
+        ]
     },
     {
         "dex": 346,
@@ -36839,7 +36993,10 @@
         "family": {
             "id": "FAMILY_LILEEP",
             "parent": "lileep_shadow"
-        }
+        },
+        "nicknames": [
+            "dily"
+        ]
     },
     {
         "dex": 347,
@@ -40853,7 +41010,10 @@
         "searchPriority": 15,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "dd"
+        ]
     },
     {
         "dex": 386,
@@ -43324,7 +43484,10 @@
         "family": {
             "id": "FAMILY_BURMY",
             "parent": "burmy_trash"
-        }
+        },
+        "nicknames": [
+            "trash"
+        ]
     },
     {
         "dex": 414,
@@ -45586,7 +45749,10 @@
         "family": {
             "id": "FAMILY_GIBLE",
             "parent": "gabite"
-        }
+        },
+        "nicknames": [
+            "chomp"
+        ]
     },
     {
         "dex": 446,
@@ -46330,7 +46496,10 @@
         "family": {
             "id": "FAMILY_CROAGUNK",
             "parent": "croagunk"
-        }
+        },
+        "nicknames": [
+            "croak"
+        ]
     },
     {
         "dex": 455,
@@ -47577,7 +47746,10 @@
         "family": {
             "id": "FAMILY_TOGEPI",
             "parent": "togetic"
-        }
+        },
+        "nicknames": [
+            "kiss"
+        ]
     },
     {
         "dex": 469,
@@ -48522,7 +48694,10 @@
         "family": {
             "id": "FAMILY_SNORUNT",
             "parent": "snorunt"
-        }
+        },
+        "nicknames": [
+            "lass"
+        ]
     },
     {
         "dex": 479,
@@ -49250,7 +49425,13 @@
         "searchPriority": 32,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "tina",
+            "gira a",
+            "tinaa",
+            "tina a"
+        ]
     },
     {
         "dex": 487,
@@ -49303,7 +49484,13 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "tina",
+            "gira o",
+            "tinao",
+            "tina o"
+        ]
     },
     {
         "dex": 488,
@@ -57031,6 +57218,9 @@
         "level25CP": 1330,
         "tags": [
             "shadoweligible"
+        ],
+        "nicknames": [
+            "spooder"
         ]
     },
     {
@@ -57087,6 +57277,9 @@
         },
         "tags": [
             "shadow"
+        ],
+        "nicknames": [
+            "spooder"
         ]
     },
     {
@@ -58251,7 +58444,10 @@
         "searchPriority": 10,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "ufisk"
+        ]
     },
     {
         "dex": 618,
@@ -58302,7 +58498,10 @@
         "searchPriority": 20,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": true
+        "released": true,
+        "nicknames": [
+            "gfisk"
+        ]
     },
     {
         "dex": 619,
@@ -63570,7 +63769,10 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": true
+        "released": true,
+        "tags": [
+            "regional"
+        ]
     },
     {
         "dex": 702,
@@ -74026,7 +74228,10 @@
         "family": {
             "id": "FAMILY_ZIGZAGOON",
             "parent": "linoone_galarian"
-        }
+        },
+        "nicknames": [
+            "goon"
+        ]
     },
     {
         "dex": 863,
@@ -76265,7 +76470,7 @@
             "LOCK_ON"
         ],
         "chargedMoves": [
-            "THUNDERBOLT",
+            "ZAP_CANNON",
             "THUNDER",
             "HYPER_BEAM"
         ],
@@ -76295,7 +76500,7 @@
         "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 895,
