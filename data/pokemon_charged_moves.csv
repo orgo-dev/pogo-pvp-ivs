@@ -4963,6 +4963,7 @@ Togedemaru,Gyro Ball,charged,steel,1.2,80,60,1.33,,High Energy,
 Togedemaru,Wild Charge,charged,electric,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Togekiss,Aerial Ace,charged,flying,1.2,55,45,1.22,,General,
 Togekiss,Ancient Power,charged,rock,1.0,60,45,1.33,10.0% chance +1 Atk +1 Def self,Boost,
+Togekiss,Aura Sphere,charged,fighting,1.0,100,55,1.82,,Nuke,elite
 Togekiss,Dazzling Gleam,charged,fairy,1.2,110,70,1.57,,Nuke,
 Togekiss,Flamethrower,charged,fire,1.0,90,55,1.64,,High Energy,
 Togepi,Ancient Power,charged,rock,1.0,60,45,1.33,10.0% chance +1 Atk +1 Def self,Boost,

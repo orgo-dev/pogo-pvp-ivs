@@ -47717,7 +47717,11 @@
             "AERIAL_ACE",
             "ANCIENT_POWER",
             "DAZZLING_GLEAM",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "AURA_SPHERE"
+        ],
+        "eliteMoves": [
+            "AURA_SPHERE"
         ],
         "defaultIVs": {
             "cp500": [

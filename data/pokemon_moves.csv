@@ -8165,6 +8165,7 @@ Togekiss,Hidden Power (Steel),fast,steel,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Togekiss,Hidden Power (Water),fast,water,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Togekiss,Aerial Ace,charged,flying,1.2,55,0,1,,,45.0,1.22,,General,
 Togekiss,Ancient Power,charged,rock,1.0,60,0,1,,,45.0,1.33,10.0% chance +1 Atk +1 Def self,Boost,
+Togekiss,Aura Sphere,charged,fighting,1.0,100,0,1,,,55.0,1.82,,Nuke,elite
 Togekiss,Dazzling Gleam,charged,fairy,1.2,110,0,1,,,70.0,1.57,,Nuke,
 Togekiss,Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Togepi,Hidden Power (Bug),fast,bug,1.0,9,8,3,3.0,2.67,,,,Low Quality,
