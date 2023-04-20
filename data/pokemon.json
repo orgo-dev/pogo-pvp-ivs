@@ -12214,7 +12214,7 @@
         "eliteMoves": [
             "LICK"
         ],
-        "searchPriority": 7,
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -12644,7 +12644,7 @@
         "eliteMoves": [
             "PSYSHOCK"
         ],
-        "searchPriority": 14,
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -12706,7 +12706,7 @@
         "eliteMoves": [
             "PSYSHOCK"
         ],
-        "searchPriority": 14,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -15473,7 +15473,8 @@
         "nicknames": [
             "mime",
             "mr mime"
-        ]
+        ],
+        "searchPriority": 2
     },
     {
         "dex": 122,
@@ -28456,7 +28457,7 @@
             "SACRED_FIRE"
         ],
         "level25CP": 2436,
-        "searchPriority": 4,
+        "searchPriority": 7,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -33759,7 +33760,7 @@
                 15
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 25,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -67753,7 +67754,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_BOUNSWEET",
             "evolutions": [
@@ -67805,7 +67806,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_BOUNSWEET",
             "parent": "bounsweet",
@@ -67860,7 +67861,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_BOUNSWEET",
             "parent": "steenee"
@@ -69870,6 +69871,9 @@
         "tags": [
             "legendary"
         ],
+        "nicknames": [
+            "koko"
+        ],
         "searchPriority": 2,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -69921,6 +69925,9 @@
         "tags": [
             "legendary"
         ],
+        "nicknames": [
+            "lele"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -69970,6 +69977,9 @@
         },
         "tags": [
             "legendary"
+        ],
+        "nicknames": [
+            "bulu"
         ],
         "searchPriority": 3,
         "buddyDistance": 20,
@@ -70036,6 +70046,9 @@
         },
         "tags": [
             "legendary"
+        ],
+        "nicknames": [
+            "fini"
         ],
         "levelFloor": 20,
         "searchPriority": 5,
@@ -74235,7 +74248,8 @@
         },
         "nicknames": [
             "goon"
-        ]
+        ],
+        "searchPriority": 15
     },
     {
         "dex": 863,
