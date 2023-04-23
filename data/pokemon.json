@@ -10705,7 +10705,8 @@
             ]
         },
         "tags": [
-            "mega"
+            "mega",
+            "shadoweligible"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -17470,7 +17471,8 @@
             "EARTH_POWER"
         ],
         "tags": [
-            "mega"
+            "mega",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -77018,7 +77020,7 @@
                 15
             ]
         },
-        "buddyDistance": 1,
+        "buddyDistance": 5,
         "thirdMoveCost": 10000,
         "released": true,
         "family": {
@@ -77070,7 +77072,7 @@
                 15
             ]
         },
-        "buddyDistance": 1,
+        "buddyDistance": 5,
         "thirdMoveCost": 10000,
         "released": true,
         "family": {
