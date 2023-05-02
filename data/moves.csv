@@ -160,6 +160,7 @@ MUD_BOMB,Mud Bomb,charged,ground,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 MUDDY_WATER,Muddy Water,charged,water,35,0,2,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.3,nan,nan
 MUD_SHOT,Mud Shot,fast,ground,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
 MUD_SLAP,Mud Slap,fast,ground,11,8,3,3.67,2.67,0,,,Heavy Damage,nan,,,nan,nan
+MYSTICAL_FIRE,Mystical Fire (Speculative),charged,fire,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 NIGHT_SHADE,Night Shade,charged,ghost,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
 NIGHT_SLASH,Night Slash,charged,dark,50,0,1,,,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,"[2, 0]",self,.125,nan,nan
 OBSTRUCT,Obstruct,charged,dark,15,0,1,,,40,0.38,"100% chance +1 Def self, -1 Def opponent",Boost Spam/Bait,"[0, 1]",both,1,"[0, 1]","[0, -1]"

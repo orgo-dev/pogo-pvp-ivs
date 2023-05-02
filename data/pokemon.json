@@ -59626,7 +59626,8 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
+        "levelFloor": 20,
         "family": {
             "id": "FAMILY_LARVESTA",
             "evolutions": [
@@ -59679,7 +59680,8 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
+        "levelFloor": 20,
         "family": {
             "id": "FAMILY_LARVESTA",
             "parent": "larvesta"

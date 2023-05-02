@@ -1040,8 +1040,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 633,deino,Deino,116,93,141,"['dark', 'dragon']","['TACKLE', 'DRAGON_BREATH']","['DRAGON_PULSE', 'CRUNCH', 'BODY_SLAM']",nan,nan,5.0,75000,True,FAMILY_DEINO,['zweilous'],,nan
 634,zweilous,Zweilous,159,135,176,"['dark', 'dragon']","['BITE', 'DRAGON_BREATH']","['DRAGON_PULSE', 'DARK_PULSE', 'BODY_SLAM']",nan,nan,5.0,75000,True,FAMILY_DEINO,['hydreigon'],deino,nan
 635,hydreigon,Hydreigon,256,188,211,"['dark', 'dragon']","['BITE', 'DRAGON_BREATH']","['DRAGON_PULSE', 'DARK_PULSE', 'FLASH_CANNON', 'BRUTAL_SWING']",['BRUTAL_SWING'],nan,5.0,75000,True,FAMILY_DEINO,nan,zweilous,nan
-636,larvesta,Larvesta,156,107,146,"['bug', 'fire']","['EMBER', 'BUG_BITE']","['FLAME_CHARGE', 'BUG_BUZZ', 'FLAME_WHEEL']",nan,nan,5.0,75000,False,FAMILY_LARVESTA,['volcarona'],,nan
-637,volcarona,Volcarona,264,189,198,"['bug', 'fire']","['FIRE_SPIN', 'BUG_BITE']","['OVERHEAT', 'BUG_BUZZ', 'SOLAR_BEAM', 'HURRICANE']",nan,nan,5.0,75000,False,FAMILY_LARVESTA,nan,larvesta,nan
+636,larvesta,Larvesta,156,107,146,"['bug', 'fire']","['EMBER', 'BUG_BITE']","['FLAME_CHARGE', 'BUG_BUZZ', 'FLAME_WHEEL']",nan,nan,5.0,75000,True,FAMILY_LARVESTA,['volcarona'],,nan
+637,volcarona,Volcarona,264,189,198,"['bug', 'fire']","['FIRE_SPIN', 'BUG_BITE']","['OVERHEAT', 'BUG_BUZZ', 'SOLAR_BEAM', 'HURRICANE']",nan,nan,5.0,75000,True,FAMILY_LARVESTA,nan,larvesta,nan
 638,cobalion,Cobalion,192,229,209,"['steel', 'fighting']","['METAL_CLAW', 'ZEN_HEADBUTT', 'DOUBLE_KICK']","['CLOSE_COMBAT', 'IRON_HEAD', 'STONE_EDGE', 'SACRED_SWORD']",['SACRED_SWORD'],nan,20.0,100000,True,,nan,,['legendary']
 639,terrakion,Terrakion,260,192,209,"['rock', 'fighting']","['SMACK_DOWN', 'ZEN_HEADBUTT', 'DOUBLE_KICK']","['CLOSE_COMBAT', 'EARTHQUAKE', 'ROCK_SLIDE', 'SACRED_SWORD']",['SACRED_SWORD'],nan,20.0,100000,True,,nan,,['legendary']
 640,virizion,Virizion,192,229,209,"['grass', 'fighting']","['QUICK_ATTACK', 'ZEN_HEADBUTT', 'DOUBLE_KICK']","['CLOSE_COMBAT', 'LEAF_BLADE', 'STONE_EDGE', 'SACRED_SWORD']",['SACRED_SWORD'],nan,20.0,100000,True,,nan,,['legendary']
