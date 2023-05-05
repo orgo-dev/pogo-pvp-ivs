@@ -3544,6 +3544,11 @@ Pinsir,Submission,charged,fighting,1.0,60,50,1.2,,General,elite
 Pinsir,Superpower,charged,fighting,1.0,85,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,
 Pinsir,Vise Grip,charged,normal,1.0,40,40,1.0,,Spam/Bait,
 Pinsir,X-Scissor,charged,bug,1.2,45,35,1.29,,Spam/Bait,
+Pinsir (Mega),Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
+Pinsir (Mega),Submission,charged,fighting,1.0,60,50,1.2,,General,elite
+Pinsir (Mega),Superpower,charged,fighting,1.0,85,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,
+Pinsir (Mega),Vise Grip,charged,normal,1.0,40,40,1.0,,Spam/Bait,
+Pinsir (Mega),X-Scissor,charged,bug,1.2,45,35,1.29,,Spam/Bait,
 Pinsir (Shadow),Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Pinsir (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Pinsir (Shadow),Submission,charged,fighting,1.0,60,50,1.2,,General,elite

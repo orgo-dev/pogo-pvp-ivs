@@ -268,6 +268,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 126,magmar,Magmar,206,154,163,"['fire', 'none']","['EMBER', 'KARATE_CHOP']","['FIRE_BLAST', 'FIRE_PUNCH', 'FLAMETHROWER', 'RETURN']",nan,nan,5,75000,True,FAMILY_MAGMAR,['magmortar'],magby,['shadoweligible']
 126,magmar_shadow,Magmar (Shadow),206,154,163,"['fire', 'none']","['EMBER', 'KARATE_CHOP']","['FIRE_BLAST', 'FIRE_PUNCH', 'FLAMETHROWER', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_MAGMAR,['magmortar_shadow'],magby,['shadow']
 127,pinsir,Pinsir,238,182,163,"['bug', 'none']","['BUG_BITE', 'FURY_CUTTER', 'ROCK_SMASH']","['CLOSE_COMBAT', 'SUBMISSION', 'VICE_GRIP', 'X_SCISSOR', 'SUPER_POWER', 'RETURN']",['SUBMISSION'],nan,5,75000,True,,nan,,['shadoweligible']
+127,pinsir_mega,Pinsir (Mega),305,231,163,"['bug', 'flying']","['BUG_BITE', 'FURY_CUTTER', 'ROCK_SMASH']","['CLOSE_COMBAT', 'SUBMISSION', 'VICE_GRIP', 'X_SCISSOR', 'SUPER_POWER']",['SUBMISSION'],nan,5,75000,True,,nan,,"['shadoweligible', 'mega']"
 127,pinsir_shadow,Pinsir (Shadow),238,182,163,"['bug', 'none']","['BUG_BITE', 'FURY_CUTTER', 'ROCK_SMASH']","['CLOSE_COMBAT', 'SUBMISSION', 'VICE_GRIP', 'X_SCISSOR', 'SUPER_POWER', 'FRUSTRATION']",['SUBMISSION'],nan,5,75000,True,,nan,,['shadow']
 128,tauros,Tauros,198,183,181,"['normal', 'none']","['TACKLE', 'ZEN_HEADBUTT']","['EARTHQUAKE', 'HORN_ATTACK', 'IRON_HEAD']",nan,nan,3,50000,True,,nan,,['regional']
 129,magikarp,Magikarp,29,85,85,"['water', 'none']",['SPLASH'],"['STRUGGLE', 'RETURN']",nan,nan,1,10000,True,FAMILY_MAGIKARP,['gyarados'],,['shadoweligible']
@@ -1371,7 +1372,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 897,spectrier,Spectrier,273,146,205,"['ghost', 'none']","['TACKLE', 'TAKE_DOWN']","['SHADOW_BALL', 'FOUL_PLAY', 'BULLDOZE']",nan,nan,20,100000,False,,nan,,nan
 898,calyrex,Calyrex,162,162,225,"['psychic', 'grass']","['POUND', 'CONFUSION']","['PSYSHOCK', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,20,100000,False,,nan,,nan
 898,calyrex_ice_rider,Calyrex (Ice Rider),268,246,205,"['psychic', 'ice']","['CONFUSION', 'TAKE_DOWN']","['PSYSHOCK', 'PSYCHIC', 'ENERGY_BALL', 'AVALANCHE']",nan,nan,20,100000,False,,nan,,nan
-900,kleavor,Kleavor,260,180,172,"['bug', 'rock']","['QUICK_ATTACK', 'AIR_SLASH']","['X_SCISSOR', 'ROCK_SLIDE', 'STONE_EDGE']",nan,nan,5,75000,True,FAMILY_SCYTHER,nan,scyther,nan
+900,kleavor,Kleavor,253,174,172,"['bug', 'rock']","['QUICK_ATTACK', 'AIR_SLASH']","['X_SCISSOR', 'ROCK_SLIDE', 'STONE_EDGE']",nan,nan,5,75000,True,FAMILY_SCYTHER,nan,scyther,nan
 901,ursaluna,Ursaluna,243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'RETURN']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring,['shadoweligible']
 901,ursaluna_shadow,Ursaluna (Shadow),243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'FRUSTRATION']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring_shadow,['shadow']
 903,sneasler,Sneasler,259,158,190,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB', 'SHADOW_CLAW']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR']",nan,nan,5,75000,True,FAMILY_SNEASEL,nan,sneasel_hisuian,nan
