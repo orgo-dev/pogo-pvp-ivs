@@ -61254,7 +61254,12 @@
             "PSYCHIC",
             "FLAMETHROWER",
             "FLAME_CHARGE",
-            "FIRE_BLAST"
+            "FIRE_BLAST",
+            "BLAST_BURN",
+            "MYSTICAL_FIRE"
+        ],
+        "eliteMoves": [
+            "BLAST_BURN"
         ],
         "tags": [
             "starter"
