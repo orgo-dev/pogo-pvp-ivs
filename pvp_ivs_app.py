@@ -725,7 +725,6 @@ def app(app="GBL IV Stats", **kwargs):
     gb.configure_columns("Purified XLs", hide=not show_xl_purified)
 
     grid_options = gb.build()
-    print(df)
     ivs_response = AgGrid(
         df,
         gridOptions=grid_options,

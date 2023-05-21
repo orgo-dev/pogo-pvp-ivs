@@ -17,7 +17,19 @@ IVS_ALL = [
 ]
 
 
-@st.cache_data(ttl=3600)
+def jupyter_safe_cache_data(*args, **kwargs):
+    "Streamlit cache_data that works with Jupyter notebooks"
+    def decorator(func):
+        try:
+            __IPYTHON__
+            return func
+        except NameError:
+            return st.cache_data(func, *args, **kwargs)
+
+    return decorator
+
+
+@jupyter_safe_cache_data(ttl=3600)
 def load_app_db_constants():
     "Loads app data. Uses a 1 hour ttl to use updated data when available."
 
