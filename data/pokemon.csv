@@ -1071,7 +1071,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 652,chesnaught,Chesnaught,201,204,204,"['grass', 'fighting']","['LOW_KICK', 'SMACK_DOWN', 'VINE_WHIP']","['GYRO_BALL', 'ENERGY_BALL', 'SUPER_POWER', 'SOLAR_BEAM', 'FRENZY_PLANT']",['FRENZY_PLANT'],nan,3,10000,True,FAMILY_CHESPIN,nan,quilladin,['starter']
 653,fennekin,Fennekin,116,102,120,"['fire', 'none']","['SCRATCH', 'EMBER']","['PSYSHOCK', 'FLAMETHROWER', 'FLAME_CHARGE']",nan,nan,3,10000,True,FAMILY_FENNEKIN,['braixen'],,['starter']
 654,braixen,Braixen,171,130,153,"['fire', 'none']","['SCRATCH', 'EMBER']","['PSYSHOCK', 'FLAMETHROWER', 'FLAME_CHARGE']",nan,nan,3,10000,True,FAMILY_FENNEKIN,['delphox'],fennekin,['starter']
-655,delphox,Delphox,230,189,181,"['fire', 'psychic']","['SCRATCH', 'FIRE_SPIN', 'ZEN_HEADBUTT']","['PSYCHIC', 'FLAMETHROWER', 'FLAME_CHARGE', 'FIRE_BLAST']",nan,nan,3,10000,True,FAMILY_FENNEKIN,nan,braixen,['starter']
+655,delphox,Delphox,230,189,181,"['fire', 'psychic']","['SCRATCH', 'FIRE_SPIN', 'ZEN_HEADBUTT']","['PSYCHIC', 'FLAMETHROWER', 'FLAME_CHARGE', 'FIRE_BLAST', 'BLAST_BURN', 'MYSTICAL_FIRE']",['BLAST_BURN'],nan,3,10000,True,FAMILY_FENNEKIN,nan,braixen,['starter']
 656,froakie,Froakie,122,84,121,"['water', 'none']","['POUND', 'BUBBLE']","['WATER_PULSE', 'AERIAL_ACE', 'SURF']",nan,nan,3,10000,True,FAMILY_FROAKIE,['frogadier'],,['starter']
 657,frogadier,Frogadier,168,114,144,"['water', 'none']","['POUND', 'BUBBLE']","['WATER_PULSE', 'AERIAL_ACE', 'SURF']",nan,nan,3,10000,True,FAMILY_FROAKIE,['greninja'],froakie,['starter']
 658,greninja,Greninja,223,152,176,"['water', 'dark']","['FEINT_ATTACK', 'BUBBLE']","['NIGHT_SLASH', 'AERIAL_ACE', 'SURF', 'HYDRO_PUMP']",nan,nan,3,10000,True,FAMILY_FROAKIE,nan,frogadier,['starter']
