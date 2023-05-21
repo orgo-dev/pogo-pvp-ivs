@@ -53,16 +53,24 @@ def app(**kwargs):
     pokemon = st.selectbox("Select a Pokemon", pokemons, default_pokemon_idx)
 
     # types display
+    # solution from https://discuss.streamlit.io/t/display-images-in-aggrid-table/18434/10
     image_type = JsCode(
-        """function (params) {
-            var element = document.createElement("span");
-            var imageElement = document.createElement("img");
-            imageElement.src = "https://storage.googleapis.com/nianticweb-media/pokemongo/types/" + params.value + ".png";
-            imageElement.width="20";
-            element.appendChild(imageElement);
-            element.appendChild(document.createTextNode(" " + params.value.charAt(0).toUpperCase() + params.value.slice(1)));
-            return element;
-    }"""
+        """
+        class ThumbnailRenderer {
+            init(params) {
+                this.eGui = document.createElement("span");
+                this.imageElement = document.createElement("img");
+                this.imageElement.setAttribute('src', "https://raw.githubusercontent.com/orgo-dev/pogo-pvp-ivs/main/assets/types/" + params.value + ".png");
+                this.imageElement.setAttribute('width', '20');
+                this.imageElement.setAttribute('height', 'auto');
+                this.eGui.appendChild(this.imageElement);
+                this.eGui.appendChild(document.createTextNode(" " + params.value.charAt(0).toUpperCase() + params.value.slice(1)));
+            }
+            getGui() {
+                return this.eGui;
+            }
+        }
+    """
     )
 
     types_poke, types_resist, types_weak = get_poke_types_dfs(
