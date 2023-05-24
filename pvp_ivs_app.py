@@ -742,7 +742,7 @@ def app(app="GBL IV Stats", **kwargs):
         df,
         gridOptions=grid_options,
         # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        height=600,
+        # height=600,
         custom_css={
             ".ag-theme-streamlit-dark": {
                 "--ag-grid-size": "3px",
