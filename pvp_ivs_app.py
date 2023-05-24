@@ -675,60 +675,73 @@ def app(app="GBL IV Stats", **kwargs):
     # build ivs output
     gb = GridOptionsBuilder.from_dataframe(df)
     gb.configure_selection("multiple", pre_selected_rows=default_preselected_ivs_ints)
-    gb.configure_column("R1 CMP", hide=not show_cmp)
-    gb.configure_column("IVs", hide=show_individual_ivs)
-    gb.configure_column("IV Atk", hide=not show_individual_ivs)
-    gb.configure_column("IV Def", hide=not show_individual_ivs)
-    gb.configure_column("IV HP", hide=not show_individual_ivs)
-    gb.configure_column(
-        "Atk",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=2,
-    )
-    gb.configure_column(
-        "Def",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=2,
-    )
-    gb.configure_column(
-        "HP",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=0,
-    )
+    gb.configure_column("Rank", width=70)
     gb.configure_column(
         "Level",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
+        width=70,
+    )
+    gb.configure_column("CP", width=60)
+    gb.configure_column("IVs", width=70, hide=show_individual_ivs)
+    gb.configure_column("IV Atk", width=70, hide=not show_individual_ivs)
+    gb.configure_column("IV Def", width=70, hide=not show_individual_ivs)
+    gb.configure_column("IV HP", width=70, hide=not show_individual_ivs)
+    gb.configure_column("R1 CMP", width=80, hide=not show_cmp)
+    gb.configure_column(
+        "Pct Max Stats",
+        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+        precision=1,
+        width=110,
     )
     gb.configure_column(
         "Stats Prod",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
         hide=not show_prod_cols,
+        width=95,
     )
-    gb.configure_column(
-        "Pct Max Stats",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=1,
-    )
-    gb.configure_column("Rank Bulk", hide=not show_prod_cols)
     gb.configure_column(
         "Bulk Prod",
         type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
         precision=1,
         hide=not show_prod_cols,
+        width=95,
     )
-    gb.configure_column("Input", hide=not bool(ivs))
-    gb.configure_columns("Regular XLs", hide=not show_xl_regular)
-    gb.configure_columns("Lucky XLs", hide=not show_xl_lucky)
-    gb.configure_columns("Shadow XLs", hide=not show_xl_shadow)
-    gb.configure_columns("Purified XLs", hide=not show_xl_purified)
+    gb.configure_column("Rank Bulk", width=105, hide=not show_prod_cols)
+    gb.configure_column(
+        "Atk",
+        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+        precision=2,
+        width=60,
+    )
+    gb.configure_column(
+        "Def",
+        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+        precision=2,
+        width=60,
+    )
+    gb.configure_column(
+        "HP",
+        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+        precision=0,
+        width=60,
+    )
+    gb.configure_column("Efficient @50", width=110)
+    gb.configure_column("Efficient @51", width=110)
+    gb.configure_column("Efficient @Filters", width=130)
+    gb.configure_column("Notes", width=220)
+    gb.configure_column("Input", width=70, hide=not bool(ivs))
+    gb.configure_column("Regular XLs", width=90, hide=not show_xl_regular)
+    gb.configure_column("Lucky XLs", width=90, hide=not show_xl_lucky)
+    gb.configure_column("Shadow XLs", width=90, hide=not show_xl_shadow)
+    gb.configure_column("Purified XLs", width=90, hide=not show_xl_purified)
 
     grid_options = gb.build()
     ivs_response = AgGrid(
         df,
         gridOptions=grid_options,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+        # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
         height=600,
         custom_css={
             ".ag-theme-streamlit-dark": {
