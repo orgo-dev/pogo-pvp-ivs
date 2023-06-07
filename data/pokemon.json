@@ -58223,7 +58223,11 @@
             "DRAGON_CLAW",
             "SURF",
             "NIGHT_SLASH",
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "BREAKING_SWIPE"
+        ],
+        "eliteMoves": [
+            "BREAKING_SWIPE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -68304,7 +68308,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SANDYGAST",
             "evolutions": [
@@ -68362,7 +68366,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SANDYGAST",
             "parent": "sandygast"

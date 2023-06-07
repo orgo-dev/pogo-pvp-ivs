@@ -2024,6 +2024,7 @@ Hawlucha,Aerial Ace,charged,flying,1.2,55,45,1.22,,General,
 Hawlucha,Flying Press,charged,fighting,1.2,90,40,2.25,,Spam/Bait,
 Hawlucha,Power-Up Punch,charged,fighting,1.2,20,35,0.57,100% chance +1 Atk self,Boost Spam/Bait,
 Hawlucha,X-Scissor,charged,bug,1.0,45,35,1.29,,Spam/Bait,
+Haxorus,Breaking Swipe,charged,dragon,1.2,50,35,1.43,100% chance -1 Atk opponent,Debuff Spam/Bait,elite
 Haxorus,Dragon Claw,charged,dragon,1.2,50,35,1.43,,Spam/Bait,
 Haxorus,Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,
 Haxorus,Night Slash,charged,dark,1.0,50,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,

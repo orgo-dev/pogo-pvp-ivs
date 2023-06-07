@@ -1013,7 +1013,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 609,chandelure,Chandelure,271,182,155,"['ghost', 'fire']","['HEX', 'FIRE_SPIN', 'INCINERATE']","['ENERGY_BALL', 'SHADOW_BALL', 'OVERHEAT', 'FLAME_CHARGE', 'POLTERGEIST']",['POLTERGEIST'],nan,5,75000,True,FAMILY_LITWICK,nan,lampent,nan
 610,axew,Axew,154,101,130,"['dragon', 'none']","['SCRATCH', 'IRON_TAIL']","['DRAGON_CLAW', 'AQUA_TAIL', 'DRAGON_PULSE']",nan,nan,5,75000,True,FAMILY_AXEW,['fraxure'],,nan
 611,fraxure,Fraxure,212,123,165,"['dragon', 'none']","['DRAGON_TAIL', 'IRON_TAIL']","['DRAGON_CLAW', 'AQUA_TAIL', 'NIGHT_SLASH']",nan,nan,5,75000,True,FAMILY_AXEW,['haxorus'],axew,nan
-612,haxorus,Haxorus,284,172,183,"['dragon', 'none']","['DRAGON_TAIL', 'COUNTER']","['DRAGON_CLAW', 'SURF', 'NIGHT_SLASH', 'EARTHQUAKE']",nan,nan,5,75000,True,FAMILY_AXEW,nan,fraxure,nan
+612,haxorus,Haxorus,284,172,183,"['dragon', 'none']","['DRAGON_TAIL', 'COUNTER']","['DRAGON_CLAW', 'SURF', 'NIGHT_SLASH', 'EARTHQUAKE', 'BREAKING_SWIPE']",['BREAKING_SWIPE'],nan,5,75000,True,FAMILY_AXEW,nan,fraxure,nan
 613,cubchoo,Cubchoo,128,74,146,"['ice', 'none']","['POWDER_SNOW', 'CHARM']","['ICE_PUNCH', 'ICY_WIND', 'PLAY_ROUGH']",nan,nan,3,50000,True,FAMILY_CUBCHOO,['beartic'],,nan
 614,beartic,Beartic,233,152,216,"['ice', 'none']","['POWDER_SNOW', 'CHARM']","['ICE_PUNCH', 'SURF', 'PLAY_ROUGH', 'LIQUIDATION']",nan,nan,3,50000,True,FAMILY_CUBCHOO,nan,cubchoo,nan
 615,cryogonal,Cryogonal,190,218,190,"['ice', 'none']","['ICE_SHARD', 'FROST_BREATH']","['AURORA_BEAM', 'NIGHT_SLASH', 'SOLAR_BEAM', 'WATER_PULSE']",nan,nan,5,75000,True,,nan,,nan
@@ -1202,8 +1202,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 766,passimian,Passimian,222,160,225,"['fighting', 'none']","['COUNTER', 'ROCK_SMASH', 'TAKE_DOWN']","['BRICK_BREAK', 'CLOSE_COMBAT', 'SUPER_POWER']",nan,nan,3,75000,False,,nan,,nan
 767,wimpod,Wimpod,67,74,93,"['bug', 'water']",['STRUGGLE_BUG'],['BUG_BUZZ'],nan,nan,1,10000,True,FAMILY_WIMPOD,['golisopod'],,nan
 768,golisopod,Golisopod,218,226,181,"['bug', 'water']","['FURY_CUTTER', 'METAL_CLAW', 'WATERFALL', 'SHADOW_CLAW']","['X_SCISSOR', 'AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,1,10000,True,FAMILY_WIMPOD,nan,wimpod,nan
-769,sandygast,Sandygast,120,118,146,"['ghost', 'ground']","['ASTONISH', 'MUD_SHOT']","['SAND_TOMB', 'SHADOW_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SANDYGAST,['palossand'],,nan
-770,palossand,Palossand,178,178,198,"['ghost', 'ground']","['ASTONISH', 'MUD_SHOT']","['SAND_TOMB', 'SHADOW_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SANDYGAST,nan,sandygast,nan
+769,sandygast,Sandygast,120,118,146,"['ghost', 'ground']","['ASTONISH', 'MUD_SHOT']","['SAND_TOMB', 'SHADOW_BALL', 'EARTH_POWER']",nan,nan,3,50000,True,FAMILY_SANDYGAST,['palossand'],,nan
+770,palossand,Palossand,178,178,198,"['ghost', 'ground']","['ASTONISH', 'MUD_SHOT']","['SAND_TOMB', 'SHADOW_BALL', 'EARTH_POWER']",nan,nan,3,50000,True,FAMILY_SANDYGAST,nan,sandygast,nan
 771,pyukumuku,Pyukumuku,97,224,146,"['water', 'none']",['COUNTER'],['MIRROR_COAT'],nan,nan,3,75000,False,,nan,,nan
 772,type_null,Type (Null),184,184,216,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['TRI_ATTACK', 'IRON_HEAD', 'AERIAL_ACE']",nan,nan,20,100000,False,FAMILY_TYPE_NULL,['silvally'],,nan
 773,silvally,Silvally,198,198,216,"['normal', 'none']","['TACKLE', 'TAKE_DOWN', 'BITE']","['TRI_ATTACK', 'IRON_HEAD', 'AERIAL_ACE', 'X_SCISSOR']",nan,nan,20,100000,False,,nan,,nan

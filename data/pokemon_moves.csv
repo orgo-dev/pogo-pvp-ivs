@@ -3243,6 +3243,7 @@ Hawlucha,Power-Up Punch,charged,fighting,1.2,20,0,1,,,35.0,0.57,100% chance +1 A
 Hawlucha,X-Scissor,charged,bug,1.0,45,0,1,,,35.0,1.29,,Spam/Bait,
 Haxorus,Counter,fast,fighting,1.0,8,7,2,4.0,3.5,,,,Multipurpose,
 Haxorus,Dragon Tail,fast,dragon,1.2,13,9,3,4.33,3.0,,,,Multipurpose,
+Haxorus,Breaking Swipe,charged,dragon,1.2,50,0,1,,,35.0,1.43,100% chance -1 Atk opponent,Debuff Spam/Bait,elite
 Haxorus,Dragon Claw,charged,dragon,1.2,50,0,1,,,35.0,1.43,,Spam/Bait,
 Haxorus,Earthquake,charged,ground,1.0,120,0,1,,,65.0,1.85,,Nuke,
 Haxorus,Night Slash,charged,dark,1.0,50,0,1,,,35.0,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,
