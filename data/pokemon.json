@@ -12231,7 +12231,7 @@
         "eliteMoves": [
             "LICK"
         ],
-        "searchPriority": 4,
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -58249,6 +58249,7 @@
                 9
             ]
         },
+        "searchPriority": 4,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
