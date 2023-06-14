@@ -329,18 +329,24 @@ Geodude (Alolan),rock
 Geodude (Alolan),electric
 Geodude (Shadow),rock
 Geodude (Shadow),ground
+Geodude (Alolan) (Shadow),rock
+Geodude (Alolan) (Shadow),electric
 Graveler,rock
 Graveler,ground
 Graveler (Alolan),rock
 Graveler (Alolan),electric
 Graveler (Shadow),rock
 Graveler (Shadow),ground
+Graveler (Alolan) (Shadow),rock
+Graveler (Alolan) (Shadow),electric
 Golem,rock
 Golem,ground
 Golem (Alolan),rock
 Golem (Alolan),electric
 Golem (Shadow),rock
 Golem (Shadow),ground
+Golem (Alolan) (Shadow),rock
+Golem (Alolan) (Shadow),electric
 Ponyta,fire
 Ponyta,none
 Ponyta (Galarian),psychic
@@ -677,8 +683,12 @@ Noctowl,normal
 Noctowl,flying
 Ledyba,bug
 Ledyba,flying
+Ledyba (Shadow),bug
+Ledyba (Shadow),flying
 Ledian,bug
 Ledian,flying
+Ledian (Shadow),bug
+Ledian (Shadow),flying
 Spinarak,bug
 Spinarak,poison
 Ariados,bug
@@ -919,6 +929,8 @@ Tyrogue,fighting
 Tyrogue,none
 Hitmontop,fighting
 Hitmontop,none
+Hitmontop (Shadow),fighting
+Hitmontop (Shadow),none
 Smoochum,ice
 Smoochum,psychic
 Elekid,electric
@@ -1371,6 +1383,8 @@ Metagross (Shadow),steel
 Metagross (Shadow),psychic
 Regirock,rock
 Regirock,none
+Regirock (Shadow),rock
+Regirock (Shadow),none
 Regice,ice
 Regice,none
 Regice (Shadow),ice
@@ -1545,8 +1559,12 @@ Honchkrow (Shadow),dark
 Honchkrow (Shadow),flying
 Glameow,normal
 Glameow,none
+Glameow (Shadow),normal
+Glameow (Shadow),none
 Purugly,normal
 Purugly,none
+Purugly (Shadow),normal
+Purugly (Shadow),none
 Chingling,psychic
 Chingling,none
 Stunky,poison
@@ -1573,10 +1591,16 @@ Spiritomb,ghost
 Spiritomb,dark
 Gible,dragon
 Gible,ground
+Gible (Shadow),dragon
+Gible (Shadow),ground
 Gabite,dragon
 Gabite,ground
+Gabite (Shadow),dragon
+Gabite (Shadow),ground
 Garchomp,dragon
 Garchomp,ground
+Garchomp (Shadow),dragon
+Garchomp (Shadow),ground
 Munchlax,normal
 Munchlax,none
 Riolu,fighting
@@ -1859,8 +1883,12 @@ Seismitoad,water
 Seismitoad,ground
 Throh,fighting
 Throh,none
+Throh (Shadow),fighting
+Throh (Shadow),none
 Sawk,fighting
 Sawk,none
+Sawk (Shadow),fighting
+Sawk (Shadow),none
 Sewaddle,bug
 Sewaddle,grass
 Swadloon,bug

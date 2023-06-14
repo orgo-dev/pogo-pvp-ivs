@@ -2969,6 +2969,24 @@ Geodude (Shadow),ice,1.6
 Geodude (Shadow),dragon,1.0
 Geodude (Shadow),dark,1.0
 Geodude (Shadow),fairy,1.0
+Geodude (Alolan) (Shadow),normal,0.625
+Geodude (Alolan) (Shadow),fighting,1.6
+Geodude (Alolan) (Shadow),flying,0.391
+Geodude (Alolan) (Shadow),poison,0.625
+Geodude (Alolan) (Shadow),ground,2.56
+Geodude (Alolan) (Shadow),rock,1.0
+Geodude (Alolan) (Shadow),bug,1.0
+Geodude (Alolan) (Shadow),ghost,1.0
+Geodude (Alolan) (Shadow),steel,1.0
+Geodude (Alolan) (Shadow),fire,0.625
+Geodude (Alolan) (Shadow),water,1.6
+Geodude (Alolan) (Shadow),grass,1.6
+Geodude (Alolan) (Shadow),electric,0.625
+Geodude (Alolan) (Shadow),psychic,1.0
+Geodude (Alolan) (Shadow),ice,1.0
+Geodude (Alolan) (Shadow),dragon,1.0
+Geodude (Alolan) (Shadow),dark,1.0
+Geodude (Alolan) (Shadow),fairy,1.0
 Graveler,normal,0.625
 Graveler,fighting,1.6
 Graveler,flying,0.625
@@ -3023,6 +3041,24 @@ Graveler (Shadow),ice,1.6
 Graveler (Shadow),dragon,1.0
 Graveler (Shadow),dark,1.0
 Graveler (Shadow),fairy,1.0
+Graveler (Alolan) (Shadow),normal,0.625
+Graveler (Alolan) (Shadow),fighting,1.6
+Graveler (Alolan) (Shadow),flying,0.391
+Graveler (Alolan) (Shadow),poison,0.625
+Graveler (Alolan) (Shadow),ground,2.56
+Graveler (Alolan) (Shadow),rock,1.0
+Graveler (Alolan) (Shadow),bug,1.0
+Graveler (Alolan) (Shadow),ghost,1.0
+Graveler (Alolan) (Shadow),steel,1.0
+Graveler (Alolan) (Shadow),fire,0.625
+Graveler (Alolan) (Shadow),water,1.6
+Graveler (Alolan) (Shadow),grass,1.6
+Graveler (Alolan) (Shadow),electric,0.625
+Graveler (Alolan) (Shadow),psychic,1.0
+Graveler (Alolan) (Shadow),ice,1.0
+Graveler (Alolan) (Shadow),dragon,1.0
+Graveler (Alolan) (Shadow),dark,1.0
+Graveler (Alolan) (Shadow),fairy,1.0
 Golem,normal,0.625
 Golem,fighting,1.6
 Golem,flying,0.625
@@ -3077,6 +3113,24 @@ Golem (Shadow),ice,1.6
 Golem (Shadow),dragon,1.0
 Golem (Shadow),dark,1.0
 Golem (Shadow),fairy,1.0
+Golem (Alolan) (Shadow),normal,0.625
+Golem (Alolan) (Shadow),fighting,1.6
+Golem (Alolan) (Shadow),flying,0.391
+Golem (Alolan) (Shadow),poison,0.625
+Golem (Alolan) (Shadow),ground,2.56
+Golem (Alolan) (Shadow),rock,1.0
+Golem (Alolan) (Shadow),bug,1.0
+Golem (Alolan) (Shadow),ghost,1.0
+Golem (Alolan) (Shadow),steel,1.0
+Golem (Alolan) (Shadow),fire,0.625
+Golem (Alolan) (Shadow),water,1.6
+Golem (Alolan) (Shadow),grass,1.6
+Golem (Alolan) (Shadow),electric,0.625
+Golem (Alolan) (Shadow),psychic,1.0
+Golem (Alolan) (Shadow),ice,1.0
+Golem (Alolan) (Shadow),dragon,1.0
+Golem (Alolan) (Shadow),dark,1.0
+Golem (Alolan) (Shadow),fairy,1.0
 Ponyta,normal,1.0
 Ponyta,fighting,1.0
 Ponyta,flying,1.0
@@ -6101,6 +6155,24 @@ Ledyba,ice,1.6
 Ledyba,dragon,1.0
 Ledyba,dark,1.0
 Ledyba,fairy,1.0
+Ledyba (Shadow),normal,1.0
+Ledyba (Shadow),fighting,0.391
+Ledyba (Shadow),flying,1.6
+Ledyba (Shadow),poison,1.0
+Ledyba (Shadow),ground,0.244
+Ledyba (Shadow),rock,2.56
+Ledyba (Shadow),bug,1.0
+Ledyba (Shadow),ghost,1.0
+Ledyba (Shadow),steel,1.0
+Ledyba (Shadow),fire,1.6
+Ledyba (Shadow),water,1.0
+Ledyba (Shadow),grass,0.391
+Ledyba (Shadow),electric,1.6
+Ledyba (Shadow),psychic,1.0
+Ledyba (Shadow),ice,1.6
+Ledyba (Shadow),dragon,1.0
+Ledyba (Shadow),dark,1.0
+Ledyba (Shadow),fairy,1.0
 Ledian,normal,1.0
 Ledian,fighting,0.391
 Ledian,flying,1.6
@@ -6119,6 +6191,24 @@ Ledian,ice,1.6
 Ledian,dragon,1.0
 Ledian,dark,1.0
 Ledian,fairy,1.0
+Ledian (Shadow),normal,1.0
+Ledian (Shadow),fighting,0.391
+Ledian (Shadow),flying,1.6
+Ledian (Shadow),poison,1.0
+Ledian (Shadow),ground,0.244
+Ledian (Shadow),rock,2.56
+Ledian (Shadow),bug,1.0
+Ledian (Shadow),ghost,1.0
+Ledian (Shadow),steel,1.0
+Ledian (Shadow),fire,1.6
+Ledian (Shadow),water,1.0
+Ledian (Shadow),grass,0.391
+Ledian (Shadow),electric,1.6
+Ledian (Shadow),psychic,1.0
+Ledian (Shadow),ice,1.6
+Ledian (Shadow),dragon,1.0
+Ledian (Shadow),dark,1.0
+Ledian (Shadow),fairy,1.0
 Spinarak,normal,1.0
 Spinarak,fighting,0.391
 Spinarak,flying,1.6
@@ -8279,6 +8369,24 @@ Hitmontop,ice,1.0
 Hitmontop,dragon,1.0
 Hitmontop,dark,0.625
 Hitmontop,fairy,1.6
+Hitmontop (Shadow),normal,1.0
+Hitmontop (Shadow),fighting,1.0
+Hitmontop (Shadow),flying,1.6
+Hitmontop (Shadow),poison,1.0
+Hitmontop (Shadow),ground,1.0
+Hitmontop (Shadow),rock,0.625
+Hitmontop (Shadow),bug,0.625
+Hitmontop (Shadow),ghost,1.0
+Hitmontop (Shadow),steel,1.0
+Hitmontop (Shadow),fire,1.0
+Hitmontop (Shadow),water,1.0
+Hitmontop (Shadow),grass,1.0
+Hitmontop (Shadow),electric,1.0
+Hitmontop (Shadow),psychic,1.6
+Hitmontop (Shadow),ice,1.0
+Hitmontop (Shadow),dragon,1.0
+Hitmontop (Shadow),dark,0.625
+Hitmontop (Shadow),fairy,1.6
 Smoochum,normal,1.0
 Smoochum,fighting,1.0
 Smoochum,flying,1.0
@@ -12347,6 +12455,24 @@ Regirock,ice,1.0
 Regirock,dragon,1.0
 Regirock,dark,1.0
 Regirock,fairy,1.0
+Regirock (Shadow),normal,0.625
+Regirock (Shadow),fighting,1.6
+Regirock (Shadow),flying,0.625
+Regirock (Shadow),poison,0.625
+Regirock (Shadow),ground,1.6
+Regirock (Shadow),rock,1.0
+Regirock (Shadow),bug,1.0
+Regirock (Shadow),ghost,1.0
+Regirock (Shadow),steel,1.6
+Regirock (Shadow),fire,0.625
+Regirock (Shadow),water,1.6
+Regirock (Shadow),grass,1.6
+Regirock (Shadow),electric,1.0
+Regirock (Shadow),psychic,1.0
+Regirock (Shadow),ice,1.0
+Regirock (Shadow),dragon,1.0
+Regirock (Shadow),dark,1.0
+Regirock (Shadow),fairy,1.0
 Regice,normal,1.0
 Regice,fighting,1.6
 Regice,flying,1.0
@@ -13913,6 +14039,24 @@ Glameow,ice,1.0
 Glameow,dragon,1.0
 Glameow,dark,1.0
 Glameow,fairy,1.0
+Glameow (Shadow),normal,1.0
+Glameow (Shadow),fighting,1.6
+Glameow (Shadow),flying,1.0
+Glameow (Shadow),poison,1.0
+Glameow (Shadow),ground,1.0
+Glameow (Shadow),rock,1.0
+Glameow (Shadow),bug,1.0
+Glameow (Shadow),ghost,0.391
+Glameow (Shadow),steel,1.0
+Glameow (Shadow),fire,1.0
+Glameow (Shadow),water,1.0
+Glameow (Shadow),grass,1.0
+Glameow (Shadow),electric,1.0
+Glameow (Shadow),psychic,1.0
+Glameow (Shadow),ice,1.0
+Glameow (Shadow),dragon,1.0
+Glameow (Shadow),dark,1.0
+Glameow (Shadow),fairy,1.0
 Purugly,normal,1.0
 Purugly,fighting,1.6
 Purugly,flying,1.0
@@ -13931,6 +14075,24 @@ Purugly,ice,1.0
 Purugly,dragon,1.0
 Purugly,dark,1.0
 Purugly,fairy,1.0
+Purugly (Shadow),normal,1.0
+Purugly (Shadow),fighting,1.6
+Purugly (Shadow),flying,1.0
+Purugly (Shadow),poison,1.0
+Purugly (Shadow),ground,1.0
+Purugly (Shadow),rock,1.0
+Purugly (Shadow),bug,1.0
+Purugly (Shadow),ghost,0.391
+Purugly (Shadow),steel,1.0
+Purugly (Shadow),fire,1.0
+Purugly (Shadow),water,1.0
+Purugly (Shadow),grass,1.0
+Purugly (Shadow),electric,1.0
+Purugly (Shadow),psychic,1.0
+Purugly (Shadow),ice,1.0
+Purugly (Shadow),dragon,1.0
+Purugly (Shadow),dark,1.0
+Purugly (Shadow),fairy,1.0
 Chingling,normal,1.0
 Chingling,fighting,0.625
 Chingling,flying,1.0
@@ -14165,6 +14327,24 @@ Gible,ice,2.56
 Gible,dragon,1.6
 Gible,dark,1.0
 Gible,fairy,1.6
+Gible (Shadow),normal,1.0
+Gible (Shadow),fighting,1.0
+Gible (Shadow),flying,1.0
+Gible (Shadow),poison,0.625
+Gible (Shadow),ground,1.0
+Gible (Shadow),rock,0.625
+Gible (Shadow),bug,1.0
+Gible (Shadow),ghost,1.0
+Gible (Shadow),steel,1.0
+Gible (Shadow),fire,0.625
+Gible (Shadow),water,1.0
+Gible (Shadow),grass,1.0
+Gible (Shadow),electric,0.244
+Gible (Shadow),psychic,1.0
+Gible (Shadow),ice,2.56
+Gible (Shadow),dragon,1.6
+Gible (Shadow),dark,1.0
+Gible (Shadow),fairy,1.6
 Gabite,normal,1.0
 Gabite,fighting,1.0
 Gabite,flying,1.0
@@ -14183,6 +14363,24 @@ Gabite,ice,2.56
 Gabite,dragon,1.6
 Gabite,dark,1.0
 Gabite,fairy,1.6
+Gabite (Shadow),normal,1.0
+Gabite (Shadow),fighting,1.0
+Gabite (Shadow),flying,1.0
+Gabite (Shadow),poison,0.625
+Gabite (Shadow),ground,1.0
+Gabite (Shadow),rock,0.625
+Gabite (Shadow),bug,1.0
+Gabite (Shadow),ghost,1.0
+Gabite (Shadow),steel,1.0
+Gabite (Shadow),fire,0.625
+Gabite (Shadow),water,1.0
+Gabite (Shadow),grass,1.0
+Gabite (Shadow),electric,0.244
+Gabite (Shadow),psychic,1.0
+Gabite (Shadow),ice,2.56
+Gabite (Shadow),dragon,1.6
+Gabite (Shadow),dark,1.0
+Gabite (Shadow),fairy,1.6
 Garchomp,normal,1.0
 Garchomp,fighting,1.0
 Garchomp,flying,1.0
@@ -14201,6 +14399,24 @@ Garchomp,ice,2.56
 Garchomp,dragon,1.6
 Garchomp,dark,1.0
 Garchomp,fairy,1.6
+Garchomp (Shadow),normal,1.0
+Garchomp (Shadow),fighting,1.0
+Garchomp (Shadow),flying,1.0
+Garchomp (Shadow),poison,0.625
+Garchomp (Shadow),ground,1.0
+Garchomp (Shadow),rock,0.625
+Garchomp (Shadow),bug,1.0
+Garchomp (Shadow),ghost,1.0
+Garchomp (Shadow),steel,1.0
+Garchomp (Shadow),fire,0.625
+Garchomp (Shadow),water,1.0
+Garchomp (Shadow),grass,1.0
+Garchomp (Shadow),electric,0.244
+Garchomp (Shadow),psychic,1.0
+Garchomp (Shadow),ice,2.56
+Garchomp (Shadow),dragon,1.6
+Garchomp (Shadow),dark,1.0
+Garchomp (Shadow),fairy,1.6
 Munchlax,normal,1.0
 Munchlax,fighting,1.6
 Munchlax,flying,1.0
@@ -16739,6 +16955,24 @@ Throh,ice,1.0
 Throh,dragon,1.0
 Throh,dark,0.625
 Throh,fairy,1.6
+Throh (Shadow),normal,1.0
+Throh (Shadow),fighting,1.0
+Throh (Shadow),flying,1.6
+Throh (Shadow),poison,1.0
+Throh (Shadow),ground,1.0
+Throh (Shadow),rock,0.625
+Throh (Shadow),bug,0.625
+Throh (Shadow),ghost,1.0
+Throh (Shadow),steel,1.0
+Throh (Shadow),fire,1.0
+Throh (Shadow),water,1.0
+Throh (Shadow),grass,1.0
+Throh (Shadow),electric,1.0
+Throh (Shadow),psychic,1.6
+Throh (Shadow),ice,1.0
+Throh (Shadow),dragon,1.0
+Throh (Shadow),dark,0.625
+Throh (Shadow),fairy,1.6
 Sawk,normal,1.0
 Sawk,fighting,1.0
 Sawk,flying,1.6
@@ -16757,6 +16991,24 @@ Sawk,ice,1.0
 Sawk,dragon,1.0
 Sawk,dark,0.625
 Sawk,fairy,1.6
+Sawk (Shadow),normal,1.0
+Sawk (Shadow),fighting,1.0
+Sawk (Shadow),flying,1.6
+Sawk (Shadow),poison,1.0
+Sawk (Shadow),ground,1.0
+Sawk (Shadow),rock,0.625
+Sawk (Shadow),bug,0.625
+Sawk (Shadow),ghost,1.0
+Sawk (Shadow),steel,1.0
+Sawk (Shadow),fire,1.0
+Sawk (Shadow),water,1.0
+Sawk (Shadow),grass,1.0
+Sawk (Shadow),electric,1.0
+Sawk (Shadow),psychic,1.6
+Sawk (Shadow),ice,1.0
+Sawk (Shadow),dragon,1.0
+Sawk (Shadow),dark,0.625
+Sawk (Shadow),fairy,1.6
 Sewaddle,normal,1.0
 Sewaddle,fighting,0.625
 Sewaddle,flying,2.56
