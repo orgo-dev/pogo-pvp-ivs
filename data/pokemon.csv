@@ -1134,7 +1134,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 700,sylveon,Sylveon,203,205,216,"['fairy', 'none']","['CHARM', 'QUICK_ATTACK']","['MOONBLAST', 'DAZZLING_GLEAM', 'DRAINING_KISS', 'LAST_RESORT', 'PSYSHOCK']","['LAST_RESORT', 'PSYSHOCK']",nan,5,75000,True,FAMILY_EEVEE,nan,eevee,nan
 701,hawlucha,Hawlucha,195,153,186,"['fighting', 'flying']","['LOW_KICK', 'POISON_JAB']","['FLYING_PRESS', 'AERIAL_ACE', 'X_SCISSOR', 'POWER_UP_PUNCH']",nan,nan,5,75000,True,,nan,,['regional']
 702,dedenne,Dedenne,164,134,167,"['electric', 'fairy']","['TACKLE', 'THUNDER_SHOCK']","['DISCHARGE', 'PLAY_ROUGH']",nan,nan,3,50000,True,,nan,,nan
-703,carbink,Carbink,95,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,5,75000,False,,nan,,nan
+703,carbink,Carbink,95,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,5,75000,True,,nan,,nan
 704,goomy,Goomy,101,112,128,"['dragon', 'none']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER']",nan,nan,5,75000,True,FAMILY_GOOMY,['sliggoo'],,nan
 705,sliggoo,Sliggoo,159,176,169,"['dragon', 'none']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER', 'WATER_PULSE']",nan,nan,5,75000,True,FAMILY_GOOMY,['goodra'],goomy,nan
 706,goodra,Goodra,220,242,207,"['dragon', 'none']","['WATER_GUN', 'DRAGON_BREATH']","['DRACO_METEOR', 'SLUDGE_WAVE', 'MUDDY_WATER', 'POWER_WHIP']",nan,nan,5,75000,True,FAMILY_GOOMY,nan,sliggoo,nan
