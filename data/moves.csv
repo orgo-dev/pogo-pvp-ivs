@@ -148,6 +148,7 @@ LOW_SWEEP,Low Sweep,charged,fighting,40,0,1,,,40,1.0,,Spam/Bait,nan,,,nan,nan
 LUNGE,Lunge,charged,bug,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 LUSTER_PURGE,Luster Purge,charged,psychic,120,0,1,,,60,2.0,50.0% chance -1 Def opponent,Debuff Nuke,"[0, -1]",opponent,0.5,nan,nan
 MAGICAL_LEAF,Magical Leaf,fast,grass,10,10,3,3.33,3.33,0,,,General,nan,,,nan,nan
+MAGMA_STORM,Magma Storm,charged,fire,65,0,1,,,40,1.62,,General,nan,,,nan,nan
 MAGNET_BOMB,Magnet Bomb,charged,steel,70,0,1,,,45,1.56,,General,nan,,,nan,nan
 MEGA_DRAIN,Mega Drain,charged,grass,25,0,1,,,55,0.45,,High Energy,nan,,,nan,nan
 MEGAHORN,Megahorn,charged,bug,110,0,1,,,55,2.0,,Nuke,nan,,,nan,nan
