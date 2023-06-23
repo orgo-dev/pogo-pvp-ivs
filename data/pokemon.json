@@ -70350,12 +70350,14 @@
         ],
         "fastMoves": [
             "EMBER",
-            "FIRE_SPIN"
+            "FIRE_SPIN",
+            "INCINERATE"
         ],
         "chargedMoves": [
             "OVERHEAT",
             "FLAMETHROWER",
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "FLASH_CANNON"
         ],
         "defaultIVs": {
             "cp500": [

@@ -1241,7 +1241,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 774,minior_core,Minior (Core),218,131,155,"['rock', 'flying']","['ROLLOUT', 'TAKE_DOWN']","['POWER_GEM', 'ANCIENT_POWER', 'ACROBATICS']",nan,nan,3,50000,False,,nan,,nan
 774,minior_meteor,Minior (Meteor),116,194,155,"['rock', 'flying']","['ROLLOUT', 'TAKE_DOWN']","['POWER_GEM', 'ANCIENT_POWER', 'ACROBATICS']",nan,nan,3,50000,False,,nan,,nan
 775,komala,Komala,216,165,163,"['normal', 'none']","['ROLLOUT', 'YAWN']","['PLAY_ROUGH', 'BULLDOZE', 'PAYBACK']",nan,nan,3,50000,False,,nan,,nan
-776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE']",nan,nan,5,75000,False,,nan,,nan
+776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN', 'INCINERATE']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE', 'FLASH_CANNON']",nan,nan,5,75000,False,,nan,,nan
 777,togedemaru,Togedemaru,190,145,163,"['electric', 'steel']","['THUNDER_SHOCK', 'SPARK']","['FELL_STINGER', 'WILD_CHARGE', 'GYRO_BALL']",nan,nan,3,50000,True,,nan,,nan
 778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5,50000,False,,nan,,nan
 779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3,50000,True,,nan,,nan
