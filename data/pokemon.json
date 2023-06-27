@@ -33555,6 +33555,57 @@
     },
     {
         "dex": 302,
+        "speciesName": "Sableye (Mega)",
+        "speciesId": "sableye_mega",
+        "baseStats": {
+            "atk": 151,
+            "def": 216,
+            "hp": 137
+        },
+        "types": [
+            "dark",
+            "ghost"
+        ],
+        "fastMoves": [
+            "FEINT_ATTACK",
+            "SHADOW_CLAW"
+        ],
+        "chargedMoves": [
+            "FOUL_PLAY",
+            "POWER_GEM",
+            "SHADOW_SNEAK"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                10,
+                0,
+                11,
+                15
+            ],
+            "cp1500": [
+                29.5,
+                5,
+                8,
+                11
+            ],
+            "cp2500": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "level25CP": 1158,
+        "tags": [
+            "shadoweligible",
+            "mega"
+        ],
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true
+    },
+    {
+        "dex": 302,
         "speciesName": "Sableye (Shadow)",
         "speciesId": "sableye_shadow",
         "baseStats": {
@@ -50108,7 +50159,11 @@
             "IRON_HEAD",
             "STONE_EDGE",
             "FLAMETHROWER",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "MAGMA_STORM"
+        ],
+        "eliteMoves": [
+            "MAGMA_STORM"
         ],
         "tags": [
             "legendary"
@@ -50133,6 +50188,7 @@
                 11
             ]
         },
+        "searchPriority": 3,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -70387,7 +70443,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 777,

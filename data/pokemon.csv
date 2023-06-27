@@ -567,6 +567,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 300,skitty,Skitty,84,79,137,"['normal', 'none']","['FEINT_ATTACK', 'TACKLE']","['DIG', 'DISARMING_VOICE', 'WILD_CHARGE']",nan,nan,3,50000,True,FAMILY_SKITTY,['delcatty'],,nan
 301,delcatty,Delcatty,132,127,172,"['normal', 'none']","['CHARM', 'FEINT_ATTACK', 'ZEN_HEADBUTT']","['DISARMING_VOICE', 'PLAY_ROUGH', 'WILD_CHARGE']",nan,nan,3,50000,True,FAMILY_SKITTY,nan,skitty,nan
 302,sableye,Sableye,141,136,137,"['dark', 'ghost']","['FEINT_ATTACK', 'SHADOW_CLAW']","['FOUL_PLAY', 'POWER_GEM', 'SHADOW_SNEAK', 'RETURN']",nan,nan,5,75000,True,,nan,,['shadoweligible']
+302,sableye_mega,Sableye (Mega),151,216,137,"['dark', 'ghost']","['FEINT_ATTACK', 'SHADOW_CLAW']","['FOUL_PLAY', 'POWER_GEM', 'SHADOW_SNEAK']",nan,nan,5,75000,True,,nan,,"['shadoweligible', 'mega']"
 302,sableye_shadow,Sableye (Shadow),141,136,137,"['dark', 'ghost']","['FEINT_ATTACK', 'SHADOW_CLAW']","['FOUL_PLAY', 'POWER_GEM', 'SHADOW_SNEAK', 'FRUSTRATION']",nan,nan,5,75000,True,,nan,,['shadow']
 303,mawile,Mawile,155,141,137,"['steel', 'fairy']","['ASTONISH', 'BITE', 'FIRE_FANG', 'ICE_FANG', 'FAIRY_WIND']","['IRON_HEAD', 'PLAY_ROUGH', 'VICE_GRIP', 'POWER_UP_PUNCH', 'RETURN']",nan,nan,5,75000,True,,nan,,['shadoweligible']
 303,mawile_shadow,Mawile (Shadow),155,141,137,"['steel', 'fairy']","['ASTONISH', 'BITE', 'FIRE_FANG', 'ICE_FANG', 'FAIRY_WIND']","['IRON_HEAD', 'PLAY_ROUGH', 'VICE_GRIP', 'POWER_UP_PUNCH', 'FRUSTRATION']",nan,nan,5,75000,True,,nan,,['shadow']
@@ -862,7 +863,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 482,azelf,Azelf,270,151,181,"['psychic', 'none']","['CONFUSION', 'EXTRASENSORY']","['FIRE_BLAST', 'FUTURE_SIGHT', 'SWIFT']",nan,nan,20,100000,True,,nan,,['legendary']
 483,dialga,Dialga,275,211,205,"['steel', 'dragon']","['DRAGON_BREATH', 'METAL_CLAW']","['DRACO_METEOR', 'IRON_HEAD', 'THUNDER']",nan,nan,20,100000,True,,nan,,['legendary']
 484,palkia,Palkia,280,215,189,"['water', 'dragon']","['DRAGON_BREATH', 'DRAGON_TAIL']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'AQUA_TAIL']",nan,nan,20,100000,True,,nan,,['legendary']
-485,heatran,Heatran,251,213,209,"['fire', 'steel']","['BUG_BITE', 'FIRE_SPIN']","['FIRE_BLAST', 'IRON_HEAD', 'STONE_EDGE', 'FLAMETHROWER', 'EARTH_POWER']",nan,nan,20,100000,True,,nan,,['legendary']
+485,heatran,Heatran,251,213,209,"['fire', 'steel']","['BUG_BITE', 'FIRE_SPIN']","['FIRE_BLAST', 'IRON_HEAD', 'STONE_EDGE', 'FLAMETHROWER', 'EARTH_POWER', 'MAGMA_STORM']",['MAGMA_STORM'],nan,20,100000,True,,nan,,['legendary']
 486,regigigas,Regigigas,287,210,221,"['normal', 'none']","['HIDDEN_POWER_BUG', 'HIDDEN_POWER_DARK', 'HIDDEN_POWER_DRAGON', 'HIDDEN_POWER_ELECTRIC', 'HIDDEN_POWER_FIGHTING', 'HIDDEN_POWER_FIRE', 'HIDDEN_POWER_FLYING', 'HIDDEN_POWER_GHOST', 'HIDDEN_POWER_GRASS', 'HIDDEN_POWER_GROUND', 'HIDDEN_POWER_ICE', 'HIDDEN_POWER_POISON', 'HIDDEN_POWER_PSYCHIC', 'HIDDEN_POWER_ROCK', 'HIDDEN_POWER_STEEL', 'HIDDEN_POWER_WATER', 'ZEN_HEADBUTT']","['GIGA_IMPACT', 'FOCUS_BLAST', 'THUNDER']",nan,nan,20,100000,True,,nan,,['legendary']
 487,giratina_altered,Giratina (Altered),187,225,284,"['ghost', 'dragon']","['DRAGON_BREATH', 'SHADOW_CLAW']","['ANCIENT_POWER', 'DRAGON_CLAW', 'SHADOW_SNEAK', 'SHADOW_FORCE']",['SHADOW_FORCE'],nan,20,100000,True,,nan,,['legendary']
 487,giratina_origin,Giratina (Origin),225,187,284,"['ghost', 'dragon']","['DRAGON_TAIL', 'SHADOW_CLAW']","['OMINOUS_WIND', 'DRAGON_PULSE', 'SHADOW_BALL', 'SHADOW_FORCE']",['SHADOW_FORCE'],nan,20,100000,True,,nan,,['legendary']
@@ -1241,7 +1242,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 774,minior_core,Minior (Core),218,131,155,"['rock', 'flying']","['ROLLOUT', 'TAKE_DOWN']","['POWER_GEM', 'ANCIENT_POWER', 'ACROBATICS']",nan,nan,3,50000,False,,nan,,nan
 774,minior_meteor,Minior (Meteor),116,194,155,"['rock', 'flying']","['ROLLOUT', 'TAKE_DOWN']","['POWER_GEM', 'ANCIENT_POWER', 'ACROBATICS']",nan,nan,3,50000,False,,nan,,nan
 775,komala,Komala,216,165,163,"['normal', 'none']","['ROLLOUT', 'YAWN']","['PLAY_ROUGH', 'BULLDOZE', 'PAYBACK']",nan,nan,3,50000,False,,nan,,nan
-776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN', 'INCINERATE']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE', 'FLASH_CANNON']",nan,nan,5,75000,False,,nan,,nan
+776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN', 'INCINERATE']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE', 'FLASH_CANNON']",nan,nan,5,75000,True,,nan,,nan
 777,togedemaru,Togedemaru,190,145,163,"['electric', 'steel']","['THUNDER_SHOCK', 'SPARK']","['FELL_STINGER', 'WILD_CHARGE', 'GYRO_BALL']",nan,nan,3,50000,True,,nan,,nan
 778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5,50000,False,,nan,,nan
 779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3,50000,True,,nan,,nan
