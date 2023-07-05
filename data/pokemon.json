@@ -35172,7 +35172,8 @@
         },
         "tags": [
             "shadoweligible",
-            "shadow"
+            "shadow",
+            "include1500"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
