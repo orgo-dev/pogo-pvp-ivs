@@ -71330,7 +71330,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -71380,7 +71381,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -71430,7 +71432,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -71480,7 +71483,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -71530,7 +71534,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -71581,6 +71586,7 @@
         },
         "tags": [
             "legendary",
+            "ultrabeast",
             "include1500"
         ],
         "levelFloor": 15,
@@ -71632,7 +71638,8 @@
             ]
         },
         "tags": [
-            "legendary"
+            "legendary",
+            "ultrabeast"
         ],
         "searchPriority": 4,
         "levelFloor": 20,
@@ -71679,6 +71686,10 @@
                 11
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -71722,6 +71733,10 @@
                 7
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -71765,6 +71780,10 @@
                 7
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -71808,6 +71827,10 @@
                 15
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -71894,6 +71917,10 @@
                 15
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false,
@@ -71943,6 +71970,10 @@
                 14
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false,
@@ -71990,6 +72021,10 @@
                 14
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -72033,6 +72068,10 @@
                 8
             ]
         },
+        "tags": [
+            "legendary",
+            "ultrabeast"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
