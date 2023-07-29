@@ -1417,6 +1417,8 @@ Groudon (Primal),fire
 Groudon (Primal),ground
 Rayquaza,dragon
 Rayquaza,flying
+Rayquaza (Mega),dragon
+Rayquaza (Mega),flying
 Jirachi,steel
 Jirachi,psychic
 Deoxys,psychic
@@ -2315,8 +2317,12 @@ Xerneas,fairy
 Xerneas,none
 Yveltal,dark
 Yveltal,flying
-Zygarde,dragon
-Zygarde,ground
+Zygarde (10% Forme),dragon
+Zygarde (10% Forme),ground
+Zygarde (50% Forme),dragon
+Zygarde (50% Forme),ground
+Zygarde (Complete Forme),dragon
+Zygarde (Complete Forme),ground
 Diancie,rock
 Diancie,fairy
 Hoopa,psychic

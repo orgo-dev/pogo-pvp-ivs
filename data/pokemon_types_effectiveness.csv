@@ -12761,6 +12761,24 @@ Rayquaza,ice,2.56
 Rayquaza,dragon,1.6
 Rayquaza,dark,1.0
 Rayquaza,fairy,1.6
+Rayquaza (Mega),normal,1.0
+Rayquaza (Mega),fighting,0.625
+Rayquaza (Mega),flying,1.0
+Rayquaza (Mega),poison,1.0
+Rayquaza (Mega),ground,0.391
+Rayquaza (Mega),rock,1.6
+Rayquaza (Mega),bug,1.0
+Rayquaza (Mega),ghost,1.0
+Rayquaza (Mega),steel,1.0
+Rayquaza (Mega),fire,0.625
+Rayquaza (Mega),water,0.625
+Rayquaza (Mega),grass,0.391
+Rayquaza (Mega),electric,1.0
+Rayquaza (Mega),psychic,1.0
+Rayquaza (Mega),ice,2.56
+Rayquaza (Mega),dragon,1.6
+Rayquaza (Mega),dark,1.0
+Rayquaza (Mega),fairy,1.6
 Jirachi,normal,0.625
 Jirachi,fighting,1.0
 Jirachi,flying,0.625
@@ -20843,24 +20861,60 @@ Yveltal,ice,1.6
 Yveltal,dragon,1.0
 Yveltal,dark,0.625
 Yveltal,fairy,1.6
-Zygarde,normal,1.0
-Zygarde,fighting,1.0
-Zygarde,flying,1.0
-Zygarde,poison,0.625
-Zygarde,ground,1.0
-Zygarde,rock,0.625
-Zygarde,bug,1.0
-Zygarde,ghost,1.0
-Zygarde,steel,1.0
-Zygarde,fire,0.625
-Zygarde,water,1.0
-Zygarde,grass,1.0
-Zygarde,electric,0.244
-Zygarde,psychic,1.0
-Zygarde,ice,2.56
-Zygarde,dragon,1.6
-Zygarde,dark,1.0
-Zygarde,fairy,1.6
+Zygarde (10% Forme),normal,1.0
+Zygarde (10% Forme),fighting,1.0
+Zygarde (10% Forme),flying,1.0
+Zygarde (10% Forme),poison,0.625
+Zygarde (10% Forme),ground,1.0
+Zygarde (10% Forme),rock,0.625
+Zygarde (10% Forme),bug,1.0
+Zygarde (10% Forme),ghost,1.0
+Zygarde (10% Forme),steel,1.0
+Zygarde (10% Forme),fire,0.625
+Zygarde (10% Forme),water,1.0
+Zygarde (10% Forme),grass,1.0
+Zygarde (10% Forme),electric,0.244
+Zygarde (10% Forme),psychic,1.0
+Zygarde (10% Forme),ice,2.56
+Zygarde (10% Forme),dragon,1.6
+Zygarde (10% Forme),dark,1.0
+Zygarde (10% Forme),fairy,1.6
+Zygarde (50% Forme),normal,1.0
+Zygarde (50% Forme),fighting,1.0
+Zygarde (50% Forme),flying,1.0
+Zygarde (50% Forme),poison,0.625
+Zygarde (50% Forme),ground,1.0
+Zygarde (50% Forme),rock,0.625
+Zygarde (50% Forme),bug,1.0
+Zygarde (50% Forme),ghost,1.0
+Zygarde (50% Forme),steel,1.0
+Zygarde (50% Forme),fire,0.625
+Zygarde (50% Forme),water,1.0
+Zygarde (50% Forme),grass,1.0
+Zygarde (50% Forme),electric,0.244
+Zygarde (50% Forme),psychic,1.0
+Zygarde (50% Forme),ice,2.56
+Zygarde (50% Forme),dragon,1.6
+Zygarde (50% Forme),dark,1.0
+Zygarde (50% Forme),fairy,1.6
+Zygarde (Complete Forme),normal,1.0
+Zygarde (Complete Forme),fighting,1.0
+Zygarde (Complete Forme),flying,1.0
+Zygarde (Complete Forme),poison,0.625
+Zygarde (Complete Forme),ground,1.0
+Zygarde (Complete Forme),rock,0.625
+Zygarde (Complete Forme),bug,1.0
+Zygarde (Complete Forme),ghost,1.0
+Zygarde (Complete Forme),steel,1.0
+Zygarde (Complete Forme),fire,0.625
+Zygarde (Complete Forme),water,1.0
+Zygarde (Complete Forme),grass,1.0
+Zygarde (Complete Forme),electric,0.244
+Zygarde (Complete Forme),psychic,1.0
+Zygarde (Complete Forme),ice,2.56
+Zygarde (Complete Forme),dragon,1.6
+Zygarde (Complete Forme),dark,1.0
+Zygarde (Complete Forme),fairy,1.6
 Diancie,normal,0.625
 Diancie,fighting,1.0
 Diancie,flying,0.625

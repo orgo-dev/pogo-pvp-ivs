@@ -90,6 +90,7 @@ FURY_CUTTER,Fury Cutter,fast,bug,2,4,1,2.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 FUSION_BOLT,Fusion Bolt,charged,electric,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 FUSION_FLARE,Fusion Flare,charged,fire,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 FUTURE_SIGHT,Future Sight,charged,psychic,120,0,1,,,65,1.85,,Nuke,nan,,,nan,nan
+GEOMANCY,Geomancy,fast,fairy,4,13,3,1.33,4.33,0,,,Fast Charge,nan,,,nan,nan
 GIGA_DRAIN,Giga Drain,charged,grass,50,0,1,,,80,0.62,,High Energy,nan,,,nan,nan
 GIGA_IMPACT,Giga Impact,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 GLACIATE,Glaciate,charged,ice,60,0,1,,,40,1.5,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
@@ -167,6 +168,7 @@ MUD_SLAP,Mud Slap,fast,ground,11,8,3,3.67,2.67,0,,,Heavy Damage,nan,,,nan,nan
 MYSTICAL_FIRE,Mystical Fire,charged,fire,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 NIGHT_SHADE,Night Shade,charged,ghost,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
 NIGHT_SLASH,Night Slash,charged,dark,50,0,1,,,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,"[2, 0]",self,.125,nan,nan
+OBLIVION_WING,Oblivion Wing,charged,flying,85,0,1,,,50,1.7,,General,nan,,,nan,nan
 OBSTRUCT,Obstruct,charged,dark,15,0,1,,,40,0.38,"100% chance +1 Def self, -1 Def opponent",Boost Spam/Bait,"[0, 1]",both,1,"[0, 1]","[0, -1]"
 OCTAZOOKA,Octazooka,charged,water,50,0,1,,,50,1.0,50.0% chance -2 Atk opponent,Debuff,"[-2, 0]",opponent,0.5,nan,nan
 OMINOUS_WIND,Ominous Wind,charged,ghost,45,0,1,,,45,1.0,10.0% chance +1 Atk +1 Def self,Boost,"[1, 1]",self,.1,nan,nan
@@ -268,6 +270,7 @@ WATER_GUN,Water Gun,fast,water,3,3,1,3.0,3.0,0,,,General,nan,,,nan,nan
 WATER_GUN_FAST_BLASTOISE,Water Gun Fast Blastoise,fast,water,6,4,2,3.0,2.0,0,,,Low Quality,nan,,,nan,nan
 WATER_PULSE,Water Pulse,charged,water,70,0,1,,,60,1.17,,High Energy,nan,,,nan,nan
 WATERFALL,Waterfall,fast,water,12,8,3,4.0,2.67,0,,,Heavy Damage,nan,,,nan,nan
+WATER_SHURIKEN,Water Shuriken,fast,water,6,14,3,2.0,4.67,0,,,Heavy Damage,nan,,,nan,nan
 WEATHER_BALL_FIRE,Weather Ball (Fire),charged,fire,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 WEATHER_BALL_ICE,Weather Ball (Ice),charged,ice,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 WEATHER_BALL_ROCK,Weather Ball (Rock),charged,rock,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
