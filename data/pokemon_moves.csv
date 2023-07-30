@@ -5818,6 +5818,7 @@ Politoed,Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,,,,Fast Charge,
 Politoed,Blizzard,charged,ice,1.0,140,0,1,,,75.0,1.87,,Nuke,
 Politoed,Earthquake,charged,ground,1.0,120,0,1,,,65.0,1.85,,Nuke,elite
 Politoed,Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
+Politoed,Ice Beam,charged,ice,1.0,90,0,1,,,55.0,1.64,,High Energy,elite
 Politoed,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Politoed,Surf,charged,water,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
 Politoed,Weather Ball (Water),charged,water,1.2,55,0,1,,,35.0,1.57,,Spam/Bait,
@@ -5827,6 +5828,7 @@ Politoed (Shadow),Blizzard,charged,ice,1.0,140,0,1,,,75.0,1.87,,Nuke,
 Politoed (Shadow),Earthquake,charged,ground,1.0,120,0,1,,,65.0,1.85,,Nuke,elite
 Politoed (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy,
 Politoed (Shadow),Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
+Politoed (Shadow),Ice Beam,charged,ice,1.0,90,0,1,,,55.0,1.64,,High Energy,elite
 Politoed (Shadow),Surf,charged,water,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
 Politoed (Shadow),Weather Ball (Water),charged,water,1.2,55,0,1,,,35.0,1.57,,Spam/Bait,
 Poliwag,Bubble,fast,water,1.2,7,11,3,2.33,3.67,,,,Fast Charge,
@@ -5856,6 +5858,7 @@ Poliwhirl (Shadow),Mud Bomb,charged,ground,1.0,60,0,1,,,40.0,1.5,,Spam/Bait,
 Poliwhirl (Shadow),Scald,charged,water,1.2,80,0,1,,,50.0,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,elite
 Poliwhirl (Shadow),Water Pulse,charged,water,1.2,70,0,1,,,60.0,1.17,,High Energy,
 Poliwrath,Bubble,fast,water,1.2,7,11,3,2.33,3.67,,,,Fast Charge,
+Poliwrath,Counter,fast,fighting,1.2,8,7,2,4.0,3.5,,,,Multipurpose,elite
 Poliwrath,Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,,,,Fast Charge,
 Poliwrath,Rock Smash,fast,fighting,1.2,9,7,3,3.0,2.33,,,,Low Quality,
 Poliwrath,Dynamic Punch,charged,fighting,1.2,90,0,1,,,50.0,1.8,,General,
@@ -5866,6 +5869,7 @@ Poliwrath,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Poliwrath,Scald,charged,water,1.2,80,0,1,,,50.0,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,
 Poliwrath,Submission,charged,fighting,1.2,60,0,1,,,50.0,1.2,,General,elite
 Poliwrath (Shadow),Bubble,fast,water,1.2,7,11,3,2.33,3.67,,,,Fast Charge,
+Poliwrath (Shadow),Counter,fast,fighting,1.2,8,7,2,4.0,3.5,,,,Multipurpose,elite
 Poliwrath (Shadow),Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,,,,Fast Charge,
 Poliwrath (Shadow),Rock Smash,fast,fighting,1.2,9,7,3,3.0,2.33,,,,Low Quality,
 Poliwrath (Shadow),Dynamic Punch,charged,fighting,1.2,90,0,1,,,50.0,1.8,,General,

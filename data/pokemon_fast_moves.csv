@@ -2185,9 +2185,11 @@ Poliwhirl,Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,Fast Charge,
 Poliwhirl (Shadow),Bubble,fast,water,1.2,7,11,3,2.33,3.67,Fast Charge,
 Poliwhirl (Shadow),Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,Fast Charge,
 Poliwrath,Bubble,fast,water,1.2,7,11,3,2.33,3.67,Fast Charge,
+Poliwrath,Counter,fast,fighting,1.2,8,7,2,4.0,3.5,Multipurpose,elite
 Poliwrath,Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,Fast Charge,
 Poliwrath,Rock Smash,fast,fighting,1.2,9,7,3,3.0,2.33,Low Quality,
 Poliwrath (Shadow),Bubble,fast,water,1.2,7,11,3,2.33,3.67,Fast Charge,
+Poliwrath (Shadow),Counter,fast,fighting,1.2,8,7,2,4.0,3.5,Multipurpose,elite
 Poliwrath (Shadow),Mud Shot,fast,ground,1.0,3,9,2,1.5,4.5,Fast Charge,
 Poliwrath (Shadow),Rock Smash,fast,fighting,1.2,9,7,3,3.0,2.33,Low Quality,
 Polteageist,Astonish,fast,ghost,1.2,5,9,3,1.67,3.0,Low Quality,

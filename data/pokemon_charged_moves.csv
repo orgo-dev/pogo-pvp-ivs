@@ -3643,6 +3643,7 @@ Poipole,Struggle,charged,normal,1.0,35,100,0.35,,High Energy,
 Politoed,Blizzard,charged,ice,1.0,140,75,1.87,,Nuke,
 Politoed,Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,elite
 Politoed,Hydro Pump,charged,water,1.2,130,75,1.73,,Nuke,
+Politoed,Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,elite
 Politoed,Return,charged,normal,1.0,130,70,1.86,,Nuke,
 Politoed,Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,
 Politoed,Weather Ball (Water),charged,water,1.2,55,35,1.57,,Spam/Bait,
@@ -3650,6 +3651,7 @@ Politoed (Shadow),Blizzard,charged,ice,1.0,140,75,1.87,,Nuke,
 Politoed (Shadow),Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,elite
 Politoed (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Politoed (Shadow),Hydro Pump,charged,water,1.2,130,75,1.73,,Nuke,
+Politoed (Shadow),Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,elite
 Politoed (Shadow),Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,
 Politoed (Shadow),Weather Ball (Water),charged,water,1.2,55,35,1.57,,Spam/Bait,
 Poliwag,Body Slam,charged,normal,1.0,60,35,1.71,,Spam/Bait,

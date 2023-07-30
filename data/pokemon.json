@@ -8217,7 +8217,8 @@
         "fastMoves": [
             "BUBBLE",
             "MUD_SHOT",
-            "ROCK_SMASH"
+            "ROCK_SMASH",
+            "COUNTER"
         ],
         "chargedMoves": [
             "DYNAMIC_PUNCH",
@@ -8258,7 +8259,8 @@
             "shadoweligible"
         ],
         "eliteMoves": [
-            "SUBMISSION"
+            "SUBMISSION",
+            "COUNTER"
         ],
         "searchPriority": 6,
         "buddyDistance": 3,
@@ -8288,7 +8290,8 @@
         "fastMoves": [
             "BUBBLE",
             "MUD_SHOT",
-            "ROCK_SMASH"
+            "ROCK_SMASH",
+            "COUNTER"
         ],
         "chargedMoves": [
             "DYNAMIC_PUNCH",
@@ -8328,7 +8331,8 @@
             "shadow"
         ],
         "eliteMoves": [
-            "SUBMISSION"
+            "SUBMISSION",
+            "COUNTER"
         ],
         "searchPriority": 6,
         "buddyDistance": 3,
@@ -22241,7 +22245,8 @@
             "EARTHQUAKE",
             "HYDRO_PUMP",
             "SURF",
-            "WEATHER_BALL_WATER"
+            "WEATHER_BALL_WATER",
+            "ICE_BEAM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -22275,7 +22280,8 @@
             "shadoweligible"
         ],
         "eliteMoves": [
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "ICE_BEAM"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -22310,7 +22316,8 @@
             "EARTHQUAKE",
             "HYDRO_PUMP",
             "SURF",
-            "WEATHER_BALL_WATER"
+            "WEATHER_BALL_WATER",
+            "ICE_BEAM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -22343,7 +22350,8 @@
             "shadow"
         ],
         "eliteMoves": [
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "ICE_BEAM"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
