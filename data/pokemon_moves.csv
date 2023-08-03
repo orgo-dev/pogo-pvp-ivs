@@ -8601,6 +8601,13 @@ Tyranitar,Crunch,charged,dark,1.2,70,0,1,,,45.0,1.56,30.0% chance -1 Def opponen
 Tyranitar,Fire Blast,charged,fire,1.0,140,0,1,,,80.0,1.75,,Nuke,
 Tyranitar,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Tyranitar,Stone Edge,charged,rock,1.2,100,0,1,,,55.0,1.82,,Nuke,
+Tyranitar (Mega),Bite,fast,dark,1.2,4,2,1,4.0,2.0,,,,Heavy Damage,
+Tyranitar (Mega),Iron Tail,fast,steel,1.0,9,6,3,3.0,2.0,,,,Low Quality,
+Tyranitar (Mega),Smack Down,fast,rock,1.2,12,8,3,4.0,2.67,,,,Heavy Damage,elite
+Tyranitar (Mega),Brutal Swing,charged,dark,1.2,65,0,1,,,40.0,1.62,,General,
+Tyranitar (Mega),Crunch,charged,dark,1.2,70,0,1,,,45.0,1.56,30.0% chance -1 Def opponent,Debuff,
+Tyranitar (Mega),Fire Blast,charged,fire,1.0,140,0,1,,,80.0,1.75,,Nuke,
+Tyranitar (Mega),Stone Edge,charged,rock,1.2,100,0,1,,,55.0,1.82,,Nuke,
 Tyranitar (Shadow),Bite,fast,dark,1.2,4,2,1,4.0,2.0,,,,Heavy Damage,
 Tyranitar (Shadow),Iron Tail,fast,steel,1.0,9,6,3,3.0,2.0,,,,Low Quality,
 Tyranitar (Shadow),Smack Down,fast,rock,1.2,12,8,3,4.0,2.67,,,,Heavy Damage,elite
