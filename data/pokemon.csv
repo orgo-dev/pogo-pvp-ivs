@@ -1162,7 +1162,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 718,zygarde_10,Zygarde (10% Forme),205,173,144,"['dragon', 'ground']","['DRAGON_TAIL', 'BITE', 'ZEN_HEADBUTT']","['OUTRAGE', 'EARTHQUAKE', 'CRUNCH', 'HYPER_BEAM', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['legendary']
 718,zygarde,Zygarde (50% Forme),203,232,239,"['dragon', 'ground']","['DRAGON_TAIL', 'BITE', 'ZEN_HEADBUTT']","['OUTRAGE', 'EARTHQUAKE', 'CRUNCH', 'HYPER_BEAM', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['legendary']
 718,zygarde_complete,Zygarde (Complete Forme),184,207,389,"['dragon', 'ground']","['DRAGON_TAIL', 'BITE', 'ZEN_HEADBUTT']","['OUTRAGE', 'EARTHQUAKE', 'CRUNCH', 'HYPER_BEAM', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['legendary']
-719,diancie,Diancie,190,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,20,100000,False,,nan,,nan
+719,diancie,Diancie,190,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
 720,hoopa,Hoopa,261,187,173,"['psychic', 'ghost']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'PSYBEAM', 'PSYCHIC']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
 720,hoopa_confined,Hoopa (Confined),261,187,173,"['psychic', 'ghost']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'PSYBEAM', 'PSYCHIC']",nan,nan,20,100000,False,,nan,,['mythical']
 720,hoopa_unbound,Hoopa (Unbound),311,191,173,"['psychic', 'dark']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
