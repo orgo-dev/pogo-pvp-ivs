@@ -5620,6 +5620,7 @@ Yveltal,Dark Pulse,charged,dark,1.2,80,50,1.6,,General,
 Yveltal,Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Yveltal,Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,
 Yveltal,Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
+Yveltal,Oblivion Wing,charged,flying,1.2,85,50,1.7,,General,elite
 Yveltal,Psychic,charged,psychic,1.0,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
 Zacian,Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Zacian,Iron Head,charged,steel,1.2,70,50,1.4,,General,

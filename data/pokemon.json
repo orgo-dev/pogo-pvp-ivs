@@ -66067,7 +66067,8 @@
         ],
         "fastMoves": [
             "TACKLE",
-            "ZEN_HEADBUTT"
+            "ZEN_HEADBUTT",
+            "GEOMANCY"
         ],
         "chargedMoves": [
             "MOONBLAST",
@@ -66075,6 +66076,9 @@
             "CLOSE_COMBAT",
             "GIGA_IMPACT",
             "THUNDER"
+        ],
+        "eliteMoves": [
+            "GEOMANCY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -66126,7 +66130,11 @@
             "HURRICANE",
             "FOCUS_BLAST",
             "HYPER_BEAM",
-            "PSYCHIC"
+            "PSYCHIC",
+            "OBLIVION_WING"
+        ],
+        "eliteMoves": [
+            "OBLIVION_WING"
         ],
         "defaultIVs": {
             "cp500": [
