@@ -708,7 +708,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 382,kyogre_primal,Kyogre (Primal),353,268,218,"['water', 'none']",['WATERFALL'],"['BLIZZARD', 'HYDRO_PUMP', 'THUNDER', 'SURF', 'ORIGIN_PULSE']",['ORIGIN_PULSE'],nan,20,100000,True,,nan,,"['legendary', 'mega']"
 383,groudon,Groudon,270,228,205,"['ground', 'none']","['DRAGON_TAIL', 'MUD_SHOT']","['EARTHQUAKE', 'FIRE_BLAST', 'SOLAR_BEAM', 'FIRE_PUNCH', 'PRECIPICE_BLADES']","['PRECIPICE_BLADES', 'FIRE_PUNCH']",nan,20,100000,True,,nan,,['legendary']
 383,groudon_primal,Groudon (Primal),353,268,218,"['fire', 'ground']","['DRAGON_TAIL', 'MUD_SHOT']","['EARTHQUAKE', 'FIRE_BLAST', 'SOLAR_BEAM', 'FIRE_PUNCH', 'PRECIPICE_BLADES']","['PRECIPICE_BLADES', 'FIRE_PUNCH']",nan,20,100000,True,,nan,,"['legendary', 'mega']"
-384,rayquaza,Rayquaza,284,170,213,"['dragon', 'flying']","['AIR_SLASH', 'DRAGON_TAIL']","['AERIAL_ACE', 'ANCIENT_POWER', 'OUTRAGE', 'HURRICANE', 'BREAKING_SWIPE']","['HURRICANE', 'BREAKING_SWIPE']",nan,20,100000,True,,nan,,['legendary']
+384,rayquaza,Rayquaza,284,170,213,"['dragon', 'flying']","['AIR_SLASH', 'DRAGON_TAIL']","['AERIAL_ACE', 'ANCIENT_POWER', 'OUTRAGE', 'HURRICANE', 'BREAKING_SWIPE', 'DRAGON_ASCENT']","['HURRICANE', 'BREAKING_SWIPE', 'DRAGON_ASCENT']",nan,20,100000,True,,nan,,['legendary']
 384,rayquaza_mega,Rayquaza (Mega),377,210,227,"['dragon', 'flying']","['AIR_SLASH', 'DRAGON_TAIL']","['AERIAL_ACE', 'ANCIENT_POWER', 'OUTRAGE', 'HURRICANE', 'BREAKING_SWIPE', 'DRAGON_ASCENT']","['HURRICANE', 'BREAKING_SWIPE', 'DRAGON_ASCENT']",nan,20,100000,False,,nan,,"['legendary', 'mega']"
 385,jirachi,Jirachi,210,210,225,"['steel', 'psychic']","['CHARGE_BEAM', 'CONFUSION']","['DAZZLING_GLEAM', 'DOOM_DESIRE', 'PSYCHIC']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
 386,deoxys,Deoxys,345,115,137,"['psychic', 'none']","['CHARGE_BEAM', 'ZEN_HEADBUTT']","['HYPER_BEAM', 'PSYCHO_BOOST', 'THUNDERBOLT']",nan,nan,20,100000,True,,nan,,"['mythical', 'untradeable']"
@@ -856,7 +856,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 478,froslass,Froslass,171,150,172,"['ice', 'ghost']","['HEX', 'POWDER_SNOW']","['AVALANCHE', 'CRUNCH', 'SHADOW_BALL']",nan,nan,3,50000,True,FAMILY_SNORUNT,nan,snorunt,nan
 479,rotom,Rotom,185,159,137,"['electric', 'ghost']","['ASTONISH', 'THUNDER_SHOCK']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,False,,nan,,nan
 479,rotom_fan,Rotom (Fan),204,219,137,"['electric', 'flying']","['AIR_SLASH', 'ASTONISH']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,False,,nan,,nan
-479,rotom_frost,Rotom (Frost),204,219,137,"['electric', 'ice']","['ASTONISH', 'THUNDER_SHOCK']","['BLIZZARD', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,False,,nan,,nan
+479,rotom_frost,Rotom (Frost),204,219,137,"['electric', 'ice']","['ASTONISH', 'THUNDER_SHOCK']","['BLIZZARD', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,True,,nan,,nan
 479,rotom_heat,Rotom (Heat),204,219,137,"['electric', 'fire']","['ASTONISH', 'THUNDER_SHOCK']","['OVERHEAT', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,False,,nan,,nan
 479,rotom_mow,Rotom (Mow),204,219,137,"['electric', 'grass']","['ASTONISH', 'THUNDER_SHOCK']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,True,,nan,,nan
 479,rotom_wash,Rotom (Wash),204,219,137,"['electric', 'water']","['ASTONISH', 'THUNDER_SHOCK']","['HYDRO_PUMP', 'THUNDER', 'THUNDERBOLT']",nan,nan,5,75000,True,,nan,,nan

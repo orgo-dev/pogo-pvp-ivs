@@ -3929,6 +3929,7 @@ Rattata (Shadow),Hyper Fang,charged,normal,1.2,80,50,1.6,,General,
 Rayquaza,Aerial Ace,charged,flying,1.2,55,45,1.22,,General,
 Rayquaza,Ancient Power,charged,rock,1.0,60,45,1.33,10.0% chance +1 Atk +1 Def self,Boost,
 Rayquaza,Breaking Swipe,charged,dragon,1.2,50,35,1.43,100% chance -1 Atk opponent,Debuff Spam/Bait,elite
+Rayquaza,Dragon Ascent,charged,flying,1.2,150,70,2.14,100% chance -1 Def self,Self-Debuff Nuke,elite
 Rayquaza,Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,elite
 Rayquaza,Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
 Rayquaza (Mega),Aerial Ace,charged,flying,1.2,55,45,1.22,,General,

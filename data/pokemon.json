@@ -41400,11 +41400,13 @@
             "ANCIENT_POWER",
             "OUTRAGE",
             "HURRICANE",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "DRAGON_ASCENT"
         ],
         "eliteMoves": [
             "HURRICANE",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "DRAGON_ASCENT"
         ],
         "tags": [
             "legendary"
@@ -49848,7 +49850,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 479,
