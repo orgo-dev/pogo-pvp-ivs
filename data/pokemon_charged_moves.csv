@@ -1922,6 +1922,7 @@ Graveler (Shadow),Stone Edge,charged,rock,1.2,100,55,1.82,,Nuke,
 Greedent,Body Slam,charged,normal,1.2,60,35,1.71,,Spam/Bait,
 Greedent,Crunch,charged,dark,1.0,70,45,1.56,30.0% chance -1 Def opponent,Debuff,
 Greninja,Aerial Ace,charged,flying,1.0,55,45,1.22,,General,
+Greninja,Hydro Cannon,charged,water,1.2,80,40,2.0,,Spam/Bait,elite
 Greninja,Hydro Pump,charged,water,1.2,130,75,1.73,,Nuke,
 Greninja,Night Slash,charged,dark,1.2,50,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,
 Greninja,Surf,charged,water,1.2,65,40,1.62,,Spam/Bait,

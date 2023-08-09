@@ -22274,7 +22274,7 @@
                 15
             ]
         },
-        "searchPriority": 10,
+        "searchPriority": 4,
         "level25CP": 1494,
         "tags": [
             "shadoweligible"
@@ -22345,7 +22345,6 @@
                 15
             ]
         },
-        "searchPriority": 10,
         "tags": [
             "shadow"
         ],
@@ -62486,7 +62485,8 @@
         ],
         "fastMoves": [
             "FEINT_ATTACK",
-            "BUBBLE"
+            "BUBBLE",
+            "WATER_SHURIKEN"
         ],
         "tags": [
             "starter"
@@ -62495,7 +62495,11 @@
             "NIGHT_SLASH",
             "AERIAL_ACE",
             "SURF",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "HYDRO_CANNON"
+        ],
+        "eliteMoves": [
+            "HYDRO_CANNON"
         ],
         "defaultIVs": {
             "cp500": [
@@ -62517,6 +62521,7 @@
                 14
             ]
         },
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -66105,6 +66110,7 @@
         "tags": [
             "legendary"
         ],
+        "searchPriority": 4,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -69296,7 +69302,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 767,

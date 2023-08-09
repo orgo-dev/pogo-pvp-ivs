@@ -270,7 +270,7 @@ WATER_GUN,Water Gun,fast,water,3,3,1,3.0,3.0,0,,,General,nan,,,nan,nan
 WATER_GUN_FAST_BLASTOISE,Water Gun Fast Blastoise,fast,water,6,4,2,3.0,2.0,0,,,Low Quality,nan,,,nan,nan
 WATER_PULSE,Water Pulse,charged,water,70,0,1,,,60,1.17,,High Energy,nan,,,nan,nan
 WATERFALL,Waterfall,fast,water,12,8,3,4.0,2.67,0,,,Heavy Damage,nan,,,nan,nan
-WATER_SHURIKEN,Water Shuriken,fast,water,6,14,3,2.0,4.67,0,,,Heavy Damage,nan,,,nan,nan
+WATER_SHURIKEN,Water Shuriken,fast,water,6,14,3,2.0,4.67,0,,,Fast Charge,nan,,,nan,nan
 WEATHER_BALL_FIRE,Weather Ball (Fire),charged,fire,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 WEATHER_BALL_ICE,Weather Ball (Ice),charged,ice,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 WEATHER_BALL_ROCK,Weather Ball (Rock),charged,rock,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
