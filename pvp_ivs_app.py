@@ -363,6 +363,7 @@ def app(app="GBL IV Stats", **kwargs):
     ) = load_app_db_constants()
 
     pokemons = list(ALL_POKEMON_STATS.keys())
+    pokemons.append("Custom base stats")
 
     # get eligible pokemon
     with st.sidebar:
@@ -380,6 +381,30 @@ def app(app="GBL IV Stats", **kwargs):
             0 if default_pokemon not in pokemons else pokemons.index(default_pokemon)
         )
         pokemon = st.selectbox("Select a Pokemon", pokemons, default_pokemon_idx)
+        # custom base stats
+        if pokemon == "Custom base stats":
+            custom_base_stats_input_cols = st.columns(3)
+            with custom_base_stats_input_cols[0]:
+                default_custom_base_atk = int(kwargs.get("custom_base_atk", [1])[0])
+                custom_base_atk = st.number_input(
+                    "Base Atk", min_value=1, max_value=700, value=default_custom_base_atk
+                )
+            with custom_base_stats_input_cols[1]:
+                default_custom_base_def = int(kwargs.get("custom_base_def", [1])[0])
+                custom_base_def = st.number_input(
+                    "Base Def", min_value=1, max_value=700, value=default_custom_base_def
+                )
+            with custom_base_stats_input_cols[2]:
+                default_custom_base_sta = int(kwargs.get("custom_base_sta", [1])[0])
+                custom_base_sta = st.number_input(
+                    "Base HP", min_value=1, max_value=700, value=default_custom_base_sta
+                )
+            ALL_POKEMON_STATS["Custom base stats"] = {
+                "base_attack": custom_base_atk,
+                "base_defense": custom_base_def,
+                "base_stamina": custom_base_sta,
+            }
+
         default_ivs = kwargs.get("input_ivs", [""])[0]
         input_ivs = st.text_input(
             "Input IVs split by a comma (e.g. '1/2/3,15/15/15')", default_ivs
@@ -754,115 +779,117 @@ def app(app="GBL IV Stats", **kwargs):
         [r["_selectedRowNodeInfo"]["nodeId"] for r in selected_ivs]
     )
 
-    # fast moves
-    st.caption(
-        "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
-    )
-    df_fast = get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES)
-    gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
+    if pokemon != "Custom base stats":
 
-    default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
-    default_preselected_fast_ints = [
-        int(i) for i in default_preselected_fast.split(",") if i
-    ]
-    gb_fast.configure_selection(
-        "single", use_checkbox=False, pre_selected_rows=default_preselected_fast_ints
-    )
-
-    go_fast = gb_fast.build()
-    fast_moves_response = AgGrid(
-        df_fast,
-        gridOptions=go_fast,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        custom_css={
-            ".ag-theme-streamlit-dark": {
-                "--ag-grid-size": "3px",
-            }
-        },
-    )
-    fast_move = fast_moves_response["selected_rows"]
-    preselected_fast = ",".join([r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move])
-
-    # chargedmoves
-    st.caption("Charged moves (damage includes STAB bonus)")
-    df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
-    if len(fast_move):
-        df_charged["Count"] = (df_charged["Energy"] / fast_move[0]["Energy Gain"]).apply(
-            math.ceil
+        # fast moves
+        st.caption(
+            "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
         )
-        df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
-    else:
-        df_charged["Count"] = ""
-        df_charged["Turns"] = ""
-    gb_charged = GridOptionsBuilder.from_dataframe(df_charged)
-    default_preselected_charged = kwargs.get("preselected_charged", [""])[0]
-    default_preselected_charged_ints = [
-        int(i) for i in default_preselected_charged.split(",") if i
-    ]
-    gb_charged.configure_selection(
-        "multiple", use_checkbox=False, pre_selected_rows=default_preselected_charged_ints
-    )
-    go_charged = gb_charged.build()
-    charged_moves_response = AgGrid(
-        df_charged,
-        gridOptions=go_charged,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        custom_css={
-            ".ag-theme-streamlit-dark": {
-                "--ag-grid-size": "3px",
-            }
-        },
-    )
-    charged_moves = charged_moves_response["selected_rows"]
-    preselected_charged = ",".join(
-        [r["_selectedRowNodeInfo"]["nodeId"] for r in charged_moves]
-    )
+        df_fast = get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES)
+        gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
 
-    # format text to import into pvpoke
-    st.caption(
-        """
-        Pvpoke matrix import text - Click to select IVs, a fast move, and charged moves 
-        to geterate an import string for Pvpoke matrix.Note that pvpoke only allows 
-        100 inputs at a time, so line numbers (not IV ranks) are shown on the left to 
-        help with copy/pasting chunks at a time.
-        """
-    )
-
-    # format pokemon name
-    pvpoke_text = {}
-    pvpoke_text["pokemon"] = (
-        pokemon.lower()
-        .replace("'", "")
-        .replace(" ", "_")
-        .replace("(shadow)", "shadow-shadow")
-        .replace("(", "")
-        .replace(")", "")
-    )
-    # format moves
-    selected_moves = [m["Move"] for m in fast_move[:1]] + [
-        m["Move"] for m in charged_moves[:2]
-    ]
-    pvpoke_text["moves"] = ",".join(
-        [
-            m.upper().replace(" ", "_").replace("(", "").replace(")", "")
-            for m in selected_moves
+        default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
+        default_preselected_fast_ints = [
+            int(i) for i in default_preselected_fast.split(",") if i
         ]
-    )
+        gb_fast.configure_selection(
+            "single", use_checkbox=False, pre_selected_rows=default_preselected_fast_ints
+        )
 
-    if len(selected_ivs) and len(fast_move) and len(charged_moves):
-        pvpoke_text_lines = []
-        for row in selected_ivs:
-            pvpoke_text.update(row)
-            txt = "{pokemon},{moves},{Level},{IV Atk},{IV Def},{IV HP}".format(
-                **pvpoke_text
+        go_fast = gb_fast.build()
+        fast_moves_response = AgGrid(
+            df_fast,
+            gridOptions=go_fast,
+            columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+            custom_css={
+                ".ag-theme-streamlit-dark": {
+                    "--ag-grid-size": "3px",
+                }
+            },
+        )
+        fast_move = fast_moves_response["selected_rows"]
+        preselected_fast = ",".join([r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move])
+
+        # chargedmoves
+        st.caption("Charged moves (damage includes STAB bonus)")
+        df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
+        if len(fast_move):
+            df_charged["Count"] = (df_charged["Energy"] / fast_move[0]["Energy Gain"]).apply(
+                math.ceil
             )
-            pvpoke_text_lines.append(txt)
-        pvpoke_lines_cols = st.columns([1, 30])
-        with pvpoke_lines_cols[0]:
-            line_numbers = "\n".join([str(i + 1) for i in range(len(pvpoke_text_lines))])
-            st.code(line_numbers, language=None)
-        with pvpoke_lines_cols[1]:
-            st.code("\n".join(pvpoke_text_lines), language=None)
+            df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
+        else:
+            df_charged["Count"] = ""
+            df_charged["Turns"] = ""
+        gb_charged = GridOptionsBuilder.from_dataframe(df_charged)
+        default_preselected_charged = kwargs.get("preselected_charged", [""])[0]
+        default_preselected_charged_ints = [
+            int(i) for i in default_preselected_charged.split(",") if i
+        ]
+        gb_charged.configure_selection(
+            "multiple", use_checkbox=False, pre_selected_rows=default_preselected_charged_ints
+        )
+        go_charged = gb_charged.build()
+        charged_moves_response = AgGrid(
+            df_charged,
+            gridOptions=go_charged,
+            columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+            custom_css={
+                ".ag-theme-streamlit-dark": {
+                    "--ag-grid-size": "3px",
+                }
+            },
+        )
+        charged_moves = charged_moves_response["selected_rows"]
+        preselected_charged = ",".join(
+            [r["_selectedRowNodeInfo"]["nodeId"] for r in charged_moves]
+        )
+
+        # format text to import into pvpoke
+        st.caption(
+            """
+            Pvpoke matrix import text - Click to select IVs, a fast move, and charged moves 
+            to geterate an import string for Pvpoke matrix.Note that pvpoke only allows 
+            100 inputs at a time, so line numbers (not IV ranks) are shown on the left to 
+            help with copy/pasting chunks at a time.
+            """
+        )
+
+        # format pokemon name
+        pvpoke_text = {}
+        pvpoke_text["pokemon"] = (
+            pokemon.lower()
+            .replace("'", "")
+            .replace(" ", "_")
+            .replace("(shadow)", "shadow-shadow")
+            .replace("(", "")
+            .replace(")", "")
+        )
+        # format moves
+        selected_moves = [m["Move"] for m in fast_move[:1]] + [
+            m["Move"] for m in charged_moves[:2]
+        ]
+        pvpoke_text["moves"] = ",".join(
+            [
+                m.upper().replace(" ", "_").replace("(", "").replace(")", "")
+                for m in selected_moves
+            ]
+        )
+
+        if len(selected_ivs) and len(fast_move) and len(charged_moves):
+            pvpoke_text_lines = []
+            for row in selected_ivs:
+                pvpoke_text.update(row)
+                txt = "{pokemon},{moves},{Level},{IV Atk},{IV Def},{IV HP}".format(
+                    **pvpoke_text
+                )
+                pvpoke_text_lines.append(txt)
+            pvpoke_lines_cols = st.columns([1, 30])
+            with pvpoke_lines_cols[0]:
+                line_numbers = "\n".join([str(i + 1) for i in range(len(pvpoke_text_lines))])
+                st.code(line_numbers, language=None)
+            with pvpoke_lines_cols[1]:
+                st.code("\n".join(pvpoke_text_lines), language=None)
 
     # create sharable url
     with st.sidebar:
@@ -870,6 +897,9 @@ def app(app="GBL IV Stats", **kwargs):
             "app",
             "league",
             "pokemon",
+            "custom_base_atk",
+            "custom_base_def",
+            "custom_base_sta",
             "input_ivs",
             "stats_rank",
             "bulk_rank",
