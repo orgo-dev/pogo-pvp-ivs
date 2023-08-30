@@ -214,7 +214,7 @@ SACRED_FIRE,Sacred Fire,charged,fire,130,0,1,,,65,2.0,50.0% chance -1 Atk oppone
 SACRED_SWORD,Sacred Sword,charged,fighting,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
 SAND_TOMB,Sand Tomb,charged,ground,25,0,1,,,40,0.62,100% chance -1 Def opponent,Debuff Spam/Bait,"[0, -1]",opponent,1,nan,nan
 SCALD,Scald,charged,water,80,0,1,,,50,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.3,nan,nan
-SCALD_BLASTOISE,Scald Blastoise,charged,water,50,0,1,,,80,0.62,,High Energy,nan,,,nan,nan
+SCORCHING_SANDS,Scorching Sands,charged,ground,80,0,1,,,50,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.3,nan,nan
 SCRATCH,Scratch,fast,normal,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
 SEED_BOMB,Seed Bomb,charged,grass,60,0,1,,,45,1.33,,General,nan,,,nan,nan
 SEED_FLARE,Seed Flare,charged,grass,130,0,1,,,75,1.73,40.0% chance -2 Def opponent,Nuke Debuff,"[0, -2]",opponent,.4,nan,nan
@@ -259,8 +259,10 @@ THUNDER_FANG,Thunder Fang,fast,electric,8,5,2,4.0,2.5,0,,,Heavy Damage,nan,,,nan
 THUNDER_PUNCH,Thunder Punch,charged,electric,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 THUNDER_SHOCK,Thunder Shock,fast,electric,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
 THUNDERBOLT,Thunderbolt,charged,electric,90,0,1,,,55,1.64,,High Energy,nan,,,nan,nan
+TRAILBLAZE,Trailblaze,charged,grass,65,0,1,,,50,1.3,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 TRANSFORM,Transform,fast,normal,0,0,3,0.0,0.0,0,,,,nan,,,nan,nan
 TRI_ATTACK,Tri Attack,charged,normal,65,0,1,,,50,1.3,50.0% chance -1 Atk -1 Def opponent,Debuff,"[-1, -1]",opponent,.5,nan,nan
+TRIPLE_AXEL,Triple Axel,charged,ice,60,0,1,,,45,1.33,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 TWISTER,Twister,charged,dragon,45,0,1,,,45,1.0,,General,nan,,,nan,nan
 V_CREATE,V-Create,charged,fire,95,0,1,,,40,2.38,100% chance -3 Def self,Self-Debuff Spam,"[0, -3]",self,1,nan,nan
 VICE_GRIP,Vise Grip,charged,normal,40,0,1,,,40,1.0,,Spam/Bait,nan,,,nan,nan
