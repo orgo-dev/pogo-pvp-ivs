@@ -1397,5 +1397,122 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 901,ursaluna_shadow,Ursaluna (Shadow),243,181,277,"['ground', 'normal']","['TACKLE', 'ROCK_SMASH']","['FIRE_PUNCH', 'THUNDER_PUNCH', 'AERIAL_ACE', 'HIGH_HORSEPOWER', 'ICE_PUNCH', 'FRUSTRATION']",['HIGH_HORSEPOWER'],nan,3,50000,True,FAMILY_TEDDIURSA,nan,ursaring_shadow,['shadow']
 903,sneasler,Sneasler,259,158,190,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB', 'SHADOW_CLAW']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR']",nan,nan,5,75000,True,FAMILY_SNEASEL,nan,sneasel_hisuian,nan
 904,overqwil,Overqwil,222,171,198,"['dark', 'poison']","['POISON_STING', 'POISON_JAB']","['AQUA_TAIL', 'ICE_BEAM', 'SLUDGE_BOMB', 'DARK_PULSE', 'SHADOW_BALL']",nan,nan,5,75000,True,FAMILY_QWILFISH,nan,qwilfish_hisuian,nan
+906,sprigatito,Sprigatito,116,99,120,"['grass', 'none']","['LEAFAGE', 'CHARM']","['GRASS_KNOT', 'PLAY_ROUGH', 'ENERGY_BALL']",nan,nan,3,10000,False,FAMILY_SPRIGATITO,['floragato'],,nan
+907,floragato,Floragato,157,128,156,"['grass', 'none']","['LEAFAGE', 'CHARM']","['GRASS_KNOT', 'PLAY_ROUGH', 'ENERGY_BALL']",nan,nan,3,10000,False,FAMILY_SPRIGATITO,['meowscarada'],sprigatito,nan
+908,meowscarada,Meowscarada,233,153,183,"['grass', 'dark']","['LEAFAGE', 'CHARM']","['GRASS_KNOT', 'PLAY_ROUGH', 'ENERGY_BALL', 'NIGHT_SLASH']",nan,nan,3,10000,False,FAMILY_SPRIGATITO,nan,floragato,nan
+909,fuecoco,Fuecoco,112,96,167,"['fire', 'none']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH']",nan,nan,3,10000,False,FAMILY_FUECOCO,['crocalor'],,nan
+910,crocalor,Crocalor,162,134,191,"['fire', 'none']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH']",nan,nan,3,10000,False,FAMILY_FUECOCO,['skeledirge'],fuecoco,nan
+911,skeledirge,Skeledirge,207,178,232,"['fire', 'ghost']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH', 'SHADOW_BALL']",nan,nan,3,10000,False,FAMILY_FUECOCO,nan,crocalor,nan
+912,quaxly,Quaxly,120,86,146,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3,10000,False,FAMILY_QUAXLY,['quaxwell'],,nan
+913,quaxwell,Quaxwell,162,123,172,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3,10000,False,FAMILY_QUAXLY,['quaquaval'],quaxly,nan
+914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT']",nan,nan,3,10000,False,FAMILY_QUAXLY,nan,quaxwell,nan
+915,lechonk,Lechonk,81,79,144,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 392, 'BODY_SLAM']",nan,nan,1,10000,False,FAMILY_LECHONK,"['oinkologne', 'oinkologne']",,nan
+916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 392, 'BODY_SLAM']",nan,nan,1,10000,False,FAMILY_LECHONK,nan,lechonk,nan
+916,oinkologne_female,Oinkologne_female,169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 392, 'BODY_SLAM']",nan,nan,1,10000,False,FAMILY_LECHONK,nan,lechonk,nan
+917,tarountula,Tarountula,70,77,111,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,['spidops'],,nan
+918,spidops,Spidops,139,166,155,"['bug', 'none']","['BUG_BITE', 'COUNTER']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE', 'ROCK_TOMB']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,nan,tarountula,nan
+919,nymble,Nymble,81,65,107,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 392, 'BUG_BUZZ']",nan,nan,1,50000,False,FAMILY_NYMBLE,['lokix'],,nan
+920,lokix,Lokix,199,144,174,"['bug', 'dark']","['BUG_BITE', 'SUCKER_PUNCH']","['X_SCISSOR', 392, 'BUG_BUZZ', 'DARK_PULSE']",nan,nan,1,50000,False,FAMILY_NYMBLE,nan,nymble,nan
+921,pawmi,Pawmi,95,45,128,"['electric', 'none']","['SPARK', 'CHARGE_BEAM']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE']",nan,nan,3,75000,False,FAMILY_PAWMI,['pawmo'],,nan
+922,pawmo,Pawmo,147,82,155,"['electric', 'fighting']","['SPARK', 'CHARGE_BEAM']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE']",nan,nan,3,75000,False,FAMILY_PAWMI,['pawmot'],pawmi,nan
+923,pawmot,Pawmot,232,141,172,"['electric', 'fighting']","['SPARK', 'CHARGE_BEAM', 'LOW_KICK']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,3,75000,False,FAMILY_PAWMI,nan,pawmo,nan
+924,tandemaus,Tandemaus,98,90,137,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1,10000,False,FAMILY_TANDEMAUS,"['maushold', 'maushold']",,nan
+925,maushold,Maushold,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1,10000,False,FAMILY_TANDEMAUS,nan,tandemaus,nan
+925,maushold_family_of_four,Maushold_family_of_four,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1,10000,False,FAMILY_TANDEMAUS,nan,tandemaus,nan
+925,maushold_family_of_three,Maushold_family_of_three,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1,10000,False,FAMILY_TANDEMAUS,nan,tandemaus,nan
+926,fidough,Fidough,102,126,114,"['fairy', 'none']","['CHARM', 'BITE']","['BODY_SLAM', 'PLAY_ROUGH', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_FIDOUGH,['dachsbun'],,nan
+927,dachsbun,Dachsbun,159,212,149,"['fairy', 'none']","['CHARM', 'BITE']","['BODY_SLAM', 'PLAY_ROUGH', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_FIDOUGH,nan,fidough,nan
+928,smoliv,Smoliv,100,89,121,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,['dolliv'],,nan
+929,dolliv,Dolliv,137,131,141,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,['arboliva'],smoliv,nan
+930,arboliva,Arboliva,219,189,186,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,nan,dolliv,nan
+931,squawkabilly,Squawkabilly,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
+931,squawkabilly_blue,Squawkabilly_blue,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
+931,squawkabilly_green,Squawkabilly_green,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
+931,squawkabilly_white,Squawkabilly_white,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
+931,squawkabilly_yellow,Squawkabilly_yellow,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
+932,nacli,Nacli,95,108,146,"['rock', 'none']","['ROCK_THROW', 'MUD_SHOT']","['ROCK_BLAST', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5,50000,False,FAMILY_NACLI,['naclstack'],,nan
+933,naclstack,Naclstack,105,160,155,"['rock', 'none']","['SMACK_DOWN', 'MUD_SHOT']","['ROCK_BLAST', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5,50000,False,FAMILY_NACLI,['garganacl'],nacli,nan
+934,garganacl,Garganacl,171,212,225,"['rock', 'none']","['SMACK_DOWN', 'MUD_SHOT']","['ROCK_SLIDE', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5,50000,False,FAMILY_NACLI,nan,naclstack,nan
+935,charcadet,Charcadet,92,74,120,"['fire', 'none']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER']",nan,nan,5,50000,False,FAMILY_CHARCADET,"['armarouge', 'ceruledge']",,nan
+936,armarouge,Armarouge,234,185,198,"['fire', 'psychic']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'PSYSHOCK']",nan,nan,5,50000,False,FAMILY_CHARCADET,nan,charcadet,nan
+937,ceruledge,Ceruledge,239,189,181,"['fire', 'ghost']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5,50000,False,FAMILY_CHARCADET,nan,charcadet,nan
+938,tadbulb,Tadbulb,104,73,156,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1,50000,False,FAMILY_TADBULB,['bellibolt'],,nan
+939,bellibolt,Bellibolt,184,165,240,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1,50000,False,FAMILY_TADBULB,nan,tadbulb,nan
+940,wattrel,Wattrel,105,75,120,"['electric', 'flying']","['THUNDER_SHOCK', 'PECK']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,False,FAMILY_WATTREL,['kilowattrel'],,nan
+941,kilowattrel,Kilowattrel,221,132,172,"['electric', 'flying']","['THUNDER_SHOCK', 'AIR_SLASH']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,False,FAMILY_WATTREL,nan,wattrel,nan
+942,maschiff,Maschiff,140,108,155,"['dark', 'none']","['SNARL', 'BITE']","['CRUNCH', 'PAYBACK', 'DIG']",nan,nan,3,50000,False,FAMILY_MASCHIFF,['mabosstiff'],,nan
+943,mabosstiff,Mabosstiff,230,168,190,"['dark', 'none']","['SNARL', 'BITE']","['CRUNCH', 'PAYBACK', 'DIG']",nan,nan,3,50000,False,FAMILY_MASCHIFF,nan,maschiff,nan
+944,shroodle,Shroodle,124,70,120,"['poison', 'normal']","['MUD_SLAP', 'POISON_JAB']","['ACID_SPRAY', 'POISON_FANG', 'SLUDGE_BOMB']",nan,nan,3,50000,False,FAMILY_SHROODLE,['grafaiai'],,nan
+945,grafaiai,Grafaiai,199,149,160,"['poison', 'normal']","['MUD_SLAP', 'POISON_JAB']","['ACID_SPRAY', 'POISON_FANG', 'SLUDGE_BOMB']",nan,nan,3,50000,False,FAMILY_SHROODLE,nan,shroodle,nan
+946,bramblin,Bramblin,121,64,120,"['grass', 'ghost']","['ASTONISH', 'BULLET_SEED']","['SHADOW_SNEAK', 'NIGHT_SHADE', 'POWER_WHIP']",nan,nan,5,75000,False,FAMILY_BRAMBLIN,['brambleghast'],,nan
+947,brambleghast,Brambleghast,228,144,146,"['grass', 'ghost']","['HEX', 'BULLET_SEED']","['SHADOW_SNEAK', 'NIGHT_SHADE', 'POWER_WHIP']",nan,nan,5,75000,False,FAMILY_BRAMBLIN,nan,bramblin,nan
+948,toedscool,Toedscool,97,149,120,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'WRAP']",nan,nan,3,50000,False,FAMILY_TOEDSCOOL,['toedscruel'],,nan
+949,toedscruel,Toedscruel,166,209,190,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'ACID_SPRAY']",nan,nan,3,50000,False,FAMILY_TOEDSCOOL,nan,toedscool,nan
+950,klawf,Klawf,184,185,172,"['rock', 'none']","['ROCK_THROW', 'MUD_SLAP']","['ROCK_SLIDE', 'ROCK_TOMB', 'BULLDOZE']",nan,nan,3,75000,False,,nan,,nan
+951,capsakid,Capsakid,118,76,137,"['grass', 'none']","['LEAFAGE', 'RAZOR_LEAF']","['LEAF_STORM', 'GRASS_KNOT', 'SEED_BOMB']",nan,nan,3,10000,False,FAMILY_CAPSAKID,['scovillain'],,nan
+952,scovillain,Scovillain,216,130,163,"['grass', 'fire']","['LEAFAGE', 'FIRE_FANG']","['LEAF_STORM', 'GRASS_KNOT', 'OVERHEAT', 'FLAMETHROWER']",nan,nan,3,10000,False,FAMILY_CAPSAKID,nan,capsakid,nan
+953,rellor,Rellor,86,108,121,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['DIG', 'BUG_BUZZ', 'LUNGE']",nan,nan,5,75000,False,FAMILY_RELLOR,['rabsca'],,nan
+954,rabsca,Rabsca,201,178,181,"['bug', 'psychic']","['BUG_BITE', 'CONFUSION']","['DIG', 'BUG_BUZZ', 'LUNGE', 'PSYBEAM']",nan,nan,5,75000,False,FAMILY_RELLOR,nan,rellor,nan
+955,flittle,Flittle,105,60,102,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_FLITTLE,['espathra'],,nan
+956,espathra,Espathra,204,127,216,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_FLITTLE,nan,flittle,nan
+957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3,75000,False,FAMILY_TINKATINK,['tinkatuff'],,nan
+958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3,75000,False,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
+959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON', 'HEAVY_SLAM']",nan,nan,3,75000,False,FAMILY_TINKATINK,nan,tinkatuff,nan
+960,wiglett,Wiglett,109,52,67,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3,50000,False,FAMILY_WIGLETT,['wugtrio'],,nan
+961,wugtrio,Wugtrio,205,136,111,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3,50000,False,FAMILY_WIGLETT,nan,wiglett,nan
+962,bombirdier,Bombirdier,198,172,172,"['flying', 'dark']","['WING_ATTACK', 'ROCK_THROW']","['PAYBACK', 'AERIAL_ACE', 'FLY']",nan,nan,5,75000,False,,nan,,nan
+963,finizen,Finizen,90,80,172,"['water', 'none']","['WATERFALL', 'CHARM']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND']",nan,nan,5,75000,False,FAMILY_FINIZEN,['palafin'],,nan
+964,palafin,Palafin,143,144,225,"['water', 'none']","['WATERFALL', 'CHARM', 'COUNTER']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND', 'DRAIN_PUNCH', 'ACROBATICS']",nan,nan,5,75000,False,FAMILY_FINIZEN,nan,finizen,nan
+964,palafin_hero,Palafin_hero,322,196,225,"['water', 'none']","['WATERFALL', 'CHARM', 'COUNTER']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND', 'DRAIN_PUNCH', 'ACROBATICS']",nan,nan,5,75000,False,FAMILY_FINIZEN,nan,finizen,nan
+964,palafin_zero,Palafin_zero,143,144,225,"['water', 'none']","['WATERFALL', 'CHARM', 'COUNTER']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND', 'DRAIN_PUNCH', 'ACROBATICS']",nan,nan,5,75000,False,FAMILY_FINIZEN,nan,finizen,nan
+965,varoom,Varoom,123,107,128,"['steel', 'poison']","['LICK', 'POISON_JAB']","['ACID_SPRAY', 'GUNK_SHOT', 'GYRO_BALL']",nan,nan,3,50000,False,FAMILY_VAROOM,['revavroom'],,nan
+966,revavroom,Revavroom,229,168,190,"['steel', 'poison']","['LICK', 'POISON_JAB']","['ACID_SPRAY', 'GUNK_SHOT', 'GYRO_BALL', 'OVERHEAT']",nan,nan,3,50000,False,FAMILY_VAROOM,nan,varoom,nan
+967,cyclizar,Cyclizar,205,142,172,"['dragon', 'normal']","['DRAGON_TAIL', 'TAKE_DOWN']","['DRAGON_CLAW', 'BODY_SLAM', 392]",nan,nan,3,75000,False,,nan,,nan
+968,orthworm,Orthworm,161,219,172,"['steel', 'none']","['IRON_TAIL', 'MUD_SLAP']","['ROCK_TOMB', 'EARTHQUAKE', 'IRON_HEAD']",nan,nan,5,75000,False,,nan,,nan
+969,glimmet,Glimmet,187,104,134,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'ROCK_SLIDE', 'SLUDGE_WAVE']",nan,nan,3,50000,False,FAMILY_GLIMMET,['glimmora'],,nan
+970,glimmora,Glimmora,246,177,195,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'ROCK_SLIDE', 'SLUDGE_WAVE']",nan,nan,3,50000,False,FAMILY_GLIMMET,nan,glimmet,nan
+971,greavard,Greavard,105,106,137,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_GREAVARD,['houndstone'],,nan
+972,houndstone,Houndstone,186,195,176,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_GREAVARD,nan,greavard,nan
+973,flamigo,Flamigo,227,145,193,"['flying', 'fighting']","['WING_ATTACK', 'DOUBLE_KICK']","['AERIAL_ACE', 'BRAVE_BIRD', 'CLOSE_COMBAT']",nan,nan,3,75000,False,,nan,,nan
+974,cetoddle,Cetoddle,119,80,239,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,False,FAMILY_CETODDLE,['cetitan'],,nan
+975,cetitan,Cetitan,208,123,347,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,False,FAMILY_CETODDLE,nan,cetoddle,nan
+976,veluza,Veluza,196,139,207,"['water', 'psychic']","['ICE_FANG', 'ZEN_HEADBUTT']","['WATER_PULSE', 'PSYCHIC_FANGS', 'DRILL_RUN', 'CRUNCH']",nan,nan,3,75000,False,,nan,,nan
+977,dondozo,Dondozo,176,178,312,"['water', 'none']","['WATERFALL', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'LIQUIDATION']",nan,nan,5,75000,False,,nan,,nan
+978,tatsugiri,Tatsugiri,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,False,,nan,,nan
+978,tatsugiri_curly,Tatsugiri_curly,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,False,,nan,,nan
+978,tatsugiri_droopy,Tatsugiri_droopy,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,False,,nan,,nan
+978,tatsugiri_stretchy,Tatsugiri_stretchy,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,False,,nan,,nan
+979,annihilape,Annihilape,220,178,242,"['fighting', 'ghost']","['LOW_KICK', 'COUNTER']","['CLOSE_COMBAT', 'LOW_SWEEP', 'NIGHT_SLASH', 'ICE_PUNCH']",nan,nan,3,50000,False,FAMILY_MANKEY,nan,primeape,nan
+980,clodsire,Clodsire,127,151,277,"['poison', 'ground']","['POISON_JAB', 'MUD_SHOT']","['SLUDGE_BOMB', 'EARTHQUAKE', 'STONE_EDGE', 'ACID_SPRAY', 'SURF']",nan,nan,3,50000,False,FAMILY_WOOPER,nan,wooper,nan
+981,farigiraf,Farigiraf,209,136,260,"['normal', 'psychic']","['TACKLE', 'CONFUSION', 'DOUBLE_KICK']","['PSYCHIC', 'THUNDERBOLT', 'MIRROR_COAT', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_GIRAFARIG,nan,girafarig,nan
+982,dudunsparce,Dudunsparce,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
+982,dudunsparce_three,Dudunsparce_three,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
+982,dudunsparce_two,Dudunsparce_two,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
+983,kingambit,Kingambit,238,203,225,"['dark', 'steel']","['SNARL', 'METAL_CLAW']","['DARK_PULSE', 'IRON_HEAD', 'X_SCISSOR', 'FOCUS_BLAST']",nan,nan,5,75000,False,FAMILY_PAWNIARD,nan,bisharp,nan
+984,greattusk,Greattusk,249,209,251,"['ground', 'fighting']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+985,screamtail,Screamtail,139,234,251,"['fairy', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+986,brutebonnet,Brutebonnet,232,190,244,"['grass', 'dark']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+987,fluttermane,Fluttermane,280,235,146,"['ghost', 'fairy']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+988,slitherwing,Slitherwing,261,193,198,"['bug', 'fighting']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+989,sandyshocks,Sandyshocks,244,195,198,"['electric', 'ground']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+990,irontreads,Irontreads,227,216,207,"['ground', 'steel']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+991,ironbundle,Ironbundle,266,211,148,"['ice', 'water']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+992,ironhands,Ironhands,245,177,319,"['fighting', 'electric']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+993,ironjugulis,Ironjugulis,249,179,214,"['dark', 'flying']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+994,ironmoth,Ironmoth,281,196,190,"['fire', 'poison']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+995,ironthorns,Ironthorns,250,200,225,"['rock', 'electric']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+996,frigibax,Frigibax,134,86,163,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE']",nan,nan,5,75000,False,FAMILY_FRIGIBAX,['arctibax'],,nan
+997,arctibax,Arctibax,173,128,207,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE']",nan,nan,5,75000,False,FAMILY_FRIGIBAX,['baxcalibur'],frigibax,nan
+998,baxcalibur,Baxcalibur,280,184,251,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE', 'BLIZZARD']",nan,nan,5,75000,False,FAMILY_FRIGIBAX,nan,arctibax,nan
 999,gimmighoul,Gimmighoul,140,76,128,"['ghost', 'none']",['ASTONISH'],['SHADOW_BALL'],nan,nan,5,10000,True,FAMILY_GIMMIGHOUL,['gholdengo'],,nan
 1000,gholdengo,Gholdengo,252,190,202,"['steel', 'ghost']","['ASTONISH', 'HEX']","['SHADOW_BALL', 'DAZZLING_GLEAM', 'FOCUS_BLAST']",nan,nan,5,10000,True,FAMILY_GIMMIGHOUL,nan,gimmighoul,nan
+1001,wochien,Wochien,186,242,198,"['dark', 'grass']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1002,chienpao,Chienpao,261,167,190,"['dark', 'ice']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1003,tinglu,Tinglu,194,203,321,"['dark', 'ground']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1004,chiyu,Chiyu,269,221,146,"['dark', 'fire']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1005,roaringmoon,Roaringmoon,280,196,233,"['dragon', 'dark']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1006,ironvaliant,Ironvaliant,279,171,179,"['fairy', 'fighting']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1007,koraidon,Koraidon,263,223,205,"['fighting', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1007,koraidon_apex,Koraidon_apex,263,223,205,"['fighting', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1008,miraidon,Miraidon,263,223,205,"['electric', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
+1008,miraidon_ultimate,Miraidon_ultimate,263,223,205,"['electric', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
