@@ -1,4 +1,4 @@
-name: update_data
+name: update_data_manually
 
 on:
   workflow_dispatch
