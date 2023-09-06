@@ -1112,7 +1112,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 676,furfrou,Furfrou,164,167,181,"['normal', 'none']","['TAKE_DOWN', 'BITE', 'SUCKER_PUNCH']","['SURF', 'DARK_PULSE', 'GRASS_KNOT']",nan,nan,5,75000,True,,nan,,nan
 677,espurr,Espurr,120,114,158,"['psychic', 'none']","['CONFUSION', 'SCRATCH']","['PSYSHOCK', 'ENERGY_BALL', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_ESPURR,"['meowstic', 'meowstic']",,nan
 678,meowstic_female,Meowstic (Female),166,167,179,"['psychic', 'none']","['CONFUSION', 'CHARM', 'MAGICAL_LEAF']","['PSYCHIC', 'ENERGY_BALL', 'SHADOW_BALL']",nan,nan,3,50000,True,FAMILY_ESPURR,nan,espurr,nan
-678,meowstic,Meowstic (Male),166,167,179,"['psychic', 'none']","['CONFUSION', 'SUCKER_PUNCH', 'MAGICAL_LEAF']","['PSYCHIC', 'ENERGY_BALL', 'THUNDERBOLT']",nan,nan,3,50000,True,FAMILY_ESPURR,nan,espurr,nan
+678,meowstic,Meowstic (Male),166,167,179,"['psychic', 'none']","['CONFUSION', 'SUCKER_PUNCH']","['PSYCHIC', 'ENERGY_BALL', 'THUNDERBOLT']",nan,nan,3,50000,True,FAMILY_ESPURR,nan,espurr,nan
 679,honedge,Honedge,135,139,128,"['steel', 'ghost']","['TACKLE', 'FURY_CUTTER']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5,75000,False,FAMILY_HONEDGE,['doublade'],,nan
 680,doublade,Doublade,188,206,153,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5,75000,False,FAMILY_HONEDGE,['aegislash'],honedge,nan
 681,aegislash,Aegislash,97,291,155,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5,75000,False,FAMILY_HONEDGE,nan,doublade,nan
@@ -1406,9 +1406,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 912,quaxly,Quaxly,120,86,146,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3,10000,True,FAMILY_QUAXLY,['quaxwell'],,nan
 913,quaxwell,Quaxwell,162,123,172,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3,10000,True,FAMILY_QUAXLY,['quaquaval'],quaxly,nan
 914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT']",nan,nan,3,10000,True,FAMILY_QUAXLY,nan,quaxwell,nan
-915,lechonk,Lechonk,81,79,144,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM']",nan,nan,1,10000,True,FAMILY_LECHONK,"['oinkologne', 'oinkologne']",,nan
-916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
-916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
+915,lechonk,Lechonk,81,79,144,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,"['oinkologne', 'oinkologne']",,nan
+916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
+916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
 917,tarountula,Tarountula,70,77,111,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,['spidops'],,nan
 918,spidops,Spidops,139,166,155,"['bug', 'none']","['BUG_BITE', 'COUNTER']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE', 'ROCK_TOMB']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,nan,tarountula,nan
 919,nymble,Nymble,81,65,107,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'BUG_BUZZ']",nan,nan,1,50000,False,FAMILY_NYMBLE,['lokix'],,nan

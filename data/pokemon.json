@@ -63777,8 +63777,7 @@
         ],
         "fastMoves": [
             "CONFUSION",
-            "SUCKER_PUNCH",
-            "MAGICAL_LEAF"
+            "SUCKER_PUNCH"
         ],
         "chargedMoves": [
             "PSYCHIC",
@@ -79053,7 +79052,8 @@
         ],
         "chargedMoves": [
             "DIG",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "TRAILBLAZE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -79105,7 +79105,8 @@
         ],
         "chargedMoves": [
             "DIG",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "TRAILBLAZE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -79160,7 +79161,8 @@
         ],
         "chargedMoves": [
             "DIG",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "TRAILBLAZE"
         ],
         "defaultIVs": {
             "cp500": [
