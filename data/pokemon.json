@@ -79351,7 +79351,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_NYMBLE",
             "evolutions": [
@@ -79409,7 +79409,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_NYMBLE",
             "parent": "nymble"
@@ -79459,7 +79459,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_PAWMI",
             "evolutions": [
@@ -79470,7 +79470,7 @@
     {
         "dex": 922,
         "speciesName": "Pawmo",
-        "speciesId": "pawmo",
+        "speciesId": "true",
         "baseStats": {
             "atk": 147,
             "def": 82,
@@ -79511,7 +79511,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_PAWMI",
             "parent": "pawmi",
@@ -79566,7 +79566,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_PAWMI",
             "parent": "pawmo"
@@ -81918,7 +81918,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 963,
@@ -83908,7 +83908,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FRIGIBAX",
             "evolutions": [
@@ -83960,7 +83960,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FRIGIBAX",
             "parent": "frigibax",
@@ -84014,7 +84014,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FRIGIBAX",
             "parent": "arctibax"
