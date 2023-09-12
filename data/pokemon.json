@@ -79379,7 +79379,8 @@
         "chargedMoves": [
             "X_SCISSOR",
             "BUG_BUZZ",
-            "DARK_PULSE"
+            "DARK_PULSE",
+            "TRAILBLAZE"
         ],
         "defaultIVs": {
             "cp500": [
