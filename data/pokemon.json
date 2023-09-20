@@ -67583,12 +67583,16 @@
         ],
         "fastMoves": [
             "BUG_BITE",
-            "SPARK"
+            "SPARK",
+            "VOLT_SWITCH"
         ],
         "chargedMoves": [
             "X_SCISSOR",
             "DISCHARGE",
             "CRUNCH"
+        ],
+        "eliteMoves": [
+            "VOLT_SWITCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -67637,12 +67641,16 @@
         "fastMoves": [
             "BUG_BITE",
             "SPARK",
-            "MUD_SLAP"
+            "MUD_SLAP",
+            "VOLT_SWITCH"
         ],
         "chargedMoves": [
             "X_SCISSOR",
             "DISCHARGE",
             "CRUNCH"
+        ],
+        "eliteMoves": [
+            "VOLT_SWITCH"
         ],
         "defaultIVs": {
             "cp500": [

@@ -469,6 +469,7 @@ Charizard (Shadow),Fire Spin,fast,fire,1.2,9,10,3,3.0,3.33,General,
 Charizard (Shadow),Wing Attack,fast,flying,1.2,5,8,2,2.5,4.0,Fast Charge,elite
 Charjabug,Bug Bite,fast,bug,1.2,3,3,1,3.0,3.0,General,
 Charjabug,Spark,fast,electric,1.2,6,7,2,3.0,3.5,General,
+Charjabug,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,Multipurpose,elite
 Charmander,Ember,fast,fire,1.2,7,6,2,3.5,3.0,Heavy Damage,
 Charmander,Scratch,fast,normal,1.0,4,2,1,4.0,2.0,Heavy Damage,
 Charmander (Shadow),Ember,fast,fire,1.2,7,6,2,3.5,3.0,Heavy Damage,
@@ -3727,6 +3728,7 @@ Vigoroth,Scratch,fast,normal,1.2,4,2,1,4.0,2.0,Heavy Damage,
 Vikavolt,Bug Bite,fast,bug,1.2,3,3,1,3.0,3.0,General,
 Vikavolt,Mud Slap,fast,ground,1.0,11,8,3,3.67,2.67,Heavy Damage,
 Vikavolt,Spark,fast,electric,1.2,6,7,2,3.0,3.5,General,
+Vikavolt,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,Multipurpose,elite
 Vileplume,Acid,fast,poison,1.2,6,5,2,3.0,2.5,Low Quality,
 Vileplume,Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,Heavy Damage,
 Vileplume (Shadow),Acid,fast,poison,1.2,6,5,2,3.0,2.5,Low Quality,

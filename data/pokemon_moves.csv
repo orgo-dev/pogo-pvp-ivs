@@ -1238,6 +1238,7 @@ Charizard (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energ
 Charizard (Shadow),Overheat,charged,fire,1.2,130,0,1,,,55.0,2.36,100% chance -2 Atk self,Self-Debuff Nuke,
 Charjabug,Bug Bite,fast,bug,1.2,3,3,1,3.0,3.0,,,,General,
 Charjabug,Spark,fast,electric,1.2,6,7,2,3.0,3.5,,,,General,
+Charjabug,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,,,,Multipurpose,elite
 Charjabug,Crunch,charged,dark,1.0,70,0,1,,,45.0,1.56,30.0% chance -1 Def opponent,Debuff,
 Charjabug,Discharge,charged,electric,1.2,65,0,1,,,45.0,1.44,,General,
 Charjabug,X-Scissor,charged,bug,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
@@ -9542,6 +9543,7 @@ Vigoroth,Bulldoze,charged,ground,1.0,80,0,1,,,60.0,1.33,,High Energy,
 Vikavolt,Bug Bite,fast,bug,1.2,3,3,1,3.0,3.0,,,,General,
 Vikavolt,Mud Slap,fast,ground,1.0,11,8,3,3.67,2.67,,,,Heavy Damage,
 Vikavolt,Spark,fast,electric,1.2,6,7,2,3.0,3.5,,,,General,
+Vikavolt,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,,,,Multipurpose,elite
 Vikavolt,Crunch,charged,dark,1.0,70,0,1,,,45.0,1.56,30.0% chance -1 Def opponent,Debuff,
 Vikavolt,Discharge,charged,electric,1.2,65,0,1,,,45.0,1.44,,General,
 Vikavolt,X-Scissor,charged,bug,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,

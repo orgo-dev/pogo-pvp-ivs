@@ -1183,8 +1183,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 734,yungoos,Yungoos,122,56,134,"['normal', 'none']","['TACKLE', 'BITE']","['HYPER_FANG', 'CRUNCH', 'ROCK_TOMB']",nan,nan,1,10000,True,FAMILY_YUNGOOS,['gumshoos'],,nan
 735,gumshoos,Gumshoos,194,113,204,"['normal', 'none']","['TAKE_DOWN', 'BITE']","['HYPER_FANG', 'CRUNCH', 'ROCK_TOMB']",nan,nan,1,10000,True,FAMILY_YUNGOOS,nan,yungoos,nan
 736,grubbin,Grubbin,115,85,132,"['bug', 'none']","['BUG_BITE', 'SPARK']","['X_SCISSOR', 'VICE_GRIP', 'CRUNCH']",nan,nan,1,10000,True,FAMILY_GRUBBIN,['charjabug'],,nan
-737,charjabug,Charjabug,145,161,149,"['bug', 'electric']","['BUG_BITE', 'SPARK']","['X_SCISSOR', 'DISCHARGE', 'CRUNCH']",nan,nan,1,10000,True,FAMILY_GRUBBIN,['vikavolt'],grubbin,nan
-738,vikavolt,Vikavolt,254,158,184,"['bug', 'electric']","['BUG_BITE', 'SPARK', 'MUD_SLAP']","['X_SCISSOR', 'DISCHARGE', 'CRUNCH']",nan,nan,1,10000,True,FAMILY_GRUBBIN,nan,charjabug,nan
+737,charjabug,Charjabug,145,161,149,"['bug', 'electric']","['BUG_BITE', 'SPARK', 'VOLT_SWITCH']","['X_SCISSOR', 'DISCHARGE', 'CRUNCH']",['VOLT_SWITCH'],nan,1,10000,True,FAMILY_GRUBBIN,['vikavolt'],grubbin,nan
+738,vikavolt,Vikavolt,254,158,184,"['bug', 'electric']","['BUG_BITE', 'SPARK', 'MUD_SLAP', 'VOLT_SWITCH']","['X_SCISSOR', 'DISCHARGE', 'CRUNCH']",['VOLT_SWITCH'],nan,1,10000,True,FAMILY_GRUBBIN,nan,charjabug,nan
 739,crabrawler,Crabrawler,150,104,132,"['fighting', 'none']","['ROCK_SMASH', 'BUBBLE']","['POWER_UP_PUNCH', 'CRABHAMMER', 'PAYBACK']",nan,nan,3,50000,True,FAMILY_CRABRAWLER,['crabominable'],,nan
 740,crabominable,Crabominable,231,138,219,"['fighting', 'ice']","['ROCK_SMASH', 'BUBBLE']","['POWER_UP_PUNCH', 'CRABHAMMER', 'PAYBACK', 'ICE_PUNCH']",nan,nan,3,50000,True,FAMILY_CRABRAWLER,nan,crabrawler,nan
 741,oricorio_baile,Oricorio (Baile),196,145,181,"['fire', 'flying']","['POUND', 'AIR_SLASH']","['AERIAL_ACE', 'AIR_CUTTER', 'HURRICANE']",nan,nan,3,75000,True,,nan,,nan
