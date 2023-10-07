@@ -1105,8 +1105,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 669,flabebe,Flabebe,108,120,127,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLABEBE,['floette'],,nan
 670,floette,Floette,136,151,144,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLABEBE,['florges'],flabebe,nan
 671,florges,Florges,212,244,186,"['fairy', 'none']","['VINE_WHIP', 'TACKLE', 'RAZOR_LEAF', 'FAIRY_WIND']","['MOONBLAST', 'PETAL_BLIZZARD', 'PSYCHIC', 'DISARMING_VOICE']",nan,nan,3,50000,True,FAMILY_FLABEBE,nan,floette,nan
-672,skiddo,Skiddo,123,102,165,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH']","['BRICK_BREAK', 'ROCK_SLIDE', 'SEED_BOMB']",nan,nan,3,50000,False,FAMILY_SKIDDO,['gogoat'],,nan
-673,gogoat,Gogoat,196,146,265,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH', 'VINE_WHIP']","['BRICK_BREAK', 'ROCK_SLIDE', 'LEAF_BLADE', 'SEED_BOMB']",nan,nan,3,50000,False,FAMILY_SKIDDO,nan,skiddo,nan
+672,skiddo,Skiddo,123,102,165,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH']","['BRICK_BREAK', 'ROCK_SLIDE', 'SEED_BOMB']",nan,nan,3,50000,True,FAMILY_SKIDDO,['gogoat'],,nan
+673,gogoat,Gogoat,196,146,265,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH', 'VINE_WHIP']","['BRICK_BREAK', 'ROCK_SLIDE', 'LEAF_BLADE', 'SEED_BOMB']",nan,nan,3,50000,True,FAMILY_SKIDDO,nan,skiddo,nan
 674,pancham,Pancham,145,107,167,"['fighting', 'none']","['LOW_KICK', 'TACKLE']","['LOW_SWEEP', 'CRUNCH', 'BODY_SLAM']",nan,nan,3,50000,True,FAMILY_PANCHAM,['pangoro'],,nan
 675,pangoro,Pangoro,226,146,216,"['fighting', 'dark']","['LOW_KICK', 'SNARL', 'BULLET_PUNCH']","['CLOSE_COMBAT', 'NIGHT_SLASH', 'IRON_HEAD', 'ROCK_SLIDE']",nan,nan,3,50000,True,FAMILY_PANCHAM,nan,pancham,nan
 676,furfrou,Furfrou,164,167,181,"['normal', 'none']","['TAKE_DOWN', 'BITE', 'SUCKER_PUNCH']","['SURF', 'DARK_PULSE', 'GRASS_KNOT']",nan,nan,5,75000,True,,nan,,nan

@@ -701,7 +701,7 @@
             "FLAMETHROWER",
             "DRAGON_BREATH"
         ],
-        "searchPriority": 10,
+        "searchPriority": 12,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -63440,7 +63440,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SKIDDO",
             "evolutions": [
@@ -63494,7 +63494,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SKIDDO",
             "parent": "skiddo"
