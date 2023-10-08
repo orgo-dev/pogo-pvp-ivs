@@ -63468,9 +63468,7 @@
         ],
         "chargedMoves": [
             "BRICK_BREAK",
-            "ROCK_SLIDE",
-            "LEAF_BLADE",
-            "SEED_BOMB"
+            "LEAF_BLADE"
         ],
         "defaultIVs": {
             "cp500": [
