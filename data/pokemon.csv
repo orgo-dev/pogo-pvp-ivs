@@ -939,7 +939,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 531,audino,Audino,114,163,230,"['normal', 'none']","['POUND', 'ZEN_HEADBUTT']","['DISARMING_VOICE', 'DAZZLING_GLEAM', 'HYPER_BEAM']",nan,nan,3,50000,True,,nan,,nan
 532,timburr,Timburr,134,87,181,"['fighting', 'none']","['LOW_KICK', 'POUND']","['LOW_SWEEP', 'BRICK_BREAK', 'ROCK_TOMB']",nan,nan,5,75000,True,FAMILY_TIMBURR,['gurdurr'],,nan
 533,gurdurr,Gurdurr,180,134,198,"['fighting', 'none']","['LOW_KICK', 'POISON_JAB']","['LOW_SWEEP', 'BRICK_BREAK', 'STONE_EDGE']",nan,nan,5,75000,True,FAMILY_TIMBURR,['conkeldurr'],timburr,nan
-534,conkeldurr,Conkeldurr,243,158,233,"['fighting', 'none']","['COUNTER', 'POISON_JAB']","['DYNAMIC_PUNCH', 'FOCUS_BLAST', 'STONE_EDGE']",nan,nan,5,75000,True,FAMILY_TIMBURR,nan,gurdurr,nan
+534,conkeldurr,Conkeldurr,243,158,233,"['fighting', 'none']","['COUNTER', 'POISON_JAB']","['DYNAMIC_PUNCH', 'FOCUS_BLAST', 'STONE_EDGE', 'BRUTAL_SWING']",['BRUTAL_SWING'],nan,5,75000,True,FAMILY_TIMBURR,nan,gurdurr,nan
 535,tympole,Tympole,98,78,137,"['water', 'none']","['MUD_SHOT', 'BUBBLE']","['WATER_PULSE', 'MUD_BOMB', 'SLUDGE_WAVE']",nan,nan,3,50000,True,FAMILY_TYMPOLE,['palpitoad'],,nan
 536,palpitoad,Palpitoad,128,109,181,"['water', 'ground']","['MUD_SHOT', 'BUBBLE']","['WATER_PULSE', 'EARTH_POWER', 'SLUDGE_WAVE']",nan,nan,3,50000,True,FAMILY_TYMPOLE,['seismitoad'],tympole,nan
 537,seismitoad,Seismitoad,188,150,233,"['water', 'ground']","['MUD_SHOT', 'BUBBLE']","['MUDDY_WATER', 'EARTH_POWER', 'SLUDGE_BOMB']",nan,nan,3,50000,True,FAMILY_TYMPOLE,nan,palpitoad,nan
@@ -1422,9 +1422,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 925,maushold_family_of_three,Maushold_family_of_three,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1,10000,False,FAMILY_TANDEMAUS,nan,tandemaus,nan
 926,fidough,Fidough,102,126,114,"['fairy', 'none']","['CHARM', 'BITE']","['BODY_SLAM', 'PLAY_ROUGH', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_FIDOUGH,['dachsbun'],,nan
 927,dachsbun,Dachsbun,159,212,149,"['fairy', 'none']","['CHARM', 'BITE']","['BODY_SLAM', 'PLAY_ROUGH', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_FIDOUGH,nan,fidough,nan
-928,smoliv,Smoliv,100,89,121,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,['dolliv'],,nan
-929,dolliv,Dolliv,137,131,141,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,['arboliva'],smoliv,nan
-930,arboliva,Arboliva,219,189,186,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,False,FAMILY_SMOLIV,nan,dolliv,nan
+928,smoliv,Smoliv,100,89,121,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,True,FAMILY_SMOLIV,['dolliv'],,nan
+929,dolliv,Dolliv,137,131,141,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,True,FAMILY_SMOLIV,['arboliva'],smoliv,nan
+930,arboliva,Arboliva,219,189,186,"['grass', 'normal']","['RAZOR_LEAF', 'TACKLE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'EARTH_POWER']",nan,nan,3,50000,True,FAMILY_SMOLIV,nan,dolliv,nan
 931,squawkabilly,Squawkabilly,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
 931,squawkabilly_blue,Squawkabilly_blue,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
 931,squawkabilly_green,Squawkabilly_green,185,105,193,"['normal', 'flying']","['PECK', 'AIR_SLASH']","['AERIAL_ACE', 'BRAVE_BIRD', 'FLY']",nan,nan,3,75000,False,,nan,,nan
