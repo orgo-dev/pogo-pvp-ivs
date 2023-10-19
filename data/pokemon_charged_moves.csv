@@ -1925,6 +1925,7 @@ Gloom (Shadow),Petal Blizzard,charged,grass,1.2,110,65,1.69,,Nuke,
 Gloom (Shadow),Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
 Gogoat,Brick Break,charged,fighting,1.0,40,35,1.14,,Spam/Bait,
 Gogoat,Leaf Blade,charged,grass,1.2,70,35,2.0,,Spam/Bait,
+Gogoat,Seed Bomb,charged,grass,1.2,60,45,1.33,,General,
 Golbat,Air Cutter,charged,flying,1.2,60,55,1.09,,High Energy,
 Golbat,Ominous Wind,charged,ghost,1.0,45,45,1.0,10.0% chance +1 Atk +1 Def self,Boost,elite
 Golbat,Poison Fang,charged,poison,1.2,45,40,1.12,100% chance -1 Def opponent,Debuff Spam/Bait,

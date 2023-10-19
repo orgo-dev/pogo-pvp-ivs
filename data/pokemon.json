@@ -63472,7 +63472,8 @@
         ],
         "chargedMoves": [
             "BRICK_BREAK",
-            "LEAF_BLADE"
+            "LEAF_BLADE",
+            "SEED_BOMB"
         ],
         "defaultIVs": {
             "cp500": [
@@ -82495,7 +82496,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GREAVARD",
             "evolutions": [
@@ -82551,9 +82552,10 @@
                 13
             ]
         },
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GREAVARD",
             "parent": "greavard"
