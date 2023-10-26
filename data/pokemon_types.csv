@@ -415,12 +415,18 @@ Cloyster (Shadow),water
 Cloyster (Shadow),ice
 Gastly,ghost
 Gastly,poison
+Gastly (Shadow),ghost
+Gastly (Shadow),poison
 Haunter,ghost
 Haunter,poison
+Haunter (Shadow),ghost
+Haunter (Shadow),poison
 Gengar,ghost
 Gengar,poison
 Gengar (Mega),ghost
 Gengar (Mega),poison
+Gengar (Shadow),ghost
+Gengar (Shadow),poison
 Onix,rock
 Onix,ground
 Onix (Shadow),rock
@@ -495,8 +501,12 @@ Weezing (Shadow),poison
 Weezing (Shadow),none
 Rhyhorn,ground
 Rhyhorn,rock
+Rhyhorn (Shadow),ground
+Rhyhorn (Shadow),rock
 Rhydon,ground
 Rhydon,rock
+Rhydon (Shadow),ground
+Rhydon (Shadow),rock
 Chansey,normal
 Chansey,none
 Tangela,grass
@@ -963,10 +973,10 @@ Pupitar (Shadow),rock
 Pupitar (Shadow),ground
 Tyranitar,rock
 Tyranitar,dark
-Tyranitar (Shadow),rock
-Tyranitar (Shadow),dark
 Tyranitar (Mega),rock
 Tyranitar (Mega),dark
+Tyranitar (Shadow),rock
+Tyranitar (Shadow),dark
 Lugia,psychic
 Lugia,flying
 Lugia (Shadow),psychic
@@ -1261,8 +1271,12 @@ Solrock,rock
 Solrock,psychic
 Barboach,water
 Barboach,ground
+Barboach (Shadow),water
+Barboach (Shadow),ground
 Whiscash,water
 Whiscash,ground
+Whiscash (Shadow),water
+Whiscash (Shadow),ground
 Corphish,water
 Corphish,none
 Crawdaunt,water
@@ -1497,12 +1511,20 @@ Roserade,grass
 Roserade,poison
 Cranidos,rock
 Cranidos,none
+Cranidos (Shadow),rock
+Cranidos (Shadow),none
 Rampardos,rock
 Rampardos,none
+Rampardos (Shadow),rock
+Rampardos (Shadow),none
 Shieldon,rock
 Shieldon,steel
+Shieldon (Shadow),rock
+Shieldon (Shadow),steel
 Bastiodon,rock
 Bastiodon,steel
+Bastiodon (Shadow),rock
+Bastiodon (Shadow),steel
 Burmy (Plant),bug
 Burmy (Plant),none
 Burmy (Sandy),bug
@@ -1663,6 +1685,8 @@ Lickilicky,normal
 Lickilicky,none
 Rhyperior,ground
 Rhyperior,rock
+Rhyperior (Shadow),ground
+Rhyperior (Shadow),rock
 Tangrowth,grass
 Tangrowth,none
 Tangrowth (Shadow),grass
@@ -1735,6 +1759,8 @@ Heatran,fire
 Heatran,steel
 Regigigas,normal
 Regigigas,none
+Regigigas (Shadow),normal
+Regigigas (Shadow),none
 Giratina (Altered),ghost
 Giratina (Altered),dragon
 Giratina (Origin),ghost
@@ -1871,8 +1897,12 @@ Swoobat,psychic
 Swoobat,flying
 Drilbur,ground
 Drilbur,none
+Drilbur (Shadow),ground
+Drilbur (Shadow),none
 Excadrill,ground
 Excadrill,steel
+Excadrill (Shadow),ground
+Excadrill (Shadow),steel
 Audino,normal
 Audino,none
 Timburr,fighting
@@ -2053,10 +2083,16 @@ Beheeyem,psychic
 Beheeyem,none
 Litwick,ghost
 Litwick,fire
+Litwick (Shadow),ghost
+Litwick (Shadow),fire
 Lampent,ghost
 Lampent,fire
+Lampent (Shadow),ghost
+Lampent (Shadow),fire
 Chandelure,ghost
 Chandelure,fire
+Chandelure (Shadow),ghost
+Chandelure (Shadow),fire
 Axew,dragon
 Axew,none
 Fraxure,dragon
