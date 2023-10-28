@@ -84297,7 +84297,7 @@
             "ground"
         ],
         "fastMoves": [
-            "POISON_JAB",
+            "POISON_STING",
             "MUD_SHOT"
         ],
         "chargedMoves": [
@@ -84305,7 +84305,7 @@
             "EARTHQUAKE",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "SURF"
+            "WATER_PULSE"
         ],
         "defaultIVs": {
             "cp500": [
