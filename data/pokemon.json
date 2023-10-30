@@ -23569,7 +23569,11 @@
             "SLUDGE_BOMB",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "MUD_BOMB"
+            "MUD_BOMB",
+            "AQUA_TAIL"
+        ],
+        "eliteMoves": [
+            "AQUA_TAIL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -23625,7 +23629,11 @@
             "SLUDGE_BOMB",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "MUD_BOMB"
+            "MUD_BOMB",
+            "AQUA_TAIL"
+        ],
+        "eliteMoves": [
+            "AQUA_TAIL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84361,7 +84369,11 @@
             "EARTHQUAKE",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "MEGAHORN"
+        ],
+        "eliteMoves": [
+            "MEGAHORN"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84385,7 +84397,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_WOOPER_PALDEAN",
             "parent": "wooper_paldean"
