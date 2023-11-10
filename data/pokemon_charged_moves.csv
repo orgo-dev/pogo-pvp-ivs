@@ -1783,6 +1783,11 @@ Garchomp,Fire Blast,charged,fire,1.0,140,80,1.75,,Nuke,
 Garchomp,Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
 Garchomp,Return,charged,normal,1.0,130,70,1.86,,Nuke,
 Garchomp,Sand Tomb,charged,ground,1.2,25,40,0.62,100% chance -1 Def opponent,Debuff Spam/Bait,
+Garchomp (Mega),Earth Power,charged,ground,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,elite
+Garchomp (Mega),Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
+Garchomp (Mega),Fire Blast,charged,fire,1.0,140,80,1.75,,Nuke,
+Garchomp (Mega),Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
+Garchomp (Mega),Sand Tomb,charged,ground,1.2,25,40,0.62,100% chance -1 Def opponent,Debuff Spam/Bait,
 Garchomp (Shadow),Earth Power,charged,ground,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,elite
 Garchomp (Shadow),Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
 Garchomp (Shadow),Fire Blast,charged,fire,1.0,140,80,1.75,,Nuke,
