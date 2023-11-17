@@ -1285,22 +1285,22 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 790,cosmoem,Cosmoem,54,242,125,"['psychic', 'none']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,FAMILY_COSMOG,"['solgaleo', 'lunala']",cosmog,nan
 791,solgaleo,Solgaleo,255,191,264,"['psychic', 'steel']","['ZEN_HEADBUTT', 'FIRE_SPIN']","['IRON_HEAD', 'PSYCHIC_FANGS', 'SOLAR_BEAM', 'FLAMETHROWER']",nan,nan,20,100000,True,FAMILY_COSMOG,nan,cosmoem,['legendary']
 792,lunala,Lunala,255,191,264,"['psychic', 'ghost']","['CONFUSION', 'AIR_SLASH']","['SHADOW_BALL', 'PSYCHIC', 'MOONBLAST', 'FUTURE_SIGHT']",nan,nan,20,100000,True,FAMILY_COSMOG,nan,cosmoem,['legendary']
-793,nihilego,Nihilego,249,210,240,"['rock', 'poison']","['ACID', 'POUND', 'POISON_JAB']","['POWER_GEM', 'GUNK_SHOT', 'SLUDGE_BOMB', 'ROCK_SLIDE']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-794,buzzwole,Buzzwole,236,196,216,"['bug', 'fighting']","['COUNTER', 'POISON_JAB']","['POWER_UP_PUNCH', 'FELL_STINGER', 'LUNGE', 'SUPER_POWER']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-795,pheromosa,Pheromosa,316,85,174,"['bug', 'fighting']","['BUG_BITE', 'LOW_KICK']","['FOCUS_BLAST', 'BUG_BUZZ', 'LUNGE', 'CLOSE_COMBAT']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-796,xurkitree,Xurkitree,330,144,195,"['electric', 'none']","['THUNDER_SHOCK', 'SPARK']","['DISCHARGE', 'THUNDER', 'POWER_WHIP', 'DAZZLING_GLEAM']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-797,celesteela,Celesteela,207,199,219,"['steel', 'flying']","['AIR_SLASH', 'SMACK_DOWN']","['IRON_HEAD', 'BODY_SLAM', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-798,kartana,Kartana,323,182,139,"['grass', 'steel']","['AIR_SLASH', 'RAZOR_LEAF']","['LEAF_BLADE', 'X_SCISSOR', 'NIGHT_SLASH', 'AERIAL_ACE']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast', 'include1500']"
-799,guzzlord,Guzzlord,188,99,440,"['dark', 'dragon']","['SNARL', 'DRAGON_TAIL']","['BRUTAL_SWING', 'DRAGON_CLAW', 'CRUNCH', 'SLUDGE_BOMB']",nan,nan,20,100000,True,,nan,,"['legendary', 'ultrabeast']"
-800,necrozma,Necrozma,251,195,219,"['psychic', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
-800,necrozma_dawn_wings,Necrozma (Dawn Wings),277,220,200,"['psychic', 'ghost']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
-800,necrozma_dusk_mane,Necrozma (Dusk Mane),277,220,200,"['psychic', 'steel']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
-800,necrozma_ultra,Necrozma (Ultra),337,196,200,"['psychic', 'dragon']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
+793,nihilego,Nihilego,249,210,240,"['rock', 'poison']","['ACID', 'POUND', 'POISON_JAB']","['POWER_GEM', 'GUNK_SHOT', 'SLUDGE_BOMB', 'ROCK_SLIDE']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+794,buzzwole,Buzzwole,236,196,216,"['bug', 'fighting']","['COUNTER', 'POISON_JAB']","['POWER_UP_PUNCH', 'FELL_STINGER', 'LUNGE', 'SUPER_POWER']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+795,pheromosa,Pheromosa,316,85,174,"['bug', 'fighting']","['BUG_BITE', 'LOW_KICK']","['FOCUS_BLAST', 'BUG_BUZZ', 'LUNGE', 'CLOSE_COMBAT']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+796,xurkitree,Xurkitree,330,144,195,"['electric', 'none']","['THUNDER_SHOCK', 'SPARK']","['DISCHARGE', 'THUNDER', 'POWER_WHIP', 'DAZZLING_GLEAM']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+797,celesteela,Celesteela,207,199,219,"['steel', 'flying']","['AIR_SLASH', 'SMACK_DOWN']","['IRON_HEAD', 'BODY_SLAM', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+798,kartana,Kartana,323,182,139,"['grass', 'steel']","['AIR_SLASH', 'RAZOR_LEAF']","['LEAF_BLADE', 'X_SCISSOR', 'NIGHT_SLASH', 'AERIAL_ACE']",nan,nan,20,100000,True,,nan,,"['ultrabeast', 'include1500']"
+799,guzzlord,Guzzlord,188,99,440,"['dark', 'dragon']","['SNARL', 'DRAGON_TAIL']","['BRUTAL_SWING', 'DRAGON_CLAW', 'CRUNCH', 'SLUDGE_BOMB']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+800,necrozma,Necrozma,251,195,219,"['psychic', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
+800,necrozma_dawn_wings,Necrozma (Dawn Wings),277,220,200,"['psychic', 'ghost']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
+800,necrozma_dusk_mane,Necrozma (Dusk Mane),277,220,200,"['psychic', 'steel']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
+800,necrozma_ultra,Necrozma (Ultra),337,196,200,"['psychic', 'dragon']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
 801,magearna,Magearna,246,225,190,"['steel', 'fairy']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
-803,poipole,Poipole,145,133,167,"['poison', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,FAMILY_POIPOLE,['naganadel'],,"['legendary', 'ultrabeast']"
-804,naganadel,Naganadel,263,159,177,"['poison', 'dragon']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,FAMILY_POIPOLE,nan,poipole,"['legendary', 'ultrabeast']"
-805,stakataka,Stakataka,213,298,156,"['rock', 'steel']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
-806,blacephalon,Blacephalon,315,148,142,"['fire', 'ghost']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,"['legendary', 'ultrabeast']"
+803,poipole,Poipole,145,133,167,"['poison', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,FAMILY_POIPOLE,['naganadel'],,['ultrabeast']
+804,naganadel,Naganadel,263,159,177,"['poison', 'dragon']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,FAMILY_POIPOLE,nan,poipole,['ultrabeast']
+805,stakataka,Stakataka,213,298,156,"['rock', 'steel']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
+806,blacephalon,Blacephalon,315,148,142,"['fire', 'ghost']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['ultrabeast']
 807,zeraora,Zeraora,252,177,204,"['electric', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
 808,meltan,Meltan,118,99,130,"['steel', 'none']",['THUNDER_SHOCK'],"['FLASH_CANNON', 'THUNDERBOLT']",nan,nan,20,100000,True,FAMILY_MELTAN,['melmetal'],,"['mythical', 'include1500']"
 809,melmetal,Melmetal,226,190,264,"['steel', 'none']",['THUNDER_SHOCK'],"['FLASH_CANNON', 'HYPER_BEAM', 'ROCK_SLIDE', 'THUNDERBOLT', 'SUPER_POWER', 'DOUBLE_IRON_BASH']",['DOUBLE_IRON_BASH'],nan,20,100000,True,FAMILY_MELTAN,nan,meltan,['mythical']
