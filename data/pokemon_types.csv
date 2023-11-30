@@ -75,18 +75,18 @@ Rattata,normal
 Rattata,none
 Rattata (Alolan),dark
 Rattata (Alolan),normal
-Rattata (Shadow),normal
-Rattata (Shadow),none
 Rattata (Alolan) (Shadow),dark
 Rattata (Alolan) (Shadow),normal
+Rattata (Shadow),normal
+Rattata (Shadow),none
 Raticate,normal
 Raticate,none
 Raticate (Alolan),dark
 Raticate (Alolan),normal
-Raticate (Shadow),normal
-Raticate (Shadow),none
 Raticate (Alolan) (Shadow),dark
 Raticate (Alolan) (Shadow),normal
+Raticate (Shadow),normal
+Raticate (Shadow),none
 Spearow,normal
 Spearow,flying
 Fearow,normal
@@ -123,18 +123,18 @@ Sandshrew,ground
 Sandshrew,none
 Sandshrew (Alolan),ice
 Sandshrew (Alolan),steel
-Sandshrew (Shadow),ground
-Sandshrew (Shadow),none
 Sandshrew (Alolan) (Shadow),ice
 Sandshrew (Alolan) (Shadow),steel
+Sandshrew (Shadow),ground
+Sandshrew (Shadow),none
 Sandslash,ground
 Sandslash,none
 Sandslash (Alolan),ice
 Sandslash (Alolan),steel
-Sandslash (Shadow),ground
-Sandslash (Shadow),none
 Sandslash (Alolan) (Shadow),ice
 Sandslash (Alolan) (Shadow),steel
+Sandslash (Shadow),ground
+Sandslash (Shadow),none
 Nidoran Female,poison
 Nidoran Female,none
 Nidoran Female (Shadow),poison
@@ -167,18 +167,18 @@ Vulpix,fire
 Vulpix,none
 Vulpix (Alolan),ice
 Vulpix (Alolan),none
-Vulpix (Shadow),fire
-Vulpix (Shadow),none
 Vulpix (Alolan) (Shadow),ice
 Vulpix (Alolan) (Shadow),none
+Vulpix (Shadow),fire
+Vulpix (Shadow),none
 Ninetales,fire
 Ninetales,none
 Ninetales (Alolan),ice
 Ninetales (Alolan),fairy
-Ninetales (Shadow),fire
-Ninetales (Shadow),none
 Ninetales (Alolan) (Shadow),ice
 Ninetales (Alolan) (Shadow),fairy
+Ninetales (Shadow),fire
+Ninetales (Shadow),none
 Jigglypuff,normal
 Jigglypuff,fairy
 Wigglytuff,normal
@@ -219,18 +219,18 @@ Diglett,ground
 Diglett,none
 Diglett (Alolan),ground
 Diglett (Alolan),steel
-Diglett (Shadow),ground
-Diglett (Shadow),none
 Diglett (Alolan) (Shadow),ground
 Diglett (Alolan) (Shadow),steel
+Diglett (Shadow),ground
+Diglett (Shadow),none
 Dugtrio,ground
 Dugtrio,none
 Dugtrio (Alolan),ground
 Dugtrio (Alolan),steel
-Dugtrio (Shadow),ground
-Dugtrio (Shadow),none
 Dugtrio (Alolan) (Shadow),ground
 Dugtrio (Alolan) (Shadow),steel
+Dugtrio (Shadow),ground
+Dugtrio (Shadow),none
 Meowth,normal
 Meowth,none
 Meowth (Alolan),dark
@@ -327,26 +327,26 @@ Geodude,rock
 Geodude,ground
 Geodude (Alolan),rock
 Geodude (Alolan),electric
-Geodude (Shadow),rock
-Geodude (Shadow),ground
 Geodude (Alolan) (Shadow),rock
 Geodude (Alolan) (Shadow),electric
+Geodude (Shadow),rock
+Geodude (Shadow),ground
 Graveler,rock
 Graveler,ground
 Graveler (Alolan),rock
 Graveler (Alolan),electric
-Graveler (Shadow),rock
-Graveler (Shadow),ground
 Graveler (Alolan) (Shadow),rock
 Graveler (Alolan) (Shadow),electric
+Graveler (Shadow),rock
+Graveler (Shadow),ground
 Golem,rock
 Golem,ground
 Golem (Alolan),rock
 Golem (Alolan),electric
-Golem (Shadow),rock
-Golem (Shadow),ground
 Golem (Alolan) (Shadow),rock
 Golem (Alolan) (Shadow),electric
+Golem (Shadow),rock
+Golem (Shadow),ground
 Ponyta,fire
 Ponyta,none
 Ponyta (Galarian),psychic
@@ -393,18 +393,18 @@ Grimer,poison
 Grimer,none
 Grimer (Alolan),poison
 Grimer (Alolan),dark
-Grimer (Shadow),poison
-Grimer (Shadow),none
 Grimer (Alolan) (Shadow),poison
 Grimer (Alolan) (Shadow),dark
+Grimer (Shadow),poison
+Grimer (Shadow),none
 Muk,poison
 Muk,none
 Muk (Alolan),poison
 Muk (Alolan),dark
-Muk (Shadow),poison
-Muk (Shadow),none
 Muk (Alolan) (Shadow),poison
 Muk (Alolan) (Shadow),dark
+Muk (Shadow),poison
+Muk (Shadow),none
 Shellder,water
 Shellder,none
 Shellder (Shadow),water
@@ -463,10 +463,10 @@ Exeggutor,grass
 Exeggutor,psychic
 Exeggutor (Alolan),grass
 Exeggutor (Alolan),dragon
-Exeggutor (Shadow),grass
-Exeggutor (Shadow),psychic
 Exeggutor (Alolan) (Shadow),grass
 Exeggutor (Alolan) (Shadow),dragon
+Exeggutor (Shadow),grass
+Exeggutor (Shadow),psychic
 Cubone,ground
 Cubone,none
 Cubone (Shadow),ground
@@ -475,10 +475,10 @@ Marowak,ground
 Marowak,none
 Marowak (Alolan),fire
 Marowak (Alolan),ghost
-Marowak (Shadow),ground
-Marowak (Shadow),none
 Marowak (Alolan) (Shadow),fire
 Marowak (Alolan) (Shadow),ghost
+Marowak (Shadow),ground
+Marowak (Shadow),none
 Hitmonlee,fighting
 Hitmonlee,none
 Hitmonlee (Shadow),fighting
@@ -669,6 +669,8 @@ Quilava (Shadow),fire
 Quilava (Shadow),none
 Typhlosion,fire
 Typhlosion,none
+Typhlosion (Hisuian),fire
+Typhlosion (Hisuian),ghost
 Typhlosion (Shadow),fire
 Typhlosion (Shadow),none
 Totodile,water
@@ -867,10 +869,10 @@ Sneasel,dark
 Sneasel,ice
 Sneasel (Hisuian),fighting
 Sneasel (Hisuian),poison
-Sneasel (Shadow),dark
-Sneasel (Shadow),ice
 Sneasel (Hisuian) (Shadow),fighting
 Sneasel (Hisuian) (Shadow),poison
+Sneasel (Shadow),dark
+Sneasel (Shadow),ice
 Teddiursa,normal
 Teddiursa,none
 Teddiursa (Shadow),normal
@@ -1839,6 +1841,8 @@ Dewott,water
 Dewott,none
 Samurott,water
 Samurott,none
+Samurott (Hisuian),water
+Samurott (Hisuian),dark
 Patrat,normal
 Patrat,none
 Patrat (Shadow),normal
@@ -2385,6 +2389,8 @@ Dartrix,grass
 Dartrix,flying
 Decidueye,grass
 Decidueye,ghost
+Decidueye (Hisuian),grass
+Decidueye (Hisuian),fighting
 Litten,fire
 Litten,none
 Torracat,fire
