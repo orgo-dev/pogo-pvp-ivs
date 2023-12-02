@@ -9,8 +9,7 @@ AIR_SLASH,Air Slash,fast,flying,9,9,3,3.0,3.0,0,,,General,nan,,,nan,nan
 ANCIENT_POWER,Ancient Power,charged,rock,60,0,1,,,45,1.33,10.0% chance +1 Atk +1 Def self,Boost,"[1, 1]",self,.1,nan,nan
 AQUA_JET,Aqua Jet,charged,water,45,0,1,,,45,1.0,,General,nan,,,nan,nan
 AQUA_TAIL,Aqua Tail,charged,water,50,0,1,,,35,1.43,,Spam/Bait,nan,,,nan,nan
-ASTONISH,Astonish,fast,ghost,5,10,3,1.67,3.33,0,,,Low Quality,nan,,,nan,nan
-ASTONISH_NEW,Astonish (New),fast,ghost,9,10,3,3.0,3.33,0,,,General,nan,,,nan,nan
+ASTONISH,Astonish,fast,ghost,9,10,3,3.0,3.33,0,,,General,nan,,,nan,nan
 AURA_SPHERE,Aura Sphere,charged,fighting,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan
 AURORA_BEAM,Aurora Beam,charged,ice,80,0,1,,,60,1.33,,High Energy,nan,,,nan,nan
 AVALANCHE,Avalanche,charged,ice,90,0,1,,,45,2.0,,General,nan,,,nan,nan
@@ -22,13 +21,11 @@ BODY_SLAM,Body Slam,charged,normal,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
 BOOMBURST,Boomburst,charged,normal,150,0,1,,,70,2.14,,Nuke,nan,,,nan,nan
 BONE_CLUB,Bone Club,charged,ground,40,0,1,,,35,1.14,,Spam/Bait,nan,,,nan,nan
 BRAVE_BIRD,Brave Bird,charged,flying,130,0,1,,,55,2.36,100% chance -3 Def self,Self-Debuff Nuke,"[0, -3]",self,1,nan,nan
-BREAKING_SWIPE,Breaking Swipe,charged,dragon,50,0,1,,,35,1.43,100% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,1,nan,nan
-BREAKING_SWIPE_NEW,Breaking Swipe (New),charged,dragon,50,0,1,,,35,1.43,66.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.66,nan,nan
+BREAKING_SWIPE,Breaking Swipe,charged,dragon,50,0,1,,,35,1.43,50.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.5,nan,nan
 BRICK_BREAK,Brick Break,charged,fighting,40,0,1,,,35,1.14,,Spam/Bait,nan,,,nan,nan
 BRUTAL_SWING,Brutal Swing,charged,dark,65,0,1,,,40,1.62,,General,nan,,,nan,nan
 BRINE,Brine,charged,water,60,0,1,,,50,1.2,,General,nan,,,nan,nan
-BUBBLE,Bubble,fast,water,7,11,3,2.33,3.67,0,,,Fast Charge,nan,,,nan,nan
-BUBBLE_NEW,Bubble (New),fast,water,8,11,3,2.67,3.67,0,,,Fast Charge,nan,,,nan,nan
+BUBBLE,Bubble,fast,water,8,11,3,2.67,3.67,0,,,Fast Charge,nan,,,nan,nan
 BUBBLE_BEAM,Bubble Beam,charged,water,25,0,1,,,40,0.62,100% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,1,nan,nan
 BUG_BITE,Bug Bite,fast,bug,3,3,1,3.0,3.0,0,,,General,nan,,,nan,nan
 BUG_BUZZ,Bug Buzz,charged,bug,100,0,1,,,60,1.67,30.0% chance -1 Def opponent,High Energy Debuff,"[0, -1]",opponent,.3,nan,nan
@@ -74,12 +71,10 @@ FELL_STINGER,Fell Stinger,charged,bug,20,0,1,,,35,0.57,100% chance +1 Atk self,B
 FIRE_BLAST,Fire Blast,charged,fire,140,0,1,,,80,1.75,,Nuke,nan,,,nan,nan
 FIRE_FANG,Fire Fang,fast,fire,8,5,2,4.0,2.5,0,,,Heavy Damage,nan,,,nan,nan
 FIRE_PUNCH,Fire Punch,charged,fire,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
-BLAZE_KICK,Blaze Kick,charged,fire,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
-BLAZE_KICK_NEW,Blaze Kick (New),charged,fire,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
+BLAZE_KICK,Blaze Kick,charged,fire,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
 FAIRY_WIND,Fairy Wind,fast,fairy,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
 FEATHER_DANCE,Feather Dance,charged,flying,35,0,1,,,50,0.7,100% chance -2 Atk opponent,Debuff,"[-2, 0]",opponent,1,nan,nan
-FIRE_SPIN,Fire Spin,fast,fire,9,10,3,3.0,3.33,0,,,General,nan,,,nan,nan
-FIRE_SPIN_NEW,Fire Spin (New),fast,fire,10,10,3,3.33,3.33,0,,,General,nan,,,nan,nan
+FIRE_SPIN,Fire Spin,fast,fire,10,10,3,3.33,3.33,0,,,General,nan,,,nan,nan
 FLAME_BURST,Flame Burst,charged,fire,70,0,1,,,55,1.27,,High Energy,nan,,,nan,nan
 FLAME_CHARGE,Flame Charge,charged,fire,65,0,1,,,50,1.3,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 FLAME_WHEEL,Flame Wheel,charged,fire,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
@@ -138,12 +133,10 @@ ICE_PUNCH,Ice Punch,charged,ice,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 ICE_SHARD,Ice Shard,fast,ice,9,10,3,3.0,3.33,0,,,General,nan,,,nan,nan
 ICICLE_SPEAR,Icicle Spear,charged,ice,65,0,1,,,40,1.62,,Spam/Bait,nan,,,nan,nan
 ICY_WIND,Icy Wind,charged,ice,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
-INCINERATE,Incinerate,fast,fire,15,20,5,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
-INCINERATE_NEW,Incinerate (New),fast,fire,20,20,5,4.0,4.0,0,,,Multipurpose,nan,,,nan,nan
+INCINERATE,Incinerate,fast,fire,20,20,5,4.0,4.0,0,,,Multipurpose,nan,,,nan,nan
 INFESTATION,Infestation,fast,bug,6,12,3,2.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 IRON_HEAD,Iron Head,charged,steel,70,0,1,,,50,1.4,,General,nan,,,nan,nan
-IRON_TAIL,Iron Tail,fast,steel,9,6,3,3.0,2.0,0,,,Low Quality,nan,,,nan,nan
-IRON_TAIL_NEW,Iron Tail (New),fast,steel,10,7,3,3.33,2.33,0,,,General,nan,,,nan,nan
+IRON_TAIL,Iron Tail,fast,steel,10,7,3,3.33,2.33,0,,,General,nan,,,nan,nan
 KARATE_CHOP,Karate Chop,fast,fighting,5,8,2,2.5,4.0,0,,,Fast Charge,nan,,,nan,nan
 LAST_RESORT,Last Resort,charged,normal,90,0,1,,,55,1.64,,High Energy,nan,,,nan,nan
 LEAF_BLADE,Leaf Blade,charged,grass,70,0,1,,,35,2.0,,Spam/Bait,nan,,,nan,nan
@@ -172,8 +165,7 @@ MOONBLAST,Moonblast,charged,fairy,110,0,1,,,60,1.83,10.0% chance -1 Atk opponent
 MUD_BOMB,Mud Bomb,charged,ground,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
 MUDDY_WATER,Muddy Water,charged,water,35,0,2,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.3,nan,nan
 MUD_SHOT,Mud Shot,fast,ground,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
-MUD_SLAP,Mud Slap,fast,ground,11,8,3,3.67,2.67,0,,,Heavy Damage,nan,,,nan,nan
-MUD_SLAP_NEW,Mud Slap (New),fast,ground,11,9,3,3.67,3.0,0,,,Heavy Damage,nan,,,nan,nan
+MUD_SLAP,Mud Slap,fast,ground,11,9,3,3.67,3.0,0,,,Heavy Damage,nan,,,nan,nan
 MYSTICAL_FIRE,Mystical Fire,charged,fire,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 NIGHT_SHADE,Night Shade,charged,ghost,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
 NIGHT_SLASH,Night Slash,charged,dark,50,0,1,,,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,"[2, 0]",self,.125,nan,nan
@@ -201,8 +193,7 @@ POWER_WHIP,Power Whip,charged,grass,90,0,1,,,50,1.8,,General,nan,,,nan,nan
 PRECIPICE_BLADES,Precipice Blades,charged,ground,130,0,1,,,60,2.17,,Nuke,nan,,,nan,nan
 PRESENT,Present,fast,normal,3,12,3,1.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 PSYBEAM,Psybeam,charged,psychic,70,0,1,,,60,1.17,,High Energy,nan,,,nan,nan
-PSYCHIC,Psychic,charged,psychic,85,0,1,,,55,1.55,10.0% chance -1 Def opponent,High Energy Debuff,"[0, -1]",opponent,.1,nan,nan
-PSYCHIC_NEW,Psychic (New),charged,psychic,75,0,1,,,55,1.36,10.0% chance -1 Def opponent,High Energy Debuff,"[0, -1]",opponent,.1,nan,nan
+PSYCHIC,Psychic,charged,psychic,75,0,1,,,55,1.36,10.0% chance -1 Def opponent,High Energy Debuff,"[0, -1]",opponent,.1,nan,nan
 PSYCHIC_FANGS,Psychic Fangs,charged,psychic,40,0,1,,,35,1.14,100% chance -1 Def opponent,Debuff Spam/Bait,"[0, -1]",opponent,1,nan,nan
 PSYCHO_BOOST,Psycho Boost,charged,psychic,70,0,1,,,35,2.0,100% chance -2 Atk self,Self-Debuff Spam,"[-2, 0]",self,1,nan,nan
 PSYCHO_CUT,Psycho Cut,fast,psychic,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
@@ -225,8 +216,7 @@ SACRED_FIRE,Sacred Fire,charged,fire,130,0,1,,,65,2.0,50.0% chance -1 Atk oppone
 SACRED_SWORD,Sacred Sword,charged,fighting,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
 SAND_TOMB,Sand Tomb,charged,ground,25,0,1,,,40,0.62,100% chance -1 Def opponent,Debuff Spam/Bait,"[0, -1]",opponent,1,nan,nan
 SANDSEAR_STORM,Sandsear Storm,charged,ground,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
-SCALD,Scald,charged,water,80,0,1,,,50,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.3,nan,nan
-SCALD_NEW,Scald (New),charged,water,85,0,1,,,50,1.7,40.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.4,nan,nan
+SCALD,Scald,charged,water,85,0,1,,,50,1.7,50.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.5,nan,nan
 SCORCHING_SANDS,Scorching Sands,charged,ground,80,0,1,,,50,1.6,30.0% chance -1 Atk opponent,High Energy Debuff,"[-1, 0]",opponent,0.3,nan,nan
 SCRATCH,Scratch,fast,normal,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
 SEED_BOMB,Seed Bomb,charged,grass,60,0,1,,,45,1.33,,General,nan,,,nan,nan
@@ -251,8 +241,7 @@ SPACIAL_REND,Spacial Rend,charged,dragon,95,0,1,,,50,1.9,,General,nan,,,nan,nan
 SPARK,Spark,fast,electric,6,7,2,3.0,3.5,0,,,General,nan,,,nan,nan
 SPIRIT_SHACKLE,Spirit Shackle,charged,ghost,50,0,1,,,40,1.25,33.0% chance -1 Def opponent,Debuff Spam/Bait,"[0, -1]",opponent,.33,nan,nan
 SPLASH,Splash,fast,water,0,12,4,0.0,3.0,0,,,Low Quality,nan,,,nan,nan
-STEEL_WING,Steel Wing,fast,steel,7,5,2,3.5,2.5,0,,,Heavy Damage,nan,,,nan,nan
-STEEL_WING_NEW,Steel Wing (New),fast,steel,7,6,2,3.5,3.0,0,,,Heavy Damage,nan,,,nan,nan
+STEEL_WING,Steel Wing,fast,steel,7,7,2,3.5,3.5,0,,,General,nan,,,nan,nan
 STOMP,Stomp,charged,normal,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 STONE_EDGE,Stone Edge,charged,rock,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan
 STRUGGLE,Struggle,charged,normal,35,0,1,,,100,0.35,,High Energy,nan,,,nan,nan
