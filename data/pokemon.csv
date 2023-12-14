@@ -1500,8 +1500,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 971,greavard,Greavard,105,106,137,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS']",nan,nan,3,50000,True,FAMILY_GREAVARD,['houndstone'],,nan
 972,houndstone,Houndstone,186,195,176,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS']",nan,nan,3,50000,True,FAMILY_GREAVARD,nan,greavard,nan
 973,flamigo,Flamigo,227,145,193,"['flying', 'fighting']","['WING_ATTACK', 'DOUBLE_KICK']","['AERIAL_ACE', 'BRAVE_BIRD', 'CLOSE_COMBAT']",nan,nan,3,75000,False,,nan,,nan
-974,cetoddle,Cetoddle,119,80,239,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,False,FAMILY_CETODDLE,['cetitan'],,nan
-975,cetitan,Cetitan,208,123,347,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,False,FAMILY_CETODDLE,nan,cetoddle,nan
+974,cetoddle,Cetoddle,119,80,239,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,True,FAMILY_CETODDLE,['cetitan'],,nan
+975,cetitan,Cetitan,208,123,347,"['ice', 'none']","['ICE_SHARD', 'TACKLE']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,True,FAMILY_CETODDLE,nan,cetoddle,nan
 976,veluza,Veluza,196,139,207,"['water', 'psychic']","['ICE_FANG', 'ZEN_HEADBUTT']","['WATER_PULSE', 'PSYCHIC_FANGS', 'DRILL_RUN', 'CRUNCH']",nan,nan,3,75000,False,,nan,,nan
 977,dondozo,Dondozo,176,178,312,"['water', 'none']","['WATERFALL', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'LIQUIDATION']",nan,nan,5,75000,False,,nan,,nan
 978,tatsugiri,Tatsugiri,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,False,,nan,,nan
