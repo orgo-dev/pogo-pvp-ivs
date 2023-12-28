@@ -1194,7 +1194,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 721,volcanion,Volcanion,252,216,190,"['fire', 'water']","['INCINERATE', 'WATER_GUN', 'TAKE_DOWN']","['HYDRO_PUMP', 'OVERHEAT', 'EARTH_POWER', 'SLUDGE_BOMB']",nan,nan,20,100000,False,,nan,,nan
 722,rowlet,Rowlet,102,99,169,"['grass', 'flying']","['TACKLE', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL']",nan,nan,3,10000,True,FAMILY_ROWLET,['dartrix'],,['starter']
 723,dartrix,Dartrix,142,139,186,"['grass', 'flying']","['PECK', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'BRAVE_BIRD']",nan,nan,3,10000,True,FAMILY_ROWLET,['decidueye'],rowlet,['starter']
-724,decidueye,Decidueye,210,179,186,"['grass', 'ghost']","['ASTONISH', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SHADOW_SNEAK', 'ENERGY_BALL', 'BRAVE_BIRD']",nan,nan,3,10000,True,FAMILY_ROWLET,nan,dartrix,['starter']
+724,decidueye,Decidueye,210,179,186,"['grass', 'ghost']","['ASTONISH', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SHADOW_SNEAK', 'ENERGY_BALL', 'BRAVE_BIRD', 'FRENZY_PLANT', 'SPIRIT_SHACKLE']",['FRENZY_PLANT'],nan,3,10000,True,FAMILY_ROWLET,nan,dartrix,['starter']
 724,decidueye_hisuian,Decidueye (Hisuian),204,174,204,"['grass', 'fighting']","['MAGICAL_LEAF', 'PSYCHO_CUT']","['AURA_SPHERE', 'ENERGY_BALL', 'AERIAL_ACE']",nan,nan,3,10000,False,FAMILY_ROWLET,nan,dartrix,['starter']
 725,litten,Litten,128,79,128,"['fire', 'none']","['SCRATCH', 'EMBER']","['FLAMETHROWER', 'FLAME_CHARGE', 'CRUNCH']",nan,nan,3,10000,True,FAMILY_LITTEN,['torracat'],,['starter']
 726,torracat,Torracat,174,103,163,"['fire', 'none']","['BITE', 'EMBER']","['FLAMETHROWER', 'FLAME_CHARGE', 'CRUNCH']",nan,nan,3,10000,True,FAMILY_LITTEN,['incineroar'],litten,['starter']
