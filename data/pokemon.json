@@ -17252,7 +17252,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": false
     },
     {
         "dex": 133,
@@ -33417,7 +33417,7 @@
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": true,
+        "released": false,
         "family": {
             "id": "FAMILY_NINCADA",
             "parent": "nincada"
@@ -69786,7 +69786,8 @@
             "id": "FAMILY_ROCKRUFF",
             "evolutions": [
                 "lycanroc_midnight",
-                "lycanroc_midday"
+                "lycanroc_midday",
+                "lycranroc_dusk"
             ]
         }
     },
@@ -69836,7 +69837,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROCKRUFF",
             "parent": "rockruff"

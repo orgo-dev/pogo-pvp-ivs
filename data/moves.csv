@@ -204,7 +204,7 @@ RAZOR_LEAF,Razor Leaf,fast,grass,10,4,2,5.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
 RAZOR_SHELL,Razor Shell,charged,water,35,0,1,,,35,1.0,50.0% chance -1 Def opponent,Spam/Bait Debuff,"[0, -1]",opponent,0.5,nan,nan
 REST,Rest,charged,normal,50,0,1,,,35,1.43,,Spam/Bait,nan,,,nan,nan
 RETURN,Return,charged,normal,130,0,1,,,70,1.86,,Nuke,nan,,,nan,nan
-ROAR_OF_TIME,Draco Meteor,charged,dragon,150,0,1,,,65,2.31,,Nuke,nan,,,nan,nan
+ROAR_OF_TIME,Roar of Time,charged,dragon,150,0,1,,,65,2.31,,Nuke,nan,,,nan,nan
 ROCK_BLAST,Rock Blast,charged,rock,50,0,1,,,40,1.25,,Spam/Bait,nan,,,nan,nan
 ROCK_SLIDE,Rock Slide,charged,rock,75,0,1,,,45,1.67,,General,nan,,,nan,nan
 ROCK_SMASH,Rock Smash,fast,fighting,9,7,3,3.0,2.33,0,,,Low Quality,nan,,,nan,nan
