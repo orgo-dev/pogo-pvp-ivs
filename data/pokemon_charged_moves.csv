@@ -5745,6 +5745,7 @@ Tornadus (Incarnate),Dark Pulse,charged,dark,1.0,80,50,1.6,,General,
 Tornadus (Incarnate),Grass Knot,charged,grass,1.0,90,50,1.8,,General,
 Tornadus (Incarnate),Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,
 Tornadus (Incarnate),Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
+Tornadus (Therian),Bleakwind Storm,charged,flying,1.2,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Tornadus (Therian),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Tornadus (Therian),Heat Wave,charged,fire,1.0,95,75,1.27,,High Energy,
 Tornadus (Therian),Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,

@@ -9378,6 +9378,7 @@ Tornadus (Incarnate),Hurricane,charged,flying,1.2,110,0,1,,,65.0,1.69,,Nuke,
 Tornadus (Incarnate),Hyper Beam,charged,normal,1.0,150,0,1,,,80.0,1.88,,Nuke,
 Tornadus (Therian),Astonish,fast,ghost,1.0,9,10,3,3.0,3.33,,,,General,
 Tornadus (Therian),Gust,fast,flying,1.2,16,12,4,4.0,3.0,,,,Multipurpose,
+Tornadus (Therian),Bleakwind Storm,charged,flying,1.2,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,elite
 Tornadus (Therian),Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
 Tornadus (Therian),Heat Wave,charged,fire,1.0,95,0,1,,,75.0,1.27,,High Energy,
 Tornadus (Therian),Hurricane,charged,flying,1.2,110,0,1,,,65.0,1.69,,Nuke,

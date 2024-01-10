@@ -20150,7 +20150,7 @@
         "levelFloor": 20,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CYNDAQUIL",
             "parent": "quilava"
@@ -62729,7 +62729,11 @@
             "HEAT_WAVE",
             "PSYCHIC",
             "FOCUS_BLAST",
-            "HURRICANE"
+            "HURRICANE",
+            "BLEAKWIND_STORM"
+        ],
+        "eliteMoves": [
+            "BLEAKWIND_STORM"
         ],
         "defaultIVs": {
             "cp500": [
