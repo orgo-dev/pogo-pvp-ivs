@@ -62833,7 +62833,11 @@
             "SLUDGE_WAVE",
             "THUNDER",
             "FOCUS_BLAST",
-            "THUNDERBOLT"
+            "THUNDERBOLT",
+            "WILDBOLT_STORM"
+        ],
+        "eliteMoves": [
+            "WILDBOLT_STORM"
         ],
         "defaultIVs": {
             "cp500": [
