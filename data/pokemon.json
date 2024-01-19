@@ -74002,10 +74002,13 @@
             "none"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "POISON_JAB",
+            "PECK"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "SLUDGE_BOMB",
+            "SLUDGE_WAVE",
+            "FELL_STINGER"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74054,10 +74057,14 @@
             "dragon"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "POISON_JAB",
+            "AIR_SLASH"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "SLUDGE_BOMB",
+            "ACROBATICS",
+            "FELL_STINGER",
+            "DRAGON_PULSE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74104,10 +74111,13 @@
             "steel"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "ROCK_THROW",
+            "TAKE_DOWN"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "FLASH_CANNON",
+            "STONE_EDGE",
+            "BULLDOZE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74150,10 +74160,13 @@
             "ghost"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "INCINERATE",
+            "ASTONISH"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "MYSTICAL_FIRE",
+            "SHADOW_BALL",
+            "OVERHEAT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74196,10 +74209,13 @@
             "none"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "SPARK",
+            "VOLT_SWITCH"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "THUNDER_PUNCH",
+            "DISCHARGE",
+            "WILD_CHARGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84765,7 +84781,8 @@
             "CLOSE_COMBAT",
             "LOW_SWEEP",
             "NIGHT_SLASH",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "SHADOW_BALL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84789,7 +84806,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_MANKEY",
             "parent": "primeape"
@@ -85889,8 +85906,8 @@
     },
     {
         "dex": 1001,
-        "speciesName": "Wochien",
-        "speciesId": "wochien",
+        "speciesName": "Wo-Chien",
+        "speciesId": "wo_chien",
         "baseStats": {
             "atk": 186,
             "def": 242,
@@ -85901,10 +85918,13 @@
             "grass"
         ],
         "fastMoves": [
-            "SPLASH"
+            "MAGICAL_LEAF",
+            "SNARL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "DARK_PULSE",
+            "GRASS_KNOT",
+            "LEAF_STORM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -85932,8 +85952,8 @@
     },
     {
         "dex": 1002,
-        "speciesName": "Chienpao",
-        "speciesId": "chienpao",
+        "speciesName": "Chien-Pao",
+        "speciesId": "chien_pao",
         "baseStats": {
             "atk": 261,
             "def": 167,
@@ -85944,10 +85964,13 @@
             "ice"
         ],
         "fastMoves": [
-            "SPLASH"
+            "POWDER_SNOW",
+            "SNARL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "DARK_PULSE",
+            "AVALANCHE",
+            "BLIZZARD"
         ],
         "defaultIVs": {
             "cp500": [
@@ -85975,8 +85998,8 @@
     },
     {
         "dex": 1003,
-        "speciesName": "Tinglu",
-        "speciesId": "tinglu",
+        "speciesName": "Ting-Lu",
+        "speciesId": "ting_lu",
         "baseStats": {
             "atk": 194,
             "def": 203,
@@ -85987,10 +86010,13 @@
             "ground"
         ],
         "fastMoves": [
-            "SPLASH"
+            "MUD_SHOT",
+            "SNARL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "DARK_PULSE",
+            "BULLDOZE",
+            "EARTHQUAKE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86018,8 +86044,8 @@
     },
     {
         "dex": 1004,
-        "speciesName": "Chiyu",
-        "speciesId": "chiyu",
+        "speciesName": "Chi-Yu",
+        "speciesId": "chi_yu",
         "baseStats": {
             "atk": 269,
             "def": 221,
@@ -86030,10 +86056,13 @@
             "fire"
         ],
         "fastMoves": [
-            "SPLASH"
+            "INCINERATE",
+            "SNARL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "FLAME_CHARGE",
+            "DARK_PULSE",
+            "FLAME_WHEEL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86159,10 +86188,14 @@
             "dragon"
         ],
         "fastMoves": [
-            "SPLASH"
+            "ROCK_SMASH",
+            "DRAGON_TAIL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "GIGA_IMPACT",
+            "DRAGON_CLAW",
+            "CLOSE_COMBAT",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86202,10 +86235,14 @@
             "dragon"
         ],
         "fastMoves": [
-            "SPLASH"
+            "ROCK_SMASH",
+            "DRAGON_TAIL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "GIGA_IMPACT",
+            "DRAGON_CLAW",
+            "CLOSE_COMBAT",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86245,10 +86282,14 @@
             "dragon"
         ],
         "fastMoves": [
-            "SPLASH"
+            "THUNDER_SHOCK",
+            "DRAGON_TAIL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "HYPER_BEAM",
+            "DRAGON_PULSE",
+            "THUNDER",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86288,10 +86329,14 @@
             "dragon"
         ],
         "fastMoves": [
-            "SPLASH"
+            "THUNDER_SHOCK",
+            "DRAGON_TAIL"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "HYPER_BEAM",
+            "DRAGON_PULSE",
+            "THUNDER",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
