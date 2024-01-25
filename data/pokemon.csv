@@ -1112,7 +1112,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 643,reshiram,Reshiram,275,211,205,"['dragon', 'fire']","['DRAGON_BREATH', 'FIRE_FANG']","['CRUNCH', 'OVERHEAT', 'DRACO_METEOR', 'STONE_EDGE', 'FUSION_FLARE']",['FUSION_FLARE'],nan,20,100000,True,,nan,,['legendary']
 644,zekrom,Zekrom,275,211,205,"['dragon', 'electric']","['DRAGON_BREATH', 'CHARGE_BEAM']","['OUTRAGE', 'WILD_CHARGE', 'FLASH_CANNON', 'CRUNCH', 'FUSION_BOLT']",['FUSION_BOLT'],nan,20,100000,True,,nan,,['legendary']
 645,landorus_incarnate,Landorus (Incarnate),261,182,205,"['ground', 'flying']","['MUD_SHOT', 'ROCK_THROW']","['EARTH_POWER', 'OUTRAGE', 'ROCK_SLIDE', 'FOCUS_BLAST']",nan,nan,20,100000,True,,nan,,['legendary']
-645,landorus_therian,Landorus (Therian),289,179,205,"['ground', 'flying']","['MUD_SHOT', 'EXTRASENSORY']","['EARTHQUAKE', 'STONE_EDGE', 'SUPER_POWER', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['legendary']
+645,landorus_therian,Landorus (Therian),289,179,205,"['ground', 'flying']","['MUD_SHOT', 'EXTRASENSORY']","['EARTHQUAKE', 'STONE_EDGE', 'SUPER_POWER', 'BULLDOZE', 'SANDSEAR_STORM']",['SANDSEAR_STORM'],nan,20,100000,True,,nan,,['legendary']
 646,kyurem,Kyurem,246,170,245,"['dragon', 'ice']","['DRAGON_BREATH', 'STEEL_WING']","['DRAGON_CLAW', 'BLIZZARD', 'DRACO_METEOR', 'GLACIATE']",['GLACIATE'],nan,20,100000,True,,nan,,['legendary']
 646,kyurem_black,Kyurem (Black),310,183,245,"['dragon', 'ice']","['DRAGON_TAIL', 'SHADOW_CLAW']","['IRON_HEAD', 'BLIZZARD', 'STONE_EDGE', 'OUTRAGE']",nan,nan,20,100000,False,,nan,,['legendary']
 646,kyurem_white,Kyurem (White),310,183,245,"['dragon', 'ice']","['DRAGON_BREATH', 'STEEL_WING']","['DRAGON_PULSE', 'BLIZZARD', 'ANCIENT_POWER', 'FOCUS_BLAST']",nan,nan,20,100000,False,,nan,,['legendary']

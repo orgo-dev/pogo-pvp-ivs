@@ -2879,6 +2879,7 @@ Landorus (Incarnate),Outrage,charged,dragon,1.0,110,60,1.83,,Nuke,
 Landorus (Incarnate),Rock Slide,charged,rock,1.0,75,45,1.67,,General,
 Landorus (Therian),Bulldoze,charged,ground,1.2,80,60,1.33,,High Energy,
 Landorus (Therian),Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
+Landorus (Therian),Sandsear Storm,charged,ground,1.2,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Landorus (Therian),Stone Edge,charged,rock,1.0,100,55,1.82,,Nuke,
 Landorus (Therian),Superpower,charged,fighting,1.0,85,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,
 Lanturn,Hydro Pump,charged,water,1.2,130,75,1.73,,Nuke,
