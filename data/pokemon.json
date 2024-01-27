@@ -9568,7 +9568,66 @@
             "evolutions": [
                 "tentacruel"
             ]
-        }
+        },
+        "level25CP": 578,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 72,
+        "speciesName": "Tentacool (Shadow)",
+        "speciesId": "tentacool_shadow",
+        "baseStats": {
+            "atk": 97,
+            "def": 149,
+            "hp": 120
+        },
+        "types": [
+            "water",
+            "poison"
+        ],
+        "fastMoves": [
+            "BUBBLE",
+            "POISON_STING"
+        ],
+        "chargedMoves": [
+            "BUBBLE_BEAM",
+            "WATER_PULSE",
+            "WRAP"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                18.5,
+                5,
+                13,
+                15
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TENTACOOL",
+            "evolutions": [
+                "tentacruel_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 73,
@@ -9630,6 +9689,75 @@
         },
         "nicknames": [
             "cruel"
+        ],
+        "level25CP": 1475,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 73,
+        "speciesName": "Tentacruel (Shadow)",
+        "speciesId": "tentacruel_shadow",
+        "baseStats": {
+            "atk": 166,
+            "def": 209,
+            "hp": 190
+        },
+        "types": [
+            "water",
+            "poison"
+        ],
+        "fastMoves": [
+            "ACID",
+            "POISON_JAB"
+        ],
+        "chargedMoves": [
+            "BLIZZARD",
+            "HYDRO_PUMP",
+            "SLUDGE_WAVE",
+            "ACID_SPRAY",
+            "SCALD"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                8,
+                4,
+                5,
+                13
+            ],
+            "cp1500": [
+                23.5,
+                4,
+                7,
+                14
+            ],
+            "cp2500": [
+                48,
+                4,
+                14,
+                13
+            ],
+            "cp2500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "searchPriority": 2,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_TENTACOOL",
+            "parent": "tentacool_shadow"
+        },
+        "nicknames": [
+            "cruel"
+        ],
+        "tags": [
+            "shadow"
         ]
     },
     {
