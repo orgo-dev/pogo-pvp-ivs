@@ -69749,7 +69749,7 @@
         "speciesName": "Decidueye (Hisuian)",
         "speciesId": "decidueye_hisuian",
         "baseStats": {
-            "atk": 204,
+            "atk": 213,
             "def": 174,
             "hp": 204
         },
@@ -69768,22 +69768,22 @@
         ],
         "defaultIVs": {
             "cp500": [
-                7,
-                4,
+                6.5,
+                6,
                 13,
-                4
+                15
             ],
             "cp1500": [
                 20,
+                4,
                 5,
-                12,
-                13
+                4
             ],
             "cp2500": [
-                37.5,
-                4,
+                33.5,
+                6,
                 12,
-                10
+                14
             ]
         },
         "tags": [
@@ -86984,7 +86984,8 @@
             "evolutions": [
                 "baxcalibur"
             ]
-        }
+        },
+        "searchPriority": 3
     },
     {
         "dex": 998,
