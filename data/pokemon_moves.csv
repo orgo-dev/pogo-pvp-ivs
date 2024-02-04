@@ -883,6 +883,7 @@ Blissey,Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
 Blissey,Dazzling Gleam,charged,fairy,1.0,110,0,1,,,70.0,1.57,,Nuke,
 Blissey,Hyper Beam,charged,normal,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Blissey,Psychic,charged,psychic,1.0,75,0,1,,,55.0,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
+Blissey,Wild Charge,charged,electric,1.0,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,elite
 Blitzle,Quick Attack,fast,normal,1.0,5,8,2,2.5,4.0,,,,Fast Charge,
 Blitzle,Spark,fast,electric,1.2,6,7,2,3.0,3.5,,,,General,
 Blitzle,Discharge,charged,electric,1.2,65,0,1,,,45.0,1.44,,General,

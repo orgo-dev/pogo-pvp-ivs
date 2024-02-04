@@ -480,7 +480,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 239,elekid,Elekid,135,101,128,"['electric', 'none']","['LOW_KICK', 'THUNDER_SHOCK']","['BRICK_BREAK', 'DISCHARGE', 'THUNDER_PUNCH', 'THUNDERBOLT']",['THUNDERBOLT'],nan,5,10000,True,FAMILY_ELECTABUZZ,['electabuzz'],,nan
 240,magby,Magby,151,99,128,"['fire', 'none']","['EMBER', 'KARATE_CHOP']","['BRICK_BREAK', 'FIRE_PUNCH', 'FLAME_BURST', 'FLAMETHROWER']",['FLAMETHROWER'],nan,5,10000,True,FAMILY_MAGMAR,['magmar'],,nan
 241,miltank,Miltank,157,193,216,"['normal', 'none']","['TACKLE', 'ZEN_HEADBUTT', 'ROLLOUT']","['BODY_SLAM', 'GYRO_BALL', 'ICE_BEAM', 'STOMP', 'THUNDERBOLT']",nan,nan,5,75000,True,,nan,,nan
-242,blissey,Blissey,129,169,496,"['normal', 'none']","['POUND', 'ZEN_HEADBUTT']","['DAZZLING_GLEAM', 'HYPER_BEAM', 'PSYCHIC']",nan,nan,5,75000,True,FAMILY_CHANSEY,nan,chansey,nan
+242,blissey,Blissey,129,169,496,"['normal', 'none']","['POUND', 'ZEN_HEADBUTT']","['DAZZLING_GLEAM', 'HYPER_BEAM', 'PSYCHIC', 'WILD_CHARGE']",['WILD_CHARGE'],nan,5,75000,True,FAMILY_CHANSEY,nan,chansey,nan
 243,raikou,Raikou,241,195,207,"['electric', 'none']","['THUNDER_SHOCK', 'VOLT_SWITCH']","['SHADOW_BALL', 'THUNDER', 'THUNDERBOLT', 'WILD_CHARGE', 'RETURN']",nan,nan,20,100000,True,,nan,,"['legendary', 'shadoweligible']"
 243,raikou_shadow,Raikou (Shadow),241,195,207,"['electric', 'none']","['THUNDER_SHOCK', 'VOLT_SWITCH']","['SHADOW_BALL', 'THUNDER', 'THUNDERBOLT', 'WILD_CHARGE', 'FRUSTRATION']",nan,nan,20,100000,True,,nan,,"['legendary', 'shadow']"
 244,entei,Entei,235,171,251,"['fire', 'none']","['FIRE_FANG', 'FIRE_SPIN']","['FIRE_BLAST', 'FLAMETHROWER', 'IRON_HEAD', 'OVERHEAT', 'FLAME_CHARGE', 'SCORCHING_SANDS', 'RETURN']",nan,nan,20,100000,True,,nan,,"['legendary', 'shadoweligible']"
@@ -1296,7 +1296,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 777,togedemaru,Togedemaru,190,145,163,"['electric', 'steel']","['THUNDER_SHOCK', 'SPARK']","['FELL_STINGER', 'WILD_CHARGE', 'GYRO_BALL']",nan,nan,3,50000,True,,nan,,nan
 778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5,50000,False,,nan,,nan
 779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3,50000,True,,nan,,nan
-780,drampa,Drampa,231,164,186,"['normal', 'dragon']","['DRAGON_BREATH', 'EXTRASENSORY']","['OUTRAGE', 'DRAGON_PULSE', 'FLY']",nan,nan,5,75000,False,,nan,,nan
+780,drampa,Drampa,231,164,186,"['normal', 'dragon']","['DRAGON_BREATH', 'EXTRASENSORY']","['OUTRAGE', 'DRAGON_PULSE', 'FLY']",nan,nan,5,75000,True,,nan,,nan
 781,dhelmise,Dhelmise,233,179,172,"['ghost', 'grass']","['ASTONISH', 'SHADOW_CLAW']","['POWER_WHIP', 'SHADOW_BALL', 'HEAVY_SLAM']",nan,nan,5,50000,False,,nan,,nan
 782,jangmo_o,Jangmo-o,102,108,128,"['dragon', 'none']","['TACKLE', 'DRAGON_TAIL']","['DRAGON_CLAW', 'BRICK_BREAK', 'DRAGON_PULSE']",nan,nan,5,75000,True,FAMILY_JANGMO_O,['hakamo_o'],,nan
 783,hakamo_o,Hakamo-o,145,162,146,"['dragon', 'fighting']","['TACKLE', 'DRAGON_TAIL']","['DRAGON_CLAW', 'BRICK_BREAK', 'DRAGON_PULSE']",nan,nan,5,75000,True,FAMILY_JANGMO_O,['kommo_o'],jangmo_o,nan
