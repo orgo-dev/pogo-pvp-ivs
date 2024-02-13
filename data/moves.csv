@@ -241,6 +241,7 @@ SPACIAL_REND,Spacial Rend,charged,dragon,95,0,1,,,50,1.9,,General,nan,,,nan,nan
 SPARK,Spark,fast,electric,6,7,2,3.0,3.5,0,,,General,nan,,,nan,nan
 SPIRIT_SHACKLE,Spirit Shackle,charged,ghost,50,0,1,,,40,1.25,33.0% chance -1 Def opponent,Debuff Spam/Bait,"[0, -1]",opponent,.33,nan,nan
 SPLASH,Splash,fast,water,0,12,4,0.0,3.0,0,,,Low Quality,nan,,,nan,nan
+SPRINGTIDE_STORM,Springtide Storm (Speculative),charged,fairy,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 STEEL_WING,Steel Wing,fast,steel,7,7,2,3.5,3.5,0,,,General,nan,,,nan,nan
 STOMP,Stomp,charged,normal,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 STONE_EDGE,Stone Edge,charged,rock,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan
