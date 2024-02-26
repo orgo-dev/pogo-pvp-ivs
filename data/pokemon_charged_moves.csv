@@ -414,6 +414,8 @@ Barboach (Shadow),Scald,charged,water,1.2,85,50,1.7,50.0% chance -1 Atk opponent
 Barraskewda,Aqua Jet,charged,water,1.2,45,45,1.0,,General,
 Barraskewda,Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Barraskewda,Crunch,charged,dark,1.0,70,45,1.56,30.0% chance -1 Def opponent,Debuff,
+Basculegion (Female),Struggle,charged,normal,1.0,35,100,0.35,,High Energy,
+Basculegion (Male),Struggle,charged,normal,1.0,35,100,0.35,,High Energy,
 Basculin,Aqua Jet,charged,water,1.2,45,45,1.0,,General,
 Basculin,Aqua Tail,charged,water,1.2,50,35,1.43,,Spam/Bait,
 Basculin,Muddy Water,charged,water,1.2,35,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,
