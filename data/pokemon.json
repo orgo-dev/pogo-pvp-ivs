@@ -3499,7 +3499,8 @@
         ],
         "fastMoves": [
             "MUD_SHOT",
-            "SCRATCH"
+            "SCRATCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -3622,7 +3623,8 @@
         ],
         "fastMoves": [
             "MUD_SHOT",
-            "SCRATCH"
+            "SCRATCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -3743,7 +3745,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BULLDOZE",
@@ -3883,7 +3886,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BULLDOZE",
@@ -6425,9 +6429,6 @@
             "MUD_BOMB",
             "ROCK_TOMB"
         ],
-        "legacyMoves": [
-            "MUD_SHOT"
-        ],
         "defaultIVs": {
             "cp500": [
                 28.5,
@@ -6477,7 +6478,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SLAP"
+            "MUD_SLAP",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -6534,7 +6536,8 @@
         ],
         "fastMoves": [
             "MUD_SLAP",
-            "SCRATCH"
+            "SCRATCH",
+            "MUD_SHOT"
         ],
         "chargedMoves": [
             "DIG",
@@ -6589,7 +6592,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SLAP"
+            "MUD_SLAP",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -6653,9 +6657,6 @@
             "MUD_BOMB",
             "STONE_EDGE"
         ],
-        "legacyMoves": [
-            "MUD_SHOT"
-        ],
         "defaultIVs": {
             "cp500": [
                 12,
@@ -6709,7 +6710,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SLAP"
+            "MUD_SLAP",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "EARTHQUAKE",
@@ -6764,7 +6766,8 @@
         ],
         "fastMoves": [
             "MUD_SLAP",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "MUD_SHOT"
         ],
         "chargedMoves": [
             "EARTHQUAKE",
@@ -6823,7 +6826,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "MUD_SLAP"
+            "MUD_SLAP",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "EARTHQUAKE",
@@ -10010,9 +10014,6 @@
             "ROCK_SLIDE",
             "STONE_EDGE"
         ],
-        "legacyMoves": [
-            "MUD_SHOT"
-        ],
         "defaultIVs": {
             "cp500": [
                 10,
@@ -10128,7 +10129,8 @@
         ],
         "fastMoves": [
             "MUD_SLAP",
-            "ROCK_THROW"
+            "ROCK_THROW",
+            "MUD_SHOT"
         ],
         "chargedMoves": [
             "DIG",
@@ -10258,9 +10260,6 @@
             "ROCK_BLAST",
             "STONE_EDGE"
         ],
-        "legacyMoves": [
-            "MUD_SHOT"
-        ],
         "defaultIVs": {
             "cp500": [
                 6.5,
@@ -10368,7 +10367,8 @@
         ],
         "fastMoves": [
             "MUD_SLAP",
-            "ROCK_THROW"
+            "ROCK_THROW",
+            "MUD_SHOT"
         ],
         "chargedMoves": [
             "ANCIENT_POWER",
@@ -11144,7 +11144,8 @@
         "fastMoves": [
             "SPARK",
             "THUNDER_SHOCK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "DISCHARGE",
@@ -11207,7 +11208,8 @@
         "fastMoves": [
             "SPARK",
             "THUNDER_SHOCK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "DISCHARGE",
@@ -11270,7 +11272,8 @@
             "CHARGE_BEAM",
             "SPARK",
             "THUNDER_SHOCK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "DISCHARGE",
@@ -11336,7 +11339,8 @@
             "CHARGE_BEAM",
             "SPARK",
             "THUNDER_SHOCK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "DISCHARGE",
@@ -16066,8 +16070,7 @@
             "THUNDER"
         ],
         "legacyMoves": [
-            "QUICK_ATTACK",
-            "PSYBEAM"
+            "QUICK_ATTACK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -16122,7 +16125,8 @@
         "fastMoves": [
             "CONFUSION",
             "ZEN_HEADBUTT",
-            "MAGICAL_LEAF"
+            "MAGICAL_LEAF",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "PSYBEAM",
@@ -19159,7 +19163,8 @@
         "nicknames": [
             "dnair",
             "nair"
-        ]
+        ],
+        "searchPriority": 6
     },
     {
         "dex": 149,
@@ -20589,7 +20594,8 @@
             "BITE",
             "WATER_GUN",
             "WATERFALL",
-            "ICE_FANG"
+            "ICE_FANG",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
             "CRUNCH",
@@ -20632,7 +20638,8 @@
         "family": {
             "id": "FAMILY_TOTODILE",
             "parent": "croconaw"
-        }
+        },
+        "searchPriority": 8
     },
     {
         "dex": 160,
@@ -20651,7 +20658,8 @@
             "BITE",
             "WATER_GUN",
             "WATERFALL",
-            "ICE_FANG"
+            "ICE_FANG",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
             "CRUNCH",
@@ -24365,7 +24373,8 @@
         ],
         "fastMoves": [
             "ASTONISH",
-            "HEX"
+            "HEX",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -24421,7 +24430,8 @@
         ],
         "fastMoves": [
             "ASTONISH",
-            "HEX"
+            "HEX",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -25079,7 +25089,8 @@
             "evolutions": [
                 "gliscor"
             ]
-        }
+        },
+        "searchPriority": 6
     },
     {
         "dex": 207,
@@ -31392,7 +31403,8 @@
         ],
         "fastMoves": [
             "ROCK_SMASH",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -31511,7 +31523,8 @@
         ],
         "fastMoves": [
             "SHADOW_CLAW",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DIG",
@@ -36907,7 +36920,8 @@
         ],
         "fastMoves": [
             "MUD_SHOT",
-            "STRUGGLE_BUG"
+            "STRUGGLE_BUG",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "CRUNCH",
@@ -36964,7 +36978,8 @@
         ],
         "fastMoves": [
             "MUD_SHOT",
-            "STRUGGLE_BUG"
+            "STRUGGLE_BUG",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "CRUNCH",
@@ -37020,7 +37035,8 @@
         ],
         "fastMoves": [
             "DRAGON_BREATH",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BUG_BUZZ",
@@ -37078,7 +37094,8 @@
         ],
         "fastMoves": [
             "DRAGON_BREATH",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BUG_BUZZ",
@@ -37135,7 +37152,8 @@
         ],
         "fastMoves": [
             "DRAGON_TAIL",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DRAGON_CLAW",
@@ -37201,7 +37219,8 @@
         ],
         "fastMoves": [
             "DRAGON_TAIL",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DRAGON_CLAW",
@@ -37266,7 +37285,8 @@
         ],
         "fastMoves": [
             "POISON_STING",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BRICK_BREAK",
@@ -37324,7 +37344,8 @@
         ],
         "fastMoves": [
             "POISON_STING",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BRICK_BREAK",
@@ -37381,7 +37402,8 @@
         ],
         "fastMoves": [
             "POISON_JAB",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -37443,7 +37465,8 @@
         ],
         "fastMoves": [
             "POISON_JAB",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -37772,7 +37795,8 @@
         ],
         "fastMoves": [
             "CONFUSION",
-            "ROCK_THROW"
+            "ROCK_THROW",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "MOONBLAST",
@@ -37827,7 +37851,8 @@
         ],
         "fastMoves": [
             "CONFUSION",
-            "ROCK_THROW"
+            "ROCK_THROW",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "PSYCHIC",
@@ -38023,7 +38048,7 @@
                 15
             ]
         },
-        "searchPriority": 8,
+        "searchPriority": 10,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -38462,9 +38487,6 @@
             "ANCIENT_POWER",
             "GRASS_KNOT",
             "MIRROR_COAT"
-        ],
-        "legacyMoves": [
-            "BULLET_SEED"
         ],
         "defaultIVs": {
             "cp500": [
@@ -40634,7 +40656,7 @@
         "tags": [
             "shadoweligible"
         ],
-        "searchPriority": 10,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -40694,7 +40716,7 @@
         "tags": [
             "shadow"
         ],
-        "searchPriority": 10,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -43981,7 +44003,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "WATERFALL"
+            "WATERFALL",
+            "STEEL_WING"
         ],
         "chargedMoves": [
             "BLIZZARD",
@@ -44042,7 +44065,8 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "WATERFALL"
+            "WATERFALL",
+            "STEEL_WING"
         ],
         "chargedMoves": [
             "BLIZZARD",
@@ -44102,7 +44126,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -44158,7 +44183,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -44213,7 +44239,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "WING_ATTACK"
+            "WING_ATTACK",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -44271,7 +44298,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "WING_ATTACK"
+            "WING_ATTACK",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -44329,7 +44357,8 @@
         "fastMoves": [
             "QUICK_ATTACK",
             "WING_ATTACK",
-            "GUST"
+            "GUST",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BRAVE_BIRD",
@@ -44388,7 +44417,8 @@
         "fastMoves": [
             "QUICK_ATTACK",
             "WING_ATTACK",
-            "GUST"
+            "GUST",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BRAVE_BIRD",
@@ -46017,7 +46047,8 @@
         ],
         "fastMoves": [
             "BUG_BITE",
-            "CONFUSION"
+            "CONFUSION",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "BUG_BUZZ",
@@ -46639,9 +46670,6 @@
             "EARTH_POWER",
             "EARTHQUAKE"
         ],
-        "legacyMoves": [
-            "EARTHQUAKE"
-        ],
         "defaultIVs": {
             "cp500": [
                 8,
@@ -47201,7 +47229,8 @@
         "fastMoves": [
             "HEX",
             "SUCKER_PUNCH",
-            "MAGICAL_LEAF"
+            "MAGICAL_LEAF",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -47262,7 +47291,8 @@
         "fastMoves": [
             "HEX",
             "SUCKER_PUNCH",
-            "MAGICAL_LEAF"
+            "MAGICAL_LEAF",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "DARK_PULSE",
@@ -47995,7 +48025,8 @@
         ],
         "fastMoves": [
             "CONFUSION",
-            "FEINT_ATTACK"
+            "FEINT_ATTACK",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "FLASH_CANNON",
@@ -48866,7 +48897,8 @@
         ],
         "fastMoves": [
             "BITE",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BODY_SLAM",
@@ -48928,7 +48960,8 @@
         ],
         "fastMoves": [
             "BITE",
-            "TACKLE"
+            "TACKLE",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BODY_SLAM",
@@ -48991,7 +49024,8 @@
             "BITE",
             "FIRE_FANG",
             "THUNDER_FANG",
-            "ICE_FANG"
+            "ICE_FANG",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BODY_SLAM",
@@ -49051,7 +49085,8 @@
             "BITE",
             "FIRE_FANG",
             "THUNDER_FANG",
-            "ICE_FANG"
+            "ICE_FANG",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "BODY_SLAM",
@@ -50203,7 +50238,8 @@
         "fastMoves": [
             "CHARGE_BEAM",
             "SPARK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "FLASH_CANNON",
@@ -50260,7 +50296,8 @@
         "fastMoves": [
             "CHARGE_BEAM",
             "SPARK",
-            "VOLT_SWITCH"
+            "VOLT_SWITCH",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "FLASH_CANNON",
@@ -51465,7 +51502,8 @@
         "fastMoves": [
             "CONFUSION",
             "LOW_KICK",
-            "CHARM"
+            "CHARM",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
             "CLOSE_COMBAT",
@@ -51524,7 +51562,8 @@
         "fastMoves": [
             "CONFUSION",
             "LOW_KICK",
-            "CHARM"
+            "CHARM",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
             "CLOSE_COMBAT",
@@ -51560,6 +51599,7 @@
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
+        "searchPriority": 4,
         "released": true,
         "family": {
             "id": "FAMILY_RALTS",
@@ -52454,7 +52494,7 @@
             "THUNDER",
             "ROAR_OF_TIME"
         ],
-        "eliteMoves": [
+        "legacyMoves": [
             "ROAR_OF_TIME"
         ],
         "tags": [
@@ -52559,7 +52599,7 @@
             "AQUA_TAIL",
             "SPACIAL_REND"
         ],
-        "eliteMoves": [
+        "legacyMoves": [
             "SPACIAL_REND"
         ],
         "tags": [
@@ -54929,7 +54969,8 @@
         ],
         "fastMoves": [
             "TACKLE",
-            "TAKE_DOWN"
+            "TAKE_DOWN",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "THUNDERBOLT",
@@ -54981,7 +55022,8 @@
         ],
         "fastMoves": [
             "LICK",
-            "TAKE_DOWN"
+            "TAKE_DOWN",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "THUNDERBOLT",
@@ -55041,7 +55083,8 @@
         "fastMoves": [
             "LICK",
             "TAKE_DOWN",
-            "ICE_FANG"
+            "ICE_FANG",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "WILD_CHARGE",
@@ -57024,7 +57067,8 @@
         "chargedMoves": [
             "FOCUS_BLAST",
             "LOW_SWEEP",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -57080,7 +57124,8 @@
         "chargedMoves": [
             "FOCUS_BLAST",
             "LOW_SWEEP",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -57135,7 +57180,8 @@
         "chargedMoves": [
             "FOCUS_BLAST",
             "LOW_SWEEP",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -57973,7 +58019,8 @@
         "chargedMoves": [
             "EARTHQUAKE",
             "CRUNCH",
-            "OUTRAGE"
+            "OUTRAGE",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -61287,7 +61334,7 @@
                 15
             ]
         },
-        "searchPriority": 13,
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
         "released": true,
@@ -61350,7 +61397,6 @@
                 15
             ]
         },
-        "searchPriority": 13,
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
         "released": true,
@@ -61377,7 +61423,8 @@
         ],
         "fastMoves": [
             "VOLT_SWITCH",
-            "CHARGE_BEAM"
+            "CHARGE_BEAM",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "VICE_GRIP",
@@ -61429,7 +61476,8 @@
         ],
         "fastMoves": [
             "THUNDER_SHOCK",
-            "CHARGE_BEAM"
+            "CHARGE_BEAM",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "VICE_GRIP",
@@ -61482,7 +61530,8 @@
         ],
         "fastMoves": [
             "THUNDER_SHOCK",
-            "CHARGE_BEAM"
+            "CHARGE_BEAM",
+            "METAL_SOUND"
         ],
         "chargedMoves": [
             "HYPER_BEAM",
@@ -66536,7 +66585,8 @@
         "fastMoves": [
             "TAKE_DOWN",
             "BITE",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "SURF",
@@ -67118,7 +67168,8 @@
         ],
         "fastMoves": [
             "PECK",
-            "TACKLE"
+            "TACKLE",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "PSYBEAM",
@@ -67169,7 +67220,8 @@
         ],
         "fastMoves": [
             "PECK",
-            "PSYCHO_CUT"
+            "PSYCHO_CUT",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "PSYBEAM",
@@ -68197,7 +68249,8 @@
             "DRACO_METEOR",
             "SLUDGE_WAVE",
             "MUDDY_WATER",
-            "POWER_WHIP"
+            "POWER_WHIP",
+            "AQUA_TAIL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -70701,7 +70754,8 @@
         "chargedMoves": [
             "POWER_UP_PUNCH",
             "CRABHAMMER",
-            "PAYBACK"
+            "PAYBACK",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -70760,7 +70814,8 @@
             "POWER_UP_PUNCH",
             "CRABHAMMER",
             "PAYBACK",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -71726,7 +71781,8 @@
         "chargedMoves": [
             "BUG_BUZZ",
             "BUBBLE_BEAM",
-            "MIRROR_COAT"
+            "MIRROR_COAT",
+            "WATER_PULSE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -72645,7 +72701,8 @@
         ],
         "fastMoves": [
             "ASTONISH",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "SAND_TOMB",
@@ -72698,7 +72755,8 @@
         ],
         "fastMoves": [
             "ASTONISH",
-            "MUD_SHOT"
+            "MUD_SHOT",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "SAND_TOMB",
@@ -74267,7 +74325,8 @@
             "evolutions": [
                 "kommo_o"
             ]
-        }
+        },
+        "searchPriority": 3
     },
     {
         "dex": 784,
@@ -74290,7 +74349,8 @@
             "DRAGON_CLAW",
             "CLOSE_COMBAT",
             "FLAMETHROWER",
-            "BOOMBURST"
+            "BOOMBURST",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74342,7 +74402,11 @@
             "THUNDERBOLT",
             "DAZZLING_GLEAM",
             "BRAVE_BIRD",
-            "THUNDER"
+            "THUNDER",
+            "NATURES_MADNESS"
+        ],
+        "eliteMoves": [
+            "NATURES_MADNESS"
         ],
         "defaultIVs": {
             "cp500": [
@@ -75386,11 +75450,12 @@
             ]
         },
         "tags": [
-            "ultrabeast"
+            "ultrabeast",
+            "untradeable"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_POIPOLE",
             "evolutions": [
