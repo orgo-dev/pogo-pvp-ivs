@@ -3358,6 +3358,60 @@
         }
     },
     {
+        "dex": 25,
+        "speciesName": "Pikachu (Horizons)",
+        "speciesId": "pikachu_horizons",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": [
+            "electric",
+            "none"
+        ],
+        "fastMoves": [
+            "THUNDER_SHOCK",
+            "QUICK_ATTACK"
+        ],
+        "chargedMoves": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE",
+            "VOLT_TACKLE"
+        ],
+        "eliteMoves": [
+            "VOLT_TACKLE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                20,
+                7,
+                15,
+                13
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIKACHU",
+            "parent": "pichu"
+        }
+    },
+    {
         "dex": 26,
         "speciesName": "Raichu",
         "speciesId": "raichu",
@@ -52005,7 +52059,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 479,
@@ -83860,7 +83914,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CHARCADET",
             "evolutions": [
@@ -83914,7 +83968,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CHARCADET",
             "parent": "charcadet"
@@ -83965,7 +84019,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CHARCADET",
             "parent": "charcadet"

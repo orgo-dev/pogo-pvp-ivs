@@ -57,6 +57,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 25,pikachu_pop_star,Pikachu (Pop Star),112,96,111,"['electric', 'none']","['THUNDER_SHOCK', 'CHARM']","['DRAINING_KISS', 'THUNDER_PUNCH', 'PLAY_ROUGH']",nan,nan,1.0,10000,True,FAMILY_PIKACHU,nan,pichu,nan
 25,pikachu_rock_star,Pikachu (Rock Star),112,96,111,"['electric', 'none']","['THUNDER_SHOCK', 'CHARM']","['METEOR_MASH', 'THUNDER_PUNCH', 'PLAY_ROUGH']",nan,nan,1.0,10000,True,FAMILY_PIKACHU,nan,pichu,nan
 25,pikachu_shaymin,Pikachu (Shaymin Scarf),112,96,111,"['electric', 'none']","['PRESENT', 'QUICK_ATTACK', 'THUNDER_SHOCK']","['DISCHARGE', 'SURF', 'THUNDER', 'THUNDERBOLT', 'WILD_CHARGE', 'GRASS_KNOT']","['PRESENT', 'SURF', 'THUNDER']",nan,1.0,10000,True,FAMILY_PIKACHU,['raichu'],pichu,nan
+25,pikachu_horizons,Pikachu (Horizons),112,96,111,"['electric', 'none']","['THUNDER_SHOCK', 'QUICK_ATTACK']","['DISCHARGE', 'THUNDERBOLT', 'WILD_CHARGE', 'VOLT_TACKLE']",['VOLT_TACKLE'],nan,1.0,10000,True,FAMILY_PIKACHU,nan,pichu,nan
 26,raichu,Raichu,193,151,155,"['electric', 'none']","['SPARK', 'THUNDER_SHOCK', 'VOLT_SWITCH', 'CHARM']","['BRICK_BREAK', 'THUNDER', 'THUNDER_PUNCH', 'WILD_CHARGE', 'SKULL_BASH', 'TRAILBLAZE']",['THUNDER'],nan,1.0,10000,True,FAMILY_PIKACHU,nan,pikachu,nan
 26,raichu_alolan,Raichu (Alolan),201,154,155,"['electric', 'psychic']","['SPARK', 'VOLT_SWITCH', 'THUNDER_SHOCK']","['PSYCHIC', 'THUNDER_PUNCH', 'WILD_CHARGE', 'GRASS_KNOT', 'TRAILBLAZE']",nan,nan,1.0,10000,True,FAMILY_PIKACHU,nan,pikachu,['alolan']
 27,sandshrew,Sandshrew,126,120,137,"['ground', 'none']","['MUD_SHOT', 'SCRATCH', 'SAND_ATTACK']","['DIG', 'ROCK_SLIDE', 'ROCK_TOMB', 'SAND_TOMB', 'RETURN']",['ROCK_TOMB'],nan,3.0,50000,True,FAMILY_SANDSHREW,['sandslash'],,['shadoweligible']
@@ -887,7 +888,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 477,dusknoir_shadow,Dusknoir (Shadow),180,254,128,"['ghost', 'none']","['ASTONISH', 'HEX']","['DARK_PULSE', 'OMINOUS_WIND', 'PSYCHIC', 'SHADOW_BALL', 'POLTERGEIST', 'FRUSTRATION']",['SHADOW_BALL'],nan,3.0,50000,True,FAMILY_DUSKULL,nan,dusclops_shadow,['shadow']
 478,froslass,Froslass,171,150,172,"['ice', 'ghost']","['HEX', 'POWDER_SNOW']","['AVALANCHE', 'CRUNCH', 'SHADOW_BALL', 'TRIPLE_AXEL', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SNORUNT,nan,snorunt,['shadoweligible']
 478,froslass_shadow,Froslass (Shadow),171,150,172,"['ice', 'ghost']","['HEX', 'POWDER_SNOW']","['AVALANCHE', 'CRUNCH', 'SHADOW_BALL', 'TRIPLE_AXEL', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_SNORUNT,nan,snorunt_shadow,['shadow']
-479,rotom,Rotom,185,159,137,"['electric', 'ghost']","['ASTONISH', 'THUNDER_SHOCK']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5.0,75000,False,,nan,,nan
+479,rotom,Rotom,185,159,137,"['electric', 'ghost']","['ASTONISH', 'THUNDER_SHOCK']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5.0,75000,True,,nan,,nan
 479,rotom_fan,Rotom (Fan),204,219,137,"['electric', 'flying']","['AIR_SLASH', 'ASTONISH']","['OMINOUS_WIND', 'THUNDER', 'THUNDERBOLT']",nan,nan,5.0,75000,False,,nan,,nan
 479,rotom_frost,Rotom (Frost),204,219,137,"['electric', 'ice']","['ASTONISH', 'THUNDER_SHOCK']","['BLIZZARD', 'THUNDER', 'THUNDERBOLT']",nan,nan,5.0,75000,True,,nan,,nan
 479,rotom_heat,Rotom (Heat),204,219,137,"['electric', 'fire']","['ASTONISH', 'THUNDER_SHOCK']","['OVERHEAT', 'THUNDER', 'THUNDERBOLT']",nan,nan,5.0,75000,False,,nan,,nan
@@ -1486,9 +1487,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 932,nacli,Nacli,95,108,146,"['rock', 'none']","['ROCK_THROW', 'MUD_SHOT']","['ROCK_BLAST', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5.0,50000,False,FAMILY_NACLI,['naclstack'],,nan
 933,naclstack,Naclstack,105,160,155,"['rock', 'none']","['SMACK_DOWN', 'MUD_SHOT']","['ROCK_BLAST', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5.0,50000,False,FAMILY_NACLI,['garganacl'],nacli,nan
 934,garganacl,Garganacl,171,212,225,"['rock', 'none']","['SMACK_DOWN', 'MUD_SHOT']","['ROCK_SLIDE', 'ROCK_TOMB', 'ANCIENT_POWER']",nan,nan,5.0,50000,False,FAMILY_NACLI,nan,naclstack,nan
-935,charcadet,Charcadet,92,74,120,"['fire', 'none']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER']",nan,nan,5.0,50000,False,FAMILY_CHARCADET,"['armarouge', 'ceruledge']",,nan
-936,armarouge,Armarouge,234,185,198,"['fire', 'psychic']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'PSYSHOCK']",nan,nan,5.0,50000,False,FAMILY_CHARCADET,nan,charcadet,nan
-937,ceruledge,Ceruledge,239,189,181,"['fire', 'ghost']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5.0,50000,False,FAMILY_CHARCADET,nan,charcadet,nan
+935,charcadet,Charcadet,92,74,120,"['fire', 'none']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER']",nan,nan,5.0,50000,True,FAMILY_CHARCADET,"['armarouge', 'ceruledge']",,nan
+936,armarouge,Armarouge,234,185,198,"['fire', 'psychic']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'PSYSHOCK']",nan,nan,5.0,50000,True,FAMILY_CHARCADET,nan,charcadet,nan
+937,ceruledge,Ceruledge,239,189,181,"['fire', 'ghost']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5.0,50000,True,FAMILY_CHARCADET,nan,charcadet,nan
 938,tadbulb,Tadbulb,104,73,156,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1.0,50000,True,FAMILY_TADBULB,['bellibolt'],,nan
 939,bellibolt,Bellibolt,184,165,240,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1.0,50000,True,FAMILY_TADBULB,nan,tadbulb,nan
 940,wattrel,Wattrel,105,75,120,"['electric', 'flying']","['THUNDER_SHOCK', 'PECK']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1.0,10000,False,FAMILY_WATTREL,['kilowattrel'],,nan

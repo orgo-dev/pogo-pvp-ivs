@@ -279,6 +279,7 @@ V_CREATE,V-Create,charged,fire,95,0,1,,,40,2.38,100% chance -3 Def self,Self-Deb
 VICE_GRIP,Vise Grip,charged,normal,40,0,1,,,40,1.0,,Spam/Bait,nan,,,nan,nan
 VINE_WHIP,Vine Whip,fast,grass,5,8,2,2.5,4.0,0,,,Fast Charge,nan,,,nan,nan
 VOLT_SWITCH,Volt Switch,fast,electric,12,16,4,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
+VOLT_TACKLE,Volt Tackle,charged,electric,90,0,1,,,50,1.8,100% chance -1 Def self,Self-Debuff,"[0, -1]",self,1,nan,nan
 WATER_GUN,Water Gun,fast,water,3,3,1,3.0,3.0,0,,,General,nan,,,nan,nan
 WATER_GUN_FAST_BLASTOISE,Water Gun Fast Blastoise,fast,water,6,4,2,3.0,2.0,0,,,Low Quality,nan,,,nan,nan
 WATER_PULSE,Water Pulse,charged,water,80,0,1,,,55,1.45,,General,nan,,,nan,nan
