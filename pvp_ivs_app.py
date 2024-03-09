@@ -178,7 +178,8 @@ def parse_ivs(ivs):
         return []
     iv_names = ["iv_attack", "iv_defense", "iv_stamina"]
     return [
-        dict(zip(iv_names, map(int, re.findall(r"\d+", iv)))) for iv in ivs.split(",")
+        dict(zip(iv_names, map(int, re.findall(r"\d+", iv))))
+        for iv in re.findall(r"\d+/\d+/\d+", ivs)
     ]
 
 
@@ -211,7 +212,7 @@ def get_league_pokemon_df(
 
     # add ivs col
     iv_cols = ["iv_attack", "iv_defense", "iv_stamina"]
-    df["IVs"] = df[iv_cols].apply(lambda row: "/".join(row.values.astype(str)), axis=1)
+    df["IVs"] = df[iv_cols].astype(str).apply(lambda row: "/".join(row.values), axis=1)
 
     # stats/bulk products
     df["stats_prod"] = (
@@ -250,9 +251,8 @@ def get_league_pokemon_df(
     df["is_efficient_best_buddy"] = get_pareto_efficient_stats(df[stat_cols].values)
     if df["level"].max() > MAX_LEVEL:
         max_level_idx = df[df.level <= MAX_LEVEL].index
-        df.loc[max_level_idx, "is_efficient_max_level"] = get_pareto_efficient_stats(
-            df.loc[max_level_idx, stat_cols].values
-        )
+        is_eff = get_pareto_efficient_stats(df.loc[max_level_idx, stat_cols].values)
+        df.loc[max_level_idx, "is_efficient_max_level"] = is_eff
         df["is_efficient_max_level"].fillna(False, inplace=True)
     else:
         df["is_efficient_max_level"] = df["is_efficient_best_buddy"]
