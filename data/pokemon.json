@@ -70160,7 +70160,12 @@
             "FIRE_BLAST",
             "FLAME_CHARGE",
             "DARK_PULSE",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "BLAST_BURN",
+            "DARKEST_LARIAT"
+        ],
+        "eliteMoves": [
+            "BLAST_BURN"
         ],
         "defaultIVs": {
             "cp500": [
@@ -70191,7 +70196,8 @@
         "family": {
             "id": "FAMILY_LITTEN",
             "parent": "torracat"
-        }
+        },
+        "searchPriority": 2
     },
     {
         "dex": 728,
