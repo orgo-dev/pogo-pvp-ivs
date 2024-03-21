@@ -913,7 +913,7 @@
             "FLAMETHROWER",
             "DRAGON_BREATH"
         ],
-        "searchPriority": 12,
+        "searchPriority": 10,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -1981,7 +1981,66 @@
             "evolutions": [
                 "pidgeotto"
             ]
-        }
+        },
+        "level25CP": 354,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 16,
+        "speciesName": "Pidgey (Shadow)",
+        "speciesId": "pidgey_shadow",
+        "baseStats": {
+            "atk": 85,
+            "def": 73,
+            "hp": 120
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "QUICK_ATTACK",
+            "TACKLE"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "AIR_CUTTER",
+            "TWISTER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                29.5,
+                4,
+                14,
+                10
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDGEY",
+            "evolutions": [
+                "pidgeotto_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 17,
@@ -2034,7 +2093,67 @@
             "evolutions": [
                 "pidgeot"
             ]
-        }
+        },
+        "level25CP": 676,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 17,
+        "speciesName": "Pidgeotto (Shadow)",
+        "speciesId": "pidgeotto_shadow",
+        "baseStats": {
+            "atk": 117,
+            "def": 105,
+            "hp": 160
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "STEEL_WING",
+            "WING_ATTACK"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "AIR_CUTTER",
+            "TWISTER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                16,
+                6,
+                11,
+                15
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDGEY",
+            "parent": "pidgey_shadow",
+            "evolutions": [
+                "pidgeot_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 18,
@@ -2094,7 +2213,11 @@
         "family": {
             "id": "FAMILY_PIDGEY",
             "parent": "pidgeotto"
-        }
+        },
+        "level25CP": 1283,
+        "tags": [
+            "shadoweligible"
+        ]
     },
     {
         "dex": 18,
@@ -2157,6 +2280,69 @@
             "id": "FAMILY_PIDGEY",
             "parent": "pidgeotto"
         }
+    },
+    {
+        "dex": 18,
+        "speciesName": "Pidgeot (Shadow)",
+        "speciesId": "pidgeot_shadow",
+        "baseStats": {
+            "atk": 166,
+            "def": 154,
+            "hp": 195
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "AIR_SLASH",
+            "STEEL_WING",
+            "WING_ATTACK",
+            "GUST"
+        ],
+        "chargedMoves": [
+            "AERIAL_ACE",
+            "AIR_CUTTER",
+            "BRAVE_BIRD",
+            "HURRICANE",
+            "FEATHER_DANCE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                9,
+                5,
+                11,
+                9
+            ],
+            "cp1500": [
+                26,
+                6,
+                13,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "eliteMoves": [
+            "WING_ATTACK",
+            "AIR_CUTTER",
+            "GUST"
+        ],
+        "searchPriority": 2,
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDGEY",
+            "parent": "pidgeotto_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 19,
@@ -3101,6 +3287,60 @@
     },
     {
         "dex": 25,
+        "speciesName": "Pikachu (Horizons)",
+        "speciesId": "pikachu_horizons",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": [
+            "electric",
+            "none"
+        ],
+        "fastMoves": [
+            "THUNDER_SHOCK",
+            "QUICK_ATTACK"
+        ],
+        "chargedMoves": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE",
+            "VOLT_TACKLE"
+        ],
+        "eliteMoves": [
+            "VOLT_TACKLE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                20,
+                7,
+                15,
+                13
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIKACHU",
+            "parent": "pichu"
+        }
+    },
+    {
+        "dex": 25,
         "speciesName": "Pikachu (Kariyushi)",
         "speciesId": "pikachu_kariyushi",
         "baseStats": {
@@ -3355,60 +3595,6 @@
             "evolutions": [
                 "raichu"
             ]
-        }
-    },
-    {
-        "dex": 25,
-        "speciesName": "Pikachu (Horizons)",
-        "speciesId": "pikachu_horizons",
-        "baseStats": {
-            "atk": 112,
-            "def": 96,
-            "hp": 111
-        },
-        "types": [
-            "electric",
-            "none"
-        ],
-        "fastMoves": [
-            "THUNDER_SHOCK",
-            "QUICK_ATTACK"
-        ],
-        "chargedMoves": [
-            "DISCHARGE",
-            "THUNDERBOLT",
-            "WILD_CHARGE",
-            "VOLT_TACKLE"
-        ],
-        "eliteMoves": [
-            "VOLT_TACKLE"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                20,
-                7,
-                15,
-                13
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 1,
-        "thirdMoveCost": 10000,
-        "released": true,
-        "family": {
-            "id": "FAMILY_PIKACHU",
-            "parent": "pichu"
         }
     },
     {
@@ -6589,9 +6775,9 @@
             "none"
         ],
         "fastMoves": [
+            "MUD_SHOT",
             "MUD_SLAP",
-            "SCRATCH",
-            "MUD_SHOT"
+            "SCRATCH"
         ],
         "chargedMoves": [
             "DIG",
@@ -6819,9 +7005,9 @@
             "none"
         ],
         "fastMoves": [
+            "MUD_SHOT",
             "MUD_SLAP",
-            "SUCKER_PUNCH",
-            "MUD_SHOT"
+            "SUCKER_PUNCH"
         ],
         "chargedMoves": [
             "EARTHQUAKE",
@@ -10182,9 +10368,9 @@
             "ground"
         ],
         "fastMoves": [
+            "MUD_SHOT",
             "MUD_SLAP",
-            "ROCK_THROW",
-            "MUD_SHOT"
+            "ROCK_THROW"
         ],
         "chargedMoves": [
             "DIG",
@@ -10420,9 +10606,9 @@
             "ground"
         ],
         "fastMoves": [
+            "MUD_SHOT",
             "MUD_SLAP",
-            "ROCK_THROW",
-            "MUD_SHOT"
+            "ROCK_THROW"
         ],
         "chargedMoves": [
             "ANCIENT_POWER",
@@ -19217,8 +19403,7 @@
         "nicknames": [
             "dnair",
             "nair"
-        ],
-        "searchPriority": 6
+        ]
     },
     {
         "dex": 149,
@@ -20755,7 +20940,8 @@
         "family": {
             "id": "FAMILY_TOTODILE",
             "parent": "croconaw_shadow"
-        }
+        },
+        "searchPriority": 8
     },
     {
         "dex": 161,
@@ -25199,7 +25385,8 @@
             "evolutions": [
                 "gliscor_shadow"
             ]
-        }
+        },
+        "searchPriority": 6
     },
     {
         "dex": 208,
@@ -36144,7 +36331,8 @@
         },
         "tags": [
             "shadoweligible",
-            "shadow"
+            "shadow",
+            "include1500"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -38158,7 +38346,7 @@
                 15
             ]
         },
-        "searchPriority": 8,
+        "searchPriority": 10,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -38591,7 +38779,8 @@
         ],
         "fastMoves": [
             "ACID",
-            "INFESTATION"
+            "INFESTATION",
+            "BULLET_SEED"
         ],
         "chargedMoves": [
             "ANCIENT_POWER",
@@ -42651,7 +42840,8 @@
             "FIRE_PUNCH"
         ],
         "tags": [
-            "legendary"
+            "legendary",
+            "shadoweligible"
         ],
         "defaultIVs": {
             "cp500": [
@@ -42676,7 +42866,8 @@
         "searchPriority": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": true
+        "released": true,
+        "level25CP": 2604
     },
     {
         "dex": 383,
@@ -42728,6 +42919,63 @@
                 4,
                 13,
                 9
+            ]
+        },
+        "searchPriority": 20,
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": true
+    },
+    {
+        "dex": 383,
+        "speciesName": "Groudon (Shadow)",
+        "speciesId": "groudon_shadow",
+        "baseStats": {
+            "atk": 270,
+            "def": 228,
+            "hp": 205
+        },
+        "types": [
+            "ground",
+            "none"
+        ],
+        "fastMoves": [
+            "DRAGON_TAIL",
+            "MUD_SHOT"
+        ],
+        "chargedMoves": [
+            "EARTHQUAKE",
+            "FIRE_BLAST",
+            "SOLAR_BEAM",
+            "FIRE_PUNCH",
+            "PRECIPICE_BLADES"
+        ],
+        "eliteMoves": [
+            "PRECIPICE_BLADES",
+            "FIRE_PUNCH"
+        ],
+        "tags": [
+            "legendary",
+            "shadow"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                4.5,
+                15,
+                15,
+                14
+            ],
+            "cp1500": [
+                13.5,
+                6,
+                10,
+                9
+            ],
+            "cp2500": [
+                22.5,
+                5,
+                14,
+                7
             ]
         },
         "searchPriority": 20,
@@ -51653,7 +51901,6 @@
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "searchPriority": 4,
         "released": true,
         "family": {
             "id": "FAMILY_RALTS",
@@ -55887,7 +56134,66 @@
             "evolutions": [
                 "tranquill"
             ]
-        }
+        },
+        "level25CP": 457,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 519,
+        "speciesId": "pidove_shadow",
+        "speciesName": "Pidove (Shadow)",
+        "baseStats": {
+            "atk": 98,
+            "def": 80,
+            "hp": 137
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "QUICK_ATTACK",
+            "AIR_SLASH"
+        ],
+        "chargedMoves": [
+            "HEAT_WAVE",
+            "AERIAL_ACE",
+            "AIR_CUTTER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                23,
+                5,
+                12,
+                15
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDOVE",
+            "evolutions": [
+                "tranquill_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 520,
@@ -55946,7 +56252,73 @@
             "evolutions": [
                 "unfezant"
             ]
-        }
+        },
+        "level25CP": 835,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 520,
+        "speciesId": "tranquill_shadow",
+        "speciesName": "Tranquill (Shadow)",
+        "baseStats": {
+            "atk": 144,
+            "def": 107,
+            "hp": 158
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "AIR_SLASH",
+            "STEEL_WING"
+        ],
+        "chargedMoves": [
+            "HEAT_WAVE",
+            "AERIAL_ACE",
+            "SKY_ATTACK"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                13,
+                5,
+                14,
+                13
+            ],
+            "cp1500": [
+                49.5,
+                4,
+                14,
+                13
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp1500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDOVE",
+            "parent": "pidove_shadow",
+            "evolutions": [
+                "unfezant_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 521,
@@ -55996,7 +56368,64 @@
         "family": {
             "id": "FAMILY_PIDOVE",
             "parent": "tranquill"
-        }
+        },
+        "level25CP": 1679,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 521,
+        "speciesId": "unfezant_shadow",
+        "speciesName": "Unfezant (Shadow)",
+        "baseStats": {
+            "atk": 226,
+            "def": 146,
+            "hp": 190
+        },
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "fastMoves": [
+            "AIR_SLASH",
+            "STEEL_WING"
+        ],
+        "chargedMoves": [
+            "HEAT_WAVE",
+            "HYPER_BEAM",
+            "SKY_ATTACK"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                7,
+                4,
+                11,
+                12
+            ],
+            "cp1500": [
+                20,
+                7,
+                15,
+                11
+            ],
+            "cp2500": [
+                37.5,
+                5,
+                11,
+                15
+            ]
+        },
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIDOVE",
+            "parent": "tranquill_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 522,
@@ -57285,7 +57714,8 @@
         "chargedMoves": [
             "FOCUS_BLAST",
             "LOW_SWEEP",
-            "BODY_SLAM"
+            "BODY_SLAM",
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -58380,7 +58810,11 @@
         "family": {
             "id": "FAMILY_DARUMAKA",
             "parent": "darumaka"
-        }
+        },
+        "level25CP": 1912,
+        "tags": [
+            "shadoweligible"
+        ]
     },
     {
         "dex": 555,
@@ -58433,6 +58867,62 @@
             "id": "FAMILY_DARUMAKA",
             "parent": "darumaka"
         }
+    },
+    {
+        "dex": 555,
+        "speciesId": "darmanitan_standard_shadow",
+        "speciesName": "Darmanitan (Standard) (Shadow)",
+        "baseStats": {
+            "atk": 263,
+            "def": 114,
+            "hp": 233
+        },
+        "types": [
+            "fire",
+            "none"
+        ],
+        "fastMoves": [
+            "TACKLE",
+            "FIRE_FANG",
+            "INCINERATE"
+        ],
+        "chargedMoves": [
+            "OVERHEAT",
+            "FOCUS_BLAST",
+            "PSYCHIC",
+            "ROCK_SLIDE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                6,
+                6,
+                15,
+                15
+            ],
+            "cp1500": [
+                18,
+                4,
+                12,
+                9
+            ],
+            "cp2500": [
+                29.5,
+                4,
+                15,
+                10
+            ]
+        },
+        "searchPriority": 2,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_DARUMAKA",
+            "parent": "darumaka"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 556,
@@ -59643,7 +60133,66 @@
             "evolutions": [
                 "gothorita"
             ]
-        }
+        },
+        "level25CP": 523,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 574,
+        "speciesId": "gothita_shadow",
+        "speciesName": "Gothita (Shadow)",
+        "baseStats": {
+            "atk": 98,
+            "def": 112,
+            "hp": 128
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "POUND",
+            "CONFUSION"
+        ],
+        "chargedMoves": [
+            "PSYBEAM",
+            "PSYSHOCK",
+            "PSYCHIC"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                21,
+                4,
+                15,
+                7
+            ],
+            "cp1500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_GOTHITA",
+            "evolutions": [
+                "gothorita_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 575,
@@ -59702,7 +60251,73 @@
             "evolutions": [
                 "gothitelle"
             ]
-        }
+        },
+        "level25CP": 941,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 575,
+        "speciesId": "gothorita_shadow",
+        "speciesName": "Gothorita (Shadow)",
+        "baseStats": {
+            "atk": 137,
+            "def": 153,
+            "hp": 155
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "POUND",
+            "CONFUSION"
+        ],
+        "chargedMoves": [
+            "PSYBEAM",
+            "FUTURE_SIGHT",
+            "PSYCHIC"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                12,
+                4,
+                10,
+                12
+            ],
+            "cp1500": [
+                41.5,
+                4,
+                11,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp1500l40": [
+                37,
+                12,
+                14,
+                14
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_GOTHITA",
+            "parent": "gothita_shadow",
+            "evolutions": [
+                "gothitelle_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 576,
@@ -59758,7 +60373,70 @@
         "family": {
             "id": "FAMILY_GOTHITA",
             "parent": "gothorita"
-        }
+        },
+        "level25CP": 1474,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 576,
+        "speciesId": "gothitelle_shadow",
+        "speciesName": "Gothitelle (Shadow)",
+        "baseStats": {
+            "atk": 176,
+            "def": 205,
+            "hp": 172
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "CHARM",
+            "CONFUSION"
+        ],
+        "chargedMoves": [
+            "ROCK_SLIDE",
+            "FUTURE_SIGHT",
+            "PSYCHIC"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                8,
+                4,
+                5,
+                12
+            ],
+            "cp1500": [
+                23.5,
+                4,
+                7,
+                14
+            ],
+            "cp2500": [
+                47.5,
+                4,
+                15,
+                13
+            ],
+            "cp2500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_GOTHITA",
+            "parent": "gothorita_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 577,
@@ -59831,7 +60509,87 @@
             "evolutions": [
                 "duosion"
             ]
-        }
+        },
+        "level25CP": 781,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 577,
+        "speciesId": "solosis_shadow",
+        "speciesName": "Solosis (Shadow)",
+        "baseStats": {
+            "atk": 170,
+            "def": 83,
+            "hp": 128
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "HIDDEN_POWER_BUG",
+            "HIDDEN_POWER_DARK",
+            "HIDDEN_POWER_DRAGON",
+            "HIDDEN_POWER_ELECTRIC",
+            "HIDDEN_POWER_FIGHTING",
+            "HIDDEN_POWER_FIRE",
+            "HIDDEN_POWER_FLYING",
+            "HIDDEN_POWER_GHOST",
+            "HIDDEN_POWER_GRASS",
+            "HIDDEN_POWER_GROUND",
+            "HIDDEN_POWER_ICE",
+            "HIDDEN_POWER_POISON",
+            "HIDDEN_POWER_PSYCHIC",
+            "HIDDEN_POWER_ROCK",
+            "HIDDEN_POWER_STEEL",
+            "HIDDEN_POWER_WATER",
+            "ZEN_HEADBUTT"
+        ],
+        "chargedMoves": [
+            "PSYSHOCK",
+            "NIGHT_SHADE",
+            "THUNDER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                14,
+                4,
+                12,
+                11
+            ],
+            "cp1500": [
+                50,
+                12,
+                12,
+                15
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ],
+            "cp1500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_SOLOSIS",
+            "evolutions": [
+                "duosion_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 578,
@@ -59899,7 +60657,82 @@
             "evolutions": [
                 "reuniclus"
             ]
-        }
+        },
+        "level25CP": 1202,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 578,
+        "speciesId": "duosion_shadow",
+        "speciesName": "Duosion (Shadow)",
+        "baseStats": {
+            "atk": 208,
+            "def": 103,
+            "hp": 163
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "HIDDEN_POWER_BUG",
+            "HIDDEN_POWER_DARK",
+            "HIDDEN_POWER_DRAGON",
+            "HIDDEN_POWER_ELECTRIC",
+            "HIDDEN_POWER_FIGHTING",
+            "HIDDEN_POWER_FIRE",
+            "HIDDEN_POWER_FLYING",
+            "HIDDEN_POWER_GHOST",
+            "HIDDEN_POWER_GRASS",
+            "HIDDEN_POWER_GROUND",
+            "HIDDEN_POWER_ICE",
+            "HIDDEN_POWER_POISON",
+            "HIDDEN_POWER_PSYCHIC",
+            "HIDDEN_POWER_ROCK",
+            "HIDDEN_POWER_STEEL",
+            "HIDDEN_POWER_WATER",
+            "ZEN_HEADBUTT"
+        ],
+        "chargedMoves": [
+            "PSYSHOCK",
+            "NIGHT_SHADE",
+            "THUNDER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                9,
+                10,
+                14,
+                14
+            ],
+            "cp1500": [
+                27.5,
+                5,
+                15,
+                10
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_SOLOSIS",
+            "parent": "solosis_shadow",
+            "evolutions": [
+                "reuniclus_shadow"
+            ]
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 579,
@@ -59964,7 +60797,79 @@
         "family": {
             "id": "FAMILY_SOLOSIS",
             "parent": "duosion"
-        }
+        },
+        "level25CP": 1806,
+        "tags": [
+            "shadoweligible"
+        ]
+    },
+    {
+        "dex": 579,
+        "speciesId": "reuniclus_shadow",
+        "speciesName": "Reuniclus (Shadow)",
+        "baseStats": {
+            "atk": 214,
+            "def": 148,
+            "hp": 242
+        },
+        "types": [
+            "psychic",
+            "none"
+        ],
+        "fastMoves": [
+            "HIDDEN_POWER_BUG",
+            "HIDDEN_POWER_DARK",
+            "HIDDEN_POWER_DRAGON",
+            "HIDDEN_POWER_ELECTRIC",
+            "HIDDEN_POWER_FIGHTING",
+            "HIDDEN_POWER_FIRE",
+            "HIDDEN_POWER_FLYING",
+            "HIDDEN_POWER_GHOST",
+            "HIDDEN_POWER_GRASS",
+            "HIDDEN_POWER_GROUND",
+            "HIDDEN_POWER_ICE",
+            "HIDDEN_POWER_POISON",
+            "HIDDEN_POWER_PSYCHIC",
+            "HIDDEN_POWER_ROCK",
+            "HIDDEN_POWER_STEEL",
+            "HIDDEN_POWER_WATER",
+            "ZEN_HEADBUTT"
+        ],
+        "chargedMoves": [
+            "FUTURE_SIGHT",
+            "SHADOW_BALL",
+            "THUNDER"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                6.5,
+                5,
+                15,
+                10
+            ],
+            "cp1500": [
+                18.5,
+                8,
+                15,
+                15
+            ],
+            "cp2500": [
+                33,
+                5,
+                14,
+                12
+            ]
+        },
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_SOLOSIS",
+            "parent": "duosion_shadow"
+        },
+        "tags": [
+            "shadow"
+        ]
     },
     {
         "dex": 580,
@@ -61451,6 +62356,7 @@
                 15
             ]
         },
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
         "released": true,
@@ -70728,7 +71634,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "searchPriority": 11,
+        "searchPriority": 12,
         "released": true,
         "family": {
             "id": "FAMILY_GRUBBIN",
@@ -74520,7 +75426,11 @@
             "PSYSHOCK",
             "MOONBLAST",
             "FOCUS_BLAST",
-            "FUTURE_SIGHT"
+            "FUTURE_SIGHT",
+            "NATURES_MADNESS"
+        ],
+        "eliteMoves": [
+            "NATURES_MADNESS"
         ],
         "defaultIVs": {
             "cp500": [

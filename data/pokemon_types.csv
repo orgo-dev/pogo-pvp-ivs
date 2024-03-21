@@ -65,12 +65,18 @@ Beedrill (Shadow),bug
 Beedrill (Shadow),poison
 Pidgey,normal
 Pidgey,flying
+Pidgey (Shadow),normal
+Pidgey (Shadow),flying
 Pidgeotto,normal
 Pidgeotto,flying
+Pidgeotto (Shadow),normal
+Pidgeotto (Shadow),flying
 Pidgeot,normal
 Pidgeot,flying
 Pidgeot (Mega),normal
 Pidgeot (Mega),flying
+Pidgeot (Shadow),normal
+Pidgeot (Shadow),flying
 Rattata,normal
 Rattata,none
 Rattata (Alolan),dark
@@ -105,6 +111,8 @@ Pikachu (5th Anniversary),electric
 Pikachu (5th Anniversary),none
 Pikachu (Flying),electric
 Pikachu (Flying),none
+Pikachu (Horizons),electric
+Pikachu (Horizons),none
 Pikachu (Kariyushi),electric
 Pikachu (Kariyushi),none
 Pikachu (Libre),electric
@@ -115,8 +123,6 @@ Pikachu (Rock Star),electric
 Pikachu (Rock Star),none
 Pikachu (Shaymin Scarf),electric
 Pikachu (Shaymin Scarf),none
-Pikachu (Horizons),electric
-Pikachu (Horizons),none
 Raichu,electric
 Raichu,none
 Raichu (Alolan),electric
@@ -1455,6 +1461,8 @@ Groudon,ground
 Groudon,none
 Groudon (Primal),fire
 Groudon (Primal),ground
+Groudon (Shadow),ground
+Groudon (Shadow),none
 Rayquaza,dragon
 Rayquaza,flying
 Rayquaza (Mega),dragon
@@ -1923,10 +1931,16 @@ Musharna,psychic
 Musharna,none
 Pidove,normal
 Pidove,flying
+Pidove (Shadow),normal
+Pidove (Shadow),flying
 Tranquill,normal
 Tranquill,flying
+Tranquill (Shadow),normal
+Tranquill (Shadow),flying
 Unfezant,normal
 Unfezant,flying
+Unfezant (Shadow),normal
+Unfezant (Shadow),flying
 Blitzle,electric
 Blitzle,none
 Blitzle (Shadow),electric
@@ -2015,6 +2029,8 @@ Darmanitan (Standard),fire
 Darmanitan (Standard),none
 Darmanitan (Zen),fire
 Darmanitan (Zen),psychic
+Darmanitan (Standard) (Shadow),fire
+Darmanitan (Standard) (Shadow),none
 Maractus,grass
 Maractus,none
 Dwebble,bug
@@ -2059,16 +2075,28 @@ Cinccino,normal
 Cinccino,none
 Gothita,psychic
 Gothita,none
+Gothita (Shadow),psychic
+Gothita (Shadow),none
 Gothorita,psychic
 Gothorita,none
+Gothorita (Shadow),psychic
+Gothorita (Shadow),none
 Gothitelle,psychic
 Gothitelle,none
+Gothitelle (Shadow),psychic
+Gothitelle (Shadow),none
 Solosis,psychic
 Solosis,none
+Solosis (Shadow),psychic
+Solosis (Shadow),none
 Duosion,psychic
 Duosion,none
+Duosion (Shadow),psychic
+Duosion (Shadow),none
 Reuniclus,psychic
 Reuniclus,none
+Reuniclus (Shadow),psychic
+Reuniclus (Shadow),none
 Ducklett,water
 Ducklett,flying
 Ducklett (Shadow),water

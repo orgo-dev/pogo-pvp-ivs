@@ -593,6 +593,24 @@ Pidgey,ice,1.6
 Pidgey,dragon,1.0
 Pidgey,dark,1.0
 Pidgey,fairy,1.0
+Pidgey (Shadow),normal,1.0
+Pidgey (Shadow),fighting,1.0
+Pidgey (Shadow),flying,1.0
+Pidgey (Shadow),poison,1.0
+Pidgey (Shadow),ground,0.391
+Pidgey (Shadow),rock,1.6
+Pidgey (Shadow),bug,1.0
+Pidgey (Shadow),ghost,0.391
+Pidgey (Shadow),steel,1.0
+Pidgey (Shadow),fire,1.0
+Pidgey (Shadow),water,1.0
+Pidgey (Shadow),grass,0.625
+Pidgey (Shadow),electric,1.6
+Pidgey (Shadow),psychic,1.0
+Pidgey (Shadow),ice,1.6
+Pidgey (Shadow),dragon,1.0
+Pidgey (Shadow),dark,1.0
+Pidgey (Shadow),fairy,1.0
 Pidgeotto,normal,1.0
 Pidgeotto,fighting,1.0
 Pidgeotto,flying,1.0
@@ -611,6 +629,24 @@ Pidgeotto,ice,1.6
 Pidgeotto,dragon,1.0
 Pidgeotto,dark,1.0
 Pidgeotto,fairy,1.0
+Pidgeotto (Shadow),normal,1.0
+Pidgeotto (Shadow),fighting,1.0
+Pidgeotto (Shadow),flying,1.0
+Pidgeotto (Shadow),poison,1.0
+Pidgeotto (Shadow),ground,0.391
+Pidgeotto (Shadow),rock,1.6
+Pidgeotto (Shadow),bug,1.0
+Pidgeotto (Shadow),ghost,0.391
+Pidgeotto (Shadow),steel,1.0
+Pidgeotto (Shadow),fire,1.0
+Pidgeotto (Shadow),water,1.0
+Pidgeotto (Shadow),grass,0.625
+Pidgeotto (Shadow),electric,1.6
+Pidgeotto (Shadow),psychic,1.0
+Pidgeotto (Shadow),ice,1.6
+Pidgeotto (Shadow),dragon,1.0
+Pidgeotto (Shadow),dark,1.0
+Pidgeotto (Shadow),fairy,1.0
 Pidgeot,normal,1.0
 Pidgeot,fighting,1.0
 Pidgeot,flying,1.0
@@ -647,6 +683,24 @@ Pidgeot (Mega),ice,1.6
 Pidgeot (Mega),dragon,1.0
 Pidgeot (Mega),dark,1.0
 Pidgeot (Mega),fairy,1.0
+Pidgeot (Shadow),normal,1.0
+Pidgeot (Shadow),fighting,1.0
+Pidgeot (Shadow),flying,1.0
+Pidgeot (Shadow),poison,1.0
+Pidgeot (Shadow),ground,0.391
+Pidgeot (Shadow),rock,1.6
+Pidgeot (Shadow),bug,1.0
+Pidgeot (Shadow),ghost,0.391
+Pidgeot (Shadow),steel,1.0
+Pidgeot (Shadow),fire,1.0
+Pidgeot (Shadow),water,1.0
+Pidgeot (Shadow),grass,0.625
+Pidgeot (Shadow),electric,1.6
+Pidgeot (Shadow),psychic,1.0
+Pidgeot (Shadow),ice,1.6
+Pidgeot (Shadow),dragon,1.0
+Pidgeot (Shadow),dark,1.0
+Pidgeot (Shadow),fairy,1.0
 Rattata,normal,1.0
 Rattata,fighting,1.6
 Rattata,flying,1.0
@@ -953,6 +1007,24 @@ Pikachu (Flying),ice,1.0
 Pikachu (Flying),dragon,1.0
 Pikachu (Flying),dark,1.0
 Pikachu (Flying),fairy,1.0
+Pikachu (Horizons),normal,1.0
+Pikachu (Horizons),fighting,1.0
+Pikachu (Horizons),flying,0.625
+Pikachu (Horizons),poison,1.0
+Pikachu (Horizons),ground,1.6
+Pikachu (Horizons),rock,1.0
+Pikachu (Horizons),bug,1.0
+Pikachu (Horizons),ghost,1.0
+Pikachu (Horizons),steel,0.625
+Pikachu (Horizons),fire,1.0
+Pikachu (Horizons),water,1.0
+Pikachu (Horizons),grass,1.0
+Pikachu (Horizons),electric,0.625
+Pikachu (Horizons),psychic,1.0
+Pikachu (Horizons),ice,1.0
+Pikachu (Horizons),dragon,1.0
+Pikachu (Horizons),dark,1.0
+Pikachu (Horizons),fairy,1.0
 Pikachu (Kariyushi),normal,1.0
 Pikachu (Kariyushi),fighting,1.0
 Pikachu (Kariyushi),flying,0.625
@@ -1043,24 +1115,6 @@ Pikachu (Shaymin Scarf),ice,1.0
 Pikachu (Shaymin Scarf),dragon,1.0
 Pikachu (Shaymin Scarf),dark,1.0
 Pikachu (Shaymin Scarf),fairy,1.0
-Pikachu (Horizons),normal,1.0
-Pikachu (Horizons),fighting,1.0
-Pikachu (Horizons),flying,0.625
-Pikachu (Horizons),poison,1.0
-Pikachu (Horizons),ground,1.6
-Pikachu (Horizons),rock,1.0
-Pikachu (Horizons),bug,1.0
-Pikachu (Horizons),ghost,1.0
-Pikachu (Horizons),steel,0.625
-Pikachu (Horizons),fire,1.0
-Pikachu (Horizons),water,1.0
-Pikachu (Horizons),grass,1.0
-Pikachu (Horizons),electric,0.625
-Pikachu (Horizons),psychic,1.0
-Pikachu (Horizons),ice,1.0
-Pikachu (Horizons),dragon,1.0
-Pikachu (Horizons),dark,1.0
-Pikachu (Horizons),fairy,1.0
 Raichu,normal,1.0
 Raichu,fighting,1.0
 Raichu,flying,0.625
@@ -13085,6 +13139,24 @@ Groudon (Primal),ice,1.0
 Groudon (Primal),dragon,1.0
 Groudon (Primal),dark,1.0
 Groudon (Primal),fairy,0.625
+Groudon (Shadow),normal,1.0
+Groudon (Shadow),fighting,1.0
+Groudon (Shadow),flying,1.0
+Groudon (Shadow),poison,0.625
+Groudon (Shadow),ground,1.0
+Groudon (Shadow),rock,0.625
+Groudon (Shadow),bug,1.0
+Groudon (Shadow),ghost,1.0
+Groudon (Shadow),steel,1.0
+Groudon (Shadow),fire,1.0
+Groudon (Shadow),water,1.6
+Groudon (Shadow),grass,1.6
+Groudon (Shadow),electric,0.391
+Groudon (Shadow),psychic,1.0
+Groudon (Shadow),ice,1.6
+Groudon (Shadow),dragon,1.0
+Groudon (Shadow),dark,1.0
+Groudon (Shadow),fairy,1.0
 Rayquaza,normal,1.0
 Rayquaza,fighting,0.625
 Rayquaza,flying,1.0
@@ -17297,6 +17369,24 @@ Pidove,ice,1.6
 Pidove,dragon,1.0
 Pidove,dark,1.0
 Pidove,fairy,1.0
+Pidove (Shadow),normal,1.0
+Pidove (Shadow),fighting,1.0
+Pidove (Shadow),flying,1.0
+Pidove (Shadow),poison,1.0
+Pidove (Shadow),ground,0.391
+Pidove (Shadow),rock,1.6
+Pidove (Shadow),bug,1.0
+Pidove (Shadow),ghost,0.391
+Pidove (Shadow),steel,1.0
+Pidove (Shadow),fire,1.0
+Pidove (Shadow),water,1.0
+Pidove (Shadow),grass,0.625
+Pidove (Shadow),electric,1.6
+Pidove (Shadow),psychic,1.0
+Pidove (Shadow),ice,1.6
+Pidove (Shadow),dragon,1.0
+Pidove (Shadow),dark,1.0
+Pidove (Shadow),fairy,1.0
 Tranquill,normal,1.0
 Tranquill,fighting,1.0
 Tranquill,flying,1.0
@@ -17315,6 +17405,24 @@ Tranquill,ice,1.6
 Tranquill,dragon,1.0
 Tranquill,dark,1.0
 Tranquill,fairy,1.0
+Tranquill (Shadow),normal,1.0
+Tranquill (Shadow),fighting,1.0
+Tranquill (Shadow),flying,1.0
+Tranquill (Shadow),poison,1.0
+Tranquill (Shadow),ground,0.391
+Tranquill (Shadow),rock,1.6
+Tranquill (Shadow),bug,1.0
+Tranquill (Shadow),ghost,0.391
+Tranquill (Shadow),steel,1.0
+Tranquill (Shadow),fire,1.0
+Tranquill (Shadow),water,1.0
+Tranquill (Shadow),grass,0.625
+Tranquill (Shadow),electric,1.6
+Tranquill (Shadow),psychic,1.0
+Tranquill (Shadow),ice,1.6
+Tranquill (Shadow),dragon,1.0
+Tranquill (Shadow),dark,1.0
+Tranquill (Shadow),fairy,1.0
 Unfezant,normal,1.0
 Unfezant,fighting,1.0
 Unfezant,flying,1.0
@@ -17333,6 +17441,24 @@ Unfezant,ice,1.6
 Unfezant,dragon,1.0
 Unfezant,dark,1.0
 Unfezant,fairy,1.0
+Unfezant (Shadow),normal,1.0
+Unfezant (Shadow),fighting,1.0
+Unfezant (Shadow),flying,1.0
+Unfezant (Shadow),poison,1.0
+Unfezant (Shadow),ground,0.391
+Unfezant (Shadow),rock,1.6
+Unfezant (Shadow),bug,1.0
+Unfezant (Shadow),ghost,0.391
+Unfezant (Shadow),steel,1.0
+Unfezant (Shadow),fire,1.0
+Unfezant (Shadow),water,1.0
+Unfezant (Shadow),grass,0.625
+Unfezant (Shadow),electric,1.6
+Unfezant (Shadow),psychic,1.0
+Unfezant (Shadow),ice,1.6
+Unfezant (Shadow),dragon,1.0
+Unfezant (Shadow),dark,1.0
+Unfezant (Shadow),fairy,1.0
 Blitzle,normal,1.0
 Blitzle,fighting,1.0
 Blitzle,flying,0.625
@@ -18125,6 +18251,24 @@ Darmanitan (Zen),ice,0.625
 Darmanitan (Zen),dragon,1.0
 Darmanitan (Zen),dark,1.6
 Darmanitan (Zen),fairy,0.625
+Darmanitan (Standard) (Shadow),normal,1.0
+Darmanitan (Standard) (Shadow),fighting,1.0
+Darmanitan (Standard) (Shadow),flying,1.0
+Darmanitan (Standard) (Shadow),poison,1.0
+Darmanitan (Standard) (Shadow),ground,1.6
+Darmanitan (Standard) (Shadow),rock,1.6
+Darmanitan (Standard) (Shadow),bug,0.625
+Darmanitan (Standard) (Shadow),ghost,1.0
+Darmanitan (Standard) (Shadow),steel,0.625
+Darmanitan (Standard) (Shadow),fire,0.625
+Darmanitan (Standard) (Shadow),water,1.6
+Darmanitan (Standard) (Shadow),grass,0.625
+Darmanitan (Standard) (Shadow),electric,1.0
+Darmanitan (Standard) (Shadow),psychic,1.0
+Darmanitan (Standard) (Shadow),ice,0.625
+Darmanitan (Standard) (Shadow),dragon,1.0
+Darmanitan (Standard) (Shadow),dark,1.0
+Darmanitan (Standard) (Shadow),fairy,0.625
 Maractus,normal,1.0
 Maractus,fighting,1.0
 Maractus,flying,1.6
@@ -18521,6 +18665,24 @@ Gothita,ice,1.0
 Gothita,dragon,1.0
 Gothita,dark,1.6
 Gothita,fairy,1.0
+Gothita (Shadow),normal,1.0
+Gothita (Shadow),fighting,0.625
+Gothita (Shadow),flying,1.0
+Gothita (Shadow),poison,1.0
+Gothita (Shadow),ground,1.0
+Gothita (Shadow),rock,1.0
+Gothita (Shadow),bug,1.6
+Gothita (Shadow),ghost,1.6
+Gothita (Shadow),steel,1.0
+Gothita (Shadow),fire,1.0
+Gothita (Shadow),water,1.0
+Gothita (Shadow),grass,1.0
+Gothita (Shadow),electric,1.0
+Gothita (Shadow),psychic,0.625
+Gothita (Shadow),ice,1.0
+Gothita (Shadow),dragon,1.0
+Gothita (Shadow),dark,1.6
+Gothita (Shadow),fairy,1.0
 Gothorita,normal,1.0
 Gothorita,fighting,0.625
 Gothorita,flying,1.0
@@ -18539,6 +18701,24 @@ Gothorita,ice,1.0
 Gothorita,dragon,1.0
 Gothorita,dark,1.6
 Gothorita,fairy,1.0
+Gothorita (Shadow),normal,1.0
+Gothorita (Shadow),fighting,0.625
+Gothorita (Shadow),flying,1.0
+Gothorita (Shadow),poison,1.0
+Gothorita (Shadow),ground,1.0
+Gothorita (Shadow),rock,1.0
+Gothorita (Shadow),bug,1.6
+Gothorita (Shadow),ghost,1.6
+Gothorita (Shadow),steel,1.0
+Gothorita (Shadow),fire,1.0
+Gothorita (Shadow),water,1.0
+Gothorita (Shadow),grass,1.0
+Gothorita (Shadow),electric,1.0
+Gothorita (Shadow),psychic,0.625
+Gothorita (Shadow),ice,1.0
+Gothorita (Shadow),dragon,1.0
+Gothorita (Shadow),dark,1.6
+Gothorita (Shadow),fairy,1.0
 Gothitelle,normal,1.0
 Gothitelle,fighting,0.625
 Gothitelle,flying,1.0
@@ -18557,6 +18737,24 @@ Gothitelle,ice,1.0
 Gothitelle,dragon,1.0
 Gothitelle,dark,1.6
 Gothitelle,fairy,1.0
+Gothitelle (Shadow),normal,1.0
+Gothitelle (Shadow),fighting,0.625
+Gothitelle (Shadow),flying,1.0
+Gothitelle (Shadow),poison,1.0
+Gothitelle (Shadow),ground,1.0
+Gothitelle (Shadow),rock,1.0
+Gothitelle (Shadow),bug,1.6
+Gothitelle (Shadow),ghost,1.6
+Gothitelle (Shadow),steel,1.0
+Gothitelle (Shadow),fire,1.0
+Gothitelle (Shadow),water,1.0
+Gothitelle (Shadow),grass,1.0
+Gothitelle (Shadow),electric,1.0
+Gothitelle (Shadow),psychic,0.625
+Gothitelle (Shadow),ice,1.0
+Gothitelle (Shadow),dragon,1.0
+Gothitelle (Shadow),dark,1.6
+Gothitelle (Shadow),fairy,1.0
 Solosis,normal,1.0
 Solosis,fighting,0.625
 Solosis,flying,1.0
@@ -18575,6 +18773,24 @@ Solosis,ice,1.0
 Solosis,dragon,1.0
 Solosis,dark,1.6
 Solosis,fairy,1.0
+Solosis (Shadow),normal,1.0
+Solosis (Shadow),fighting,0.625
+Solosis (Shadow),flying,1.0
+Solosis (Shadow),poison,1.0
+Solosis (Shadow),ground,1.0
+Solosis (Shadow),rock,1.0
+Solosis (Shadow),bug,1.6
+Solosis (Shadow),ghost,1.6
+Solosis (Shadow),steel,1.0
+Solosis (Shadow),fire,1.0
+Solosis (Shadow),water,1.0
+Solosis (Shadow),grass,1.0
+Solosis (Shadow),electric,1.0
+Solosis (Shadow),psychic,0.625
+Solosis (Shadow),ice,1.0
+Solosis (Shadow),dragon,1.0
+Solosis (Shadow),dark,1.6
+Solosis (Shadow),fairy,1.0
 Duosion,normal,1.0
 Duosion,fighting,0.625
 Duosion,flying,1.0
@@ -18593,6 +18809,24 @@ Duosion,ice,1.0
 Duosion,dragon,1.0
 Duosion,dark,1.6
 Duosion,fairy,1.0
+Duosion (Shadow),normal,1.0
+Duosion (Shadow),fighting,0.625
+Duosion (Shadow),flying,1.0
+Duosion (Shadow),poison,1.0
+Duosion (Shadow),ground,1.0
+Duosion (Shadow),rock,1.0
+Duosion (Shadow),bug,1.6
+Duosion (Shadow),ghost,1.6
+Duosion (Shadow),steel,1.0
+Duosion (Shadow),fire,1.0
+Duosion (Shadow),water,1.0
+Duosion (Shadow),grass,1.0
+Duosion (Shadow),electric,1.0
+Duosion (Shadow),psychic,0.625
+Duosion (Shadow),ice,1.0
+Duosion (Shadow),dragon,1.0
+Duosion (Shadow),dark,1.6
+Duosion (Shadow),fairy,1.0
 Reuniclus,normal,1.0
 Reuniclus,fighting,0.625
 Reuniclus,flying,1.0
@@ -18611,6 +18845,24 @@ Reuniclus,ice,1.0
 Reuniclus,dragon,1.0
 Reuniclus,dark,1.6
 Reuniclus,fairy,1.0
+Reuniclus (Shadow),normal,1.0
+Reuniclus (Shadow),fighting,0.625
+Reuniclus (Shadow),flying,1.0
+Reuniclus (Shadow),poison,1.0
+Reuniclus (Shadow),ground,1.0
+Reuniclus (Shadow),rock,1.0
+Reuniclus (Shadow),bug,1.6
+Reuniclus (Shadow),ghost,1.6
+Reuniclus (Shadow),steel,1.0
+Reuniclus (Shadow),fire,1.0
+Reuniclus (Shadow),water,1.0
+Reuniclus (Shadow),grass,1.0
+Reuniclus (Shadow),electric,1.0
+Reuniclus (Shadow),psychic,0.625
+Reuniclus (Shadow),ice,1.0
+Reuniclus (Shadow),dragon,1.0
+Reuniclus (Shadow),dark,1.6
+Reuniclus (Shadow),fairy,1.0
 Ducklett,normal,1.0
 Ducklett,fighting,0.625
 Ducklett,flying,1.0
