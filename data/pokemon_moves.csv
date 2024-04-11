@@ -9524,6 +9524,7 @@ Tapu Bulu,Rock Smash,fast,fighting,1.0,9,7,3,3.0,2.33,,,,Low Quality,
 Tapu Bulu,Dazzling Gleam,charged,fairy,1.2,110,0,1,,,70.0,1.57,,Nuke,
 Tapu Bulu,Grass Knot,charged,grass,1.2,90,0,1,,,50.0,1.8,,General,
 Tapu Bulu,Megahorn,charged,bug,1.0,110,0,1,,,55.0,2.0,,Nuke,
+Tapu Bulu,Nature's Madness,charged,fairy,1.2,80,0,1,,,50.0,1.6,100% chance -1 Def opponent,Debuff,elite
 Tapu Bulu,Solar Beam,charged,grass,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Tapu Fini,Hidden Power (Bug),fast,bug,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Tapu Fini,Hidden Power (Dark),fast,dark,1.0,9,8,3,3.0,2.67,,,,Low Quality,

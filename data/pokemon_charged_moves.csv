@@ -5839,6 +5839,7 @@ Tangrowth (Shadow),Solar Beam,charged,grass,1.2,150,80,1.88,,Nuke,
 Tapu Bulu,Dazzling Gleam,charged,fairy,1.2,110,70,1.57,,Nuke,
 Tapu Bulu,Grass Knot,charged,grass,1.2,90,50,1.8,,General,
 Tapu Bulu,Megahorn,charged,bug,1.0,110,55,2.0,,Nuke,
+Tapu Bulu,Nature's Madness,charged,fairy,1.2,80,50,1.6,100% chance -1 Def opponent,Debuff,elite
 Tapu Bulu,Solar Beam,charged,grass,1.2,150,80,1.88,,Nuke,
 Tapu Fini,Hydro Pump,charged,water,1.2,130,75,1.73,,Nuke,
 Tapu Fini,Ice Beam,charged,ice,1.0,90,55,1.64,,High Energy,
