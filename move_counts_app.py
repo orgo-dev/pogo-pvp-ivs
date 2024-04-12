@@ -107,6 +107,8 @@ def app(**kwargs):
     print("RUNNING move_counts_app app")
     (
         ALL_POKEMON_STATS,
+        POKE_DEX_IDS,
+        POKE_PARENT_DEX_IDS,
         CP_MULTS,
         CP_COEF_PCTS,
         DF_XL_COSTS,

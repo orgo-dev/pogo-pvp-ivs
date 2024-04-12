@@ -39,6 +39,11 @@ def load_app_db_constants():
         ["base_attack", "base_defense", "base_stamina"]
     ].T.to_dict()
 
+    # dex and parent ids
+    POKE_DEX_IDS = df_pokes.set_index("pokemon").to_dict()["dex"]
+    df_parents = pd.read_csv(f"{PATH_DATA}/pokemon_parents.csv")
+    POKE_PARENT_DEX_IDS = df_parents.groupby("pokemon_child")["dex_parent"].apply(list).to_dict()
+
     # level stuff
     df_levels = pd.read_csv(f"{PATH_DATA}/levels.csv")
     df_levels["cp_coef"] = df_levels["cp_multiplier"] ** 2 * 0.1
@@ -107,6 +112,8 @@ def load_app_db_constants():
 
     return (
         POKE_STATS,
+        POKE_DEX_IDS,
+        POKE_PARENT_DEX_IDS,
         # LEVELS,
         CP_MULTS,
         CP_COEF_PCTS,

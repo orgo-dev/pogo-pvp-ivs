@@ -1,0 +1,2523 @@
+dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_child,is_self
+1,bulbasaur,Bulbasaur,1,bulbasaur,Bulbasaur,True
+1,bulbasaur,Bulbasaur,2,ivysaur,Ivysaur,False
+1,bulbasaur,Bulbasaur,3,venusaur,Venusaur,False
+1,bulbasaur,Bulbasaur,3,venusaur_mega,Venusaur (Mega),False
+1,bulbasaur_shadow,Bulbasaur (Shadow),1,bulbasaur_shadow,Bulbasaur (Shadow),True
+1,bulbasaur_shadow,Bulbasaur (Shadow),2,ivysaur_shadow,Ivysaur (Shadow),False
+1,bulbasaur_shadow,Bulbasaur (Shadow),3,venusaur_shadow,Venusaur (Shadow),False
+2,ivysaur,Ivysaur,2,ivysaur,Ivysaur,True
+2,ivysaur,Ivysaur,3,venusaur,Venusaur,False
+2,ivysaur,Ivysaur,3,venusaur_mega,Venusaur (Mega),False
+2,ivysaur_shadow,Ivysaur (Shadow),2,ivysaur_shadow,Ivysaur (Shadow),True
+2,ivysaur_shadow,Ivysaur (Shadow),3,venusaur_shadow,Venusaur (Shadow),False
+3,venusaur,Venusaur,3,venusaur,Venusaur,True
+3,venusaur_mega,Venusaur (Mega),3,venusaur_mega,Venusaur (Mega),True
+3,venusaur_shadow,Venusaur (Shadow),3,venusaur_shadow,Venusaur (Shadow),True
+4,charmander,Charmander,4,charmander,Charmander,True
+4,charmander,Charmander,5,charmeleon,Charmeleon,False
+4,charmander,Charmander,6,charizard,Charizard,False
+4,charmander,Charmander,6,charizard_mega_x,Charizard (Mega X),False
+4,charmander,Charmander,6,charizard_mega_y,Charizard (Mega Y),False
+4,charmander_shadow,Charmander (Shadow),4,charmander_shadow,Charmander (Shadow),True
+4,charmander_shadow,Charmander (Shadow),5,charmeleon_shadow,Charmeleon (Shadow),False
+4,charmander_shadow,Charmander (Shadow),6,charizard_shadow,Charizard (Shadow),False
+5,charmeleon,Charmeleon,5,charmeleon,Charmeleon,True
+5,charmeleon,Charmeleon,6,charizard,Charizard,False
+5,charmeleon,Charmeleon,6,charizard_mega_x,Charizard (Mega X),False
+5,charmeleon,Charmeleon,6,charizard_mega_y,Charizard (Mega Y),False
+5,charmeleon_shadow,Charmeleon (Shadow),5,charmeleon_shadow,Charmeleon (Shadow),True
+5,charmeleon_shadow,Charmeleon (Shadow),6,charizard_shadow,Charizard (Shadow),False
+6,charizard,Charizard,6,charizard,Charizard,True
+6,charizard_mega_x,Charizard (Mega X),6,charizard_mega_x,Charizard (Mega X),True
+6,charizard_mega_y,Charizard (Mega Y),6,charizard_mega_y,Charizard (Mega Y),True
+6,charizard_shadow,Charizard (Shadow),6,charizard_shadow,Charizard (Shadow),True
+7,squirtle,Squirtle,7,squirtle,Squirtle,True
+7,squirtle,Squirtle,8,wartortle,Wartortle,False
+7,squirtle,Squirtle,9,blastoise,Blastoise,False
+7,squirtle,Squirtle,9,blastoise_mega,Blastoise (Mega),False
+7,squirtle_shadow,Squirtle (Shadow),7,squirtle_shadow,Squirtle (Shadow),True
+7,squirtle_shadow,Squirtle (Shadow),8,wartortle_shadow,Wartortle (Shadow),False
+7,squirtle_shadow,Squirtle (Shadow),9,blastoise_shadow,Blastoise (Shadow),False
+8,wartortle,Wartortle,8,wartortle,Wartortle,True
+8,wartortle,Wartortle,9,blastoise,Blastoise,False
+8,wartortle,Wartortle,9,blastoise_mega,Blastoise (Mega),False
+8,wartortle_shadow,Wartortle (Shadow),8,wartortle_shadow,Wartortle (Shadow),True
+8,wartortle_shadow,Wartortle (Shadow),9,blastoise_shadow,Blastoise (Shadow),False
+9,blastoise,Blastoise,9,blastoise,Blastoise,True
+9,blastoise_mega,Blastoise (Mega),9,blastoise_mega,Blastoise (Mega),True
+9,blastoise_shadow,Blastoise (Shadow),9,blastoise_shadow,Blastoise (Shadow),True
+10,caterpie,Caterpie,10,caterpie,Caterpie,True
+10,caterpie,Caterpie,11,metapod,Metapod,False
+10,caterpie,Caterpie,12,butterfree,Butterfree,False
+11,metapod,Metapod,11,metapod,Metapod,True
+11,metapod,Metapod,12,butterfree,Butterfree,False
+12,butterfree,Butterfree,12,butterfree,Butterfree,True
+13,weedle,Weedle,13,weedle,Weedle,True
+13,weedle,Weedle,14,kakuna,Kakuna,False
+13,weedle,Weedle,15,beedrill,Beedrill,False
+13,weedle,Weedle,15,beedrill_mega,Beedrill (Mega),False
+13,weedle_shadow,Weedle (Shadow),13,weedle_shadow,Weedle (Shadow),True
+13,weedle_shadow,Weedle (Shadow),14,kakuna_shadow,Kakuna (Shadow),False
+13,weedle_shadow,Weedle (Shadow),15,beedrill_shadow,Beedrill (Shadow),False
+14,kakuna,Kakuna,14,kakuna,Kakuna,True
+14,kakuna,Kakuna,15,beedrill,Beedrill,False
+14,kakuna,Kakuna,15,beedrill_mega,Beedrill (Mega),False
+14,kakuna_shadow,Kakuna (Shadow),14,kakuna_shadow,Kakuna (Shadow),True
+14,kakuna_shadow,Kakuna (Shadow),15,beedrill_shadow,Beedrill (Shadow),False
+15,beedrill,Beedrill,15,beedrill,Beedrill,True
+15,beedrill_mega,Beedrill (Mega),15,beedrill_mega,Beedrill (Mega),True
+15,beedrill_shadow,Beedrill (Shadow),15,beedrill_shadow,Beedrill (Shadow),True
+16,pidgey,Pidgey,16,pidgey,Pidgey,True
+16,pidgey,Pidgey,17,pidgeotto,Pidgeotto,False
+16,pidgey,Pidgey,18,pidgeot,Pidgeot,False
+16,pidgey,Pidgey,18,pidgeot_mega,Pidgeot (Mega),False
+16,pidgey_shadow,Pidgey (Shadow),16,pidgey_shadow,Pidgey (Shadow),True
+16,pidgey_shadow,Pidgey (Shadow),17,pidgeotto_shadow,Pidgeotto (Shadow),False
+16,pidgey_shadow,Pidgey (Shadow),18,pidgeot_shadow,Pidgeot (Shadow),False
+17,pidgeotto,Pidgeotto,17,pidgeotto,Pidgeotto,True
+17,pidgeotto,Pidgeotto,18,pidgeot,Pidgeot,False
+17,pidgeotto,Pidgeotto,18,pidgeot_mega,Pidgeot (Mega),False
+17,pidgeotto_shadow,Pidgeotto (Shadow),17,pidgeotto_shadow,Pidgeotto (Shadow),True
+17,pidgeotto_shadow,Pidgeotto (Shadow),18,pidgeot_shadow,Pidgeot (Shadow),False
+18,pidgeot,Pidgeot,18,pidgeot,Pidgeot,True
+18,pidgeot_mega,Pidgeot (Mega),18,pidgeot_mega,Pidgeot (Mega),True
+18,pidgeot_shadow,Pidgeot (Shadow),18,pidgeot_shadow,Pidgeot (Shadow),True
+19,rattata,Rattata,19,rattata,Rattata,True
+19,rattata_alolan,Rattata (Alolan),19,rattata_alolan,Rattata (Alolan),True
+19,rattata_alolan,Rattata (Alolan),20,raticate,Raticate,False
+19,rattata_alolan,Rattata (Alolan),20,raticate_alolan,Raticate (Alolan),False
+19,rattata_alolan_shadow,Rattata (Alolan) (Shadow),19,rattata_alolan_shadow,Rattata (Alolan) (Shadow),True
+19,rattata_alolan_shadow,Rattata (Alolan) (Shadow),20,raticate_alolan_shadow,Raticate (Alolan) (Shadow),False
+19,rattata_alolan_shadow,Rattata (Alolan) (Shadow),20,raticate_shadow,Raticate (Shadow),False
+19,rattata_shadow,Rattata (Shadow),19,rattata_shadow,Rattata (Shadow),True
+20,raticate,Raticate,20,raticate,Raticate,True
+20,raticate_alolan,Raticate (Alolan),20,raticate_alolan,Raticate (Alolan),True
+20,raticate_alolan_shadow,Raticate (Alolan) (Shadow),20,raticate_alolan_shadow,Raticate (Alolan) (Shadow),True
+20,raticate_shadow,Raticate (Shadow),20,raticate_shadow,Raticate (Shadow),True
+21,spearow,Spearow,21,spearow,Spearow,True
+21,spearow,Spearow,22,fearow,Fearow,False
+22,fearow,Fearow,22,fearow,Fearow,True
+23,ekans,Ekans,23,ekans,Ekans,True
+23,ekans,Ekans,24,arbok,Arbok,False
+23,ekans_shadow,Ekans (Shadow),23,ekans_shadow,Ekans (Shadow),True
+23,ekans_shadow,Ekans (Shadow),24,arbok_shadow,Arbok (Shadow),False
+24,arbok,Arbok,24,arbok,Arbok,True
+24,arbok_shadow,Arbok (Shadow),24,arbok_shadow,Arbok (Shadow),True
+25,pikachu,Pikachu,25,pikachu,Pikachu,True
+25,pikachu,Pikachu,26,raichu,Raichu,False
+25,pikachu,Pikachu,26,raichu_alolan,Raichu (Alolan),False
+25,pikachu_5th_anniversary,Pikachu (5th Anniversary),25,pikachu_5th_anniversary,Pikachu (5th Anniversary),True
+25,pikachu_flying,Pikachu (Flying),25,pikachu_flying,Pikachu (Flying),True
+25,pikachu_horizons,Pikachu (Horizons),25,pikachu_horizons,Pikachu (Horizons),True
+25,pikachu_kariyushi,Pikachu (Kariyushi),25,pikachu_kariyushi,Pikachu (Kariyushi),True
+25,pikachu_libre,Pikachu (Libre),25,pikachu_libre,Pikachu (Libre),True
+25,pikachu_pop_star,Pikachu (Pop Star),25,pikachu_pop_star,Pikachu (Pop Star),True
+25,pikachu_rock_star,Pikachu (Rock Star),25,pikachu_rock_star,Pikachu (Rock Star),True
+25,pikachu_shaymin,Pikachu (Shaymin Scarf),25,pikachu_shaymin,Pikachu (Shaymin Scarf),True
+26,raichu,Raichu,26,raichu,Raichu,True
+26,raichu_alolan,Raichu (Alolan),26,raichu_alolan,Raichu (Alolan),True
+27,sandshrew,Sandshrew,27,sandshrew,Sandshrew,True
+27,sandshrew,Sandshrew,28,sandslash,Sandslash,False
+27,sandshrew_alolan,Sandshrew (Alolan),27,sandshrew_alolan,Sandshrew (Alolan),True
+27,sandshrew_alolan,Sandshrew (Alolan),28,sandslash_alolan,Sandslash (Alolan),False
+27,sandshrew_alolan_shadow,Sandshrew (Alolan) (Shadow),27,sandshrew_alolan_shadow,Sandshrew (Alolan) (Shadow),True
+27,sandshrew_alolan_shadow,Sandshrew (Alolan) (Shadow),28,sandslash_alolan_shadow,Sandslash (Alolan) (Shadow),False
+27,sandshrew_shadow,Sandshrew (Shadow),27,sandshrew_shadow,Sandshrew (Shadow),True
+27,sandshrew_shadow,Sandshrew (Shadow),28,sandslash_shadow,Sandslash (Shadow),False
+28,sandslash,Sandslash,28,sandslash,Sandslash,True
+28,sandslash_alolan,Sandslash (Alolan),28,sandslash_alolan,Sandslash (Alolan),True
+28,sandslash_alolan_shadow,Sandslash (Alolan) (Shadow),28,sandslash_alolan_shadow,Sandslash (Alolan) (Shadow),True
+28,sandslash_shadow,Sandslash (Shadow),28,sandslash_shadow,Sandslash (Shadow),True
+29,nidoran_female,Nidoran Female,29,nidoran_female,Nidoran Female,True
+29,nidoran_female,Nidoran Female,30,nidorina,Nidorina,False
+29,nidoran_female,Nidoran Female,31,nidoqueen,Nidoqueen,False
+29,nidoran_female_shadow,Nidoran Female (Shadow),29,nidoran_female_shadow,Nidoran Female (Shadow),True
+29,nidoran_female_shadow,Nidoran Female (Shadow),30,nidorina_shadow,Nidorina (Shadow),False
+29,nidoran_female_shadow,Nidoran Female (Shadow),31,nidoqueen_shadow,Nidoqueen (Shadow),False
+30,nidorina,Nidorina,30,nidorina,Nidorina,True
+30,nidorina,Nidorina,31,nidoqueen,Nidoqueen,False
+30,nidorina_shadow,Nidorina (Shadow),30,nidorina_shadow,Nidorina (Shadow),True
+30,nidorina_shadow,Nidorina (Shadow),31,nidoqueen_shadow,Nidoqueen (Shadow),False
+31,nidoqueen,Nidoqueen,31,nidoqueen,Nidoqueen,True
+31,nidoqueen_shadow,Nidoqueen (Shadow),31,nidoqueen_shadow,Nidoqueen (Shadow),True
+32,nidoran_male,Nidoran Male,32,nidoran_male,Nidoran Male,True
+32,nidoran_male,Nidoran Male,33,nidorino,Nidorino,False
+32,nidoran_male,Nidoran Male,34,nidoking,Nidoking,False
+32,nidoran_male_shadow,Nidoran Male (Shadow),32,nidoran_male_shadow,Nidoran Male (Shadow),True
+32,nidoran_male_shadow,Nidoran Male (Shadow),33,nidorino_shadow,Nidorino (Shadow),False
+32,nidoran_male_shadow,Nidoran Male (Shadow),34,nidoking_shadow,Nidoking (Shadow),False
+33,nidorino,Nidorino,33,nidorino,Nidorino,True
+33,nidorino,Nidorino,34,nidoking,Nidoking,False
+33,nidorino_shadow,Nidorino (Shadow),33,nidorino_shadow,Nidorino (Shadow),True
+33,nidorino_shadow,Nidorino (Shadow),34,nidoking_shadow,Nidoking (Shadow),False
+34,nidoking,Nidoking,34,nidoking,Nidoking,True
+34,nidoking_shadow,Nidoking (Shadow),34,nidoking_shadow,Nidoking (Shadow),True
+35,clefairy,Clefairy,35,clefairy,Clefairy,True
+35,clefairy,Clefairy,36,clefable,Clefable,False
+36,clefable,Clefable,36,clefable,Clefable,True
+37,vulpix,Vulpix,37,vulpix,Vulpix,True
+37,vulpix,Vulpix,38,ninetales,Ninetales,False
+37,vulpix_alolan,Vulpix (Alolan),37,vulpix_alolan,Vulpix (Alolan),True
+37,vulpix_alolan,Vulpix (Alolan),38,ninetales_alolan,Ninetales (Alolan),False
+37,vulpix_alolan_shadow,Vulpix (Alolan) (Shadow),37,vulpix_alolan_shadow,Vulpix (Alolan) (Shadow),True
+37,vulpix_alolan_shadow,Vulpix (Alolan) (Shadow),38,ninetales_alolan_shadow,Ninetales (Alolan) (Shadow),False
+37,vulpix_shadow,Vulpix (Shadow),37,vulpix_shadow,Vulpix (Shadow),True
+37,vulpix_shadow,Vulpix (Shadow),38,ninetales_shadow,Ninetales (Shadow),False
+38,ninetales,Ninetales,38,ninetales,Ninetales,True
+38,ninetales_alolan,Ninetales (Alolan),38,ninetales_alolan,Ninetales (Alolan),True
+38,ninetales_alolan_shadow,Ninetales (Alolan) (Shadow),38,ninetales_alolan_shadow,Ninetales (Alolan) (Shadow),True
+38,ninetales_shadow,Ninetales (Shadow),38,ninetales_shadow,Ninetales (Shadow),True
+39,jigglypuff,Jigglypuff,39,jigglypuff,Jigglypuff,True
+39,jigglypuff,Jigglypuff,40,wigglytuff,Wigglytuff,False
+40,wigglytuff,Wigglytuff,40,wigglytuff,Wigglytuff,True
+41,zubat,Zubat,41,zubat,Zubat,True
+41,zubat,Zubat,42,golbat,Golbat,False
+41,zubat,Zubat,169,crobat,Crobat,False
+41,zubat_shadow,Zubat (Shadow),41,zubat_shadow,Zubat (Shadow),True
+41,zubat_shadow,Zubat (Shadow),42,golbat_shadow,Golbat (Shadow),False
+41,zubat_shadow,Zubat (Shadow),169,crobat_shadow,Crobat (Shadow),False
+42,golbat,Golbat,42,golbat,Golbat,True
+42,golbat,Golbat,169,crobat,Crobat,False
+42,golbat_shadow,Golbat (Shadow),42,golbat_shadow,Golbat (Shadow),True
+42,golbat_shadow,Golbat (Shadow),169,crobat_shadow,Crobat (Shadow),False
+43,oddish,Oddish,43,oddish,Oddish,True
+43,oddish,Oddish,44,gloom,Gloom,False
+43,oddish,Oddish,45,vileplume,Vileplume,False
+43,oddish,Oddish,182,bellossom,Bellossom,False
+43,oddish_shadow,Oddish (Shadow),43,oddish_shadow,Oddish (Shadow),True
+43,oddish_shadow,Oddish (Shadow),44,gloom_shadow,Gloom (Shadow),False
+43,oddish_shadow,Oddish (Shadow),45,vileplume_shadow,Vileplume (Shadow),False
+43,oddish_shadow,Oddish (Shadow),182,bellossom_shadow,Bellossom (Shadow),False
+44,gloom,Gloom,44,gloom,Gloom,True
+44,gloom,Gloom,45,vileplume,Vileplume,False
+44,gloom,Gloom,182,bellossom,Bellossom,False
+44,gloom_shadow,Gloom (Shadow),44,gloom_shadow,Gloom (Shadow),True
+44,gloom_shadow,Gloom (Shadow),45,vileplume_shadow,Vileplume (Shadow),False
+44,gloom_shadow,Gloom (Shadow),182,bellossom_shadow,Bellossom (Shadow),False
+45,vileplume,Vileplume,45,vileplume,Vileplume,True
+45,vileplume_shadow,Vileplume (Shadow),45,vileplume_shadow,Vileplume (Shadow),True
+46,paras,Paras,46,paras,Paras,True
+46,paras,Paras,47,parasect,Parasect,False
+47,parasect,Parasect,47,parasect,Parasect,True
+48,venonat,Venonat,48,venonat,Venonat,True
+48,venonat,Venonat,49,venomoth,Venomoth,False
+48,venonat_shadow,Venonat (Shadow),48,venonat_shadow,Venonat (Shadow),True
+48,venonat_shadow,Venonat (Shadow),49,venomoth_shadow,Venomoth (Shadow),False
+49,venomoth,Venomoth,49,venomoth,Venomoth,True
+49,venomoth_shadow,Venomoth (Shadow),49,venomoth_shadow,Venomoth (Shadow),True
+50,diglett,Diglett,50,diglett,Diglett,True
+50,diglett,Diglett,51,dugtrio,Dugtrio,False
+50,diglett_alolan,Diglett (Alolan),50,diglett_alolan,Diglett (Alolan),True
+50,diglett_alolan,Diglett (Alolan),51,dugtrio_alolan,Dugtrio (Alolan),False
+50,diglett_alolan_shadow,Diglett (Alolan) (Shadow),50,diglett_alolan_shadow,Diglett (Alolan) (Shadow),True
+50,diglett_alolan_shadow,Diglett (Alolan) (Shadow),51,dugtrio_alolan_shadow,Dugtrio (Alolan) (Shadow),False
+50,diglett_shadow,Diglett (Shadow),50,diglett_shadow,Diglett (Shadow),True
+50,diglett_shadow,Diglett (Shadow),51,dugtrio_shadow,Dugtrio (Shadow),False
+51,dugtrio,Dugtrio,51,dugtrio,Dugtrio,True
+51,dugtrio_alolan,Dugtrio (Alolan),51,dugtrio_alolan,Dugtrio (Alolan),True
+51,dugtrio_alolan_shadow,Dugtrio (Alolan) (Shadow),51,dugtrio_alolan_shadow,Dugtrio (Alolan) (Shadow),True
+51,dugtrio_shadow,Dugtrio (Shadow),51,dugtrio_shadow,Dugtrio (Shadow),True
+52,meowth,Meowth,52,meowth,Meowth,True
+52,meowth,Meowth,53,persian,Persian,False
+52,meowth_alolan,Meowth (Alolan),52,meowth_alolan,Meowth (Alolan),True
+52,meowth_alolan,Meowth (Alolan),53,persian_alolan,Persian (Alolan),False
+52,meowth_galarian,Meowth (Galarian),52,meowth_galarian,Meowth (Galarian),True
+52,meowth_galarian,Meowth (Galarian),863,perrserker,Perrserker,False
+52,meowth_shadow,Meowth (Shadow),52,meowth_shadow,Meowth (Shadow),True
+52,meowth_shadow,Meowth (Shadow),53,persian_shadow,Persian (Shadow),False
+53,persian,Persian,53,persian,Persian,True
+53,persian_alolan,Persian (Alolan),53,persian_alolan,Persian (Alolan),True
+53,persian_shadow,Persian (Shadow),53,persian_shadow,Persian (Shadow),True
+54,psyduck,Psyduck,54,psyduck,Psyduck,True
+54,psyduck,Psyduck,55,golduck,Golduck,False
+54,psyduck_shadow,Psyduck (Shadow),54,psyduck_shadow,Psyduck (Shadow),True
+54,psyduck_shadow,Psyduck (Shadow),55,golduck_shadow,Golduck (Shadow),False
+55,golduck,Golduck,55,golduck,Golduck,True
+55,golduck_shadow,Golduck (Shadow),55,golduck_shadow,Golduck (Shadow),True
+56,mankey,Mankey,56,mankey,Mankey,True
+56,mankey,Mankey,57,primeape,Primeape,False
+56,mankey,Mankey,979,annihilape,Annihilape,False
+57,primeape,Primeape,57,primeape,Primeape,True
+57,primeape,Primeape,979,annihilape,Annihilape,False
+58,growlithe,Growlithe,58,growlithe,Growlithe,True
+58,growlithe,Growlithe,59,arcanine,Arcanine,False
+58,growlithe_hisuian,Growlithe (Hisuian),58,growlithe_hisuian,Growlithe (Hisuian),True
+58,growlithe_hisuian,Growlithe (Hisuian),59,arcanine_hisuian,Arcanine (Hisuian),False
+58,growlithe_shadow,Growlithe (Shadow),58,growlithe_shadow,Growlithe (Shadow),True
+58,growlithe_shadow,Growlithe (Shadow),59,arcanine_shadow,Arcanine (Shadow),False
+59,arcanine,Arcanine,59,arcanine,Arcanine,True
+59,arcanine_hisuian,Arcanine (Hisuian),59,arcanine_hisuian,Arcanine (Hisuian),True
+59,arcanine_shadow,Arcanine (Shadow),59,arcanine_shadow,Arcanine (Shadow),True
+60,poliwag,Poliwag,60,poliwag,Poliwag,True
+60,poliwag,Poliwag,61,poliwhirl,Poliwhirl,False
+60,poliwag,Poliwag,62,poliwrath,Poliwrath,False
+60,poliwag,Poliwag,186,politoed,Politoed,False
+60,poliwag_shadow,Poliwag (Shadow),60,poliwag_shadow,Poliwag (Shadow),True
+60,poliwag_shadow,Poliwag (Shadow),61,poliwhirl_shadow,Poliwhirl (Shadow),False
+60,poliwag_shadow,Poliwag (Shadow),62,poliwrath_shadow,Poliwrath (Shadow),False
+60,poliwag_shadow,Poliwag (Shadow),186,politoed_shadow,Politoed (Shadow),False
+61,poliwhirl,Poliwhirl,61,poliwhirl,Poliwhirl,True
+61,poliwhirl,Poliwhirl,62,poliwrath,Poliwrath,False
+61,poliwhirl,Poliwhirl,186,politoed,Politoed,False
+61,poliwhirl_shadow,Poliwhirl (Shadow),61,poliwhirl_shadow,Poliwhirl (Shadow),True
+61,poliwhirl_shadow,Poliwhirl (Shadow),62,poliwrath_shadow,Poliwrath (Shadow),False
+61,poliwhirl_shadow,Poliwhirl (Shadow),186,politoed_shadow,Politoed (Shadow),False
+62,poliwrath,Poliwrath,62,poliwrath,Poliwrath,True
+62,poliwrath_shadow,Poliwrath (Shadow),62,poliwrath_shadow,Poliwrath (Shadow),True
+63,abra,Abra,63,abra,Abra,True
+63,abra,Abra,64,kadabra,Kadabra,False
+63,abra,Abra,65,alakazam,Alakazam,False
+63,abra_shadow,Abra (Shadow),63,abra_shadow,Abra (Shadow),True
+63,abra_shadow,Abra (Shadow),64,kadabra_shadow,Kadabra (Shadow),False
+63,abra_shadow,Abra (Shadow),65,alakazam_shadow,Alakazam (Shadow),False
+64,kadabra,Kadabra,64,kadabra,Kadabra,True
+64,kadabra,Kadabra,65,alakazam,Alakazam,False
+64,kadabra_shadow,Kadabra (Shadow),64,kadabra_shadow,Kadabra (Shadow),True
+64,kadabra_shadow,Kadabra (Shadow),65,alakazam_shadow,Alakazam (Shadow),False
+65,alakazam,Alakazam,65,alakazam,Alakazam,True
+65,alakazam_mega,Alakazam (Mega),65,alakazam_mega,Alakazam (Mega),True
+65,alakazam_shadow,Alakazam (Shadow),65,alakazam_shadow,Alakazam (Shadow),True
+66,machop,Machop,66,machop,Machop,True
+66,machop,Machop,67,machoke,Machoke,False
+66,machop,Machop,68,machamp,Machamp,False
+66,machop_shadow,Machop (Shadow),66,machop_shadow,Machop (Shadow),True
+66,machop_shadow,Machop (Shadow),67,machoke_shadow,Machoke (Shadow),False
+66,machop_shadow,Machop (Shadow),68,machamp_shadow,Machamp (Shadow),False
+67,machoke,Machoke,67,machoke,Machoke,True
+67,machoke,Machoke,68,machamp,Machamp,False
+67,machoke_shadow,Machoke (Shadow),67,machoke_shadow,Machoke (Shadow),True
+67,machoke_shadow,Machoke (Shadow),68,machamp_shadow,Machamp (Shadow),False
+68,machamp,Machamp,68,machamp,Machamp,True
+68,machamp_shadow,Machamp (Shadow),68,machamp_shadow,Machamp (Shadow),True
+69,bellsprout,Bellsprout,69,bellsprout,Bellsprout,True
+69,bellsprout,Bellsprout,70,weepinbell,Weepinbell,False
+69,bellsprout,Bellsprout,71,victreebel,Victreebel,False
+69,bellsprout_shadow,Bellsprout (Shadow),69,bellsprout_shadow,Bellsprout (Shadow),True
+69,bellsprout_shadow,Bellsprout (Shadow),70,weepinbell_shadow,Weepinbell (Shadow),False
+69,bellsprout_shadow,Bellsprout (Shadow),71,victreebel_shadow,Victreebel (Shadow),False
+70,weepinbell,Weepinbell,70,weepinbell,Weepinbell,True
+70,weepinbell,Weepinbell,71,victreebel,Victreebel,False
+70,weepinbell_shadow,Weepinbell (Shadow),70,weepinbell_shadow,Weepinbell (Shadow),True
+70,weepinbell_shadow,Weepinbell (Shadow),71,victreebel_shadow,Victreebel (Shadow),False
+71,victreebel,Victreebel,71,victreebel,Victreebel,True
+71,victreebel_shadow,Victreebel (Shadow),71,victreebel_shadow,Victreebel (Shadow),True
+72,tentacool,Tentacool,72,tentacool,Tentacool,True
+72,tentacool,Tentacool,73,tentacruel,Tentacruel,False
+72,tentacool_shadow,Tentacool (Shadow),72,tentacool_shadow,Tentacool (Shadow),True
+72,tentacool_shadow,Tentacool (Shadow),73,tentacruel_shadow,Tentacruel (Shadow),False
+73,tentacruel,Tentacruel,73,tentacruel,Tentacruel,True
+73,tentacruel_shadow,Tentacruel (Shadow),73,tentacruel_shadow,Tentacruel (Shadow),True
+74,geodude,Geodude,74,geodude,Geodude,True
+74,geodude,Geodude,75,graveler,Graveler,False
+74,geodude,Geodude,76,golem,Golem,False
+74,geodude_alolan,Geodude (Alolan),74,geodude_alolan,Geodude (Alolan),True
+74,geodude_alolan,Geodude (Alolan),75,graveler_alolan,Graveler (Alolan),False
+74,geodude_alolan,Geodude (Alolan),76,golem_alolan,Golem (Alolan),False
+74,geodude_alolan_shadow,Geodude (Alolan) (Shadow),74,geodude_alolan_shadow,Geodude (Alolan) (Shadow),True
+74,geodude_alolan_shadow,Geodude (Alolan) (Shadow),75,graveler_alolan_shadow,Graveler (Alolan) (Shadow),False
+74,geodude_alolan_shadow,Geodude (Alolan) (Shadow),76,golem_alolan_shadow,Golem (Alolan) (Shadow),False
+74,geodude_shadow,Geodude (Shadow),74,geodude_shadow,Geodude (Shadow),True
+74,geodude_shadow,Geodude (Shadow),75,graveler_shadow,Graveler (Shadow),False
+74,geodude_shadow,Geodude (Shadow),76,golem_shadow,Golem (Shadow),False
+75,graveler,Graveler,75,graveler,Graveler,True
+75,graveler,Graveler,76,golem,Golem,False
+75,graveler_alolan,Graveler (Alolan),75,graveler_alolan,Graveler (Alolan),True
+75,graveler_alolan,Graveler (Alolan),76,golem_alolan,Golem (Alolan),False
+75,graveler_alolan_shadow,Graveler (Alolan) (Shadow),75,graveler_alolan_shadow,Graveler (Alolan) (Shadow),True
+75,graveler_alolan_shadow,Graveler (Alolan) (Shadow),76,golem_alolan_shadow,Golem (Alolan) (Shadow),False
+75,graveler_shadow,Graveler (Shadow),75,graveler_shadow,Graveler (Shadow),True
+75,graveler_shadow,Graveler (Shadow),76,golem_shadow,Golem (Shadow),False
+76,golem,Golem,76,golem,Golem,True
+76,golem_alolan,Golem (Alolan),76,golem_alolan,Golem (Alolan),True
+76,golem_alolan_shadow,Golem (Alolan) (Shadow),76,golem_alolan_shadow,Golem (Alolan) (Shadow),True
+76,golem_shadow,Golem (Shadow),76,golem_shadow,Golem (Shadow),True
+77,ponyta,Ponyta,77,ponyta,Ponyta,True
+77,ponyta,Ponyta,78,rapidash,Rapidash,False
+77,ponyta_galarian,Ponyta (Galarian),77,ponyta_galarian,Ponyta (Galarian),True
+77,ponyta_galarian,Ponyta (Galarian),78,rapidash_galarian,Rapidash (Galarian),False
+78,rapidash,Rapidash,78,rapidash,Rapidash,True
+78,rapidash_galarian,Rapidash (Galarian),78,rapidash_galarian,Rapidash (Galarian),True
+79,slowpoke,Slowpoke,79,slowpoke,Slowpoke,True
+79,slowpoke,Slowpoke,80,slowbro,Slowbro,False
+79,slowpoke,Slowpoke,199,slowking,Slowking,False
+79,slowpoke_galarian,Slowpoke (Galarian),79,slowpoke_galarian,Slowpoke (Galarian),True
+79,slowpoke_galarian,Slowpoke (Galarian),80,slowbro_galarian,Slowbro (Galarian),False
+79,slowpoke_galarian,Slowpoke (Galarian),80,slowbro_mega,Slowbro (Mega),False
+79,slowpoke_galarian,Slowpoke (Galarian),199,slowking_galarian,Slowking (Galarian),False
+79,slowpoke_shadow,Slowpoke (Shadow),79,slowpoke_shadow,Slowpoke (Shadow),True
+79,slowpoke_shadow,Slowpoke (Shadow),80,slowbro_shadow,Slowbro (Shadow),False
+79,slowpoke_shadow,Slowpoke (Shadow),199,slowking_shadow,Slowking (Shadow),False
+80,slowbro,Slowbro,80,slowbro,Slowbro,True
+80,slowbro_galarian,Slowbro (Galarian),80,slowbro_galarian,Slowbro (Galarian),True
+80,slowbro_mega,Slowbro (Mega),80,slowbro_mega,Slowbro (Mega),True
+80,slowbro_shadow,Slowbro (Shadow),80,slowbro_shadow,Slowbro (Shadow),True
+81,magnemite,Magnemite,81,magnemite,Magnemite,True
+81,magnemite,Magnemite,82,magneton,Magneton,False
+81,magnemite,Magnemite,462,magnezone,Magnezone,False
+81,magnemite_shadow,Magnemite (Shadow),81,magnemite_shadow,Magnemite (Shadow),True
+81,magnemite_shadow,Magnemite (Shadow),82,magneton_shadow,Magneton (Shadow),False
+81,magnemite_shadow,Magnemite (Shadow),462,magnezone_shadow,Magnezone (Shadow),False
+82,magneton,Magneton,82,magneton,Magneton,True
+82,magneton,Magneton,462,magnezone,Magnezone,False
+82,magneton_shadow,Magneton (Shadow),82,magneton_shadow,Magneton (Shadow),True
+82,magneton_shadow,Magneton (Shadow),462,magnezone_shadow,Magnezone (Shadow),False
+83,farfetchd,Farfetch'd,83,farfetchd,Farfetch'd,True
+83,farfetchd_galarian,Farfetch'd (Galarian),83,farfetchd_galarian,Farfetch'd (Galarian),True
+83,farfetchd_galarian,Farfetch'd (Galarian),865,sirfetchd,Sirfetch'd,False
+84,doduo,Doduo,84,doduo,Doduo,True
+84,doduo,Doduo,85,dodrio,Dodrio,False
+85,dodrio,Dodrio,85,dodrio,Dodrio,True
+86,seel,Seel,86,seel,Seel,True
+86,seel,Seel,87,dewgong,Dewgong,False
+87,dewgong,Dewgong,87,dewgong,Dewgong,True
+88,grimer,Grimer,88,grimer,Grimer,True
+88,grimer,Grimer,89,muk,Muk,False
+88,grimer_alolan,Grimer (Alolan),88,grimer_alolan,Grimer (Alolan),True
+88,grimer_alolan,Grimer (Alolan),89,muk_alolan,Muk (Alolan),False
+88,grimer_alolan_shadow,Grimer (Alolan) (Shadow),88,grimer_alolan_shadow,Grimer (Alolan) (Shadow),True
+88,grimer_alolan_shadow,Grimer (Alolan) (Shadow),89,muk_alolan_shadow,Muk (Alolan) (Shadow),False
+88,grimer_shadow,Grimer (Shadow),88,grimer_shadow,Grimer (Shadow),True
+88,grimer_shadow,Grimer (Shadow),89,muk_shadow,Muk (Shadow),False
+89,muk,Muk,89,muk,Muk,True
+89,muk_alolan,Muk (Alolan),89,muk_alolan,Muk (Alolan),True
+89,muk_alolan_shadow,Muk (Alolan) (Shadow),89,muk_alolan_shadow,Muk (Alolan) (Shadow),True
+89,muk_shadow,Muk (Shadow),89,muk_shadow,Muk (Shadow),True
+90,shellder,Shellder,90,shellder,Shellder,True
+90,shellder,Shellder,91,cloyster,Cloyster,False
+90,shellder_shadow,Shellder (Shadow),90,shellder_shadow,Shellder (Shadow),True
+90,shellder_shadow,Shellder (Shadow),91,cloyster_shadow,Cloyster (Shadow),False
+91,cloyster,Cloyster,91,cloyster,Cloyster,True
+91,cloyster_shadow,Cloyster (Shadow),91,cloyster_shadow,Cloyster (Shadow),True
+92,gastly,Gastly,92,gastly,Gastly,True
+92,gastly,Gastly,93,haunter,Haunter,False
+92,gastly,Gastly,94,gengar,Gengar,False
+92,gastly,Gastly,94,gengar_mega,Gengar (Mega),False
+92,gastly_shadow,Gastly (Shadow),92,gastly_shadow,Gastly (Shadow),True
+92,gastly_shadow,Gastly (Shadow),93,haunter_shadow,Haunter (Shadow),False
+92,gastly_shadow,Gastly (Shadow),94,gengar_shadow,Gengar (Shadow),False
+93,haunter,Haunter,93,haunter,Haunter,True
+93,haunter,Haunter,94,gengar,Gengar,False
+93,haunter,Haunter,94,gengar_mega,Gengar (Mega),False
+93,haunter_shadow,Haunter (Shadow),93,haunter_shadow,Haunter (Shadow),True
+93,haunter_shadow,Haunter (Shadow),94,gengar_shadow,Gengar (Shadow),False
+94,gengar,Gengar,94,gengar,Gengar,True
+94,gengar_mega,Gengar (Mega),94,gengar_mega,Gengar (Mega),True
+94,gengar_shadow,Gengar (Shadow),94,gengar_shadow,Gengar (Shadow),True
+95,onix,Onix,95,onix,Onix,True
+95,onix,Onix,208,steelix,Steelix,False
+95,onix,Onix,208,steelix_mega,Steelix (Mega),False
+95,onix_shadow,Onix (Shadow),95,onix_shadow,Onix (Shadow),True
+95,onix_shadow,Onix (Shadow),208,steelix_shadow,Steelix (Shadow),False
+96,drowzee,Drowzee,96,drowzee,Drowzee,True
+96,drowzee,Drowzee,97,hypno,Hypno,False
+96,drowzee_shadow,Drowzee (Shadow),96,drowzee_shadow,Drowzee (Shadow),True
+96,drowzee_shadow,Drowzee (Shadow),97,hypno_shadow,Hypno (Shadow),False
+97,hypno,Hypno,97,hypno,Hypno,True
+97,hypno_shadow,Hypno (Shadow),97,hypno_shadow,Hypno (Shadow),True
+98,krabby,Krabby,98,krabby,Krabby,True
+98,krabby,Krabby,99,kingler,Kingler,False
+99,kingler,Kingler,99,kingler,Kingler,True
+100,voltorb,Voltorb,100,voltorb,Voltorb,True
+100,voltorb,Voltorb,101,electrode,Electrode,False
+100,voltorb_hisuian,Voltorb (Hisuian),100,voltorb_hisuian,Voltorb (Hisuian),True
+100,voltorb_hisuian,Voltorb (Hisuian),101,electrode_hisuian,Electrode (Hisuian),False
+100,voltorb_shadow,Voltorb (Shadow),100,voltorb_shadow,Voltorb (Shadow),True
+100,voltorb_shadow,Voltorb (Shadow),101,electrode_shadow,Electrode (Shadow),False
+101,electrode,Electrode,101,electrode,Electrode,True
+101,electrode_hisuian,Electrode (Hisuian),101,electrode_hisuian,Electrode (Hisuian),True
+101,electrode_shadow,Electrode (Shadow),101,electrode_shadow,Electrode (Shadow),True
+102,exeggcute,Exeggcute,102,exeggcute,Exeggcute,True
+102,exeggcute,Exeggcute,103,exeggutor,Exeggutor,False
+102,exeggcute,Exeggcute,103,exeggutor_alolan,Exeggutor (Alolan),False
+102,exeggcute_shadow,Exeggcute (Shadow),102,exeggcute_shadow,Exeggcute (Shadow),True
+102,exeggcute_shadow,Exeggcute (Shadow),103,exeggutor_alolan_shadow,Exeggutor (Alolan) (Shadow),False
+102,exeggcute_shadow,Exeggcute (Shadow),103,exeggutor_shadow,Exeggutor (Shadow),False
+103,exeggutor,Exeggutor,103,exeggutor,Exeggutor,True
+103,exeggutor_alolan,Exeggutor (Alolan),103,exeggutor_alolan,Exeggutor (Alolan),True
+103,exeggutor_alolan_shadow,Exeggutor (Alolan) (Shadow),103,exeggutor_alolan_shadow,Exeggutor (Alolan) (Shadow),True
+103,exeggutor_shadow,Exeggutor (Shadow),103,exeggutor_shadow,Exeggutor (Shadow),True
+104,cubone,Cubone,104,cubone,Cubone,True
+104,cubone,Cubone,105,marowak,Marowak,False
+104,cubone,Cubone,105,marowak_alolan,Marowak (Alolan),False
+104,cubone_shadow,Cubone (Shadow),104,cubone_shadow,Cubone (Shadow),True
+104,cubone_shadow,Cubone (Shadow),105,marowak_alolan_shadow,Marowak (Alolan) (Shadow),False
+104,cubone_shadow,Cubone (Shadow),105,marowak_shadow,Marowak (Shadow),False
+105,marowak,Marowak,105,marowak,Marowak,True
+105,marowak_alolan,Marowak (Alolan),105,marowak_alolan,Marowak (Alolan),True
+105,marowak_alolan_shadow,Marowak (Alolan) (Shadow),105,marowak_alolan_shadow,Marowak (Alolan) (Shadow),True
+105,marowak_shadow,Marowak (Shadow),105,marowak_shadow,Marowak (Shadow),True
+106,hitmonlee,Hitmonlee,106,hitmonlee,Hitmonlee,True
+106,hitmonlee_shadow,Hitmonlee (Shadow),106,hitmonlee_shadow,Hitmonlee (Shadow),True
+107,hitmonchan,Hitmonchan,107,hitmonchan,Hitmonchan,True
+107,hitmonchan_shadow,Hitmonchan (Shadow),107,hitmonchan_shadow,Hitmonchan (Shadow),True
+108,lickitung,Lickitung,108,lickitung,Lickitung,True
+108,lickitung,Lickitung,463,lickilicky,Lickilicky,False
+109,koffing,Koffing,109,koffing,Koffing,True
+109,koffing,Koffing,110,weezing,Weezing,False
+109,koffing,Koffing,110,weezing_galarian,Weezing (Galarian),False
+109,koffing_shadow,Koffing (Shadow),109,koffing_shadow,Koffing (Shadow),True
+109,koffing_shadow,Koffing (Shadow),110,weezing_shadow,Weezing (Shadow),False
+110,weezing,Weezing,110,weezing,Weezing,True
+110,weezing_galarian,Weezing (Galarian),110,weezing_galarian,Weezing (Galarian),True
+110,weezing_shadow,Weezing (Shadow),110,weezing_shadow,Weezing (Shadow),True
+111,rhyhorn,Rhyhorn,111,rhyhorn,Rhyhorn,True
+111,rhyhorn,Rhyhorn,112,rhydon,Rhydon,False
+111,rhyhorn,Rhyhorn,464,rhyperior,Rhyperior,False
+111,rhyhorn_shadow,Rhyhorn (Shadow),111,rhyhorn_shadow,Rhyhorn (Shadow),True
+111,rhyhorn_shadow,Rhyhorn (Shadow),112,rhydon_shadow,Rhydon (Shadow),False
+111,rhyhorn_shadow,Rhyhorn (Shadow),464,rhyperior_shadow,Rhyperior (Shadow),False
+112,rhydon,Rhydon,112,rhydon,Rhydon,True
+112,rhydon,Rhydon,464,rhyperior,Rhyperior,False
+112,rhydon_shadow,Rhydon (Shadow),112,rhydon_shadow,Rhydon (Shadow),True
+112,rhydon_shadow,Rhydon (Shadow),464,rhyperior_shadow,Rhyperior (Shadow),False
+113,chansey,Chansey,113,chansey,Chansey,True
+113,chansey,Chansey,242,blissey,Blissey,False
+114,tangela,Tangela,114,tangela,Tangela,True
+114,tangela,Tangela,465,tangrowth,Tangrowth,False
+114,tangela_shadow,Tangela (Shadow),114,tangela_shadow,Tangela (Shadow),True
+114,tangela_shadow,Tangela (Shadow),465,tangrowth_shadow,Tangrowth (Shadow),False
+115,kangaskhan,Kangaskhan,115,kangaskhan,Kangaskhan,True
+115,kangaskhan_mega,Kangaskhan (Mega),115,kangaskhan_mega,Kangaskhan (Mega),True
+116,horsea,Horsea,116,horsea,Horsea,True
+116,horsea,Horsea,117,seadra,Seadra,False
+116,horsea,Horsea,230,kingdra,Kingdra,False
+116,horsea_shadow,Horsea (Shadow),116,horsea_shadow,Horsea (Shadow),True
+116,horsea_shadow,Horsea (Shadow),117,seadra_shadow,Seadra (Shadow),False
+116,horsea_shadow,Horsea (Shadow),230,kingdra_shadow,Kingdra (Shadow),False
+117,seadra,Seadra,117,seadra,Seadra,True
+117,seadra,Seadra,230,kingdra,Kingdra,False
+117,seadra_shadow,Seadra (Shadow),117,seadra_shadow,Seadra (Shadow),True
+117,seadra_shadow,Seadra (Shadow),230,kingdra_shadow,Kingdra (Shadow),False
+118,goldeen,Goldeen,118,goldeen,Goldeen,True
+118,goldeen,Goldeen,119,seaking,Seaking,False
+119,seaking,Seaking,119,seaking,Seaking,True
+120,staryu,Staryu,120,staryu,Staryu,True
+120,staryu,Staryu,121,starmie,Starmie,False
+121,starmie,Starmie,121,starmie,Starmie,True
+122,mr_mime,Mr. Mime,122,mr_mime,Mr. Mime,True
+122,mr_mime_galarian,Mr. Mime (Galarian),122,mr_mime_galarian,Mr. Mime (Galarian),True
+122,mr_mime_galarian,Mr. Mime (Galarian),866,mr_rime,Mr. Rime,False
+123,scyther,Scyther,123,scyther,Scyther,True
+123,scyther,Scyther,212,scizor,Scizor,False
+123,scyther,Scyther,212,scizor_mega,Scizor (Mega),False
+123,scyther,Scyther,900,kleavor,Kleavor,False
+123,scyther_shadow,Scyther (Shadow),123,scyther_shadow,Scyther (Shadow),True
+123,scyther_shadow,Scyther (Shadow),212,scizor_shadow,Scizor (Shadow),False
+124,jynx,Jynx,124,jynx,Jynx,True
+125,electabuzz,Electabuzz,125,electabuzz,Electabuzz,True
+125,electabuzz,Electabuzz,466,electivire,Electivire,False
+125,electabuzz_shadow,Electabuzz (Shadow),125,electabuzz_shadow,Electabuzz (Shadow),True
+125,electabuzz_shadow,Electabuzz (Shadow),466,electivire_shadow,Electivire (Shadow),False
+126,magmar,Magmar,126,magmar,Magmar,True
+126,magmar,Magmar,467,magmortar,Magmortar,False
+126,magmar_shadow,Magmar (Shadow),126,magmar_shadow,Magmar (Shadow),True
+126,magmar_shadow,Magmar (Shadow),467,magmortar_shadow,Magmortar (Shadow),False
+127,pinsir,Pinsir,127,pinsir,Pinsir,True
+127,pinsir_mega,Pinsir (Mega),127,pinsir_mega,Pinsir (Mega),True
+127,pinsir_shadow,Pinsir (Shadow),127,pinsir_shadow,Pinsir (Shadow),True
+128,tauros,Tauros,128,tauros,Tauros,True
+129,magikarp,Magikarp,129,magikarp,Magikarp,True
+129,magikarp,Magikarp,130,gyarados,Gyarados,False
+129,magikarp,Magikarp,130,gyarados_mega,Gyarados (Mega),False
+129,magikarp_shadow,Magikarp (Shadow),129,magikarp_shadow,Magikarp (Shadow),True
+129,magikarp_shadow,Magikarp (Shadow),130,gyarados_shadow,Gyarados (Shadow),False
+130,gyarados,Gyarados,130,gyarados,Gyarados,True
+130,gyarados_mega,Gyarados (Mega),130,gyarados_mega,Gyarados (Mega),True
+130,gyarados_shadow,Gyarados (Shadow),130,gyarados_shadow,Gyarados (Shadow),True
+131,lapras,Lapras,131,lapras,Lapras,True
+131,lapras_shadow,Lapras (Shadow),131,lapras_shadow,Lapras (Shadow),True
+132,ditto,Ditto,132,ditto,Ditto,True
+133,eevee,Eevee,133,eevee,Eevee,True
+133,eevee,Eevee,134,vaporeon,Vaporeon,False
+133,eevee,Eevee,135,jolteon,Jolteon,False
+133,eevee,Eevee,136,flareon,Flareon,False
+133,eevee,Eevee,196,espeon,Espeon,False
+133,eevee,Eevee,197,umbreon,Umbreon,False
+133,eevee,Eevee,470,leafeon,Leafeon,False
+133,eevee,Eevee,471,glaceon,Glaceon,False
+133,eevee,Eevee,700,sylveon,Sylveon,False
+134,vaporeon,Vaporeon,134,vaporeon,Vaporeon,True
+135,jolteon,Jolteon,135,jolteon,Jolteon,True
+136,flareon,Flareon,136,flareon,Flareon,True
+137,porygon,Porygon,137,porygon,Porygon,True
+137,porygon,Porygon,233,porygon2,Porygon2,False
+137,porygon,Porygon,474,porygon_z,Porygon-Z,False
+137,porygon_shadow,Porygon (Shadow),137,porygon_shadow,Porygon (Shadow),True
+137,porygon_shadow,Porygon (Shadow),233,porygon2_shadow,Porygon2 (Shadow),False
+137,porygon_shadow,Porygon (Shadow),474,porygon_z_shadow,Porygon-Z (Shadow),False
+138,omanyte,Omanyte,138,omanyte,Omanyte,True
+138,omanyte,Omanyte,139,omastar,Omastar,False
+138,omanyte_shadow,Omanyte (Shadow),138,omanyte_shadow,Omanyte (Shadow),True
+138,omanyte_shadow,Omanyte (Shadow),139,omastar_shadow,Omastar (Shadow),False
+139,omastar,Omastar,139,omastar,Omastar,True
+139,omastar_shadow,Omastar (Shadow),139,omastar_shadow,Omastar (Shadow),True
+140,kabuto,Kabuto,140,kabuto,Kabuto,True
+140,kabuto,Kabuto,141,kabutops,Kabutops,False
+141,kabutops,Kabutops,141,kabutops,Kabutops,True
+142,aerodactyl,Aerodactyl,142,aerodactyl,Aerodactyl,True
+142,aerodactyl_mega,Aerodactyl (Mega),142,aerodactyl_mega,Aerodactyl (Mega),True
+142,aerodactyl_shadow,Aerodactyl (Shadow),142,aerodactyl_shadow,Aerodactyl (Shadow),True
+143,snorlax,Snorlax,143,snorlax,Snorlax,True
+143,snorlax_shadow,Snorlax (Shadow),143,snorlax_shadow,Snorlax (Shadow),True
+144,articuno,Articuno,144,articuno,Articuno,True
+144,articuno_galarian,Articuno (Galarian),144,articuno_galarian,Articuno (Galarian),True
+144,articuno_shadow,Articuno (Shadow),144,articuno_shadow,Articuno (Shadow),True
+145,zapdos,Zapdos,145,zapdos,Zapdos,True
+145,zapdos_galarian,Zapdos (Galarian),145,zapdos_galarian,Zapdos (Galarian),True
+145,zapdos_shadow,Zapdos (Shadow),145,zapdos_shadow,Zapdos (Shadow),True
+146,moltres,Moltres,146,moltres,Moltres,True
+146,moltres_galarian,Moltres (Galarian),146,moltres_galarian,Moltres (Galarian),True
+146,moltres_shadow,Moltres (Shadow),146,moltres_shadow,Moltres (Shadow),True
+147,dratini,Dratini,147,dratini,Dratini,True
+147,dratini,Dratini,148,dragonair,Dragonair,False
+147,dratini,Dratini,149,dragonite,Dragonite,False
+147,dratini_shadow,Dratini (Shadow),147,dratini_shadow,Dratini (Shadow),True
+147,dratini_shadow,Dratini (Shadow),148,dragonair_shadow,Dragonair (Shadow),False
+147,dratini_shadow,Dratini (Shadow),149,dragonite_shadow,Dragonite (Shadow),False
+148,dragonair,Dragonair,148,dragonair,Dragonair,True
+148,dragonair,Dragonair,149,dragonite,Dragonite,False
+148,dragonair_shadow,Dragonair (Shadow),148,dragonair_shadow,Dragonair (Shadow),True
+148,dragonair_shadow,Dragonair (Shadow),149,dragonite_shadow,Dragonite (Shadow),False
+149,dragonite,Dragonite,149,dragonite,Dragonite,True
+149,dragonite_shadow,Dragonite (Shadow),149,dragonite_shadow,Dragonite (Shadow),True
+150,mewtwo,Mewtwo,150,mewtwo,Mewtwo,True
+150,mewtwo_armored,Mewtwo (Armored),150,mewtwo_armored,Mewtwo (Armored),True
+150,mewtwo_shadow,Mewtwo (Shadow),150,mewtwo_shadow,Mewtwo (Shadow),True
+151,mew,Mew,151,mew,Mew,True
+152,chikorita,Chikorita,152,chikorita,Chikorita,True
+152,chikorita,Chikorita,153,bayleef,Bayleef,False
+152,chikorita,Chikorita,154,meganium,Meganium,False
+152,chikorita_shadow,Chikorita (Shadow),152,chikorita_shadow,Chikorita (Shadow),True
+152,chikorita_shadow,Chikorita (Shadow),153,bayleef_shadow,Bayleef (Shadow),False
+152,chikorita_shadow,Chikorita (Shadow),154,meganium_shadow,Meganium (Shadow),False
+153,bayleef,Bayleef,153,bayleef,Bayleef,True
+153,bayleef,Bayleef,154,meganium,Meganium,False
+153,bayleef_shadow,Bayleef (Shadow),153,bayleef_shadow,Bayleef (Shadow),True
+153,bayleef_shadow,Bayleef (Shadow),154,meganium_shadow,Meganium (Shadow),False
+154,meganium,Meganium,154,meganium,Meganium,True
+154,meganium_shadow,Meganium (Shadow),154,meganium_shadow,Meganium (Shadow),True
+155,cyndaquil,Cyndaquil,155,cyndaquil,Cyndaquil,True
+155,cyndaquil,Cyndaquil,156,quilava,Quilava,False
+155,cyndaquil,Cyndaquil,157,typhlosion,Typhlosion,False
+155,cyndaquil,Cyndaquil,157,typhlosion_hisuian,Typhlosion (Hisuian),False
+155,cyndaquil_shadow,Cyndaquil (Shadow),155,cyndaquil_shadow,Cyndaquil (Shadow),True
+155,cyndaquil_shadow,Cyndaquil (Shadow),156,quilava_shadow,Quilava (Shadow),False
+155,cyndaquil_shadow,Cyndaquil (Shadow),157,typhlosion_shadow,Typhlosion (Shadow),False
+156,quilava,Quilava,156,quilava,Quilava,True
+156,quilava,Quilava,157,typhlosion,Typhlosion,False
+156,quilava,Quilava,157,typhlosion_hisuian,Typhlosion (Hisuian),False
+156,quilava_shadow,Quilava (Shadow),156,quilava_shadow,Quilava (Shadow),True
+156,quilava_shadow,Quilava (Shadow),157,typhlosion_shadow,Typhlosion (Shadow),False
+157,typhlosion,Typhlosion,157,typhlosion,Typhlosion,True
+157,typhlosion_hisuian,Typhlosion (Hisuian),157,typhlosion_hisuian,Typhlosion (Hisuian),True
+157,typhlosion_shadow,Typhlosion (Shadow),157,typhlosion_shadow,Typhlosion (Shadow),True
+158,totodile,Totodile,158,totodile,Totodile,True
+158,totodile,Totodile,159,croconaw,Croconaw,False
+158,totodile,Totodile,160,feraligatr,Feraligatr,False
+158,totodile_shadow,Totodile (Shadow),158,totodile_shadow,Totodile (Shadow),True
+158,totodile_shadow,Totodile (Shadow),159,croconaw_shadow,Croconaw (Shadow),False
+158,totodile_shadow,Totodile (Shadow),160,feraligatr_shadow,Feraligatr (Shadow),False
+159,croconaw,Croconaw,159,croconaw,Croconaw,True
+159,croconaw,Croconaw,160,feraligatr,Feraligatr,False
+159,croconaw_shadow,Croconaw (Shadow),159,croconaw_shadow,Croconaw (Shadow),True
+159,croconaw_shadow,Croconaw (Shadow),160,feraligatr_shadow,Feraligatr (Shadow),False
+160,feraligatr,Feraligatr,160,feraligatr,Feraligatr,True
+160,feraligatr_shadow,Feraligatr (Shadow),160,feraligatr_shadow,Feraligatr (Shadow),True
+161,sentret,Sentret,161,sentret,Sentret,True
+161,sentret,Sentret,162,furret,Furret,False
+162,furret,Furret,162,furret,Furret,True
+163,hoothoot,Hoothoot,163,hoothoot,Hoothoot,True
+163,hoothoot,Hoothoot,164,noctowl,Noctowl,False
+164,noctowl,Noctowl,164,noctowl,Noctowl,True
+165,ledyba,Ledyba,165,ledyba,Ledyba,True
+165,ledyba,Ledyba,166,ledian,Ledian,False
+165,ledyba_shadow,Ledyba (Shadow),165,ledyba_shadow,Ledyba (Shadow),True
+165,ledyba_shadow,Ledyba (Shadow),166,ledian_shadow,Ledian (Shadow),False
+166,ledian,Ledian,166,ledian,Ledian,True
+166,ledian_shadow,Ledian (Shadow),166,ledian_shadow,Ledian (Shadow),True
+167,spinarak,Spinarak,167,spinarak,Spinarak,True
+167,spinarak,Spinarak,168,ariados,Ariados,False
+168,ariados,Ariados,168,ariados,Ariados,True
+169,crobat,Crobat,169,crobat,Crobat,True
+169,crobat_shadow,Crobat (Shadow),169,crobat_shadow,Crobat (Shadow),True
+170,chinchou,Chinchou,170,chinchou,Chinchou,True
+170,chinchou,Chinchou,171,lanturn,Lanturn,False
+170,chinchou,Chinchou,171,lanturnw,Lanturn,False
+171,lanturn,Lanturn,171,lanturn,Lanturn,True
+171,lanturnw,Lanturn,171,lanturnw,Lanturn,True
+172,pichu,Pichu,25,pikachu,Pikachu,False
+172,pichu,Pichu,25,pikachu_horizons,Pikachu (Horizons),False
+172,pichu,Pichu,25,pikachu_kariyushi,Pikachu (Kariyushi),False
+172,pichu,Pichu,25,pikachu_pop_star,Pikachu (Pop Star),False
+172,pichu,Pichu,25,pikachu_rock_star,Pikachu (Rock Star),False
+172,pichu,Pichu,25,pikachu_shaymin,Pikachu (Shaymin Scarf),False
+172,pichu,Pichu,26,raichu,Raichu,False
+172,pichu,Pichu,26,raichu_alolan,Raichu (Alolan),False
+172,pichu,Pichu,172,pichu,Pichu,True
+173,cleffa,Cleffa,35,clefairy,Clefairy,False
+173,cleffa,Cleffa,36,clefable,Clefable,False
+173,cleffa,Cleffa,173,cleffa,Cleffa,True
+174,igglybuff,Igglybuff,39,jigglypuff,Jigglypuff,False
+174,igglybuff,Igglybuff,40,wigglytuff,Wigglytuff,False
+174,igglybuff,Igglybuff,174,igglybuff,Igglybuff,True
+175,togepi,Togepi,175,togepi,Togepi,True
+175,togepi,Togepi,176,togetic,Togetic,False
+175,togepi,Togepi,468,togekiss,Togekiss,False
+176,togetic,Togetic,176,togetic,Togetic,True
+176,togetic,Togetic,468,togekiss,Togekiss,False
+177,natu,Natu,177,natu,Natu,True
+177,natu,Natu,178,xatu,Xatu,False
+177,natu_shadow,Natu (Shadow),177,natu_shadow,Natu (Shadow),True
+177,natu_shadow,Natu (Shadow),178,xatu_shadow,Xatu (Shadow),False
+178,xatu,Xatu,178,xatu,Xatu,True
+178,xatu_shadow,Xatu (Shadow),178,xatu_shadow,Xatu (Shadow),True
+179,mareep,Mareep,179,mareep,Mareep,True
+179,mareep,Mareep,180,flaaffy,Flaaffy,False
+179,mareep,Mareep,181,ampharos,Ampharos,False
+179,mareep,Mareep,181,ampharos_mega,Ampharos (Mega),False
+179,mareep_shadow,Mareep (Shadow),179,mareep_shadow,Mareep (Shadow),True
+179,mareep_shadow,Mareep (Shadow),180,flaaffy_shadow,Flaaffy (Shadow),False
+179,mareep_shadow,Mareep (Shadow),181,ampharos_shadow,Ampharos (Shadow),False
+180,flaaffy,Flaaffy,180,flaaffy,Flaaffy,True
+180,flaaffy,Flaaffy,181,ampharos,Ampharos,False
+180,flaaffy,Flaaffy,181,ampharos_mega,Ampharos (Mega),False
+180,flaaffy_shadow,Flaaffy (Shadow),180,flaaffy_shadow,Flaaffy (Shadow),True
+180,flaaffy_shadow,Flaaffy (Shadow),181,ampharos_shadow,Ampharos (Shadow),False
+181,ampharos,Ampharos,181,ampharos,Ampharos,True
+181,ampharos_mega,Ampharos (Mega),181,ampharos_mega,Ampharos (Mega),True
+181,ampharos_shadow,Ampharos (Shadow),181,ampharos_shadow,Ampharos (Shadow),True
+182,bellossom,Bellossom,182,bellossom,Bellossom,True
+182,bellossom_shadow,Bellossom (Shadow),182,bellossom_shadow,Bellossom (Shadow),True
+183,marill,Marill,183,marill,Marill,True
+183,marill,Marill,184,azumarill,Azumarill,False
+184,azumarill,Azumarill,184,azumarill,Azumarill,True
+185,sudowoodo,Sudowoodo,185,sudowoodo,Sudowoodo,True
+185,sudowoodo_shadow,Sudowoodo (Shadow),185,sudowoodo_shadow,Sudowoodo (Shadow),True
+186,politoed,Politoed,186,politoed,Politoed,True
+186,politoed_shadow,Politoed (Shadow),186,politoed_shadow,Politoed (Shadow),True
+187,hoppip,Hoppip,187,hoppip,Hoppip,True
+187,hoppip,Hoppip,188,skiploom,Skiploom,False
+187,hoppip,Hoppip,189,jumpluff,Jumpluff,False
+187,hoppip_shadow,Hoppip (Shadow),187,hoppip_shadow,Hoppip (Shadow),True
+187,hoppip_shadow,Hoppip (Shadow),188,skiploom_shadow,Skiploom (Shadow),False
+187,hoppip_shadow,Hoppip (Shadow),189,jumpluff_shadow,Jumpluff (Shadow),False
+188,skiploom,Skiploom,188,skiploom,Skiploom,True
+188,skiploom,Skiploom,189,jumpluff,Jumpluff,False
+188,skiploom_shadow,Skiploom (Shadow),188,skiploom_shadow,Skiploom (Shadow),True
+188,skiploom_shadow,Skiploom (Shadow),189,jumpluff_shadow,Jumpluff (Shadow),False
+189,jumpluff,Jumpluff,189,jumpluff,Jumpluff,True
+189,jumpluff_shadow,Jumpluff (Shadow),189,jumpluff_shadow,Jumpluff (Shadow),True
+190,aipom,Aipom,190,aipom,Aipom,True
+190,aipom,Aipom,424,ambipom,Ambipom,False
+190,aipom_shadow,Aipom (Shadow),190,aipom_shadow,Aipom (Shadow),True
+190,aipom_shadow,Aipom (Shadow),424,ambipom_shadow,Ambipom (Shadow),False
+191,sunkern,Sunkern,191,sunkern,Sunkern,True
+191,sunkern,Sunkern,192,sunflora,Sunflora,False
+192,sunflora,Sunflora,192,sunflora,Sunflora,True
+193,yanma,Yanma,193,yanma,Yanma,True
+193,yanma,Yanma,469,yanmega,Yanmega,False
+194,wooper,Wooper,194,wooper,Wooper,True
+194,wooper,Wooper,195,quagsire,Quagsire,False
+194,wooper_paldean,Wooper (Paldean),194,wooper_paldean,Wooper (Paldean),True
+194,wooper_paldean,Wooper (Paldean),980,clodsire,Clodsire,False
+194,wooper_shadow,Wooper (Shadow),194,wooper_shadow,Wooper (Shadow),True
+194,wooper_shadow,Wooper (Shadow),195,quagsire_shadow,Quagsire (Shadow),False
+195,quagsire,Quagsire,195,quagsire,Quagsire,True
+195,quagsire_shadow,Quagsire (Shadow),195,quagsire_shadow,Quagsire (Shadow),True
+196,espeon,Espeon,196,espeon,Espeon,True
+197,umbreon,Umbreon,197,umbreon,Umbreon,True
+198,murkrow,Murkrow,198,murkrow,Murkrow,True
+198,murkrow,Murkrow,430,honchkrow,Honchkrow,False
+198,murkrow_shadow,Murkrow (Shadow),198,murkrow_shadow,Murkrow (Shadow),True
+198,murkrow_shadow,Murkrow (Shadow),430,honchkrow_shadow,Honchkrow (Shadow),False
+199,slowking,Slowking,199,slowking,Slowking,True
+199,slowking_galarian,Slowking (Galarian),199,slowking_galarian,Slowking (Galarian),True
+199,slowking_shadow,Slowking (Shadow),199,slowking_shadow,Slowking (Shadow),True
+200,misdreavus,Misdreavus,200,misdreavus,Misdreavus,True
+200,misdreavus,Misdreavus,429,mismagius,Mismagius,False
+200,misdreavus_shadow,Misdreavus (Shadow),200,misdreavus_shadow,Misdreavus (Shadow),True
+200,misdreavus_shadow,Misdreavus (Shadow),429,mismagius_shadow,Mismagius (Shadow),False
+201,unown,Unown,201,unown,Unown,True
+202,wobbuffet,Wobbuffet,202,wobbuffet,Wobbuffet,True
+202,wobbuffet_shadow,Wobbuffet (Shadow),202,wobbuffet_shadow,Wobbuffet (Shadow),True
+203,girafarig,Girafarig,203,girafarig,Girafarig,True
+203,girafarig,Girafarig,981,farigiraf,Farigiraf,False
+203,girafarig_shadow,Girafarig (Shadow),203,girafarig_shadow,Girafarig (Shadow),True
+204,pineco,Pineco,204,pineco,Pineco,True
+204,pineco,Pineco,205,forretress,Forretress,False
+204,pineco_shadow,Pineco (Shadow),204,pineco_shadow,Pineco (Shadow),True
+204,pineco_shadow,Pineco (Shadow),205,forretress_shadow,Forretress (Shadow),False
+205,forretress,Forretress,205,forretress,Forretress,True
+205,forretress_shadow,Forretress (Shadow),205,forretress_shadow,Forretress (Shadow),True
+206,dunsparce,Dunsparce,206,dunsparce,Dunsparce,True
+206,dunsparce,Dunsparce,982,dudunsparce,Dudunsparce,False
+206,dunsparce,Dunsparce,982,dudunsparce_three,Dudunsparce_three,False
+206,dunsparce,Dunsparce,982,dudunsparce_two,Dudunsparce_two,False
+207,gligar,Gligar,207,gligar,Gligar,True
+207,gligar,Gligar,472,gliscor,Gliscor,False
+207,gligar_shadow,Gligar (Shadow),207,gligar_shadow,Gligar (Shadow),True
+207,gligar_shadow,Gligar (Shadow),472,gliscor_shadow,Gliscor (Shadow),False
+208,steelix,Steelix,208,steelix,Steelix,True
+208,steelix_mega,Steelix (Mega),208,steelix_mega,Steelix (Mega),True
+208,steelix_shadow,Steelix (Shadow),208,steelix_shadow,Steelix (Shadow),True
+209,snubbull,Snubbull,209,snubbull,Snubbull,True
+209,snubbull,Snubbull,210,granbull,Granbull,False
+209,snubbull_shadow,Snubbull (Shadow),209,snubbull_shadow,Snubbull (Shadow),True
+209,snubbull_shadow,Snubbull (Shadow),210,granbull_shadow,Granbull (Shadow),False
+210,granbull,Granbull,210,granbull,Granbull,True
+210,granbull_shadow,Granbull (Shadow),210,granbull_shadow,Granbull (Shadow),True
+211,qwilfish,Qwilfish,211,qwilfish,Qwilfish,True
+211,qwilfish_hisuian,Qwilfish (Hisuian),211,qwilfish_hisuian,Qwilfish (Hisuian),True
+211,qwilfish_hisuian,Qwilfish (Hisuian),904,overqwil,Overqwil,False
+212,scizor,Scizor,212,scizor,Scizor,True
+212,scizor_mega,Scizor (Mega),212,scizor_mega,Scizor (Mega),True
+212,scizor_shadow,Scizor (Shadow),212,scizor_shadow,Scizor (Shadow),True
+213,shuckle,Shuckle,213,shuckle,Shuckle,True
+213,shuckle_shadow,Shuckle (Shadow),213,shuckle_shadow,Shuckle (Shadow),True
+214,heracross,Heracross,214,heracross,Heracross,True
+215,sneasel,Sneasel,215,sneasel,Sneasel,True
+215,sneasel,Sneasel,461,weavile,Weavile,False
+215,sneasel_hisuian,Sneasel (Hisuian),215,sneasel_hisuian,Sneasel (Hisuian),True
+215,sneasel_hisuian,Sneasel (Hisuian),903,sneasler,Sneasler,False
+215,sneasel_hisuian_shadow,Sneasel (Hisuian) (Shadow),215,sneasel_hisuian_shadow,Sneasel (Hisuian) (Shadow),True
+215,sneasel_hisuian_shadow,Sneasel (Hisuian) (Shadow),903,sneasler_shadow,Sneasler (Shadow),False
+215,sneasel_shadow,Sneasel (Shadow),215,sneasel_shadow,Sneasel (Shadow),True
+215,sneasel_shadow,Sneasel (Shadow),461,weavile_shadow,Weavile (Shadow),False
+216,teddiursa,Teddiursa,216,teddiursa,Teddiursa,True
+216,teddiursa,Teddiursa,217,ursaring,Ursaring,False
+216,teddiursa,Teddiursa,901,ursaluna,Ursaluna,False
+216,teddiursa_shadow,Teddiursa (Shadow),216,teddiursa_shadow,Teddiursa (Shadow),True
+216,teddiursa_shadow,Teddiursa (Shadow),217,ursaring_shadow,Ursaring (Shadow),False
+216,teddiursa_shadow,Teddiursa (Shadow),901,ursaluna_shadow,Ursaluna (Shadow),False
+217,ursaring,Ursaring,217,ursaring,Ursaring,True
+217,ursaring,Ursaring,901,ursaluna,Ursaluna,False
+217,ursaring_shadow,Ursaring (Shadow),217,ursaring_shadow,Ursaring (Shadow),True
+217,ursaring_shadow,Ursaring (Shadow),901,ursaluna_shadow,Ursaluna (Shadow),False
+218,slugma,Slugma,218,slugma,Slugma,True
+218,slugma,Slugma,219,magcargo,Magcargo,False
+219,magcargo,Magcargo,219,magcargo,Magcargo,True
+220,swinub,Swinub,220,swinub,Swinub,True
+220,swinub,Swinub,221,piloswine,Piloswine,False
+220,swinub,Swinub,473,mamoswine,Mamoswine,False
+220,swinub_shadow,Swinub (Shadow),220,swinub_shadow,Swinub (Shadow),True
+220,swinub_shadow,Swinub (Shadow),221,piloswine_shadow,Piloswine (Shadow),False
+220,swinub_shadow,Swinub (Shadow),473,mamoswine_shadow,Mamoswine (Shadow),False
+221,piloswine,Piloswine,221,piloswine,Piloswine,True
+221,piloswine,Piloswine,473,mamoswine,Mamoswine,False
+221,piloswine_shadow,Piloswine (Shadow),221,piloswine_shadow,Piloswine (Shadow),True
+221,piloswine_shadow,Piloswine (Shadow),473,mamoswine_shadow,Mamoswine (Shadow),False
+222,corsola,Corsola,222,corsola,Corsola,True
+222,corsola,Corsola,864,cursola,Cursola,False
+223,remoraid,Remoraid,223,remoraid,Remoraid,True
+223,remoraid,Remoraid,224,octillery,Octillery,False
+224,octillery,Octillery,224,octillery,Octillery,True
+225,delibird,Delibird,225,delibird,Delibird,True
+225,delibird_shadow,Delibird (Shadow),225,delibird_shadow,Delibird (Shadow),True
+226,mantine,Mantine,226,mantine,Mantine,True
+227,skarmory,Skarmory,227,skarmory,Skarmory,True
+227,skarmory_shadow,Skarmory (Shadow),227,skarmory_shadow,Skarmory (Shadow),True
+228,houndour,Houndour,228,houndour,Houndour,True
+228,houndour,Houndour,229,houndoom,Houndoom,False
+228,houndour,Houndour,229,houndoom_mega,Houndoom (Mega),False
+228,houndour_shadow,Houndour (Shadow),228,houndour_shadow,Houndour (Shadow),True
+228,houndour_shadow,Houndour (Shadow),229,houndoom_shadow,Houndoom (Shadow),False
+229,houndoom,Houndoom,229,houndoom,Houndoom,True
+229,houndoom_mega,Houndoom (Mega),229,houndoom_mega,Houndoom (Mega),True
+229,houndoom_shadow,Houndoom (Shadow),229,houndoom_shadow,Houndoom (Shadow),True
+230,kingdra,Kingdra,230,kingdra,Kingdra,True
+230,kingdra_shadow,Kingdra (Shadow),230,kingdra_shadow,Kingdra (Shadow),True
+231,phanpy,Phanpy,231,phanpy,Phanpy,True
+231,phanpy,Phanpy,232,donphan,Donphan,False
+231,phanpy_shadow,Phanpy (Shadow),231,phanpy_shadow,Phanpy (Shadow),True
+231,phanpy_shadow,Phanpy (Shadow),232,donphan_shadow,Donphan (Shadow),False
+232,donphan,Donphan,232,donphan,Donphan,True
+232,donphan_shadow,Donphan (Shadow),232,donphan_shadow,Donphan (Shadow),True
+233,porygon2,Porygon2,233,porygon2,Porygon2,True
+233,porygon2,Porygon2,474,porygon_z,Porygon-Z,False
+233,porygon2_shadow,Porygon2 (Shadow),233,porygon2_shadow,Porygon2 (Shadow),True
+233,porygon2_shadow,Porygon2 (Shadow),474,porygon_z_shadow,Porygon-Z (Shadow),False
+234,stantler,Stantler,234,stantler,Stantler,True
+234,stantler,Stantler,899,wyrdeer,Wyrdeer,False
+234,stantler_shadow,Stantler (Shadow),234,stantler_shadow,Stantler (Shadow),True
+235,smeargle,Smeargle,235,smeargle,Smeargle,True
+236,tyrogue,Tyrogue,106,hitmonlee,Hitmonlee,False
+236,tyrogue,Tyrogue,106,hitmonlee_shadow,Hitmonlee (Shadow),False
+236,tyrogue,Tyrogue,107,hitmonchan,Hitmonchan,False
+236,tyrogue,Tyrogue,107,hitmonchan_shadow,Hitmonchan (Shadow),False
+236,tyrogue,Tyrogue,236,tyrogue,Tyrogue,True
+236,tyrogue,Tyrogue,237,hitmontop,Hitmontop,False
+236,tyrogue,Tyrogue,237,hitmontop_shadow,Hitmontop (Shadow),False
+237,hitmontop,Hitmontop,237,hitmontop,Hitmontop,True
+237,hitmontop_shadow,Hitmontop (Shadow),237,hitmontop_shadow,Hitmontop (Shadow),True
+238,smoochum,Smoochum,124,jynx,Jynx,False
+238,smoochum,Smoochum,238,smoochum,Smoochum,True
+239,elekid,Elekid,125,electabuzz,Electabuzz,False
+239,elekid,Elekid,125,electabuzz_shadow,Electabuzz (Shadow),False
+239,elekid,Elekid,239,elekid,Elekid,True
+239,elekid,Elekid,466,electivire,Electivire,False
+239,elekid,Elekid,466,electivire_shadow,Electivire (Shadow),False
+240,magby,Magby,126,magmar,Magmar,False
+240,magby,Magby,126,magmar_shadow,Magmar (Shadow),False
+240,magby,Magby,240,magby,Magby,True
+240,magby,Magby,467,magmortar,Magmortar,False
+240,magby,Magby,467,magmortar_shadow,Magmortar (Shadow),False
+241,miltank,Miltank,241,miltank,Miltank,True
+242,blissey,Blissey,242,blissey,Blissey,True
+243,raikou,Raikou,243,raikou,Raikou,True
+243,raikou_shadow,Raikou (Shadow),243,raikou_shadow,Raikou (Shadow),True
+244,entei,Entei,244,entei,Entei,True
+244,entei_shadow,Entei (Shadow),244,entei_shadow,Entei (Shadow),True
+245,suicune,Suicune,245,suicune,Suicune,True
+245,suicune_shadow,Suicune (Shadow),245,suicune_shadow,Suicune (Shadow),True
+246,larvitar,Larvitar,246,larvitar,Larvitar,True
+246,larvitar,Larvitar,247,pupitar,Pupitar,False
+246,larvitar,Larvitar,248,tyranitar,Tyranitar,False
+246,larvitar_shadow,Larvitar (Shadow),246,larvitar_shadow,Larvitar (Shadow),True
+246,larvitar_shadow,Larvitar (Shadow),247,pupitar_shadow,Pupitar (Shadow),False
+246,larvitar_shadow,Larvitar (Shadow),248,tyranitar_shadow,Tyranitar (Shadow),False
+247,pupitar,Pupitar,247,pupitar,Pupitar,True
+247,pupitar,Pupitar,248,tyranitar,Tyranitar,False
+247,pupitar_shadow,Pupitar (Shadow),247,pupitar_shadow,Pupitar (Shadow),True
+247,pupitar_shadow,Pupitar (Shadow),248,tyranitar_shadow,Tyranitar (Shadow),False
+248,tyranitar,Tyranitar,248,tyranitar,Tyranitar,True
+248,tyranitar_mega,Tyranitar (Mega),248,tyranitar_mega,Tyranitar (Mega),True
+248,tyranitar_shadow,Tyranitar (Shadow),248,tyranitar_shadow,Tyranitar (Shadow),True
+249,lugia,Lugia,249,lugia,Lugia,True
+249,lugia_shadow,Lugia (Shadow),249,lugia_shadow,Lugia (Shadow),True
+250,ho_oh,Ho-Oh,250,ho_oh,Ho-Oh,True
+250,ho_oh_shadow,Ho-Oh (Shadow),250,ho_oh_shadow,Ho-Oh (Shadow),True
+251,celebi,Celebi,251,celebi,Celebi,True
+252,treecko,Treecko,252,treecko,Treecko,True
+252,treecko,Treecko,253,grovyle,Grovyle,False
+252,treecko,Treecko,254,sceptile,Sceptile,False
+252,treecko_shadow,Treecko (Shadow),252,treecko_shadow,Treecko (Shadow),True
+252,treecko_shadow,Treecko (Shadow),253,grovyle_shadow,Grovyle (Shadow),False
+252,treecko_shadow,Treecko (Shadow),254,sceptile_shadow,Sceptile (Shadow),False
+253,grovyle,Grovyle,253,grovyle,Grovyle,True
+253,grovyle,Grovyle,254,sceptile,Sceptile,False
+253,grovyle_shadow,Grovyle (Shadow),253,grovyle_shadow,Grovyle (Shadow),True
+253,grovyle_shadow,Grovyle (Shadow),254,sceptile_shadow,Sceptile (Shadow),False
+254,sceptile,Sceptile,254,sceptile,Sceptile,True
+254,sceptile_mega,Sceptile (Mega),254,sceptile_mega,Sceptile (Mega),True
+254,sceptile_shadow,Sceptile (Shadow),254,sceptile_shadow,Sceptile (Shadow),True
+255,torchic,Torchic,255,torchic,Torchic,True
+255,torchic,Torchic,256,combusken,Combusken,False
+255,torchic,Torchic,257,blaziken,Blaziken,False
+255,torchic_shadow,Torchic (Shadow),255,torchic_shadow,Torchic (Shadow),True
+255,torchic_shadow,Torchic (Shadow),256,combusken_shadow,Combusken (Shadow),False
+255,torchic_shadow,Torchic (Shadow),257,blaziken_shadow,Blaziken (Shadow),False
+256,combusken,Combusken,256,combusken,Combusken,True
+256,combusken,Combusken,257,blaziken,Blaziken,False
+256,combusken_shadow,Combusken (Shadow),256,combusken_shadow,Combusken (Shadow),True
+256,combusken_shadow,Combusken (Shadow),257,blaziken_shadow,Blaziken (Shadow),False
+257,blaziken,Blaziken,257,blaziken,Blaziken,True
+257,blaziken_mega,Blaziken (Mega),257,blaziken_mega,Blaziken (Mega),True
+257,blaziken_shadow,Blaziken (Shadow),257,blaziken_shadow,Blaziken (Shadow),True
+258,mudkip,Mudkip,258,mudkip,Mudkip,True
+258,mudkip,Mudkip,259,marshtomp,Marshtomp,False
+258,mudkip,Mudkip,260,swampert,Swampert,False
+258,mudkip_shadow,Mudkip (Shadow),258,mudkip_shadow,Mudkip (Shadow),True
+258,mudkip_shadow,Mudkip (Shadow),259,marshtomp_shadow,Marshtomp (Shadow),False
+258,mudkip_shadow,Mudkip (Shadow),260,swampert_shadow,Swampert (Shadow),False
+259,marshtomp,Marshtomp,259,marshtomp,Marshtomp,True
+259,marshtomp,Marshtomp,260,swampert,Swampert,False
+259,marshtomp_shadow,Marshtomp (Shadow),259,marshtomp_shadow,Marshtomp (Shadow),True
+259,marshtomp_shadow,Marshtomp (Shadow),260,swampert_shadow,Swampert (Shadow),False
+260,swampert,Swampert,260,swampert,Swampert,True
+260,swampert_mega,Swampert (Mega),260,swampert_mega,Swampert (Mega),True
+260,swampert_shadow,Swampert (Shadow),260,swampert_shadow,Swampert (Shadow),True
+261,poochyena,Poochyena,261,poochyena,Poochyena,True
+261,poochyena,Poochyena,262,mightyena,Mightyena,False
+261,poochyena_shadow,Poochyena (Shadow),261,poochyena_shadow,Poochyena (Shadow),True
+261,poochyena_shadow,Poochyena (Shadow),262,mightyena_shadow,Mightyena (Shadow),False
+262,mightyena,Mightyena,262,mightyena,Mightyena,True
+262,mightyena_shadow,Mightyena (Shadow),262,mightyena_shadow,Mightyena (Shadow),True
+263,zigzagoon,Zigzagoon,263,zigzagoon,Zigzagoon,True
+263,zigzagoon,Zigzagoon,264,linoone,Linoone,False
+263,zigzagoon_galarian,Zigzagoon (Galarian),263,zigzagoon_galarian,Zigzagoon (Galarian),True
+263,zigzagoon_galarian,Zigzagoon (Galarian),264,linoone_galarian,Linoone (Galarian),False
+263,zigzagoon_galarian,Zigzagoon (Galarian),862,obstagoon,Obstagoon,False
+264,linoone,Linoone,264,linoone,Linoone,True
+264,linoone_galarian,Linoone (Galarian),264,linoone_galarian,Linoone (Galarian),True
+264,linoone_galarian,Linoone (Galarian),862,obstagoon,Obstagoon,False
+265,wurmple,Wurmple,265,wurmple,Wurmple,True
+265,wurmple,Wurmple,266,silcoon,Silcoon,False
+265,wurmple,Wurmple,267,beautifly,Beautifly,False
+265,wurmple,Wurmple,268,cascoon,Cascoon,False
+265,wurmple,Wurmple,269,dustox,Dustox,False
+266,silcoon,Silcoon,266,silcoon,Silcoon,True
+266,silcoon,Silcoon,267,beautifly,Beautifly,False
+267,beautifly,Beautifly,267,beautifly,Beautifly,True
+268,cascoon,Cascoon,268,cascoon,Cascoon,True
+268,cascoon,Cascoon,269,dustox,Dustox,False
+269,dustox,Dustox,269,dustox,Dustox,True
+270,lotad,Lotad,270,lotad,Lotad,True
+270,lotad,Lotad,271,lombre,Lombre,False
+270,lotad,Lotad,272,ludicolo,Ludicolo,False
+271,lombre,Lombre,271,lombre,Lombre,True
+271,lombre,Lombre,272,ludicolo,Ludicolo,False
+272,ludicolo,Ludicolo,272,ludicolo,Ludicolo,True
+273,seedot,Seedot,273,seedot,Seedot,True
+273,seedot,Seedot,274,nuzleaf,Nuzleaf,False
+273,seedot,Seedot,275,shiftry,Shiftry,False
+273,seedot_shadow,Seedot (Shadow),273,seedot_shadow,Seedot (Shadow),True
+273,seedot_shadow,Seedot (Shadow),274,nuzleaf_shadow,Nuzleaf (Shadow),False
+273,seedot_shadow,Seedot (Shadow),275,shiftry_shadow,Shiftry (Shadow),False
+274,nuzleaf,Nuzleaf,274,nuzleaf,Nuzleaf,True
+274,nuzleaf,Nuzleaf,275,shiftry,Shiftry,False
+274,nuzleaf_shadow,Nuzleaf (Shadow),274,nuzleaf_shadow,Nuzleaf (Shadow),True
+274,nuzleaf_shadow,Nuzleaf (Shadow),275,shiftry_shadow,Shiftry (Shadow),False
+275,shiftry,Shiftry,275,shiftry,Shiftry,True
+275,shiftry_shadow,Shiftry (Shadow),275,shiftry_shadow,Shiftry (Shadow),True
+276,taillow,Taillow,276,taillow,Taillow,True
+276,taillow,Taillow,277,swellow,Swellow,False
+277,swellow,Swellow,277,swellow,Swellow,True
+278,wingull,Wingull,278,wingull,Wingull,True
+278,wingull,Wingull,279,pelipper,Pelipper,False
+279,pelipper,Pelipper,279,pelipper,Pelipper,True
+280,ralts,Ralts,280,ralts,Ralts,True
+280,ralts,Ralts,281,kirlia,Kirlia,False
+280,ralts,Ralts,282,gardevoir,Gardevoir,False
+280,ralts,Ralts,475,gallade,Gallade,False
+280,ralts_shadow,Ralts (Shadow),280,ralts_shadow,Ralts (Shadow),True
+280,ralts_shadow,Ralts (Shadow),281,kirlia_shadow,Kirlia (Shadow),False
+280,ralts_shadow,Ralts (Shadow),282,gardevoir_shadow,Gardevoir (Shadow),False
+280,ralts_shadow,Ralts (Shadow),475,gallade_shadow,Gallade (Shadow),False
+281,kirlia,Kirlia,281,kirlia,Kirlia,True
+281,kirlia,Kirlia,282,gardevoir,Gardevoir,False
+281,kirlia,Kirlia,475,gallade,Gallade,False
+281,kirlia_shadow,Kirlia (Shadow),281,kirlia_shadow,Kirlia (Shadow),True
+281,kirlia_shadow,Kirlia (Shadow),282,gardevoir_shadow,Gardevoir (Shadow),False
+281,kirlia_shadow,Kirlia (Shadow),475,gallade_shadow,Gallade (Shadow),False
+282,gardevoir,Gardevoir,282,gardevoir,Gardevoir,True
+282,gardevoir_mega,Gardevoir (Mega),282,gardevoir_mega,Gardevoir (Mega),True
+282,gardevoir_shadow,Gardevoir (Shadow),282,gardevoir_shadow,Gardevoir (Shadow),True
+283,surskit,Surskit,283,surskit,Surskit,True
+283,surskit,Surskit,284,masquerain,Masquerain,False
+284,masquerain,Masquerain,284,masquerain,Masquerain,True
+285,shroomish,Shroomish,285,shroomish,Shroomish,True
+285,shroomish,Shroomish,286,breloom,Breloom,False
+286,breloom,Breloom,286,breloom,Breloom,True
+287,slakoth,Slakoth,287,slakoth,Slakoth,True
+287,slakoth,Slakoth,288,vigoroth,Vigoroth,False
+287,slakoth,Slakoth,289,slaking,Slaking,False
+288,vigoroth,Vigoroth,288,vigoroth,Vigoroth,True
+288,vigoroth,Vigoroth,289,slaking,Slaking,False
+289,slaking,Slaking,289,slaking,Slaking,True
+290,nincada,Nincada,290,nincada,Nincada,True
+290,nincada,Nincada,291,ninjask,Ninjask,False
+290,nincada,Nincada,292,shedinja,Shedinja,False
+291,ninjask,Ninjask,291,ninjask,Ninjask,True
+292,shedinja,Shedinja,292,shedinja,Shedinja,True
+293,whismur,Whismur,293,whismur,Whismur,True
+293,whismur,Whismur,294,loudred,Loudred,False
+293,whismur,Whismur,295,exploud,Exploud,False
+293,whismur_shadow,Whismur (Shadow),293,whismur_shadow,Whismur (Shadow),True
+293,whismur_shadow,Whismur (Shadow),294,loudred_shadow,Loudred (Shadow),False
+293,whismur_shadow,Whismur (Shadow),295,exploud_shadow,Exploud (Shadow),False
+294,loudred,Loudred,294,loudred,Loudred,True
+294,loudred,Loudred,295,exploud,Exploud,False
+294,loudred_shadow,Loudred (Shadow),294,loudred_shadow,Loudred (Shadow),True
+294,loudred_shadow,Loudred (Shadow),295,exploud_shadow,Exploud (Shadow),False
+295,exploud,Exploud,295,exploud,Exploud,True
+295,exploud_shadow,Exploud (Shadow),295,exploud_shadow,Exploud (Shadow),True
+296,makuhita,Makuhita,296,makuhita,Makuhita,True
+296,makuhita,Makuhita,297,hariyama,Hariyama,False
+296,makuhita_shadow,Makuhita (Shadow),296,makuhita_shadow,Makuhita (Shadow),True
+296,makuhita_shadow,Makuhita (Shadow),297,hariyama_shadow,Hariyama (Shadow),False
+297,hariyama,Hariyama,297,hariyama,Hariyama,True
+297,hariyama_shadow,Hariyama (Shadow),297,hariyama_shadow,Hariyama (Shadow),True
+298,azurill,Azurill,183,marill,Marill,False
+298,azurill,Azurill,184,azumarill,Azumarill,False
+298,azurill,Azurill,298,azurill,Azurill,True
+299,nosepass,Nosepass,299,nosepass,Nosepass,True
+299,nosepass,Nosepass,476,probopass,Probopass,False
+299,nosepass_shadow,Nosepass (Shadow),299,nosepass_shadow,Nosepass (Shadow),True
+299,nosepass_shadow,Nosepass (Shadow),476,probopass_shadow,Probopass (Shadow),False
+300,skitty,Skitty,300,skitty,Skitty,True
+300,skitty,Skitty,301,delcatty,Delcatty,False
+301,delcatty,Delcatty,301,delcatty,Delcatty,True
+302,sableye,Sableye,302,sableye,Sableye,True
+302,sableye_mega,Sableye (Mega),302,sableye_mega,Sableye (Mega),True
+302,sableye_shadow,Sableye (Shadow),302,sableye_shadow,Sableye (Shadow),True
+303,mawile,Mawile,303,mawile,Mawile,True
+303,mawile_shadow,Mawile (Shadow),303,mawile_shadow,Mawile (Shadow),True
+304,aron,Aron,304,aron,Aron,True
+304,aron,Aron,305,lairon,Lairon,False
+304,aron,Aron,306,aggron,Aggron,False
+304,aron_shadow,Aron (Shadow),304,aron_shadow,Aron (Shadow),True
+304,aron_shadow,Aron (Shadow),305,lairon_shadow,Lairon (Shadow),False
+304,aron_shadow,Aron (Shadow),306,aggron_shadow,Aggron (Shadow),False
+305,lairon,Lairon,305,lairon,Lairon,True
+305,lairon,Lairon,306,aggron,Aggron,False
+305,lairon_shadow,Lairon (Shadow),305,lairon_shadow,Lairon (Shadow),True
+305,lairon_shadow,Lairon (Shadow),306,aggron_shadow,Aggron (Shadow),False
+306,aggron,Aggron,306,aggron,Aggron,True
+306,aggron_mega,Aggron (Mega),306,aggron_mega,Aggron (Mega),True
+306,aggron_shadow,Aggron (Shadow),306,aggron_shadow,Aggron (Shadow),True
+307,meditite,Meditite,307,meditite,Meditite,True
+307,meditite,Meditite,308,medicham,Medicham,False
+308,medicham,Medicham,308,medicham,Medicham,True
+308,medicham_mega,Medicham (Mega),308,medicham_mega,Medicham (Mega),True
+309,electrike,Electrike,309,electrike,Electrike,True
+309,electrike,Electrike,310,manectric,Manectric,False
+309,electrike,Electrike,310,manectric_mega,Manectric (Mega),False
+309,electrike_shadow,Electrike (Shadow),309,electrike_shadow,Electrike (Shadow),True
+309,electrike_shadow,Electrike (Shadow),310,manectric_shadow,Manectric (Shadow),False
+310,manectric,Manectric,310,manectric,Manectric,True
+310,manectric_mega,Manectric (Mega),310,manectric_mega,Manectric (Mega),True
+310,manectric_shadow,Manectric (Shadow),310,manectric_shadow,Manectric (Shadow),True
+311,plusle,Plusle,311,plusle,Plusle,True
+312,minun,Minun,312,minun,Minun,True
+313,volbeat,Volbeat,313,volbeat,Volbeat,True
+314,illumise,Illumise,314,illumise,Illumise,True
+315,roselia,Roselia,315,roselia,Roselia,True
+315,roselia,Roselia,407,roserade,Roserade,False
+316,gulpin,Gulpin,316,gulpin,Gulpin,True
+316,gulpin,Gulpin,317,swalot,Swalot,False
+317,swalot,Swalot,317,swalot,Swalot,True
+318,carvanha,Carvanha,318,carvanha,Carvanha,True
+318,carvanha,Carvanha,319,sharpedo,Sharpedo,False
+318,carvanha_shadow,Carvanha (Shadow),318,carvanha_shadow,Carvanha (Shadow),True
+318,carvanha_shadow,Carvanha (Shadow),319,sharpedo_shadow,Sharpedo (Shadow),False
+319,sharpedo,Sharpedo,319,sharpedo,Sharpedo,True
+319,sharpedo_shadow,Sharpedo (Shadow),319,sharpedo_shadow,Sharpedo (Shadow),True
+320,wailmer,Wailmer,320,wailmer,Wailmer,True
+320,wailmer,Wailmer,321,wailord,Wailord,False
+320,wailmer_shadow,Wailmer (Shadow),320,wailmer_shadow,Wailmer (Shadow),True
+320,wailmer_shadow,Wailmer (Shadow),321,wailord_shadow,Wailord (Shadow),False
+321,wailord,Wailord,321,wailord,Wailord,True
+321,wailord_shadow,Wailord (Shadow),321,wailord_shadow,Wailord (Shadow),True
+322,numel,Numel,322,numel,Numel,True
+322,numel,Numel,323,camerupt,Camerupt,False
+322,numel_shadow,Numel (Shadow),322,numel_shadow,Numel (Shadow),True
+322,numel_shadow,Numel (Shadow),323,camerupt_shadow,Camerupt (Shadow),False
+323,camerupt,Camerupt,323,camerupt,Camerupt,True
+323,camerupt_shadow,Camerupt (Shadow),323,camerupt_shadow,Camerupt (Shadow),True
+324,torkoal,Torkoal,324,torkoal,Torkoal,True
+325,spoink,Spoink,325,spoink,Spoink,True
+325,spoink,Spoink,326,grumpig,Grumpig,False
+325,spoink_shadow,Spoink (Shadow),325,spoink_shadow,Spoink (Shadow),True
+325,spoink_shadow,Spoink (Shadow),326,grumpig_shadow,Grumpig (Shadow),False
+326,grumpig,Grumpig,326,grumpig,Grumpig,True
+326,grumpig_shadow,Grumpig (Shadow),326,grumpig_shadow,Grumpig (Shadow),True
+327,spinda,Spinda,327,spinda,Spinda,True
+328,trapinch,Trapinch,328,trapinch,Trapinch,True
+328,trapinch,Trapinch,329,vibrava,Vibrava,False
+328,trapinch,Trapinch,330,flygon,Flygon,False
+328,trapinch_shadow,Trapinch (Shadow),328,trapinch_shadow,Trapinch (Shadow),True
+328,trapinch_shadow,Trapinch (Shadow),329,vibrava_shadow,Vibrava (Shadow),False
+328,trapinch_shadow,Trapinch (Shadow),330,flygon_shadow,Flygon (Shadow),False
+329,vibrava,Vibrava,329,vibrava,Vibrava,True
+329,vibrava,Vibrava,330,flygon,Flygon,False
+329,vibrava_shadow,Vibrava (Shadow),329,vibrava_shadow,Vibrava (Shadow),True
+329,vibrava_shadow,Vibrava (Shadow),330,flygon_shadow,Flygon (Shadow),False
+330,flygon,Flygon,330,flygon,Flygon,True
+330,flygon_shadow,Flygon (Shadow),330,flygon_shadow,Flygon (Shadow),True
+331,cacnea,Cacnea,331,cacnea,Cacnea,True
+331,cacnea,Cacnea,332,cacturne,Cacturne,False
+331,cacnea_shadow,Cacnea (Shadow),331,cacnea_shadow,Cacnea (Shadow),True
+331,cacnea_shadow,Cacnea (Shadow),332,cacturne_shadow,Cacturne (Shadow),False
+332,cacturne,Cacturne,332,cacturne,Cacturne,True
+332,cacturne_shadow,Cacturne (Shadow),332,cacturne_shadow,Cacturne (Shadow),True
+333,swablu,Swablu,333,swablu,Swablu,True
+333,swablu,Swablu,334,altaria,Altaria,False
+333,swablu,Swablu,334,altaria_mega,Altaria (Mega),False
+334,altaria,Altaria,334,altaria,Altaria,True
+334,altaria_mega,Altaria (Mega),334,altaria_mega,Altaria (Mega),True
+335,zangoose,Zangoose,335,zangoose,Zangoose,True
+336,seviper,Seviper,336,seviper,Seviper,True
+337,lunatone,Lunatone,337,lunatone,Lunatone,True
+338,solrock,Solrock,338,solrock,Solrock,True
+339,barboach,Barboach,339,barboach,Barboach,True
+339,barboach,Barboach,340,whiscash,Whiscash,False
+339,barboach_shadow,Barboach (Shadow),339,barboach_shadow,Barboach (Shadow),True
+339,barboach_shadow,Barboach (Shadow),340,whiscash_shadow,Whiscash (Shadow),False
+340,whiscash,Whiscash,340,whiscash,Whiscash,True
+340,whiscash_shadow,Whiscash (Shadow),340,whiscash_shadow,Whiscash (Shadow),True
+341,corphish,Corphish,341,corphish,Corphish,True
+341,corphish,Corphish,342,crawdaunt,Crawdaunt,False
+341,corphish_shadow,Corphish (Shadow),341,corphish_shadow,Corphish (Shadow),True
+341,corphish_shadow,Corphish (Shadow),342,crawdaunt_shadow,Crawdaunt (Shadow),False
+342,crawdaunt,Crawdaunt,342,crawdaunt,Crawdaunt,True
+342,crawdaunt_shadow,Crawdaunt (Shadow),342,crawdaunt_shadow,Crawdaunt (Shadow),True
+343,baltoy,Baltoy,343,baltoy,Baltoy,True
+343,baltoy,Baltoy,344,claydol,Claydol,False
+344,claydol,Claydol,344,claydol,Claydol,True
+345,lileep,Lileep,345,lileep,Lileep,True
+345,lileep,Lileep,346,cradily,Cradily,False
+345,lileep_shadow,Lileep (Shadow),345,lileep_shadow,Lileep (Shadow),True
+345,lileep_shadow,Lileep (Shadow),346,cradily_shadow,Cradily (Shadow),False
+346,cradily,Cradily,346,cradily,Cradily,True
+346,cradily_shadow,Cradily (Shadow),346,cradily_shadow,Cradily (Shadow),True
+347,anorith,Anorith,347,anorith,Anorith,True
+347,anorith,Anorith,348,armaldo,Armaldo,False
+347,anorith_shadow,Anorith (Shadow),347,anorith_shadow,Anorith (Shadow),True
+347,anorith_shadow,Anorith (Shadow),348,armaldo_shadow,Armaldo (Shadow),False
+348,armaldo,Armaldo,348,armaldo,Armaldo,True
+348,armaldo_shadow,Armaldo (Shadow),348,armaldo_shadow,Armaldo (Shadow),True
+349,feebas,Feebas,349,feebas,Feebas,True
+349,feebas,Feebas,350,milotic,Milotic,False
+350,milotic,Milotic,350,milotic,Milotic,True
+351,castform,Castform,351,castform,Castform,True
+351,castform_rainy,Castform (Rainy),351,castform_rainy,Castform (Rainy),True
+351,castform_snowy,Castform (Snowy),351,castform_snowy,Castform (Snowy),True
+351,castform_sunny,Castform (Sunny),351,castform_sunny,Castform (Sunny),True
+352,kecleon,Kecleon,352,kecleon,Kecleon,True
+353,shuppet,Shuppet,353,shuppet,Shuppet,True
+353,shuppet,Shuppet,354,banette,Banette,False
+353,shuppet_shadow,Shuppet (Shadow),353,shuppet_shadow,Shuppet (Shadow),True
+353,shuppet_shadow,Shuppet (Shadow),354,banette_shadow,Banette (Shadow),False
+354,banette,Banette,354,banette,Banette,True
+354,banette_mega,Banette (Mega),354,banette_mega,Banette (Mega),True
+354,banette_shadow,Banette (Shadow),354,banette_shadow,Banette (Shadow),True
+355,duskull,Duskull,355,duskull,Duskull,True
+355,duskull,Duskull,356,dusclops,Dusclops,False
+355,duskull,Duskull,477,dusknoir,Dusknoir,False
+355,duskull_shadow,Duskull (Shadow),355,duskull_shadow,Duskull (Shadow),True
+355,duskull_shadow,Duskull (Shadow),356,dusclops_shadow,Dusclops (Shadow),False
+355,duskull_shadow,Duskull (Shadow),477,dusknoir_shadow,Dusknoir (Shadow),False
+356,dusclops,Dusclops,356,dusclops,Dusclops,True
+356,dusclops,Dusclops,477,dusknoir,Dusknoir,False
+356,dusclops_shadow,Dusclops (Shadow),356,dusclops_shadow,Dusclops (Shadow),True
+356,dusclops_shadow,Dusclops (Shadow),477,dusknoir_shadow,Dusknoir (Shadow),False
+357,tropius,Tropius,357,tropius,Tropius,True
+358,chimecho,Chimecho,358,chimecho,Chimecho,True
+359,absol,Absol,359,absol,Absol,True
+359,absol_mega,Absol (Mega),359,absol_mega,Absol (Mega),True
+359,absol_shadow,Absol (Shadow),359,absol_shadow,Absol (Shadow),True
+360,wynaut,Wynaut,202,wobbuffet,Wobbuffet,False
+360,wynaut,Wynaut,202,wobbuffet_shadow,Wobbuffet (Shadow),False
+360,wynaut,Wynaut,360,wynaut,Wynaut,True
+361,snorunt,Snorunt,361,snorunt,Snorunt,True
+361,snorunt,Snorunt,362,glalie,Glalie,False
+361,snorunt,Snorunt,478,froslass,Froslass,False
+361,snorunt_shadow,Snorunt (Shadow),361,snorunt_shadow,Snorunt (Shadow),True
+361,snorunt_shadow,Snorunt (Shadow),362,glalie_shadow,Glalie (Shadow),False
+361,snorunt_shadow,Snorunt (Shadow),478,froslass_shadow,Froslass (Shadow),False
+362,glalie,Glalie,362,glalie,Glalie,True
+362,glalie_mega,Glalie (Mega),362,glalie_mega,Glalie (Mega),True
+362,glalie_shadow,Glalie (Shadow),362,glalie_shadow,Glalie (Shadow),True
+363,spheal,Spheal,363,spheal,Spheal,True
+363,spheal,Spheal,364,sealeo,Sealeo,False
+363,spheal,Spheal,365,walrein,Walrein,False
+363,spheal_shadow,Spheal (Shadow),363,spheal_shadow,Spheal (Shadow),True
+363,spheal_shadow,Spheal (Shadow),364,sealeo_shadow,Sealeo (Shadow),False
+363,spheal_shadow,Spheal (Shadow),365,walrein_shadow,Walrein (Shadow),False
+364,sealeo,Sealeo,364,sealeo,Sealeo,True
+364,sealeo,Sealeo,365,walrein,Walrein,False
+364,sealeo_shadow,Sealeo (Shadow),364,sealeo_shadow,Sealeo (Shadow),True
+364,sealeo_shadow,Sealeo (Shadow),365,walrein_shadow,Walrein (Shadow),False
+365,walrein,Walrein,365,walrein,Walrein,True
+365,walrein_shadow,Walrein (Shadow),365,walrein_shadow,Walrein (Shadow),True
+366,clamperl,Clamperl,366,clamperl,Clamperl,True
+366,clamperl,Clamperl,367,huntail,Huntail,False
+366,clamperl,Clamperl,368,gorebyss,Gorebyss,False
+367,huntail,Huntail,367,huntail,Huntail,True
+368,gorebyss,Gorebyss,368,gorebyss,Gorebyss,True
+369,relicanth,Relicanth,369,relicanth,Relicanth,True
+370,luvdisc,Luvdisc,370,luvdisc,Luvdisc,True
+371,bagon,Bagon,371,bagon,Bagon,True
+371,bagon,Bagon,372,shelgon,Shelgon,False
+371,bagon,Bagon,373,salamence,Salamence,False
+371,bagon_shadow,Bagon (Shadow),371,bagon_shadow,Bagon (Shadow),True
+371,bagon_shadow,Bagon (Shadow),372,shelgon_shadow,Shelgon (Shadow),False
+371,bagon_shadow,Bagon (Shadow),373,salamence_shadow,Salamence (Shadow),False
+372,shelgon,Shelgon,372,shelgon,Shelgon,True
+372,shelgon,Shelgon,373,salamence,Salamence,False
+372,shelgon_shadow,Shelgon (Shadow),372,shelgon_shadow,Shelgon (Shadow),True
+372,shelgon_shadow,Shelgon (Shadow),373,salamence_shadow,Salamence (Shadow),False
+373,salamence,Salamence,373,salamence,Salamence,True
+373,salamence_mega,Salamence (Mega),373,salamence_mega,Salamence (Mega),True
+373,salamence_shadow,Salamence (Shadow),373,salamence_shadow,Salamence (Shadow),True
+374,beldum,Beldum,374,beldum,Beldum,True
+374,beldum,Beldum,375,metang,Metang,False
+374,beldum,Beldum,376,metagross,Metagross,False
+374,beldum_shadow,Beldum (Shadow),374,beldum_shadow,Beldum (Shadow),True
+374,beldum_shadow,Beldum (Shadow),375,metang_shadow,Metang (Shadow),False
+374,beldum_shadow,Beldum (Shadow),376,metagross_shadow,Metagross (Shadow),False
+375,metang,Metang,375,metang,Metang,True
+375,metang,Metang,376,metagross,Metagross,False
+375,metang_shadow,Metang (Shadow),375,metang_shadow,Metang (Shadow),True
+375,metang_shadow,Metang (Shadow),376,metagross_shadow,Metagross (Shadow),False
+376,metagross,Metagross,376,metagross,Metagross,True
+376,metagross_shadow,Metagross (Shadow),376,metagross_shadow,Metagross (Shadow),True
+377,regirock,Regirock,377,regirock,Regirock,True
+377,regirock_shadow,Regirock (Shadow),377,regirock_shadow,Regirock (Shadow),True
+378,regice,Regice,378,regice,Regice,True
+378,regice_shadow,Regice (Shadow),378,regice_shadow,Regice (Shadow),True
+379,registeel,Registeel,379,registeel,Registeel,True
+379,registeel_shadow,Registeel (Shadow),379,registeel_shadow,Registeel (Shadow),True
+380,latias,Latias,380,latias,Latias,True
+380,latias_mega,Latias (Mega),380,latias_mega,Latias (Mega),True
+380,latias_shadow,Latias (Shadow),380,latias_shadow,Latias (Shadow),True
+381,latios,Latios,381,latios,Latios,True
+381,latios_mega,Latios (Mega),381,latios_mega,Latios (Mega),True
+381,latios_shadow,Latios (Shadow),381,latios_shadow,Latios (Shadow),True
+382,kyogre,Kyogre,382,kyogre,Kyogre,True
+382,kyogre_primal,Kyogre (Primal),382,kyogre_primal,Kyogre (Primal),True
+382,kyogre_shadow,Kyogre (Shadow),382,kyogre_shadow,Kyogre (Shadow),True
+383,groudon,Groudon,383,groudon,Groudon,True
+383,groudon_primal,Groudon (Primal),383,groudon_primal,Groudon (Primal),True
+383,groudon_shadow,Groudon (Shadow),383,groudon_shadow,Groudon (Shadow),True
+384,rayquaza,Rayquaza,384,rayquaza,Rayquaza,True
+384,rayquaza_mega,Rayquaza (Mega),384,rayquaza_mega,Rayquaza (Mega),True
+385,jirachi,Jirachi,385,jirachi,Jirachi,True
+386,deoxys,Deoxys,386,deoxys,Deoxys,True
+386,deoxys_attack,Deoxys (Attack),386,deoxys_attack,Deoxys (Attack),True
+386,deoxys_defense,Deoxys (Defense),386,deoxys_defense,Deoxys (Defense),True
+386,deoxys_speed,Deoxys (Speed),386,deoxys_speed,Deoxys (Speed),True
+387,turtwig,Turtwig,387,turtwig,Turtwig,True
+387,turtwig,Turtwig,388,grotle,Grotle,False
+387,turtwig,Turtwig,389,torterra,Torterra,False
+387,turtwig_shadow,Turtwig (Shadow),387,turtwig_shadow,Turtwig (Shadow),True
+387,turtwig_shadow,Turtwig (Shadow),388,grotle_shadow,Grotle (Shadow),False
+387,turtwig_shadow,Turtwig (Shadow),389,torterra_shadow,Torterra (Shadow),False
+388,grotle,Grotle,388,grotle,Grotle,True
+388,grotle,Grotle,389,torterra,Torterra,False
+388,grotle_shadow,Grotle (Shadow),388,grotle_shadow,Grotle (Shadow),True
+388,grotle_shadow,Grotle (Shadow),389,torterra_shadow,Torterra (Shadow),False
+389,torterra,Torterra,389,torterra,Torterra,True
+389,torterra_shadow,Torterra (Shadow),389,torterra_shadow,Torterra (Shadow),True
+390,chimchar,Chimchar,390,chimchar,Chimchar,True
+390,chimchar,Chimchar,391,monferno,Monferno,False
+390,chimchar,Chimchar,392,infernape,Infernape,False
+390,chimchar_shadow,Chimchar (Shadow),390,chimchar_shadow,Chimchar (Shadow),True
+390,chimchar_shadow,Chimchar (Shadow),391,monferno_shadow,Monferno (Shadow),False
+390,chimchar_shadow,Chimchar (Shadow),392,infernape_shadow,Infernape (Shadow),False
+391,monferno,Monferno,391,monferno,Monferno,True
+391,monferno,Monferno,392,infernape,Infernape,False
+391,monferno_shadow,Monferno (Shadow),391,monferno_shadow,Monferno (Shadow),True
+391,monferno_shadow,Monferno (Shadow),392,infernape_shadow,Infernape (Shadow),False
+392,infernape,Infernape,392,infernape,Infernape,True
+392,infernape_shadow,Infernape (Shadow),392,infernape_shadow,Infernape (Shadow),True
+393,piplup,Piplup,393,piplup,Piplup,True
+393,piplup,Piplup,394,prinplup,Prinplup,False
+393,piplup,Piplup,395,empoleon,Empoleon,False
+393,piplup_shadow,Piplup (Shadow),393,piplup_shadow,Piplup (Shadow),True
+393,piplup_shadow,Piplup (Shadow),394,prinplup_shadow,Prinplup (Shadow),False
+393,piplup_shadow,Piplup (Shadow),395,empoleon_shadow,Empoleon (Shadow),False
+394,prinplup,Prinplup,394,prinplup,Prinplup,True
+394,prinplup,Prinplup,395,empoleon,Empoleon,False
+394,prinplup_shadow,Prinplup (Shadow),394,prinplup_shadow,Prinplup (Shadow),True
+394,prinplup_shadow,Prinplup (Shadow),395,empoleon_shadow,Empoleon (Shadow),False
+395,empoleon,Empoleon,395,empoleon,Empoleon,True
+395,empoleon_shadow,Empoleon (Shadow),395,empoleon_shadow,Empoleon (Shadow),True
+396,starly,Starly,396,starly,Starly,True
+396,starly,Starly,397,staravia,Staravia,False
+396,starly,Starly,398,staraptor,Staraptor,False
+396,starly_shadow,Starly (Shadow),396,starly_shadow,Starly (Shadow),True
+396,starly_shadow,Starly (Shadow),397,staravia_shadow,Staravia (Shadow),False
+396,starly_shadow,Starly (Shadow),398,staraptor_shadow,Staraptor (Shadow),False
+397,staravia,Staravia,397,staravia,Staravia,True
+397,staravia,Staravia,398,staraptor,Staraptor,False
+397,staravia_shadow,Staravia (Shadow),397,staravia_shadow,Staravia (Shadow),True
+397,staravia_shadow,Staravia (Shadow),398,staraptor_shadow,Staraptor (Shadow),False
+398,staraptor,Staraptor,398,staraptor,Staraptor,True
+398,staraptor_shadow,Staraptor (Shadow),398,staraptor_shadow,Staraptor (Shadow),True
+399,bidoof,Bidoof,399,bidoof,Bidoof,True
+399,bidoof,Bidoof,400,bibarel,Bibarel,False
+399,bidoof_shadow,Bidoof (Shadow),399,bidoof_shadow,Bidoof (Shadow),True
+399,bidoof_shadow,Bidoof (Shadow),400,bibarel_shadow,Bibarel (Shadow),False
+400,bibarel,Bibarel,400,bibarel,Bibarel,True
+400,bibarel_shadow,Bibarel (Shadow),400,bibarel_shadow,Bibarel (Shadow),True
+401,kricketot,Kricketot,401,kricketot,Kricketot,True
+401,kricketot,Kricketot,402,kricketune,Kricketune,False
+402,kricketune,Kricketune,402,kricketune,Kricketune,True
+403,shinx,Shinx,403,shinx,Shinx,True
+403,shinx,Shinx,404,luxio,Luxio,False
+403,shinx,Shinx,405,luxray,Luxray,False
+403,shinx_shadow,Shinx (Shadow),403,shinx_shadow,Shinx (Shadow),True
+403,shinx_shadow,Shinx (Shadow),404,luxio_shadow,Luxio (Shadow),False
+403,shinx_shadow,Shinx (Shadow),405,luxray_shadow,Luxray (Shadow),False
+404,luxio,Luxio,404,luxio,Luxio,True
+404,luxio,Luxio,405,luxray,Luxray,False
+404,luxio_shadow,Luxio (Shadow),404,luxio_shadow,Luxio (Shadow),True
+404,luxio_shadow,Luxio (Shadow),405,luxray_shadow,Luxray (Shadow),False
+405,luxray,Luxray,405,luxray,Luxray,True
+405,luxray_shadow,Luxray (Shadow),405,luxray_shadow,Luxray (Shadow),True
+406,budew,Budew,315,roselia,Roselia,False
+406,budew,Budew,406,budew,Budew,True
+406,budew,Budew,407,roserade,Roserade,False
+407,roserade,Roserade,407,roserade,Roserade,True
+408,cranidos,Cranidos,408,cranidos,Cranidos,True
+408,cranidos,Cranidos,409,rampardos,Rampardos,False
+408,cranidos_shadow,Cranidos (Shadow),408,cranidos_shadow,Cranidos (Shadow),True
+408,cranidos_shadow,Cranidos (Shadow),409,rampardos_shadow,Rampardos (Shadow),False
+409,rampardos,Rampardos,409,rampardos,Rampardos,True
+409,rampardos_shadow,Rampardos (Shadow),409,rampardos_shadow,Rampardos (Shadow),True
+410,shieldon,Shieldon,410,shieldon,Shieldon,True
+410,shieldon,Shieldon,411,bastiodon,Bastiodon,False
+410,shieldon_shadow,Shieldon (Shadow),410,shieldon_shadow,Shieldon (Shadow),True
+410,shieldon_shadow,Shieldon (Shadow),411,bastiodon_shadow,Bastiodon (Shadow),False
+411,bastiodon,Bastiodon,411,bastiodon,Bastiodon,True
+411,bastiodon_shadow,Bastiodon (Shadow),411,bastiodon_shadow,Bastiodon (Shadow),True
+412,burmy_plant,Burmy (Plant),412,burmy_plant,Burmy (Plant),True
+412,burmy_plant,Burmy (Plant),413,wormadam_plant,Wormadam (Plant),False
+412,burmy_sandy,Burmy (Sandy),412,burmy_sandy,Burmy (Sandy),True
+412,burmy_sandy,Burmy (Sandy),413,wormadam_sandy,Wormadam (Sandy),False
+412,burmy_trash,Burmy (Trash),412,burmy_trash,Burmy (Trash),True
+412,burmy_trash,Burmy (Trash),413,wormadam_trash,Wormadam (Trash),False
+412,burmy_trash,Burmy (Trash),414,mothim,Mothim,False
+413,wormadam_plant,Wormadam (Plant),413,wormadam_plant,Wormadam (Plant),True
+413,wormadam_sandy,Wormadam (Sandy),413,wormadam_sandy,Wormadam (Sandy),True
+413,wormadam_trash,Wormadam (Trash),413,wormadam_trash,Wormadam (Trash),True
+414,mothim,Mothim,414,mothim,Mothim,True
+415,combee,Combee,415,combee,Combee,True
+415,combee,Combee,416,vespiquen,Vespiquen,False
+416,vespiquen,Vespiquen,416,vespiquen,Vespiquen,True
+417,pachirisu,Pachirisu,417,pachirisu,Pachirisu,True
+418,buizel,Buizel,418,buizel,Buizel,True
+418,buizel,Buizel,419,floatzel,Floatzel,False
+419,floatzel,Floatzel,419,floatzel,Floatzel,True
+420,cherubi,Cherubi,420,cherubi,Cherubi,True
+420,cherubi,Cherubi,421,cherrim_overcast,Cherrim (Overcast),False
+420,cherubi,Cherubi,421,cherrim_sunny,Cherrim (Sunshine),False
+421,cherrim_overcast,Cherrim (Overcast),421,cherrim_overcast,Cherrim (Overcast),True
+421,cherrim_sunny,Cherrim (Sunshine),421,cherrim_sunny,Cherrim (Sunshine),True
+422,shellos,Shellos,422,shellos,Shellos,True
+423,gastrodon,Gastrodon,423,gastrodon,Gastrodon,True
+424,ambipom,Ambipom,424,ambipom,Ambipom,True
+424,ambipom_shadow,Ambipom (Shadow),424,ambipom_shadow,Ambipom (Shadow),True
+425,drifloon,Drifloon,425,drifloon,Drifloon,True
+425,drifloon,Drifloon,426,drifblim,Drifblim,False
+425,drifloon_shadow,Drifloon (Shadow),425,drifloon_shadow,Drifloon (Shadow),True
+425,drifloon_shadow,Drifloon (Shadow),426,drifblim_shadow,Drifblim (Shadow),False
+426,drifblim,Drifblim,426,drifblim,Drifblim,True
+426,drifblim_shadow,Drifblim (Shadow),426,drifblim_shadow,Drifblim (Shadow),True
+427,buneary,Buneary,427,buneary,Buneary,True
+427,buneary,Buneary,428,lopunny,Lopunny,False
+427,buneary,Buneary,428,lopunny_mega,Lopunny (Mega),False
+428,lopunny,Lopunny,428,lopunny,Lopunny,True
+428,lopunny_mega,Lopunny (Mega),428,lopunny_mega,Lopunny (Mega),True
+429,mismagius,Mismagius,429,mismagius,Mismagius,True
+429,mismagius_shadow,Mismagius (Shadow),429,mismagius_shadow,Mismagius (Shadow),True
+430,honchkrow,Honchkrow,430,honchkrow,Honchkrow,True
+430,honchkrow_shadow,Honchkrow (Shadow),430,honchkrow_shadow,Honchkrow (Shadow),True
+431,glameow,Glameow,431,glameow,Glameow,True
+431,glameow,Glameow,432,purugly,Purugly,False
+431,glameow_shadow,Glameow (Shadow),431,glameow_shadow,Glameow (Shadow),True
+431,glameow_shadow,Glameow (Shadow),432,purugly_shadow,Purugly (Shadow),False
+432,purugly,Purugly,432,purugly,Purugly,True
+432,purugly_shadow,Purugly (Shadow),432,purugly_shadow,Purugly (Shadow),True
+433,chingling,Chingling,358,chimecho,Chimecho,False
+433,chingling,Chingling,433,chingling,Chingling,True
+434,stunky,Stunky,434,stunky,Stunky,True
+434,stunky,Stunky,435,skuntank,Skuntank,False
+434,stunky_shadow,Stunky (Shadow),434,stunky_shadow,Stunky (Shadow),True
+434,stunky_shadow,Stunky (Shadow),435,skuntank_shadow,Skuntank (Shadow),False
+435,skuntank,Skuntank,435,skuntank,Skuntank,True
+435,skuntank_shadow,Skuntank (Shadow),435,skuntank_shadow,Skuntank (Shadow),True
+436,bronzor,Bronzor,436,bronzor,Bronzor,True
+436,bronzor,Bronzor,437,bronzong,Bronzong,False
+437,bronzong,Bronzong,437,bronzong,Bronzong,True
+438,bonsly,Bonsly,185,sudowoodo,Sudowoodo,False
+438,bonsly,Bonsly,185,sudowoodo_shadow,Sudowoodo (Shadow),False
+438,bonsly,Bonsly,438,bonsly,Bonsly,True
+439,mime_jr,Mime (Jr),122,mr_mime,Mr. Mime,False
+439,mime_jr,Mime (Jr),122,mr_mime_galarian,Mr. Mime (Galarian),False
+439,mime_jr,Mime (Jr),439,mime_jr,Mime (Jr),True
+439,mime_jr,Mime (Jr),866,mr_rime,Mr. Rime,False
+440,happiny,Happiny,113,chansey,Chansey,False
+440,happiny,Happiny,242,blissey,Blissey,False
+440,happiny,Happiny,440,happiny,Happiny,True
+441,chatot,Chatot,441,chatot,Chatot,True
+442,spiritomb,Spiritomb,442,spiritomb,Spiritomb,True
+443,gible,Gible,443,gible,Gible,True
+443,gible,Gible,444,gabite,Gabite,False
+443,gible,Gible,445,garchomp,Garchomp,False
+443,gible_shadow,Gible (Shadow),443,gible_shadow,Gible (Shadow),True
+443,gible_shadow,Gible (Shadow),444,gabite_shadow,Gabite (Shadow),False
+443,gible_shadow,Gible (Shadow),445,garchomp_shadow,Garchomp (Shadow),False
+444,gabite,Gabite,444,gabite,Gabite,True
+444,gabite,Gabite,445,garchomp,Garchomp,False
+444,gabite_shadow,Gabite (Shadow),444,gabite_shadow,Gabite (Shadow),True
+444,gabite_shadow,Gabite (Shadow),445,garchomp_shadow,Garchomp (Shadow),False
+445,garchomp,Garchomp,445,garchomp,Garchomp,True
+445,garchomp_mega,Garchomp (Mega),445,garchomp_mega,Garchomp (Mega),True
+445,garchomp_shadow,Garchomp (Shadow),445,garchomp_shadow,Garchomp (Shadow),True
+446,munchlax,Munchlax,143,snorlax,Snorlax,False
+446,munchlax,Munchlax,143,snorlax_shadow,Snorlax (Shadow),False
+446,munchlax,Munchlax,446,munchlax,Munchlax,True
+447,riolu,Riolu,447,riolu,Riolu,True
+447,riolu,Riolu,448,lucario,Lucario,False
+448,lucario,Lucario,448,lucario,Lucario,True
+449,hippopotas,Hippopotas,449,hippopotas,Hippopotas,True
+449,hippopotas,Hippopotas,450,hippowdon,Hippowdon,False
+449,hippopotas_shadow,Hippopotas (Shadow),449,hippopotas_shadow,Hippopotas (Shadow),True
+449,hippopotas_shadow,Hippopotas (Shadow),450,hippowdon_shadow,Hippowdon (Shadow),False
+450,hippowdon,Hippowdon,450,hippowdon,Hippowdon,True
+450,hippowdon_shadow,Hippowdon (Shadow),450,hippowdon_shadow,Hippowdon (Shadow),True
+451,skorupi,Skorupi,451,skorupi,Skorupi,True
+451,skorupi,Skorupi,452,drapion,Drapion,False
+451,skorupi_shadow,Skorupi (Shadow),451,skorupi_shadow,Skorupi (Shadow),True
+451,skorupi_shadow,Skorupi (Shadow),452,drapion_shadow,Drapion (Shadow),False
+452,drapion,Drapion,452,drapion,Drapion,True
+452,drapion_shadow,Drapion (Shadow),452,drapion_shadow,Drapion (Shadow),True
+453,croagunk,Croagunk,453,croagunk,Croagunk,True
+453,croagunk,Croagunk,454,toxicroak,Toxicroak,False
+453,croagunk_shadow,Croagunk (Shadow),453,croagunk_shadow,Croagunk (Shadow),True
+453,croagunk_shadow,Croagunk (Shadow),454,toxicroak_shadow,Toxicroak (Shadow),False
+454,toxicroak,Toxicroak,454,toxicroak,Toxicroak,True
+454,toxicroak_shadow,Toxicroak (Shadow),454,toxicroak_shadow,Toxicroak (Shadow),True
+455,carnivine,Carnivine,455,carnivine,Carnivine,True
+456,finneon,Finneon,456,finneon,Finneon,True
+456,finneon,Finneon,457,lumineon,Lumineon,False
+457,lumineon,Lumineon,457,lumineon,Lumineon,True
+458,mantyke,Mantyke,226,mantine,Mantine,False
+458,mantyke,Mantyke,458,mantyke,Mantyke,True
+459,snover,Snover,459,snover,Snover,True
+459,snover,Snover,460,abomasnow,Abomasnow,False
+459,snover,Snover,460,abomasnow_mega,Abomasnow (Mega),False
+459,snover_shadow,Snover (Shadow),459,snover_shadow,Snover (Shadow),True
+459,snover_shadow,Snover (Shadow),460,abomasnow_shadow,Abomasnow (Shadow),False
+460,abomasnow,Abomasnow,460,abomasnow,Abomasnow,True
+460,abomasnow_mega,Abomasnow (Mega),460,abomasnow_mega,Abomasnow (Mega),True
+460,abomasnow_shadow,Abomasnow (Shadow),460,abomasnow_shadow,Abomasnow (Shadow),True
+461,weavile,Weavile,461,weavile,Weavile,True
+461,weavile_shadow,Weavile (Shadow),461,weavile_shadow,Weavile (Shadow),True
+462,magnezone,Magnezone,462,magnezone,Magnezone,True
+462,magnezone_shadow,Magnezone (Shadow),462,magnezone_shadow,Magnezone (Shadow),True
+463,lickilicky,Lickilicky,463,lickilicky,Lickilicky,True
+464,rhyperior,Rhyperior,464,rhyperior,Rhyperior,True
+464,rhyperior_shadow,Rhyperior (Shadow),464,rhyperior_shadow,Rhyperior (Shadow),True
+465,tangrowth,Tangrowth,465,tangrowth,Tangrowth,True
+465,tangrowth_shadow,Tangrowth (Shadow),465,tangrowth_shadow,Tangrowth (Shadow),True
+466,electivire,Electivire,466,electivire,Electivire,True
+466,electivire_shadow,Electivire (Shadow),466,electivire_shadow,Electivire (Shadow),True
+467,magmortar,Magmortar,467,magmortar,Magmortar,True
+467,magmortar_shadow,Magmortar (Shadow),467,magmortar_shadow,Magmortar (Shadow),True
+468,togekiss,Togekiss,468,togekiss,Togekiss,True
+469,yanmega,Yanmega,469,yanmega,Yanmega,True
+470,leafeon,Leafeon,470,leafeon,Leafeon,True
+471,glaceon,Glaceon,471,glaceon,Glaceon,True
+472,gliscor,Gliscor,472,gliscor,Gliscor,True
+472,gliscor_shadow,Gliscor (Shadow),472,gliscor_shadow,Gliscor (Shadow),True
+473,mamoswine,Mamoswine,473,mamoswine,Mamoswine,True
+473,mamoswine_shadow,Mamoswine (Shadow),473,mamoswine_shadow,Mamoswine (Shadow),True
+474,porygon_z,Porygon-Z,474,porygon_z,Porygon-Z,True
+474,porygon_z_shadow,Porygon-Z (Shadow),474,porygon_z_shadow,Porygon-Z (Shadow),True
+475,gallade,Gallade,475,gallade,Gallade,True
+475,gallade_shadow,Gallade (Shadow),475,gallade_shadow,Gallade (Shadow),True
+476,probopass,Probopass,476,probopass,Probopass,True
+476,probopass_shadow,Probopass (Shadow),476,probopass_shadow,Probopass (Shadow),True
+477,dusknoir,Dusknoir,477,dusknoir,Dusknoir,True
+477,dusknoir_shadow,Dusknoir (Shadow),477,dusknoir_shadow,Dusknoir (Shadow),True
+478,froslass,Froslass,478,froslass,Froslass,True
+478,froslass_shadow,Froslass (Shadow),478,froslass_shadow,Froslass (Shadow),True
+479,rotom,Rotom,479,rotom,Rotom,True
+479,rotom_fan,Rotom (Fan),479,rotom_fan,Rotom (Fan),True
+479,rotom_frost,Rotom (Frost),479,rotom_frost,Rotom (Frost),True
+479,rotom_heat,Rotom (Heat),479,rotom_heat,Rotom (Heat),True
+479,rotom_mow,Rotom (Mow),479,rotom_mow,Rotom (Mow),True
+479,rotom_wash,Rotom (Wash),479,rotom_wash,Rotom (Wash),True
+480,uxie,Uxie,480,uxie,Uxie,True
+481,mesprit,Mesprit,481,mesprit,Mesprit,True
+482,azelf,Azelf,482,azelf,Azelf,True
+483,dialga,Dialga,483,dialga,Dialga,True
+483,dialga_origin,Dialga (Origin),483,dialga_origin,Dialga (Origin),True
+484,palkia,Palkia,484,palkia,Palkia,True
+484,palkia_origin,Palkia (Origin),484,palkia_origin,Palkia (Origin),True
+485,heatran,Heatran,485,heatran,Heatran,True
+486,regigigas,Regigigas,486,regigigas,Regigigas,True
+486,regigigas_shadow,Regigigas (Shadow),486,regigigas_shadow,Regigigas (Shadow),True
+487,giratina_altered,Giratina (Altered),487,giratina_altered,Giratina (Altered),True
+487,giratina_origin,Giratina (Origin),487,giratina_origin,Giratina (Origin),True
+488,cresselia,Cresselia,488,cresselia,Cresselia,True
+489,phione,Phione,489,phione,Phione,True
+489,phione,Phione,490,manaphy,Manaphy,False
+490,manaphy,Manaphy,490,manaphy,Manaphy,True
+491,darkrai,Darkrai,491,darkrai,Darkrai,True
+492,shaymin_land,Shaymin (Land),492,shaymin_land,Shaymin (Land),True
+492,shaymin_sky,Shaymin (Sky),492,shaymin_sky,Shaymin (Sky),True
+493,arceus,Arceus,493,arceus,Arceus,True
+493,arceus_bug,Arceus (Bug),493,arceus_bug,Arceus (Bug),True
+493,arceus_dark,Arceus (Dark),493,arceus_dark,Arceus (Dark),True
+493,arceus_dragon,Arceus (Dragon),493,arceus_dragon,Arceus (Dragon),True
+493,arceus_electric,Arceus (Electric),493,arceus_electric,Arceus (Electric),True
+493,arceus_fairy,Arceus (Fairy),493,arceus_fairy,Arceus (Fairy),True
+493,arceus_fighting,Arceus (Fighting),493,arceus_fighting,Arceus (Fighting),True
+493,arceus_fire,Arceus (Fire),493,arceus_fire,Arceus (Fire),True
+493,arceus_flying,Arceus (Flying),493,arceus_flying,Arceus (Flying),True
+493,arceus_ghost,Arceus (Ghost),493,arceus_ghost,Arceus (Ghost),True
+493,arceus_grass,Arceus (Grass),493,arceus_grass,Arceus (Grass),True
+493,arceus_ground,Arceus (Ground),493,arceus_ground,Arceus (Ground),True
+493,arceus_ice,Arceus (Ice),493,arceus_ice,Arceus (Ice),True
+493,arceus_poison,Arceus (Poison),493,arceus_poison,Arceus (Poison),True
+493,arceus_psychic,Arceus (Psychic),493,arceus_psychic,Arceus (Psychic),True
+493,arceus_rock,Arceus (Rock),493,arceus_rock,Arceus (Rock),True
+493,arceus_steel,Arceus (Steel),493,arceus_steel,Arceus (Steel),True
+493,arceus_water,Arceus (Water),493,arceus_water,Arceus (Water),True
+494,victini,Victini,494,victini,Victini,True
+495,snivy,Snivy,495,snivy,Snivy,True
+495,snivy,Snivy,496,servine,Servine,False
+495,snivy,Snivy,497,serperior,Serperior,False
+496,servine,Servine,496,servine,Servine,True
+496,servine,Servine,497,serperior,Serperior,False
+497,serperior,Serperior,497,serperior,Serperior,True
+498,tepig,Tepig,498,tepig,Tepig,True
+498,tepig,Tepig,499,pignite,Pignite,False
+498,tepig,Tepig,500,emboar,Emboar,False
+499,pignite,Pignite,499,pignite,Pignite,True
+499,pignite,Pignite,500,emboar,Emboar,False
+500,emboar,Emboar,500,emboar,Emboar,True
+501,oshawott,Oshawott,501,oshawott,Oshawott,True
+501,oshawott,Oshawott,502,dewott,Dewott,False
+501,oshawott,Oshawott,503,samurott,Samurott,False
+501,oshawott,Oshawott,503,samurott_hisuian,Samurott (Hisuian),False
+502,dewott,Dewott,502,dewott,Dewott,True
+502,dewott,Dewott,503,samurott,Samurott,False
+502,dewott,Dewott,503,samurott_hisuian,Samurott (Hisuian),False
+503,samurott,Samurott,503,samurott,Samurott,True
+503,samurott_hisuian,Samurott (Hisuian),503,samurott_hisuian,Samurott (Hisuian),True
+504,patrat,Patrat,504,patrat,Patrat,True
+504,patrat,Patrat,505,watchog,Watchog,False
+504,patrat_shadow,Patrat (Shadow),504,patrat_shadow,Patrat (Shadow),True
+504,patrat_shadow,Patrat (Shadow),505,watchog_shadow,Watchog (Shadow),False
+505,watchog,Watchog,505,watchog,Watchog,True
+505,watchog_shadow,Watchog (Shadow),505,watchog_shadow,Watchog (Shadow),True
+506,lillipup,Lillipup,506,lillipup,Lillipup,True
+506,lillipup,Lillipup,507,herdier,Herdier,False
+506,lillipup,Lillipup,508,stoutland,Stoutland,False
+507,herdier,Herdier,507,herdier,Herdier,True
+507,herdier,Herdier,508,stoutland,Stoutland,False
+508,stoutland,Stoutland,508,stoutland,Stoutland,True
+509,purrloin,Purrloin,509,purrloin,Purrloin,True
+509,purrloin,Purrloin,510,liepard,Liepard,False
+509,purrloin_shadow,Purrloin (Shadow),509,purrloin_shadow,Purrloin (Shadow),True
+509,purrloin_shadow,Purrloin (Shadow),510,liepard_shadow,Liepard (Shadow),False
+510,liepard,Liepard,510,liepard,Liepard,True
+510,liepard_shadow,Liepard (Shadow),510,liepard_shadow,Liepard (Shadow),True
+511,pansage,Pansage,511,pansage,Pansage,True
+511,pansage,Pansage,512,simisage,Simisage,False
+512,simisage,Simisage,512,simisage,Simisage,True
+513,pansear,Pansear,513,pansear,Pansear,True
+513,pansear,Pansear,514,simisear,Simisear,False
+514,simisear,Simisear,514,simisear,Simisear,True
+515,panpour,Panpour,515,panpour,Panpour,True
+515,panpour,Panpour,516,simipour,Simipour,False
+516,simipour,Simipour,516,simipour,Simipour,True
+517,munna,Munna,517,munna,Munna,True
+517,munna,Munna,518,musharna,Musharna,False
+518,musharna,Musharna,518,musharna,Musharna,True
+519,pidove,Pidove,519,pidove,Pidove,True
+519,pidove,Pidove,520,tranquill,Tranquill,False
+519,pidove,Pidove,521,unfezant,Unfezant,False
+519,pidove_shadow,Pidove (Shadow),519,pidove_shadow,Pidove (Shadow),True
+519,pidove_shadow,Pidove (Shadow),520,tranquill_shadow,Tranquill (Shadow),False
+519,pidove_shadow,Pidove (Shadow),521,unfezant_shadow,Unfezant (Shadow),False
+520,tranquill,Tranquill,520,tranquill,Tranquill,True
+520,tranquill,Tranquill,521,unfezant,Unfezant,False
+520,tranquill_shadow,Tranquill (Shadow),520,tranquill_shadow,Tranquill (Shadow),True
+520,tranquill_shadow,Tranquill (Shadow),521,unfezant_shadow,Unfezant (Shadow),False
+521,unfezant,Unfezant,521,unfezant,Unfezant,True
+521,unfezant_shadow,Unfezant (Shadow),521,unfezant_shadow,Unfezant (Shadow),True
+522,blitzle,Blitzle,522,blitzle,Blitzle,True
+522,blitzle,Blitzle,523,zebstrika,Zebstrika,False
+522,blitzle_shadow,Blitzle (Shadow),522,blitzle_shadow,Blitzle (Shadow),True
+522,blitzle_shadow,Blitzle (Shadow),523,zebstrika_shadow,Zebstrika (Shadow),False
+523,zebstrika,Zebstrika,523,zebstrika,Zebstrika,True
+523,zebstrika_shadow,Zebstrika (Shadow),523,zebstrika_shadow,Zebstrika (Shadow),True
+524,roggenrola,Roggenrola,524,roggenrola,Roggenrola,True
+524,roggenrola,Roggenrola,525,boldore,Boldore,False
+524,roggenrola,Roggenrola,526,gigalith,Gigalith,False
+525,boldore,Boldore,525,boldore,Boldore,True
+525,boldore,Boldore,526,gigalith,Gigalith,False
+526,gigalith,Gigalith,526,gigalith,Gigalith,True
+527,woobat,Woobat,527,woobat,Woobat,True
+527,woobat,Woobat,528,swoobat,Swoobat,False
+528,swoobat,Swoobat,528,swoobat,Swoobat,True
+529,drilbur,Drilbur,529,drilbur,Drilbur,True
+529,drilbur,Drilbur,530,excadrill,Excadrill,False
+529,drilbur_shadow,Drilbur (Shadow),529,drilbur_shadow,Drilbur (Shadow),True
+529,drilbur_shadow,Drilbur (Shadow),530,excadrill_shadow,Excadrill (Shadow),False
+530,excadrill,Excadrill,530,excadrill,Excadrill,True
+530,excadrill_shadow,Excadrill (Shadow),530,excadrill_shadow,Excadrill (Shadow),True
+531,audino,Audino,531,audino,Audino,True
+532,timburr,Timburr,532,timburr,Timburr,True
+532,timburr,Timburr,533,gurdurr,Gurdurr,False
+532,timburr,Timburr,534,conkeldurr,Conkeldurr,False
+533,gurdurr,Gurdurr,533,gurdurr,Gurdurr,True
+533,gurdurr,Gurdurr,534,conkeldurr,Conkeldurr,False
+534,conkeldurr,Conkeldurr,534,conkeldurr,Conkeldurr,True
+535,tympole,Tympole,535,tympole,Tympole,True
+535,tympole,Tympole,536,palpitoad,Palpitoad,False
+535,tympole,Tympole,537,seismitoad,Seismitoad,False
+536,palpitoad,Palpitoad,536,palpitoad,Palpitoad,True
+536,palpitoad,Palpitoad,537,seismitoad,Seismitoad,False
+537,seismitoad,Seismitoad,537,seismitoad,Seismitoad,True
+538,throh,Throh,538,throh,Throh,True
+538,throh_shadow,Throh (Shadow),538,throh_shadow,Throh (Shadow),True
+539,sawk,Sawk,539,sawk,Sawk,True
+539,sawk_shadow,Sawk (Shadow),539,sawk_shadow,Sawk (Shadow),True
+540,sewaddle,Sewaddle,540,sewaddle,Sewaddle,True
+540,sewaddle,Sewaddle,541,swadloon,Swadloon,False
+540,sewaddle,Sewaddle,542,leavanny,Leavanny,False
+541,swadloon,Swadloon,541,swadloon,Swadloon,True
+541,swadloon,Swadloon,542,leavanny,Leavanny,False
+542,leavanny,Leavanny,542,leavanny,Leavanny,True
+543,venipede,Venipede,543,venipede,Venipede,True
+543,venipede,Venipede,544,whirlipede,Whirlipede,False
+543,venipede,Venipede,545,scolipede,Scolipede,False
+544,whirlipede,Whirlipede,544,whirlipede,Whirlipede,True
+544,whirlipede,Whirlipede,545,scolipede,Scolipede,False
+545,scolipede,Scolipede,545,scolipede,Scolipede,True
+546,cottonee,Cottonee,546,cottonee,Cottonee,True
+546,cottonee,Cottonee,547,whimsicott,Whimsicott,False
+547,whimsicott,Whimsicott,547,whimsicott,Whimsicott,True
+548,petilil,Petilil,548,petilil,Petilil,True
+548,petilil,Petilil,549,lilligant,Lilligant,False
+549,lilligant,Lilligant,549,lilligant,Lilligant,True
+550,basculin,Basculin,550,basculin,Basculin,True
+550,basculin,Basculin,902,basculegion_female,Basculegion (Female),False
+550,basculin,Basculin,902,basculegion_male,Basculegion (Male),False
+551,sandile,Sandile,551,sandile,Sandile,True
+551,sandile,Sandile,552,krokorok,Krokorok,False
+551,sandile,Sandile,553,krookodile,Krookodile,False
+552,krokorok,Krokorok,552,krokorok,Krokorok,True
+552,krokorok,Krokorok,553,krookodile,Krookodile,False
+553,krookodile,Krookodile,553,krookodile,Krookodile,True
+554,darumaka,Darumaka,554,darumaka,Darumaka,True
+554,darumaka,Darumaka,555,darmanitan_galarian_standard,Darmanitan (Galarian),False
+554,darumaka,Darumaka,555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),False
+554,darumaka,Darumaka,555,darmanitan_standard,Darmanitan (Standard),False
+554,darumaka,Darumaka,555,darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),False
+554,darumaka,Darumaka,555,darmanitan_zen,Darmanitan (Zen),False
+554,darumaka_galarian,Darumaka (Galarian),554,darumaka_galarian,Darumaka (Galarian),True
+555,darmanitan_galarian_standard,Darmanitan (Galarian),555,darmanitan_galarian_standard,Darmanitan (Galarian),True
+555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),True
+555,darmanitan_standard,Darmanitan (Standard),555,darmanitan_standard,Darmanitan (Standard),True
+555,darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),555,darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),True
+555,darmanitan_zen,Darmanitan (Zen),555,darmanitan_zen,Darmanitan (Zen),True
+556,maractus,Maractus,556,maractus,Maractus,True
+557,dwebble,Dwebble,557,dwebble,Dwebble,True
+557,dwebble,Dwebble,558,crustle,Crustle,False
+557,dwebble_shadow,Dwebble (Shadow),557,dwebble_shadow,Dwebble (Shadow),True
+557,dwebble_shadow,Dwebble (Shadow),558,crustle_shadow,Crustle (Shadow),False
+558,crustle,Crustle,558,crustle,Crustle,True
+558,crustle_shadow,Crustle (Shadow),558,crustle_shadow,Crustle (Shadow),True
+559,scraggy,Scraggy,559,scraggy,Scraggy,True
+559,scraggy,Scraggy,560,scrafty,Scrafty,False
+560,scrafty,Scrafty,560,scrafty,Scrafty,True
+561,sigilyph,Sigilyph,561,sigilyph,Sigilyph,True
+562,yamask,Yamask,562,yamask,Yamask,True
+562,yamask,Yamask,563,cofagrigus,Cofagrigus,False
+562,yamask_galarian,Yamask (Galarian),562,yamask_galarian,Yamask (Galarian),True
+562,yamask_galarian,Yamask (Galarian),867,runerigus,Runerigus,False
+563,cofagrigus,Cofagrigus,563,cofagrigus,Cofagrigus,True
+564,tirtouga,Tirtouga,564,tirtouga,Tirtouga,True
+564,tirtouga,Tirtouga,565,carracosta,Carracosta,False
+565,carracosta,Carracosta,565,carracosta,Carracosta,True
+566,archen,Archen,566,archen,Archen,True
+566,archen,Archen,567,archeops,Archeops,False
+567,archeops,Archeops,567,archeops,Archeops,True
+568,trubbish,Trubbish,568,trubbish,Trubbish,True
+568,trubbish,Trubbish,569,garbodor,Garbodor,False
+569,garbodor,Garbodor,569,garbodor,Garbodor,True
+570,zorua,Zorua,570,zorua,Zorua,True
+570,zorua,Zorua,571,zoroark,Zoroark,False
+571,zoroark,Zoroark,571,zoroark,Zoroark,True
+572,minccino,Minccino,572,minccino,Minccino,True
+572,minccino,Minccino,573,cinccino,Cinccino,False
+573,cinccino,Cinccino,573,cinccino,Cinccino,True
+574,gothita,Gothita,574,gothita,Gothita,True
+574,gothita,Gothita,575,gothorita,Gothorita,False
+574,gothita,Gothita,576,gothitelle,Gothitelle,False
+574,gothita_shadow,Gothita (Shadow),574,gothita_shadow,Gothita (Shadow),True
+574,gothita_shadow,Gothita (Shadow),575,gothorita_shadow,Gothorita (Shadow),False
+574,gothita_shadow,Gothita (Shadow),576,gothitelle_shadow,Gothitelle (Shadow),False
+575,gothorita,Gothorita,575,gothorita,Gothorita,True
+575,gothorita,Gothorita,576,gothitelle,Gothitelle,False
+575,gothorita_shadow,Gothorita (Shadow),575,gothorita_shadow,Gothorita (Shadow),True
+575,gothorita_shadow,Gothorita (Shadow),576,gothitelle_shadow,Gothitelle (Shadow),False
+576,gothitelle,Gothitelle,576,gothitelle,Gothitelle,True
+576,gothitelle_shadow,Gothitelle (Shadow),576,gothitelle_shadow,Gothitelle (Shadow),True
+577,solosis,Solosis,577,solosis,Solosis,True
+577,solosis,Solosis,578,duosion,Duosion,False
+577,solosis,Solosis,579,reuniclus,Reuniclus,False
+577,solosis_shadow,Solosis (Shadow),577,solosis_shadow,Solosis (Shadow),True
+577,solosis_shadow,Solosis (Shadow),578,duosion_shadow,Duosion (Shadow),False
+577,solosis_shadow,Solosis (Shadow),579,reuniclus_shadow,Reuniclus (Shadow),False
+578,duosion,Duosion,578,duosion,Duosion,True
+578,duosion,Duosion,579,reuniclus,Reuniclus,False
+578,duosion_shadow,Duosion (Shadow),578,duosion_shadow,Duosion (Shadow),True
+578,duosion_shadow,Duosion (Shadow),579,reuniclus_shadow,Reuniclus (Shadow),False
+579,reuniclus,Reuniclus,579,reuniclus,Reuniclus,True
+579,reuniclus_shadow,Reuniclus (Shadow),579,reuniclus_shadow,Reuniclus (Shadow),True
+580,ducklett,Ducklett,580,ducklett,Ducklett,True
+580,ducklett,Ducklett,581,swanna,Swanna,False
+580,ducklett_shadow,Ducklett (Shadow),580,ducklett_shadow,Ducklett (Shadow),True
+580,ducklett_shadow,Ducklett (Shadow),581,swanna_shadow,Swanna (Shadow),False
+581,swanna,Swanna,581,swanna,Swanna,True
+581,swanna_shadow,Swanna (Shadow),581,swanna_shadow,Swanna (Shadow),True
+582,vanillite,Vanillite,582,vanillite,Vanillite,True
+582,vanillite,Vanillite,583,vanillish,Vanillish,False
+582,vanillite,Vanillite,584,vanilluxe,Vanilluxe,False
+583,vanillish,Vanillish,583,vanillish,Vanillish,True
+583,vanillish,Vanillish,584,vanilluxe,Vanilluxe,False
+584,vanilluxe,Vanilluxe,584,vanilluxe,Vanilluxe,True
+585,deerling,Deerling,585,deerling,Deerling,True
+585,deerling,Deerling,586,sawsbuck,Sawsbuck,False
+586,sawsbuck,Sawsbuck,586,sawsbuck,Sawsbuck,True
+587,emolga,Emolga,587,emolga,Emolga,True
+588,karrablast,Karrablast,588,karrablast,Karrablast,True
+588,karrablast,Karrablast,589,escavalier,Escavalier,False
+589,escavalier,Escavalier,589,escavalier,Escavalier,True
+590,foongus,Foongus,590,foongus,Foongus,True
+590,foongus,Foongus,591,amoonguss,Amoonguss,False
+590,foongus_shadow,Foongus (Shadow),590,foongus_shadow,Foongus (Shadow),True
+590,foongus_shadow,Foongus (Shadow),591,amoonguss_shadow,Amoonguss (Shadow),False
+591,amoonguss,Amoonguss,591,amoonguss,Amoonguss,True
+591,amoonguss_shadow,Amoonguss (Shadow),591,amoonguss_shadow,Amoonguss (Shadow),True
+592,frillish,Frillish,592,frillish,Frillish,True
+592,frillish,Frillish,593,jellicent,Jellicent,False
+593,jellicent,Jellicent,593,jellicent,Jellicent,True
+594,alomomola,Alomomola,594,alomomola,Alomomola,True
+595,joltik,Joltik,595,joltik,Joltik,True
+595,joltik,Joltik,596,galvantula,Galvantula,False
+595,joltik_shadow,Joltik (Shadow),595,joltik_shadow,Joltik (Shadow),True
+595,joltik_shadow,Joltik (Shadow),596,galvantula_shadow,Galvantula (Shadow),False
+596,galvantula,Galvantula,596,galvantula,Galvantula,True
+596,galvantula_shadow,Galvantula (Shadow),596,galvantula_shadow,Galvantula (Shadow),True
+597,ferroseed,Ferroseed,597,ferroseed,Ferroseed,True
+597,ferroseed,Ferroseed,598,ferrothorn,Ferrothorn,False
+597,ferroseed_shadow,Ferroseed (Shadow),597,ferroseed_shadow,Ferroseed (Shadow),True
+597,ferroseed_shadow,Ferroseed (Shadow),598,ferrothorn_shadow,Ferrothorn (Shadow),False
+598,ferrothorn,Ferrothorn,598,ferrothorn,Ferrothorn,True
+598,ferrothorn_shadow,Ferrothorn (Shadow),598,ferrothorn_shadow,Ferrothorn (Shadow),True
+599,klink,Klink,599,klink,Klink,True
+599,klink,Klink,600,klang,Klang,False
+599,klink,Klink,601,klinklang,Klinklang,False
+600,klang,Klang,600,klang,Klang,True
+600,klang,Klang,601,klinklang,Klinklang,False
+601,klinklang,Klinklang,601,klinklang,Klinklang,True
+602,tynamo,Tynamo,602,tynamo,Tynamo,True
+602,tynamo,Tynamo,603,eelektrik,Eelektrik,False
+602,tynamo,Tynamo,604,eelektross,Eelektross,False
+603,eelektrik,Eelektrik,603,eelektrik,Eelektrik,True
+603,eelektrik,Eelektrik,604,eelektross,Eelektross,False
+604,eelektross,Eelektross,604,eelektross,Eelektross,True
+605,elgyem,Elgyem,605,elgyem,Elgyem,True
+605,elgyem,Elgyem,606,beheeyem,Beheeyem,False
+606,beheeyem,Beheeyem,606,beheeyem,Beheeyem,True
+607,litwick,Litwick,607,litwick,Litwick,True
+607,litwick,Litwick,608,lampent,Lampent,False
+607,litwick,Litwick,609,chandelure,Chandelure,False
+607,litwick_shadow,Litwick (Shadow),607,litwick_shadow,Litwick (Shadow),True
+607,litwick_shadow,Litwick (Shadow),608,lampent_shadow,Lampent (Shadow),False
+607,litwick_shadow,Litwick (Shadow),609,chandelure_shadow,Chandelure (Shadow),False
+608,lampent,Lampent,608,lampent,Lampent,True
+608,lampent,Lampent,609,chandelure,Chandelure,False
+608,lampent_shadow,Lampent (Shadow),608,lampent_shadow,Lampent (Shadow),True
+608,lampent_shadow,Lampent (Shadow),609,chandelure_shadow,Chandelure (Shadow),False
+609,chandelure,Chandelure,609,chandelure,Chandelure,True
+609,chandelure_shadow,Chandelure (Shadow),609,chandelure_shadow,Chandelure (Shadow),True
+610,axew,Axew,610,axew,Axew,True
+610,axew,Axew,611,fraxure,Fraxure,False
+610,axew,Axew,612,haxorus,Haxorus,False
+611,fraxure,Fraxure,611,fraxure,Fraxure,True
+611,fraxure,Fraxure,612,haxorus,Haxorus,False
+612,haxorus,Haxorus,612,haxorus,Haxorus,True
+613,cubchoo,Cubchoo,613,cubchoo,Cubchoo,True
+613,cubchoo,Cubchoo,614,beartic,Beartic,False
+614,beartic,Beartic,614,beartic,Beartic,True
+615,cryogonal,Cryogonal,615,cryogonal,Cryogonal,True
+616,shelmet,Shelmet,616,shelmet,Shelmet,True
+616,shelmet,Shelmet,617,accelgor,Accelgor,False
+617,accelgor,Accelgor,617,accelgor,Accelgor,True
+618,stunfisk,Stunfisk,618,stunfisk,Stunfisk,True
+618,stunfisk_galarian,Stunfisk (Galarian),618,stunfisk_galarian,Stunfisk (Galarian),True
+619,mienfoo,Mienfoo,619,mienfoo,Mienfoo,True
+619,mienfoo,Mienfoo,620,mienshao,Mienshao,False
+620,mienshao,Mienshao,620,mienshao,Mienshao,True
+621,druddigon,Druddigon,621,druddigon,Druddigon,True
+622,golett,Golett,622,golett,Golett,True
+622,golett,Golett,623,golurk,Golurk,False
+622,golett_shadow,Golett (Shadow),622,golett_shadow,Golett (Shadow),True
+622,golett_shadow,Golett (Shadow),623,golurk_shadow,Golurk (Shadow),False
+623,golurk,Golurk,623,golurk,Golurk,True
+623,golurk_shadow,Golurk (Shadow),623,golurk_shadow,Golurk (Shadow),True
+624,pawniard,Pawniard,624,pawniard,Pawniard,True
+624,pawniard,Pawniard,625,bisharp,Bisharp,False
+624,pawniard,Pawniard,983,kingambit,Kingambit,False
+625,bisharp,Bisharp,625,bisharp,Bisharp,True
+625,bisharp,Bisharp,983,kingambit,Kingambit,False
+626,bouffalant,Bouffalant,626,bouffalant,Bouffalant,True
+627,rufflet,Rufflet,627,rufflet,Rufflet,True
+627,rufflet,Rufflet,628,braviary,Braviary,False
+627,rufflet,Rufflet,628,braviary_hisuian,Braviary (Hisuian),False
+628,braviary,Braviary,628,braviary,Braviary,True
+628,braviary_hisuian,Braviary (Hisuian),628,braviary_hisuian,Braviary (Hisuian),True
+629,vullaby,Vullaby,629,vullaby,Vullaby,True
+629,vullaby,Vullaby,630,mandibuzz,Mandibuzz,False
+630,mandibuzz,Mandibuzz,630,mandibuzz,Mandibuzz,True
+631,heatmor,Heatmor,631,heatmor,Heatmor,True
+632,durant,Durant,632,durant,Durant,True
+633,deino,Deino,633,deino,Deino,True
+633,deino,Deino,634,zweilous,Zweilous,False
+633,deino,Deino,635,hydreigon,Hydreigon,False
+634,zweilous,Zweilous,634,zweilous,Zweilous,True
+634,zweilous,Zweilous,635,hydreigon,Hydreigon,False
+635,hydreigon,Hydreigon,635,hydreigon,Hydreigon,True
+636,larvesta,Larvesta,636,larvesta,Larvesta,True
+636,larvesta,Larvesta,637,volcarona,Volcarona,False
+637,volcarona,Volcarona,637,volcarona,Volcarona,True
+638,cobalion,Cobalion,638,cobalion,Cobalion,True
+639,terrakion,Terrakion,639,terrakion,Terrakion,True
+640,virizion,Virizion,640,virizion,Virizion,True
+641,tornadus_incarnate,Tornadus (Incarnate),641,tornadus_incarnate,Tornadus (Incarnate),True
+641,tornadus_therian,Tornadus (Therian),641,tornadus_therian,Tornadus (Therian),True
+642,thundurus_incarnate,Thundurus (Incarnate),642,thundurus_incarnate,Thundurus (Incarnate),True
+642,thundurus_therian,Thundurus (Therian),642,thundurus_therian,Thundurus (Therian),True
+643,reshiram,Reshiram,643,reshiram,Reshiram,True
+644,zekrom,Zekrom,644,zekrom,Zekrom,True
+645,landorus_incarnate,Landorus (Incarnate),645,landorus_incarnate,Landorus (Incarnate),True
+645,landorus_therian,Landorus (Therian),645,landorus_therian,Landorus (Therian),True
+646,kyurem,Kyurem,646,kyurem,Kyurem,True
+646,kyurem_black,Kyurem (Black),646,kyurem_black,Kyurem (Black),True
+646,kyurem_white,Kyurem (White),646,kyurem_white,Kyurem (White),True
+647,keldeo_ordinary,Keldeo (Ordinary),647,keldeo_ordinary,Keldeo (Ordinary),True
+647,keldeo_resolute,Keldeo (Resolute),647,keldeo_resolute,Keldeo (Resolute),True
+648,meloetta_aria,Meloetta (Aria),648,meloetta_aria,Meloetta (Aria),True
+648,meloetta_pirouette,Meloetta (Pirouette),648,meloetta_pirouette,Meloetta (Pirouette),True
+649,genesect,Genesect,649,genesect,Genesect,True
+649,genesect_burn,Genesect (Burn),649,genesect_burn,Genesect (Burn),True
+649,genesect_chill,Genesect (Chill),649,genesect_chill,Genesect (Chill),True
+649,genesect_douse,Genesect (Douse),649,genesect_douse,Genesect (Douse),True
+649,genesect_shock,Genesect (Shock),649,genesect_shock,Genesect (Shock),True
+650,chespin,Chespin,650,chespin,Chespin,True
+650,chespin,Chespin,651,quilladin,Quilladin,False
+650,chespin,Chespin,652,chesnaught,Chesnaught,False
+651,quilladin,Quilladin,651,quilladin,Quilladin,True
+651,quilladin,Quilladin,652,chesnaught,Chesnaught,False
+652,chesnaught,Chesnaught,652,chesnaught,Chesnaught,True
+653,fennekin,Fennekin,653,fennekin,Fennekin,True
+653,fennekin,Fennekin,654,braixen,Braixen,False
+653,fennekin,Fennekin,655,delphox,Delphox,False
+654,braixen,Braixen,654,braixen,Braixen,True
+654,braixen,Braixen,655,delphox,Delphox,False
+655,delphox,Delphox,655,delphox,Delphox,True
+656,froakie,Froakie,656,froakie,Froakie,True
+656,froakie,Froakie,657,frogadier,Frogadier,False
+656,froakie,Froakie,658,greninja,Greninja,False
+657,frogadier,Frogadier,657,frogadier,Frogadier,True
+657,frogadier,Frogadier,658,greninja,Greninja,False
+658,greninja,Greninja,658,greninja,Greninja,True
+659,bunnelby,Bunnelby,659,bunnelby,Bunnelby,True
+659,bunnelby,Bunnelby,660,diggersby,Diggersby,False
+660,diggersby,Diggersby,660,diggersby,Diggersby,True
+661,fletchling,Fletchling,661,fletchling,Fletchling,True
+661,fletchling,Fletchling,662,fletchinder,Fletchinder,False
+661,fletchling,Fletchling,663,talonflame,Talonflame,False
+662,fletchinder,Fletchinder,662,fletchinder,Fletchinder,True
+662,fletchinder,Fletchinder,663,talonflame,Talonflame,False
+663,talonflame,Talonflame,663,talonflame,Talonflame,True
+664,scatterbug,Scatterbug,664,scatterbug,Scatterbug,True
+664,scatterbug,Scatterbug,665,spewpa,Spewpa,False
+664,scatterbug,Scatterbug,666,vivillon,Vivillon,False
+665,spewpa,Spewpa,665,spewpa,Spewpa,True
+665,spewpa,Spewpa,666,vivillon,Vivillon,False
+666,vivillon,Vivillon,666,vivillon,Vivillon,True
+667,litleo,Litleo,667,litleo,Litleo,True
+667,litleo,Litleo,668,pyroar,Pyroar,False
+668,pyroar,Pyroar,668,pyroar,Pyroar,True
+669,flabebe,Flabebe,669,flabebe,Flabebe,True
+669,flabebe,Flabebe,670,floette,Floette,False
+669,flabebe,Flabebe,671,florges,Florges,False
+670,floette,Floette,670,floette,Floette,True
+670,floette,Floette,671,florges,Florges,False
+671,florges,Florges,671,florges,Florges,True
+672,skiddo,Skiddo,672,skiddo,Skiddo,True
+672,skiddo,Skiddo,673,gogoat,Gogoat,False
+673,gogoat,Gogoat,673,gogoat,Gogoat,True
+674,pancham,Pancham,674,pancham,Pancham,True
+674,pancham,Pancham,675,pangoro,Pangoro,False
+675,pangoro,Pangoro,675,pangoro,Pangoro,True
+676,furfrou,Furfrou,676,furfrou,Furfrou,True
+677,espurr,Espurr,677,espurr,Espurr,True
+677,espurr,Espurr,678,meowstic,Meowstic (Male),False
+677,espurr,Espurr,678,meowstic_female,Meowstic (Female),False
+678,meowstic,Meowstic (Male),678,meowstic,Meowstic (Male),True
+678,meowstic_female,Meowstic (Female),678,meowstic_female,Meowstic (Female),True
+679,honedge,Honedge,679,honedge,Honedge,True
+679,honedge,Honedge,680,doublade,Doublade,False
+679,honedge,Honedge,681,aegislash,Aegislash,False
+680,doublade,Doublade,680,doublade,Doublade,True
+680,doublade,Doublade,681,aegislash,Aegislash,False
+681,aegislash,Aegislash,681,aegislash,Aegislash,True
+682,spritzee,Spritzee,682,spritzee,Spritzee,True
+682,spritzee,Spritzee,683,aromatisse,Aromatisse,False
+683,aromatisse,Aromatisse,683,aromatisse,Aromatisse,True
+684,swirlix,Swirlix,684,swirlix,Swirlix,True
+684,swirlix,Swirlix,685,slurpuff,Slurpuff,False
+685,slurpuff,Slurpuff,685,slurpuff,Slurpuff,True
+686,inkay,Inkay,686,inkay,Inkay,True
+686,inkay,Inkay,687,malamar,Malamar,False
+687,malamar,Malamar,687,malamar,Malamar,True
+688,binacle,Binacle,688,binacle,Binacle,True
+688,binacle,Binacle,689,barbaracle,Barbaracle,False
+689,barbaracle,Barbaracle,689,barbaracle,Barbaracle,True
+690,skrelp,Skrelp,690,skrelp,Skrelp,True
+690,skrelp,Skrelp,691,dragalge,Dragalge,False
+691,dragalge,Dragalge,691,dragalge,Dragalge,True
+692,clauncher,Clauncher,692,clauncher,Clauncher,True
+692,clauncher,Clauncher,693,clawitzer,Clawitzer,False
+693,clawitzer,Clawitzer,693,clawitzer,Clawitzer,True
+694,helioptile,Helioptile,694,helioptile,Helioptile,True
+694,helioptile,Helioptile,695,heliolisk,Heliolisk,False
+695,heliolisk,Heliolisk,695,heliolisk,Heliolisk,True
+696,tyrunt,Tyrunt,696,tyrunt,Tyrunt,True
+696,tyrunt,Tyrunt,697,tyrantrum,Tyrantrum,False
+697,tyrantrum,Tyrantrum,697,tyrantrum,Tyrantrum,True
+698,amaura,Amaura,698,amaura,Amaura,True
+698,amaura,Amaura,699,aurorus,Aurorus,False
+699,aurorus,Aurorus,699,aurorus,Aurorus,True
+700,sylveon,Sylveon,700,sylveon,Sylveon,True
+701,hawlucha,Hawlucha,701,hawlucha,Hawlucha,True
+702,dedenne,Dedenne,702,dedenne,Dedenne,True
+703,carbink,Carbink,703,carbink,Carbink,True
+704,goomy,Goomy,704,goomy,Goomy,True
+704,goomy,Goomy,705,sliggoo,Sliggoo,False
+704,goomy,Goomy,706,goodra,Goodra,False
+705,sliggoo,Sliggoo,705,sliggoo,Sliggoo,True
+705,sliggoo,Sliggoo,706,goodra,Goodra,False
+706,goodra,Goodra,706,goodra,Goodra,True
+707,klefki,Klefki,707,klefki,Klefki,True
+708,phantump,Phantump,708,phantump,Phantump,True
+708,phantump,Phantump,709,trevenant,Trevenant,False
+709,trevenant,Trevenant,709,trevenant,Trevenant,True
+710,pumpkaboo_average,Pumpkaboo (Average),710,pumpkaboo_average,Pumpkaboo (Average),True
+710,pumpkaboo_average,Pumpkaboo (Average),711,gourgeist_average,Gourgeist (Average),False
+710,pumpkaboo_large,Pumpkaboo (Large),710,pumpkaboo_large,Pumpkaboo (Large),True
+710,pumpkaboo_large,Pumpkaboo (Large),711,gourgeist_large,Gourgeist (Large),False
+710,pumpkaboo_small,Pumpkaboo (Small),710,pumpkaboo_small,Pumpkaboo (Small),True
+710,pumpkaboo_small,Pumpkaboo (Small),711,gourgeist_small,Gourgeist (Small),False
+710,pumpkaboo_super,Pumpkaboo (Super),710,pumpkaboo_super,Pumpkaboo (Super),True
+710,pumpkaboo_super,Pumpkaboo (Super),711,gourgeist_super,Gourgeist (Super),False
+711,gourgeist_average,Gourgeist (Average),711,gourgeist_average,Gourgeist (Average),True
+711,gourgeist_large,Gourgeist (Large),711,gourgeist_large,Gourgeist (Large),True
+711,gourgeist_small,Gourgeist (Small),711,gourgeist_small,Gourgeist (Small),True
+711,gourgeist_super,Gourgeist (Super),711,gourgeist_super,Gourgeist (Super),True
+712,bergmite,Bergmite,712,bergmite,Bergmite,True
+712,bergmite,Bergmite,713,avalugg,Avalugg,False
+712,bergmite,Bergmite,713,avalugg_hisuian,Avalugg (Hisuian),False
+713,avalugg,Avalugg,713,avalugg,Avalugg,True
+713,avalugg_hisuian,Avalugg (Hisuian),713,avalugg_hisuian,Avalugg (Hisuian),True
+714,noibat,Noibat,714,noibat,Noibat,True
+714,noibat,Noibat,715,noivern,Noivern,False
+715,noivern,Noivern,715,noivern,Noivern,True
+716,xerneas,Xerneas,716,xerneas,Xerneas,True
+717,yveltal,Yveltal,717,yveltal,Yveltal,True
+718,zygarde,Zygarde (50% Forme),718,zygarde,Zygarde (50% Forme),True
+718,zygarde_10,Zygarde (10% Forme),718,zygarde_10,Zygarde (10% Forme),True
+718,zygarde_complete,Zygarde (Complete Forme),718,zygarde_complete,Zygarde (Complete Forme),True
+719,diancie,Diancie,719,diancie,Diancie,True
+719,diancie_mega,Diancie (Mega),719,diancie_mega,Diancie (Mega),True
+720,hoopa,Hoopa,720,hoopa,Hoopa,True
+720,hoopa_confined,Hoopa (Confined),720,hoopa_confined,Hoopa (Confined),True
+720,hoopa_unbound,Hoopa (Unbound),720,hoopa_unbound,Hoopa (Unbound),True
+721,volcanion,Volcanion,721,volcanion,Volcanion,True
+722,rowlet,Rowlet,722,rowlet,Rowlet,True
+722,rowlet,Rowlet,723,dartrix,Dartrix,False
+722,rowlet,Rowlet,724,decidueye,Decidueye,False
+722,rowlet,Rowlet,724,decidueye_hisuian,Decidueye (Hisuian),False
+723,dartrix,Dartrix,723,dartrix,Dartrix,True
+723,dartrix,Dartrix,724,decidueye,Decidueye,False
+723,dartrix,Dartrix,724,decidueye_hisuian,Decidueye (Hisuian),False
+724,decidueye,Decidueye,724,decidueye,Decidueye,True
+724,decidueye_hisuian,Decidueye (Hisuian),724,decidueye_hisuian,Decidueye (Hisuian),True
+725,litten,Litten,725,litten,Litten,True
+725,litten,Litten,726,torracat,Torracat,False
+725,litten,Litten,727,incineroar,Incineroar,False
+726,torracat,Torracat,726,torracat,Torracat,True
+726,torracat,Torracat,727,incineroar,Incineroar,False
+727,incineroar,Incineroar,727,incineroar,Incineroar,True
+728,popplio,Popplio,728,popplio,Popplio,True
+728,popplio,Popplio,729,brionne,Brionne,False
+728,popplio,Popplio,730,primarina,Primarina,False
+729,brionne,Brionne,729,brionne,Brionne,True
+729,brionne,Brionne,730,primarina,Primarina,False
+730,primarina,Primarina,730,primarina,Primarina,True
+731,pikipek,Pikipek,731,pikipek,Pikipek,True
+731,pikipek,Pikipek,732,trumbeak,Trumbeak,False
+731,pikipek,Pikipek,733,toucannon,Toucannon,False
+732,trumbeak,Trumbeak,732,trumbeak,Trumbeak,True
+732,trumbeak,Trumbeak,733,toucannon,Toucannon,False
+733,toucannon,Toucannon,733,toucannon,Toucannon,True
+734,yungoos,Yungoos,734,yungoos,Yungoos,True
+734,yungoos,Yungoos,735,gumshoos,Gumshoos,False
+735,gumshoos,Gumshoos,735,gumshoos,Gumshoos,True
+736,grubbin,Grubbin,736,grubbin,Grubbin,True
+736,grubbin,Grubbin,737,charjabug,Charjabug,False
+736,grubbin,Grubbin,738,vikavolt,Vikavolt,False
+737,charjabug,Charjabug,737,charjabug,Charjabug,True
+737,charjabug,Charjabug,738,vikavolt,Vikavolt,False
+738,vikavolt,Vikavolt,738,vikavolt,Vikavolt,True
+739,crabrawler,Crabrawler,739,crabrawler,Crabrawler,True
+739,crabrawler,Crabrawler,740,crabominable,Crabominable,False
+740,crabominable,Crabominable,740,crabominable,Crabominable,True
+741,oricorio_baile,Oricorio (Baile),741,oricorio_baile,Oricorio (Baile),True
+741,oricorio_pau,Oricorio (Pa'u),741,oricorio_pau,Oricorio (Pa'u),True
+741,oricorio_pom_pom,Oricorio (Pom-Pom),741,oricorio_pom_pom,Oricorio (Pom-Pom),True
+741,oricorio_sensu,Oricorio (Sensu),741,oricorio_sensu,Oricorio (Sensu),True
+742,cutiefly,Cutiefly,742,cutiefly,Cutiefly,True
+742,cutiefly,Cutiefly,743,ribombee,Ribombee,False
+743,ribombee,Ribombee,743,ribombee,Ribombee,True
+744,rockruff,Rockruff,744,rockruff,Rockruff,True
+744,rockruff,Rockruff,745,lycanroc_dusk,Lycanroc (Dusk),False
+744,rockruff,Rockruff,745,lycanroc_midday,Lycanroc (Midday),False
+744,rockruff,Rockruff,745,lycanroc_midnight,Lycanroc (Midnight),False
+745,lycanroc_dusk,Lycanroc (Dusk),745,lycanroc_dusk,Lycanroc (Dusk),True
+745,lycanroc_midday,Lycanroc (Midday),745,lycanroc_midday,Lycanroc (Midday),True
+745,lycanroc_midnight,Lycanroc (Midnight),745,lycanroc_midnight,Lycanroc (Midnight),True
+746,wishiwashi,Wishiwashi,746,wishiwashi,Wishiwashi,True
+746,wishiwashi_school,Wishiwashi (School),746,wishiwashi_school,Wishiwashi (School),True
+746,wishiwashi_solo,Wishiwashi (Solo),746,wishiwashi_solo,Wishiwashi (Solo),True
+747,mareanie,Mareanie,747,mareanie,Mareanie,True
+747,mareanie,Mareanie,748,toxapex,Toxapex,False
+748,toxapex,Toxapex,748,toxapex,Toxapex,True
+749,mudbray,Mudbray,749,mudbray,Mudbray,True
+749,mudbray,Mudbray,750,mudsdale,Mudsdale,False
+750,mudsdale,Mudsdale,750,mudsdale,Mudsdale,True
+751,dewpider,Dewpider,751,dewpider,Dewpider,True
+751,dewpider,Dewpider,752,araquanid,Araquanid,False
+752,araquanid,Araquanid,752,araquanid,Araquanid,True
+753,fomantis,Fomantis,753,fomantis,Fomantis,True
+753,fomantis,Fomantis,754,lurantis,Lurantis,False
+754,lurantis,Lurantis,754,lurantis,Lurantis,True
+755,morelull,Morelull,755,morelull,Morelull,True
+755,morelull,Morelull,756,shiinotic,Shiinotic,False
+756,shiinotic,Shiinotic,756,shiinotic,Shiinotic,True
+757,salandit,Salandit,757,salandit,Salandit,True
+757,salandit,Salandit,758,salazzle,Salazzle,False
+758,salazzle,Salazzle,758,salazzle,Salazzle,True
+759,stufful,Stufful,759,stufful,Stufful,True
+759,stufful,Stufful,760,bewear,Bewear,False
+760,bewear,Bewear,760,bewear,Bewear,True
+761,bounsweet,Bounsweet,761,bounsweet,Bounsweet,True
+761,bounsweet,Bounsweet,762,steenee,Steenee,False
+761,bounsweet,Bounsweet,763,tsareena,Tsareena,False
+762,steenee,Steenee,762,steenee,Steenee,True
+762,steenee,Steenee,763,tsareena,Tsareena,False
+763,tsareena,Tsareena,763,tsareena,Tsareena,True
+764,comfey,Comfey,764,comfey,Comfey,True
+765,oranguru,Oranguru,765,oranguru,Oranguru,True
+766,passimian,Passimian,766,passimian,Passimian,True
+767,wimpod,Wimpod,767,wimpod,Wimpod,True
+767,wimpod,Wimpod,768,golisopod,Golisopod,False
+768,golisopod,Golisopod,768,golisopod,Golisopod,True
+769,sandygast,Sandygast,769,sandygast,Sandygast,True
+769,sandygast,Sandygast,770,palossand,Palossand,False
+770,palossand,Palossand,770,palossand,Palossand,True
+771,pyukumuku,Pyukumuku,771,pyukumuku,Pyukumuku,True
+772,type_null,Type (Null),772,type_null,Type (Null),True
+773,silvally,Silvally,773,silvally,Silvally,True
+773,silvally_bug,Silvally (Bug),773,silvally_bug,Silvally (Bug),True
+773,silvally_dark,Silvally (Dark),773,silvally_dark,Silvally (Dark),True
+773,silvally_dragon,Silvally (Dragon),773,silvally_dragon,Silvally (Dragon),True
+773,silvally_electric,Silvally (Electric),773,silvally_electric,Silvally (Electric),True
+773,silvally_fairy,Silvally (Fairy),773,silvally_fairy,Silvally (Fairy),True
+773,silvally_fighting,Silvally (Fighting),773,silvally_fighting,Silvally (Fighting),True
+773,silvally_fire,Silvally (Fire),773,silvally_fire,Silvally (Fire),True
+773,silvally_flying,Silvally (Flying),773,silvally_flying,Silvally (Flying),True
+773,silvally_ghost,Silvally (Ghost),773,silvally_ghost,Silvally (Ghost),True
+773,silvally_grass,Silvally (Grass),773,silvally_grass,Silvally (Grass),True
+773,silvally_ground,Silvally (Ground),773,silvally_ground,Silvally (Ground),True
+773,silvally_ice,Silvally (Ice),773,silvally_ice,Silvally (Ice),True
+773,silvally_poison,Silvally (Poison),773,silvally_poison,Silvally (Poison),True
+773,silvally_psychic,Silvally (Psychic),773,silvally_psychic,Silvally (Psychic),True
+773,silvally_rock,Silvally (Rock),773,silvally_rock,Silvally (Rock),True
+773,silvally_steel,Silvally (Steel),773,silvally_steel,Silvally (Steel),True
+773,silvally_water,Silvally (Water),773,silvally_water,Silvally (Water),True
+774,minior_core,Minior (Core),774,minior_core,Minior (Core),True
+774,minior_meteor,Minior (Meteor),774,minior_meteor,Minior (Meteor),True
+775,komala,Komala,775,komala,Komala,True
+776,turtonator,Turtonator,776,turtonator,Turtonator,True
+777,togedemaru,Togedemaru,777,togedemaru,Togedemaru,True
+778,mimikyu,Mimikyu,778,mimikyu,Mimikyu,True
+779,bruxish,Bruxish,779,bruxish,Bruxish,True
+780,drampa,Drampa,780,drampa,Drampa,True
+781,dhelmise,Dhelmise,781,dhelmise,Dhelmise,True
+782,jangmo_o,Jangmo-o,782,jangmo_o,Jangmo-o,True
+782,jangmo_o,Jangmo-o,783,hakamo_o,Hakamo-o,False
+782,jangmo_o,Jangmo-o,784,kommo_o,Kommo-o,False
+783,hakamo_o,Hakamo-o,783,hakamo_o,Hakamo-o,True
+783,hakamo_o,Hakamo-o,784,kommo_o,Kommo-o,False
+784,kommo_o,Kommo-o,784,kommo_o,Kommo-o,True
+785,tapu_koko,Tapu Koko,785,tapu_koko,Tapu Koko,True
+786,tapu_lele,Tapu Lele,786,tapu_lele,Tapu Lele,True
+787,tapu_bulu,Tapu Bulu,787,tapu_bulu,Tapu Bulu,True
+788,tapu_fini,Tapu Fini,788,tapu_fini,Tapu Fini,True
+789,cosmog,Cosmog,789,cosmog,Cosmog,True
+789,cosmog,Cosmog,790,cosmoem,Cosmoem,False
+789,cosmog,Cosmog,791,solgaleo,Solgaleo,False
+789,cosmog,Cosmog,792,lunala,Lunala,False
+790,cosmoem,Cosmoem,790,cosmoem,Cosmoem,True
+790,cosmoem,Cosmoem,791,solgaleo,Solgaleo,False
+790,cosmoem,Cosmoem,792,lunala,Lunala,False
+791,solgaleo,Solgaleo,791,solgaleo,Solgaleo,True
+792,lunala,Lunala,792,lunala,Lunala,True
+793,nihilego,Nihilego,793,nihilego,Nihilego,True
+794,buzzwole,Buzzwole,794,buzzwole,Buzzwole,True
+795,pheromosa,Pheromosa,795,pheromosa,Pheromosa,True
+796,xurkitree,Xurkitree,796,xurkitree,Xurkitree,True
+797,celesteela,Celesteela,797,celesteela,Celesteela,True
+798,kartana,Kartana,798,kartana,Kartana,True
+799,guzzlord,Guzzlord,799,guzzlord,Guzzlord,True
+800,necrozma,Necrozma,800,necrozma,Necrozma,True
+800,necrozma_dawn_wings,Necrozma (Dawn Wings),800,necrozma_dawn_wings,Necrozma (Dawn Wings),True
+800,necrozma_dusk_mane,Necrozma (Dusk Mane),800,necrozma_dusk_mane,Necrozma (Dusk Mane),True
+800,necrozma_ultra,Necrozma (Ultra),800,necrozma_ultra,Necrozma (Ultra),True
+801,magearna,Magearna,801,magearna,Magearna,True
+803,poipole,Poipole,803,poipole,Poipole,True
+803,poipole,Poipole,804,naganadel,Naganadel,False
+804,naganadel,Naganadel,804,naganadel,Naganadel,True
+805,stakataka,Stakataka,805,stakataka,Stakataka,True
+806,blacephalon,Blacephalon,806,blacephalon,Blacephalon,True
+807,zeraora,Zeraora,807,zeraora,Zeraora,True
+808,meltan,Meltan,808,meltan,Meltan,True
+808,meltan,Meltan,809,melmetal,Melmetal,False
+809,melmetal,Melmetal,809,melmetal,Melmetal,True
+810,grookey,Grookey,810,grookey,Grookey,True
+810,grookey,Grookey,811,thwackey,Thwackey,False
+810,grookey,Grookey,812,rillaboom,Rillaboom,False
+811,thwackey,Thwackey,811,thwackey,Thwackey,True
+811,thwackey,Thwackey,812,rillaboom,Rillaboom,False
+812,rillaboom,Rillaboom,812,rillaboom,Rillaboom,True
+813,scorbunny,Scorbunny,813,scorbunny,Scorbunny,True
+813,scorbunny,Scorbunny,814,raboot,Raboot,False
+813,scorbunny,Scorbunny,815,cinderace,Cinderace,False
+814,raboot,Raboot,814,raboot,Raboot,True
+814,raboot,Raboot,815,cinderace,Cinderace,False
+815,cinderace,Cinderace,815,cinderace,Cinderace,True
+816,sobble,Sobble,816,sobble,Sobble,True
+816,sobble,Sobble,817,drizzile,Drizzile,False
+816,sobble,Sobble,818,inteleon,Inteleon,False
+817,drizzile,Drizzile,817,drizzile,Drizzile,True
+817,drizzile,Drizzile,818,inteleon,Inteleon,False
+818,inteleon,Inteleon,818,inteleon,Inteleon,True
+819,skwovet,Skwovet,819,skwovet,Skwovet,True
+819,skwovet,Skwovet,820,greedent,Greedent,False
+820,greedent,Greedent,820,greedent,Greedent,True
+821,rookidee,Rookidee,821,rookidee,Rookidee,True
+821,rookidee,Rookidee,822,corvisquire,Corvisquire,False
+821,rookidee,Rookidee,823,corviknight,Corviknight,False
+822,corvisquire,Corvisquire,822,corvisquire,Corvisquire,True
+822,corvisquire,Corvisquire,823,corviknight,Corviknight,False
+823,corviknight,Corviknight,823,corviknight,Corviknight,True
+824,blipbug,Blipbug,824,blipbug,Blipbug,True
+824,blipbug,Blipbug,825,dottler,Dottler,False
+824,blipbug,Blipbug,826,orbeetle,Orbeetle,False
+825,dottler,Dottler,825,dottler,Dottler,True
+825,dottler,Dottler,826,orbeetle,Orbeetle,False
+826,orbeetle,Orbeetle,826,orbeetle,Orbeetle,True
+827,nickit,Nickit,827,nickit,Nickit,True
+827,nickit,Nickit,828,thievul,Thievul,False
+828,thievul,Thievul,828,thievul,Thievul,True
+829,gossifleur,Gossifleur,829,gossifleur,Gossifleur,True
+829,gossifleur,Gossifleur,830,eldegoss,Eldegoss,False
+830,eldegoss,Eldegoss,830,eldegoss,Eldegoss,True
+831,wooloo,Wooloo,831,wooloo,Wooloo,True
+831,wooloo,Wooloo,832,dubwool,Dubwool,False
+832,dubwool,Dubwool,832,dubwool,Dubwool,True
+833,chewtle,Chewtle,833,chewtle,Chewtle,True
+833,chewtle,Chewtle,834,drednaw,Drednaw,False
+834,drednaw,Drednaw,834,drednaw,Drednaw,True
+835,yamper,Yamper,835,yamper,Yamper,True
+835,yamper,Yamper,836,boltund,Boltund,False
+835,yamper,Yamper,838,carkol,Carkol,False
+836,boltund,Boltund,836,boltund,Boltund,True
+836,boltund,Boltund,838,carkol,Carkol,False
+837,rolycoly,Rolycoly,837,rolycoly,Rolycoly,True
+837,rolycoly,Rolycoly,839,coalossal,Coalossal,False
+838,carkol,Carkol,838,carkol,Carkol,True
+839,coalossal,Coalossal,839,coalossal,Coalossal,True
+840,applin,Applin,840,applin,Applin,True
+840,applin,Applin,841,flapple,Flapple,False
+840,applin,Applin,842,appletun,Appletun,False
+841,flapple,Flapple,841,flapple,Flapple,True
+842,appletun,Appletun,842,appletun,Appletun,True
+843,silicobra,Silicobra,843,silicobra,Silicobra,True
+843,silicobra,Silicobra,844,sandaconda,Sandaconda,False
+844,sandaconda,Sandaconda,844,sandaconda,Sandaconda,True
+845,cramorant,Cramorant,845,cramorant,Cramorant,True
+846,arrokuda,Arrokuda,846,arrokuda,Arrokuda,True
+846,arrokuda,Arrokuda,847,barraskewda,Barraskewda,False
+847,barraskewda,Barraskewda,847,barraskewda,Barraskewda,True
+848,toxel,Toxel,848,toxel,Toxel,True
+848,toxel,Toxel,849,toxtricity,Toxtricity,False
+848,toxel,Toxel,849,toxtricity_amped,Toxtricity (Amped),False
+848,toxel,Toxel,849,toxtricity_low_key,Toxtricity (Low Key),False
+849,toxtricity,Toxtricity,849,toxtricity,Toxtricity,True
+849,toxtricity_amped,Toxtricity (Amped),849,toxtricity_amped,Toxtricity (Amped),True
+849,toxtricity_low_key,Toxtricity (Low Key),849,toxtricity_low_key,Toxtricity (Low Key),True
+850,sizzlipede,Sizzlipede,850,sizzlipede,Sizzlipede,True
+850,sizzlipede,Sizzlipede,851,centiskorch,Centiskorch,False
+851,centiskorch,Centiskorch,851,centiskorch,Centiskorch,True
+852,clobbopus,Clobbopus,852,clobbopus,Clobbopus,True
+852,clobbopus,Clobbopus,853,grapploct,Grapploct,False
+853,grapploct,Grapploct,853,grapploct,Grapploct,True
+854,sinistea,Sinistea,854,sinistea,Sinistea,True
+854,sinistea,Sinistea,855,polteageist,Polteageist,False
+854,sinistea,Sinistea,855,polteageist_antique,Polteageist (Antique),False
+854,sinistea,Sinistea,855,polteageist_phony,Polteageist (Phony),False
+854,sinistea_antique,Sinistea (Antique),854,sinistea_antique,Sinistea (Antique),True
+854,sinistea_phony,Sinistea (Phony),854,sinistea_phony,Sinistea (Phony),True
+855,polteageist,Polteageist,855,polteageist,Polteageist,True
+855,polteageist_antique,Polteageist (Antique),855,polteageist_antique,Polteageist (Antique),True
+855,polteageist_phony,Polteageist (Phony),855,polteageist_phony,Polteageist (Phony),True
+856,hatenna,Hatenna,856,hatenna,Hatenna,True
+856,hatenna,Hatenna,857,hattrem,Hattrem,False
+856,hatenna,Hatenna,858,hatterene,Hatterene,False
+857,hattrem,Hattrem,857,hattrem,Hattrem,True
+857,hattrem,Hattrem,858,hatterene,Hatterene,False
+858,hatterene,Hatterene,858,hatterene,Hatterene,True
+859,impidimp,Impidimp,859,impidimp,Impidimp,True
+859,impidimp,Impidimp,860,morgrem,Morgrem,False
+859,impidimp,Impidimp,861,grimmsnarl,Grimmsnarl,False
+860,morgrem,Morgrem,860,morgrem,Morgrem,True
+860,morgrem,Morgrem,861,grimmsnarl,Grimmsnarl,False
+861,grimmsnarl,Grimmsnarl,861,grimmsnarl,Grimmsnarl,True
+862,obstagoon,Obstagoon,862,obstagoon,Obstagoon,True
+863,perrserker,Perrserker,863,perrserker,Perrserker,True
+864,cursola,Cursola,864,cursola,Cursola,True
+865,sirfetchd,Sirfetch'd,865,sirfetchd,Sirfetch'd,True
+866,mr_rime,Mr. Rime,866,mr_rime,Mr. Rime,True
+867,runerigus,Runerigus,867,runerigus,Runerigus,True
+868,milcery,Milcery,868,milcery,Milcery,True
+868,milcery,Milcery,869,alcremie,Alcremie,False
+869,alcremie,Alcremie,869,alcremie,Alcremie,True
+870,falinks,Falinks,870,falinks,Falinks,True
+871,pincurchin,Pincurchin,871,pincurchin,Pincurchin,True
+872,snom,Snom,872,snom,Snom,True
+872,snom,Snom,873,frosmoth,Frosmoth,False
+873,frosmoth,Frosmoth,873,frosmoth,Frosmoth,True
+874,stonjourner,Stonjourner,874,stonjourner,Stonjourner,True
+875,eiscue,Eiscue,875,eiscue,Eiscue,True
+875,eiscue_ice,Eiscue (Ice),875,eiscue_ice,Eiscue (Ice),True
+875,eiscue_noice,Eiscue (Noice),875,eiscue_noice,Eiscue (Noice),True
+876,indeedee,Indeedee,876,indeedee,Indeedee,True
+876,indeedee_female,Indeedee (Female),876,indeedee_female,Indeedee (Female),True
+876,indeedee_male,Indeedee (Male),876,indeedee_male,Indeedee (Male),True
+877,morpeko,Morpeko,877,morpeko,Morpeko,True
+877,morpeko_full_belly,Morpeko (Full Belly),877,morpeko_full_belly,Morpeko (Full Belly),True
+877,morpeko_hangry,Morpeko (Hangry),877,morpeko_hangry,Morpeko (Hangry),True
+878,cufant,Cufant,878,cufant,Cufant,True
+878,cufant,Cufant,879,copperajah,Copperajah,False
+879,copperajah,Copperajah,879,copperajah,Copperajah,True
+880,dracozolt,Dracozolt,880,dracozolt,Dracozolt,True
+881,arctozolt,Arctozolt,881,arctozolt,Arctozolt,True
+882,dracovish,Dracovish,882,dracovish,Dracovish,True
+883,arctovish,Arctovish,883,arctovish,Arctovish,True
+884,duraludon,Duraludon,884,duraludon,Duraludon,True
+885,dreepy,Dreepy,885,dreepy,Dreepy,True
+885,dreepy,Dreepy,886,drakloak,Drakloak,False
+885,dreepy,Dreepy,887,dragapult,Dragapult,False
+886,drakloak,Drakloak,886,drakloak,Drakloak,True
+886,drakloak,Drakloak,887,dragapult,Dragapult,False
+887,dragapult,Dragapult,887,dragapult,Dragapult,True
+888,zacian,Zacian,888,zacian,Zacian,True
+888,zacian_crowned_sword,Zacian (Crowned Sword),888,zacian_crowned_sword,Zacian (Crowned Sword),True
+888,zacian_hero,Zacian (Hero),888,zacian_hero,Zacian (Hero),True
+889,zamazenta,Zamazenta,889,zamazenta,Zamazenta,True
+889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),True
+889,zamazenta_hero,Zamazenta (Hero),889,zamazenta_hero,Zamazenta (Hero),True
+890,eternatus,Eternatus,890,eternatus,Eternatus,True
+890,eternatus_eternamax,Eternatus (Eternamax),890,eternatus_eternamax,Eternatus (Eternamax),True
+891,kubfu,Kubfu,891,kubfu,Kubfu,True
+891,kubfu,Kubfu,892,urshifu,Urshifu,False
+891,kubfu,Kubfu,892,urshifu_rapid_strike,Urshifu (Rapid Strike),False
+891,kubfu,Kubfu,892,urshifu_single_strike,Urshifu (Single Strike),False
+892,urshifu,Urshifu,892,urshifu,Urshifu,True
+892,urshifu_rapid_strike,Urshifu (Rapid Strike),892,urshifu_rapid_strike,Urshifu (Rapid Strike),True
+892,urshifu_single_strike,Urshifu (Single Strike),892,urshifu_single_strike,Urshifu (Single Strike),True
+893,zarude,Zarude,893,zarude,Zarude,True
+894,regieleki,Regieleki,894,regieleki,Regieleki,True
+895,regidrago,Regidrago,895,regidrago,Regidrago,True
+896,glastrier,Glastrier,896,glastrier,Glastrier,True
+897,spectrier,Spectrier,897,spectrier,Spectrier,True
+898,calyrex,Calyrex,898,calyrex,Calyrex,True
+898,calyrex_ice_rider,Calyrex (Ice Rider),898,calyrex_ice_rider,Calyrex (Ice Rider),True
+899,wyrdeer,Wyrdeer,899,wyrdeer,Wyrdeer,True
+900,kleavor,Kleavor,900,kleavor,Kleavor,True
+901,ursaluna,Ursaluna,901,ursaluna,Ursaluna,True
+901,ursaluna_shadow,Ursaluna (Shadow),901,ursaluna_shadow,Ursaluna (Shadow),True
+902,basculegion_female,Basculegion (Female),902,basculegion_female,Basculegion (Female),True
+902,basculegion_male,Basculegion (Male),902,basculegion_male,Basculegion (Male),True
+903,sneasler,Sneasler,903,sneasler,Sneasler,True
+903,sneasler_shadow,Sneasler (Shadow),903,sneasler_shadow,Sneasler (Shadow),True
+904,overqwil,Overqwil,904,overqwil,Overqwil,True
+905,enamorus_incarnate,Enamorus (Incarnate),905,enamorus_incarnate,Enamorus (Incarnate),True
+905,enamorus_therian,Enamorus (Therian),905,enamorus_therian,Enamorus (Therian),True
+906,sprigatito,Sprigatito,906,sprigatito,Sprigatito,True
+906,sprigatito,Sprigatito,907,floragato,Floragato,False
+906,sprigatito,Sprigatito,908,meowscarada,Meowscarada,False
+907,floragato,Floragato,907,floragato,Floragato,True
+907,floragato,Floragato,908,meowscarada,Meowscarada,False
+908,meowscarada,Meowscarada,908,meowscarada,Meowscarada,True
+909,fuecoco,Fuecoco,909,fuecoco,Fuecoco,True
+909,fuecoco,Fuecoco,910,crocalor,Crocalor,False
+909,fuecoco,Fuecoco,911,skeledirge,Skeledirge,False
+910,crocalor,Crocalor,910,crocalor,Crocalor,True
+910,crocalor,Crocalor,911,skeledirge,Skeledirge,False
+911,skeledirge,Skeledirge,911,skeledirge,Skeledirge,True
+912,quaxly,Quaxly,912,quaxly,Quaxly,True
+912,quaxly,Quaxly,913,quaxwell,Quaxwell,False
+912,quaxly,Quaxly,914,quaquaval,Quaquaval,False
+913,quaxwell,Quaxwell,913,quaxwell,Quaxwell,True
+913,quaxwell,Quaxwell,914,quaquaval,Quaquaval,False
+914,quaquaval,Quaquaval,914,quaquaval,Quaquaval,True
+915,lechonk,Lechonk,915,lechonk,Lechonk,True
+915,lechonk,Lechonk,916,oinkologne,Oinkologne,False
+915,lechonk,Lechonk,916,oinkologne_female,Oinkologne (Female),False
+916,oinkologne,Oinkologne,916,oinkologne,Oinkologne,True
+916,oinkologne_female,Oinkologne (Female),916,oinkologne_female,Oinkologne (Female),True
+917,tarountula,Tarountula,917,tarountula,Tarountula,True
+917,tarountula,Tarountula,918,spidops,Spidops,False
+918,spidops,Spidops,918,spidops,Spidops,True
+919,nymble,Nymble,919,nymble,Nymble,True
+919,nymble,Nymble,920,lokix,Lokix,False
+920,lokix,Lokix,920,lokix,Lokix,True
+921,pawmi,Pawmi,921,pawmi,Pawmi,True
+921,pawmi,Pawmi,922,pawmo,Pawmo,False
+921,pawmi,Pawmi,923,pawmot,Pawmot,False
+922,pawmo,Pawmo,922,pawmo,Pawmo,True
+922,pawmo,Pawmo,923,pawmot,Pawmot,False
+923,pawmot,Pawmot,923,pawmot,Pawmot,True
+924,tandemaus,Tandemaus,924,tandemaus,Tandemaus,True
+924,tandemaus,Tandemaus,925,maushold,Maushold,False
+924,tandemaus,Tandemaus,925,maushold_family_of_four,Maushold_family_of_four,False
+924,tandemaus,Tandemaus,925,maushold_family_of_three,Maushold_family_of_three,False
+925,maushold,Maushold,925,maushold,Maushold,True
+925,maushold_family_of_four,Maushold_family_of_four,925,maushold_family_of_four,Maushold_family_of_four,True
+925,maushold_family_of_three,Maushold_family_of_three,925,maushold_family_of_three,Maushold_family_of_three,True
+926,fidough,Fidough,926,fidough,Fidough,True
+926,fidough,Fidough,927,dachsbun,Dachsbun,False
+927,dachsbun,Dachsbun,927,dachsbun,Dachsbun,True
+928,smoliv,Smoliv,928,smoliv,Smoliv,True
+928,smoliv,Smoliv,929,dolliv,Dolliv,False
+928,smoliv,Smoliv,930,arboliva,Arboliva,False
+929,dolliv,Dolliv,929,dolliv,Dolliv,True
+929,dolliv,Dolliv,930,arboliva,Arboliva,False
+930,arboliva,Arboliva,930,arboliva,Arboliva,True
+931,squawkabilly,Squawkabilly,931,squawkabilly,Squawkabilly,True
+931,squawkabilly_blue,Squawkabilly_blue,931,squawkabilly_blue,Squawkabilly_blue,True
+931,squawkabilly_green,Squawkabilly_green,931,squawkabilly_green,Squawkabilly_green,True
+931,squawkabilly_white,Squawkabilly_white,931,squawkabilly_white,Squawkabilly_white,True
+931,squawkabilly_yellow,Squawkabilly_yellow,931,squawkabilly_yellow,Squawkabilly_yellow,True
+932,nacli,Nacli,932,nacli,Nacli,True
+932,nacli,Nacli,933,naclstack,Naclstack,False
+932,nacli,Nacli,934,garganacl,Garganacl,False
+933,naclstack,Naclstack,933,naclstack,Naclstack,True
+933,naclstack,Naclstack,934,garganacl,Garganacl,False
+934,garganacl,Garganacl,934,garganacl,Garganacl,True
+935,charcadet,Charcadet,935,charcadet,Charcadet,True
+935,charcadet,Charcadet,936,armarouge,Armarouge,False
+935,charcadet,Charcadet,937,ceruledge,Ceruledge,False
+936,armarouge,Armarouge,936,armarouge,Armarouge,True
+937,ceruledge,Ceruledge,937,ceruledge,Ceruledge,True
+938,tadbulb,Tadbulb,938,tadbulb,Tadbulb,True
+938,tadbulb,Tadbulb,939,bellibolt,Bellibolt,False
+939,bellibolt,Bellibolt,939,bellibolt,Bellibolt,True
+940,wattrel,Wattrel,940,wattrel,Wattrel,True
+940,wattrel,Wattrel,941,kilowattrel,Kilowattrel,False
+941,kilowattrel,Kilowattrel,941,kilowattrel,Kilowattrel,True
+942,maschiff,Maschiff,942,maschiff,Maschiff,True
+942,maschiff,Maschiff,943,mabosstiff,Mabosstiff,False
+943,mabosstiff,Mabosstiff,943,mabosstiff,Mabosstiff,True
+944,shroodle,Shroodle,944,shroodle,Shroodle,True
+944,shroodle,Shroodle,945,grafaiai,Grafaiai,False
+945,grafaiai,Grafaiai,945,grafaiai,Grafaiai,True
+946,bramblin,Bramblin,946,bramblin,Bramblin,True
+946,bramblin,Bramblin,947,brambleghast,Brambleghast,False
+947,brambleghast,Brambleghast,947,brambleghast,Brambleghast,True
+948,toedscool,Toedscool,948,toedscool,Toedscool,True
+948,toedscool,Toedscool,949,toedscruel,Toedscruel,False
+949,toedscruel,Toedscruel,949,toedscruel,Toedscruel,True
+950,klawf,Klawf,950,klawf,Klawf,True
+951,capsakid,Capsakid,951,capsakid,Capsakid,True
+951,capsakid,Capsakid,952,scovillain,Scovillain,False
+952,scovillain,Scovillain,952,scovillain,Scovillain,True
+953,rellor,Rellor,953,rellor,Rellor,True
+953,rellor,Rellor,954,rabsca,Rabsca,False
+954,rabsca,Rabsca,954,rabsca,Rabsca,True
+955,flittle,Flittle,955,flittle,Flittle,True
+955,flittle,Flittle,956,espathra,Espathra,False
+956,espathra,Espathra,956,espathra,Espathra,True
+957,tinkatink,Tinkatink,957,tinkatink,Tinkatink,True
+957,tinkatink,Tinkatink,958,tinkatuff,Tinkatuff,False
+957,tinkatink,Tinkatink,959,tinkaton,Tinkaton,False
+958,tinkatuff,Tinkatuff,958,tinkatuff,Tinkatuff,True
+958,tinkatuff,Tinkatuff,959,tinkaton,Tinkaton,False
+959,tinkaton,Tinkaton,959,tinkaton,Tinkaton,True
+960,wiglett,Wiglett,960,wiglett,Wiglett,True
+960,wiglett,Wiglett,961,wugtrio,Wugtrio,False
+961,wugtrio,Wugtrio,961,wugtrio,Wugtrio,True
+962,bombirdier,Bombirdier,962,bombirdier,Bombirdier,True
+963,finizen,Finizen,963,finizen,Finizen,True
+963,finizen,Finizen,964,palafin,Palafin,False
+963,finizen,Finizen,964,palafin_hero,Palafin_hero,False
+963,finizen,Finizen,964,palafin_zero,Palafin_zero,False
+964,palafin,Palafin,964,palafin,Palafin,True
+964,palafin_hero,Palafin_hero,964,palafin_hero,Palafin_hero,True
+964,palafin_zero,Palafin_zero,964,palafin_zero,Palafin_zero,True
+965,varoom,Varoom,965,varoom,Varoom,True
+965,varoom,Varoom,966,revavroom,Revavroom,False
+966,revavroom,Revavroom,966,revavroom,Revavroom,True
+967,cyclizar,Cyclizar,967,cyclizar,Cyclizar,True
+968,orthworm,Orthworm,968,orthworm,Orthworm,True
+969,glimmet,Glimmet,969,glimmet,Glimmet,True
+969,glimmet,Glimmet,970,glimmora,Glimmora,False
+970,glimmora,Glimmora,970,glimmora,Glimmora,True
+971,greavard,Greavard,971,greavard,Greavard,True
+971,greavard,Greavard,972,houndstone,Houndstone,False
+972,houndstone,Houndstone,972,houndstone,Houndstone,True
+973,flamigo,Flamigo,973,flamigo,Flamigo,True
+974,cetoddle,Cetoddle,974,cetoddle,Cetoddle,True
+974,cetoddle,Cetoddle,975,cetitan,Cetitan,False
+975,cetitan,Cetitan,975,cetitan,Cetitan,True
+976,veluza,Veluza,976,veluza,Veluza,True
+977,dondozo,Dondozo,977,dondozo,Dondozo,True
+978,tatsugiri,Tatsugiri,978,tatsugiri,Tatsugiri,True
+978,tatsugiri_curly,Tatsugiri_curly,978,tatsugiri_curly,Tatsugiri_curly,True
+978,tatsugiri_droopy,Tatsugiri_droopy,978,tatsugiri_droopy,Tatsugiri_droopy,True
+978,tatsugiri_stretchy,Tatsugiri_stretchy,978,tatsugiri_stretchy,Tatsugiri_stretchy,True
+979,annihilape,Annihilape,979,annihilape,Annihilape,True
+980,clodsire,Clodsire,980,clodsire,Clodsire,True
+981,farigiraf,Farigiraf,981,farigiraf,Farigiraf,True
+982,dudunsparce,Dudunsparce,982,dudunsparce,Dudunsparce,True
+982,dudunsparce_three,Dudunsparce_three,982,dudunsparce_three,Dudunsparce_three,True
+982,dudunsparce_two,Dudunsparce_two,982,dudunsparce_two,Dudunsparce_two,True
+983,kingambit,Kingambit,983,kingambit,Kingambit,True
+984,greattusk,Greattusk,984,greattusk,Greattusk,True
+985,screamtail,Screamtail,985,screamtail,Screamtail,True
+986,brutebonnet,Brutebonnet,986,brutebonnet,Brutebonnet,True
+987,fluttermane,Fluttermane,987,fluttermane,Fluttermane,True
+988,slitherwing,Slitherwing,988,slitherwing,Slitherwing,True
+989,sandyshocks,Sandyshocks,989,sandyshocks,Sandyshocks,True
+990,irontreads,Irontreads,990,irontreads,Irontreads,True
+991,ironbundle,Ironbundle,991,ironbundle,Ironbundle,True
+992,ironhands,Ironhands,992,ironhands,Ironhands,True
+993,ironjugulis,Ironjugulis,993,ironjugulis,Ironjugulis,True
+994,ironmoth,Ironmoth,994,ironmoth,Ironmoth,True
+995,ironthorns,Ironthorns,995,ironthorns,Ironthorns,True
+996,frigibax,Frigibax,996,frigibax,Frigibax,True
+996,frigibax,Frigibax,997,arctibax,Arctibax,False
+996,frigibax,Frigibax,998,baxcalibur,Baxcalibur,False
+997,arctibax,Arctibax,997,arctibax,Arctibax,True
+997,arctibax,Arctibax,998,baxcalibur,Baxcalibur,False
+998,baxcalibur,Baxcalibur,998,baxcalibur,Baxcalibur,True
+999,gimmighoul,Gimmighoul,999,gimmighoul,Gimmighoul,True
+999,gimmighoul,Gimmighoul,1000,gholdengo,Gholdengo,False
+1000,gholdengo,Gholdengo,1000,gholdengo,Gholdengo,True
+1001,wo_chien,Wo-Chien,1001,wo_chien,Wo-Chien,True
+1002,chien_pao,Chien-Pao,1002,chien_pao,Chien-Pao,True
+1003,ting_lu,Ting-Lu,1003,ting_lu,Ting-Lu,True
+1004,chi_yu,Chi-Yu,1004,chi_yu,Chi-Yu,True
+1005,roaringmoon,Roaringmoon,1005,roaringmoon,Roaringmoon,True
+1006,ironvaliant,Ironvaliant,1006,ironvaliant,Ironvaliant,True
+1007,koraidon,Koraidon,1007,koraidon,Koraidon,True
+1007,koraidon_apex,Koraidon_apex,1007,koraidon_apex,Koraidon_apex,True
+1008,miraidon,Miraidon,1008,miraidon,Miraidon,True
+1008,miraidon_ultimate,Miraidon_ultimate,1008,miraidon_ultimate,Miraidon_ultimate,True

@@ -8,6 +8,7 @@ def main():
     df_pokemons = update_pokemon()
     df_moves = update_moves()
     df_pokemon_types = update_pokemon_types(df_pokemons)
+    update_pokemon_parents(df_pokemons)
     update_pokemon_types_effectiveness(df_pokemons, df_pokemon_types)
     update_pokemon_moves(df_pokemons, df_moves, df_pokemon_types)
     updated_timestamp(data_file_sizes)
@@ -107,6 +108,64 @@ def update_pokemon():
     df_pokemons_csv[pokemons_out_cols].to_csv(PATH_DATA / "pokemon.csv", index=False)
 
     return df_pokemons
+
+
+def update_pokemon_parents(df_pokemons):
+    df_parents = df_pokemons[
+        ["dex", "pokemon_id", "pokemon", "dex", "pokemon_id", "pokemon"]
+    ].assign(is_self=True)
+    df_parents.columns = [
+        "dex_parent",
+        "pokemon_id_parent",
+        "pokemon_parent",
+        "dex_child",
+        "pokemon_id_child",
+        "pokemon_child",
+        "is_self",
+    ]
+    df_next = df_parents
+    for i in range(3):
+        df_next = (
+            df_next.merge(
+                df_pokemons,
+                how="inner",
+                left_on="pokemon_id_child",
+                right_on="parent",
+            )
+            .drop(columns=["dex_child", "pokemon_id_child", "pokemon_child"])
+            .rename(
+                columns=dict(
+                    dex="dex_child",
+                    pokemon_id="pokemon_id_child",
+                    pokemon="pokemon_child",
+                )
+            )
+            .assign(is_self=False)[
+                [
+                    "dex_parent",
+                    "pokemon_id_parent",
+                    "pokemon_parent",
+                    "dex_child",
+                    "pokemon_id_child",
+                    "pokemon_child",
+                    "is_self",
+                ]
+            ]
+        )
+        df_parents = (
+            pd.concat([df_parents, df_next])
+            .sort_values(
+                ["dex_parent", "pokemon_id_parent", "dex_child", "pokemon_id_child"]
+            )
+            .reset_index(drop=True)
+        )
+        if len(df_next) == 0:
+            break
+
+    # output to csv
+    df_parents.to_csv(PATH_DATA / "pokemon_parents.csv", index=False)
+
+    return df_parents
 
 
 def get_unstacked_df(df, repeat_cols, lst_col, rename=None):

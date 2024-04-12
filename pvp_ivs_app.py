@@ -34,9 +34,7 @@ def calc_level_stats(
     level_attack = (base_attack + iv_attack) * cp_multiplier
     level_defense = (base_defense + iv_defense) * cp_multiplier
     level_stamina = (base_stamina + iv_stamina) * cp_multiplier
-    cp = max(
-        10, math.floor(0.1 * level_attack * level_defense**0.5 * level_stamina**0.5)
-    )
+    cp = max(10, math.floor(0.1 * level_attack * level_defense**0.5 * level_stamina**0.5))
     return dict(
         level=level,
         level_attack=level_attack,
@@ -353,6 +351,8 @@ def get_league_pokemon_df(
 def app(app="GBL IV Stats", **kwargs):
     (
         ALL_POKEMON_STATS,
+        POKE_DEX_IDS,
+        POKE_PARENT_DEX_IDS,
         CP_MULTS,
         CP_COEF_PCTS,
         DF_XL_COSTS,
@@ -578,19 +578,24 @@ def app(app="GBL IV Stats", **kwargs):
 
         # ~~~ COLUMN OPTIONS ~~~
         st.markdown("Column Options")
-        default_show_r1_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
-        show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_r1_cmp)
+        default_show_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
+        show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_cmp)
+        default_show_prod_cols = kwargs.get("show_prod_cols", ["False"])[0] == "True"
+        show_prod_cols = st.checkbox("Show stats/bulk columns", default_show_prod_cols)
+
         default_show_individual_ivs = (
             kwargs.get("show_individual_ivs", ["False"])[0] == "True"
         )
-        default_show_prod_cols = kwargs.get("show_prod_cols", ["False"])[0] == "True"
-        show_prod_cols = st.checkbox("Show stats/bulk columns", default_show_prod_cols)
         show_individual_ivs = st.checkbox(
             "Show individual IV columns", default_show_individual_ivs
         )
-        st.markdown("Show XL costs")
+        default_print_selected_ivs = kwargs.get("print_selected_ivs", [False])[0]
+        print_selected_ivs = st.checkbox(
+            "Print out selected IVs", default_print_selected_ivs
+        )
 
         # xl cost cols
+        st.markdown("Show XL costs")
         xl_cost_cols = st.columns(4)
         with xl_cost_cols[0]:
             default_show_xl_regular = (
@@ -781,6 +786,22 @@ def app(app="GBL IV Stats", **kwargs):
 
     if pokemon != "Custom base stats":
 
+        # option to display pokemon + parent dex ids with list of selected ivs
+        if print_selected_ivs and len(selected_ivs):
+            st.caption("String with selected IVs for pokemon and parent dex ids")
+            selected_ivs_str = ",".join(
+                [
+                    "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
+                        dex=dex,
+                        lvl_max=int(row["Level"]),
+                        **row,
+                    )
+                    for row in selected_ivs
+                    for dex in POKE_PARENT_DEX_IDS[pokemon]
+                ]
+            )
+            st.code(selected_ivs_str, language=None)
+
         # fast moves
         st.caption(
             "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
@@ -808,15 +829,17 @@ def app(app="GBL IV Stats", **kwargs):
             },
         )
         fast_move = fast_moves_response["selected_rows"]
-        preselected_fast = ",".join([r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move])
+        preselected_fast = ",".join(
+            [r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move]
+        )
 
         # chargedmoves
         st.caption("Charged moves (damage includes STAB bonus)")
         df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
         if len(fast_move):
-            df_charged["Count"] = (df_charged["Energy"] / fast_move[0]["Energy Gain"]).apply(
-                math.ceil
-            )
+            df_charged["Count"] = (
+                df_charged["Energy"] / fast_move[0]["Energy Gain"]
+            ).apply(math.ceil)
             df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
         else:
             df_charged["Count"] = ""
@@ -827,7 +850,9 @@ def app(app="GBL IV Stats", **kwargs):
             int(i) for i in default_preselected_charged.split(",") if i
         ]
         gb_charged.configure_selection(
-            "multiple", use_checkbox=False, pre_selected_rows=default_preselected_charged_ints
+            "multiple",
+            use_checkbox=False,
+            pre_selected_rows=default_preselected_charged_ints,
         )
         go_charged = gb_charged.build()
         charged_moves_response = AgGrid(
@@ -886,7 +911,9 @@ def app(app="GBL IV Stats", **kwargs):
                 pvpoke_text_lines.append(txt)
             pvpoke_lines_cols = st.columns([1, 30])
             with pvpoke_lines_cols[0]:
-                line_numbers = "\n".join([str(i + 1) for i in range(len(pvpoke_text_lines))])
+                line_numbers = "\n".join(
+                    [str(i + 1) for i in range(len(pvpoke_text_lines))]
+                )
                 st.code(line_numbers, language=None)
             with pvpoke_lines_cols[1]:
                 st.code("\n".join(pvpoke_text_lines), language=None)
@@ -933,6 +960,7 @@ def app(app="GBL IV Stats", **kwargs):
             "show_cmp",
             "show_individual_ivs",
             "show_prod_cols",
+            "print_selected_ivs",
             "show_xl_regular",
             "show_xl_lucky",
             "show_xl_shadow",
