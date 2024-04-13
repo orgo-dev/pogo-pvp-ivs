@@ -76216,10 +76216,13 @@
             "none"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "CONFUSION",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "NIGHT_SLASH",
+            "POWER_GEM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76262,10 +76265,13 @@
             "ghost"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "CONFUSION",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "NIGHT_SLASH",
+            "POWER_GEM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76308,10 +76314,13 @@
             "steel"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "CONFUSION",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "NIGHT_SLASH",
+            "POWER_GEM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76354,10 +76363,13 @@
             "dragon"
         ],
         "fastMoves": [
-            "STRUGGLE"
+            "CONFUSION",
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "NIGHT_SLASH",
+            "POWER_GEM"
         ],
         "defaultIVs": {
             "cp500": [

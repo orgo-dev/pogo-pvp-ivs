@@ -776,6 +776,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 213,shuckle,Shuckle,213,shuckle,Shuckle,True
 213,shuckle_shadow,Shuckle (Shadow),213,shuckle_shadow,Shuckle (Shadow),True
 214,heracross,Heracross,214,heracross,Heracross,True
+214,heracross_mega,Heracross (Mega),214,heracross_mega,Heracross (Mega),True
 215,sneasel,Sneasel,215,sneasel,Sneasel,True
 215,sneasel,Sneasel,461,weavile,Weavile,False
 215,sneasel_hisuian,Sneasel (Hisuian),215,sneasel_hisuian,Sneasel (Hisuian),True

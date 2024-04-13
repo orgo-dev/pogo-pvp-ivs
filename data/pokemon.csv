@@ -1334,10 +1334,10 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 797,celesteela,Celesteela,207,199,219,"['steel', 'flying']","['AIR_SLASH', 'SMACK_DOWN']","['IRON_HEAD', 'BODY_SLAM', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,20.0,100000,True,,nan,,['ultrabeast']
 798,kartana,Kartana,323,182,139,"['grass', 'steel']","['AIR_SLASH', 'RAZOR_LEAF']","['LEAF_BLADE', 'X_SCISSOR', 'NIGHT_SLASH', 'AERIAL_ACE']",nan,nan,20.0,100000,True,,nan,,"['ultrabeast', 'include1500']"
 799,guzzlord,Guzzlord,188,99,440,"['dark', 'dragon']","['SNARL', 'DRAGON_TAIL']","['BRUTAL_SWING', 'DRAGON_CLAW', 'CRUNCH', 'SLUDGE_BOMB']",nan,nan,20.0,100000,True,,nan,,['ultrabeast']
-800,necrozma,Necrozma,251,195,219,"['psychic', 'none']",['STRUGGLE'],['STRUGGLE'],nan,nan,20.0,100000,False,,nan,,['ultrabeast']
-800,necrozma_dawn_wings,Necrozma (Dawn Wings),277,220,200,"['psychic', 'ghost']",['STRUGGLE'],['STRUGGLE'],nan,nan,20.0,100000,False,,nan,,['ultrabeast']
-800,necrozma_dusk_mane,Necrozma (Dusk Mane),277,220,200,"['psychic', 'steel']",['STRUGGLE'],['STRUGGLE'],nan,nan,20.0,100000,False,,nan,,['ultrabeast']
-800,necrozma_ultra,Necrozma (Ultra),337,196,200,"['psychic', 'dragon']",['STRUGGLE'],['STRUGGLE'],nan,nan,20.0,100000,False,,nan,,['ultrabeast']
+800,necrozma,Necrozma,251,195,219,"['psychic', 'none']","['CONFUSION', 'PSYCHO_CUT']","['ROCK_BLAST', 'NIGHT_SLASH', 'POWER_GEM']",nan,nan,20.0,100000,False,,nan,,['ultrabeast']
+800,necrozma_dawn_wings,Necrozma (Dawn Wings),277,220,200,"['psychic', 'ghost']","['CONFUSION', 'PSYCHO_CUT']","['ROCK_BLAST', 'NIGHT_SLASH', 'POWER_GEM']",nan,nan,20.0,100000,False,,nan,,['ultrabeast']
+800,necrozma_dusk_mane,Necrozma (Dusk Mane),277,220,200,"['psychic', 'steel']","['CONFUSION', 'PSYCHO_CUT']","['ROCK_BLAST', 'NIGHT_SLASH', 'POWER_GEM']",nan,nan,20.0,100000,False,,nan,,['ultrabeast']
+800,necrozma_ultra,Necrozma (Ultra),337,196,200,"['psychic', 'dragon']","['CONFUSION', 'PSYCHO_CUT']","['ROCK_BLAST', 'NIGHT_SLASH', 'POWER_GEM']",nan,nan,20.0,100000,False,,nan,,['ultrabeast']
 801,magearna,Magearna,246,225,190,"['steel', 'fairy']",['STRUGGLE'],['STRUGGLE'],nan,nan,20.0,100000,False,,nan,,nan
 803,poipole,Poipole,145,133,167,"['poison', 'none']","['POISON_JAB', 'PECK']","['SLUDGE_BOMB', 'SLUDGE_WAVE', 'FELL_STINGER']",nan,nan,20.0,100000,True,FAMILY_POIPOLE,['naganadel'],,"['ultrabeast', 'untradeable']"
 804,naganadel,Naganadel,263,159,177,"['poison', 'dragon']","['POISON_JAB', 'AIR_SLASH']","['SLUDGE_BOMB', 'ACROBATICS', 'FELL_STINGER', 'DRAGON_PULSE']",nan,nan,20.0,100000,False,FAMILY_POIPOLE,nan,poipole,['ultrabeast']
