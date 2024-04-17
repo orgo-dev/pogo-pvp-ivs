@@ -10296,6 +10296,7 @@ Victini,Overheat,charged,fire,1.2,130,0,1,,,55.0,2.36,100% chance -2 Atk self,Se
 Victini,Psychic,charged,psychic,1.2,75,0,1,,,55.0,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
 Victini,V-Create,charged,fire,1.2,95,0,1,,,40.0,2.38,100% chance -3 Def self,Self-Debuff Spam,
 Victreebel,Acid,fast,poison,1.2,6,5,2,3.0,2.5,,,,Low Quality,
+Victreebel,Magical Leaf,fast,grass,1.2,10,10,3,3.33,3.33,,,,General,elite
 Victreebel,Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,,,,Heavy Damage,
 Victreebel,Acid Spray,charged,poison,1.2,20,0,1,,,45.0,0.44,100% chance -2 Def opponent,Debuff,
 Victreebel,Leaf Blade,charged,grass,1.2,70,0,1,,,35.0,2.0,,Spam/Bait,
@@ -10304,6 +10305,7 @@ Victreebel,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Victreebel,Sludge Bomb,charged,poison,1.2,80,0,1,,,50.0,1.6,,General,
 Victreebel,Solar Beam,charged,grass,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Victreebel (Shadow),Acid,fast,poison,1.2,6,5,2,3.0,2.5,,,,Low Quality,
+Victreebel (Shadow),Magical Leaf,fast,grass,1.2,10,10,3,3.33,3.33,,,,General,elite
 Victreebel (Shadow),Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,,,,Heavy Damage,
 Victreebel (Shadow),Acid Spray,charged,poison,1.2,20,0,1,,,45.0,0.44,100% chance -2 Def opponent,Debuff,
 Victreebel (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy,

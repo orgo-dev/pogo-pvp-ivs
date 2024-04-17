@@ -9652,7 +9652,8 @@
         ],
         "fastMoves": [
             "ACID",
-            "RAZOR_LEAF"
+            "RAZOR_LEAF",
+            "MAGICAL_LEAF"
         ],
         "chargedMoves": [
             "LEAF_BLADE",
@@ -9660,6 +9661,9 @@
             "SOLAR_BEAM",
             "ACID_SPRAY",
             "LEAF_TORNADO"
+        ],
+        "eliteMoves": [
+            "MAGICAL_LEAF"
         ],
         "defaultIVs": {
             "cp500": [
@@ -9715,7 +9719,8 @@
         ],
         "fastMoves": [
             "ACID",
-            "RAZOR_LEAF"
+            "RAZOR_LEAF",
+            "MAGICAL_LEAF"
         ],
         "chargedMoves": [
             "LEAF_BLADE",
@@ -9723,6 +9728,9 @@
             "SOLAR_BEAM",
             "ACID_SPRAY",
             "LEAF_TORNADO"
+        ],
+        "eliteMoves": [
+            "MAGICAL_LEAF"
         ],
         "defaultIVs": {
             "cp500": [

@@ -4011,8 +4011,10 @@ Vibrava (Shadow),Sand Attack,fast,ground,1.2,2,4,1,2.0,4.0,Fast Charge,
 Victini,Confusion,fast,psychic,1.2,16,12,4,4.0,3.0,Multipurpose,
 Victini,Quick Attack,fast,normal,1.0,5,8,2,2.5,4.0,Fast Charge,
 Victreebel,Acid,fast,poison,1.2,6,5,2,3.0,2.5,Low Quality,
+Victreebel,Magical Leaf,fast,grass,1.2,10,10,3,3.33,3.33,General,elite
 Victreebel,Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,Heavy Damage,
 Victreebel (Shadow),Acid,fast,poison,1.2,6,5,2,3.0,2.5,Low Quality,
+Victreebel (Shadow),Magical Leaf,fast,grass,1.2,10,10,3,3.33,3.33,General,elite
 Victreebel (Shadow),Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,Heavy Damage,
 Vigoroth,Counter,fast,fighting,1.0,8,7,2,4.0,3.5,Multipurpose,
 Vigoroth,Scratch,fast,normal,1.2,4,2,1,4.0,2.0,Heavy Damage,
