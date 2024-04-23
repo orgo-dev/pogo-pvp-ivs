@@ -1527,8 +1527,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkatuff'],,nan
 958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
 959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON', 'HEAVY_SLAM']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,nan,tinkatuff,nan
-960,wiglett,Wiglett,109,52,67,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,False,FAMILY_WIGLETT,['wugtrio'],,nan
-961,wugtrio,Wugtrio,205,136,111,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,False,FAMILY_WIGLETT,nan,wiglett,nan
+960,wiglett,Wiglett,109,52,67,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,['wugtrio'],,nan
+961,wugtrio,Wugtrio,205,136,111,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,nan,wiglett,nan
 962,bombirdier,Bombirdier,198,172,172,"['flying', 'dark']","['WING_ATTACK', 'ROCK_THROW']","['PAYBACK', 'AERIAL_ACE', 'FLY']",nan,nan,5.0,75000,True,,nan,,nan
 963,finizen,Finizen,90,80,172,"['water', 'none']","['WATERFALL', 'CHARM']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND']",nan,nan,5.0,75000,False,FAMILY_FINIZEN,['palafin'],,nan
 964,palafin,Palafin,143,144,225,"['water', 'none']","['WATERFALL', 'CHARM', 'COUNTER']","['AQUA_JET', 'WATER_PULSE', 'ICY_WIND', 'DRAIN_PUNCH', 'ACROBATICS']",nan,nan,5.0,75000,False,FAMILY_FINIZEN,nan,finizen,nan
