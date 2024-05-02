@@ -9558,6 +9558,7 @@ Tapu Fini,Water Gun,fast,water,1.2,3,3,1,3.0,3.0,,,,General,
 Tapu Fini,Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
 Tapu Fini,Ice Beam,charged,ice,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Tapu Fini,Moonblast,charged,fairy,1.2,110,0,1,,,60.0,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,
+Tapu Fini,Nature's Madness,charged,fairy,1.2,80,0,1,,,50.0,1.6,100% chance -1 Def opponent,Debuff,elite
 Tapu Fini,Surf,charged,water,1.2,65,0,1,,,40.0,1.62,,Spam/Bait,
 Tapu Koko,Quick Attack,fast,normal,1.0,5,8,2,2.5,4.0,,,,Fast Charge,
 Tapu Koko,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,,,,Multipurpose,
