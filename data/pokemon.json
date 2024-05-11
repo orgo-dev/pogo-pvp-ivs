@@ -76228,13 +76228,15 @@
             "none"
         ],
         "fastMoves": [
-            "CONFUSION",
-            "PSYCHO_CUT"
+            "METAL_CLAW",
+            "PSYCHO_CUT",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
-            "ROCK_BLAST",
-            "NIGHT_SLASH",
-            "POWER_GEM"
+            "DARK_PULSE",
+            "FUTURE_SIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76277,13 +76279,15 @@
             "ghost"
         ],
         "fastMoves": [
-            "CONFUSION",
-            "PSYCHO_CUT"
+            "METAL_CLAW",
+            "PSYCHO_CUT",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
-            "ROCK_BLAST",
-            "NIGHT_SLASH",
-            "POWER_GEM"
+            "DARK_PULSE",
+            "FUTURE_SIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76326,13 +76330,15 @@
             "steel"
         ],
         "fastMoves": [
-            "CONFUSION",
-            "PSYCHO_CUT"
+            "METAL_CLAW",
+            "PSYCHO_CUT",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
-            "ROCK_BLAST",
-            "NIGHT_SLASH",
-            "POWER_GEM"
+            "DARK_PULSE",
+            "FUTURE_SIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76375,13 +76381,15 @@
             "dragon"
         ],
         "fastMoves": [
-            "CONFUSION",
-            "PSYCHO_CUT"
+            "METAL_CLAW",
+            "PSYCHO_CUT",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
-            "ROCK_BLAST",
-            "NIGHT_SLASH",
-            "POWER_GEM"
+            "DARK_PULSE",
+            "FUTURE_SIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ],
         "defaultIVs": {
             "cp500": [
