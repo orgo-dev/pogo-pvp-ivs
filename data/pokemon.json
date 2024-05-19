@@ -73404,7 +73404,11 @@
             "DRAINING_KISS",
             "GRASS_KNOT",
             "STOMP",
-            "TRIPLE_AXEL"
+            "TRIPLE_AXEL",
+            "HIGH_JUMP_KICK"
+        ],
+        "eliteMoves": [
+            "HIGH_JUMP_KICK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76457,6 +76461,60 @@
                 11
             ]
         },
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": false
+    },
+    {
+        "dex": 802,
+        "speciesName": "Marshadow",
+        "speciesId": "marshadow",
+        "baseStats": {
+            "atk": 265,
+            "def": 190,
+            "hp": 207
+        },
+        "types": [
+            "fighting",
+            "ghost"
+        ],
+        "fastMoves": [
+            "SUCKER_PUNCH",
+            "COUNTER",
+            "POISON_JAB"
+        ],
+        "chargedMoves": [
+            "CLOSE_COMBAT",
+            "FIRE_PUNCH",
+            "THUNDER_PUNCH",
+            "ICE_PUNCH",
+            "ROCK_SLIDE"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                5,
+                14,
+                15,
+                13
+            ],
+            "cp1500": [
+                14,
+                15,
+                15,
+                14
+            ],
+            "cp2500": [
+                24,
+                11,
+                14,
+                10
+            ]
+        },
+        "tags": [
+            "mythical",
+            "untradeable"
+        ],
+        "searchPriority": 2,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false

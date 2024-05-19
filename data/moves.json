@@ -1399,6 +1399,23 @@
         "archetype": "Nuke"
     },
     {
+        "moveId": "HIGH_JUMP_KICK",
+        "name": "High Jump Kick",
+        "abbreviation": "HJK",
+        "type": "fighting",
+        "power": 110,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [
+            0,
+            -4
+        ],
+        "buffTarget": "self",
+        "buffApplyChance": ".1",
+        "archetype": "Self-Debuff Nuke"
+    },
+    {
         "moveId": "HORN_ATTACK",
         "name": "Horn Attack",
         "type": "normal",
@@ -1902,6 +1919,17 @@
         "buffTarget": "opponent",
         "buffApplyChance": ".1",
         "archetype": "Debuff Nuke"
+    },
+    {
+        "moveId": "MOONGEIST_BEAM",
+        "name": "Moongeist Beam",
+        "abbreviation": "MoG",
+        "type": "ghost",
+        "power": 135,
+        "energy": 65,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Nuke"
     },
     {
         "moveId": "MUD_BOMB",
@@ -3026,6 +3054,17 @@
         "energyGain": 7,
         "cooldown": 1000,
         "archetype": "Fast Charge"
+    },
+    {
+        "moveId": "SUNSTEEL_STRIKE",
+        "name": "Sunsteel Strike",
+        "abbreviation": "Stl",
+        "type": "steel",
+        "power": 135,
+        "energy": 65,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Nuke"
     },
     {
         "moveId": "SUPER_POWER",

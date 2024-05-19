@@ -121,6 +121,7 @@ HIDDEN_POWER_ROCK,Hidden Power (Rock),fast,rock,9,8,3,3.0,2.67,0,,,Low Quality,n
 HIDDEN_POWER_STEEL,Hidden Power (Steel),fast,steel,9,8,3,3.0,2.67,0,,,Low Quality,nan,,,nan,nan
 HIDDEN_POWER_WATER,Hidden Power (Water),fast,water,9,8,3,3.0,2.67,0,,,Low Quality,nan,,,nan,nan
 HIGH_HORSEPOWER,High Horsepower,charged,ground,100,0,1,,,60,1.67,,Nuke,nan,,,nan,nan
+HIGH_JUMP_KICK,High Jump Kick,charged,fighting,110,0,1,,,55,2.0,10.0% chance -4 Def self,Self-Debuff Nuke,"[0, -4]",self,.1,nan,nan
 HORN_ATTACK,Horn Attack,charged,normal,40,0,1,,,35,1.14,,Spam/Bait,nan,,,nan,nan
 HURRICANE,Hurricane,charged,flying,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
 HYDRO_CANNON,Hydro Cannon,charged,water,80,0,1,,,40,2.0,,Spam/Bait,nan,,,nan,nan
@@ -164,6 +165,7 @@ MIRROR_COAT,Mirror Coat,charged,psychic,60,0,1,,,55,1.09,,High Energy,nan,,,nan,
 MIRROR_SHOT,Mirror Shot,charged,steel,35,0,1,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.3,nan,nan
 MIST_BALL,Mist Ball,charged,psychic,120,0,1,,,60,2.0,50.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,0.5,nan,nan
 MOONBLAST,Moonblast,charged,fairy,110,0,1,,,60,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,.1,nan,nan
+MOONGEIST_BEAM,Moongeist Beam,charged,ghost,135,0,1,,,65,2.08,,Nuke,nan,,,nan,nan
 MUD_BOMB,Mud Bomb,charged,ground,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
 MUDDY_WATER,Muddy Water,charged,water,35,0,2,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,"[-1, 0]",opponent,.3,nan,nan
 MUD_SHOT,Mud Shot,fast,ground,3,9,2,1.5,4.5,0,,,Fast Charge,nan,,,nan,nan
@@ -254,6 +256,7 @@ STRUGGLE,Struggle,charged,normal,35,0,1,,,100,0.35,,High Energy,nan,,,nan,nan
 STRUGGLE_BUG,Struggle Bug,fast,bug,9,8,3,3.0,2.67,0,,,Low Quality,nan,,,nan,nan
 SUBMISSION,Submission,charged,fighting,60,0,1,,,50,1.2,,General,nan,,,nan,nan
 SUCKER_PUNCH,Sucker Punch,fast,dark,5,7,2,2.5,3.5,0,,,Fast Charge,nan,,,nan,nan
+SUNSTEEL_STRIKE,Sunsteel Strike,charged,steel,135,0,1,,,65,2.08,,Nuke,nan,,,nan,nan
 SUPER_POWER,Superpower,charged,fighting,85,0,1,,,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,"[-1, -1]",self,1,nan,nan
 SURF,Surf,charged,water,65,0,1,,,40,1.62,,Spam/Bait,nan,,,nan,nan
 SWIFT,Swift,charged,normal,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
