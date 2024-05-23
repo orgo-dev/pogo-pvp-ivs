@@ -76623,7 +76623,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_POIPOLE",
             "parent": "poipole"
@@ -76676,7 +76676,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 806,
@@ -76725,7 +76725,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 807,
