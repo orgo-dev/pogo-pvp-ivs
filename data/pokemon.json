@@ -76267,7 +76267,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 800,
@@ -76291,7 +76291,11 @@
             "DARK_PULSE",
             "FUTURE_SIGHT",
             "IRON_HEAD",
-            "OUTRAGE"
+            "OUTRAGE",
+            "MOONGEIST_BEAM"
+        ],
+        "eliteMoves": [
+            "MOONGEIST_BEAM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76318,7 +76322,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 800,
@@ -76342,7 +76346,11 @@
             "DARK_PULSE",
             "FUTURE_SIGHT",
             "IRON_HEAD",
-            "OUTRAGE"
+            "OUTRAGE",
+            "SUNSTEEL_STRIKE"
+        ],
+        "eliteMoves": [
+            "SUNSTEEL_STRIKE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -76369,7 +76377,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 800,
@@ -76517,7 +76525,7 @@
         "searchPriority": 2,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 803,
