@@ -2863,7 +2863,8 @@
             "AERIAL_ACE",
             "DRILL_RUN",
             "SKY_ATTACK",
-            "TWISTER"
+            "TWISTER",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5000,7 +5001,8 @@
         "chargedMoves": [
             "BODY_SLAM",
             "DISARMING_VOICE",
-            "MOONBLAST"
+            "MOONBLAST",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5057,7 +5059,8 @@
             "DAZZLING_GLEAM",
             "METEOR_MASH",
             "MOONBLAST",
-            "PSYCHIC"
+            "PSYCHIC",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5631,7 +5634,8 @@
             "DAZZLING_GLEAM",
             "DISARMING_VOICE",
             "GYRO_BALL",
-            "PLAY_ROUGH"
+            "PLAY_ROUGH",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5692,7 +5696,8 @@
             "ICE_BEAM",
             "PLAY_ROUGH",
             "DISARMING_VOICE",
-            "ICY_WIND"
+            "ICY_WIND",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -20441,7 +20446,8 @@
             "BLAST_BURN",
             "FIRE_BLAST",
             "OVERHEAT",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "THUNDER_PUNCH"
         ],
         "tags": [
             "starter",
@@ -20558,7 +20564,8 @@
             "BLAST_BURN",
             "FIRE_BLAST",
             "OVERHEAT",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "THUNDER_PUNCH"
         ],
         "tags": [
             "starter",
@@ -21867,7 +21874,8 @@
             "GRASS_KNOT",
             "PSYCHIC",
             "PSYSHOCK",
-            "SIGNAL_BEAM"
+            "SIGNAL_BEAM",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -21924,7 +21932,8 @@
             "BODY_SLAM",
             "PSYCHIC",
             "SHADOW_BALL",
-            "WILD_CHARGE"
+            "WILD_CHARGE",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -26535,7 +26544,8 @@
             "CROSS_CHOP",
             "CRUNCH",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -26598,7 +26608,8 @@
             "CROSS_CHOP",
             "CRUNCH",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -26661,7 +26672,8 @@
             "CLOSE_COMBAT",
             "HYPER_BEAM",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -26720,7 +26732,8 @@
             "CLOSE_COMBAT",
             "HYPER_BEAM",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -41538,7 +41551,8 @@
             "DRACO_METEOR",
             "FIRE_BLAST",
             "HYDRO_PUMP",
-            "OUTRAGE"
+            "OUTRAGE",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -41597,7 +41611,8 @@
             "DRACO_METEOR",
             "FIRE_BLAST",
             "HYDRO_PUMP",
-            "OUTRAGE"
+            "OUTRAGE",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -41653,7 +41668,8 @@
             "DRACO_METEOR",
             "FIRE_BLAST",
             "HYDRO_PUMP",
-            "OUTRAGE"
+            "OUTRAGE",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -49158,7 +49174,8 @@
             "BRICK_BREAK",
             "CROSS_CHOP",
             "LOW_SWEEP",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -49213,7 +49230,8 @@
             "SHADOW_BALL",
             "POWER_UP_PUNCH",
             "AURA_SPHERE",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -56949,7 +56967,8 @@
             "PSYCHIC",
             "AERIAL_ACE",
             "FUTURE_SIGHT",
-            "PSYCHIC_FANGS"
+            "PSYCHIC_FANGS",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -59288,7 +59307,8 @@
         "chargedMoves": [
             "ACID_SPRAY",
             "BRICK_BREAK",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -59346,7 +59366,8 @@
         "chargedMoves": [
             "ACID_SPRAY",
             "POWER_UP_PUNCH",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -61061,7 +61082,8 @@
         "chargedMoves": [
             "ICE_BEAM",
             "BUBBLE_BEAM",
-            "HURRICANE"
+            "HURRICANE",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -61115,7 +61137,8 @@
         "chargedMoves": [
             "ICE_BEAM",
             "BUBBLE_BEAM",
-            "HURRICANE"
+            "HURRICANE",
+            "FLY"
         ],
         "defaultIVs": {
             "cp500": [
@@ -66263,7 +66286,8 @@
             "ENERGY_BALL",
             "SUPER_POWER",
             "SOLAR_BEAM",
-            "FRENZY_PLANT"
+            "FRENZY_PLANT",
+            "THUNDER_PUNCH"
         ],
         "eliteMoves": [
             "FRENZY_PLANT"
@@ -76604,7 +76628,8 @@
             "SLUDGE_BOMB",
             "ACROBATICS",
             "FELL_STINGER",
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "DRAGON_CLAW"
         ],
         "defaultIVs": {
             "cp500": [
@@ -82615,7 +82640,8 @@
             "AERIAL_ACE",
             "HIGH_HORSEPOWER",
             "ICE_PUNCH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "eliteMoves": [
             "HIGH_HORSEPOWER"
@@ -82675,7 +82701,8 @@
             "AERIAL_ACE",
             "HIGH_HORSEPOWER",
             "ICE_PUNCH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "eliteMoves": [
             "HIGH_HORSEPOWER"
@@ -83877,7 +83904,8 @@
         ],
         "fastMoves": [
             "BUG_BITE",
-            "SUCKER_PUNCH"
+            "SUCKER_PUNCH",
+            "COUNTER"
         ],
         "chargedMoves": [
             "X_SCISSOR",
@@ -83991,7 +84019,8 @@
         "chargedMoves": [
             "THUNDERBOLT",
             "DISCHARGE",
-            "WILD_CHARGE"
+            "WILD_CHARGE",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84046,7 +84075,8 @@
             "THUNDERBOLT",
             "DISCHARGE",
             "WILD_CHARGE",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -87116,7 +87146,8 @@
         ],
         "fastMoves": [
             "ICE_SHARD",
-            "TACKLE"
+            "TACKLE",
+            "POWDER_SNOW"
         ],
         "chargedMoves": [
             "BODY_SLAM",
@@ -87168,7 +87199,8 @@
         ],
         "fastMoves": [
             "ICE_SHARD",
-            "TACKLE"
+            "TACKLE",
+            "POWDER_SNOW"
         ],
         "chargedMoves": [
             "BODY_SLAM",
