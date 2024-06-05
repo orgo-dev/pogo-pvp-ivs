@@ -2197,6 +2197,7 @@ Goodra,Draco Meteor,charged,dragon,1.2,150,65,2.31,100% chance -2 Atk self,Self-
 Goodra,Muddy Water,charged,water,1.0,35,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,
 Goodra,Power Whip,charged,grass,1.0,90,50,1.8,,General,
 Goodra,Sludge Wave,charged,poison,1.0,110,65,1.69,,Nuke,
+Goodra,Thunder Punch,charged,electric,1.0,55,40,1.38,,Spam/Bait,elite
 Goomy,Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Goomy,Muddy Water,charged,water,1.0,35,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam/Bait,
 Goomy,Sludge Wave,charged,poison,1.0,110,65,1.69,,Nuke,

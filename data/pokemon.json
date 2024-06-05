@@ -69290,7 +69290,11 @@
             "SLUDGE_WAVE",
             "MUDDY_WATER",
             "POWER_WHIP",
-            "AQUA_TAIL"
+            "AQUA_TAIL",
+            "THUNDER_PUNCH"
+        ],
+        "eliteMoves": [
+            "THUNDER_PUNCH"
         ],
         "defaultIVs": {
             "cp500": [
