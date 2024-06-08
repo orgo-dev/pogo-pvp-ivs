@@ -69316,7 +69316,7 @@
                 14
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 10,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -80003,7 +80003,7 @@
         "nicknames": [
             "goon"
         ],
-        "searchPriority": 15
+        "searchPriority": 7
     },
     {
         "dex": 863,
@@ -87231,6 +87231,7 @@
                 6
             ]
         },
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
