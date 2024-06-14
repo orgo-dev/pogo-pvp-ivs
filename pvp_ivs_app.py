@@ -900,7 +900,13 @@ def app(app="GBL IV Stats", **kwargs):
                 custom_css={
                     ".ag-theme-streamlit-dark": {
                         "--ag-grid-size": "3px",
-                    }
+                    },
+                    "#gridToolBar": {
+                        "padding-bottom": "30px !important",
+                    },
+                    "div.ag-root.ag-unselectable.ag-layout-normal": {
+                        "height": "750px !important"
+                    }    
                 },
                 # key=f"ivs-{selected_pokemon}-{league}",
                 # update_mode=GridUpdateMode.VALUE_CHANGED,
