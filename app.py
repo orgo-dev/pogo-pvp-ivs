@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 from pvp_ivs_app import app as gbl_iv_stats
-from pvp_ivs_app_new import app as gbl_iv_stats_new
+# from pvp_ivs_app_new import app as gbl_iv_stats_new
 from move_counts_app import app as move_counts
 from types_and_moves_app import app as types_and_moves
 import updated_timestamp  # hack to make sure streamlit reruns when data is updated
@@ -37,7 +37,7 @@ class MultiPage:
 # create app and sidebar with list of apps
 app = MultiPage()
 app.add_page("GBL IV Stats", gbl_iv_stats)
-app.add_page("GBL IV Stats - new", gbl_iv_stats_new)
+# app.add_page("GBL IV Stats - new", gbl_iv_stats_new)
 app.add_page("Move Counts", move_counts)
 app.add_page("Pokemon Types and Moves", types_and_moves)
 
