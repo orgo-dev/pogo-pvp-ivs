@@ -1,4 +1,4 @@
-import streamlit as st, pandas as pd, os
+import streamlit as st, pandas as pd, numpy as np, os
 from urllib.parse import quote_plus
 from config import PATH_DATA
 
@@ -15,10 +15,17 @@ IVS_ALL = [
     for d in range(16)
     for s in range(16)
 ]
+IVS_ARRAY = np.array([
+    [a,d,s]
+    for a in range(16)
+    for d in range(16)
+    for s in range(16)
+])
 
 
 def jupyter_safe_cache_data(*args, **kwargs):
     "Streamlit cache_data that works with Jupyter notebooks"
+
     def decorator(func):
         try:
             __IPYTHON__
@@ -30,19 +37,29 @@ def jupyter_safe_cache_data(*args, **kwargs):
 
 
 @jupyter_safe_cache_data(ttl=3600)
-def load_app_db_constants():
+def load_app_db_constants(as_type="list"):
     "Loads app data. Uses a 1 hour ttl to use updated data when available."
 
     # pokemon stats
     df_pokes = pd.read_csv(f"{PATH_DATA}/pokemon.csv")
-    POKE_STATS = df_pokes.set_index("pokemon")[
-        ["base_attack", "base_defense", "base_stamina"]
-    ].T.to_dict()
+    ALL_POKEMON_STATS = (
+        df_pokes[~df_pokes["pokemon"].duplicated(keep="first")]
+        .set_index("pokemon")[["base_attack", "base_defense", "base_stamina"]]
+        .T.to_dict()
+    )
 
     # dex and parent ids
     POKE_DEX_IDS = df_pokes.set_index("pokemon").to_dict()["dex"]
     df_parents = pd.read_csv(f"{PATH_DATA}/pokemon_parents.csv")
-    POKE_PARENT_DEX_IDS = df_parents.groupby("pokemon_child")["dex_parent"].apply(list).to_dict()
+    # POKE_PARENT_DEX_IDS = (
+    #     df_parents.groupby("pokemon_child")["dex_parent"].apply(list).to_dict()
+    # )
+    POKE_PARENTS = (
+        df_parents.groupby("pokemon_child")["pokemon_parent"].apply(list).to_dict()
+    )
+    POKE_CHILDREN = (
+        df_parents.groupby("pokemon_parent")["pokemon_child"].apply(list).to_dict()
+    )
 
     # level stuff
     df_levels = pd.read_csv(f"{PATH_DATA}/levels.csv")
@@ -111,9 +128,10 @@ def load_app_db_constants():
     )
 
     return (
-        POKE_STATS,
+        ALL_POKEMON_STATS,
         POKE_DEX_IDS,
-        POKE_PARENT_DEX_IDS,
+        POKE_PARENTS,
+        POKE_CHILDREN,
         # LEVELS,
         CP_MULTS,
         CP_COEF_PCTS,

@@ -29,6 +29,7 @@ def calc_level_stats(
     base_defense,
     base_stamina,
     cp_mults,
+    **kwargs,
 ):
     cp_multiplier = cp_mults[level]
     level_attack = (base_attack + iv_attack) * cp_multiplier
@@ -52,6 +53,7 @@ def calc_poke_level_stats(
     iv_stamina,
     all_pokemon_stats,
     cp_mults,
+    **kwargs,
 ):
     pokemon_dict = dict(
         pokemon=pokemon,
@@ -82,11 +84,12 @@ def find_league_iv_level_stats(
     cp_coef_pcts,
     max_level=MAX_LEVEL,
     league_cps=LEAGUE_CPS,
-    add_non_best_buddy_stats=True,
+    add_non_best_buddy_stats=False,
     log=False,
 ):
     stats_args = dict(
         pokemon=pokemon,
+        league=league,
         iv_attack=iv_attack,
         iv_defense=iv_defense,
         iv_stamina=iv_stamina,
@@ -97,7 +100,7 @@ def find_league_iv_level_stats(
     cp_high = calc_poke_level_stats(**stats_args, level=55)["cp"]
     pct_to_cp_high = max_cp / cp_high
     stats, rtn = [], []
-    level = min(bisect(cp_coef_pcts, pct_to_cp_high) / 2 + 1, max_level)
+    level = min(bisect(cp_coef_pcts, pct_to_cp_high) / 2 + 1.0, max_level)
 
     for i in range(100):
         stats.append(calc_poke_level_stats(**stats_args, level=level))
@@ -279,7 +282,7 @@ def get_league_pokemon_df(
         else pd.DataFrame(columns=["iv_attack", "iv_defense", "iv_stamina", "Input"])
     )
     df = df.merge(df_input_ivs, how="left", on=["iv_attack", "iv_defense", "iv_stamina"])
-    df["Input"].fillna("", inplace=True)
+    df["Input"] = df["Input"].fillna("")
 
     # return sorted, renamed cols
     return (
@@ -287,6 +290,8 @@ def get_league_pokemon_df(
         .reset_index(drop=True)
         .rename(
             {
+                "pokemon": "Pokemon",
+                "league": "League",
                 "rank": "Rank",
                 "level": "Level",
                 "cp": "CP",
@@ -310,6 +315,8 @@ def get_league_pokemon_df(
             axis=1,
         )[
             [
+                "Pokemon",
+                "League",
                 "Rank",
                 "Level",
                 "CP",
@@ -352,7 +359,8 @@ def app(app="GBL IV Stats", **kwargs):
     (
         ALL_POKEMON_STATS,
         POKE_DEX_IDS,
-        POKE_PARENT_DEX_IDS,
+        POKE_PARENTS,
+        POKE_CHILDREN,
         CP_MULTS,
         CP_COEF_PCTS,
         DF_XL_COSTS,
@@ -369,12 +377,14 @@ def app(app="GBL IV Stats", **kwargs):
     with st.sidebar:
 
         # inputs
-        leagues = ["Little", "Great", "Ultra", "Master"]
-        default_league = kwargs.get("league", ["Great"])[0]
+        league_options = ["Little", "Great", "Ultra", "Master"]
+        default_leagues = kwargs.get("league", ["Great"])
         default_league_idx = (
-            1 if default_league not in leagues else leagues.index(default_league)
+            1
+            if default_leagues not in league_options
+            else league_options.index(default_leagues)
         )
-        league = st.selectbox("Select a league", leagues, default_league_idx)
+        leagues = st.multiselect("Select league(s)", league_options, default_leagues)
 
         default_pokemon = kwargs.get("pokemon", ["Swampert"])[0]
         default_pokemon_idx = (
@@ -409,6 +419,7 @@ def app(app="GBL IV Stats", **kwargs):
         input_ivs = st.text_input(
             "Input IVs split by a comma (e.g. '1/2/3,15/15/15')", default_ivs
         )
+        ivs = parse_ivs(input_ivs)
         st.markdown("---")
 
         # searches to find IVs
@@ -522,20 +533,54 @@ def app(app="GBL IV Stats", **kwargs):
                 f"Efficient@{MAX_LEVEL+1}", default_efficient_best_buddy
             )
 
+        # min iv slider
+        iv_floor_options = [
+            "0: Wild Caught",
+            "1: Trade Good Friend",
+            "2: Great Friend, Purified",
+            "3: Ultra Friend",
+            "4: Weather Boost",
+            "5: Best Friend",
+            "6: Shadow Legendary",
+            "10: Raid, Research, Hatch",
+            "12: Lucky Trade",
+        ]
+        iv_floor_options_ints = [int(x.split(":")[0]) for x in iv_floor_options]
+        default_iv_floor = int(kwargs.get("iv_floor", [0])[0])
+        # iv_floor = st.slider("IV floor (Good Friend=1, Great=2, Ultra=3, Best=5)", 0, 15, 0)
+        # iv_floor = st.number_input(
+        #     "All IVs floor\n(Good Friend=1, Great=2, Ultra=3, Best=5)", min_value=0, max_value=15, value=default_iv_floor
+        # )
+        idx = (
+            iv_floor_options_ints.index(default_iv_floor)
+            if default_iv_floor in iv_floor_options_ints
+            else 0
+        )
+        iv_floor_str = st.selectbox(
+            "IV floor",
+            iv_floor_options,
+            (
+                iv_floor_options_ints.index(default_iv_floor)
+                if default_iv_floor in iv_floor_options_ints
+                else 0
+            ),
+        )
+        iv_floor = int(iv_floor_str.split(":")[0])
+
         # min iv cols
         min_ivs_cols = st.columns(3)
         with min_ivs_cols[0]:
-            default_iv_atk_ge = int(kwargs.get("iv_atk_ge", [0])[0])
+            default_iv_atk_ge = int(kwargs.get("iv_atk_ge", [iv_floor])[0])
             iv_atk_ge = st.number_input(
                 "Atk IV >=", min_value=0, max_value=15, value=default_iv_atk_ge
             )
         with min_ivs_cols[1]:
-            default_iv_def_ge = int(kwargs.get("iv_def_ge", [0])[0])
+            default_iv_def_ge = int(kwargs.get("iv_def_ge", [iv_floor])[0])
             iv_def_ge = st.number_input(
                 "Def IV >=", min_value=0, max_value=15, value=default_iv_def_ge
             )
         with min_ivs_cols[2]:
-            default_iv_hp_ge = int(kwargs.get("iv_hp_ge", [0])[0])
+            default_iv_hp_ge = int(kwargs.get("iv_hp_ge", [iv_floor])[0])
             iv_hp_ge = st.number_input(
                 "HP IV >=", min_value=0, max_value=15, value=default_iv_hp_ge
             )
@@ -589,10 +634,6 @@ def app(app="GBL IV Stats", **kwargs):
         show_individual_ivs = st.checkbox(
             "Show individual IV columns", default_show_individual_ivs
         )
-        default_print_selected_ivs = kwargs.get("print_selected_ivs", [False])[0]
-        print_selected_ivs = st.checkbox(
-            "Print out selected IVs", default_print_selected_ivs
-        )
 
         # xl cost cols
         st.markdown("Show XL costs")
@@ -615,314 +656,427 @@ def app(app="GBL IV Stats", **kwargs):
             show_xl_purified = st.checkbox("Purified", default_show_xl_purified)
         st.markdown("---")
 
-    # main app
-    st.subheader(pokemon)
-    ivs = parse_ivs(input_ivs)
+        # ~~~ OUTPUT OPTIONS ~~~
+        st.markdown("Output Options")
+        default_show_search_filter_details = (
+            kwargs.get("show_search_filter_details", ["False"])[0] == "True"
+        )
+        show_search_filter_details = st.checkbox(
+            "Show search and filter result details",
+            default_show_search_filter_details,
+        )
+        default_show_moves = kwargs.get("show_moves", ["False"])[0] == "True"
+        show_moves = st.checkbox("Show Pokemon moves", default_show_moves)
+        default_show_pvpoke_text = kwargs.get("show_pvpoke_text", ["False"])[0] == "True"
+        show_pvpoke_text = st.checkbox(
+            "Show Pvpoke import text (requires showing moves)", default_show_pvpoke_text
+        )
 
-    # get df with all rows
-    df = get_league_pokemon_df(
-        league, pokemon, input_ivs, ALL_POKEMON_STATS, CP_MULTS, CP_COEF_PCTS, DF_XL_COSTS
-    )
-
-    # filter df based on options selected
-    mask_t = pd.Series(True, df.index)
-    mask_f = ~mask_t
-
-    # mask searched
-    mask_searched = (
-        (df["Rank"] <= stats_rank)
-        | (df["Rank Bulk"] <= bulk_rank)
-        | (mask_t if all_ivs else mask_f)
-        | (df["is_level_max_stats"] if level_max_stats else mask_f)
-        | (df["is_max_iv"] if show_100 else mask_f)
-        | (df["is_max_attack"] if max_atk else mask_f)
-        | (df["is_max_defense"] if max_def else mask_f)
-        | (df["is_max_stamina"] if max_hp else mask_f)
-        | ((df["IV Atk"] == 15) if iv_atk_15 else mask_f)
-        | ((df["IV Def"] == 15) if iv_def_15 else mask_f)
-        | ((df["IV HP"] == 15) if iv_hp_15 else mask_f)
-        | ((df["IV Atk"] == 0) if iv_atk_0 else mask_f)
-        | ((df["IV Def"] == 0) if iv_def_0 else mask_f)
-        | ((df["IV HP"] == 0) if iv_hp_0 else mask_f)
-        | ((df["IV Atk"] == iv_atk_exact) if iv_atk_exact >= 0 else mask_f)
-        | ((df["IV Def"] == iv_def_exact) if iv_def_exact >= 0 else mask_f)
-        | ((df["IV HP"] == iv_hp_exact) if iv_hp_exact >= 0 else mask_f)
-    )
-
-    # mask filter
-    mask_filter = (
-        (df["is_efficient_max_level"] if efficient_max_level else mask_t)
-        & (df["is_efficient_best_buddy"] if efficient_best_buddy else mask_t)
-        & (df["IV Atk"] >= iv_atk_ge)
-        & (df["IV Def"] >= iv_def_ge)
-        & (df["IV HP"] >= iv_hp_ge)
-        & (df["Atk"] >= stats_atk_ge)
-        & (df["Def"] >= stats_def_ge)
-        & (df["HP"] >= stats_hp_ge)
-        & (df["Level"] >= level_ge)
-        & (df["Level"] <= level_le)
-        & (df["CP"] >= min_cp)
-    )
-
-    # mask inputs
-    mask_inputs = (df["Input"] == "True") & (mask_filter if filter_inputs else mask_t)
-    mask_inputs_with_filter = mask_inputs & (mask_filter if filter_inputs else mask_t)
-
-    # combining both and filtering
-    mask = (mask_searched & mask_filter) | mask_inputs_with_filter
-    df = df[mask].reset_index(drop=True)
-
-    # add after filters efficient col
-    stat_cols = ["Atk", "Def", "HP"]
-    df["is_efficient_filtered"] = get_pareto_efficient_stats(df[stat_cols].values)
-    display_true = {True: "True", False: ""}
-    df[f"Efficient @Filters"] = df["is_efficient_filtered"].map(display_true)
-
-    # set order of columns
-    df_col_order = (
-        "Rank,Level,CP,IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,Stats Prod,Bulk Prod,"
-        "Rank Bulk,Atk,Def,HP,Efficient @50,Efficient @51,Efficient @Filters,Notes,Input,"
-        "Regular XLs,Lucky XLs,Shadow XLs,Purified XLs"
-    ).split(",")
-    df = df[df_col_order]
-
-    # caption for results
-    st.caption(
-        "Results from "
-        f"{mask_inputs.sum()} inputs, "
-        f"{mask_searched.sum()} matching search criteria, "
-        f"{(mask_inputs | mask_searched).sum() - len(df)} removed by filters, "
-        f"leaving {len(df)} IVs remaining."
-    )
-
-    # setup default preselected_ivs
-    input_ivs_rows = ",".join([str(i) for i in df[df["Input"] == "True"].index])
-    default_preselected_ivs = kwargs.get("preselected_ivs", [input_ivs_rows])[0]
-    default_preselected_ivs_ints = [
-        int(i) for i in default_preselected_ivs.split(",") if i
-    ]
-
-    # build ivs output
-    gb = GridOptionsBuilder.from_dataframe(df)
-    gb.configure_selection("multiple", pre_selected_rows=default_preselected_ivs_ints)
-    gb.configure_column("Rank", width=70)
-    gb.configure_column(
-        "Level",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=1,
-        width=70,
-    )
-    gb.configure_column("CP", width=60)
-    gb.configure_column("IVs", width=70, hide=show_individual_ivs)
-    gb.configure_column("IV Atk", width=70, hide=not show_individual_ivs)
-    gb.configure_column("IV Def", width=70, hide=not show_individual_ivs)
-    gb.configure_column("IV HP", width=70, hide=not show_individual_ivs)
-    gb.configure_column("R1 CMP", width=80, hide=not show_cmp)
-    gb.configure_column(
-        "Pct Max Stats",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=1,
-        width=110,
-    )
-    gb.configure_column(
-        "Stats Prod",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=1,
-        hide=not show_prod_cols,
-        width=95,
-    )
-    gb.configure_column(
-        "Bulk Prod",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=1,
-        hide=not show_prod_cols,
-        width=95,
-    )
-    gb.configure_column("Rank Bulk", width=105, hide=not show_prod_cols)
-    gb.configure_column(
-        "Atk",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=2,
-        width=60,
-    )
-    gb.configure_column(
-        "Def",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=2,
-        width=60,
-    )
-    gb.configure_column(
-        "HP",
-        type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-        precision=0,
-        width=60,
-    )
-    gb.configure_column("Efficient @50", width=110)
-    gb.configure_column("Efficient @51", width=110)
-    gb.configure_column("Efficient @Filters", width=130)
-    gb.configure_column("Notes", width=220)
-    gb.configure_column("Input", width=70, hide=not bool(ivs))
-    gb.configure_column("Regular XLs", width=90, hide=not show_xl_regular)
-    gb.configure_column("Lucky XLs", width=90, hide=not show_xl_lucky)
-    gb.configure_column("Shadow XLs", width=90, hide=not show_xl_shadow)
-    gb.configure_column("Purified XLs", width=90, hide=not show_xl_purified)
-
-    grid_options = gb.build()
-    ivs_response = AgGrid(
-        df,
-        gridOptions=grid_options,
-        # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        # height=600,
-        custom_css={
-            ".ag-theme-streamlit-dark": {
-                "--ag-grid-size": "3px",
-            }
-        },
-    )
-    selected_ivs = ivs_response["selected_rows"]
-    preselected_ivs = ",".join(
-        [r["_selectedRowNodeInfo"]["nodeId"] for r in selected_ivs]
-    )
-
-    if pokemon != "Custom base stats":
-
-        # option to display pokemon + parent dex ids with list of selected ivs
-        if print_selected_ivs and len(selected_ivs):
-            st.caption("String with selected IVs for pokemon and parent dex ids")
-            selected_ivs_str = ",".join(
-                [
-                    "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
-                        dex=dex,
-                        lvl_max=int(row["Level"]),
-                        **row,
-                    )
-                    for row in selected_ivs
-                    for dex in POKE_PARENT_DEX_IDS[pokemon]
-                ]
+        show_evolution_stats_list = []
+        if len(POKE_CHILDREN.get(pokemon, [])) > 1:
+            st.markdown("Show Pokemon Evolutions Stats:")
+            default_show_evolution_stats = (
+                kwargs.get("show_evolution_stats", ["True"])[0] == "True"
             )
-            st.code(selected_ivs_str, language=None)
+            for p in POKE_CHILDREN.get(pokemon, []):
+                if p==pokemon:
+                    continue
+                do_show_pokemon_evolution_stats = st.checkbox(
+                    p, default_show_evolution_stats
+                )
+                if do_show_pokemon_evolution_stats:
+                    show_evolution_stats_list.append(p)
+        show_evolution_stats = True if show_evolution_stats_list else False
 
-        # fast moves
-        st.caption(
-            "Fast moves (damage includes STAB bonus) - Click a move to get count and turn details"
+        default_print_selected_ivs = (
+            kwargs.get("print_selected_ivs", ["False"])[0] == "True"
         )
-        df_fast = get_poke_fast_moves(pokemon, DF_POKEMON_FAST_MOVES)
-        gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
+        st.markdown("Print out selected IVs:")
+        print_selected_ivs_dex_ids = []
+        for p in POKE_PARENTS.get(pokemon, []):
+            do_print_selected_ivs_dex_id = st.checkbox(
+                p, default_print_selected_ivs
+            )
+            if do_print_selected_ivs_dex_id:
+                print_selected_ivs_dex_ids.append(POKE_DEX_IDS[p])
+        print_selected_ivs = True if print_selected_ivs_dex_ids else False
 
-        default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
-        default_preselected_fast_ints = [
-            int(i) for i in default_preselected_fast.split(",") if i
-        ]
-        gb_fast.configure_selection(
-            "single", use_checkbox=False, pre_selected_rows=default_preselected_fast_ints
-        )
+        st.markdown("---")
 
-        go_fast = gb_fast.build()
-        fast_moves_response = AgGrid(
-            df_fast,
-            gridOptions=go_fast,
-            columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-            custom_css={
-                ".ag-theme-streamlit-dark": {
-                    "--ag-grid-size": "3px",
-                }
-            },
-        )
-        fast_move = fast_moves_response["selected_rows"]
-        preselected_fast = ",".join(
-            [r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move]
-        )
+    ############################################################################
+    # MAIN APP
+    ############################################################################
 
-        # chargedmoves
-        st.caption("Charged moves (damage includes STAB bonus)")
-        df_charged = get_poke_charged_moves(pokemon, DF_POKEMON_CHARGED_MOVES)
-        if len(fast_move):
-            df_charged["Count"] = (
-                df_charged["Energy"] / fast_move[0]["Energy Gain"]
-            ).apply(math.ceil)
-            df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
-        else:
-            df_charged["Count"] = ""
-            df_charged["Turns"] = ""
-        gb_charged = GridOptionsBuilder.from_dataframe(df_charged)
-        default_preselected_charged = kwargs.get("preselected_charged", [""])[0]
-        default_preselected_charged_ints = [
-            int(i) for i in default_preselected_charged.split(",") if i
-        ]
-        gb_charged.configure_selection(
-            "multiple",
-            use_checkbox=False,
-            pre_selected_rows=default_preselected_charged_ints,
-        )
-        go_charged = gb_charged.build()
-        charged_moves_response = AgGrid(
-            df_charged,
-            gridOptions=go_charged,
-            columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-            custom_css={
-                ".ag-theme-streamlit-dark": {
-                    "--ag-grid-size": "3px",
-                }
-            },
-        )
-        charged_moves = charged_moves_response["selected_rows"]
-        preselected_charged = ",".join(
-            [r["_selectedRowNodeInfo"]["nodeId"] for r in charged_moves]
-        )
+    # if show_evolution_stats:
+    #     selected_pokemons = POKE_CHILDREN.get(pokemon, [pokemon])
+    # else:
+    #     selected_pokemons = [pokemon]
+    selected_pokemons = [pokemon] + show_evolution_stats_list
 
-        # format text to import into pvpoke
-        st.caption(
-            """
-            Pvpoke matrix import text - Click to select IVs, a fast move, and charged moves 
-            to geterate an import string for Pvpoke matrix.Note that pvpoke only allows 
-            100 inputs at a time, so line numbers (not IV ranks) are shown on the left to 
-            help with copy/pasting chunks at a time.
-            """
-        )
+    for selected_pokemon in selected_pokemons:
+        st.header(selected_pokemon)
 
-        # format pokemon name
-        pvpoke_text = {}
-        pvpoke_text["pokemon"] = (
-            pokemon.lower()
-            .replace("'", "")
-            .replace(" ", "_")
-            .replace("(shadow)", "shadow-shadow")
-            .replace("(", "")
-            .replace(")", "")
-        )
-        # format moves
-        selected_moves = [m["Move"] for m in fast_move[:1]] + [
-            m["Move"] for m in charged_moves[:2]
-        ]
-        pvpoke_text["moves"] = ",".join(
-            [
-                m.upper().replace(" ", "_").replace("(", "").replace(")", "")
-                for m in selected_moves
+        # for league in leagues:
+        for league in sorted(leagues, key=lambda l: LEAGUE_CPS[l]):
+            # st.subheader(league)
+
+            # get df with all rows
+            df = get_league_pokemon_df(
+                league,
+                selected_pokemon,
+                input_ivs,
+                ALL_POKEMON_STATS,
+                CP_MULTS,
+                CP_COEF_PCTS,
+                DF_XL_COSTS,
+            )
+
+            # filter df based on options selected
+            mask_t = pd.Series(True, df.index)
+            mask_f = ~mask_t
+
+            # mask searched
+            mask_searched = (
+                (df["Rank"] <= stats_rank)
+                | (df["Rank Bulk"] <= bulk_rank)
+                | (mask_t if all_ivs else mask_f)
+                | (df["is_level_max_stats"] if level_max_stats else mask_f)
+                | (df["is_max_iv"] if show_100 else mask_f)
+                | (df["is_max_attack"] if max_atk else mask_f)
+                | (df["is_max_defense"] if max_def else mask_f)
+                | (df["is_max_stamina"] if max_hp else mask_f)
+                | ((df["IV Atk"] == 15) if iv_atk_15 else mask_f)
+                | ((df["IV Def"] == 15) if iv_def_15 else mask_f)
+                | ((df["IV HP"] == 15) if iv_hp_15 else mask_f)
+                | ((df["IV Atk"] == 0) if iv_atk_0 else mask_f)
+                | ((df["IV Def"] == 0) if iv_def_0 else mask_f)
+                | ((df["IV HP"] == 0) if iv_hp_0 else mask_f)
+                | ((df["IV Atk"] == iv_atk_exact) if iv_atk_exact >= 0 else mask_f)
+                | ((df["IV Def"] == iv_def_exact) if iv_def_exact >= 0 else mask_f)
+                | ((df["IV HP"] == iv_hp_exact) if iv_hp_exact >= 0 else mask_f)
+            )
+
+            # mask filter
+            mask_filter = (
+                (df["is_efficient_max_level"] if efficient_max_level else mask_t)
+                & (df["is_efficient_best_buddy"] if efficient_best_buddy else mask_t)
+                & (df["IV Atk"] >= iv_atk_ge)
+                & (df["IV Def"] >= iv_def_ge)
+                & (df["IV HP"] >= iv_hp_ge)
+                & (df["Atk"] >= stats_atk_ge)
+                & (df["Def"] >= stats_def_ge)
+                & (df["HP"] >= stats_hp_ge)
+                & (df["Level"] >= level_ge)
+                & (df["Level"] <= level_le)
+                & (df["CP"] >= min_cp)
+            )
+
+            # mask inputs
+            mask_inputs = (df["Input"] == "True") & (
+                mask_filter if filter_inputs else mask_t
+            )
+            mask_inputs_with_filter = mask_inputs & (
+                mask_filter if filter_inputs else mask_t
+            )
+
+            # combining both and filtering
+            mask = (mask_searched & mask_filter) | mask_inputs_with_filter
+            df = df[mask].reset_index(drop=True)
+
+            # add after filters efficient col
+            stat_cols = ["Atk", "Def", "HP"]
+            df["is_efficient_filtered"] = get_pareto_efficient_stats(df[stat_cols].values)
+            display_true = {True: "True", False: ""}
+            df[f"Efficient @Filters"] = df["is_efficient_filtered"].map(display_true)
+
+            # set order of columns
+            df_col_order = (
+                "League,Rank,Level,CP,IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,"
+                "Stats Prod,Bulk Prod,Rank Bulk,Atk,Def,HP,Efficient @50,Efficient @51,"
+                "Efficient @Filters,Notes,Input,Regular XLs,Lucky XLs,Shadow XLs,"
+                "Purified XLs"
+            ).split(",")
+            df = df[df_col_order]
+
+            # caption for results
+            if show_search_filter_details:
+                st.caption(
+                    "Results from "
+                    f"{mask_inputs.sum()} inputs, "
+                    f"{mask_searched.sum()} matching search criteria, "
+                    f"{(mask_inputs | mask_searched).sum() - len(df)} removed by filters, "
+                    f"leaving {len(df)} IVs remaining."
+                )
+            
+            if len(df)==0:
+                st.caption(f"No {selected_pokemon} {league} league results for the current search and filter options.")
+                continue
+
+            # setup default preselected_ivs
+            input_ivs_rows = ",".join([str(i) for i in df[df["Input"] == "True"].index])
+            default_preselected_ivs = kwargs.get("preselected_ivs", [input_ivs_rows])[0]
+            default_preselected_ivs_ints = [
+                int(i) for i in default_preselected_ivs.split(",") if i
             ]
-        )
 
-        if len(selected_ivs) and len(fast_move) and len(charged_moves):
-            pvpoke_text_lines = []
-            for row in selected_ivs:
-                pvpoke_text.update(row)
-                txt = "{pokemon},{moves},{Level},{IV Atk},{IV Def},{IV HP}".format(
-                    **pvpoke_text
-                )
-                pvpoke_text_lines.append(txt)
-            pvpoke_lines_cols = st.columns([1, 30])
-            with pvpoke_lines_cols[0]:
-                line_numbers = "\n".join(
-                    [str(i + 1) for i in range(len(pvpoke_text_lines))]
-                )
-                st.code(line_numbers, language=None)
-            with pvpoke_lines_cols[1]:
-                st.code("\n".join(pvpoke_text_lines), language=None)
+            # build ivs output
+            gb = GridOptionsBuilder.from_dataframe(df)
+            gb.configure_selection(
+                "multiple",
+                use_checkbox=True,
+                pre_selected_rows=default_preselected_ivs_ints,
+            )
+            # gb.configure_column("Pokemon", hide=True)
+            gb.configure_column("League", width=78)
+            gb.configure_column("Rank", width=70)
+            gb.configure_column(
+                "Level",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=1,
+                width=70,
+            )
+            gb.configure_column("CP", width=60)
+            gb.configure_column("IVs", width=70, hide=show_individual_ivs)
+            gb.configure_column("IV Atk", width=70, hide=not show_individual_ivs)
+            gb.configure_column("IV Def", width=70, hide=not show_individual_ivs)
+            gb.configure_column("IV HP", width=70, hide=not show_individual_ivs)
+            gb.configure_column("R1 CMP", width=80, hide=not show_cmp)
+            gb.configure_column(
+                "Pct Max Stats",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=1,
+                width=110,
+            )
+            gb.configure_column(
+                "Stats Prod",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=1,
+                hide=not show_prod_cols,
+                width=95,
+            )
+            gb.configure_column(
+                "Bulk Prod",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=1,
+                hide=not show_prod_cols,
+                width=95,
+            )
+            gb.configure_column("Rank Bulk", width=105, hide=not show_prod_cols)
+            gb.configure_column(
+                "Atk",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=2,
+                width=60,
+            )
+            gb.configure_column(
+                "Def",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=2,
+                width=60,
+            )
+            gb.configure_column(
+                "HP",
+                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
+                precision=0,
+                width=60,
+            )
+            gb.configure_column("Efficient @50", width=110)
+            gb.configure_column("Efficient @51", width=110)
+            gb.configure_column("Efficient @Filters", width=130)
+            gb.configure_column("Notes", width=220)
+            gb.configure_column("Input", width=70, hide=not bool(ivs))
+            gb.configure_column("Regular XLs", width=90, hide=not show_xl_regular)
+            gb.configure_column("Lucky XLs", width=90, hide=not show_xl_lucky)
+            gb.configure_column("Shadow XLs", width=90, hide=not show_xl_shadow)
+            gb.configure_column("Purified XLs", width=90, hide=not show_xl_purified)
+            # gb.configure_column("pokemon-league", hide=True)
+
+            grid_options = gb.build()
+            ivs_response = AgGrid(
+                df,
+                gridOptions=grid_options,
+                # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+                height=len(df) * 20 + 25 if len(df) <= 20 else 425,
+                custom_css={
+                    ".ag-theme-streamlit-dark": {
+                        "--ag-grid-size": "3px",
+                    }
+                },
+                # key=f"ivs-{selected_pokemon}-{league}",
+                # update_mode=GridUpdateMode.VALUE_CHANGED,
+                # reload_data=True,
+            )
+            selected_ivs = ivs_response["selected_rows"]
+            preselected_ivs = ",".join(
+                [r["_selectedRowNodeInfo"]["nodeId"] for r in selected_ivs]
+            )
+
+            if selected_pokemon != "Custom base stats":
+
+                # option to display pokemon + parent dex ids with list of selected ivs
+                if len(print_selected_ivs_dex_ids) and len(selected_ivs):
+                    st.caption("String with selected IVs for pokemon and parent dex ids")
+                    selected_ivs_str = ",".join(
+                        [
+                            "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
+                                dex=dex,
+                                lvl_max=int(row["Level"]),
+                                **row,
+                            )
+                            for row in selected_ivs
+                            for dex in print_selected_ivs_dex_ids
+                        ]
+                    )
+                    st.code(selected_ivs_str, language=None)
+
+                if show_moves:
+                    # fast moves
+                    st.caption(
+                        "Fast / Charged moves (damage includes STAB bonus) - Click a fast move to get charged moves count and turn details"
+                    )
+                    df_fast = get_poke_fast_moves(selected_pokemon, DF_POKEMON_FAST_MOVES)
+                    df_fast[["pokemon", "league"]] = (selected_pokemon, league)
+                    gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
+                    gb_fast.configure_columns(["pokemon", "league"], hide=True)
+
+                    default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
+                    default_preselected_fast_ints = [
+                        int(i) for i in default_preselected_fast.split(",") if i
+                    ]
+                    gb_fast.configure_selection(
+                        "single",
+                        use_checkbox=True,
+                        pre_selected_rows=default_preselected_fast_ints,
+                    )
+
+                    go_fast = gb_fast.build()
+                    fast_moves_response = AgGrid(
+                        df_fast,
+                        gridOptions=go_fast,
+                        # moves + header
+                        height=len(df_fast) * 20 + 25,
+                        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+                        custom_css={
+                            ".ag-theme-streamlit-dark": {
+                                "--ag-grid-size": "3px",
+                            }
+                        },
+                        # key=f"fast_moves-{selected_pokemon}-{league}",
+                        # update_mode=GridUpdateMode.VALUE_CHANGED,
+                        # reload_data=True,
+                    )
+                    fast_move = fast_moves_response["selected_rows"]
+                    preselected_fast = ",".join(
+                        [r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move]
+                    )
+
+                    # chargedmoves
+                    # st.caption("Charged moves (damage includes STAB bonus)")
+                    df_charged = get_poke_charged_moves(
+                        selected_pokemon, DF_POKEMON_CHARGED_MOVES
+                    )
+                    df_charged[["pokemon", "league"]] = (selected_pokemon, league)
+                    if len(fast_move):
+                        df_charged["Count"] = (
+                            df_charged["Energy"] / fast_move[0]["Energy Gain"]
+                        ).apply(math.ceil)
+                        df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
+                    else:
+                        df_charged["Count"] = ""
+                        df_charged["Turns"] = ""
+                    gb_charged = GridOptionsBuilder.from_dataframe(df_charged)
+                    gb_charged.configure_columns(["pokemon", "league"], hide=True)
+                    default_preselected_charged = kwargs.get("preselected_charged", [""])[
+                        0
+                    ]
+                    default_preselected_charged_ints = [
+                        int(i) for i in default_preselected_charged.split(",") if i
+                    ]
+                    gb_charged.configure_selection(
+                        "multiple",
+                        use_checkbox=True,
+                        pre_selected_rows=default_preselected_charged_ints,
+                    )
+                    go_charged = gb_charged.build()
+                    charged_moves_response = AgGrid(
+                        df_charged,
+                        gridOptions=go_charged,
+                        # moves + header
+                        height=len(df_charged) * 20 + 25,
+                        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+                        custom_css={
+                            ".ag-theme-streamlit-dark": {
+                                "--ag-grid-size": "3px",
+                            }
+                        },
+                        # key=f"charged_moves-{selected_pokemon}-{league}",
+                        # update_mode=GridUpdateMode.VALUE_CHANGED,
+                        # reload_data=True,
+                    )
+                    charged_moves = charged_moves_response["selected_rows"]
+                    preselected_charged = ",".join(
+                        [r["_selectedRowNodeInfo"]["nodeId"] for r in charged_moves]
+                    )
+
+                    if show_pvpoke_text:
+                        # format text to import into pvpoke
+                        st.caption(
+                            """
+                            Pvpoke matrix import text - Click to select IVs, a fast move, and charged moves 
+                            to geterate an import string for Pvpoke matrix.Note that pvpoke only allows 
+                            100 inputs at a time, so line numbers (not IV ranks) are shown on the left to 
+                            help with copy/pasting chunks at a time.
+                            """
+                        )
+
+                        # format pokemon name
+                        pvpoke_text = {}
+                        pvpoke_text["pokemon"] = (
+                            selected_pokemon.lower()
+                            .replace("'", "")
+                            .replace(" ", "_")
+                            .replace("(shadow)", "shadow-shadow")
+                            .replace("(", "")
+                            .replace(")", "")
+                        )
+                        # format moves
+                        selected_moves = [m["Move"] for m in fast_move[:1]] + [
+                            m["Move"] for m in charged_moves[:2]
+                        ]
+                        pvpoke_text["moves"] = ",".join(
+                            [
+                                m.upper()
+                                .replace(" ", "_")
+                                .replace("(", "")
+                                .replace(")", "")
+                                for m in selected_moves
+                            ]
+                        )
+
+                        if len(selected_ivs) and len(fast_move) and len(charged_moves):
+                            pvpoke_text_lines = []
+                            for row in selected_ivs:
+                                pvpoke_text.update(row)
+                                txt = "{pokemon},{moves},{Level},{IV Atk},{IV Def},{IV HP}".format(
+                                    **pvpoke_text
+                                )
+                                pvpoke_text_lines.append(txt)
+                            pvpoke_lines_cols = st.columns([1, 30])
+                            with pvpoke_lines_cols[0]:
+                                line_numbers = "\n".join(
+                                    [str(i + 1) for i in range(len(pvpoke_text_lines))]
+                                )
+                                st.code(line_numbers, language=None)
+                            with pvpoke_lines_cols[1]:
+                                st.code("\n".join(pvpoke_text_lines), language=None)
+
+        # st.markdown("---")
 
     # create sharable url
     with st.sidebar:
         params_list = [
             "app",
-            "league",
+            "leagues",
             "pokemon",
             "custom_base_atk",
             "custom_base_def",
@@ -960,6 +1114,10 @@ def app(app="GBL IV Stats", **kwargs):
             "show_cmp",
             "show_individual_ivs",
             "show_prod_cols",
+            "show_search_filter_details",
+            "show_evolution_stats",
+            "show_moves",
+            "show_pvpoke_text",
             "print_selected_ivs",
             "show_xl_regular",
             "show_xl_lucky",
@@ -1031,5 +1189,5 @@ def app(app="GBL IV Stats", **kwargs):
 
 
 if __name__ == "__main__":
-    query_params = st.experimental_get_query_params()
+    query_params = st.query_params
     app(**query_params)

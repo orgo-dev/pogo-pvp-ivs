@@ -12,6 +12,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 2,ivysaur_shadow,Ivysaur (Shadow),2,ivysaur_shadow,Ivysaur (Shadow),True
 2,ivysaur_shadow,Ivysaur (Shadow),3,venusaur_shadow,Venusaur (Shadow),False
 3,venusaur,Venusaur,3,venusaur,Venusaur,True
+3,venusaur,Venusaur,3,venusaur_mega,Venusaur (Mega),False
 3,venusaur_mega,Venusaur (Mega),3,venusaur_mega,Venusaur (Mega),True
 3,venusaur_shadow,Venusaur (Shadow),3,venusaur_shadow,Venusaur (Shadow),True
 4,charmander,Charmander,4,charmander,Charmander,True
@@ -29,6 +30,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 5,charmeleon_shadow,Charmeleon (Shadow),5,charmeleon_shadow,Charmeleon (Shadow),True
 5,charmeleon_shadow,Charmeleon (Shadow),6,charizard_shadow,Charizard (Shadow),False
 6,charizard,Charizard,6,charizard,Charizard,True
+6,charizard,Charizard,6,charizard_mega_x,Charizard (Mega X),False
+6,charizard,Charizard,6,charizard_mega_y,Charizard (Mega Y),False
 6,charizard_mega_x,Charizard (Mega X),6,charizard_mega_x,Charizard (Mega X),True
 6,charizard_mega_y,Charizard (Mega Y),6,charizard_mega_y,Charizard (Mega Y),True
 6,charizard_shadow,Charizard (Shadow),6,charizard_shadow,Charizard (Shadow),True
@@ -45,6 +48,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 8,wartortle_shadow,Wartortle (Shadow),8,wartortle_shadow,Wartortle (Shadow),True
 8,wartortle_shadow,Wartortle (Shadow),9,blastoise_shadow,Blastoise (Shadow),False
 9,blastoise,Blastoise,9,blastoise,Blastoise,True
+9,blastoise,Blastoise,9,blastoise_mega,Blastoise (Mega),False
 9,blastoise_mega,Blastoise (Mega),9,blastoise_mega,Blastoise (Mega),True
 9,blastoise_shadow,Blastoise (Shadow),9,blastoise_shadow,Blastoise (Shadow),True
 10,caterpie,Caterpie,10,caterpie,Caterpie,True
@@ -66,6 +70,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 14,kakuna_shadow,Kakuna (Shadow),14,kakuna_shadow,Kakuna (Shadow),True
 14,kakuna_shadow,Kakuna (Shadow),15,beedrill_shadow,Beedrill (Shadow),False
 15,beedrill,Beedrill,15,beedrill,Beedrill,True
+15,beedrill,Beedrill,15,beedrill_mega,Beedrill (Mega),False
 15,beedrill_mega,Beedrill (Mega),15,beedrill_mega,Beedrill (Mega),True
 15,beedrill_shadow,Beedrill (Shadow),15,beedrill_shadow,Beedrill (Shadow),True
 16,pidgey,Pidgey,16,pidgey,Pidgey,True
@@ -81,6 +86,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 17,pidgeotto_shadow,Pidgeotto (Shadow),17,pidgeotto_shadow,Pidgeotto (Shadow),True
 17,pidgeotto_shadow,Pidgeotto (Shadow),18,pidgeot_shadow,Pidgeot (Shadow),False
 18,pidgeot,Pidgeot,18,pidgeot,Pidgeot,True
+18,pidgeot,Pidgeot,18,pidgeot_mega,Pidgeot (Mega),False
 18,pidgeot_mega,Pidgeot (Mega),18,pidgeot_mega,Pidgeot (Mega),True
 18,pidgeot_shadow,Pidgeot (Shadow),18,pidgeot_shadow,Pidgeot (Shadow),True
 19,rattata,Rattata,19,rattata,Rattata,True
@@ -276,6 +282,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 64,kadabra_shadow,Kadabra (Shadow),64,kadabra_shadow,Kadabra (Shadow),True
 64,kadabra_shadow,Kadabra (Shadow),65,alakazam_shadow,Alakazam (Shadow),False
 65,alakazam,Alakazam,65,alakazam,Alakazam,True
+65,alakazam,Alakazam,65,alakazam_mega,Alakazam (Mega),False
 65,alakazam_mega,Alakazam (Mega),65,alakazam_mega,Alakazam (Mega),True
 65,alakazam_shadow,Alakazam (Shadow),65,alakazam_shadow,Alakazam (Shadow),True
 66,machop,Machop,66,machop,Machop,True
@@ -349,6 +356,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 79,slowpoke_shadow,Slowpoke (Shadow),80,slowbro_shadow,Slowbro (Shadow),False
 79,slowpoke_shadow,Slowpoke (Shadow),199,slowking_shadow,Slowking (Shadow),False
 80,slowbro,Slowbro,80,slowbro,Slowbro,True
+80,slowbro,Slowbro,80,slowbro_mega,Slowbro (Mega),False
 80,slowbro_galarian,Slowbro (Galarian),80,slowbro_galarian,Slowbro (Galarian),True
 80,slowbro_mega,Slowbro (Mega),80,slowbro_mega,Slowbro (Mega),True
 80,slowbro_shadow,Slowbro (Shadow),80,slowbro_shadow,Slowbro (Shadow),True
@@ -402,6 +410,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 93,haunter_shadow,Haunter (Shadow),93,haunter_shadow,Haunter (Shadow),True
 93,haunter_shadow,Haunter (Shadow),94,gengar_shadow,Gengar (Shadow),False
 94,gengar,Gengar,94,gengar,Gengar,True
+94,gengar,Gengar,94,gengar_mega,Gengar (Mega),False
 94,gengar_mega,Gengar (Mega),94,gengar_mega,Gengar (Mega),True
 94,gengar_shadow,Gengar (Shadow),94,gengar_shadow,Gengar (Shadow),True
 95,onix,Onix,95,onix,Onix,True
@@ -478,6 +487,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 114,tangela_shadow,Tangela (Shadow),114,tangela_shadow,Tangela (Shadow),True
 114,tangela_shadow,Tangela (Shadow),465,tangrowth_shadow,Tangrowth (Shadow),False
 115,kangaskhan,Kangaskhan,115,kangaskhan,Kangaskhan,True
+115,kangaskhan,Kangaskhan,115,kangaskhan_mega,Kangaskhan (Mega),False
 115,kangaskhan_mega,Kangaskhan (Mega),115,kangaskhan_mega,Kangaskhan (Mega),True
 116,horsea,Horsea,116,horsea,Horsea,True
 116,horsea,Horsea,117,seadra,Seadra,False
@@ -514,6 +524,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 126,magmar_shadow,Magmar (Shadow),126,magmar_shadow,Magmar (Shadow),True
 126,magmar_shadow,Magmar (Shadow),467,magmortar_shadow,Magmortar (Shadow),False
 127,pinsir,Pinsir,127,pinsir,Pinsir,True
+127,pinsir,Pinsir,127,pinsir_mega,Pinsir (Mega),False
 127,pinsir_mega,Pinsir (Mega),127,pinsir_mega,Pinsir (Mega),True
 127,pinsir_shadow,Pinsir (Shadow),127,pinsir_shadow,Pinsir (Shadow),True
 128,tauros,Tauros,128,tauros,Tauros,True
@@ -523,6 +534,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 129,magikarp_shadow,Magikarp (Shadow),129,magikarp_shadow,Magikarp (Shadow),True
 129,magikarp_shadow,Magikarp (Shadow),130,gyarados_shadow,Gyarados (Shadow),False
 130,gyarados,Gyarados,130,gyarados,Gyarados,True
+130,gyarados,Gyarados,130,gyarados_mega,Gyarados (Mega),False
 130,gyarados_mega,Gyarados (Mega),130,gyarados_mega,Gyarados (Mega),True
 130,gyarados_shadow,Gyarados (Shadow),130,gyarados_shadow,Gyarados (Shadow),True
 131,lapras,Lapras,131,lapras,Lapras,True
@@ -556,6 +568,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 140,kabuto,Kabuto,141,kabutops,Kabutops,False
 141,kabutops,Kabutops,141,kabutops,Kabutops,True
 142,aerodactyl,Aerodactyl,142,aerodactyl,Aerodactyl,True
+142,aerodactyl,Aerodactyl,142,aerodactyl_mega,Aerodactyl (Mega),False
 142,aerodactyl_mega,Aerodactyl (Mega),142,aerodactyl_mega,Aerodactyl (Mega),True
 142,aerodactyl_shadow,Aerodactyl (Shadow),142,aerodactyl_shadow,Aerodactyl (Shadow),True
 143,snorlax,Snorlax,143,snorlax,Snorlax,True
@@ -685,6 +698,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 180,flaaffy_shadow,Flaaffy (Shadow),180,flaaffy_shadow,Flaaffy (Shadow),True
 180,flaaffy_shadow,Flaaffy (Shadow),181,ampharos_shadow,Ampharos (Shadow),False
 181,ampharos,Ampharos,181,ampharos,Ampharos,True
+181,ampharos,Ampharos,181,ampharos_mega,Ampharos (Mega),False
 181,ampharos_mega,Ampharos (Mega),181,ampharos_mega,Ampharos (Mega),True
 181,ampharos_shadow,Ampharos (Shadow),181,ampharos_shadow,Ampharos (Shadow),True
 182,bellossom,Bellossom,182,bellossom,Bellossom,True
@@ -759,6 +773,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 207,gligar_shadow,Gligar (Shadow),207,gligar_shadow,Gligar (Shadow),True
 207,gligar_shadow,Gligar (Shadow),472,gliscor_shadow,Gliscor (Shadow),False
 208,steelix,Steelix,208,steelix,Steelix,True
+208,steelix,Steelix,208,steelix_mega,Steelix (Mega),False
 208,steelix_mega,Steelix (Mega),208,steelix_mega,Steelix (Mega),True
 208,steelix_shadow,Steelix (Shadow),208,steelix_shadow,Steelix (Shadow),True
 209,snubbull,Snubbull,209,snubbull,Snubbull,True
@@ -771,11 +786,13 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 211,qwilfish_hisuian,Qwilfish (Hisuian),211,qwilfish_hisuian,Qwilfish (Hisuian),True
 211,qwilfish_hisuian,Qwilfish (Hisuian),904,overqwil,Overqwil,False
 212,scizor,Scizor,212,scizor,Scizor,True
+212,scizor,Scizor,212,scizor_mega,Scizor (Mega),False
 212,scizor_mega,Scizor (Mega),212,scizor_mega,Scizor (Mega),True
 212,scizor_shadow,Scizor (Shadow),212,scizor_shadow,Scizor (Shadow),True
 213,shuckle,Shuckle,213,shuckle,Shuckle,True
 213,shuckle_shadow,Shuckle (Shadow),213,shuckle_shadow,Shuckle (Shadow),True
 214,heracross,Heracross,214,heracross,Heracross,True
+214,heracross,Heracross,214,heracross_mega,Heracross (Mega),False
 214,heracross_mega,Heracross (Mega),214,heracross_mega,Heracross (Mega),True
 215,sneasel,Sneasel,215,sneasel,Sneasel,True
 215,sneasel,Sneasel,461,weavile,Weavile,False
@@ -824,6 +841,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 228,houndour_shadow,Houndour (Shadow),228,houndour_shadow,Houndour (Shadow),True
 228,houndour_shadow,Houndour (Shadow),229,houndoom_shadow,Houndoom (Shadow),False
 229,houndoom,Houndoom,229,houndoom,Houndoom,True
+229,houndoom,Houndoom,229,houndoom_mega,Houndoom (Mega),False
 229,houndoom_mega,Houndoom (Mega),229,houndoom_mega,Houndoom (Mega),True
 229,houndoom_shadow,Houndoom (Shadow),229,houndoom_shadow,Houndoom (Shadow),True
 230,kingdra,Kingdra,230,kingdra,Kingdra,True
@@ -882,6 +900,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 247,pupitar_shadow,Pupitar (Shadow),247,pupitar_shadow,Pupitar (Shadow),True
 247,pupitar_shadow,Pupitar (Shadow),248,tyranitar_shadow,Tyranitar (Shadow),False
 248,tyranitar,Tyranitar,248,tyranitar,Tyranitar,True
+248,tyranitar,Tyranitar,248,tyranitar_mega,Tyranitar (Mega),False
 248,tyranitar_mega,Tyranitar (Mega),248,tyranitar_mega,Tyranitar (Mega),True
 248,tyranitar_shadow,Tyranitar (Shadow),248,tyranitar_shadow,Tyranitar (Shadow),True
 249,lugia,Lugia,249,lugia,Lugia,True
@@ -900,6 +919,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 253,grovyle_shadow,Grovyle (Shadow),253,grovyle_shadow,Grovyle (Shadow),True
 253,grovyle_shadow,Grovyle (Shadow),254,sceptile_shadow,Sceptile (Shadow),False
 254,sceptile,Sceptile,254,sceptile,Sceptile,True
+254,sceptile,Sceptile,254,sceptile_mega,Sceptile (Mega),False
 254,sceptile_mega,Sceptile (Mega),254,sceptile_mega,Sceptile (Mega),True
 254,sceptile_shadow,Sceptile (Shadow),254,sceptile_shadow,Sceptile (Shadow),True
 255,torchic,Torchic,255,torchic,Torchic,True
@@ -913,6 +933,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 256,combusken_shadow,Combusken (Shadow),256,combusken_shadow,Combusken (Shadow),True
 256,combusken_shadow,Combusken (Shadow),257,blaziken_shadow,Blaziken (Shadow),False
 257,blaziken,Blaziken,257,blaziken,Blaziken,True
+257,blaziken,Blaziken,257,blaziken_mega,Blaziken (Mega),False
 257,blaziken_mega,Blaziken (Mega),257,blaziken_mega,Blaziken (Mega),True
 257,blaziken_shadow,Blaziken (Shadow),257,blaziken_shadow,Blaziken (Shadow),True
 258,mudkip,Mudkip,258,mudkip,Mudkip,True
@@ -926,6 +947,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 259,marshtomp_shadow,Marshtomp (Shadow),259,marshtomp_shadow,Marshtomp (Shadow),True
 259,marshtomp_shadow,Marshtomp (Shadow),260,swampert_shadow,Swampert (Shadow),False
 260,swampert,Swampert,260,swampert,Swampert,True
+260,swampert,Swampert,260,swampert_mega,Swampert (Mega),False
 260,swampert_mega,Swampert (Mega),260,swampert_mega,Swampert (Mega),True
 260,swampert_shadow,Swampert (Shadow),260,swampert_shadow,Swampert (Shadow),True
 261,poochyena,Poochyena,261,poochyena,Poochyena,True
@@ -992,6 +1014,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 281,kirlia_shadow,Kirlia (Shadow),282,gardevoir_shadow,Gardevoir (Shadow),False
 281,kirlia_shadow,Kirlia (Shadow),475,gallade_shadow,Gallade (Shadow),False
 282,gardevoir,Gardevoir,282,gardevoir,Gardevoir,True
+282,gardevoir,Gardevoir,282,gardevoir_mega,Gardevoir (Mega),False
 282,gardevoir_mega,Gardevoir (Mega),282,gardevoir_mega,Gardevoir (Mega),True
 282,gardevoir_shadow,Gardevoir (Shadow),282,gardevoir_shadow,Gardevoir (Shadow),True
 283,surskit,Surskit,283,surskit,Surskit,True
@@ -1040,6 +1063,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 300,skitty,Skitty,301,delcatty,Delcatty,False
 301,delcatty,Delcatty,301,delcatty,Delcatty,True
 302,sableye,Sableye,302,sableye,Sableye,True
+302,sableye,Sableye,302,sableye_mega,Sableye (Mega),False
 302,sableye_mega,Sableye (Mega),302,sableye_mega,Sableye (Mega),True
 302,sableye_shadow,Sableye (Shadow),302,sableye_shadow,Sableye (Shadow),True
 303,mawile,Mawile,303,mawile,Mawile,True
@@ -1055,11 +1079,13 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 305,lairon_shadow,Lairon (Shadow),305,lairon_shadow,Lairon (Shadow),True
 305,lairon_shadow,Lairon (Shadow),306,aggron_shadow,Aggron (Shadow),False
 306,aggron,Aggron,306,aggron,Aggron,True
+306,aggron,Aggron,306,aggron_mega,Aggron (Mega),False
 306,aggron_mega,Aggron (Mega),306,aggron_mega,Aggron (Mega),True
 306,aggron_shadow,Aggron (Shadow),306,aggron_shadow,Aggron (Shadow),True
 307,meditite,Meditite,307,meditite,Meditite,True
 307,meditite,Meditite,308,medicham,Medicham,False
 308,medicham,Medicham,308,medicham,Medicham,True
+308,medicham,Medicham,308,medicham_mega,Medicham (Mega),False
 308,medicham_mega,Medicham (Mega),308,medicham_mega,Medicham (Mega),True
 309,electrike,Electrike,309,electrike,Electrike,True
 309,electrike,Electrike,310,manectric,Manectric,False
@@ -1067,6 +1093,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 309,electrike_shadow,Electrike (Shadow),309,electrike_shadow,Electrike (Shadow),True
 309,electrike_shadow,Electrike (Shadow),310,manectric_shadow,Manectric (Shadow),False
 310,manectric,Manectric,310,manectric,Manectric,True
+310,manectric,Manectric,310,manectric_mega,Manectric (Mega),False
 310,manectric_mega,Manectric (Mega),310,manectric_mega,Manectric (Mega),True
 310,manectric_shadow,Manectric (Shadow),310,manectric_shadow,Manectric (Shadow),True
 311,plusle,Plusle,311,plusle,Plusle,True
@@ -1126,6 +1153,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 333,swablu,Swablu,334,altaria,Altaria,False
 333,swablu,Swablu,334,altaria_mega,Altaria (Mega),False
 334,altaria,Altaria,334,altaria,Altaria,True
+334,altaria,Altaria,334,altaria_mega,Altaria (Mega),False
 334,altaria_mega,Altaria (Mega),334,altaria_mega,Altaria (Mega),True
 335,zangoose,Zangoose,335,zangoose,Zangoose,True
 336,seviper,Seviper,336,seviper,Seviper,True
@@ -1171,6 +1199,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 353,shuppet_shadow,Shuppet (Shadow),353,shuppet_shadow,Shuppet (Shadow),True
 353,shuppet_shadow,Shuppet (Shadow),354,banette_shadow,Banette (Shadow),False
 354,banette,Banette,354,banette,Banette,True
+354,banette,Banette,354,banette_mega,Banette (Mega),False
 354,banette_mega,Banette (Mega),354,banette_mega,Banette (Mega),True
 354,banette_shadow,Banette (Shadow),354,banette_shadow,Banette (Shadow),True
 355,duskull,Duskull,355,duskull,Duskull,True
@@ -1186,6 +1215,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 357,tropius,Tropius,357,tropius,Tropius,True
 358,chimecho,Chimecho,358,chimecho,Chimecho,True
 359,absol,Absol,359,absol,Absol,True
+359,absol,Absol,359,absol_mega,Absol (Mega),False
 359,absol_mega,Absol (Mega),359,absol_mega,Absol (Mega),True
 359,absol_shadow,Absol (Shadow),359,absol_shadow,Absol (Shadow),True
 360,wynaut,Wynaut,202,wobbuffet,Wobbuffet,False
@@ -1198,6 +1228,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 361,snorunt_shadow,Snorunt (Shadow),362,glalie_shadow,Glalie (Shadow),False
 361,snorunt_shadow,Snorunt (Shadow),478,froslass_shadow,Froslass (Shadow),False
 362,glalie,Glalie,362,glalie,Glalie,True
+362,glalie,Glalie,362,glalie_mega,Glalie (Mega),False
 362,glalie_mega,Glalie (Mega),362,glalie_mega,Glalie (Mega),True
 362,glalie_shadow,Glalie (Shadow),362,glalie_shadow,Glalie (Shadow),True
 363,spheal,Spheal,363,spheal,Spheal,True
@@ -1230,6 +1261,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 372,shelgon_shadow,Shelgon (Shadow),372,shelgon_shadow,Shelgon (Shadow),True
 372,shelgon_shadow,Shelgon (Shadow),373,salamence_shadow,Salamence (Shadow),False
 373,salamence,Salamence,373,salamence,Salamence,True
+373,salamence,Salamence,373,salamence_mega,Salamence (Mega),False
 373,salamence_mega,Salamence (Mega),373,salamence_mega,Salamence (Mega),True
 373,salamence_shadow,Salamence (Shadow),373,salamence_shadow,Salamence (Shadow),True
 374,beldum,Beldum,374,beldum,Beldum,True
@@ -1251,18 +1283,23 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 379,registeel,Registeel,379,registeel,Registeel,True
 379,registeel_shadow,Registeel (Shadow),379,registeel_shadow,Registeel (Shadow),True
 380,latias,Latias,380,latias,Latias,True
+380,latias,Latias,380,latias_mega,Latias (Mega),False
 380,latias_mega,Latias (Mega),380,latias_mega,Latias (Mega),True
 380,latias_shadow,Latias (Shadow),380,latias_shadow,Latias (Shadow),True
 381,latios,Latios,381,latios,Latios,True
+381,latios,Latios,381,latios_mega,Latios (Mega),False
 381,latios_mega,Latios (Mega),381,latios_mega,Latios (Mega),True
 381,latios_shadow,Latios (Shadow),381,latios_shadow,Latios (Shadow),True
 382,kyogre,Kyogre,382,kyogre,Kyogre,True
+382,kyogre,Kyogre,382,kyogre_primal,Kyogre (Primal),False
 382,kyogre_primal,Kyogre (Primal),382,kyogre_primal,Kyogre (Primal),True
 382,kyogre_shadow,Kyogre (Shadow),382,kyogre_shadow,Kyogre (Shadow),True
 383,groudon,Groudon,383,groudon,Groudon,True
+383,groudon,Groudon,383,groudon_primal,Groudon (Primal),False
 383,groudon_primal,Groudon (Primal),383,groudon_primal,Groudon (Primal),True
 383,groudon_shadow,Groudon (Shadow),383,groudon_shadow,Groudon (Shadow),True
 384,rayquaza,Rayquaza,384,rayquaza,Rayquaza,True
+384,rayquaza,Rayquaza,384,rayquaza_mega,Rayquaza (Mega),False
 384,rayquaza_mega,Rayquaza (Mega),384,rayquaza_mega,Rayquaza (Mega),True
 385,jirachi,Jirachi,385,jirachi,Jirachi,True
 386,deoxys,Deoxys,386,deoxys,Deoxys,True
@@ -1391,6 +1428,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 427,buneary,Buneary,428,lopunny,Lopunny,False
 427,buneary,Buneary,428,lopunny_mega,Lopunny (Mega),False
 428,lopunny,Lopunny,428,lopunny,Lopunny,True
+428,lopunny,Lopunny,428,lopunny_mega,Lopunny (Mega),False
 428,lopunny_mega,Lopunny (Mega),428,lopunny_mega,Lopunny (Mega),True
 429,mismagius,Mismagius,429,mismagius,Mismagius,True
 429,mismagius_shadow,Mismagius (Shadow),429,mismagius_shadow,Mismagius (Shadow),True
@@ -1436,6 +1474,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 444,gabite_shadow,Gabite (Shadow),444,gabite_shadow,Gabite (Shadow),True
 444,gabite_shadow,Gabite (Shadow),445,garchomp_shadow,Garchomp (Shadow),False
 445,garchomp,Garchomp,445,garchomp,Garchomp,True
+445,garchomp,Garchomp,445,garchomp_mega,Garchomp (Mega),False
 445,garchomp_mega,Garchomp (Mega),445,garchomp_mega,Garchomp (Mega),True
 445,garchomp_shadow,Garchomp (Shadow),445,garchomp_shadow,Garchomp (Shadow),True
 446,munchlax,Munchlax,143,snorlax,Snorlax,False
@@ -1474,6 +1513,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 459,snover_shadow,Snover (Shadow),459,snover_shadow,Snover (Shadow),True
 459,snover_shadow,Snover (Shadow),460,abomasnow_shadow,Abomasnow (Shadow),False
 460,abomasnow,Abomasnow,460,abomasnow,Abomasnow,True
+460,abomasnow,Abomasnow,460,abomasnow_mega,Abomasnow (Mega),False
 460,abomasnow_mega,Abomasnow (Mega),460,abomasnow_mega,Abomasnow (Mega),True
 460,abomasnow_shadow,Abomasnow (Shadow),460,abomasnow_shadow,Abomasnow (Shadow),True
 461,weavile,Weavile,461,weavile,Weavile,True
@@ -2014,6 +2054,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 718,zygarde_10,Zygarde (10% Forme),718,zygarde_10,Zygarde (10% Forme),True
 718,zygarde_complete,Zygarde (Complete Forme),718,zygarde_complete,Zygarde (Complete Forme),True
 719,diancie,Diancie,719,diancie,Diancie,True
+719,diancie,Diancie,719,diancie_mega,Diancie (Mega),False
 719,diancie_mega,Diancie (Mega),719,diancie_mega,Diancie (Mega),True
 720,hoopa,Hoopa,720,hoopa,Hoopa,True
 720,hoopa_confined,Hoopa (Confined),720,hoopa_confined,Hoopa (Confined),True

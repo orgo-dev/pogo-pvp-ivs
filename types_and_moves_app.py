@@ -35,7 +35,8 @@ def app(**kwargs):
     (
         ALL_POKEMON_STATS,
         POKE_DEX_IDS,
-        POKE_PARENT_DEX_IDS,
+        POKE_PARENTS,
+        POKE_CHILDREN,
         CP_MULTS,
         CP_COEF_PCTS,
         DF_XL_COSTS,

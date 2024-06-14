@@ -29,7 +29,7 @@ def update_pokemon():
     )
 
     # add FRUSTRATION move to shadow pokemon charged moves
-    mask_shadow_pokemon = df_pokemons["speciesName"].str.contains("\(Shadow\)")
+    mask_shadow_pokemon = df_pokemons["speciesName"].str.contains(r"\(Shadow\)")
     frustration_move = mask_shadow_pokemon.map({False: [], True: ["FRUSTRATION"]})
     df_pokemons["chargedMoves"] = df_pokemons["chargedMoves"] + frustration_move
 
@@ -152,15 +152,28 @@ def update_pokemon_parents(df_pokemons):
                 ]
             ]
         )
-        df_parents = (
-            pd.concat([df_parents, df_next])
-            .sort_values(
-                ["dex_parent", "pokemon_id_parent", "dex_child", "pokemon_id_child"]
-            )
-            .reset_index(drop=True)
-        )
+        df_parents = pd.concat([df_parents, df_next])
         if len(df_next) == 0:
             break
+
+    # add rows for megas so that non-mega acts as parent to the mega
+    mask_megas = df_parents["pokemon_id_parent"].str.contains(
+        r"(?:_mega|_primal)", regex=True
+    )
+    df_mega_parents = df_parents[mask_megas].assign(
+        pokemon_id_parent=lambda x: x.pokemon_id_parent.str.split(
+            r"(?:_mega|_primal)"
+        ).str[0],
+        pokemon_parent=lambda x: x.pokemon_parent.str.split(
+            r"(?: \(Mega| \(Primal)"
+        ).str[0],
+        is_self=False,
+    )
+    df_parents = (
+        pd.concat([df_parents, df_mega_parents])
+        .sort_values(["dex_parent", "pokemon_id_parent", "dex_child", "pokemon_id_child"])
+        .reset_index(drop=True)
+    )
 
     # output to csv
     df_parents.to_csv(PATH_DATA / "pokemon_parents.csv", index=False)
