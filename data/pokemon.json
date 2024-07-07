@@ -8525,6 +8525,9 @@
         "tags": [
             "shadoweligible"
         ],
+        "nicknames": [
+            "wrath"
+        ],
         "eliteMoves": [
             "SUBMISSION",
             "COUNTER"
@@ -8536,10 +8539,7 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl"
-        },
-        "nicknames": [
-            "wrath"
-        ]
+        }
     },
     {
         "dex": 62,
@@ -8598,6 +8598,9 @@
         "tags": [
             "shadow"
         ],
+        "nicknames": [
+            "wrath"
+        ],
         "eliteMoves": [
             "SUBMISSION",
             "COUNTER"
@@ -8609,10 +8612,7 @@
         "family": {
             "id": "FAMILY_POLIWAG",
             "parent": "poliwhirl_shadow"
-        },
-        "nicknames": [
-            "wrath"
-        ]
+        }
     },
     {
         "dex": 63,
@@ -20885,6 +20885,10 @@
             "WATER_GUN",
             "HYDRO_CANNON"
         ],
+        "nicknames": [
+            "gatr",
+            "gator"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -20948,6 +20952,10 @@
         "eliteMoves": [
             "WATER_GUN",
             "HYDRO_CANNON"
+        ],
+        "nicknames": [
+            "gatr",
+            "gator"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
@@ -38362,6 +38370,9 @@
                 15
             ]
         },
+        "nicknames": [
+            "cash"
+        ],
         "searchPriority": 10,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
@@ -38418,6 +38429,9 @@
                 15
             ]
         },
+        "nicknames": [
+            "cash"
+        ],
         "searchPriority": 10,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
@@ -43171,7 +43185,7 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 385,
@@ -50650,6 +50664,9 @@
         "tags": [
             "shadoweligible"
         ],
+        "nicknames": [
+            "zone"
+        ],
         "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -50706,6 +50723,9 @@
         },
         "tags": [
             "shadow"
+        ],
+        "nicknames": [
+            "zone"
         ],
         "searchPriority": 4,
         "buddyDistance": 3,
@@ -52878,6 +52898,9 @@
         "tags": [
             "legendary"
         ],
+        "nicknames": [
+            "dialgao"
+        ],
         "defaultIVs": {
             "cp500": [
                 4.5,
@@ -52982,6 +53005,9 @@
         ],
         "tags": [
             "legendary"
+        ],
+        "nicknames": [
+            "palkiao"
         ],
         "defaultIVs": {
             "cp500": [
@@ -69157,6 +69183,9 @@
                 15
             ]
         },
+        "nicknames": [
+            "bink"
+        ],
         "searchPriority": 3,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
@@ -76348,6 +76377,10 @@
         "tags": [
             "ultrabeast"
         ],
+        "searchPriority": 3,
+        "nicknames": [
+            "dawn"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -76403,6 +76436,10 @@
         "tags": [
             "ultrabeast"
         ],
+        "nicknames": [
+            "dusk"
+        ],
+        "searchPriority": 3,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -83402,6 +83439,9 @@
                 11
             ]
         },
+        "nicknames": [
+            "dirge"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -87572,6 +87612,9 @@
                 7
             ]
         },
+        "nicknames": [
+            "ape"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
