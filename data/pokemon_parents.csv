@@ -1723,9 +1723,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 554,darumaka,Darumaka,555,darmanitan_galarian_standard,Darmanitan (Galarian),False
 554,darumaka,Darumaka,555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),False
 554,darumaka,Darumaka,555,darmanitan_standard,Darmanitan (Standard),False
-554,darumaka,Darumaka,555,darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),False
 554,darumaka,Darumaka,555,darmanitan_zen,Darmanitan (Zen),False
 554,darumaka_galarian,Darumaka (Galarian),554,darumaka_galarian,Darumaka (Galarian),True
+554,darumaka_shadow,Darumaka (Shadow),554,darumaka_shadow,Darumaka (Shadow),True
+554,darumaka_shadow,Darumaka (Shadow),555,darmanitan_standard_shadow,Darmanitan (Standard) (Shadow),False
 555,darmanitan_galarian_standard,Darmanitan (Galarian),555,darmanitan_galarian_standard,Darmanitan (Galarian),True
 555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),555,darmanitan_galarian_zen,Darmanitan (Galarian Zen),True
 555,darmanitan_standard,Darmanitan (Standard),555,darmanitan_standard,Darmanitan (Standard),True
