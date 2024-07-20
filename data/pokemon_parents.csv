@@ -1482,7 +1482,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 446,munchlax,Munchlax,446,munchlax,Munchlax,True
 447,riolu,Riolu,447,riolu,Riolu,True
 447,riolu,Riolu,448,lucario,Lucario,False
+447,riolu,Riolu,448,lucario_mega,Lucario (Mega),False
 448,lucario,Lucario,448,lucario,Lucario,True
+448,lucario,Lucario,448,lucario_mega,Lucario (Mega),False
+448,lucario_mega,Lucario (Mega),448,lucario_mega,Lucario (Mega),True
 449,hippopotas,Hippopotas,449,hippopotas,Hippopotas,True
 449,hippopotas,Hippopotas,450,hippowdon,Hippowdon,False
 449,hippopotas_shadow,Hippopotas (Shadow),449,hippopotas_shadow,Hippopotas (Shadow),True
