@@ -695,11 +695,10 @@ def app(app="GBL IV Stats", **kwargs):
                 st.session_state["fmg_filters"] = []
             st.markdown("FMG use the selected pokemon in filters:")
             for p in POKE_PARENTS.get(pokemon, []):
-                do_print_selected_ivs_dex_id = st.checkbox(p, False)
+                do_print_selected_ivs_dex_id = st.checkbox(p, True)
                 if do_print_selected_ivs_dex_id:
                     print_selected_ivs_dex_ids.append(POKE_DEX_IDS[p])
             fmg_form_id = st.number_input("FMG form id to use in filters", step=1)
-
 
     ############################################################################
     # MAIN APP
@@ -922,7 +921,9 @@ def app(app="GBL IV Stats", **kwargs):
                 # option to display pokemon + parent dex ids with list of selected ivs
                 if len(print_selected_ivs_dex_ids) and len(selected_ivs):
                     if kwargs.get("fmg_old", ["False"])[0].lower() == "true":
-                        st.caption("String with selected IVs for pokemon and parent dex ids")
+                        st.caption(
+                            "String with selected IVs for pokemon and parent dex ids"
+                        )
                         selected_ivs_str = ",".join(
                             [
                                 "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
@@ -954,8 +955,8 @@ def app(app="GBL IV Stats", **kwargs):
                         fmg_filters = [
                             (
                                 {
-                                    "title": f"{selected_pokemon} {r['League'][0]}L R{r['Rank']} CMP-{r['R1 CMP']}",
-                                    "enabled": False,
+                                    "title": f"{selected_pokemon} {r['League'][0]}L R{r['Rank']:04d}",
+                                    "enabled": True,
                                     "pokemonIdList": fmg_pokemon_id_list,
                                     "filterPokemonId": True,
                                     "levelMin": 1,
@@ -1125,21 +1126,24 @@ def app(app="GBL IV Stats", **kwargs):
     # create fmg config download
     if st.session_state.get("fmg_filters"):
         with st.sidebar:
-            flymego_json = json.dumps(
-                {
-                    "snipeMapPokemonFilters": {
-                        "mapPokemonFilters": st.session_state["fmg_filters"]
-                    }
-                },
-                indent=2,
-            )
-            st.download_button(
-                "Download FMG config",
-                flymego_json,
-                file_name="fmg_config.json",
-            )
-            with st.expander("See FMG config"):
-                st.code(flymego_json, language=None)
+            if st.button("Reset FMG config state"):
+                st.session_state["fmg_filters"] = []
+            else:
+                flymego_json = json.dumps(
+                    {
+                        "snipeMapPokemonFilters": {
+                            "mapPokemonFilters": st.session_state["fmg_filters"]
+                        }
+                    },
+                    indent=2,
+                )
+                st.download_button(
+                    "Download FMG config",
+                    flymego_json,
+                    file_name="fmg_config.json",
+                )
+                with st.expander("See FMG config"):
+                    st.code(flymego_json, language=None)
 
     # create sharable url
     with st.sidebar:
