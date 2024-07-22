@@ -1,5 +1,5 @@
 import streamlit as st
-import math, re, sqlite3, pandas as pd, numpy as np
+import math, re, sqlite3, json, pandas as pd, numpy as np
 from bisect import bisect
 from st_aggrid import (
     GridOptionsBuilder,
@@ -679,7 +679,7 @@ def app(app="GBL IV Stats", **kwargs):
                 kwargs.get("show_evolution_stats", ["True"])[0] == "True"
             )
             for p in POKE_CHILDREN.get(pokemon, []):
-                if p==pokemon:
+                if p == pokemon:
                     continue
                 do_show_pokemon_evolution_stats = st.checkbox(
                     p, default_show_evolution_stats
@@ -688,20 +688,18 @@ def app(app="GBL IV Stats", **kwargs):
                     show_evolution_stats_list.append(p)
         show_evolution_stats = True if show_evolution_stats_list else False
 
-        default_print_selected_ivs = (
-            kwargs.get("print_selected_ivs", ["False"])[0] == "True"
-        )
-        st.markdown("Print out selected IVs:")
         print_selected_ivs_dex_ids = []
-        for p in POKE_PARENTS.get(pokemon, []):
-            do_print_selected_ivs_dex_id = st.checkbox(
-                p, default_print_selected_ivs
-            )
-            if do_print_selected_ivs_dex_id:
-                print_selected_ivs_dex_ids.append(POKE_DEX_IDS[p])
-        print_selected_ivs = True if print_selected_ivs_dex_ids else False
+        if kwargs.get("fmg", ["False"])[0].lower() == "true":
+            st.markdown("---")
+            if "fmg_filters" not in st.session_state:
+                st.session_state["fmg_filters"] = []
+            st.markdown("FMG use the selected pokemon in filters:")
+            for p in POKE_PARENTS.get(pokemon, []):
+                do_print_selected_ivs_dex_id = st.checkbox(p, False)
+                if do_print_selected_ivs_dex_id:
+                    print_selected_ivs_dex_ids.append(POKE_DEX_IDS[p])
+            fmg_form_id = st.number_input("FMG form id to use in filters", step=1)
 
-        st.markdown("---")
 
     ############################################################################
     # MAIN APP
@@ -807,9 +805,11 @@ def app(app="GBL IV Stats", **kwargs):
                     f"{(mask_inputs | mask_searched).sum() - len(df)} removed by filters, "
                     f"leaving {len(df)} IVs remaining."
                 )
-            
-            if len(df)==0:
-                st.caption(f"No {selected_pokemon} {league} league results for the current search and filter options.")
+
+            if len(df) == 0:
+                st.caption(
+                    f"No {selected_pokemon} {league} league results for the current search and filter options."
+                )
                 continue
 
             # setup default preselected_ivs
@@ -896,7 +896,7 @@ def app(app="GBL IV Stats", **kwargs):
                 df,
                 gridOptions=grid_options,
                 # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-                height=len(df) * 20 + 25 if len(df) <= 20 else 425,
+                # height=len(df) * 20 + 26 if len(df) <= 20 else 425,
                 custom_css={
                     ".ag-theme-streamlit-dark": {
                         "--ag-grid-size": "3px",
@@ -906,7 +906,7 @@ def app(app="GBL IV Stats", **kwargs):
                     },
                     "div.ag-root.ag-unselectable.ag-layout-normal": {
                         "height": "750px !important"
-                    }    
+                    },
                 },
                 # key=f"ivs-{selected_pokemon}-{league}",
                 # update_mode=GridUpdateMode.VALUE_CHANGED,
@@ -921,19 +921,65 @@ def app(app="GBL IV Stats", **kwargs):
 
                 # option to display pokemon + parent dex ids with list of selected ivs
                 if len(print_selected_ivs_dex_ids) and len(selected_ivs):
-                    st.caption("String with selected IVs for pokemon and parent dex ids")
-                    selected_ivs_str = ",".join(
-                        [
-                            "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
-                                dex=dex,
-                                lvl_max=int(row["Level"]),
-                                **row,
+                    if kwargs.get("fmg_old", ["False"])[0].lower() == "true":
+                        st.caption("String with selected IVs for pokemon and parent dex ids")
+                        selected_ivs_str = ",".join(
+                            [
+                                "{dex}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
+                                    dex=dex,
+                                    lvl_max=int(row["Level"]),
+                                    **row,
+                                )
+                                for row in selected_ivs
+                                for dex in print_selected_ivs_dex_ids
+                            ]
+                        )
+                        st.code(selected_ivs_str, language=None)
+
+                    # fmg output
+                    if st.button(
+                        "Add selected IVs above to FMG config state",
+                        key=f"{selected_pokemon}-{league}",
+                    ):
+                        if "fmg_filters" not in st.session_state:
+                            st.session_state["fmg_filters"] = []
+                        fmg_pokemon_id_list = [
+                            (
+                                {"pokedexId": dex_id, "form": fmg_form_id}
+                                if fmg_form_id
+                                else {"pokedexId": dex_id}
                             )
-                            for row in selected_ivs
-                            for dex in print_selected_ivs_dex_ids
+                            for dex_id in print_selected_ivs_dex_ids
                         ]
-                    )
-                    st.code(selected_ivs_str, language=None)
+                        fmg_filters = [
+                            (
+                                {
+                                    "title": f"{selected_pokemon} {r['League'][0]}L R{r['Rank']} CMP-{r['R1 CMP']}",
+                                    "enabled": False,
+                                    "pokemonIdList": fmg_pokemon_id_list,
+                                    "filterPokemonId": True,
+                                    "levelMin": 1,
+                                    "levelMax": int(r["Level"]),
+                                    "filterLevel": True,
+                                    "specificIvAtk": r["IV Atk"],
+                                    "specificIvDef": r["IV Def"],
+                                    "specificIvSta": r["IV HP"],
+                                    "filterSpecificIv": True,
+                                }
+                            )
+                            for r in selected_ivs
+                        ]
+                        fmg_added_titles = [f["title"] for f in fmg_filters]
+                        st.session_state["fmg_filters"] = sorted(
+                            fmg_filters
+                            + [
+                                f
+                                for f in st.session_state["fmg_filters"]
+                                if f["title"] not in fmg_added_titles
+                            ],
+                            key=lambda f: f["title"],
+                        )
+                        st.write("Added!")
 
                 if show_moves:
                     # fast moves
@@ -1076,7 +1122,24 @@ def app(app="GBL IV Stats", **kwargs):
                             with pvpoke_lines_cols[1]:
                                 st.code("\n".join(pvpoke_text_lines), language=None)
 
-        # st.markdown("---")
+    # create fmg config download
+    if st.session_state.get("fmg_filters"):
+        with st.sidebar:
+            flymego_json = json.dumps(
+                {
+                    "snipeMapPokemonFilters": {
+                        "mapPokemonFilters": st.session_state["fmg_filters"]
+                    }
+                },
+                indent=2,
+            )
+            st.download_button(
+                "Download FMG config",
+                flymego_json,
+                file_name="fmg_config.json",
+            )
+            with st.expander("See FMG config"):
+                st.code(flymego_json, language=None)
 
     # create sharable url
     with st.sidebar:
@@ -1124,7 +1187,6 @@ def app(app="GBL IV Stats", **kwargs):
             "show_evolution_stats",
             "show_moves",
             "show_pvpoke_text",
-            "print_selected_ivs",
             "show_xl_regular",
             "show_xl_lucky",
             "show_xl_shadow",
@@ -1134,6 +1196,7 @@ def app(app="GBL IV Stats", **kwargs):
             "preselected_charged",
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
+        st.markdown("---")
         st.markdown(f"[Share this app's output]({url})")
         st.markdown("---")
 
