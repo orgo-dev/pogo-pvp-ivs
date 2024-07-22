@@ -1,5 +1,5 @@
 import streamlit as st
-import math, re, sqlite3, json, pandas as pd, numpy as np
+import math, re, sqlite3, json, warnings, pandas as pd, numpy as np
 from bisect import bisect
 from st_aggrid import (
     GridOptionsBuilder,
@@ -891,26 +891,28 @@ def app(app="GBL IV Stats", **kwargs):
             # gb.configure_column("pokemon-league", hide=True)
 
             grid_options = gb.build()
-            ivs_response = AgGrid(
-                df,
-                gridOptions=grid_options,
-                # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-                # height=len(df) * 20 + 26 if len(df) <= 20 else 425,
-                custom_css={
-                    ".ag-theme-streamlit-dark": {
-                        "--ag-grid-size": "3px",
+            with warnings.catch_warnings():
+                warnings.simplefilter(action='ignore', category=FutureWarning)
+                ivs_response = AgGrid(
+                    df,
+                    gridOptions=grid_options,
+                    # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+                    # height=len(df) * 20 + 26 if len(df) <= 20 else 425,
+                    custom_css={
+                        ".ag-theme-streamlit-dark": {
+                            "--ag-grid-size": "3px",
+                        },
+                        "#gridToolBar": {
+                            "padding-bottom": "30px !important",
+                        },
+                        "div.ag-root.ag-unselectable.ag-layout-normal": {
+                            "height": "750px !important"
+                        },
                     },
-                    "#gridToolBar": {
-                        "padding-bottom": "30px !important",
-                    },
-                    "div.ag-root.ag-unselectable.ag-layout-normal": {
-                        "height": "750px !important"
-                    },
-                },
-                # key=f"ivs-{selected_pokemon}-{league}",
-                # update_mode=GridUpdateMode.VALUE_CHANGED,
-                # reload_data=True,
-            )
+                    # key=f"ivs-{selected_pokemon}-{league}",
+                    # update_mode=GridUpdateMode.VALUE_CHANGED,
+                    # reload_data=True,
+                )
             selected_ivs = ivs_response["selected_rows"]
             preselected_ivs = ",".join(
                 [r["_selectedRowNodeInfo"]["nodeId"] for r in selected_ivs]
