@@ -84,6 +84,7 @@ FLASH_CANNON,Flash Cannon,charged,steel,110,0,1,,,70,1.57,,Nuke,nan,,,nan,nan
 FLY,Fly,charged,flying,80,0,1,,,45,1.78,,General,nan,,,nan,nan
 FLYING_PRESS,Flying Press,charged,fighting,90,0,1,,,40,2.25,,Spam/Bait,nan,,,nan,nan
 FOCUS_BLAST,Focus Blast,charged,fighting,150,0,1,,,75,2.0,,Nuke,nan,,,nan,nan
+FORCE_PALM,Force Palm,fast,fighting,13,10,3,4.33,3.33,0,,,Multipurpose,nan,,,nan,nan
 FOUL_PLAY,Foul Play,charged,dark,70,0,1,,,45,1.56,,General,nan,,,nan,nan
 FRENZY_PLANT,Frenzy Plant,charged,grass,100,0,1,,,45,2.22,,General,nan,,,nan,nan
 FROST_BREATH,Frost Breath,fast,ice,7,5,2,3.5,2.5,0,,,Heavy Damage,nan,,,nan,nan
