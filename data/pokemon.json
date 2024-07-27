@@ -49235,7 +49235,8 @@
         ],
         "fastMoves": [
             "BULLET_PUNCH",
-            "COUNTER"
+            "COUNTER",
+            "FORCE_PALM"
         ],
         "chargedMoves": [
             "CLOSE_COMBAT",
@@ -49245,6 +49246,9 @@
             "AURA_SPHERE",
             "BLAZE_KICK",
             "THUNDER_PUNCH"
+        ],
+        "eliteMoves": [
+            "FORCE_PALM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -49289,7 +49293,8 @@
         ],
         "fastMoves": [
             "BULLET_PUNCH",
-            "COUNTER"
+            "COUNTER",
+            "FORCE_PALM"
         ],
         "chargedMoves": [
             "CLOSE_COMBAT",
@@ -49299,6 +49304,9 @@
             "AURA_SPHERE",
             "BLAZE_KICK",
             "THUNDER_PUNCH"
+        ],
+        "eliteMoves": [
+            "FORCE_PALM"
         ],
         "defaultIVs": {
             "cp500": [

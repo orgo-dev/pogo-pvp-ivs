@@ -1869,8 +1869,10 @@ Loudred (Shadow),Bite,fast,dark,1.0,4,2,1,4.0,2.0,Heavy Damage,
 Loudred (Shadow),Rock Smash,fast,fighting,1.0,9,7,3,3.0,2.33,Low Quality,
 Lucario,Bullet Punch,fast,steel,1.2,6,7,2,3.0,3.5,General,
 Lucario,Counter,fast,fighting,1.2,8,7,2,4.0,3.5,Multipurpose,
+Lucario,Force Palm,fast,fighting,1.2,13,10,3,4.33,3.33,Multipurpose,elite
 Lucario (Mega),Bullet Punch,fast,steel,1.2,6,7,2,3.0,3.5,General,
 Lucario (Mega),Counter,fast,fighting,1.2,8,7,2,4.0,3.5,Multipurpose,
+Lucario (Mega),Force Palm,fast,fighting,1.2,13,10,3,4.33,3.33,Multipurpose,elite
 Ludicolo,Bubble,fast,water,1.2,8,11,3,2.67,3.67,Fast Charge,
 Ludicolo,Razor Leaf,fast,grass,1.2,10,4,2,5.0,2.0,Heavy Damage,
 Lugia,Dragon Tail,fast,dragon,1.0,13,9,3,4.33,3.0,Multipurpose,
