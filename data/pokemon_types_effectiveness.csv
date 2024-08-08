@@ -16433,6 +16433,24 @@ Cresselia,ice,1.0
 Cresselia,dragon,1.0
 Cresselia,dark,1.6
 Cresselia,fairy,1.0
+Cresselia (Shadow),normal,1.0
+Cresselia (Shadow),fighting,0.625
+Cresselia (Shadow),flying,1.0
+Cresselia (Shadow),poison,1.0
+Cresselia (Shadow),ground,1.0
+Cresselia (Shadow),rock,1.0
+Cresselia (Shadow),bug,1.6
+Cresselia (Shadow),ghost,1.6
+Cresselia (Shadow),steel,1.0
+Cresselia (Shadow),fire,1.0
+Cresselia (Shadow),water,1.0
+Cresselia (Shadow),grass,1.0
+Cresselia (Shadow),electric,1.0
+Cresselia (Shadow),psychic,0.625
+Cresselia (Shadow),ice,1.0
+Cresselia (Shadow),dragon,1.0
+Cresselia (Shadow),dark,1.6
+Cresselia (Shadow),fairy,1.0
 Phione,normal,1.0
 Phione,fighting,1.0
 Phione,flying,1.0
@@ -17765,6 +17783,24 @@ Timburr,ice,1.0
 Timburr,dragon,1.0
 Timburr,dark,0.625
 Timburr,fairy,1.6
+Timburr (Shadow),normal,1.0
+Timburr (Shadow),fighting,1.0
+Timburr (Shadow),flying,1.6
+Timburr (Shadow),poison,1.0
+Timburr (Shadow),ground,1.0
+Timburr (Shadow),rock,0.625
+Timburr (Shadow),bug,0.625
+Timburr (Shadow),ghost,1.0
+Timburr (Shadow),steel,1.0
+Timburr (Shadow),fire,1.0
+Timburr (Shadow),water,1.0
+Timburr (Shadow),grass,1.0
+Timburr (Shadow),electric,1.0
+Timburr (Shadow),psychic,1.6
+Timburr (Shadow),ice,1.0
+Timburr (Shadow),dragon,1.0
+Timburr (Shadow),dark,0.625
+Timburr (Shadow),fairy,1.6
 Gurdurr,normal,1.0
 Gurdurr,fighting,1.0
 Gurdurr,flying,1.6
@@ -17783,6 +17819,24 @@ Gurdurr,ice,1.0
 Gurdurr,dragon,1.0
 Gurdurr,dark,0.625
 Gurdurr,fairy,1.6
+Gurdurr (Shadow),normal,1.0
+Gurdurr (Shadow),fighting,1.0
+Gurdurr (Shadow),flying,1.6
+Gurdurr (Shadow),poison,1.0
+Gurdurr (Shadow),ground,1.0
+Gurdurr (Shadow),rock,0.625
+Gurdurr (Shadow),bug,0.625
+Gurdurr (Shadow),ghost,1.0
+Gurdurr (Shadow),steel,1.0
+Gurdurr (Shadow),fire,1.0
+Gurdurr (Shadow),water,1.0
+Gurdurr (Shadow),grass,1.0
+Gurdurr (Shadow),electric,1.0
+Gurdurr (Shadow),psychic,1.6
+Gurdurr (Shadow),ice,1.0
+Gurdurr (Shadow),dragon,1.0
+Gurdurr (Shadow),dark,0.625
+Gurdurr (Shadow),fairy,1.6
 Conkeldurr,normal,1.0
 Conkeldurr,fighting,1.0
 Conkeldurr,flying,1.6
@@ -17801,6 +17855,24 @@ Conkeldurr,ice,1.0
 Conkeldurr,dragon,1.0
 Conkeldurr,dark,0.625
 Conkeldurr,fairy,1.6
+Conkeldurr (Shadow),normal,1.0
+Conkeldurr (Shadow),fighting,1.0
+Conkeldurr (Shadow),flying,1.6
+Conkeldurr (Shadow),poison,1.0
+Conkeldurr (Shadow),ground,1.0
+Conkeldurr (Shadow),rock,0.625
+Conkeldurr (Shadow),bug,0.625
+Conkeldurr (Shadow),ghost,1.0
+Conkeldurr (Shadow),steel,1.0
+Conkeldurr (Shadow),fire,1.0
+Conkeldurr (Shadow),water,1.0
+Conkeldurr (Shadow),grass,1.0
+Conkeldurr (Shadow),electric,1.0
+Conkeldurr (Shadow),psychic,1.6
+Conkeldurr (Shadow),ice,1.0
+Conkeldurr (Shadow),dragon,1.0
+Conkeldurr (Shadow),dark,0.625
+Conkeldurr (Shadow),fairy,1.6
 Tympole,normal,1.0
 Tympole,fighting,1.0
 Tympole,flying,1.0
@@ -18539,6 +18611,24 @@ Tirtouga,ice,0.625
 Tirtouga,dragon,1.0
 Tirtouga,dark,1.0
 Tirtouga,fairy,1.0
+Tirtouga (Shadow),normal,0.625
+Tirtouga (Shadow),fighting,1.6
+Tirtouga (Shadow),flying,0.625
+Tirtouga (Shadow),poison,0.625
+Tirtouga (Shadow),ground,1.6
+Tirtouga (Shadow),rock,1.0
+Tirtouga (Shadow),bug,1.0
+Tirtouga (Shadow),ghost,1.0
+Tirtouga (Shadow),steel,1.0
+Tirtouga (Shadow),fire,0.391
+Tirtouga (Shadow),water,1.0
+Tirtouga (Shadow),grass,2.56
+Tirtouga (Shadow),electric,1.6
+Tirtouga (Shadow),psychic,1.0
+Tirtouga (Shadow),ice,0.625
+Tirtouga (Shadow),dragon,1.0
+Tirtouga (Shadow),dark,1.0
+Tirtouga (Shadow),fairy,1.0
 Carracosta,normal,0.625
 Carracosta,fighting,1.6
 Carracosta,flying,0.625
@@ -18557,6 +18647,24 @@ Carracosta,ice,0.625
 Carracosta,dragon,1.0
 Carracosta,dark,1.0
 Carracosta,fairy,1.0
+Carracosta (Shadow),normal,0.625
+Carracosta (Shadow),fighting,1.6
+Carracosta (Shadow),flying,0.625
+Carracosta (Shadow),poison,0.625
+Carracosta (Shadow),ground,1.6
+Carracosta (Shadow),rock,1.0
+Carracosta (Shadow),bug,1.0
+Carracosta (Shadow),ghost,1.0
+Carracosta (Shadow),steel,1.0
+Carracosta (Shadow),fire,0.391
+Carracosta (Shadow),water,1.0
+Carracosta (Shadow),grass,2.56
+Carracosta (Shadow),electric,1.6
+Carracosta (Shadow),psychic,1.0
+Carracosta (Shadow),ice,0.625
+Carracosta (Shadow),dragon,1.0
+Carracosta (Shadow),dark,1.0
+Carracosta (Shadow),fairy,1.0
 Archen,normal,0.625
 Archen,fighting,1.0
 Archen,flying,0.625
@@ -18575,6 +18683,24 @@ Archen,ice,1.6
 Archen,dragon,1.0
 Archen,dark,1.0
 Archen,fairy,1.0
+Archen (Shadow),normal,0.625
+Archen (Shadow),fighting,1.0
+Archen (Shadow),flying,0.625
+Archen (Shadow),poison,0.625
+Archen (Shadow),ground,0.625
+Archen (Shadow),rock,1.6
+Archen (Shadow),bug,1.0
+Archen (Shadow),ghost,1.0
+Archen (Shadow),steel,1.6
+Archen (Shadow),fire,0.625
+Archen (Shadow),water,1.6
+Archen (Shadow),grass,1.0
+Archen (Shadow),electric,1.6
+Archen (Shadow),psychic,1.0
+Archen (Shadow),ice,1.6
+Archen (Shadow),dragon,1.0
+Archen (Shadow),dark,1.0
+Archen (Shadow),fairy,1.0
 Archeops,normal,0.625
 Archeops,fighting,1.0
 Archeops,flying,0.625
@@ -18593,6 +18719,24 @@ Archeops,ice,1.6
 Archeops,dragon,1.0
 Archeops,dark,1.0
 Archeops,fairy,1.0
+Archeops (Shadow),normal,0.625
+Archeops (Shadow),fighting,1.0
+Archeops (Shadow),flying,0.625
+Archeops (Shadow),poison,0.625
+Archeops (Shadow),ground,0.625
+Archeops (Shadow),rock,1.6
+Archeops (Shadow),bug,1.0
+Archeops (Shadow),ghost,1.0
+Archeops (Shadow),steel,1.6
+Archeops (Shadow),fire,0.625
+Archeops (Shadow),water,1.6
+Archeops (Shadow),grass,1.0
+Archeops (Shadow),electric,1.6
+Archeops (Shadow),psychic,1.0
+Archeops (Shadow),ice,1.6
+Archeops (Shadow),dragon,1.0
+Archeops (Shadow),dark,1.0
+Archeops (Shadow),fairy,1.0
 Trubbish,normal,1.0
 Trubbish,fighting,0.625
 Trubbish,flying,1.0
