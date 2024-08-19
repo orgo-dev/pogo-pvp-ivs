@@ -226,8 +226,18 @@ def get_league_pokemon_df(
 
     # ranks
     rank_cols = ["stats_prod", "level_attack", "level_defense", "cp", "iv_stamina"]
+    # best buddy
     rank_indices = df.sort_values(rank_cols, ascending=False).index
     df["rank"] = rank_indices.argsort() + 1
+    # non best buddy
+    msk = df["level"] <= MAX_LEVEL
+    rank_indices_non_bb = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_non_bb[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_non_bb[~msk] = None
+    df["rank_non_bb"] = rank_indices_non_bb
+    # bulk
     rank_cols = ["bulk_prod", "level_attack", "level_defense", "cp", "iv_stamina"]
     df["rank_bulk"] = df.sort_values(rank_cols, ascending=False).index.argsort() + 1
 
@@ -293,6 +303,7 @@ def get_league_pokemon_df(
                 "pokemon": "Pokemon",
                 "league": "League",
                 "rank": "Rank",
+                "rank_non_bb": f"Rank @{MAX_LEVEL}",
                 "level": "Level",
                 "cp": "CP",
                 "iv_attack": "IV Atk",
@@ -318,6 +329,7 @@ def get_league_pokemon_df(
                 "Pokemon",
                 "League",
                 "Rank",
+                f"Rank @{MAX_LEVEL}",
                 "Level",
                 "CP",
                 "IVs",
@@ -415,7 +427,6 @@ def app(app="GBL IV Stats", **kwargs):
             st.markdown("Spawn filters:")
             pokemon_fmg_configs[pokemon]["filter_dex_ids"] = []
             for p in POKE_PARENTS.get(pokemon, []):
-                print(p)
                 dex_id = POKE_DEX_IDS[p]
                 value = dex_id in default_pokemon_fmg_configs.get(pokemon, {}).get(
                     "filter_dex_ids", [dex_id]
@@ -440,20 +451,27 @@ def app(app="GBL IV Stats", **kwargs):
         st.markdown("Search options")
 
         # stats / bulk product rank
-        show_ranks_below_cols = st.columns(2)
-        with show_ranks_below_cols[0]:
-            default_stats_rank = int(kwargs.get("stats_rank", [20])[0])
-            stats_rank = st.number_input(
-                "Stats Prod Rank <=",
-                min_value=0,
-                max_value=99999,
-                value=default_stats_rank,
-            )
-        with show_ranks_below_cols[1]:
-            default_bulk_rank = int(kwargs.get("bulk_rank", [0])[0])
-            bulk_rank = st.number_input(
-                "Bulk Prod Rank <=", min_value=0, max_value=99999, value=default_bulk_rank
-            )
+        # show_ranks_below_cols = st.columns(2)
+        # with show_ranks_below_cols[0]:
+        default_stats_rank = int(kwargs.get("stats_rank", [20])[0])
+        stats_rank = st.number_input(
+            "Rank (Best Buddy) <=",
+            min_value=0,
+            max_value=99999,
+            value=default_stats_rank,
+        )
+        default_stats_rank_non_bb = int(kwargs.get("stats_rank_non_bb", [1])[0])
+        stats_rank_non_bb = st.number_input(
+            f"Rank @{MAX_LEVEL} <=",
+            min_value=0,
+            max_value=99999,
+            value=default_stats_rank_non_bb,
+        )
+        # with show_ranks_below_cols[1]:
+        default_bulk_rank = int(kwargs.get("bulk_rank", [0])[0])
+        bulk_rank = st.number_input(
+            "Bulk Rank <=", min_value=0, max_value=99999, value=default_bulk_rank
+        )
 
         # level max stats / hundo ivs
         search_options_row1 = st.columns(3)
@@ -657,26 +675,6 @@ def app(app="GBL IV Stats", **kwargs):
         show_individual_ivs = st.checkbox(
             "Show individual IV columns", default_show_individual_ivs
         )
-
-        # xl cost cols
-        st.markdown("Show XL costs")
-        xl_cost_cols = st.columns(4)
-        with xl_cost_cols[0]:
-            default_show_xl_regular = (
-                kwargs.get("show_xl_regular", ["False"])[0] == "True"
-            )
-            show_xl_regular = st.checkbox("Regular", default_show_xl_regular)
-        with xl_cost_cols[1]:
-            default_show_xl_lucky = kwargs.get("show_xl_lucky", ["False"])[0] == "True"
-            show_xl_lucky = st.checkbox("Lucky", default_show_xl_lucky)
-        with xl_cost_cols[2]:
-            default_show_xl_shadow = kwargs.get("show_xl_shadow", ["False"])[0] == "True"
-            show_xl_shadow = st.checkbox("Shadow", default_show_xl_shadow)
-        with xl_cost_cols[3]:
-            default_show_xl_purified = (
-                kwargs.get("show_xl_purified", ["False"])[0] == "True"
-            )
-            show_xl_purified = st.checkbox("Purified", default_show_xl_purified)
         st.markdown("---")
 
         # ~~~ OUTPUT OPTIONS ~~~
@@ -687,12 +685,6 @@ def app(app="GBL IV Stats", **kwargs):
         show_search_filter_details = st.checkbox(
             "Show search and filter result details",
             default_show_search_filter_details,
-        )
-        default_show_moves = kwargs.get("show_moves", ["False"])[0] == "True"
-        show_moves = st.checkbox("Show Pokemon moves", default_show_moves)
-        default_show_pvpoke_text = kwargs.get("show_pvpoke_text", ["False"])[0] == "True"
-        show_pvpoke_text = st.checkbox(
-            "Show Pvpoke import text (requires showing moves)", default_show_pvpoke_text
         )
 
     ############################################################################
@@ -731,6 +723,7 @@ def app(app="GBL IV Stats", **kwargs):
                 # mask searched
                 mask_searched = (
                     (df["Rank"] <= stats_rank)
+                    | (df[f"Rank @{MAX_LEVEL}"] <= stats_rank_non_bb)
                     | (df["Rank Bulk"] <= bulk_rank)
                     | (mask_t if all_ivs else mask_f)
                     | (df["is_level_max_stats"] if level_max_stats else mask_f)
@@ -787,10 +780,10 @@ def app(app="GBL IV Stats", **kwargs):
 
                 # set order of columns
                 df_col_order = (
-                    "League,Rank,Level,CP,IVs,IV Atk,IV Def,IV HP,Pct Max Stats,Stats Prod,"
-                    "Bulk Prod,Rank Bulk,Atk,Def,HP,R1 CMP,Efficient @50,Efficient @51,"
-                    "Efficient @Filters,Notes,Input,Regular XLs,Lucky XLs,Shadow XLs,"
-                    "Purified XLs"
+                    "League,Rank,Rank @50,Level,CP,IVs,IV Atk,IV Def,IV HP,"
+                    "Pct Max Stats,Stats Prod,Bulk Prod,Rank Bulk,Atk,Def,HP,R1 CMP,"
+                    "Efficient @51,Efficient @50,Efficient @Filters,Notes,Input,"
+                    "Regular XLs,Lucky XLs,Shadow XLs,Purified XLs"
                 ).split(",")
                 df = df[df_col_order]
 
@@ -859,7 +852,7 @@ def app(app="GBL IV Stats", **kwargs):
                     fmg_filters = [
                         json.dumps(
                             {
-                                "title": f"{input_pokemon} {r['League'][0]}L R{r['Rank']:04d}",
+                                "title": f"{input_pokemon} {r['League'][0]}L R{r[f'Rank']:04d}",
                                 "enabled": True,
                                 "pokemonIdList": fmg_pokemon_id_list,
                                 "filterPokemonId": True,
@@ -925,6 +918,7 @@ def app(app="GBL IV Stats", **kwargs):
             "custom_base_sta",
             "input_ivs",
             "stats_rank",
+            "stats_rank_non_bb",
             "bulk_rank",
             "all_ivs",
             "level_max_stats",
@@ -957,14 +951,6 @@ def app(app="GBL IV Stats", **kwargs):
             "show_individual_ivs",
             "show_prod_cols",
             "show_search_filter_details",
-            "show_moves",
-            "show_pvpoke_text",
-            "show_xl_regular",
-            "show_xl_lucky",
-            "show_xl_shadow",
-            "show_xl_purified",
-            "preselected_fast",
-            "preselected_charged",
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
         st.markdown("---")
