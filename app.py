@@ -8,6 +8,7 @@ st.set_page_config(
 )
 
 from pvp_ivs_app import app as gbl_iv_stats
+from pvp_ivs_app_fmg import app as fmg
 # from pvp_ivs_app_new import app as gbl_iv_stats_new
 from move_counts_app import app as move_counts
 from types_and_moves_app import app as types_and_moves
@@ -40,6 +41,8 @@ app.add_page("GBL IV Stats", gbl_iv_stats)
 # app.add_page("GBL IV Stats - new", gbl_iv_stats_new)
 app.add_page("Move Counts", move_counts)
 app.add_page("Pokemon Types and Moves", types_and_moves)
+if st.query_params.get_all("fmg") or st.query_params.get_all("fmg_old"):
+    app.add_page("FMG Configs", fmg)
 
 qp = {k:st.query_params.get_all(k) for k in st.query_params}
 app.run(**qp)
