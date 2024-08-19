@@ -632,6 +632,7 @@ def app(app="GBL IV Stats", **kwargs):
             default_level_le = int(kwargs.get("level_le", [51])[0])
             level_le = st.number_input(
                 "Level <=", min_value=0, max_value=51, value=default_level_le
+            )
         # cmp filter
         cmp_filter_options = ["Win", "Tie", "Lose"]
         default_cmp_filter = kwargs.get("cmp_filter", cmp_filter_options)
