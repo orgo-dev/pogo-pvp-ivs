@@ -1569,6 +1569,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 487,giratina_altered,Giratina (Altered),487,giratina_altered,Giratina (Altered),True
 487,giratina_origin,Giratina (Origin),487,giratina_origin,Giratina (Origin),True
 488,cresselia,Cresselia,488,cresselia,Cresselia,True
+488,cresselia_shadow,Cresselia (Shadow),488,cresselia_shadow,Cresselia (Shadow),True
 489,phione,Phione,489,phione,Phione,True
 489,phione,Phione,490,manaphy,Manaphy,False
 490,manaphy,Manaphy,490,manaphy,Manaphy,True
@@ -1682,9 +1683,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 532,timburr,Timburr,532,timburr,Timburr,True
 532,timburr,Timburr,533,gurdurr,Gurdurr,False
 532,timburr,Timburr,534,conkeldurr,Conkeldurr,False
+532,timburr_shadow,Timburr (Shadow),532,timburr_shadow,Timburr (Shadow),True
+532,timburr_shadow,Timburr (Shadow),533,gurdurr_shadow,Gurdurr (Shadow),False
+532,timburr_shadow,Timburr (Shadow),534,conkeldurr_shadow,Conkeldurr (Shadow),False
 533,gurdurr,Gurdurr,533,gurdurr,Gurdurr,True
 533,gurdurr,Gurdurr,534,conkeldurr,Conkeldurr,False
+533,gurdurr_shadow,Gurdurr (Shadow),533,gurdurr_shadow,Gurdurr (Shadow),True
+533,gurdurr_shadow,Gurdurr (Shadow),534,conkeldurr_shadow,Conkeldurr (Shadow),False
 534,conkeldurr,Conkeldurr,534,conkeldurr,Conkeldurr,True
+534,conkeldurr_shadow,Conkeldurr (Shadow),534,conkeldurr_shadow,Conkeldurr (Shadow),True
 535,tympole,Tympole,535,tympole,Tympole,True
 535,tympole,Tympole,536,palpitoad,Palpitoad,False
 535,tympole,Tympole,537,seismitoad,Seismitoad,False
@@ -1753,10 +1760,16 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 563,cofagrigus,Cofagrigus,563,cofagrigus,Cofagrigus,True
 564,tirtouga,Tirtouga,564,tirtouga,Tirtouga,True
 564,tirtouga,Tirtouga,565,carracosta,Carracosta,False
+564,tirtouga_shadow,Tirtouga (Shadow),564,tirtouga_shadow,Tirtouga (Shadow),True
+564,tirtouga_shadow,Tirtouga (Shadow),565,carracosta_shadow,Carracosta (Shadow),False
 565,carracosta,Carracosta,565,carracosta,Carracosta,True
+565,carracosta_shadow,Carracosta (Shadow),565,carracosta_shadow,Carracosta (Shadow),True
 566,archen,Archen,566,archen,Archen,True
 566,archen,Archen,567,archeops,Archeops,False
+566,archen_shadow,Archen (Shadow),566,archen_shadow,Archen (Shadow),True
+566,archen_shadow,Archen (Shadow),567,archeops_shadow,Archeops (Shadow),False
 567,archeops,Archeops,567,archeops,Archeops,True
+567,archeops_shadow,Archeops (Shadow),567,archeops_shadow,Archeops (Shadow),True
 568,trubbish,Trubbish,568,trubbish,Trubbish,True
 568,trubbish,Trubbish,569,garbodor,Garbodor,False
 569,garbodor,Garbodor,569,garbodor,Garbodor,True

@@ -1827,6 +1827,8 @@ Giratina (Origin),ghost
 Giratina (Origin),dragon
 Cresselia,psychic
 Cresselia,none
+Cresselia (Shadow),psychic
+Cresselia (Shadow),none
 Phione,water
 Phione,none
 Manaphy,water
@@ -1975,10 +1977,16 @@ Audino,normal
 Audino,none
 Timburr,fighting
 Timburr,none
+Timburr (Shadow),fighting
+Timburr (Shadow),none
 Gurdurr,fighting
 Gurdurr,none
+Gurdurr (Shadow),fighting
+Gurdurr (Shadow),none
 Conkeldurr,fighting
 Conkeldurr,none
+Conkeldurr (Shadow),fighting
+Conkeldurr (Shadow),none
 Tympole,water
 Tympole,none
 Palpitoad,water
@@ -2061,12 +2069,20 @@ Cofagrigus,ghost
 Cofagrigus,none
 Tirtouga,water
 Tirtouga,rock
+Tirtouga (Shadow),water
+Tirtouga (Shadow),rock
 Carracosta,water
 Carracosta,rock
+Carracosta (Shadow),water
+Carracosta (Shadow),rock
 Archen,rock
 Archen,flying
+Archen (Shadow),rock
+Archen (Shadow),flying
 Archeops,rock
 Archeops,flying
+Archeops (Shadow),rock
+Archeops (Shadow),flying
 Trubbish,poison
 Trubbish,none
 Garbodor,poison
