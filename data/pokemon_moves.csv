@@ -7170,9 +7170,11 @@ Porygon2 (Shadow),Zap Cannon,charged,electric,1.0,150,0,1,,,80.0,1.88,66.0% chan
 Primarina,Charm,fast,fairy,1.2,15,6,3,5.0,2.0,,,,Heavy Damage,
 Primarina,Waterfall,fast,water,1.2,12,8,3,4.0,2.67,,,,Heavy Damage,
 Primarina,Disarming Voice,charged,fairy,1.2,70,0,1,,,45.0,1.56,,General,
+Primarina,Hydro Cannon,charged,water,1.2,80,0,1,,,40.0,2.0,,Spam/Bait,elite
 Primarina,Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
 Primarina,Moonblast,charged,fairy,1.2,110,0,1,,,60.0,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,
 Primarina,Psychic,charged,psychic,1.0,75,0,1,,,55.0,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
+Primarina,Sparkling Aria,charged,water,1.2,80,0,1,,,45.0,1.78,,General,
 Primeape,Counter,fast,fighting,1.2,8,7,2,4.0,3.5,,,,Multipurpose,
 Primeape,Karate Chop,fast,fighting,1.2,5,8,2,2.5,4.0,,,,Fast Charge,elite
 Primeape,Low Kick,fast,fighting,1.2,4,5,2,2.0,2.5,,,,Low Quality,

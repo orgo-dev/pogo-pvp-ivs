@@ -1249,7 +1249,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 727,incineroar,Incineroar,214,175,216,"['fire', 'dark']","['SNARL', 'FIRE_FANG', 'DOUBLE_KICK']","['FIRE_BLAST', 'FLAME_CHARGE', 'DARK_PULSE', 'BLAZE_KICK', 'BLAST_BURN', 'DARKEST_LARIAT']",['BLAST_BURN'],nan,3.0,10000,True,FAMILY_LITTEN,nan,torracat,['starter']
 728,popplio,Popplio,120,103,137,"['water', 'none']","['POUND', 'WATER_GUN']","['AQUA_JET', 'WATER_PULSE', 'AQUA_TAIL']",nan,nan,3.0,10000,True,FAMILY_POPPLIO,['brionne'],,['starter']
 729,brionne,Brionne,168,145,155,"['water', 'none']","['CHARM', 'WATER_GUN']","['AQUA_JET', 'WATER_PULSE', 'DISARMING_VOICE']",nan,nan,3.0,10000,True,FAMILY_POPPLIO,['primarina'],popplio,['starter']
-730,primarina,Primarina,232,195,190,"['water', 'fairy']","['CHARM', 'WATERFALL']","['PSYCHIC', 'HYDRO_PUMP', 'MOONBLAST', 'DISARMING_VOICE']",nan,nan,3.0,10000,True,FAMILY_POPPLIO,nan,brionne,['starter']
+730,primarina,Primarina,232,195,190,"['water', 'fairy']","['CHARM', 'WATERFALL']","['PSYCHIC', 'HYDRO_PUMP', 'MOONBLAST', 'DISARMING_VOICE', 'HYDRO_CANNON', 'SPARKLING_ARIA']",['HYDRO_CANNON'],nan,3.0,10000,True,FAMILY_POPPLIO,nan,brionne,['starter']
 731,pikipek,Pikipek,136,59,111,"['normal', 'flying']","['PECK', 'ROCK_SMASH']","['DRILL_PECK', 'AERIAL_ACE', 'SKY_ATTACK']",nan,nan,1.0,10000,True,FAMILY_PIKIPEK,['trumbeak'],,nan
 732,trumbeak,Trumbeak,159,100,146,"['normal', 'flying']","['PECK', 'ROCK_SMASH']","['DRILL_PECK', 'ROCK_BLAST', 'SKY_ATTACK']",nan,nan,1.0,10000,True,FAMILY_PIKIPEK,['toucannon'],pikipek,nan
 733,toucannon,Toucannon,222,146,190,"['normal', 'flying']","['PECK', 'ROCK_SMASH', 'BULLET_SEED']","['DRILL_PECK', 'ROCK_BLAST', 'FLASH_CANNON']",nan,nan,1.0,10000,True,FAMILY_PIKIPEK,nan,trumbeak,nan
