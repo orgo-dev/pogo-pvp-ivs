@@ -173,7 +173,7 @@ MUD_SHOT,Mud Shot,fast,ground,4,8,2,2.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 MUD_SLAP,Mud Slap,fast,ground,12,10,3,4.0,3.33,0,,,Multipurpose,nan,,,nan,nan
 MYSTICAL_FIRE,Mystical Fire,charged,fire,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 NATURES_MADNESS,Nature's Madness,charged,fairy,80,0,1,,,50,1.6,100% chance -1 Def opponent,Debuff,"[0, -1]",opponent,1,nan,nan
-NIGHT_SHADE,Night Shade,charged,ghost,80,0,1,,,50,1.6,,General,nan,,,nan,nan
+NIGHT_SHADE,Night Shade,charged,ghost,80,0,1,,,45,1.78,,General,nan,,,nan,nan
 NIGHT_SLASH,Night Slash,charged,dark,50,0,1,,,35,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,"[2, 0]",self,.125,nan,nan
 OBLIVION_WING,Oblivion Wing,charged,flying,85,0,1,,,50,1.7,,General,nan,,,nan,nan
 OBSTRUCT,Obstruct,charged,dark,15,0,1,,,40,0.38,"100% chance +1 Def self, -1 Def opponent",Boost Spam/Bait,"[0, 1]",both,1,"[0, 1]","[0, -1]"
@@ -182,7 +182,7 @@ OMINOUS_WIND,Ominous Wind,charged,ghost,45,0,1,,,45,1.0,10.0% chance +1 Atk +1 D
 ORIGIN_PULSE,Origin Pulse,charged,water,130,0,1,,,60,2.17,,Nuke,nan,,,nan,nan
 OUTRAGE,Outrage,charged,dragon,110,0,1,,,60,1.83,,Nuke,nan,,,nan,nan
 OVERHEAT,Overheat,charged,fire,130,0,1,,,55,2.36,100% chance -2 Atk self,Self-Debuff Nuke,"[-2, 0]",self,1,nan,nan
-PARABOLIC_CHARGE,Parabolic Charge,charged,electric,70,0,1,,,50,1.4,30.0% chance +1 Def self,Boost,"[0, 1]",self,.3,nan,nan
+PARABOLIC_CHARGE,Parabolic Charge,charged,electric,70,0,1,,,50,1.4,66.0% chance +1 Def self,Boost,"[0, 1]",self,.66,nan,nan
 PAYBACK,Payback,charged,dark,110,0,1,,,60,1.83,,Nuke,nan,,,nan,nan
 PECK,Peck,fast,flying,6,5,2,3.0,2.5,0,,,Low Quality,nan,,,nan,nan
 PETAL_BLIZZARD,Petal Blizzard,charged,grass,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
@@ -193,7 +193,7 @@ POISON_STING,Poison Sting,fast,poison,4,9,2,2.0,4.5,0,,,Fast Charge,nan,,,nan,na
 POLTERGEIST,Poltergeist,charged,ghost,150,0,1,,,75,2.0,,Nuke,nan,,,nan,nan
 POUND,Pound,fast,normal,4,4,2,2.0,2.0,0,,,Low Quality,nan,,,nan,nan
 POWDER_SNOW,Powder Snow,fast,ice,5,8,2,2.5,4.0,0,,,Fast Charge,nan,,,nan,nan
-POWER_GEM,Power Gem,charged,rock,85,0,1,,,55,1.55,,High Energy,nan,,,nan,nan
+POWER_GEM,Power Gem,charged,rock,85,0,1,,,50,1.7,,General,nan,,,nan,nan
 POWER_UP_PUNCH,Power-Up Punch,charged,fighting,20,0,1,,,35,0.57,100% chance +1 Atk self,Boost Spam/Bait,"[1, 0]",self,1,nan,nan
 POWER_WHIP,Power Whip,charged,grass,90,0,1,,,50,1.8,,General,nan,,,nan,nan
 PRECIPICE_BLADES,Precipice Blades,charged,ground,130,0,1,,,60,2.17,,Nuke,nan,,,nan,nan
@@ -260,7 +260,7 @@ SUBMISSION,Submission,charged,fighting,60,0,1,,,50,1.2,,General,nan,,,nan,nan
 SUCKER_PUNCH,Sucker Punch,fast,dark,8,7,2,4.0,3.5,0,,,Multipurpose,nan,,,nan,nan
 SUNSTEEL_STRIKE,Sunsteel Strike,charged,steel,135,0,1,,,65,2.08,,Nuke,nan,,,nan,nan
 SUPER_POWER,Superpower,charged,fighting,85,0,1,,,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,"[-1, -1]",self,1,nan,nan
-SURF,Surf,charged,water,75,0,1,,,45,1.67,,Spam/Bait,nan,,,nan,nan
+SURF,Surf,charged,water,75,0,1,,,45,1.67,,General,nan,,,nan,nan
 SWIFT,Swift,charged,normal,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 SYNCHRONOISE,Synchronoise,charged,psychic,80,0,1,,,50,1.6,,General,nan,,,nan,nan
 TACKLE,Tackle,fast,normal,3,3,1,3.0,3.0,0,,,General,nan,,,nan,nan
@@ -303,5 +303,5 @@ WRAP_GREEN,Wrap Green,charged,normal,25,0,1,,,45,0.56,,General,nan,,,nan,nan
 WRAP_PINK,Wrap Pink,charged,normal,25,0,1,,,45,0.56,,General,nan,,,nan,nan
 X_SCISSOR,X-Scissor,charged,bug,65,0,1,,,40,1.62,,Spam/Bait,nan,,,nan,nan
 YAWN,Yawn,fast,normal,0,12,4,0.0,3.0,0,,,Low Quality,nan,,,nan,nan
-ZAP_CANNON,Zap Cannon,charged,electric,150,0,1,,,80,1.88,30.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,.30,nan,nan
+ZAP_CANNON,Zap Cannon,charged,electric,150,0,1,,,80,1.88,33.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,.33,nan,nan
 ZEN_HEADBUTT,Zen Headbutt,fast,psychic,8,6,3,2.67,2.0,0,,,Low Quality,nan,,,nan,nan
