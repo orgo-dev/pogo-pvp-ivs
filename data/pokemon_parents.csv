@@ -827,6 +827,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 221,piloswine_shadow,Piloswine (Shadow),473,mamoswine_shadow,Mamoswine (Shadow),False
 222,corsola,Corsola,222,corsola,Corsola,True
 222,corsola,Corsola,864,cursola,Cursola,False
+222,corsola_galarian,Corsola (Galarian),222,corsola_galarian,Corsola (Galarian),True
 223,remoraid,Remoraid,223,remoraid,Remoraid,True
 223,remoraid,Remoraid,224,octillery,Octillery,False
 224,octillery,Octillery,224,octillery,Octillery,True
