@@ -80399,7 +80399,7 @@
             "CHARM"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM"
         ],
@@ -80451,7 +80451,7 @@
             "CHARM"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM"
         ],
@@ -80505,7 +80505,7 @@
             "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM",
             "POWER_WHIP"

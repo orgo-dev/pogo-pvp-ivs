@@ -1410,9 +1410,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 855,polteageist,Polteageist,248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3.0,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
 855,polteageist_antique,Polteageist (Antique),248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3.0,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
 855,polteageist_phony,Polteageist (Phony),248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3.0,50000,False,FAMILY_SINISTEA,nan,sinistea,nan
-856,hatenna,Hatenna,98,93,123,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5.0,50000,False,FAMILY_HATENNA,['hattrem'],,nan
-857,hattrem,Hattrem,153,133,149,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5.0,50000,False,FAMILY_HATENNA,['hatterene'],hatenna,nan
-858,hatterene,Hatterene,237,182,149,"['psychic', 'fairy']","['CONFUSION', 'CHARM', 'PSYCHO_CUT']","['PSYBEAM', 'PSYCHIC', 'DAZZLING_GLEAM', 'POWER_WHIP']",nan,nan,5.0,50000,False,FAMILY_HATENNA,nan,hattrem,nan
+856,hatenna,Hatenna,98,93,123,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5.0,50000,False,FAMILY_HATENNA,['hattrem'],,nan
+857,hattrem,Hattrem,153,133,149,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5.0,50000,False,FAMILY_HATENNA,['hatterene'],hatenna,nan
+858,hatterene,Hatterene,237,182,149,"['psychic', 'fairy']","['CONFUSION', 'CHARM', 'PSYCHO_CUT']","['PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM', 'POWER_WHIP']",nan,nan,5.0,50000,False,FAMILY_HATENNA,nan,hattrem,nan
 859,impidimp,Impidimp,103,69,128,"['dark', 'fairy']","['BITE', 'SUCKER_PUNCH']","['FOUL_PLAY', 'DARK_PULSE', 'PLAY_ROUGH']",nan,nan,5.0,50000,False,FAMILY_IMPIDIMP,['morgrem'],,nan
 860,morgrem,Morgrem,145,102,163,"['dark', 'fairy']","['BITE', 'SUCKER_PUNCH']","['FOUL_PLAY', 'DARK_PULSE', 'PLAY_ROUGH']",nan,nan,5.0,50000,False,FAMILY_IMPIDIMP,['grimmsnarl'],impidimp,nan
 861,grimmsnarl,Grimmsnarl,227,139,216,"['dark', 'fairy']","['BITE', 'SUCKER_PUNCH', 'LOW_KICK']","['FOUL_PLAY', 'DARK_PULSE', 'PLAY_ROUGH', 'POWER_UP_PUNCH']",nan,nan,5.0,50000,False,FAMILY_IMPIDIMP,nan,morgrem,nan
