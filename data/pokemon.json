@@ -3713,7 +3713,7 @@
                 15
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 2,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -10853,7 +10853,8 @@
             "FIRE_BLAST",
             "HEAT_WAVE",
             "FLAME_CHARGE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "WILD_CHARGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -10882,8 +10883,10 @@
             ]
         },
         "eliteMoves": [
-            "EMBER"
+            "EMBER",
+            "WILD_CHARGE"
         ],
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -10915,7 +10918,11 @@
             "PSYCHIC",
             "BODY_SLAM",
             "MEGAHORN",
-            "HIGH_HORSEPOWER"
+            "HIGH_HORSEPOWER",
+            "WILD_CHARGE"
+        ],
+        "eliteMoves": [
+            "WILD_CHARGE"
         ],
         "defaultIVs": {
             "cp500": [
