@@ -945,10 +945,24 @@ Clobbopus,Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent
 Clobbopus,Ice Punch,charged,ice,1.0,55,40,1.38,,Spam/Bait,
 Clobbopus,Superpower,charged,fighting,1.2,85,40,2.12,100% chance -1 Atk -1 Def self,Self-Debuff Spam,
 Clodsire,Acid Spray,charged,poison,1.2,20,45,0.44,100% chance -2 Def opponent,Debuff,
+Clodsire,Acid Spray,charged,poison,1.2,20,45,0.44,100% chance -2 Def opponent,Debuff,
+Clodsire,Acid Spray,charged,poison,1.2,20,45,0.44,100% chance -2 Def opponent,Debuff,
+Clodsire,Acid Spray,charged,poison,1.2,20,45,0.44,100% chance -2 Def opponent,Debuff,
+Clodsire,Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
+Clodsire,Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
+Clodsire,Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
 Clodsire,Earthquake,charged,ground,1.2,110,65,1.69,,Nuke,
 Clodsire,Megahorn,charged,bug,1.0,110,55,2.0,,Nuke,elite
+Clodsire,Megahorn,charged,bug,1.0,110,55,2.0,,Nuke,elite
+Clodsire,Megahorn,charged,bug,1.0,110,55,2.0,,Nuke,elite
+Clodsire,Megahorn,charged,bug,1.0,110,55,2.0,,Nuke,elite
+Clodsire,Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
+Clodsire,Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
+Clodsire,Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
 Clodsire,Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
 Clodsire,Stone Edge,charged,rock,1.0,100,55,1.82,,Nuke,
+Clodsire,Stone Edge,charged,rock,1.0,100,55,1.82,,Nuke,
+Clodsire,Water Pulse,charged,water,1.0,80,55,1.45,,General,
 Clodsire,Water Pulse,charged,water,1.0,80,55,1.45,,General,
 Cloyster,Aurora Beam,charged,ice,1.2,80,60,1.33,,High Energy,
 Cloyster,Avalanche,charged,ice,1.2,90,45,2.0,,General,
