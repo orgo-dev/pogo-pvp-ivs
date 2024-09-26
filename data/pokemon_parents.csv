@@ -466,9 +466,11 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 109,koffing,Koffing,110,weezing,Weezing,False
 109,koffing,Koffing,110,weezing_galarian,Weezing (Galarian),False
 109,koffing_shadow,Koffing (Shadow),109,koffing_shadow,Koffing (Shadow),True
+109,koffing_shadow,Koffing (Shadow),110,weezing_galarian_shadow,Weezing (Galarian) (Shadow),False
 109,koffing_shadow,Koffing (Shadow),110,weezing_shadow,Weezing (Shadow),False
 110,weezing,Weezing,110,weezing,Weezing,True
 110,weezing_galarian,Weezing (Galarian),110,weezing_galarian,Weezing (Galarian),True
+110,weezing_galarian_shadow,Weezing (Galarian) (Shadow),110,weezing_galarian_shadow,Weezing (Galarian) (Shadow),True
 110,weezing_shadow,Weezing (Shadow),110,weezing_shadow,Weezing (Shadow),True
 111,rhyhorn,Rhyhorn,111,rhyhorn,Rhyhorn,True
 111,rhyhorn,Rhyhorn,112,rhydon,Rhydon,False
