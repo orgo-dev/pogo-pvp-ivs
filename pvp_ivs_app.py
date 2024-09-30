@@ -1,12 +1,13 @@
 import streamlit as st
-import math, re, sqlite3, json, warnings, pandas as pd, numpy as np
+import math
+import re
+import warnings
+import pandas as pd
+import numpy as np
 from bisect import bisect
 from st_aggrid import (
     GridOptionsBuilder,
     AgGrid,
-    GridUpdateMode,
-    DataReturnMode,
-    JsCode,
     ColumnsAutoSizeMode,
 )
 from app_utils import (
@@ -226,10 +227,12 @@ def get_league_pokemon_df(
 
     # ranks
     rank_cols = ["stats_prod", "level_attack", "level_defense", "cp", "iv_stamina"]
-    # best buddy
+
+    # ranks best buddy
     rank_indices = df.sort_values(rank_cols, ascending=False).index
     df["rank"] = rank_indices.argsort() + 1
-    # non best buddy
+
+    # ranks non best buddy
     msk = df["level"] <= MAX_LEVEL
     rank_indices_non_bb = pd.array(msk, dtype=pd.Int64Dtype())
     rank_indices_non_bb[msk] = (
@@ -237,6 +240,41 @@ def get_league_pokemon_df(
     )
     rank_indices_non_bb[~msk] = None
     df["rank_non_bb"] = rank_indices_non_bb
+
+    # ranks raids
+    msk = (df["iv_attack"] >= 10) & (df["iv_defense"] >= 10) & (df["iv_stamina"] >= 10)
+    rank_indices_raids = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_raids[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_raids[~msk] = None
+    df["rank_raids"] = rank_indices_raids
+    odds_pct = (df["rank_raids"] - 1) / 6**3
+    df["odds_better_raids"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_raids"].isna(), "odds_better_raids"] = ""
+
+    # ranks shadow raids
+    msk = (df["iv_attack"] >= 6) & (df["iv_defense"] >= 6) & (df["iv_stamina"] >= 6)
+    rank_indices_shadow_raids = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_shadow_raids[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_shadow_raids[~msk] = None
+    df["rank_shadow_raids"] = rank_indices_shadow_raids
+    odds_pct = (df["rank_shadow_raids"] - 1) / 10**3
+    df["odds_better_shadow_raids"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_shadow_raids"].isna(), "odds_better_shadow_raids"] = ""
+
     # bulk
     rank_cols = ["bulk_prod", "level_attack", "level_defense", "cp", "iv_stamina"]
     df["rank_bulk"] = df.sort_values(rank_cols, ascending=False).index.argsort() + 1
@@ -304,6 +342,10 @@ def get_league_pokemon_df(
                 "league": "League",
                 "rank": "Rank",
                 "rank_non_bb": f"Rank @{MAX_LEVEL}",
+                "rank_raids": "Rank Raids",
+                "odds_better_raids": "Odds Better Raids",
+                "rank_shadow_raids": "Rank Shadow Raids",
+                "odds_better_shadow_raids": "Odds Better Shadow Raids",
                 "level": "Level",
                 "cp": "CP",
                 "iv_attack": "IV Atk",
@@ -330,6 +372,10 @@ def get_league_pokemon_df(
                 "League",
                 "Rank",
                 f"Rank @{MAX_LEVEL}",
+                "Rank Raids",
+                "Odds Better Raids",
+                "Rank Shadow Raids",
+                "Odds Better Shadow Raids",
                 "Level",
                 "CP",
                 "IVs",
@@ -387,7 +433,6 @@ def app(app="GBL IV Stats", **kwargs):
 
     # get eligible pokemon
     with st.sidebar:
-
         # inputs
         league_options = ["Little", "Great", "Ultra", "Master"]
         default_leagues = kwargs.get("league", ["Great"])
@@ -557,7 +602,7 @@ def app(app="GBL IV Stats", **kwargs):
             "3: Ultra Friend",
             "4: Weather Boost",
             "5: Best Friend",
-            "6: Shadow Legendary",
+            "6: Shadow Raids",
             "10: Raid, Research, Hatch",
             "12: Lucky Trade",
         ]
@@ -639,6 +684,15 @@ def app(app="GBL IV Stats", **kwargs):
 
         # ~~~ COLUMN OPTIONS ~~~
         st.markdown("Column Options")
+        default_show_rank_raids = kwargs.get("show_rank_raids", ["False"])[0] == "True"
+        show_rank_raids = st.checkbox("Show Raid Ranks/Odds", default_show_rank_raids)
+        default_show_shadow_rank_raids = (
+            kwargs.get("show_shadow_rank_raids", ["False"])[0] == "True"
+        )
+        show_shadow_rank_raids = st.checkbox(
+            "Show Shadow Raid Ranks/Odds", default_show_shadow_rank_raids
+        )
+
         default_show_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
         show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_cmp)
         default_show_prod_cols = kwargs.get("show_prod_cols", ["False"])[0] == "True"
@@ -718,7 +772,7 @@ def app(app="GBL IV Stats", **kwargs):
         st.header(selected_pokemon)
 
         # for league in leagues:
-        for league in sorted(leagues, key=lambda l: LEAGUE_CPS[l]):
+        for league in sorted(leagues, key=lambda x: LEAGUE_CPS[x]):
             # st.subheader(league)
 
             # get df with all rows
@@ -731,6 +785,7 @@ def app(app="GBL IV Stats", **kwargs):
                 CP_COEF_PCTS,
                 DF_XL_COSTS,
             )
+            # st.dataframe(df)
 
             # filter df based on options selected
             mask_t = pd.Series(True, df.index)
@@ -789,11 +844,13 @@ def app(app="GBL IV Stats", **kwargs):
             stat_cols = ["Atk", "Def", "HP"]
             df["is_efficient_filtered"] = get_pareto_efficient_stats(df[stat_cols].values)
             display_true = {True: "True", False: ""}
-            df[f"Efficient @Filters"] = df["is_efficient_filtered"].map(display_true)
+            df["Efficient @Filters"] = df["is_efficient_filtered"].map(display_true)
 
             # set order of columns
             df_col_order = (
-                "League,Rank,Rank @50,Level,CP,IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,"
+                "League,Rank,Rank @50,Rank Raids,Odds Better Raids,"
+                "Rank Shadow Raids,Odds Better Shadow Raids,Level,CP,"
+                "IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,"
                 "Stats Prod,Bulk Prod,Rank Bulk,Atk,Def,HP,Efficient @51,Efficient @50,"
                 "Efficient @Filters,Notes,Input,Regular XLs,Lucky XLs,Shadow XLs,"
                 "Purified XLs"
@@ -834,6 +891,14 @@ def app(app="GBL IV Stats", **kwargs):
             gb.configure_column("League", width=78)
             gb.configure_column("Rank", width=62)
             gb.configure_column("Rank @50", width=87)
+            gb.configure_column("Rank Raids", width=93, hide=not show_rank_raids)
+            gb.configure_column("Odds Better Raids", width=129, hide=not show_rank_raids)
+            gb.configure_column(
+                "Rank Shadow Raids", width=138, hide=not show_shadow_rank_raids
+            )
+            gb.configure_column(
+                "Odds Better Shadow Raids", width=174, hide=not show_shadow_rank_raids
+            )
             gb.configure_column(
                 "Level",
                 type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
@@ -898,7 +963,7 @@ def app(app="GBL IV Stats", **kwargs):
 
             grid_options = gb.build()
             with warnings.catch_warnings():
-                warnings.simplefilter(action='ignore', category=FutureWarning)
+                warnings.simplefilter(action="ignore", category=FutureWarning)
                 ivs_response = AgGrid(
                     df,
                     gridOptions=grid_options,
@@ -925,7 +990,6 @@ def app(app="GBL IV Stats", **kwargs):
             )
 
             if selected_pokemon != "Custom base stats":
-
                 if show_moves:
                     # fast moves
                     st.caption(
@@ -1107,6 +1171,8 @@ def app(app="GBL IV Stats", **kwargs):
             "min_cp",
             "level_ge",
             "level_le",
+            "show_rank_raids",
+            "show_shadow_rank_raids",
             "show_cmp",
             "show_individual_ivs",
             "show_prod_cols",
@@ -1129,7 +1195,6 @@ def app(app="GBL IV Stats", **kwargs):
 
         # help strings
         with st.expander("Help"):
-
             # about the app
             st.subheader("About this app.")
             st.markdown(
