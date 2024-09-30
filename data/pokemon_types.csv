@@ -511,6 +511,8 @@ Weezing (Galarian),poison
 Weezing (Galarian),fairy
 Weezing (Shadow),poison
 Weezing (Shadow),none
+Weezing (Galarian) (Shadow),poison
+Weezing (Galarian) (Shadow),fairy
 Rhyhorn,ground
 Rhyhorn,rock
 Rhyhorn (Shadow),ground
@@ -3129,6 +3131,8 @@ Tatsugiri_stretchy,dragon
 Tatsugiri_stretchy,water
 Annihilape,fighting
 Annihilape,ghost
+Clodsire,poison
+Clodsire,ground
 Clodsire,poison
 Clodsire,ground
 Farigiraf,normal

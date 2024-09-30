@@ -3713,7 +3713,7 @@
                 15
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 2,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -4099,7 +4099,7 @@
                 15
             ]
         },
-        "searchPriority": 2,
+        "searchPriority": 12,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -5720,7 +5720,7 @@
                 15
             ]
         },
-        "searchPriority": 7,
+        "searchPriority": 12,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -5898,7 +5898,6 @@
         "eliteMoves": [
             "OMINOUS_WIND"
         ],
-        "searchPriority": 8,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -5959,7 +5958,6 @@
         "eliteMoves": [
             "OMINOUS_WIND"
         ],
-        "searchPriority": 8,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -9332,7 +9330,7 @@
             "SUBMISSION",
             "PAYBACK"
         ],
-        "searchPriority": 10,
+        "searchPriority": 12,
         "level25CP": 1893,
         "tags": [
             "shadoweligible"
@@ -9399,7 +9397,7 @@
             "SUBMISSION",
             "PAYBACK"
         ],
-        "searchPriority": 10,
+        "searchPriority": 12,
         "tags": [
             "shadow"
         ],
@@ -10855,7 +10853,8 @@
             "FIRE_BLAST",
             "HEAT_WAVE",
             "FLAME_CHARGE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "WILD_CHARGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -10884,8 +10883,10 @@
             ]
         },
         "eliteMoves": [
-            "EMBER"
+            "EMBER",
+            "WILD_CHARGE"
         ],
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -10917,7 +10918,11 @@
             "PSYCHIC",
             "BODY_SLAM",
             "MEGAHORN",
-            "HIGH_HORSEPOWER"
+            "HIGH_HORSEPOWER",
+            "WILD_CHARGE"
+        ],
+        "eliteMoves": [
+            "WILD_CHARGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -12353,7 +12358,7 @@
                 14
             ]
         },
-        "searchPriority": 17,
+        "searchPriority": 6,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -12414,7 +12419,6 @@
                 14
             ]
         },
-        "searchPriority": 17,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -13036,7 +13040,6 @@
             "PSYCHIC",
             "SHADOW_PUNCH"
         ],
-        "searchPriority": 14,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -13170,7 +13173,6 @@
             "PSYCHIC",
             "SHADOW_PUNCH"
         ],
-        "searchPriority": 14,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -14574,7 +14576,7 @@
             ]
         },
         "level25CP": 1090,
-        "searchPriority": 8,
+        "searchPriority": 6,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -15026,7 +15028,7 @@
         "eliteMoves": [
             "BODY_SLAM"
         ],
-        "searchPriority": 2,
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -15268,7 +15270,8 @@
             ]
         },
         "tags": [
-            "galarian"
+            "galarian",
+            "shadoweligible"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -15280,7 +15283,8 @@
         },
         "nicknames": [
             "gweez"
-        ]
+        ],
+        "level25CP": 1391
     },
     {
         "dex": 110,
@@ -15341,6 +15345,72 @@
             "id": "FAMILY_KOFFING",
             "parent": "koffing_shadow"
         }
+    },
+    {
+        "dex": 110,
+        "speciesName": "Weezing (Galarian) (Shadow)",
+        "speciesId": "weezing_galarian_shadow",
+        "baseStats": {
+            "atk": 174,
+            "def": 197,
+            "hp": 163
+        },
+        "types": [
+            "poison",
+            "fairy"
+        ],
+        "fastMoves": [
+            "TACKLE",
+            "FAIRY_WIND"
+        ],
+        "chargedMoves": [
+            "SLUDGE",
+            "HYPER_BEAM",
+            "PLAY_ROUGH",
+            "OVERHEAT",
+            "BRUTAL_SWING"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                8.5,
+                4,
+                10,
+                6
+            ],
+            "cp1500": [
+                24.5,
+                5,
+                13,
+                11
+            ],
+            "cp2500": [
+                48.5,
+                12,
+                14,
+                14
+            ],
+            "cp2500l40": [
+                40,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "galarian",
+            "shadow"
+        ],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "searchPriority": 2,
+        "released": true,
+        "family": {
+            "id": "FAMILY_KOFFING",
+            "parent": "koffing_shadow"
+        },
+        "nicknames": [
+            "gweez"
+        ]
     },
     {
         "dex": 111,
@@ -20123,7 +20193,7 @@
         "eliteMoves": [
             "FRENZY_PLANT"
         ],
-        "searchPriority": 16,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -20190,7 +20260,6 @@
         "eliteMoves": [
             "FRENZY_PLANT"
         ],
-        "searchPriority": 16,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -20598,7 +20667,7 @@
         "eliteMoves": [
             "BLAST_BURN"
         ],
-        "searchPriority": 4,
+        "searchPriority": 6,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -23556,7 +23625,7 @@
                 14
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 6,
         "level25CP": 958,
         "tags": [
             "shadoweligible"
@@ -25305,7 +25374,7 @@
                 15
             ]
         },
-        "searchPriority": 3,
+        "searchPriority": 12,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -27552,7 +27621,7 @@
                 15
             ]
         },
-        "searchPriority": 16,
+        "searchPriority": 7,
         "level25CP": 1267,
         "tags": [
             "shadoweligible"
@@ -27603,7 +27672,6 @@
                 15
             ]
         },
-        "searchPriority": 16,
         "tags": [
             "shadow"
         ],
@@ -31427,7 +31495,7 @@
         "eliteMoves": [
             "HYDRO_CANNON"
         ],
-        "searchPriority": 31,
+        "searchPriority": 7,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -31544,7 +31612,6 @@
         "eliteMoves": [
             "HYDRO_CANNON"
         ],
-        "searchPriority": 31,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -32715,7 +32782,7 @@
         "eliteMoves": [
             "BULLET_SEED"
         ],
-        "searchPriority": 10,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -32781,7 +32848,6 @@
         "eliteMoves": [
             "BULLET_SEED"
         ],
-        "searchPriority": 10,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -32985,7 +33051,7 @@
                 15
             ]
         },
-        "searchPriority": 10,
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -34848,7 +34914,7 @@
         "tags": [
             "shadoweligible"
         ],
-        "searchPriority": 10,
+        "searchPriority": 9,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -34955,7 +35021,7 @@
         "tags": [
             "shadow"
         ],
-        "searchPriority": 10,
+        "searchPriority": 9,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -35561,7 +35627,7 @@
                 15
             ]
         },
-        "searchPriority": 25,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -42056,7 +42122,7 @@
         "eliteMoves": [
             "METEOR_MASH"
         ],
-        "searchPriority": 20,
+        "searchPriority": 4,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -42114,7 +42180,6 @@
         "eliteMoves": [
             "METEOR_MASH"
         ],
-        "searchPriority": 20,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -42909,7 +42974,6 @@
                 9
             ]
         },
-        "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -42964,7 +43028,6 @@
                 7
             ]
         },
-        "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -43458,7 +43521,7 @@
                 15
             ]
         },
-        "searchPriority": 15,
+        "searchPriority": 5,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -47159,7 +47222,7 @@
         "tags": [
             "regional"
         ],
-        "searchPriority": 2,
+        "searchPriority": 9,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -50925,6 +50988,7 @@
         "eliteMoves": [
             "BODY_SLAM"
         ],
+        "searchPriority": 6,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -52309,7 +52373,7 @@
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "searchPriority": 4,
+        "searchPriority": 3,
         "released": true,
         "family": {
             "id": "FAMILY_DUSKULL",
@@ -53003,7 +53067,6 @@
                 12
             ]
         },
-        "searchPriority": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -53060,6 +53123,7 @@
                 12
             ]
         },
+        "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -53110,7 +53174,6 @@
                 10
             ]
         },
-        "searchPriority": 5,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -53168,6 +53231,7 @@
                 15
             ]
         },
+        "searchPriority": 7,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -53530,7 +53594,7 @@
         "eliteMoves": [
             "GRASS_KNOT"
         ],
-        "searchPriority": 32,
+        "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -53586,7 +53650,6 @@
         "eliteMoves": [
             "GRASS_KNOT"
         ],
-        "searchPriority": 32,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -54931,7 +54994,7 @@
                 15
             ]
         },
-        "searchPriority": 4,
+        "searchPriority": 8,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -62628,7 +62691,7 @@
                 15
             ]
         },
-        "searchPriority": 10,
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -64412,7 +64475,7 @@
                 15
             ]
         },
-        "searchPriority": 10,
+        "searchPriority": 4,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -64466,7 +64529,7 @@
                 15
             ]
         },
-        "searchPriority": 20,
+        "searchPriority": 6,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -64786,6 +64849,7 @@
                 11
             ]
         },
+        "searchPriority": 6,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -65272,7 +65336,7 @@
                 15
             ]
         },
-        "searchPriority": 5,
+        "searchPriority": 15,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -67035,6 +67099,7 @@
                 15
             ]
         },
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -69016,6 +69081,7 @@
                 15
             ]
         },
+        "searchPriority": 11,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -73585,7 +73651,6 @@
                 15
             ]
         },
-        "searchPriority": 10,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -77656,7 +77721,7 @@
         "tags": [
             "mythical"
         ],
-        "searchPriority": 18,
+        "searchPriority": 7,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -80409,7 +80474,7 @@
             "CHARM"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM"
         ],
@@ -80435,7 +80500,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_HATENNA",
             "evolutions": [
@@ -80461,7 +80526,7 @@
             "CHARM"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM"
         ],
@@ -80487,7 +80552,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_HATENNA",
             "parent": "hatenna",
@@ -80515,7 +80580,7 @@
             "PSYCHO_CUT"
         ],
         "chargedMoves": [
-            "PSYBEAM",
+            "PSYSHOCK",
             "PSYCHIC",
             "DAZZLING_GLEAM",
             "POWER_WHIP"
@@ -80540,9 +80605,10 @@
                 12
             ]
         },
+        "searchPriority": 2,
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_HATENNA",
             "parent": "hattrem"
@@ -88413,6 +88479,68 @@
                 15
             ]
         },
+        "searchPriority": 15,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_WOOPER_PALDEAN",
+            "parent": "wooper_paldean"
+        }
+    },
+    {
+        "dex": 980,
+        "speciesName": "Clodsire",
+        "speciesId": "clodsiresb",
+        "aliasId": "clodsire",
+        "baseStats": {
+            "atk": 127,
+            "def": 151,
+            "hp": 277
+        },
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "fastMoves": [
+            "POISON_STING",
+            "MUD_SHOT"
+        ],
+        "chargedMoves": [
+            "SLUDGE_BOMB",
+            "EARTHQUAKE",
+            "STONE_EDGE",
+            "ACID_SPRAY",
+            "WATER_PULSE",
+            "MEGAHORN"
+        ],
+        "eliteMoves": [
+            "MEGAHORN"
+        ],
+        "defaultIVs": {
+            "cp500": [
+                10,
+                5,
+                9,
+                5
+            ],
+            "cp1500": [
+                29,
+                4,
+                15,
+                14
+            ],
+            "cp2500": [
+                50,
+                15,
+                15,
+                15
+            ]
+        },
+        "tags": [
+            "duplicate",
+            "duplicate1500"
+        ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
