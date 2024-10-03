@@ -11,6 +11,8 @@ AQUA_JET,Aqua Jet,charged,water,45,0,1,,,45,1.0,,General,nan,,,nan,nan
 AQUA_TAIL,Aqua Tail,charged,water,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 ASTONISH,Astonish,fast,ghost,12,10,3,4.0,3.33,0,,,Multipurpose,nan,,,nan,nan
 AURA_SPHERE,Aura Sphere,charged,fighting,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan
+AURA_WHEEL_ELECTRIC,Aura Wheel,charged,electric,100,0,1,,,45,2.22,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
+AURA_WHEEL_DARK,Aura Wheel,charged,dark,100,0,1,,,45,2.22,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 AURORA_BEAM,Aurora Beam,charged,ice,80,0,1,,,60,1.33,,High Energy,nan,,,nan,nan
 AVALANCHE,Avalanche,charged,ice,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 BITE,Bite,fast,dark,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan

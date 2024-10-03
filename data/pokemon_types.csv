@@ -2379,8 +2379,10 @@ Honedge,steel
 Honedge,ghost
 Doublade,steel
 Doublade,ghost
-Aegislash,steel
-Aegislash,ghost
+Aegislash (Shield),steel
+Aegislash (Shield),ghost
+Aegislash (Blade),steel
+Aegislash (Blade),ghost
 Spritzee,fairy
 Spritzee,none
 Aromatisse,fairy
@@ -2873,8 +2875,6 @@ Indeedee (Female),psychic
 Indeedee (Female),normal
 Indeedee (Male),psychic
 Indeedee (Male),normal
-Morpeko,electric
-Morpeko,dark
 Morpeko (Full Belly),electric
 Morpeko (Full Belly),dark
 Morpeko (Hangry),electric

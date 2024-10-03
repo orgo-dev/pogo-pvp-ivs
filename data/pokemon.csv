@@ -710,8 +710,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 373,salamence,Salamence,277,168,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE', 'FLY', 'RETURN']",['OUTRAGE'],nan,5.0,75000,True,FAMILY_BAGON,nan,shelgon,['shadoweligible']
 373,salamence_mega,Salamence (Mega),310,251,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE', 'FLY']",['OUTRAGE'],nan,5.0,75000,True,,nan,,"['shadoweligible', 'mega']"
 373,salamence_shadow,Salamence (Shadow),277,168,216,"['dragon', 'flying']","['BITE', 'DRAGON_TAIL', 'FIRE_FANG']","['DRACO_METEOR', 'FIRE_BLAST', 'HYDRO_PUMP', 'OUTRAGE', 'FLY', 'FRUSTRATION']",['OUTRAGE'],nan,5.0,75000,True,FAMILY_BAGON,nan,shelgon_shadow,['shadow']
-374,beldum,Beldum,96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['STRUGGLE', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang'],,['shadoweligible']
-374,beldum_shadow,Beldum (Shadow),96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['STRUGGLE', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang_shadow'],,['shadow']
+374,beldum,Beldum,96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['IRON_HEAD', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang'],,['shadoweligible']
+374,beldum_shadow,Beldum (Shadow),96,132,120,"['steel', 'psychic']",['TAKE_DOWN'],"['IRON_HEAD', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metang_shadow'],,['shadow']
 375,metang,Metang,138,176,155,"['steel', 'psychic']","['METAL_CLAW', 'ZEN_HEADBUTT']","['GYRO_BALL', 'PSYCHIC', 'PSYSHOCK', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metagross'],beldum,['shadoweligible']
 375,metang_shadow,Metang (Shadow),138,176,155,"['steel', 'psychic']","['METAL_CLAW', 'ZEN_HEADBUTT']","['GYRO_BALL', 'PSYCHIC', 'PSYSHOCK', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_BELDUM,['metagross_shadow'],beldum_shadow,['shadow']
 376,metagross,Metagross,257,228,190,"['steel', 'psychic']","['BULLET_PUNCH', 'ZEN_HEADBUTT']","['EARTHQUAKE', 'FLASH_CANNON', 'METEOR_MASH', 'PSYCHIC', 'RETURN']",['METEOR_MASH'],nan,5.0,75000,True,FAMILY_BELDUM,nan,metang,['shadoweligible']
@@ -1189,7 +1189,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 678,meowstic,Meowstic (Male),166,167,179,"['psychic', 'none']","['CONFUSION', 'SUCKER_PUNCH']","['PSYCHIC', 'ENERGY_BALL', 'THUNDERBOLT']",nan,nan,3.0,50000,True,FAMILY_ESPURR,nan,espurr,nan
 679,honedge,Honedge,135,139,128,"['steel', 'ghost']","['TACKLE', 'FURY_CUTTER']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,['doublade'],,nan
 680,doublade,Doublade,188,206,153,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,['aegislash'],honedge,nan
-681,aegislash,Aegislash,97,291,155,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
+681,aegislash_shield,Aegislash (Shield),97,291,155,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
+681,aegislash_blade,Aegislash (Blade),291,97,155,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
 682,spritzee,Spritzee,110,113,186,"['fairy', 'none']","['CHARM', 'CHARGE_BEAM']","['DRAINING_KISS', 'THUNDERBOLT']",nan,nan,3.0,50000,True,FAMILY_SPRITZEE,['aromatisse'],,nan
 683,aromatisse,Aromatisse,173,150,226,"['fairy', 'none']","['CHARM', 'CHARGE_BEAM']","['MOONBLAST', 'THUNDERBOLT', 'PSYCHIC', 'DRAINING_KISS']",nan,nan,3.0,50000,True,FAMILY_SPRITZEE,nan,spritzee,nan
 684,swirlix,Swirlix,109,119,158,"['fairy', 'none']",['TACKLE'],"['DRAINING_KISS', 'ENERGY_BALL']",nan,nan,3.0,50000,True,FAMILY_SWIRLIX,['slurpuff'],,nan
@@ -1436,9 +1437,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 876,indeedee,Indeedee,208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3.0,50000,False,,nan,,nan
 876,indeedee_female,Indeedee (Female),184,184,172,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,3.0,50000,False,,nan,,nan
 876,indeedee_male,Indeedee (Male),208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3.0,50000,False,,nan,,nan
-877,morpeko,Morpeko,192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3.0,50000,False,,nan,,nan
-877,morpeko_full_belly,Morpeko (Full Belly),192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3.0,50000,False,,nan,,nan
-877,morpeko_hangry,Morpeko (Hangry),192,121,151,"['electric', 'dark']","['THUNDER_SHOCK', 'BITE']","['CRUNCH', 'PAYBACK', 'THUNDERBOLT', 'WILD_CHARGE']",nan,nan,3.0,50000,False,,nan,,nan
+877,morpeko_full_belly,Morpeko (Full Belly),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE']","['SEED_BOMB', 'OUTRAGE', 'AURA_WHEEL_ELECTRIC']",nan,nan,3.0,50000,False,,nan,,nan
+877,morpeko_hangry,Morpeko (Hangry),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE']","['SEED_BOMB', 'OUTRAGE', 'AURA_WHEEL_DARK']",nan,nan,3.0,50000,False,,nan,,nan
 878,cufant,Cufant,140,91,176,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH']",nan,nan,5.0,75000,False,FAMILY_CUFANT,['copperajah'],,nan
 879,copperajah,Copperajah,226,126,263,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH', 'HEAVY_SLAM']",nan,nan,5.0,75000,False,FAMILY_CUFANT,nan,cufant,nan
 880,dracozolt,Dracozolt,195,165,207,"['electric', 'dragon']","['DRAGON_TAIL', 'THUNDER_SHOCK']","['DISCHARGE', 'DRAGON_PULSE', 'ANCIENT_POWER']",nan,nan,5.0,75000,False,,nan,,nan

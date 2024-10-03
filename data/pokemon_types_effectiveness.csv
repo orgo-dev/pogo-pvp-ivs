@@ -21401,24 +21401,42 @@ Doublade,ice,0.625
 Doublade,dragon,0.625
 Doublade,dark,1.6
 Doublade,fairy,0.625
-Aegislash,normal,0.244
-Aegislash,fighting,0.625
-Aegislash,flying,0.625
-Aegislash,poison,0.244
-Aegislash,ground,1.6
-Aegislash,rock,0.625
-Aegislash,bug,0.391
-Aegislash,ghost,1.6
-Aegislash,steel,0.625
-Aegislash,fire,1.6
-Aegislash,water,1.0
-Aegislash,grass,0.625
-Aegislash,electric,1.0
-Aegislash,psychic,0.625
-Aegislash,ice,0.625
-Aegislash,dragon,0.625
-Aegislash,dark,1.6
-Aegislash,fairy,0.625
+Aegislash (Shield),normal,0.244
+Aegislash (Shield),fighting,0.625
+Aegislash (Shield),flying,0.625
+Aegislash (Shield),poison,0.244
+Aegislash (Shield),ground,1.6
+Aegislash (Shield),rock,0.625
+Aegislash (Shield),bug,0.391
+Aegislash (Shield),ghost,1.6
+Aegislash (Shield),steel,0.625
+Aegislash (Shield),fire,1.6
+Aegislash (Shield),water,1.0
+Aegislash (Shield),grass,0.625
+Aegislash (Shield),electric,1.0
+Aegislash (Shield),psychic,0.625
+Aegislash (Shield),ice,0.625
+Aegislash (Shield),dragon,0.625
+Aegislash (Shield),dark,1.6
+Aegislash (Shield),fairy,0.625
+Aegislash (Blade),normal,0.244
+Aegislash (Blade),fighting,0.625
+Aegislash (Blade),flying,0.625
+Aegislash (Blade),poison,0.244
+Aegislash (Blade),ground,1.6
+Aegislash (Blade),rock,0.625
+Aegislash (Blade),bug,0.391
+Aegislash (Blade),ghost,1.6
+Aegislash (Blade),steel,0.625
+Aegislash (Blade),fire,1.6
+Aegislash (Blade),water,1.0
+Aegislash (Blade),grass,0.625
+Aegislash (Blade),electric,1.0
+Aegislash (Blade),psychic,0.625
+Aegislash (Blade),ice,0.625
+Aegislash (Blade),dragon,0.625
+Aegislash (Blade),dark,1.6
+Aegislash (Blade),fairy,0.625
 Spritzee,normal,1.0
 Spritzee,fighting,0.625
 Spritzee,flying,1.0
@@ -25847,24 +25865,6 @@ Indeedee (Male),ice,1.0
 Indeedee (Male),dragon,1.0
 Indeedee (Male),dark,1.6
 Indeedee (Male),fairy,1.0
-Morpeko,normal,1.0
-Morpeko,fighting,1.6
-Morpeko,flying,0.625
-Morpeko,poison,1.0
-Morpeko,ground,1.6
-Morpeko,rock,1.0
-Morpeko,bug,1.6
-Morpeko,ghost,0.625
-Morpeko,steel,0.625
-Morpeko,fire,1.0
-Morpeko,water,1.0
-Morpeko,grass,1.0
-Morpeko,electric,0.625
-Morpeko,psychic,0.391
-Morpeko,ice,1.0
-Morpeko,dragon,1.0
-Morpeko,dark,0.625
-Morpeko,fairy,1.6
 Morpeko (Full Belly),normal,1.0
 Morpeko (Full Belly),fighting,1.6
 Morpeko (Full Belly),flying,0.625

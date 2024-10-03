@@ -2004,10 +2004,13 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 678,meowstic_female,Meowstic (Female),678,meowstic_female,Meowstic (Female),True
 679,honedge,Honedge,679,honedge,Honedge,True
 679,honedge,Honedge,680,doublade,Doublade,False
-679,honedge,Honedge,681,aegislash,Aegislash,False
+679,honedge,Honedge,681,aegislash_blade,Aegislash (Blade),False
+679,honedge,Honedge,681,aegislash_shield,Aegislash (Shield),False
 680,doublade,Doublade,680,doublade,Doublade,True
-680,doublade,Doublade,681,aegislash,Aegislash,False
-681,aegislash,Aegislash,681,aegislash,Aegislash,True
+680,doublade,Doublade,681,aegislash_blade,Aegislash (Blade),False
+680,doublade,Doublade,681,aegislash_shield,Aegislash (Shield),False
+681,aegislash_blade,Aegislash (Blade),681,aegislash_blade,Aegislash (Blade),True
+681,aegislash_shield,Aegislash (Shield),681,aegislash_shield,Aegislash (Shield),True
 682,spritzee,Spritzee,682,spritzee,Spritzee,True
 682,spritzee,Spritzee,683,aromatisse,Aromatisse,False
 683,aromatisse,Aromatisse,683,aromatisse,Aromatisse,True
@@ -2364,7 +2367,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 876,indeedee,Indeedee,876,indeedee,Indeedee,True
 876,indeedee_female,Indeedee (Female),876,indeedee_female,Indeedee (Female),True
 876,indeedee_male,Indeedee (Male),876,indeedee_male,Indeedee (Male),True
-877,morpeko,Morpeko,877,morpeko,Morpeko,True
 877,morpeko_full_belly,Morpeko (Full Belly),877,morpeko_full_belly,Morpeko (Full Belly),True
 877,morpeko_hangry,Morpeko (Hangry),877,morpeko_hangry,Morpeko (Hangry),True
 878,cufant,Cufant,878,cufant,Cufant,True
