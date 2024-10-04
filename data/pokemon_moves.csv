@@ -4900,6 +4900,7 @@ Leafeon,Leaf Blade,charged,grass,1.2,70,0,1,,,35.0,2.0,,Spam/Bait,
 Leafeon,Solar Beam,charged,grass,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Leavanny,Bug Bite,fast,bug,1.2,3,3,1,3.0,3.0,,,,General,
 Leavanny,Razor Leaf,fast,grass,1.2,9,4,2,4.5,2.0,,,,Heavy Damage,
+Leavanny,Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,,,,Multipurpose,elite
 Leavanny,Leaf Blade,charged,grass,1.2,70,0,1,,,35.0,2.0,,Spam/Bait,
 Leavanny,Leaf Storm,charged,grass,1.2,130,0,1,,,55.0,2.36,100% chance -2 Atk self,Self-Debuff Nuke,
 Leavanny,Silver Wind,charged,bug,1.2,60,0,1,,,45.0,1.33,10.0% chance +1 Atk +1 Def self,Boost,

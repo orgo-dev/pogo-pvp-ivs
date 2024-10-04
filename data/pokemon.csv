@@ -1004,7 +1004,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 539,sawk_shadow,Sawk (Shadow),231,153,181,"['fighting', 'none']","['LOW_KICK', 'POISON_JAB']","['FOCUS_BLAST', 'LOW_SWEEP', 'BODY_SLAM', 'BRICK_BREAK', 'FRUSTRATION']",nan,nan,5.0,75000,True,,nan,,['shadow']
 540,sewaddle,Sewaddle,96,124,128,"['bug', 'grass']","['STRUGGLE_BUG', 'BUG_BITE']","['ENERGY_BALL', 'SEED_BOMB', 'SILVER_WIND']",nan,nan,1.0,10000,True,FAMILY_SEWADDLE,['swadloon'],,nan
 541,swadloon,Swadloon,115,162,146,"['bug', 'grass']","['STRUGGLE_BUG', 'BUG_BITE']","['ENERGY_BALL', 'BUG_BUZZ', 'SILVER_WIND']",nan,nan,1.0,10000,True,FAMILY_SEWADDLE,['leavanny'],sewaddle,nan
-542,leavanny,Leavanny,205,165,181,"['bug', 'grass']","['RAZOR_LEAF', 'BUG_BITE']","['LEAF_BLADE', 'X_SCISSOR', 'SILVER_WIND', 'LEAF_STORM']",nan,nan,1.0,10000,True,FAMILY_SEWADDLE,nan,swadloon,nan
+542,leavanny,Leavanny,205,165,181,"['bug', 'grass']","['RAZOR_LEAF', 'BUG_BITE', 'SHADOW_CLAW']","['LEAF_BLADE', 'X_SCISSOR', 'SILVER_WIND', 'LEAF_STORM']",['SHADOW_CLAW'],nan,1.0,10000,True,FAMILY_SEWADDLE,nan,swadloon,nan
 543,venipede,Venipede,83,99,102,"['bug', 'poison']","['BUG_BITE', 'POISON_STING']","['SIGNAL_BEAM', 'SLUDGE_BOMB', 'GYRO_BALL']",nan,nan,1.0,10000,True,FAMILY_VENIPEDE,['whirlipede'],,nan
 544,whirlipede,Whirlipede,100,173,120,"['bug', 'poison']","['BUG_BITE', 'POISON_STING']","['SIGNAL_BEAM', 'SLUDGE_BOMB', 'GYRO_BALL']",nan,nan,1.0,10000,True,FAMILY_VENIPEDE,['scolipede'],venipede,nan
 545,scolipede,Scolipede,203,175,155,"['bug', 'poison']","['BUG_BITE', 'POISON_JAB']","['MEGAHORN', 'SLUDGE_BOMB', 'GYRO_BALL', 'X_SCISSOR']",nan,nan,1.0,10000,True,FAMILY_VENIPEDE,nan,whirlipede,nan

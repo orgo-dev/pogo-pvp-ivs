@@ -58413,13 +58413,17 @@
         ],
         "fastMoves": [
             "RAZOR_LEAF",
-            "BUG_BITE"
+            "BUG_BITE",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
             "LEAF_BLADE",
             "X_SCISSOR",
             "SILVER_WIND",
             "LEAF_STORM"
+        ],
+        "eliteMoves": [
+            "SHADOW_CLAW"
         ],
         "defaultIVs": {
             "cp500": [
