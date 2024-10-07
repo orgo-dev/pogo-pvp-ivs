@@ -81830,11 +81830,13 @@
         ],
         "fastMoves": [
             "CHARGE_BEAM",
-            "BITE"
+            "BITE",
+            "THUNDER_SHOCK"
         ],
         "chargedMoves": [
             "SEED_BOMB",
             "OUTRAGE",
+            "PSYCHIC_FANGS",
             "AURA_WHEEL_ELECTRIC"
         ],
         "defaultIVs": {
@@ -81885,11 +81887,13 @@
         ],
         "fastMoves": [
             "CHARGE_BEAM",
-            "BITE"
+            "BITE",
+            "THUNDER_SHOCK"
         ],
         "chargedMoves": [
             "SEED_BOMB",
             "OUTRAGE",
+            "PSYCHIC_FANGS",
             "AURA_WHEEL_DARK"
         ],
         "defaultIVs": {

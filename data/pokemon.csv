@@ -1437,8 +1437,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 876,indeedee,Indeedee,208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3.0,50000,False,,nan,,nan
 876,indeedee_female,Indeedee (Female),184,184,172,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'ENERGY_BALL']",nan,nan,3.0,50000,False,,nan,,nan
 876,indeedee_male,Indeedee (Male),208,166,155,"['psychic', 'normal']",['EXTRASENSORY'],"['PSYBEAM', 'PSYCHIC', 'SHADOW_BALL']",nan,nan,3.0,50000,False,,nan,,nan
-877,morpeko_full_belly,Morpeko (Full Belly),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE']","['SEED_BOMB', 'OUTRAGE', 'AURA_WHEEL_ELECTRIC']",nan,nan,3.0,50000,False,,nan,,nan
-877,morpeko_hangry,Morpeko (Hangry),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE']","['SEED_BOMB', 'OUTRAGE', 'AURA_WHEEL_DARK']",nan,nan,3.0,50000,False,,nan,,nan
+877,morpeko_full_belly,Morpeko (Full Belly),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE', 'THUNDER_SHOCK']","['SEED_BOMB', 'OUTRAGE', 'PSYCHIC_FANGS', 'AURA_WHEEL_ELECTRIC']",nan,nan,3.0,50000,False,,nan,,nan
+877,morpeko_hangry,Morpeko (Hangry),192,121,151,"['electric', 'dark']","['CHARGE_BEAM', 'BITE', 'THUNDER_SHOCK']","['SEED_BOMB', 'OUTRAGE', 'PSYCHIC_FANGS', 'AURA_WHEEL_DARK']",nan,nan,3.0,50000,False,,nan,,nan
 878,cufant,Cufant,140,91,176,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH']",nan,nan,5.0,75000,False,FAMILY_CUFANT,['copperajah'],,nan
 879,copperajah,Copperajah,226,126,263,"['steel', 'none']","['TACKLE', 'ROCK_SMASH']","['IRON_HEAD', 'DIG', 'PLAY_ROUGH', 'HEAVY_SLAM']",nan,nan,5.0,75000,False,FAMILY_CUFANT,nan,cufant,nan
 880,dracozolt,Dracozolt,195,165,207,"['electric', 'dragon']","['DRAGON_TAIL', 'THUNDER_SHOCK']","['DISCHARGE', 'DRAGON_PULSE', 'ANCIENT_POWER']",nan,nan,5.0,75000,False,,nan,,nan
