@@ -45,10 +45,16 @@ Blastoise (Shadow),water
 Blastoise (Shadow),none
 Caterpie,bug
 Caterpie,none
+Caterpie (Shadow),bug
+Caterpie (Shadow),none
 Metapod,bug
 Metapod,none
+Metapod (Shadow),bug
+Metapod (Shadow),none
 Butterfree,bug
 Butterfree,flying
+Butterfree (Shadow),bug
+Butterfree (Shadow),flying
 Weedle,bug
 Weedle,poison
 Weedle (Shadow),bug
@@ -263,8 +269,12 @@ Golduck (Shadow),water
 Golduck (Shadow),none
 Mankey,fighting
 Mankey,none
+Mankey (Shadow),fighting
+Mankey (Shadow),none
 Primeape,fighting
 Primeape,none
+Primeape (Shadow),fighting
+Primeape (Shadow),none
 Growlithe,fire
 Growlithe,none
 Growlithe (Hisuian),fire
@@ -509,10 +519,10 @@ Weezing,poison
 Weezing,none
 Weezing (Galarian),poison
 Weezing (Galarian),fairy
-Weezing (Shadow),poison
-Weezing (Shadow),none
 Weezing (Galarian) (Shadow),poison
 Weezing (Galarian) (Shadow),fairy
+Weezing (Shadow),poison
+Weezing (Shadow),none
 Rhyhorn,ground
 Rhyhorn,rock
 Rhyhorn (Shadow),ground
@@ -1067,10 +1077,14 @@ Zigzagoon,normal
 Zigzagoon,none
 Zigzagoon (Galarian),dark
 Zigzagoon (Galarian),normal
+Zigzagoon (Galarian) (Shadow),dark
+Zigzagoon (Galarian) (Shadow),normal
 Linoone,normal
 Linoone,none
 Linoone (Galarian),dark
 Linoone (Galarian),normal
+Linoone (Galarian) (Shadow),dark
+Linoone (Galarian) (Shadow),normal
 Wurmple,bug
 Wurmple,none
 Silcoon,bug
@@ -1821,6 +1835,8 @@ Palkia (Origin),water
 Palkia (Origin),dragon
 Heatran,fire
 Heatran,steel
+Heatran (Shadow),fire
+Heatran (Shadow),steel
 Regigigas,normal
 Regigigas,none
 Regigigas (Shadow),normal
@@ -1961,10 +1977,16 @@ Zebstrika (Shadow),electric
 Zebstrika (Shadow),none
 Roggenrola,rock
 Roggenrola,none
+Roggenrola (Shadow),rock
+Roggenrola (Shadow),none
 Boldore,rock
 Boldore,none
+Boldore (Shadow),rock
+Boldore (Shadow),none
 Gigalith,rock
 Gigalith,none
+Gigalith (Shadow),rock
+Gigalith (Shadow),none
 Woobat,psychic
 Woobat,flying
 Swoobat,psychic
@@ -2013,10 +2035,16 @@ Leavanny,bug
 Leavanny,grass
 Venipede,bug
 Venipede,poison
+Venipede (Shadow),bug
+Venipede (Shadow),poison
 Whirlipede,bug
 Whirlipede,poison
+Whirlipede (Shadow),bug
+Whirlipede (Shadow),poison
 Scolipede,bug
 Scolipede,poison
+Scolipede (Shadow),bug
+Scolipede (Shadow),poison
 Cottonee,grass
 Cottonee,fairy
 Whimsicott,grass
@@ -2145,8 +2173,12 @@ Emolga,electric
 Emolga,flying
 Karrablast,bug
 Karrablast,none
+Karrablast (Shadow),bug
+Karrablast (Shadow),none
 Escavalier,bug
 Escavalier,steel
+Escavalier (Shadow),bug
+Escavalier (Shadow),steel
 Foongus,grass
 Foongus,poison
 Foongus (Shadow),grass
@@ -2219,8 +2251,12 @@ Cryogonal,ice
 Cryogonal,none
 Shelmet,bug
 Shelmet,none
+Shelmet (Shadow),bug
+Shelmet (Shadow),none
 Accelgor,bug
 Accelgor,none
+Accelgor (Shadow),bug
+Accelgor (Shadow),none
 Stunfisk,ground
 Stunfisk,electric
 Stunfisk (Galarian),ground
@@ -2379,10 +2415,10 @@ Honedge,steel
 Honedge,ghost
 Doublade,steel
 Doublade,ghost
-Aegislash (Shield),steel
-Aegislash (Shield),ghost
 Aegislash (Blade),steel
 Aegislash (Blade),ghost
+Aegislash (Shield),steel
+Aegislash (Shield),ghost
 Spritzee,fairy
 Spritzee,none
 Aromatisse,fairy
@@ -2839,6 +2875,8 @@ Grimmsnarl,dark
 Grimmsnarl,fairy
 Obstagoon,dark
 Obstagoon,normal
+Obstagoon (Shadow),dark
+Obstagoon (Shadow),normal
 Perrserker,steel
 Perrserker,none
 Cursola,ghost
@@ -3131,6 +3169,8 @@ Tatsugiri_stretchy,dragon
 Tatsugiri_stretchy,water
 Annihilape,fighting
 Annihilape,ghost
+Annihilape (Shadow),fighting
+Annihilape (Shadow),ghost
 Clodsire,poison
 Clodsire,ground
 Clodsire,poison

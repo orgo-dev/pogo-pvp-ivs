@@ -54,9 +54,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 10,caterpie,Caterpie,10,caterpie,Caterpie,True
 10,caterpie,Caterpie,11,metapod,Metapod,False
 10,caterpie,Caterpie,12,butterfree,Butterfree,False
+10,caterpie_shadow,Caterpie (Shadow),10,caterpie_shadow,Caterpie (Shadow),True
+10,caterpie_shadow,Caterpie (Shadow),11,metapod_shadow,Metapod (Shadow),False
+10,caterpie_shadow,Caterpie (Shadow),12,butterfree_shadow,Butterfree (Shadow),False
 11,metapod,Metapod,11,metapod,Metapod,True
 11,metapod,Metapod,12,butterfree,Butterfree,False
+11,metapod_shadow,Metapod (Shadow),11,metapod_shadow,Metapod (Shadow),True
+11,metapod_shadow,Metapod (Shadow),12,butterfree_shadow,Butterfree (Shadow),False
 12,butterfree,Butterfree,12,butterfree,Butterfree,True
+12,butterfree_shadow,Butterfree (Shadow),12,butterfree_shadow,Butterfree (Shadow),True
 13,weedle,Weedle,13,weedle,Weedle,True
 13,weedle,Weedle,14,kakuna,Kakuna,False
 13,weedle,Weedle,15,beedrill,Beedrill,False
@@ -244,8 +250,13 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 56,mankey,Mankey,56,mankey,Mankey,True
 56,mankey,Mankey,57,primeape,Primeape,False
 56,mankey,Mankey,979,annihilape,Annihilape,False
+56,mankey_shadow,Mankey (Shadow),56,mankey_shadow,Mankey (Shadow),True
+56,mankey_shadow,Mankey (Shadow),57,primeape_shadow,Primeape (Shadow),False
+56,mankey_shadow,Mankey (Shadow),979,annihilape_shadow,Annihilape (Shadow),False
 57,primeape,Primeape,57,primeape,Primeape,True
 57,primeape,Primeape,979,annihilape,Annihilape,False
+57,primeape_shadow,Primeape (Shadow),57,primeape_shadow,Primeape (Shadow),True
+57,primeape_shadow,Primeape (Shadow),979,annihilape_shadow,Annihilape (Shadow),False
 58,growlithe,Growlithe,58,growlithe,Growlithe,True
 58,growlithe,Growlithe,59,arcanine,Arcanine,False
 58,growlithe_hisuian,Growlithe (Hisuian),58,growlithe_hisuian,Growlithe (Hisuian),True
@@ -965,9 +976,14 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 263,zigzagoon_galarian,Zigzagoon (Galarian),263,zigzagoon_galarian,Zigzagoon (Galarian),True
 263,zigzagoon_galarian,Zigzagoon (Galarian),264,linoone_galarian,Linoone (Galarian),False
 263,zigzagoon_galarian,Zigzagoon (Galarian),862,obstagoon,Obstagoon,False
+263,zigzagoon_galarian_shadow,Zigzagoon (Galarian) (Shadow),263,zigzagoon_galarian_shadow,Zigzagoon (Galarian) (Shadow),True
+263,zigzagoon_galarian_shadow,Zigzagoon (Galarian) (Shadow),264,linoone_galarian_shadow,Linoone (Galarian) (Shadow),False
+263,zigzagoon_galarian_shadow,Zigzagoon (Galarian) (Shadow),862,obstagoon_shadow,Obstagoon (Shadow),False
 264,linoone,Linoone,264,linoone,Linoone,True
 264,linoone_galarian,Linoone (Galarian),264,linoone_galarian,Linoone (Galarian),True
 264,linoone_galarian,Linoone (Galarian),862,obstagoon,Obstagoon,False
+264,linoone_galarian_shadow,Linoone (Galarian) (Shadow),264,linoone_galarian_shadow,Linoone (Galarian) (Shadow),True
+264,linoone_galarian_shadow,Linoone (Galarian) (Shadow),862,obstagoon_shadow,Obstagoon (Shadow),False
 265,wurmple,Wurmple,265,wurmple,Wurmple,True
 265,wurmple,Wurmple,266,silcoon,Silcoon,False
 265,wurmple,Wurmple,267,beautifly,Beautifly,False
@@ -1568,6 +1584,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 484,palkia,Palkia,484,palkia,Palkia,True
 484,palkia_origin,Palkia (Origin),484,palkia_origin,Palkia (Origin),True
 485,heatran,Heatran,485,heatran,Heatran,True
+485,heatran_shadow,Heatran (Shadow),485,heatran_shadow,Heatran (Shadow),True
 486,regigigas,Regigigas,486,regigigas,Regigigas,True
 486,regigigas_shadow,Regigigas (Shadow),486,regigigas_shadow,Regigigas (Shadow),True
 487,giratina_altered,Giratina (Altered),487,giratina_altered,Giratina (Altered),True
@@ -1671,9 +1688,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 524,roggenrola,Roggenrola,524,roggenrola,Roggenrola,True
 524,roggenrola,Roggenrola,525,boldore,Boldore,False
 524,roggenrola,Roggenrola,526,gigalith,Gigalith,False
+524,roggenrola_shadow,Roggenrola (Shadow),524,roggenrola_shadow,Roggenrola (Shadow),True
+524,roggenrola_shadow,Roggenrola (Shadow),525,boldore_shadow,Boldore (Shadow),False
+524,roggenrola_shadow,Roggenrola (Shadow),526,gigalith_shadow,Gigalith (Shadow),False
 525,boldore,Boldore,525,boldore,Boldore,True
 525,boldore,Boldore,526,gigalith,Gigalith,False
+525,boldore_shadow,Boldore (Shadow),525,boldore_shadow,Boldore (Shadow),True
+525,boldore_shadow,Boldore (Shadow),526,gigalith_shadow,Gigalith (Shadow),False
 526,gigalith,Gigalith,526,gigalith,Gigalith,True
+526,gigalith_shadow,Gigalith (Shadow),526,gigalith_shadow,Gigalith (Shadow),True
 527,woobat,Woobat,527,woobat,Woobat,True
 527,woobat,Woobat,528,swoobat,Swoobat,False
 528,swoobat,Swoobat,528,swoobat,Swoobat,True
@@ -1715,9 +1738,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 543,venipede,Venipede,543,venipede,Venipede,True
 543,venipede,Venipede,544,whirlipede,Whirlipede,False
 543,venipede,Venipede,545,scolipede,Scolipede,False
+543,venipede_shadow,Venipede (Shadow),543,venipede_shadow,Venipede (Shadow),True
+543,venipede_shadow,Venipede (Shadow),544,whirlipede_shadow,Whirlipede (Shadow),False
+543,venipede_shadow,Venipede (Shadow),545,scolipede_shadow,Scolipede (Shadow),False
 544,whirlipede,Whirlipede,544,whirlipede,Whirlipede,True
 544,whirlipede,Whirlipede,545,scolipede,Scolipede,False
+544,whirlipede_shadow,Whirlipede (Shadow),544,whirlipede_shadow,Whirlipede (Shadow),True
+544,whirlipede_shadow,Whirlipede (Shadow),545,scolipede_shadow,Scolipede (Shadow),False
 545,scolipede,Scolipede,545,scolipede,Scolipede,True
+545,scolipede_shadow,Scolipede (Shadow),545,scolipede_shadow,Scolipede (Shadow),True
 546,cottonee,Cottonee,546,cottonee,Cottonee,True
 546,cottonee,Cottonee,547,whimsicott,Whimsicott,False
 547,whimsicott,Whimsicott,547,whimsicott,Whimsicott,True
@@ -1825,7 +1854,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 587,emolga,Emolga,587,emolga,Emolga,True
 588,karrablast,Karrablast,588,karrablast,Karrablast,True
 588,karrablast,Karrablast,589,escavalier,Escavalier,False
+588,karrablast_shadow,Karrablast (Shadow),588,karrablast_shadow,Karrablast (Shadow),True
+588,karrablast_shadow,Karrablast (Shadow),589,escavalier_shadow,Escavalier (Shadow),False
 589,escavalier,Escavalier,589,escavalier,Escavalier,True
+589,escavalier_shadow,Escavalier (Shadow),589,escavalier_shadow,Escavalier (Shadow),True
 590,foongus,Foongus,590,foongus,Foongus,True
 590,foongus,Foongus,591,amoonguss,Amoonguss,False
 590,foongus_shadow,Foongus (Shadow),590,foongus_shadow,Foongus (Shadow),True
@@ -1887,7 +1919,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 615,cryogonal,Cryogonal,615,cryogonal,Cryogonal,True
 616,shelmet,Shelmet,616,shelmet,Shelmet,True
 616,shelmet,Shelmet,617,accelgor,Accelgor,False
+616,shelmet_shadow,Shelmet (Shadow),616,shelmet_shadow,Shelmet (Shadow),True
+616,shelmet_shadow,Shelmet (Shadow),617,accelgor_shadow,Accelgor (Shadow),False
 617,accelgor,Accelgor,617,accelgor,Accelgor,True
+617,accelgor_shadow,Accelgor (Shadow),617,accelgor_shadow,Accelgor (Shadow),True
 618,stunfisk,Stunfisk,618,stunfisk,Stunfisk,True
 618,stunfisk_galarian,Stunfisk (Galarian),618,stunfisk_galarian,Stunfisk (Galarian),True
 619,mienfoo,Mienfoo,619,mienfoo,Mienfoo,True
@@ -2347,6 +2382,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 860,morgrem,Morgrem,861,grimmsnarl,Grimmsnarl,False
 861,grimmsnarl,Grimmsnarl,861,grimmsnarl,Grimmsnarl,True
 862,obstagoon,Obstagoon,862,obstagoon,Obstagoon,True
+862,obstagoon_shadow,Obstagoon (Shadow),862,obstagoon_shadow,Obstagoon (Shadow),True
 863,perrserker,Perrserker,863,perrserker,Perrserker,True
 864,cursola,Cursola,864,cursola,Cursola,True
 865,sirfetchd,Sirfetch'd,865,sirfetchd,Sirfetch'd,True
@@ -2550,6 +2586,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 978,tatsugiri_droopy,Tatsugiri_droopy,978,tatsugiri_droopy,Tatsugiri_droopy,True
 978,tatsugiri_stretchy,Tatsugiri_stretchy,978,tatsugiri_stretchy,Tatsugiri_stretchy,True
 979,annihilape,Annihilape,979,annihilape,Annihilape,True
+979,annihilape_shadow,Annihilape (Shadow),979,annihilape_shadow,Annihilape (Shadow),True
 980,clodsire,Clodsire,980,clodsire,Clodsire,True
 980,clodsiresb,Clodsire,980,clodsiresb,Clodsire,True
 981,farigiraf,Farigiraf,981,farigiraf,Farigiraf,True
