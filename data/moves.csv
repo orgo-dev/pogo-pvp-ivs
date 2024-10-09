@@ -209,6 +209,7 @@ PSYSHOCK,Psyshock,charged,psychic,70,0,1,,,45,1.56,,General,nan,,,nan,nan
 PSYSTRIKE,Psystrike,charged,psychic,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 PSYWAVE,Psywave,fast,psychic,3,4,1,3.0,4.0,0,,,Fast Charge,nan,,,nan,nan
 QUICK_ATTACK,Quick Attack,fast,normal,5,8,2,2.5,4.0,0,,,Fast Charge,nan,,,nan,nan
+RAGE_FIST,Rage Fist (Speculative),charged,ghost,50,0,1,,,40,1.25,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 RAZOR_LEAF,Razor Leaf,fast,grass,9,4,2,4.5,2.0,0,,,Heavy Damage,nan,,,nan,nan
 RAZOR_SHELL,Razor Shell,charged,water,35,0,1,,,35,1.0,50.0% chance -1 Def opponent,Spam/Bait Debuff,"[0, -1]",opponent,0.5,nan,nan
 REST,Rest,charged,normal,50,0,1,,,35,1.43,,Spam/Bait,nan,,,nan,nan

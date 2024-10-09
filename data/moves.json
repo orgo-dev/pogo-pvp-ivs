@@ -2489,6 +2489,22 @@
         "archetype": "Fast Charge"
     },
     {
+        "moveId": "RAGE_FIST",
+        "name": "Rage Fist (Speculative)",
+        "type": "ghost",
+        "power": 50,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [
+            1,
+            0
+        ],
+        "buffTarget": "self",
+        "buffApplyChance": "1",
+        "archetype": "Boost"
+    },
+    {
         "moveId": "RAZOR_LEAF",
         "name": "Razor Leaf",
         "type": "grass",
