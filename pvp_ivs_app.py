@@ -1,15 +1,9 @@
 import streamlit as st
 import math
 import re
-import warnings
 import pandas as pd
 import numpy as np
 from bisect import bisect
-from st_aggrid import (
-    GridOptionsBuilder,
-    AgGrid,
-    ColumnsAutoSizeMode,
-)
 from app_utils import (
     get_query_params_url,
     get_poke_fast_moves,
@@ -131,6 +125,7 @@ def find_league_iv_level_stats(
     return [dict(league=league, **x) for x in rtn]
 
 
+@st.cache_data(ttl=3600)
 def get_league_pokemon_all_ivs_stats(
     league,
     pokemon,
@@ -178,7 +173,7 @@ def add_pokemon_iv_notes(row):
 def parse_ivs(ivs):
     if not ivs:
         return []
-    iv_names = ["iv_attack", "iv_defense", "iv_stamina"]
+    iv_names = ["IV Atk", "IV Def", "IV HP"]
     return [
         dict(zip(iv_names, map(int, re.findall(r"\d+", iv))))
         for iv in re.findall(r"\d+/\d+/\d+", ivs)
@@ -198,10 +193,19 @@ def get_pareto_efficient_stats(stats):
     return ~is_inefficient
 
 
+def highlight_input_iv_rows(s):
+    is_max = pd.Series(data=False, index=s.index)
+    is_max["Input"] = s.loc["Input"] == "True"
+    return [
+        "background-color: rgba(152,212,228,.1)" if is_max.any() else "" for v in is_max
+    ]
+
+
+@st.cache_data(ttl=3600)
 def get_league_pokemon_df(
     league,
     pokemon,
-    ivs,
+    # ivs,
     all_pokemon_stats,
     cp_mults,
     cp_coef_pcts,
@@ -256,7 +260,7 @@ def get_league_pokemon_df(
         + (1 / odds_pct).round(1).astype(str)
         + ")"
     )
-    df.loc[df["rank_raids"].isna(), "odds_better_raids"] = ""
+    df.loc[df["rank_raids"].isna(), "odds_better_raids"] = None
 
     # ranks shadow raids
     msk = (df["iv_attack"] >= 6) & (df["iv_defense"] >= 6) & (df["iv_stamina"] >= 6)
@@ -273,7 +277,92 @@ def get_league_pokemon_df(
         + (1 / odds_pct).round(1).astype(str)
         + ")"
     )
-    df.loc[df["rank_shadow_raids"].isna(), "odds_better_shadow_raids"] = ""
+    df.loc[df["rank_shadow_raids"].isna(), "odds_better_shadow_raids"] = None
+
+    # ranks trade good
+    msk = (df["iv_attack"] >= 1) & (df["iv_defense"] >= 1) & (df["iv_stamina"] >= 1)
+    rank_indices_trade = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_trade[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_trade[~msk] = None
+    df["rank_trade_good"] = rank_indices_trade
+    odds_pct = (df["rank_trade_good"] - 1) / 15**3
+    df["odds_better_trade_good"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_trade_good"].isna(), "odds_better_trade_good"] = None
+
+    # ranks trade great
+    msk = (df["iv_attack"] >= 2) & (df["iv_defense"] >= 2) & (df["iv_stamina"] >= 2)
+    rank_indices_trade = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_trade[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_trade[~msk] = None
+    df["rank_trade_great"] = rank_indices_trade
+    odds_pct = (df["rank_trade_great"] - 1) / 14**3
+    df["odds_better_trade_great"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_trade_great"].isna(), "odds_better_trade_great"] = None
+
+    # ranks trade ultra
+    msk = (df["iv_attack"] >= 3) & (df["iv_defense"] >= 3) & (df["iv_stamina"] >= 3)
+    rank_indices_trade = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_trade[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_trade[~msk] = None
+    df["rank_trade_ultra"] = rank_indices_trade
+    odds_pct = (df["rank_trade_ultra"] - 1) / 13**3
+    df["odds_better_trade_ultra"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_trade_ultra"].isna(), "odds_better_trade_ultra"] = None
+
+    # ranks trade best
+    msk = (df["iv_attack"] >= 5) & (df["iv_defense"] >= 5) & (df["iv_stamina"] >= 5)
+    rank_indices_trade = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_trade[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_trade[~msk] = None
+    df["rank_trade_best"] = rank_indices_trade
+    odds_pct = (df["rank_trade_best"] - 1) / 11**3
+    df["odds_better_trade_best"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_trade_best"].isna(), "odds_better_trade_best"] = None
+
+    # ranks trade lucky
+    msk = (df["iv_attack"] >= 12) & (df["iv_defense"] >= 12) & (df["iv_stamina"] >= 12)
+    rank_indices_trade = pd.array(msk, dtype=pd.Int64Dtype())
+    rank_indices_trade[msk] = (
+        df[msk].sort_values(rank_cols, ascending=False).index.argsort() + 1
+    )
+    rank_indices_trade[~msk] = None
+    df["rank_trade_lucky"] = rank_indices_trade
+    odds_pct = (df["rank_trade_lucky"] - 1) / 4**3
+    df["odds_better_trade_lucky"] = (
+        (100 * odds_pct).round(1).astype(str)
+        + "% (1 in "
+        + (1 / odds_pct).round(1).astype(str)
+        + ")"
+    )
+    df.loc[df["rank_trade_lucky"].isna(), "odds_better_trade_lucky"] = None
 
     # bulk
     rank_cols = ["bulk_prod", "level_attack", "level_defense", "cp", "iv_stamina"]
@@ -323,15 +412,6 @@ def get_league_pokemon_df(
     # add xl costs
     df = df.merge(df_xl_costs, how="left", on="level")
 
-    # add col for selected ivs
-    df_input_ivs = (
-        pd.DataFrame(parse_ivs(ivs)).assign(Input="True")
-        if ivs
-        else pd.DataFrame(columns=["iv_attack", "iv_defense", "iv_stamina", "Input"])
-    )
-    df = df.merge(df_input_ivs, how="left", on=["iv_attack", "iv_defense", "iv_stamina"])
-    df["Input"] = df["Input"].fillna("")
-
     # return sorted, renamed cols
     return (
         df.sort_values("rank")
@@ -346,6 +426,16 @@ def get_league_pokemon_df(
                 "odds_better_raids": "Odds Better Raids",
                 "rank_shadow_raids": "Rank Shadow Raids",
                 "odds_better_shadow_raids": "Odds Better Shadow Raids",
+                "rank_trade_good": "Rank Trade Good",
+                "odds_better_trade_good": "Odds Better Trade Good",
+                "rank_trade_great": "Rank Trade Great",
+                "odds_better_trade_great": "Odds Better Trade Great",
+                "rank_trade_ultra": "Rank Trade Ultra",
+                "odds_better_trade_ultra": "Odds Better Trade Ultra",
+                "rank_trade_best": "Rank Trade Best",
+                "odds_better_trade_best": "Odds Better Trade Best",
+                "rank_trade_lucky": "Rank Trade Lucky",
+                "odds_better_trade_lucky": "Odds Better Trade Lucky",
                 "level": "Level",
                 "cp": "CP",
                 "iv_attack": "IV Atk",
@@ -376,6 +466,16 @@ def get_league_pokemon_df(
                 "Odds Better Raids",
                 "Rank Shadow Raids",
                 "Odds Better Shadow Raids",
+                "Rank Trade Good",
+                "Odds Better Trade Good",
+                "Rank Trade Great",
+                "Odds Better Trade Great",
+                "Rank Trade Ultra",
+                "Odds Better Trade Ultra",
+                "Rank Trade Best",
+                "Odds Better Trade Best",
+                "Rank Trade Lucky",
+                "Odds Better Trade Lucky",
                 "Level",
                 "CP",
                 "IVs",
@@ -393,7 +493,7 @@ def get_league_pokemon_df(
                 f"Efficient @{MAX_LEVEL}",
                 f"Efficient @{MAX_LEVEL+1}",
                 "Notes",
-                "Input",
+                # "Input",
                 "Regular XLs",
                 "Lucky XLs",
                 "Shadow XLs",
@@ -477,6 +577,22 @@ def app(app="GBL IV Stats", **kwargs):
             "Input IVs split by a comma (e.g. '1/2/3,15/15/15')", default_ivs
         )
         ivs = parse_ivs(input_ivs)
+
+        show_evolution_stats_list = []
+        if len(POKE_CHILDREN.get(pokemon, [])) > 1:
+            st.markdown("Show Pokemon Evolutions Stats:")
+            default_show_evolution_stats = (
+                kwargs.get("show_evolution_stats", ["True"])[0] == "True"
+            )
+            for p in POKE_CHILDREN.get(pokemon, []):
+                if p == pokemon:
+                    continue
+                do_show_pokemon_evolution_stats = st.checkbox(
+                    p, default_show_evolution_stats
+                )
+                if do_show_pokemon_evolution_stats:
+                    show_evolution_stats_list.append(p)
+        show_evolution_stats = True if show_evolution_stats_list else False
         st.markdown("---")
 
         # searches to find IVs
@@ -608,10 +724,6 @@ def app(app="GBL IV Stats", **kwargs):
         ]
         iv_floor_options_ints = [int(x.split(":")[0]) for x in iv_floor_options]
         default_iv_floor = int(kwargs.get("iv_floor", [0])[0])
-        # iv_floor = st.slider("IV floor (Good Friend=1, Great=2, Ultra=3, Best=5)", 0, 15, 0)
-        # iv_floor = st.number_input(
-        #     "All IVs floor\n(Good Friend=1, Great=2, Ultra=3, Best=5)", min_value=0, max_value=15, value=default_iv_floor
-        # )
         idx = (
             iv_floor_options_ints.index(default_iv_floor)
             if default_iv_floor in iv_floor_options_ints
@@ -684,14 +796,6 @@ def app(app="GBL IV Stats", **kwargs):
 
         # ~~~ COLUMN OPTIONS ~~~
         st.markdown("Column Options")
-        default_show_rank_raids = kwargs.get("show_rank_raids", ["False"])[0] == "True"
-        show_rank_raids = st.checkbox("Show Raid Ranks/Odds", default_show_rank_raids)
-        default_show_shadow_rank_raids = (
-            kwargs.get("show_shadow_rank_raids", ["False"])[0] == "True"
-        )
-        show_shadow_rank_raids = st.checkbox(
-            "Show Shadow Raid Ranks/Odds", default_show_shadow_rank_raids
-        )
 
         default_show_cmp = kwargs.get("show_cmp", ["False"])[0] == "True"
         show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_cmp)
@@ -704,6 +808,40 @@ def app(app="GBL IV Stats", **kwargs):
         show_individual_ivs = st.checkbox(
             "Show individual IV columns", default_show_individual_ivs
         )
+
+        # raid odds
+        st.markdown("Show raid ranks/odds")
+        default_show_rank_raids = kwargs.get("show_rank_raids", ["False"])[0] == "True"
+        show_rank_raids = st.checkbox("Raids", default_show_rank_raids)
+        default_show_shadow_rank_raids = (
+            kwargs.get("show_shadow_rank_raids", ["False"])[0] == "True"
+        )
+        show_shadow_rank_raids = st.checkbox(
+            "Shadow Raids", default_show_shadow_rank_raids
+        )
+
+        # trade odds
+        st.markdown("Show trade ranks/odds")
+        default_show_rank_trade_good = (
+            kwargs.get("show_rank_trade_good", ["False"])[0] == "True"
+        )
+        show_rank_trade_good = st.checkbox("Good (1+)", default_show_rank_trade_good)
+        default_show_rank_trade_great = (
+            kwargs.get("show_rank_trade_great", ["False"])[0] == "True"
+        )
+        show_rank_trade_great = st.checkbox("Great (2+)", default_show_rank_trade_great)
+        default_show_rank_trade_ultra = (
+            kwargs.get("show_rank_trade_ultra", ["False"])[0] == "True"
+        )
+        show_rank_trade_ultra = st.checkbox("Ultra (3+)", default_show_rank_trade_ultra)
+        default_show_rank_trade_best = (
+            kwargs.get("show_rank_trade_best", ["False"])[0] == "True"
+        )
+        show_rank_trade_best = st.checkbox("Best (5+)", default_show_rank_trade_best)
+        default_show_rank_trade_lucky = (
+            kwargs.get("show_rank_trade_lucky", ["False"])[0] == "True"
+        )
+        show_rank_trade_lucky = st.checkbox("Lucky (12+)", default_show_rank_trade_lucky)
 
         # xl cost cols
         st.markdown("Show XL costs")
@@ -742,30 +880,10 @@ def app(app="GBL IV Stats", **kwargs):
             "Show Pvpoke import text (requires showing moves)", default_show_pvpoke_text
         )
 
-        show_evolution_stats_list = []
-        if len(POKE_CHILDREN.get(pokemon, [])) > 1:
-            st.markdown("Show Pokemon Evolutions Stats:")
-            default_show_evolution_stats = (
-                kwargs.get("show_evolution_stats", ["True"])[0] == "True"
-            )
-            for p in POKE_CHILDREN.get(pokemon, []):
-                if p == pokemon:
-                    continue
-                do_show_pokemon_evolution_stats = st.checkbox(
-                    p, default_show_evolution_stats
-                )
-                if do_show_pokemon_evolution_stats:
-                    show_evolution_stats_list.append(p)
-        show_evolution_stats = True if show_evolution_stats_list else False
-
     ############################################################################
     # MAIN APP
     ############################################################################
 
-    # if show_evolution_stats:
-    #     selected_pokemons = POKE_CHILDREN.get(pokemon, [pokemon])
-    # else:
-    #     selected_pokemons = [pokemon]
     selected_pokemons = [pokemon] + show_evolution_stats_list
 
     for selected_pokemon in selected_pokemons:
@@ -773,19 +891,24 @@ def app(app="GBL IV Stats", **kwargs):
 
         # for league in leagues:
         for league in sorted(leagues, key=lambda x: LEAGUE_CPS[x]):
-            # st.subheader(league)
-
             # get df with all rows
             df = get_league_pokemon_df(
                 league,
                 selected_pokemon,
-                input_ivs,
                 ALL_POKEMON_STATS,
                 CP_MULTS,
                 CP_COEF_PCTS,
                 DF_XL_COSTS,
             )
-            # st.dataframe(df)
+
+            # add col for selected ivs
+            df_input_ivs = (
+                pd.DataFrame(ivs).assign(Input="True")
+                if input_ivs
+                else pd.DataFrame(columns=["IV Atk", "IV Def", "IV HP", "Input"])
+            )
+            df = df.merge(df_input_ivs, how="left", on=["IV Atk", "IV Def", "IV HP"])
+            df["Input"] = df["Input"].fillna("")
 
             # filter df based on options selected
             mask_t = pd.Series(True, df.index)
@@ -849,8 +972,13 @@ def app(app="GBL IV Stats", **kwargs):
             # set order of columns
             df_col_order = (
                 "League,Rank,Rank @50,Rank Raids,Odds Better Raids,"
-                "Rank Shadow Raids,Odds Better Shadow Raids,Level,CP,"
-                "IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,"
+                "Rank Shadow Raids,Odds Better Shadow Raids,"
+                "Rank Trade Good,Odds Better Trade Good,"
+                "Rank Trade Great,Odds Better Trade Great,"
+                "Rank Trade Ultra,Odds Better Trade Ultra,"
+                "Rank Trade Best,Odds Better Trade Best,"
+                "Rank Trade Lucky,Odds Better Trade Lucky,"
+                "Level,CP,IVs,IV Atk,IV Def,IV HP,R1 CMP,Pct Max Stats,"
                 "Stats Prod,Bulk Prod,Rank Bulk,Atk,Def,HP,Efficient @51,Efficient @50,"
                 "Efficient @Filters,Notes,Input,Regular XLs,Lucky XLs,Shadow XLs,"
                 "Purified XLs"
@@ -880,115 +1008,106 @@ def app(app="GBL IV Stats", **kwargs):
                 int(i) for i in default_preselected_ivs.split(",") if i
             ]
 
-            # build ivs output
-            gb = GridOptionsBuilder.from_dataframe(df)
-            gb.configure_selection(
-                "multiple",
-                use_checkbox=True,
-                pre_selected_rows=default_preselected_ivs_ints,
-            )
-            # gb.configure_column("Pokemon", hide=True)
-            gb.configure_column("League", width=78)
-            gb.configure_column("Rank", width=62)
-            gb.configure_column("Rank @50", width=87)
-            gb.configure_column("Rank Raids", width=93, hide=not show_rank_raids)
-            gb.configure_column("Odds Better Raids", width=129, hide=not show_rank_raids)
-            gb.configure_column(
-                "Rank Shadow Raids", width=138, hide=not show_shadow_rank_raids
-            )
-            gb.configure_column(
-                "Odds Better Shadow Raids", width=174, hide=not show_shadow_rank_raids
-            )
-            gb.configure_column(
-                "Level",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=1,
-                width=70,
-            )
-            gb.configure_column("CP", width=60)
-            gb.configure_column("IVs", width=70, hide=show_individual_ivs)
-            gb.configure_column("IV Atk", width=70, hide=not show_individual_ivs)
-            gb.configure_column("IV Def", width=70, hide=not show_individual_ivs)
-            gb.configure_column("IV HP", width=70, hide=not show_individual_ivs)
-            gb.configure_column("R1 CMP", width=80, hide=not show_cmp)
-            gb.configure_column(
-                "Pct Max Stats",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=1,
-                width=110,
-            )
-            gb.configure_column(
-                "Stats Prod",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=1,
-                hide=not show_prod_cols,
-                width=95,
-            )
-            gb.configure_column(
-                "Bulk Prod",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=1,
-                hide=not show_prod_cols,
-                width=95,
-            )
-            gb.configure_column("Rank Bulk", width=105, hide=not show_prod_cols)
-            gb.configure_column(
-                "Atk",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=2,
-                width=60,
-            )
-            gb.configure_column(
-                "Def",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=2,
-                width=60,
-            )
-            gb.configure_column(
-                "HP",
-                type=["numericColumn", "numberColumnFilter", "customNumericFormat"],
-                precision=0,
-                width=60,
-            )
-            gb.configure_column("Efficient @50", width=110)
-            gb.configure_column("Efficient @51", width=110)
-            gb.configure_column("Efficient @Filters", width=130)
-            gb.configure_column("Notes", width=220)
-            gb.configure_column("Input", width=70, hide=not bool(ivs))
-            gb.configure_column("Regular XLs", width=90, hide=not show_xl_regular)
-            gb.configure_column("Lucky XLs", width=90, hide=not show_xl_lucky)
-            gb.configure_column("Shadow XLs", width=90, hide=not show_xl_shadow)
-            gb.configure_column("Purified XLs", width=90, hide=not show_xl_purified)
-            # gb.configure_column("pokemon-league", hide=True)
+            df_column_config = {
+                "Pokemon": st.column_config.TextColumn(),
+                "League": st.column_config.TextColumn(),
+                "Rank": st.column_config.NumberColumn(),
+                "Rank @50": st.column_config.NumberColumn(),
+                "Rank Raids": st.column_config.NumberColumn()
+                if show_rank_raids
+                else None,
+                "Odds Better Raids": st.column_config.TextColumn()
+                if show_rank_raids
+                else None,
+                "Rank Shadow Raids": st.column_config.NumberColumn()
+                if show_shadow_rank_raids
+                else None,
+                "Odds Better Shadow Raids": st.column_config.TextColumn()
+                if show_shadow_rank_raids
+                else None,
+                "Rank Trade Good": st.column_config.NumberColumn()
+                if show_rank_trade_good
+                else None,
+                "Odds Better Trade Good": st.column_config.TextColumn()
+                if show_rank_trade_good
+                else None,
+                "Rank Trade Great": st.column_config.NumberColumn()
+                if show_rank_trade_great
+                else None,
+                "Odds Better Trade Great": st.column_config.TextColumn()
+                if show_rank_trade_great
+                else None,
+                "Rank Trade Ultra": st.column_config.NumberColumn()
+                if show_rank_trade_ultra
+                else None,
+                "Odds Better Trade Ultra": st.column_config.TextColumn()
+                if show_rank_trade_ultra
+                else None,
+                "Rank Trade Best": st.column_config.NumberColumn()
+                if show_rank_trade_best
+                else None,
+                "Odds Better Trade Best": st.column_config.TextColumn()
+                if show_rank_trade_best
+                else None,
+                "Rank Trade Lucky": st.column_config.NumberColumn()
+                if show_rank_trade_lucky
+                else None,
+                "Odds Better Trade Lucky": st.column_config.TextColumn()
+                if show_rank_trade_lucky
+                else None,
+                "Level": st.column_config.NumberColumn(format="%.1f"),
+                "CP": st.column_config.NumberColumn(format="%i"),
+                "IVs": st.column_config.TextColumn() if not show_individual_ivs else None,
+                "IV Atk": st.column_config.NumberColumn()
+                if show_individual_ivs
+                else None,
+                "IV Def": st.column_config.NumberColumn()
+                if show_individual_ivs
+                else None,
+                "IV HP": st.column_config.NumberColumn() if show_individual_ivs else None,
+                "R1 CMP": st.column_config.TextColumn() if show_cmp else None,
+                "Pct Max Stats": st.column_config.NumberColumn(format="%.1f%%"),
+                "Stats Prod": st.column_config.NumberColumn(format="%.1f")
+                if show_prod_cols
+                else None,
+                "Bulk Prod": st.column_config.NumberColumn(format="%.1f")
+                if show_prod_cols
+                else None,
+                "Rank Bulk": st.column_config.NumberColumn() if show_prod_cols else None,
+                "Atk": st.column_config.NumberColumn(format="%.2f"),
+                "Def": st.column_config.NumberColumn(format="%.2f"),
+                "HP": st.column_config.NumberColumn(),
+                "Efficient @50": st.column_config.TextColumn(max_chars=1),
+                "Efficient @51": st.column_config.TextColumn(max_chars=1),
+                "Efficient @Filters": st.column_config.TextColumn(max_chars=1),
+                "Notes": st.column_config.TextColumn(width="medium"),
+                "Input": st.column_config.TextColumn(max_chars=1) if bool(ivs) else None,
+                "Regular XLs": st.column_config.NumberColumn(format="%i")
+                if show_xl_regular
+                else None,
+                "Lucky XLs": st.column_config.NumberColumn(format="%i")
+                if show_xl_lucky
+                else None,
+                "Shadow XLs": st.column_config.NumberColumn(format="%i")
+                if show_xl_shadow
+                else None,
+                "Purified XLs": st.column_config.NumberColumn(format="%i")
+                if show_xl_purified
+                else None,
+            }
 
-            grid_options = gb.build()
-            with warnings.catch_warnings():
-                warnings.simplefilter(action="ignore", category=FutureWarning)
-                ivs_response = AgGrid(
-                    df,
-                    gridOptions=grid_options,
-                    # columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-                    # height=len(df) * 20 + 26 if len(df) <= 20 else 425,
-                    custom_css={
-                        ".ag-theme-streamlit-dark": {
-                            "--ag-grid-size": "3px",
-                        },
-                        "#gridToolBar": {
-                            "padding-bottom": "30px !important",
-                        },
-                        "div.ag-root.ag-unselectable.ag-layout-normal": {
-                            "height": "750px !important"
-                        },
-                    },
-                    # key=f"ivs-{selected_pokemon}-{league}",
-                    # update_mode=GridUpdateMode.VALUE_CHANGED,
-                    # reload_data=True,
-                )
-            selected_ivs = ivs_response["selected_rows"]
-            preselected_ivs = ",".join(
-                [r["_selectedRowNodeInfo"]["nodeId"] for r in selected_ivs]
+            df_selection = st.dataframe(
+                df.style.apply(highlight_input_iv_rows, axis=1),
+                hide_index=True,
+                on_select="rerun",
+                selection_mode="multi-row",
+                column_config=df_column_config,
             )
+            df_selected_row_idx = df_selection["selection"]["rows"]
+            df_selected_rows = df.loc[df_selected_row_idx]
+            preselected_ivs = ",".join(str(i) for i in df_selected_row_idx)
 
+            # # build ivs output
             if selected_pokemon != "Custom base stats":
                 if show_moves:
                     # fast moves
@@ -997,86 +1116,46 @@ def app(app="GBL IV Stats", **kwargs):
                     )
                     df_fast = get_poke_fast_moves(selected_pokemon, DF_POKEMON_FAST_MOVES)
                     df_fast[["pokemon", "league"]] = (selected_pokemon, league)
-                    gb_fast = GridOptionsBuilder.from_dataframe(df_fast)
-                    gb_fast.configure_columns(["pokemon", "league"], hide=True)
 
-                    default_preselected_fast = kwargs.get("preselected_fast", [""])[0]
-                    default_preselected_fast_ints = [
-                        int(i) for i in default_preselected_fast.split(",") if i
-                    ]
-                    gb_fast.configure_selection(
-                        "single",
-                        use_checkbox=True,
-                        pre_selected_rows=default_preselected_fast_ints,
-                    )
-
-                    go_fast = gb_fast.build()
-                    fast_moves_response = AgGrid(
+                    df_fast_selected_rows = st.dataframe(
                         df_fast,
-                        gridOptions=go_fast,
-                        # moves + header
-                        height=len(df_fast) * 20 + 25,
-                        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-                        custom_css={
-                            ".ag-theme-streamlit-dark": {
-                                "--ag-grid-size": "3px",
-                            }
-                        },
-                        # key=f"fast_moves-{selected_pokemon}-{league}",
-                        # update_mode=GridUpdateMode.VALUE_CHANGED,
-                        # reload_data=True,
+                        hide_index=True,
+                        on_select="rerun",
+                        selection_mode="single-row",
                     )
-                    fast_move = fast_moves_response["selected_rows"]
+                    fast_move_idx = df_fast_selected_rows["selection"]["rows"]
+                    fast_move = df_fast.loc[fast_move_idx]
                     preselected_fast = ",".join(
-                        [r["_selectedRowNodeInfo"]["nodeId"] for r in fast_move]
+                        str(i) for i in df_fast_selected_rows["selection"]["rows"]
                     )
 
                     # chargedmoves
-                    # st.caption("Charged moves (damage includes STAB bonus)")
                     df_charged = get_poke_charged_moves(
                         selected_pokemon, DF_POKEMON_CHARGED_MOVES
                     )
                     df_charged[["pokemon", "league"]] = (selected_pokemon, league)
-                    if len(fast_move):
+                    if len(fast_move_idx):
                         df_charged["Count"] = (
-                            df_charged["Energy"] / fast_move[0]["Energy Gain"]
+                            df_charged["Energy"]
+                            / df_fast.at[fast_move_idx[0], "Energy Gain"]
                         ).apply(math.ceil)
-                        df_charged["Turns"] = df_charged["Count"] * fast_move[0]["Turns"]
+                        df_charged["Turns"] = (
+                            df_charged["Count"] * df_fast.at[fast_move_idx[0], "Turns"]
+                        )
                     else:
                         df_charged["Count"] = ""
                         df_charged["Turns"] = ""
-                    gb_charged = GridOptionsBuilder.from_dataframe(df_charged)
-                    gb_charged.configure_columns(["pokemon", "league"], hide=True)
-                    default_preselected_charged = kwargs.get("preselected_charged", [""])[
-                        0
-                    ]
-                    default_preselected_charged_ints = [
-                        int(i) for i in default_preselected_charged.split(",") if i
-                    ]
-                    gb_charged.configure_selection(
-                        "multiple",
-                        use_checkbox=True,
-                        pre_selected_rows=default_preselected_charged_ints,
-                    )
-                    go_charged = gb_charged.build()
-                    charged_moves_response = AgGrid(
+
+                    df_charged_selected_rows = st.dataframe(
                         df_charged,
-                        gridOptions=go_charged,
-                        # moves + header
-                        height=len(df_charged) * 20 + 25,
-                        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-                        custom_css={
-                            ".ag-theme-streamlit-dark": {
-                                "--ag-grid-size": "3px",
-                            }
-                        },
-                        # key=f"charged_moves-{selected_pokemon}-{league}",
-                        # update_mode=GridUpdateMode.VALUE_CHANGED,
-                        # reload_data=True,
+                        hide_index=True,
+                        on_select="rerun",
+                        selection_mode="multi-row",
                     )
-                    charged_moves = charged_moves_response["selected_rows"]
+                    charged_move_idx = df_charged_selected_rows["selection"]["rows"]
+                    charged_moves = df_charged.loc[charged_move_idx]
                     preselected_charged = ",".join(
-                        [r["_selectedRowNodeInfo"]["nodeId"] for r in charged_moves]
+                        str(i) for i in df_charged_selected_rows["selection"]["rows"]
                     )
 
                     if show_pvpoke_text:
@@ -1101,9 +1180,9 @@ def app(app="GBL IV Stats", **kwargs):
                             .replace(")", "")
                         )
                         # format moves
-                        selected_moves = [m["Move"] for m in fast_move[:1]] + [
-                            m["Move"] for m in charged_moves[:2]
-                        ]
+                        selected_moves = [
+                            m["Move"] for i, m in list(fast_move.iterrows())[:1]
+                        ] + [m["Move"] for i, m in list(charged_moves.iterrows())[:2]]
                         pvpoke_text["moves"] = ",".join(
                             [
                                 m.upper()
@@ -1114,9 +1193,13 @@ def app(app="GBL IV Stats", **kwargs):
                             ]
                         )
 
-                        if len(selected_ivs) and len(fast_move) and len(charged_moves):
+                        if (
+                            len(df_selected_rows)
+                            and len(fast_move)
+                            and len(charged_moves)
+                        ):
                             pvpoke_text_lines = []
-                            for row in selected_ivs:
+                            for i, row in df_selected_rows.iterrows():
                                 pvpoke_text.update(row)
                                 txt = "{pokemon},{moves},{Level},{IV Atk},{IV Def},{IV HP}".format(
                                     **pvpoke_text
@@ -1184,9 +1267,9 @@ def app(app="GBL IV Stats", **kwargs):
             "show_xl_lucky",
             "show_xl_shadow",
             "show_xl_purified",
-            "preselected_ivs",
-            "preselected_fast",
-            "preselected_charged",
+            # "preselected_ivs",
+            # "preselected_fast",
+            # "preselected_charged",
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
         st.markdown("---")
