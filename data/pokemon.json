@@ -19165,7 +19165,8 @@
         ],
         "tags": [
             "legendary",
-            "galarian"
+            "galarian",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -19327,7 +19328,8 @@
         ],
         "tags": [
             "legendary",
-            "galarian"
+            "galarian",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -19488,7 +19490,8 @@
         ],
         "tags": [
             "legendary",
-            "galarian"
+            "galarian",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -29622,7 +29625,8 @@
         ],
         "tags": [
             "legendary",
-            "shadoweligible"
+            "shadoweligible",
+            "wildlegendary"
         ],
         "level25CP": 2160,
         "defaultIVs": {
@@ -29727,7 +29731,8 @@
         ],
         "tags": [
             "legendary",
-            "shadoweligible"
+            "shadoweligible",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -29850,7 +29855,8 @@
         ],
         "tags": [
             "legendary",
-            "shadoweligible"
+            "shadoweligible",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -43000,7 +43006,8 @@
         ],
         "tags": [
             "legendary",
-            "shadoweligible"
+            "shadoweligible",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -43057,6 +43064,7 @@
         "tags": [
             "legendary",
             "shadoweligible",
+            "wildlegendary",
             "mega"
         ],
         "defaultIVs": {
@@ -43167,7 +43175,8 @@
         ],
         "tags": [
             "legendary",
-            "shadoweligible"
+            "shadoweligible",
+            "wildlegendary"
         ],
         "defaultIVs": {
             "cp500": [
@@ -43223,6 +43232,7 @@
         "tags": [
             "legendary",
             "shadoweligible",
+            "wildlegendary",
             "mega"
         ],
         "defaultIVs": {
@@ -53771,10 +53781,10 @@
                 15
             ],
             "cp1500": [
-                15,
-                4,
+                14.5,
+                7,
                 12,
-                4
+                15
             ],
             "cp2500": [
                 24.5,
@@ -53783,7 +53793,7 @@
                 11
             ]
         },
-        "levelFloor": 15,
+        "levelFloor": 8,
         "searchPriority": 3,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -57539,10 +57549,10 @@
         ],
         "defaultIVs": {
             "cp500": [
-                15.5,
-                7,
-                14,
-                15
+                16.5,
+                2,
+                11,
+                12
             ],
             "cp1500": [
                 50,
@@ -57650,16 +57660,16 @@
         ],
         "defaultIVs": {
             "cp500": [
-                9,
-                10,
-                15,
-                11
+                9.5,
+                2,
+                8,
+                15
             ],
             "cp1500": [
-                28,
-                5,
-                10,
-                12
+                27.5,
+                2,
+                15,
+                15
             ],
             "cp2500": [
                 50,
@@ -59161,8 +59171,8 @@
         "defaultIVs": {
             "cp500": [
                 29,
-                4,
-                9,
+                2,
+                13,
                 12
             ],
             "cp1500": [
@@ -59272,9 +59282,9 @@
         "defaultIVs": {
             "cp500": [
                 17,
-                5,
-                14,
-                12
+                4,
+                15,
+                13
             ],
             "cp1500": [
                 50,
@@ -72301,22 +72311,22 @@
         ],
         "defaultIVs": {
             "cp500": [
-                8,
-                6,
-                10,
-                11
-            ],
-            "cp1500": [
-                23,
-                6,
+                7.5,
                 15,
+                11,
                 15
             ],
-            "cp2500": [
-                48,
-                6,
+            "cp1500": [
+                22.5,
+                13,
                 15,
-                13
+                11
+            ],
+            "cp2500": [
+                47,
+                10,
+                15,
+                10
             ],
             "cp2500l40": [
                 40,
@@ -72327,7 +72337,8 @@
         },
         "levelFloor": 15,
         "tags": [
-            "legendary"
+            "legendary",
+            "untradeable"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -72362,25 +72373,26 @@
             "cp500": [
                 5.5,
                 12,
-                15,
+                14,
                 10
             ],
             "cp1500": [
-                16.5,
-                4,
-                10,
-                10
+                15.5,
+                14,
+                12,
+                15
             ],
             "cp2500": [
-                27,
-                4,
-                14,
-                14
+                26.5,
+                10,
+                10,
+                13
             ]
         },
         "levelFloor": 15,
         "tags": [
-            "legendary"
+            "legendary",
+            "untradeable"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -72414,26 +72426,27 @@
         "defaultIVs": {
             "cp500": [
                 5,
-                14,
+                13,
                 15,
-                12
+                14
             ],
             "cp1500": [
-                15,
-                5,
-                14,
-                8
+                1,
+                0,
+                0,
+                0
             ],
             "cp2500": [
-                25,
-                5,
+                24,
                 13,
-                10
+                10,
+                15
             ]
         },
         "levelFloor": 15,
         "tags": [
-            "legendary"
+            "legendary",
+            "untradeable"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
