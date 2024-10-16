@@ -1087,6 +1087,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 302,sableye_mega,Sableye (Mega),302,sableye_mega,Sableye (Mega),True
 302,sableye_shadow,Sableye (Shadow),302,sableye_shadow,Sableye (Shadow),True
 303,mawile,Mawile,303,mawile,Mawile,True
+303,mawile,Mawile,303,mawile_mega,Mawile (Mega),False
+303,mawile_mega,Mawile (Mega),303,mawile_mega,Mawile (Mega),True
 303,mawile_shadow,Mawile (Shadow),303,mawile_shadow,Mawile (Shadow),True
 304,aron,Aron,304,aron,Aron,True
 304,aron,Aron,305,lairon,Lairon,False
