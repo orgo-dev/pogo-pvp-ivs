@@ -5926,6 +5926,7 @@ Mienfoo,Low Kick,fast,fighting,1.2,4,5,2,2.0,2.5,,,,Low Quality,
 Mienfoo,Pound,fast,normal,1.0,4,4,2,2.0,2.0,,,,Low Quality,
 Mienfoo,Brick Break,charged,fighting,1.2,40,0,1,,,40.0,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
 Mienfoo,Focus Blast,charged,fighting,1.2,150,0,1,,,75.0,2.0,,Nuke,
+Mienfoo,High Jump Kick,charged,fighting,1.2,110,0,1,,,55.0,2.0,10.0% chance -4 Def self,Self-Debuff Nuke,elite
 Mienfoo,Low Sweep,charged,fighting,1.2,40,0,1,,,40.0,1.0,,Spam/Bait,
 Mienshao,Force Palm,fast,fighting,1.2,13,10,3,4.33,3.33,,,,Multipurpose,
 Mienshao,Low Kick,fast,fighting,1.2,4,5,2,2.0,2.5,,,,Low Quality,

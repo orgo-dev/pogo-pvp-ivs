@@ -1131,7 +1131,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 617,accelgor_shadow,Accelgor (Shadow),220,120,190,"['bug', 'none']","['ACID', 'INFESTATION', 'WATER_SHURIKEN']","['BUG_BUZZ', 'ACID_SPRAY', 'SIGNAL_BEAM', 'FOCUS_BLAST', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_SHELMET,nan,shelmet_shadow,['shadow']
 618,stunfisk,Stunfisk,144,171,240,"['ground', 'electric']","['THUNDER_SHOCK', 'MUD_SHOT']","['MUD_BOMB', 'DISCHARGE', 'MUDDY_WATER']",nan,nan,5.0,75000,True,,nan,,nan
 618,stunfisk_galarian,Stunfisk (Galarian),144,171,240,"['ground', 'steel']","['MUD_SHOT', 'METAL_CLAW']","['EARTHQUAKE', 'FLASH_CANNON', 'MUDDY_WATER', 'ROCK_SLIDE']",nan,nan,5.0,75000,True,,nan,,['galarian']
-619,mienfoo,Mienfoo,160,98,128,"['fighting', 'none']","['LOW_KICK', 'POUND']","['BRICK_BREAK', 'LOW_SWEEP', 'FOCUS_BLAST']",nan,nan,3.0,50000,True,FAMILY_MIENFOO,['mienshao'],,nan
+619,mienfoo,Mienfoo,160,98,128,"['fighting', 'none']","['LOW_KICK', 'POUND']","['BRICK_BREAK', 'LOW_SWEEP', 'FOCUS_BLAST', 'HIGH_JUMP_KICK']",['HIGH_JUMP_KICK'],nan,3.0,50000,True,FAMILY_MIENFOO,['mienshao'],,nan
 620,mienshao,Mienshao,258,127,163,"['fighting', 'none']","['LOW_KICK', 'POISON_JAB', 'FORCE_PALM']","['BRICK_BREAK', 'GRASS_KNOT', 'STONE_EDGE', 'BLAZE_KICK', 'BRUTAL_SWING']",nan,nan,3.0,50000,True,FAMILY_MIENFOO,nan,mienfoo,nan
 621,druddigon,Druddigon,213,170,184,"['dragon', 'none']","['DRAGON_TAIL', 'BITE']","['DRAGON_CLAW', 'NIGHT_SLASH', 'HYPER_BEAM']",nan,nan,5.0,75000,True,,nan,,nan
 622,golett,Golett,127,92,153,"['ground', 'ghost']","['ASTONISH', 'MUD_SLAP']","['SHADOW_PUNCH', 'BRICK_BREAK', 'NIGHT_SHADE', 'RETURN']",nan,nan,5.0,75000,True,FAMILY_GOLETT,['golurk'],,['shadoweligible']

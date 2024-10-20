@@ -3717,6 +3717,7 @@ Mewtwo (Shadow),Shadow Ball,charged,ghost,1.0,100,55,1.82,,Nuke,elite
 Mewtwo (Shadow),Thunderbolt,charged,electric,1.0,90,55,1.64,,High Energy,
 Mienfoo,Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
 Mienfoo,Focus Blast,charged,fighting,1.2,150,75,2.0,,Nuke,
+Mienfoo,High Jump Kick,charged,fighting,1.2,110,55,2.0,10.0% chance -4 Def self,Self-Debuff Nuke,elite
 Mienfoo,Low Sweep,charged,fighting,1.2,40,40,1.0,,Spam/Bait,
 Mienshao,Blaze Kick,charged,fire,1.0,60,40,1.5,,Spam/Bait,
 Mienshao,Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
