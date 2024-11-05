@@ -8069,7 +8069,8 @@
             "CROSS_CHOP",
             "LOW_SWEEP",
             "NIGHT_SLASH",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "RAGE_FIST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -8099,7 +8100,8 @@
         },
         "eliteMoves": [
             "KARATE_CHOP",
-            "CROSS_CHOP"
+            "CROSS_CHOP",
+            "RAGE_FIST"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -8139,7 +8141,8 @@
             "CROSS_CHOP",
             "LOW_SWEEP",
             "NIGHT_SLASH",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "RAGE_FIST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -8169,7 +8172,8 @@
         },
         "eliteMoves": [
             "KARATE_CHOP",
-            "CROSS_CHOP"
+            "CROSS_CHOP",
+            "RAGE_FIST"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
@@ -89667,7 +89671,11 @@
             "LOW_SWEEP",
             "NIGHT_SLASH",
             "ICE_PUNCH",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "RAGE_FIST"
+        ],
+        "eliteMoves": [
+            "RAGE_FIST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -89726,7 +89734,11 @@
             "LOW_SWEEP",
             "NIGHT_SLASH",
             "ICE_PUNCH",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "RAGE_FIST"
+        ],
+        "eliteMoves": [
+            "RAGE_FIST"
         ],
         "defaultIVs": {
             "cp500": [
