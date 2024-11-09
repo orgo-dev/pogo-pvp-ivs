@@ -8116,7 +8116,8 @@
         "level25CP": 1385,
         "tags": [
             "shadoweligible"
-        ]
+        ],
+        "searchPriority": 10
     },
     {
         "dex": 57,
