@@ -73011,7 +73011,8 @@
             "AURA_SPHERE",
             "ENERGY_BALL",
             "AERIAL_ACE",
-            "NIGHT_SHADE"
+            "NIGHT_SHADE",
+            "TRAILBLAZE"
         ],
         "defaultIVs": {
             "cp500": [
