@@ -1417,8 +1417,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 845,cramorant,Cramorant,173,163,172,"['flying', 'water']","['PECK', 'WATER_GUN']","['DRILL_PECK', 'FLY', 'HYDRO_PUMP']",nan,nan,3.0,50000,False,,nan,,nan
 846,arrokuda,Arrokuda,118,72,121,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3.0,50000,False,FAMILY_ARROKUDA,['barraskewda'],,nan
 847,barraskewda,Barraskewda,258,127,156,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3.0,50000,False,FAMILY_ARROKUDA,nan,arrokuda,nan
-848,toxel,Toxel,97,65,120,"['electric', 'poison']",['ACID'],['POWER_UP_PUNCH'],nan,nan,5.0,75000,False,FAMILY_TOXEL,"['toxtricity_amped', 'toxtricity_low_key']",,nan
-849,toxtricity,Toxtricity,224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5.0,75000,False,FAMILY_TOXEL,nan,toxel,nan
+848,toxel,Toxel,97,65,120,"['electric', 'poison']",['ACID'],['POWER_UP_PUNCH'],nan,nan,5.0,75000,True,FAMILY_TOXEL,"['toxtricity_amped', 'toxtricity_low_key']",,nan
+849,toxtricity,Toxtricity,224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5.0,75000,True,FAMILY_TOXEL,nan,toxel,nan
 849,toxtricity_amped,Toxtricity (Amped),224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5.0,75000,False,FAMILY_TOXEL,nan,toxel,nan
 849,toxtricity_low_key,Toxtricity (Low Key),224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5.0,75000,False,FAMILY_TOXEL,nan,toxel,nan
 850,sizzlipede,Sizzlipede,118,90,137,"['fire', 'bug']","['BUG_BITE', 'EMBER']","['HEAT_WAVE', 'BUG_BUZZ', 'CRUNCH']",nan,nan,5.0,75000,False,FAMILY_SIZZLIPEDE,['centiskorch'],,nan
