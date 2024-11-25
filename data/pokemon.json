@@ -27629,7 +27629,7 @@
         "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     },
     {
         "dex": 223,
@@ -82256,7 +82256,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CORSOLA",
             "parent": "corsola"
