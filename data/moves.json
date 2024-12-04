@@ -408,11 +408,17 @@
         "name": "Bulldoze",
         "abbreviation": "Bd",
         "type": "ground",
-        "power": 80,
-        "energy": 60,
+        "power": 45,
+        "energy": 45,
         "energyGain": 0,
         "cooldown": 500,
-        "archetype": "High Energy"
+        "buffs": [
+            0,
+            -1
+        ],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".5",
+        "archetype": "Debuff Spam/Bait"
     },
     {
         "moveId": "BULLET_PUNCH",
@@ -899,16 +905,16 @@
         "type": "fire",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     },
     {
         "moveId": "FIRE_PUNCH",
         "name": "Fire Punch",
         "abbreviation": "FiP",
         "type": "fire",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -1547,15 +1553,15 @@
         "type": "ice",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     },
     {
         "moveId": "ICE_PUNCH",
         "name": "Ice Punch",
         "type": "ice",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -3003,6 +3009,7 @@
     },
     {
         "moveId": "SPARKLING_ARIA",
+        "abbreviation": "SpA",
         "name": "Sparkling Aria",
         "type": "water",
         "power": 80,
@@ -3278,15 +3285,15 @@
         "type": "electric",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     },
     {
         "moveId": "THUNDER_PUNCH",
         "name": "Thunder Punch",
         "type": "electric",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -3296,7 +3303,7 @@
         "moveId": "THUNDER_SHOCK",
         "name": "Thunder Shock",
         "type": "electric",
-        "power": 3,
+        "power": 4,
         "energy": 0,
         "energyGain": 9,
         "cooldown": 1000,

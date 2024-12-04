@@ -2364,13 +2364,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 853,grapploct,Grapploct,853,grapploct,Grapploct,True
 854,sinistea,Sinistea,854,sinistea,Sinistea,True
 854,sinistea,Sinistea,855,polteageist,Polteageist,False
-854,sinistea,Sinistea,855,polteageist_antique,Polteageist (Antique),False
-854,sinistea,Sinistea,855,polteageist_phony,Polteageist (Phony),False
-854,sinistea_antique,Sinistea (Antique),854,sinistea_antique,Sinistea (Antique),True
-854,sinistea_phony,Sinistea (Phony),854,sinistea_phony,Sinistea (Phony),True
 855,polteageist,Polteageist,855,polteageist,Polteageist,True
-855,polteageist_antique,Polteageist (Antique),855,polteageist_antique,Polteageist (Antique),True
-855,polteageist_phony,Polteageist (Phony),855,polteageist_phony,Polteageist (Phony),True
 856,hatenna,Hatenna,856,hatenna,Hatenna,True
 856,hatenna,Hatenna,857,hattrem,Hattrem,False
 856,hatenna,Hatenna,858,hatterene,Hatterene,False

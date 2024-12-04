@@ -16702,7 +16702,8 @@
             "HIDDEN_POWER_WATER",
             "QUICK_ATTACK",
             "TACKLE",
-            "WATER_GUN"
+            "WATER_GUN",
+            "PSYWAVE"
         ],
         "chargedMoves": [
             "HYDRO_PUMP",
@@ -16710,7 +16711,8 @@
             "POWER_GEM",
             "PSYBEAM",
             "PSYCHIC",
-            "THUNDER"
+            "THUNDER",
+            "SURF"
         ],
         "legacyMoves": [
             "QUICK_ATTACK"
@@ -16750,7 +16752,8 @@
         "family": {
             "id": "FAMILY_STARYU",
             "parent": "staryu"
-        }
+        },
+        "searchPriority": 3
     },
     {
         "dex": 122,
@@ -45635,7 +45638,8 @@
         ],
         "fastMoves": [
             "TAKE_DOWN",
-            "WATER_GUN"
+            "WATER_GUN",
+            "ROLLOUT"
         ],
         "chargedMoves": [
             "HYPER_BEAM",
@@ -45689,7 +45693,8 @@
         ],
         "fastMoves": [
             "TAKE_DOWN",
-            "WATER_GUN"
+            "WATER_GUN",
+            "ROLLOUT"
         ],
         "chargedMoves": [
             "HYPER_BEAM",
@@ -50627,7 +50632,7 @@
                 15
             ]
         },
-        "searchPriority": 9,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -52039,7 +52044,7 @@
                 12
             ]
         },
-        "searchPriority": 8,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -52228,7 +52233,8 @@
         ],
         "fastMoves": [
             "FURY_CUTTER",
-            "WING_ATTACK"
+            "WING_ATTACK",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -52283,7 +52289,8 @@
         ],
         "fastMoves": [
             "FURY_CUTTER",
-            "WING_ATTACK"
+            "WING_ATTACK",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "AERIAL_ACE",
@@ -70505,7 +70512,8 @@
             "HYDRO_PUMP",
             "AQUA_TAIL",
             "OUTRAGE",
-            "GUNK_SHOT"
+            "GUNK_SHOT",
+            "FOCUS_BLAST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -74690,7 +74698,8 @@
         "family": {
             "id": "FAMILY_MAREANIE",
             "parent": "mareanie"
-        }
+        },
+        "searchPriority": 9
     },
     {
         "dex": 749,
@@ -77114,7 +77123,8 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "searchPriority": 6
     },
     {
         "dex": 778,
@@ -81430,111 +81440,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "evolutions": [
-                "polteageist"
-            ]
-        }
-    },
-    {
-        "dex": 854,
-        "speciesName": "Sinistea (Antique)",
-        "speciesId": "sinistea_antique",
-        "baseStats": {
-            "atk": 134,
-            "def": 96,
-            "hp": 120
-        },
-        "types": [
-            "ghost",
-            "none"
-        ],
-        "fastMoves": [
-            "ASTONISH",
-            "SUCKER_PUNCH"
-        ],
-        "chargedMoves": [
-            "SHADOW_BALL",
-            "DARK_PULSE",
-            "PSYCHIC"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                17,
-                5,
-                13,
-                9
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "evolutions": [
-                "polteageist"
-            ]
-        }
-    },
-    {
-        "dex": 854,
-        "speciesName": "Sinistea (Phony)",
-        "speciesId": "sinistea_phony",
-        "baseStats": {
-            "atk": 134,
-            "def": 96,
-            "hp": 120
-        },
-        "types": [
-            "ghost",
-            "none"
-        ],
-        "fastMoves": [
-            "ASTONISH",
-            "SUCKER_PUNCH"
-        ],
-        "chargedMoves": [
-            "SHADOW_BALL",
-            "DARK_PULSE",
-            "PSYCHIC"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                17,
-                5,
-                13,
-                9
-            ],
-            "cp1500": [
-                50,
-                15,
-                15,
-                15
-            ],
-            "cp2500": [
-                50,
-                15,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SINISTEA",
             "evolutions": [
@@ -81587,109 +81493,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "parent": "sinistea"
-        }
-    },
-    {
-        "dex": 855,
-        "speciesName": "Polteageist (Antique)",
-        "speciesId": "polteageist_antique",
-        "baseStats": {
-            "atk": 248,
-            "def": 189,
-            "hp": 155
-        },
-        "types": [
-            "ghost",
-            "none"
-        ],
-        "fastMoves": [
-            "ASTONISH",
-            "SUCKER_PUNCH",
-            "HEX"
-        ],
-        "chargedMoves": [
-            "SHADOW_BALL",
-            "DARK_PULSE",
-            "PSYCHIC"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                6,
-                12,
-                14,
-                14
-            ],
-            "cp1500": [
-                18,
-                7,
-                13,
-                11
-            ],
-            "cp2500": [
-                30.5,
-                5,
-                9,
-                14
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "parent": "sinistea"
-        }
-    },
-    {
-        "dex": 855,
-        "speciesName": "Polteageist (Phony)",
-        "speciesId": "polteageist_phony",
-        "baseStats": {
-            "atk": 248,
-            "def": 189,
-            "hp": 155
-        },
-        "types": [
-            "ghost",
-            "none"
-        ],
-        "fastMoves": [
-            "ASTONISH",
-            "SUCKER_PUNCH",
-            "HEX"
-        ],
-        "chargedMoves": [
-            "SHADOW_BALL",
-            "DARK_PULSE",
-            "PSYCHIC"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                6,
-                12,
-                14,
-                14
-            ],
-            "cp1500": [
-                18,
-                7,
-                13,
-                11
-            ],
-            "cp2500": [
-                30.5,
-                5,
-                9,
-                14
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SINISTEA",
             "parent": "sinistea"
@@ -83120,7 +82924,10 @@
             "defaultFormId": "morpeko_full_belly",
             "alternativeFormId": "morpeko_hangry"
         },
-        "searchPriority": 3,
+        "tags": [
+            "include2500"
+        ],
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
