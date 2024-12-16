@@ -78377,9 +78377,6 @@
             "OUTRAGE",
             "MOONGEIST_BEAM"
         ],
-        "eliteMoves": [
-            "MOONGEIST_BEAM"
-        ],
         "defaultIVs": {
             "cp500": [
                 4.5,
@@ -78434,9 +78431,6 @@
             "FUTURE_SIGHT",
             "IRON_HEAD",
             "OUTRAGE",
-            "SUNSTEEL_STRIKE"
-        ],
-        "eliteMoves": [
             "SUNSTEEL_STRIKE"
         ],
         "defaultIVs": {
