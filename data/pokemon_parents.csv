@@ -1565,6 +1565,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 474,porygon_z,Porygon-Z,474,porygon_z,Porygon-Z,True
 474,porygon_z_shadow,Porygon-Z (Shadow),474,porygon_z_shadow,Porygon-Z (Shadow),True
 475,gallade,Gallade,475,gallade,Gallade,True
+475,gallade,Gallade,475,gallade_mega,Gallade (Mega),False
+475,gallade_mega,Gallade (Mega),475,gallade_mega,Gallade (Mega),True
 475,gallade_shadow,Gallade (Shadow),475,gallade_shadow,Gallade (Shadow),True
 476,probopass,Probopass,476,probopass,Probopass,True
 476,probopass_shadow,Probopass (Shadow),476,probopass_shadow,Probopass (Shadow),True

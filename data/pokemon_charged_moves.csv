@@ -1984,6 +1984,10 @@ Gallade,Leaf Blade,charged,grass,1.0,70,35,2.0,,Spam/Bait,
 Gallade,Psychic,charged,psychic,1.2,75,55,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
 Gallade,Return,charged,normal,1.0,130,70,1.86,,Nuke,
 Gallade,Synchronoise,charged,psychic,1.2,80,50,1.6,,General,elite
+Gallade (Mega),Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
+Gallade (Mega),Leaf Blade,charged,grass,1.0,70,35,2.0,,Spam/Bait,
+Gallade (Mega),Psychic,charged,psychic,1.2,75,55,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
+Gallade (Mega),Synchronoise,charged,psychic,1.2,80,50,1.6,,General,elite
 Gallade (Shadow),Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Gallade (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Gallade (Shadow),Leaf Blade,charged,grass,1.0,70,35,2.0,,Spam/Bait,
