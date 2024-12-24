@@ -79764,8 +79764,7 @@
         ],
         "chargedMoves": [
             "DRILL_PECK",
-            "BRAVE_BIRD",
-            "IRON_HEAD"
+            "BRAVE_BIRD"
         ],
         "defaultIVs": {
             "cp500": [
