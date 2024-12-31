@@ -5791,6 +5791,8 @@ Meltan,Thunderbolt,charged,electric,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Meowscarada,Charm,fast,fairy,1.0,15,6,3,5.0,2.0,,,,Heavy Damage,
 Meowscarada,Leafage,fast,grass,1.2,6,7,2,3.0,3.5,,,,General,
 Meowscarada,Energy Ball,charged,grass,1.2,90,0,1,,,55.0,1.64,10.0% chance -1 Def opponent,High Energy Debuff,
+Meowscarada,Flower Trick,charged,grass,1.2,30,0,1,,,35.0,0.86,100% chance +1 Atk self,Boost,
+Meowscarada,Frenzy Plant,charged,grass,1.2,100,0,1,,,45.0,2.22,,General,elite
 Meowscarada,Grass Knot,charged,grass,1.2,90,0,1,,,50.0,1.8,,General,
 Meowscarada,Night Slash,charged,dark,1.2,50,0,1,,,35.0,1.43,12.5% chance +2 Atk self,Boost Spam/Bait,
 Meowscarada,Play Rough,charged,fairy,1.0,90,0,1,,,60.0,1.5,,High Energy,

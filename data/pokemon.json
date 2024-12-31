@@ -85209,7 +85209,12 @@
             "GRASS_KNOT",
             "PLAY_ROUGH",
             "ENERGY_BALL",
-            "NIGHT_SLASH"
+            "NIGHT_SLASH",
+            "FRENZY_PLANT",
+            "FLOWER_TRICK"
+        ],
+        "eliteMoves": [
+            "FRENZY_PLANT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86349,7 +86354,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FIDOUGH",
             "evolutions": [
@@ -86399,9 +86404,10 @@
                 15
             ]
         },
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FIDOUGH",
             "parent": "fidough"
