@@ -1115,8 +1115,12 @@ Shiftry (Shadow),grass
 Shiftry (Shadow),dark
 Taillow,normal
 Taillow,flying
+Taillow (Shadow),normal
+Taillow (Shadow),flying
 Swellow,normal
 Swellow,flying
+Swellow (Shadow),normal
+Swellow (Shadow),flying
 Wingull,water
 Wingull,flying
 Pelipper,water
@@ -1193,10 +1197,10 @@ Sableye (Shadow),dark
 Sableye (Shadow),ghost
 Mawile,steel
 Mawile,fairy
-Mawile (Shadow),steel
-Mawile (Shadow),fairy
 Mawile (Mega),steel
 Mawile (Mega),fairy
+Mawile (Shadow),steel
+Mawile (Shadow),fairy
 Aron,steel
 Aron,rock
 Aron (Shadow),steel
@@ -1795,10 +1799,10 @@ Porygon-Z (Shadow),normal
 Porygon-Z (Shadow),none
 Gallade,psychic
 Gallade,fighting
-Gallade (Shadow),psychic
-Gallade (Shadow),fighting
 Gallade (Mega),psychic
 Gallade (Mega),fighting
+Gallade (Shadow),psychic
+Gallade (Shadow),fighting
 Probopass,rock
 Probopass,steel
 Probopass (Shadow),rock
@@ -1837,6 +1841,8 @@ Palkia,water
 Palkia,dragon
 Palkia (Origin),water
 Palkia (Origin),dragon
+Palkia (Shadow),water
+Palkia (Shadow),dragon
 Heatran,fire
 Heatran,steel
 Heatran (Shadow),fire
@@ -1903,24 +1909,42 @@ Victini,psychic
 Victini,fire
 Snivy,grass
 Snivy,none
+Snivy (Shadow),grass
+Snivy (Shadow),none
 Servine,grass
 Servine,none
+Servine (Shadow),grass
+Servine (Shadow),none
 Serperior,grass
 Serperior,none
+Serperior (Shadow),grass
+Serperior (Shadow),none
 Tepig,fire
 Tepig,none
+Tepig (Shadow),fire
+Tepig (Shadow),none
 Pignite,fire
 Pignite,fighting
+Pignite (Shadow),fire
+Pignite (Shadow),fighting
 Emboar,fire
 Emboar,fighting
+Emboar (Shadow),fire
+Emboar (Shadow),fighting
 Oshawott,water
 Oshawott,none
+Oshawott (Shadow),water
+Oshawott (Shadow),none
 Dewott,water
 Dewott,none
+Dewott (Shadow),water
+Dewott (Shadow),none
 Samurott,water
 Samurott,none
 Samurott (Hisuian),water
 Samurott (Hisuian),dark
+Samurott (Shadow),water
+Samurott (Shadow),none
 Patrat,normal
 Patrat,none
 Patrat (Shadow),normal
@@ -2121,8 +2145,12 @@ Archeops (Shadow),rock
 Archeops (Shadow),flying
 Trubbish,poison
 Trubbish,none
+Trubbish (Shadow),poison
+Trubbish (Shadow),none
 Garbodor,poison
 Garbodor,none
+Garbodor (Shadow),poison
+Garbodor (Shadow),none
 Zorua,dark
 Zorua,none
 Zoroark,dark
@@ -2375,8 +2403,12 @@ Greninja,water
 Greninja,dark
 Bunnelby,normal
 Bunnelby,none
+Bunnelby (Shadow),normal
+Bunnelby (Shadow),none
 Diggersby,normal
 Diggersby,ground
+Diggersby (Shadow),normal
+Diggersby (Shadow),ground
 Fletchling,normal
 Fletchling,flying
 Fletchinder,fire

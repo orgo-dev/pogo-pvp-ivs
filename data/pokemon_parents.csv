@@ -1015,7 +1015,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 275,shiftry_shadow,Shiftry (Shadow),275,shiftry_shadow,Shiftry (Shadow),True
 276,taillow,Taillow,276,taillow,Taillow,True
 276,taillow,Taillow,277,swellow,Swellow,False
+276,taillow_shadow,Taillow (Shadow),276,taillow_shadow,Taillow (Shadow),True
+276,taillow_shadow,Taillow (Shadow),277,swellow_shadow,Swellow (Shadow),False
 277,swellow,Swellow,277,swellow,Swellow,True
+277,swellow_shadow,Swellow (Shadow),277,swellow_shadow,Swellow (Shadow),True
 278,wingull,Wingull,278,wingull,Wingull,True
 278,wingull,Wingull,279,pelipper,Pelipper,False
 279,pelipper,Pelipper,279,pelipper,Pelipper,True
@@ -1587,6 +1590,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 483,dialga_origin,Dialga (Origin),483,dialga_origin,Dialga (Origin),True
 484,palkia,Palkia,484,palkia,Palkia,True
 484,palkia_origin,Palkia (Origin),484,palkia_origin,Palkia (Origin),True
+484,palkia_shadow,Palkia (Shadow),484,palkia_shadow,Palkia (Shadow),True
 485,heatran,Heatran,485,heatran,Heatran,True
 485,heatran_shadow,Heatran (Shadow),485,heatran_shadow,Heatran (Shadow),True
 486,regigigas,Regigigas,486,regigigas,Regigigas,True
@@ -1623,24 +1627,42 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 495,snivy,Snivy,495,snivy,Snivy,True
 495,snivy,Snivy,496,servine,Servine,False
 495,snivy,Snivy,497,serperior,Serperior,False
+495,snivy_shadow,Snivy (Shadow),495,snivy_shadow,Snivy (Shadow),True
+495,snivy_shadow,Snivy (Shadow),496,servine_shadow,Servine (Shadow),False
+495,snivy_shadow,Snivy (Shadow),497,serperior_shadow,Serperior (Shadow),False
 496,servine,Servine,496,servine,Servine,True
 496,servine,Servine,497,serperior,Serperior,False
+496,servine_shadow,Servine (Shadow),496,servine_shadow,Servine (Shadow),True
+496,servine_shadow,Servine (Shadow),497,serperior_shadow,Serperior (Shadow),False
 497,serperior,Serperior,497,serperior,Serperior,True
+497,serperior_shadow,Serperior (Shadow),497,serperior_shadow,Serperior (Shadow),True
 498,tepig,Tepig,498,tepig,Tepig,True
 498,tepig,Tepig,499,pignite,Pignite,False
 498,tepig,Tepig,500,emboar,Emboar,False
+498,tepig_shadow,Tepig (Shadow),498,tepig_shadow,Tepig (Shadow),True
+498,tepig_shadow,Tepig (Shadow),499,pignite_shadow,Pignite (Shadow),False
+498,tepig_shadow,Tepig (Shadow),500,emboar_shadow,Emboar (Shadow),False
 499,pignite,Pignite,499,pignite,Pignite,True
 499,pignite,Pignite,500,emboar,Emboar,False
+499,pignite_shadow,Pignite (Shadow),499,pignite_shadow,Pignite (Shadow),True
+499,pignite_shadow,Pignite (Shadow),500,emboar_shadow,Emboar (Shadow),False
 500,emboar,Emboar,500,emboar,Emboar,True
+500,emboar_shadow,Emboar (Shadow),500,emboar_shadow,Emboar (Shadow),True
 501,oshawott,Oshawott,501,oshawott,Oshawott,True
 501,oshawott,Oshawott,502,dewott,Dewott,False
 501,oshawott,Oshawott,503,samurott,Samurott,False
 501,oshawott,Oshawott,503,samurott_hisuian,Samurott (Hisuian),False
+501,oshawott_shadow,Oshawott (Shadow),501,oshawott_shadow,Oshawott (Shadow),True
+501,oshawott_shadow,Oshawott (Shadow),502,dewott_shadow,Dewott (Shadow),False
+501,oshawott_shadow,Oshawott (Shadow),503,samurott_shadow,Samurott (Shadow),False
 502,dewott,Dewott,502,dewott,Dewott,True
 502,dewott,Dewott,503,samurott,Samurott,False
 502,dewott,Dewott,503,samurott_hisuian,Samurott (Hisuian),False
+502,dewott_shadow,Dewott (Shadow),502,dewott_shadow,Dewott (Shadow),True
+502,dewott_shadow,Dewott (Shadow),503,samurott_shadow,Samurott (Shadow),False
 503,samurott,Samurott,503,samurott,Samurott,True
 503,samurott_hisuian,Samurott (Hisuian),503,samurott_hisuian,Samurott (Hisuian),True
+503,samurott_shadow,Samurott (Shadow),503,samurott_shadow,Samurott (Shadow),True
 504,patrat,Patrat,504,patrat,Patrat,True
 504,patrat,Patrat,505,watchog,Watchog,False
 504,patrat_shadow,Patrat (Shadow),504,patrat_shadow,Patrat (Shadow),True
@@ -1809,7 +1831,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 567,archeops_shadow,Archeops (Shadow),567,archeops_shadow,Archeops (Shadow),True
 568,trubbish,Trubbish,568,trubbish,Trubbish,True
 568,trubbish,Trubbish,569,garbodor,Garbodor,False
+568,trubbish_shadow,Trubbish (Shadow),568,trubbish_shadow,Trubbish (Shadow),True
+568,trubbish_shadow,Trubbish (Shadow),569,garbodor_shadow,Garbodor (Shadow),False
 569,garbodor,Garbodor,569,garbodor,Garbodor,True
+569,garbodor_shadow,Garbodor (Shadow),569,garbodor_shadow,Garbodor (Shadow),True
 570,zorua,Zorua,570,zorua,Zorua,True
 570,zorua,Zorua,571,zoroark,Zoroark,False
 571,zoroark,Zoroark,571,zoroark,Zoroark,True
@@ -2007,7 +2032,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 658,greninja,Greninja,658,greninja,Greninja,True
 659,bunnelby,Bunnelby,659,bunnelby,Bunnelby,True
 659,bunnelby,Bunnelby,660,diggersby,Diggersby,False
+659,bunnelby_shadow,Bunnelby (Shadow),659,bunnelby_shadow,Bunnelby (Shadow),True
+659,bunnelby_shadow,Bunnelby (Shadow),660,diggersby_shadow,Diggersby (Shadow),False
 660,diggersby,Diggersby,660,diggersby,Diggersby,True
+660,diggersby_shadow,Diggersby (Shadow),660,diggersby_shadow,Diggersby (Shadow),True
 661,fletchling,Fletchling,661,fletchling,Fletchling,True
 661,fletchling,Fletchling,662,fletchinder,Fletchinder,False
 661,fletchling,Fletchling,663,talonflame,Talonflame,False
