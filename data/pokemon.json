@@ -80623,11 +80623,12 @@
         ],
         "fastMoves": [
             "PECK",
-            "AIR_SLASH"
+            "AIR_SLASH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DRILL_PECK",
-            "BRAVE_BIRD"
+            "PAYBACK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -80674,11 +80675,12 @@
         ],
         "fastMoves": [
             "PECK",
-            "AIR_SLASH"
+            "AIR_SLASH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DRILL_PECK",
-            "BRAVE_BIRD"
+            "PAYBACK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -80732,11 +80734,12 @@
         ],
         "fastMoves": [
             "STEEL_WING",
-            "AIR_SLASH"
+            "AIR_SLASH",
+            "SAND_ATTACK"
         ],
         "chargedMoves": [
             "DRILL_PECK",
-            "BRAVE_BIRD"
+            "PAYBACK"
         ],
         "defaultIVs": {
             "cp500": [
