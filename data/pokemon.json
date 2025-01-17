@@ -80627,7 +80627,7 @@
             "SAND_ATTACK"
         ],
         "chargedMoves": [
-            "DRILL_PECK",
+            "SKY_ATTACK",
             "PAYBACK"
         ],
         "defaultIVs": {
@@ -80679,7 +80679,7 @@
             "SAND_ATTACK"
         ],
         "chargedMoves": [
-            "DRILL_PECK",
+            "SKY_ATTACK",
             "PAYBACK"
         ],
         "defaultIVs": {
@@ -80738,8 +80738,12 @@
             "SAND_ATTACK"
         ],
         "chargedMoves": [
-            "DRILL_PECK",
-            "PAYBACK"
+            "SKY_ATTACK",
+            "PAYBACK",
+            "IRON_HEAD"
+        ],
+        "eliteMoves": [
+            "IRON_HEAD"
         ],
         "defaultIVs": {
             "cp500": [
