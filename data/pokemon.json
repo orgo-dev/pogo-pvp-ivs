@@ -80652,7 +80652,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "evolutions": [
@@ -80710,7 +80710,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "parent": "rookidee",
@@ -80773,7 +80773,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "parent": "corvisquire"
