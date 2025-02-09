@@ -64249,7 +64249,11 @@
             "MEGAHORN",
             "ACID_SPRAY",
             "DRILL_RUN",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "RAZOR_SHELL"
+        ],
+        "eliteMoves": [
+            "RAZOR_SHELL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -64305,7 +64309,11 @@
             "MEGAHORN",
             "ACID_SPRAY",
             "DRILL_RUN",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "RAZOR_SHELL"
+        ],
+        "eliteMoves": [
+            "RAZOR_SHELL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -66423,7 +66431,11 @@
             "BUG_BUZZ",
             "ACID_SPRAY",
             "SIGNAL_BEAM",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "ENERGY_BALL"
+        ],
+        "eliteMoves": [
+            "ENERGY_BALL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -66485,7 +66497,11 @@
             "BUG_BUZZ",
             "ACID_SPRAY",
             "SIGNAL_BEAM",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "ENERGY_BALL"
+        ],
+        "eliteMoves": [
+            "ENERGY_BALL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -68519,7 +68535,8 @@
         ],
         "fastMoves": [
             "DRAGON_BREATH",
-            "STEEL_WING"
+            "STEEL_WING",
+            "ICE_FANG"
         ],
         "chargedMoves": [
             "DRAGON_PULSE",
