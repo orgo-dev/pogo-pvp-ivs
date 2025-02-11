@@ -1364,7 +1364,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5.0,50000,False,,nan,,nan
 779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH']",nan,nan,3.0,50000,True,,nan,,nan
 780,drampa,Drampa,231,164,186,"['normal', 'dragon']","['DRAGON_BREATH', 'EXTRASENSORY']","['OUTRAGE', 'DRAGON_PULSE', 'FLY']",nan,nan,5.0,75000,True,,nan,,nan
-781,dhelmise,Dhelmise,233,179,172,"['ghost', 'grass']","['ASTONISH', 'SHADOW_CLAW']","['POWER_WHIP', 'SHADOW_BALL', 'HEAVY_SLAM']",nan,nan,5.0,50000,False,,nan,,nan
+781,dhelmise,Dhelmise,233,179,172,"['ghost', 'grass']","['ASTONISH', 'SHADOW_CLAW']","['POWER_WHIP', 'SHADOW_BALL', 'HEAVY_SLAM']",nan,nan,5.0,50000,True,,nan,,nan
 782,jangmo_o,Jangmo-o,102,108,128,"['dragon', 'none']","['TACKLE', 'DRAGON_TAIL']","['DRAGON_CLAW', 'BRICK_BREAK', 'DRAGON_PULSE']",nan,nan,5.0,75000,True,FAMILY_JANGMO_O,['hakamo_o'],,nan
 783,hakamo_o,Hakamo-o,145,162,146,"['dragon', 'fighting']","['TACKLE', 'DRAGON_TAIL']","['DRAGON_CLAW', 'BRICK_BREAK', 'DRAGON_PULSE']",nan,nan,5.0,75000,True,FAMILY_JANGMO_O,['kommo_o'],jangmo_o,nan
 784,kommo_o,Kommo-o,222,240,181,"['dragon', 'fighting']","['POISON_JAB', 'DRAGON_TAIL']","['DRAGON_CLAW', 'CLOSE_COMBAT', 'FLAMETHROWER', 'BOOMBURST', 'BRICK_BREAK']",nan,nan,5.0,75000,True,FAMILY_JANGMO_O,nan,hakamo_o,nan
