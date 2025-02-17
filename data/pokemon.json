@@ -68491,7 +68491,8 @@
             "IRON_HEAD",
             "BLIZZARD",
             "STONE_EDGE",
-            "OUTRAGE"
+            "OUTRAGE",
+            "FUSION_BOLT"
         ],
         "defaultIVs": {
             "cp500": [
@@ -68542,7 +68543,8 @@
             "DRAGON_PULSE",
             "BLIZZARD",
             "ANCIENT_POWER",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "FUSION_FLARE"
         ],
         "defaultIVs": {
             "cp500": [

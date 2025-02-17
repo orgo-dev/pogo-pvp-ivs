@@ -3070,6 +3070,7 @@ Kyurem,Draco Meteor,charged,dragon,1.2,150,65,2.31,100% chance -2 Atk self,Self-
 Kyurem,Dragon Claw,charged,dragon,1.2,50,35,1.43,,Spam/Bait,
 Kyurem,Glaciate,charged,ice,1.2,60,40,1.5,100% chance -1 Atk opponent,Debuff,elite
 Kyurem (Black),Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
+Kyurem (Black),Fusion Bolt,charged,electric,1.0,90,45,2.0,,General,
 Kyurem (Black),Iron Head,charged,steel,1.0,70,50,1.4,,General,
 Kyurem (Black),Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
 Kyurem (Black),Stone Edge,charged,rock,1.0,100,55,1.82,,Nuke,
@@ -3077,6 +3078,7 @@ Kyurem (White),Ancient Power,charged,rock,1.0,60,45,1.33,10.0% chance +1 Atk +1 
 Kyurem (White),Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
 Kyurem (White),Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Kyurem (White),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
+Kyurem (White),Fusion Flare,charged,fire,1.0,90,45,2.0,,General,
 Lairon,Body Slam,charged,normal,1.0,50,35,1.43,,Spam/Bait,
 Lairon,Heavy Slam,charged,steel,1.2,70,50,1.4,,General,
 Lairon,Return,charged,normal,1.0,130,70,1.86,,Nuke,
