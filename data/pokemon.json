@@ -79451,7 +79451,8 @@
         ],
         "searchPriority": 3,
         "nicknames": [
-            "dawn"
+            "dawn",
+            "dw"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -79506,9 +79507,10 @@
             "ultrabeast"
         ],
         "nicknames": [
-            "dusk"
+            "dusk",
+            "dm"
         ],
-        "searchPriority": 3,
+        "searchPriority": 10,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
