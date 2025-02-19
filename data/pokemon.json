@@ -68492,7 +68492,11 @@
             "BLIZZARD",
             "STONE_EDGE",
             "OUTRAGE",
-            "FUSION_BOLT"
+            "FUSION_BOLT",
+            "FREEZE_SHOCK"
+        ],
+        "legacyMoves": [
+            "FREEZE_SHOCK"
         ],
         "defaultIVs": {
             "cp500": [
@@ -68544,7 +68548,11 @@
             "BLIZZARD",
             "ANCIENT_POWER",
             "FOCUS_BLAST",
-            "FUSION_FLARE"
+            "FUSION_FLARE",
+            "ICE_BURN"
+        ],
+        "legacyMoves": [
+            "ICE_BURN"
         ],
         "defaultIVs": {
             "cp500": [

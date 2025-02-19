@@ -89,6 +89,7 @@ FLYING_PRESS,Flying Press,charged,fighting,90,0,1,,,40,2.25,,Spam/Bait,nan,,,nan
 FOCUS_BLAST,Focus Blast,charged,fighting,150,0,1,,,75,2.0,,Nuke,nan,,,nan,nan
 FORCE_PALM,Force Palm,fast,fighting,13,10,3,4.33,3.33,0,,,Multipurpose,nan,,,nan,nan
 FOUL_PLAY,Foul Play,charged,dark,70,0,1,,,45,1.56,,General,nan,,,nan,nan
+FREEZE_SHOCK,Freeze Shock,charged,ice,120,0,1,,,60,2.0,30.0% chance -1 Atk opponent,Nuke,"[-1, 0]",opponent,.3,nan,nan
 FRENZY_PLANT,Frenzy Plant,charged,grass,100,0,1,,,45,2.22,,General,nan,,,nan,nan
 FROST_BREATH,Frost Breath,fast,ice,7,5,2,3.5,2.5,0,,,Heavy Damage,nan,,,nan,nan
 FRUSTRATION,Frustration,charged,normal,10,0,1,,,70,0.14,,High Energy,nan,,,nan,nan
@@ -134,6 +135,7 @@ HYDRO_PUMP_BLASTOISE,Hydro Pump Blastoise,charged,water,90,0,1,,,80,1.12,,High E
 HYPER_BEAM,Hyper Beam,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 HYPER_FANG,Hyper Fang,charged,normal,80,0,1,,,50,1.6,,General,nan,,,nan,nan
 ICE_BEAM,Ice Beam,charged,ice,90,0,1,,,55,1.64,,High Energy,nan,,,nan,nan
+ICE_BURN,Ice Burn,charged,ice,120,0,1,,,60,2.0,30.0% chance -1 Def opponent,Nuke,"[0, -1]",opponent,.3,nan,nan
 ICE_FANG,Ice Fang,fast,ice,8,6,2,4.0,3.0,0,,,Multipurpose,nan,,,nan,nan
 ICE_PUNCH,Ice Punch,charged,ice,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
 ICE_SHARD,Ice Shard,fast,ice,9,10,3,3.0,3.33,0,,,General,nan,,,nan,nan
