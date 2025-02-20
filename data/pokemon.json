@@ -68523,7 +68523,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 646,
@@ -68579,7 +68579,7 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 647,
