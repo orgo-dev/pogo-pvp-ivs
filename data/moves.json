@@ -3380,11 +3380,11 @@
     },
     {
         "moveId": "TORCH_SONG",
-        "name": "Torch Song (Speculative)",
+        "name": "Torch Song",
         "abbreviation": "TSo",
         "type": "fire",
         "power": 70,
-        "energy": 50,
+        "energy": 45,
         "energyGain": 0,
         "cooldown": 500,
         "buffs": [
