@@ -4285,7 +4285,7 @@
                 15
             ]
         },
-        "searchPriority": 12,
+        "searchPriority": 9,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -27970,7 +27970,7 @@
                 15
             ]
         },
-        "searchPriority": 7,
+        "searchPriority": 3,
         "level25CP": 1267,
         "tags": [
             "shadoweligible"
@@ -35510,7 +35510,7 @@
         "tags": [
             "shadoweligible"
         ],
-        "searchPriority": 9,
+        "searchPriority": 10,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -86457,7 +86457,12 @@
             "FLAMETHROWER",
             "DISARMING_VOICE",
             "CRUNCH",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "BLAST_BURN",
+            "TORCH_SONG"
+        ],
+        "eliteMoves": [
+            "TORCH_SONG"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86479,6 +86484,7 @@
                 11
             ]
         },
+        "searchPriority": 5,
         "nicknames": [
             "dirge"
         ],

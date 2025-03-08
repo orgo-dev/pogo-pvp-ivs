@@ -8893,10 +8893,12 @@ Skarmory (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy
 Skarmory (Shadow),Sky Attack,charged,flying,1.2,85,0,1,,,55.0,1.55,,High Energy,
 Skeledirge,Bite,fast,dark,1.0,4,2,1,4.0,2.0,,,,Heavy Damage,
 Skeledirge,Incinerate,fast,fire,1.2,20,20,5,4.0,4.0,,,,Multipurpose,
+Skeledirge,Blast Burn,charged,fire,1.2,110,0,1,,,50.0,2.2,,General,
 Skeledirge,Crunch,charged,dark,1.0,70,0,1,,,45.0,1.56,30.0% chance -1 Def opponent,Debuff,
 Skeledirge,Disarming Voice,charged,fairy,1.0,70,0,1,,,45.0,1.56,,General,
 Skeledirge,Flamethrower,charged,fire,1.2,90,0,1,,,55.0,1.64,,High Energy,
 Skeledirge,Shadow Ball,charged,ghost,1.2,100,0,1,,,55.0,1.82,,Nuke,
+Skeledirge,Torch Song,charged,fire,1.2,70,0,1,,,45.0,1.56,100% chance +1 Atk self,Boost,elite
 Skiddo,Rock Smash,fast,fighting,1.0,9,7,3,3.0,2.33,,,,Low Quality,
 Skiddo,Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
 Skiddo,Brick Break,charged,fighting,1.0,40,0,1,,,40.0,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,

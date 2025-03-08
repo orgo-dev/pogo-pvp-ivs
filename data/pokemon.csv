@@ -1517,7 +1517,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 908,meowscarada,Meowscarada,233,153,183,"['grass', 'dark']","['LEAFAGE', 'CHARM']","['GRASS_KNOT', 'PLAY_ROUGH', 'ENERGY_BALL', 'NIGHT_SLASH', 'FRENZY_PLANT', 'FLOWER_TRICK']",['FRENZY_PLANT'],nan,3.0,10000,True,FAMILY_SPRIGATITO,nan,floragato,nan
 909,fuecoco,Fuecoco,112,96,167,"['fire', 'none']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH']",nan,nan,3.0,10000,True,FAMILY_FUECOCO,['crocalor'],,nan
 910,crocalor,Crocalor,162,134,191,"['fire', 'none']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH']",nan,nan,3.0,10000,True,FAMILY_FUECOCO,['skeledirge'],fuecoco,nan
-911,skeledirge,Skeledirge,207,178,232,"['fire', 'ghost']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH', 'SHADOW_BALL']",nan,nan,3.0,10000,True,FAMILY_FUECOCO,nan,crocalor,nan
+911,skeledirge,Skeledirge,207,178,232,"['fire', 'ghost']","['INCINERATE', 'BITE']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH', 'SHADOW_BALL', 'BLAST_BURN', 'TORCH_SONG']",['TORCH_SONG'],nan,3.0,10000,True,FAMILY_FUECOCO,nan,crocalor,nan
 912,quaxly,Quaxly,120,86,146,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,['quaxwell'],,nan
 913,quaxwell,Quaxwell,162,123,172,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,['quaquaval'],quaxly,nan
 914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,nan,quaxwell,nan
