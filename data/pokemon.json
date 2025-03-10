@@ -21582,7 +21582,7 @@
                 15
             ]
         },
-        "searchPriority": 3,
+        "searchPriority": 2,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -40838,6 +40838,9 @@
                 15
             ]
         },
+        "nicknames": [
+            "clops"
+        ],
         "searchPriority": 7,
         "level25CP": 927,
         "tags": [
@@ -53113,13 +53116,16 @@
                 15
             ]
         },
+        "nicknames": [
+            "noir"
+        ],
         "level25CP": 1447,
         "tags": [
             "shadoweligible"
         ],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "searchPriority": 6,
+        "searchPriority": 3,
         "released": true,
         "family": {
             "id": "FAMILY_DUSKULL",
