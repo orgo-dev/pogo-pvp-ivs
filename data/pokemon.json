@@ -84634,59 +84634,10 @@
     },
     {
         "dex": 888,
-        "speciesName": "Zacian",
-        "speciesId": "zacian",
-        "baseStats": {
-            "atk": 254,
-            "def": 236,
-            "hp": 192
-        },
-        "types": [
-            "fairy",
-            "steel"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
-            "FIRE_FANG"
-        ],
-        "chargedMoves": [
-            "PLAY_ROUGH",
-            "IRON_HEAD",
-            "WILD_CHARGE",
-            "CLOSE_COMBAT"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                5,
-                8,
-                15,
-                12
-            ],
-            "cp1500": [
-                14,
-                9,
-                15,
-                15
-            ],
-            "cp2500": [
-                23.5,
-                6,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 20,
-        "thirdMoveCost": 100000,
-        "released": false
-    },
-    {
-        "dex": 888,
         "speciesName": "Zacian (Crowned Sword)",
         "speciesId": "zacian_crowned_sword",
         "baseStats": {
-            "atk": 332,
+            "atk": 295,
             "def": 240,
             "hp": 192
         },
@@ -84708,24 +84659,27 @@
         ],
         "defaultIVs": {
             "cp500": [
+                4.5,
                 4,
                 6,
-                15,
-                8
+                11
             ],
             "cp1500": [
-                11,
-                5,
-                14,
-                10
+                12.5,
+                4,
+                12,
+                8
             ],
             "cp2500": [
-                18,
-                4,
-                15,
-                15
+                20.5,
+                5,
+                11,
+                14
             ]
         },
+        "tags": [
+            "legendary"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -84785,60 +84739,11 @@
     },
     {
         "dex": 889,
-        "speciesName": "Zamazenta",
-        "speciesId": "zamazenta",
-        "baseStats": {
-            "atk": 254,
-            "def": 236,
-            "hp": 192
-        },
-        "types": [
-            "fighting",
-            "steel"
-        ],
-        "fastMoves": [
-            "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
-            "ICE_FANG"
-        ],
-        "chargedMoves": [
-            "MOONBLAST",
-            "IRON_HEAD",
-            "CRUNCH",
-            "CLOSE_COMBAT"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                5,
-                8,
-                15,
-                12
-            ],
-            "cp1500": [
-                14,
-                9,
-                15,
-                15
-            ],
-            "cp2500": [
-                23.5,
-                6,
-                15,
-                15
-            ]
-        },
-        "buddyDistance": 20,
-        "thirdMoveCost": 100000,
-        "released": false
-    },
-    {
-        "dex": 889,
         "speciesName": "Zamazenta (Crowned Shield)",
         "speciesId": "zamazenta_crowned_shield",
         "baseStats": {
-            "atk": 250,
-            "def": 292,
+            "atk": 231,
+            "def": 282,
             "hp": 192
         },
         "types": [
@@ -84859,24 +84764,27 @@
         ],
         "defaultIVs": {
             "cp500": [
-                4.5,
-                13,
-                15,
+                5,
+                10,
+                10,
                 15
             ],
             "cp1500": [
-                13,
+                14.5,
                 5,
-                15,
-                15
+                11,
+                14
             ],
             "cp2500": [
-                22,
+                24,
                 4,
-                15,
-                11
+                13,
+                15
             ]
         },
+        "tags": [
+            "legendary"
+        ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false

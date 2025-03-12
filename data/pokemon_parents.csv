@@ -2445,10 +2445,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 886,drakloak,Drakloak,886,drakloak,Drakloak,True
 886,drakloak,Drakloak,887,dragapult,Dragapult,False
 887,dragapult,Dragapult,887,dragapult,Dragapult,True
-888,zacian,Zacian,888,zacian,Zacian,True
 888,zacian_crowned_sword,Zacian (Crowned Sword),888,zacian_crowned_sword,Zacian (Crowned Sword),True
 888,zacian_hero,Zacian (Hero),888,zacian_hero,Zacian (Hero),True
-889,zamazenta,Zamazenta,889,zamazenta,Zamazenta,True
 889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),True
 889,zamazenta_hero,Zamazenta (Hero),889,zamazenta_hero,Zamazenta (Hero),True
 890,eternatus,Eternatus,890,eternatus,Eternatus,True
