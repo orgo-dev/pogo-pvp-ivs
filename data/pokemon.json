@@ -67020,7 +67020,7 @@
                 11
             ]
         },
-        "searchPriority": 6,
+        "searchPriority": 3,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -76904,6 +76904,7 @@
                 13
             ]
         },
+        "searchPriority": 4,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -91807,6 +91808,10 @@
                 15
             ]
         },
+        "searchPriority": 2,
+        "nicknames": [
+            "golden"
+        ],
         "buddyDistance": 5,
         "thirdMoveCost": 10000,
         "released": true,
