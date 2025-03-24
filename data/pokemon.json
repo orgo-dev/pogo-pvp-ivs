@@ -41051,6 +41051,9 @@
             "PAYBACK",
             "BRUTAL_SWING"
         ],
+        "eliteMoves": [
+            "BRUTAL_SWING"
+        ],
         "defaultIVs": {
             "cp500": [
                 7.5,
@@ -41107,6 +41110,9 @@
             "MEGAHORN",
             "THUNDER",
             "PAYBACK",
+            "BRUTAL_SWING"
+        ],
+        "eliteMoves": [
             "BRUTAL_SWING"
         ],
         "defaultIVs": {

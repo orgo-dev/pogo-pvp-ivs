@@ -693,8 +693,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 356,dusclops_shadow,Dusclops (Shadow),124,234,120,"['ghost', 'none']","['FEINT_ATTACK', 'HEX']","['FIRE_PUNCH', 'ICE_PUNCH', 'SHADOW_PUNCH', 'POLTERGEIST', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_DUSKULL,['dusknoir_shadow'],duskull_shadow,['shadow']
 357,tropius,Tropius,136,163,223,"['grass', 'flying']","['AIR_SLASH', 'RAZOR_LEAF']","['AERIAL_ACE', 'LEAF_BLADE', 'STOMP', 'BRUTAL_SWING']",nan,nan,5.0,75000,True,,nan,,['regional']
 358,chimecho,Chimecho,175,170,181,"['psychic', 'none']","['ASTONISH', 'EXTRASENSORY']","['ENERGY_BALL', 'PSYSHOCK', 'SHADOW_BALL']",nan,nan,5.0,75000,True,FAMILY_CHIMECHO,nan,chingling,nan
-359,absol,Absol,246,120,163,"['dark', 'none']","['PSYCHO_CUT', 'SNARL']","['DARK_PULSE', 'MEGAHORN', 'THUNDER', 'PAYBACK', 'BRUTAL_SWING', 'RETURN']",nan,nan,5.0,75000,True,,nan,,['shadoweligible']
-359,absol_mega,Absol (Mega),314,130,163,"['dark', 'none']","['PSYCHO_CUT', 'SNARL']","['DARK_PULSE', 'MEGAHORN', 'THUNDER', 'PAYBACK', 'BRUTAL_SWING']",nan,nan,5.0,75000,True,,nan,,"['shadoweligible', 'mega']"
+359,absol,Absol,246,120,163,"['dark', 'none']","['PSYCHO_CUT', 'SNARL']","['DARK_PULSE', 'MEGAHORN', 'THUNDER', 'PAYBACK', 'BRUTAL_SWING', 'RETURN']",['BRUTAL_SWING'],nan,5.0,75000,True,,nan,,['shadoweligible']
+359,absol_mega,Absol (Mega),314,130,163,"['dark', 'none']","['PSYCHO_CUT', 'SNARL']","['DARK_PULSE', 'MEGAHORN', 'THUNDER', 'PAYBACK', 'BRUTAL_SWING']",['BRUTAL_SWING'],nan,5.0,75000,True,,nan,,"['shadoweligible', 'mega']"
 359,absol_shadow,Absol (Shadow),246,120,163,"['dark', 'none']","['PSYCHO_CUT', 'SNARL']","['DARK_PULSE', 'MEGAHORN', 'THUNDER', 'PAYBACK', 'BRUTAL_SWING', 'FRUSTRATION']",nan,nan,5.0,75000,True,,nan,,['shadow']
 360,wynaut,Wynaut,41,86,216,"['psychic', 'none']","['COUNTER', 'SPLASH']",['MIRROR_COAT'],nan,nan,3.0,10000,True,FAMILY_WOBBUFFET,['wobbuffet'],,nan
 361,snorunt,Snorunt,95,95,137,"['ice', 'none']","['HEX', 'POWDER_SNOW']","['AVALANCHE', 'ICY_WIND', 'SHADOW_BALL', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SNORUNT,"['froslass', 'glalie']",,['shadoweligible']
