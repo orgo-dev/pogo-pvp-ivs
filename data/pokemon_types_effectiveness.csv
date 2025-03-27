@@ -5255,6 +5255,60 @@ Tauros,ice,1.0
 Tauros,dragon,1.0
 Tauros,dark,1.0
 Tauros,fairy,1.0
+Tauros (Combat),normal,1.0
+Tauros (Combat),fighting,1.0
+Tauros (Combat),flying,1.6
+Tauros (Combat),poison,1.0
+Tauros (Combat),ground,1.0
+Tauros (Combat),rock,0.625
+Tauros (Combat),bug,0.625
+Tauros (Combat),ghost,1.0
+Tauros (Combat),steel,1.0
+Tauros (Combat),fire,1.0
+Tauros (Combat),water,1.0
+Tauros (Combat),grass,1.0
+Tauros (Combat),electric,1.0
+Tauros (Combat),psychic,1.6
+Tauros (Combat),ice,1.0
+Tauros (Combat),dragon,1.0
+Tauros (Combat),dark,0.625
+Tauros (Combat),fairy,1.6
+Tauros (Aqua),normal,1.0
+Tauros (Aqua),fighting,1.0
+Tauros (Aqua),flying,1.6
+Tauros (Aqua),poison,1.0
+Tauros (Aqua),ground,1.0
+Tauros (Aqua),rock,0.625
+Tauros (Aqua),bug,0.625
+Tauros (Aqua),ghost,1.0
+Tauros (Aqua),steel,0.625
+Tauros (Aqua),fire,0.625
+Tauros (Aqua),water,0.625
+Tauros (Aqua),grass,1.6
+Tauros (Aqua),electric,1.6
+Tauros (Aqua),psychic,1.6
+Tauros (Aqua),ice,0.625
+Tauros (Aqua),dragon,1.0
+Tauros (Aqua),dark,0.625
+Tauros (Aqua),fairy,1.6
+Tauros (Blaze),normal,1.0
+Tauros (Blaze),fighting,1.0
+Tauros (Blaze),flying,1.6
+Tauros (Blaze),poison,1.0
+Tauros (Blaze),ground,1.6
+Tauros (Blaze),rock,1.0
+Tauros (Blaze),bug,0.391
+Tauros (Blaze),ghost,1.0
+Tauros (Blaze),steel,0.625
+Tauros (Blaze),fire,0.625
+Tauros (Blaze),water,1.6
+Tauros (Blaze),grass,0.625
+Tauros (Blaze),electric,1.0
+Tauros (Blaze),psychic,1.6
+Tauros (Blaze),ice,0.625
+Tauros (Blaze),dragon,1.0
+Tauros (Blaze),dark,0.625
+Tauros (Blaze),fairy,1.0
 Magikarp,normal,1.0
 Magikarp,fighting,1.0
 Magikarp,flying,1.0

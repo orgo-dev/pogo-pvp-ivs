@@ -541,6 +541,9 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 127,pinsir_mega,Pinsir (Mega),127,pinsir_mega,Pinsir (Mega),True
 127,pinsir_shadow,Pinsir (Shadow),127,pinsir_shadow,Pinsir (Shadow),True
 128,tauros,Tauros,128,tauros,Tauros,True
+128,tauros_aqua,Tauros (Aqua),128,tauros_aqua,Tauros (Aqua),True
+128,tauros_blaze,Tauros (Blaze),128,tauros_blaze,Tauros (Blaze),True
+128,tauros_combat,Tauros (Combat),128,tauros_combat,Tauros (Combat),True
 129,magikarp,Magikarp,129,magikarp,Magikarp,True
 129,magikarp,Magikarp,130,gyarados,Gyarados,False
 129,magikarp,Magikarp,130,gyarados_mega,Gyarados (Mega),False
