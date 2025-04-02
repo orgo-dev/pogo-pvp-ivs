@@ -17601,10 +17601,10 @@
                 14
             ],
             "cp1500": [
-                19.5,
-                5,
-                15,
-                11
+                20,
+                4,
+                13,
+                5
             ],
             "cp2500": [
                 35.5,
@@ -17613,9 +17613,10 @@
                 14
             ]
         },
+        "levelFloor": 20,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     },
     {
         "dex": 128,
@@ -17653,10 +17654,10 @@
                 14
             ],
             "cp1500": [
-                19.5,
-                5,
-                15,
-                11
+                20,
+                4,
+                13,
+                5
             ],
             "cp2500": [
                 35.5,
@@ -17665,10 +17666,11 @@
                 14
             ]
         },
+        "levelFloor": 20,
         "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     },
     {
         "dex": 128,
@@ -17706,10 +17708,10 @@
                 14
             ],
             "cp1500": [
-                19.5,
-                5,
-                15,
-                11
+                20,
+                4,
+                13,
+                5
             ],
             "cp2500": [
                 35.5,
@@ -17718,9 +17720,10 @@
                 14
             ]
         },
+        "levelFloor": 20,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     },
     {
         "dex": 129,
@@ -81211,7 +81214,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "SNARL"
+            "SNARL",
+            "SUCKER_PUNCH"
         ],
         "chargedMoves": [
             "NIGHT_SLASH",
@@ -81262,7 +81266,8 @@
         ],
         "fastMoves": [
             "QUICK_ATTACK",
-            "SNARL"
+            "SNARL",
+            "SUCKER_PUNCH"
         ],
         "chargedMoves": [
             "NIGHT_SLASH",
@@ -81570,7 +81575,8 @@
         "chargedMoves": [
             "BODY_SLAM",
             "SURF",
-            "ROCK_BLAST"
+            "ROCK_BLAST",
+            "CRUNCH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -82050,7 +82056,8 @@
         "chargedMoves": [
             "DIG",
             "BULLDOZE",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "WRAP"
         ],
         "defaultIVs": {
             "cp500": [
@@ -82102,7 +82109,8 @@
         "chargedMoves": [
             "DIG",
             "BULLDOZE",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "WRAP"
         ],
         "defaultIVs": {
             "cp500": [
@@ -88106,7 +88114,7 @@
             "MUD_SHOT"
         ],
         "chargedMoves": [
-            "ROCK_SLIDE",
+            "ROCK_BLAST",
             "ROCK_TOMB",
             "ANCIENT_POWER"
         ],
@@ -88900,7 +88908,8 @@
         "chargedMoves": [
             "EARTH_POWER",
             "SEED_BOMB",
-            "ACID_SPRAY"
+            "ACID_SPRAY",
+            "WRAP"
         ],
         "defaultIVs": {
             "cp500": [
@@ -89278,7 +89287,8 @@
         "chargedMoves": [
             "PSYBEAM",
             "PSYSHOCK",
-            "PSYCHIC"
+            "PSYCHIC",
+            "DAZZLING_GLEAM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -90068,7 +90078,7 @@
         ],
         "chargedMoves": [
             "DAZZLING_GLEAM",
-            "ROCK_SLIDE",
+            "POWER_GEM",
             "SLUDGE_WAVE"
         ],
         "defaultIVs": {
@@ -90120,7 +90130,7 @@
         ],
         "chargedMoves": [
             "DAZZLING_GLEAM",
-            "ROCK_SLIDE",
+            "POWER_GEM",
             "SLUDGE_WAVE"
         ],
         "defaultIVs": {
