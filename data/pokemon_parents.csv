@@ -1736,6 +1736,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 530,excadrill,Excadrill,530,excadrill,Excadrill,True
 530,excadrill_shadow,Excadrill (Shadow),530,excadrill_shadow,Excadrill (Shadow),True
 531,audino,Audino,531,audino,Audino,True
+531,audino,Audino,531,audino_mega,Audino (Mega),False
+531,audino_mega,Audino (Mega),531,audino_mega,Audino (Mega),True
 532,timburr,Timburr,532,timburr,Timburr,True
 532,timburr,Timburr,533,gurdurr,Gurdurr,False
 532,timburr,Timburr,534,conkeldurr,Conkeldurr,False

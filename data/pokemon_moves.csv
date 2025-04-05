@@ -584,9 +584,16 @@ Articuno (Shadow),Icy Wind,charged,ice,1.2,60,0,1,,,45.0,1.33,100% chance -1 Atk
 Articuno (Shadow),Triple Axel,charged,ice,1.2,60,0,1,,,45.0,1.33,100% chance +1 Atk self,Boost,
 Audino,Pound,fast,normal,1.2,4,4,2,2.0,2.0,,,,Low Quality,
 Audino,Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
+Audino,Body Slam,charged,normal,1.2,50,0,1,,,35.0,1.43,,Spam/Bait,elite
 Audino,Dazzling Gleam,charged,fairy,1.0,90,0,1,,,55.0,1.64,,Nuke,
 Audino,Disarming Voice,charged,fairy,1.0,70,0,1,,,45.0,1.56,,General,
 Audino,Hyper Beam,charged,normal,1.2,150,0,1,,,80.0,1.88,,Nuke,
+Audino (Mega),Pound,fast,normal,1.2,4,4,2,2.0,2.0,,,,Low Quality,
+Audino (Mega),Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
+Audino (Mega),Body Slam,charged,normal,1.2,50,0,1,,,35.0,1.43,,Spam/Bait,elite
+Audino (Mega),Dazzling Gleam,charged,fairy,1.2,90,0,1,,,55.0,1.64,,Nuke,
+Audino (Mega),Disarming Voice,charged,fairy,1.2,70,0,1,,,45.0,1.56,,General,
+Audino (Mega),Hyper Beam,charged,normal,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Aurorus,Frost Breath,fast,ice,1.2,7,5,2,3.5,2.5,,,,Heavy Damage,
 Aurorus,Powder Snow,fast,ice,1.2,5,8,2,2.5,4.0,,,,Fast Charge,
 Aurorus,Rock Throw,fast,rock,1.2,8,5,2,4.0,2.5,,,,Heavy Damage,
