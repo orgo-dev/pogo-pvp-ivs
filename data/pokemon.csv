@@ -1486,9 +1486,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 885,dreepy,Dreepy,117,61,99,"['dragon', 'ghost']","['ASTONISH', 'QUICK_ATTACK']",['STRUGGLE'],nan,nan,5.0,75000,True,FAMILY_DREEPY,['drakloak'],,nan
 886,drakloak,Drakloak,163,105,169,"['dragon', 'ghost']","['ASTONISH', 'DRAGON_TAIL']","['DRAGON_PULSE', 'SHADOW_BALL', 'OUTRAGE']",nan,nan,5.0,75000,True,FAMILY_DREEPY,['dragapult'],dreepy,nan
 887,dragapult,Dragapult,266,170,204,"['dragon', 'ghost']","['ASTONISH', 'DRAGON_TAIL']","['DRAGON_PULSE', 'SHADOW_BALL', 'OUTRAGE', 'BREAKING_SWIPE']",nan,nan,5.0,75000,True,FAMILY_DREEPY,nan,drakloak,nan
-888,zacian_crowned_sword,Zacian (Crowned Sword),295,240,192,"['fairy', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20.0,100000,False,,nan,,['legendary']
+888,zacian_crowned_sword,Zacian (Crowned Sword),332,240,192,"['fairy', 'steel']","['METAL_CLAW', 'AIR_SLASH']","['PLAY_ROUGH', 'CLOSE_COMBAT', 'GIGA_IMPACT', 'BEHEMOTH_BLADE']",nan,['BEHEMOTH_BLADE'],20.0,100000,False,,nan,,['legendary']
 888,zacian_hero,Zacian (Hero),254,236,192,"['fairy', 'none']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'FIRE_FANG']","['PLAY_ROUGH', 'IRON_HEAD', 'WILD_CHARGE', 'CLOSE_COMBAT']",nan,nan,20.0,100000,True,,nan,,['legendary']
-889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),231,282,192,"['fighting', 'steel']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20.0,100000,False,,nan,,['legendary']
+889,zamazenta_crowned_shield,Zamazenta (Crowned Shield),250,292,192,"['fighting', 'steel']","['METAL_CLAW', 'ICE_FANG']","['MOONBLAST', 'CLOSE_COMBAT', 'GIGA_IMPACT', 'BEHEMOTH_BASH']",nan,['BEHEMOTH_BASH'],20.0,100000,False,,nan,,['legendary']
 889,zamazenta_hero,Zamazenta (Hero),254,236,192,"['fighting', 'none']","['METAL_CLAW', 'SNARL', 'QUICK_ATTACK', 'ICE_FANG']","['MOONBLAST', 'IRON_HEAD', 'CRUNCH', 'CLOSE_COMBAT']",nan,nan,20.0,100000,True,,nan,,['legendary']
 890,eternatus,Eternatus,278,192,268,"['poison', 'dragon']","['DRAGON_TAIL', 'POISON_JAB']","['CROSS_POISON', 'DRAGON_PULSE', 'FLAMETHROWER']",nan,nan,20.0,100000,False,,nan,,nan
 890,eternatus_eternamax,Eternatus (Eternamax),251,505,452,"['poison', 'dragon']","['DRAGON_TAIL', 'POISON_JAB']","['CROSS_POISON', 'DRAGON_PULSE', 'FLAMETHROWER', 'HYPER_BEAM']",nan,nan,20.0,100000,False,,nan,,nan
@@ -1572,9 +1572,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 954,rabsca,Rabsca,201,178,181,"['bug', 'psychic']","['BUG_BITE', 'CONFUSION']","['DIG', 'BUG_BUZZ', 'LUNGE', 'PSYBEAM']",nan,nan,5.0,75000,False,FAMILY_RELLOR,nan,rellor,nan
 955,flittle,Flittle,105,60,102,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3.0,50000,False,FAMILY_FLITTLE,['espathra'],,nan
 956,espathra,Espathra,204,127,216,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,3.0,50000,False,FAMILY_FLITTLE,nan,flittle,nan
-957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkatuff'],,nan
-958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
-959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'BRUTAL_SWING', 'FLASH_CANNON', 'HEAVY_SLAM']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,nan,tinkatuff,nan
+957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkatuff'],,nan
+958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
+959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,nan,tinkatuff,nan
 960,wiglett,Wiglett,109,52,67,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,['wugtrio'],,nan
 961,wugtrio,Wugtrio,205,136,111,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,nan,wiglett,nan
 962,bombirdier,Bombirdier,198,172,172,"['flying', 'dark']","['WING_ATTACK', 'ROCK_THROW', 'SUCKER_PUNCH']","['PAYBACK', 'AERIAL_ACE', 'FLY', 'ROCK_TOMB']",nan,nan,5.0,75000,True,,nan,,nan

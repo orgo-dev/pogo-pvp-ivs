@@ -84869,7 +84869,7 @@
         "speciesName": "Zacian (Crowned Sword)",
         "speciesId": "zacian_crowned_sword",
         "baseStats": {
-            "atk": 295,
+            "atk": 332,
             "def": 240,
             "hp": 192
         },
@@ -84879,15 +84879,16 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
-            "FIRE_FANG"
+            "AIR_SLASH"
         ],
         "chargedMoves": [
             "PLAY_ROUGH",
-            "IRON_HEAD",
-            "WILD_CHARGE",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "GIGA_IMPACT",
+            "BEHEMOTH_BLADE"
+        ],
+        "legacyMoves": [
+            "BEHEMOTH_BLADE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -84974,8 +84975,8 @@
         "speciesName": "Zamazenta (Crowned Shield)",
         "speciesId": "zamazenta_crowned_shield",
         "baseStats": {
-            "atk": 231,
-            "def": 282,
+            "atk": 250,
+            "def": 292,
             "hp": 192
         },
         "types": [
@@ -84984,15 +84985,16 @@
         ],
         "fastMoves": [
             "METAL_CLAW",
-            "SNARL",
-            "QUICK_ATTACK",
             "ICE_FANG"
         ],
         "chargedMoves": [
             "MOONBLAST",
-            "IRON_HEAD",
-            "CRUNCH",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "GIGA_IMPACT",
+            "BEHEMOTH_BASH"
+        ],
+        "legacyMoves": [
+            "BEHEMOTH_BASH"
         ],
         "defaultIVs": {
             "cp500": [
@@ -89400,7 +89402,6 @@
         ],
         "chargedMoves": [
             "PLAY_ROUGH",
-            "BRUTAL_SWING",
             "FLASH_CANNON"
         ],
         "defaultIVs": {
@@ -89452,7 +89453,6 @@
         ],
         "chargedMoves": [
             "PLAY_ROUGH",
-            "BRUTAL_SWING",
             "FLASH_CANNON"
         ],
         "defaultIVs": {
@@ -89505,9 +89505,9 @@
         ],
         "chargedMoves": [
             "PLAY_ROUGH",
-            "BRUTAL_SWING",
             "FLASH_CANNON",
-            "HEAVY_SLAM"
+            "HEAVY_SLAM",
+            "BULLDOZE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -89535,6 +89535,7 @@
                 15
             ]
         },
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
         "released": false,
