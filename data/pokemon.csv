@@ -447,8 +447,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 212,scizor_shadow,Scizor (Shadow),236,181,172,"['bug', 'steel']","['BULLET_PUNCH', 'FURY_CUTTER']","['IRON_HEAD', 'NIGHT_SLASH', 'X_SCISSOR', 'TRAILBLAZE', 'FRUSTRATION']",nan,nan,5.0,75000,True,FAMILY_SCYTHER,nan,scyther_shadow,['shadow']
 213,shuckle,Shuckle,17,396,85,"['bug', 'rock']","['ROCK_THROW', 'STRUGGLE_BUG']","['GYRO_BALL', 'ROCK_BLAST', 'STONE_EDGE', 'RETURN']",nan,nan,3.0,50000,True,,nan,,['shadoweligible']
 213,shuckle_shadow,Shuckle (Shadow),17,396,85,"['bug', 'rock']","['ROCK_THROW', 'STRUGGLE_BUG']","['GYRO_BALL', 'ROCK_BLAST', 'STONE_EDGE', 'FRUSTRATION']",nan,nan,3.0,50000,True,,nan,,['shadow']
-214,heracross,Heracross,234,179,190,"['bug', 'fighting']","['COUNTER', 'STRUGGLE_BUG']","['CLOSE_COMBAT', 'EARTHQUAKE', 'MEGAHORN', 'ROCK_BLAST']",nan,nan,3.0,50000,True,,nan,,['regional']
-214,heracross_mega,Heracross (Mega),334,223,190,"['bug', 'fighting']","['COUNTER', 'STRUGGLE_BUG']","['CLOSE_COMBAT', 'EARTHQUAKE', 'MEGAHORN', 'ROCK_BLAST']",nan,nan,3.0,50000,True,,nan,,"['regional', 'mega']"
+214,heracross,Heracross,234,179,190,"['bug', 'fighting']","['COUNTER', 'STRUGGLE_BUG']","['CLOSE_COMBAT', 'EARTHQUAKE', 'MEGAHORN', 'ROCK_BLAST', 'UPPER_HAND']",nan,nan,3.0,50000,True,,nan,,['regional']
+214,heracross_mega,Heracross (Mega),334,223,190,"['bug', 'fighting']","['COUNTER', 'STRUGGLE_BUG']","['CLOSE_COMBAT', 'EARTHQUAKE', 'MEGAHORN', 'ROCK_BLAST', 'UPPER_HAND']",nan,nan,3.0,50000,True,,nan,,"['regional', 'mega']"
 215,sneasel,Sneasel,189,146,146,"['dark', 'ice']","['FEINT_ATTACK', 'ICE_SHARD']","['AVALANCHE', 'FOUL_PLAY', 'ICE_PUNCH', 'TRIPLE_AXEL', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SNEASEL,['weavile'],,['shadoweligible']
 215,sneasel_hisuian,Sneasel (Hisuian),189,146,146,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_SNEASEL,['sneasler'],,"['hisuian', 'shadoweligible']"
 215,sneasel_hisuian_shadow,Sneasel (Hisuian) (Shadow),189,146,146,"['fighting', 'poison']","['ROCK_SMASH', 'POISON_JAB']","['AERIAL_ACE', 'CLOSE_COMBAT', 'X_SCISSOR', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_SNEASEL,['sneasler_shadow'],,"['hisuian', 'shadow']"
@@ -590,8 +590,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 295,exploud_shadow,Exploud (Shadow),179,137,232,"['normal', 'none']","['ASTONISH', 'BITE']","['CRUNCH', 'DISARMING_VOICE', 'FIRE_BLAST', 'BOOMBURST', 'FRUSTRATION']",nan,nan,1.0,10000,True,FAMILY_WHISMUR,nan,loudred_shadow,['shadow']
 296,makuhita,Makuhita,99,54,176,"['fighting', 'none']","['ROCK_SMASH', 'TACKLE']","['CROSS_CHOP', 'HEAVY_SLAM', 'LOW_SWEEP', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,['hariyama'],,['shadoweligible']
 296,makuhita_shadow,Makuhita (Shadow),99,54,176,"['fighting', 'none']","['ROCK_SMASH', 'TACKLE']","['CROSS_CHOP', 'HEAVY_SLAM', 'LOW_SWEEP', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,['hariyama_shadow'],,['shadow']
-297,hariyama,Hariyama,209,114,302,"['fighting', 'none']","['BULLET_PUNCH', 'COUNTER', 'FORCE_PALM']","['CLOSE_COMBAT', 'DYNAMIC_PUNCH', 'HEAVY_SLAM', 'SUPER_POWER', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,nan,makuhita,['shadoweligible']
-297,hariyama_shadow,Hariyama (Shadow),209,114,302,"['fighting', 'none']","['BULLET_PUNCH', 'COUNTER', 'FORCE_PALM']","['CLOSE_COMBAT', 'DYNAMIC_PUNCH', 'HEAVY_SLAM', 'SUPER_POWER', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,nan,makuhita_shadow,['shadow']
+297,hariyama,Hariyama,209,114,302,"['fighting', 'none']","['BULLET_PUNCH', 'COUNTER', 'FORCE_PALM']","['CLOSE_COMBAT', 'DYNAMIC_PUNCH', 'HEAVY_SLAM', 'SUPER_POWER', 'UPPER_HAND', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,nan,makuhita,['shadoweligible']
+297,hariyama_shadow,Hariyama (Shadow),209,114,302,"['fighting', 'none']","['BULLET_PUNCH', 'COUNTER', 'FORCE_PALM']","['CLOSE_COMBAT', 'DYNAMIC_PUNCH', 'HEAVY_SLAM', 'SUPER_POWER', 'UPPER_HAND', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_MAKUHITA,nan,makuhita_shadow,['shadow']
 298,azurill,Azurill,36,71,137,"['normal', 'fairy']","['BUBBLE', 'SPLASH']","['BODY_SLAM', 'BUBBLE_BEAM', 'ICE_BEAM']",nan,nan,3.0,10000,True,FAMILY_MARILL,['marill'],,nan
 299,nosepass,Nosepass,82,215,102,"['rock', 'none']","['ROCK_THROW', 'SPARK']","['ROCK_BLAST', 'ROCK_SLIDE', 'THUNDERBOLT', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_NOSEPASS,['probopass'],,['shadoweligible']
 299,nosepass_shadow,Nosepass (Shadow),82,215,102,"['rock', 'none']","['ROCK_THROW', 'SPARK']","['ROCK_BLAST', 'ROCK_SLIDE', 'THUNDERBOLT', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_NOSEPASS,['probopass_shadow'],,['shadow']
@@ -1061,7 +1061,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 557,dwebble_shadow,Dwebble (Shadow),118,128,137,"['bug', 'rock']","['CUT', 'SMACK_DOWN']","['ROCK_BLAST', 'X_SCISSOR', 'ROCK_TOMB', 'FRUSTRATION']",nan,nan,1.0,10000,True,FAMILY_DWEBBLE,['crustle_shadow'],,['shadow']
 558,crustle,Crustle,188,200,172,"['bug', 'rock']","['FURY_CUTTER', 'SMACK_DOWN']","['ROCK_BLAST', 'X_SCISSOR', 'ROCK_SLIDE', 'RETURN']",nan,nan,1.0,10000,True,FAMILY_DWEBBLE,nan,dwebble,['shadoweligible']
 558,crustle_shadow,Crustle (Shadow),188,200,172,"['bug', 'rock']","['FURY_CUTTER', 'SMACK_DOWN']","['ROCK_BLAST', 'X_SCISSOR', 'ROCK_SLIDE', 'FRUSTRATION']",nan,nan,1.0,10000,True,FAMILY_DWEBBLE,nan,dwebble_shadow,['shadow']
-559,scraggy,Scraggy,132,132,137,"['dark', 'fighting']","['ROCK_SMASH', 'FEINT_ATTACK']","['ACID_SPRAY', 'BRICK_BREAK', 'FOUL_PLAY', 'THUNDER_PUNCH']",nan,nan,3.0,50000,True,FAMILY_SCRAGGY,['scrafty'],,nan
+559,scraggy,Scraggy,132,132,137,"['dark', 'fighting']","['ROCK_SMASH', 'FEINT_ATTACK']","['ACID_SPRAY', 'BRICK_BREAK', 'FOUL_PLAY', 'THUNDER_PUNCH', 'UPPER_HAND']",nan,nan,3.0,50000,True,FAMILY_SCRAGGY,['scrafty'],,nan
 560,scrafty,Scrafty,163,222,163,"['dark', 'fighting']","['COUNTER', 'SNARL']","['ACID_SPRAY', 'POWER_UP_PUNCH', 'FOUL_PLAY', 'THUNDER_PUNCH']",nan,nan,3.0,50000,True,FAMILY_SCRAGGY,nan,scraggy,nan
 561,sigilyph,Sigilyph,204,167,176,"['psychic', 'flying']","['AIR_SLASH', 'ZEN_HEADBUTT']","['AIR_CUTTER', 'PSYBEAM', 'ANCIENT_POWER', 'SIGNAL_BEAM']",nan,nan,5.0,75000,True,,nan,,['regional']
 562,yamask,Yamask,95,141,116,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT']","['SHADOW_BALL', 'DARK_PULSE', 'OMINOUS_WIND']",nan,nan,3.0,50000,True,FAMILY_YAMASK,['cofagrigus'],,nan
@@ -1419,8 +1419,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 826,orbeetle,Orbeetle,156,240,155,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION']","['BUG_BUZZ', 'PSYCHIC']",nan,nan,1.0,10000,False,FAMILY_BLIPBUG,nan,dottler,nan
 827,nickit,Nickit,85,82,120,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1.0,10000,True,FAMILY_NICKIT,['thievul'],,nan
 828,thievul,Thievul,172,164,172,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1.0,10000,True,FAMILY_NICKIT,nan,nickit,nan
-829,gossifleur,Gossifleur,70,104,120,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3.0,50000,False,FAMILY_GOSSIFLEUR,['eldegoss'],,nan
-830,eldegoss,Eldegoss,148,211,155,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3.0,50000,False,FAMILY_GOSSIFLEUR,nan,gossifleur,nan
+829,gossifleur,Gossifleur,70,104,120,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3.0,50000,True,FAMILY_GOSSIFLEUR,['eldegoss'],,nan
+830,eldegoss,Eldegoss,148,211,155,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3.0,50000,True,FAMILY_GOSSIFLEUR,nan,gossifleur,nan
 831,wooloo,Wooloo,76,97,123,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['WILD_CHARGE', 'PAYBACK', 'STOMP']",nan,nan,3.0,10000,True,FAMILY_WOOLOO,['dubwool'],,nan
 832,dubwool,Dubwool,159,198,176,"['normal', 'none']","['TACKLE', 'TAKE_DOWN', 'DOUBLE_KICK']","['WILD_CHARGE', 'PAYBACK', 'BODY_SLAM']",nan,nan,3.0,10000,True,FAMILY_WOOLOO,nan,wooloo,nan
 833,chewtle,Chewtle,114,85,137,"['water', 'none']","['WATER_GUN', 'BITE']","['BODY_SLAM', 'SURF']",nan,nan,3.0,50000,False,FAMILY_CHEWTLE,['drednaw'],,nan
