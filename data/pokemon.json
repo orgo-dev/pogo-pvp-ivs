@@ -35145,7 +35145,8 @@
         "chargedMoves": [
             "CROSS_CHOP",
             "HEAVY_SLAM",
-            "LOW_SWEEP"
+            "LOW_SWEEP",
+            "UPPER_HAND"
         ],
         "defaultIVs": {
             "cp500": [
@@ -35201,7 +35202,8 @@
         "chargedMoves": [
             "CROSS_CHOP",
             "HEAVY_SLAM",
-            "LOW_SWEEP"
+            "LOW_SWEEP",
+            "UPPER_HAND"
         ],
         "defaultIVs": {
             "cp500": [
@@ -61908,7 +61910,8 @@
             "ACID_SPRAY",
             "POWER_UP_PUNCH",
             "FOUL_PLAY",
-            "THUNDER_PUNCH"
+            "THUNDER_PUNCH",
+            "UPPER_HAND"
         ],
         "defaultIVs": {
             "cp500": [
