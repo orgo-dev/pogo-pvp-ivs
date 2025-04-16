@@ -43941,7 +43941,7 @@
                 7
             ]
         },
-        "searchPriority": 20,
+        "searchPriority": 4,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -43999,7 +43999,7 @@
                 9
             ]
         },
-        "searchPriority": 20,
+        "searchPriority": 1,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -44056,7 +44056,7 @@
                 9
             ]
         },
-        "searchPriority": 20,
+        "searchPriority": 1,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -54514,7 +54514,7 @@
                 15
             ]
         },
-        "searchPriority": 32,
+        "searchPriority": 7,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -72705,7 +72705,7 @@
                 14
             ]
         },
-        "searchPriority": 10,
+        "searchPriority": 6,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -83253,7 +83253,7 @@
         "nicknames": [
             "goon"
         ],
-        "searchPriority": 7,
+        "searchPriority": 2,
         "level25CP": 1628,
         "tags": [
             "shadoweligible"
@@ -83322,7 +83322,7 @@
         "nicknames": [
             "goon"
         ],
-        "searchPriority": 7,
+        "searchPriority": 1,
         "tags": [
             "shadow"
         ]
@@ -89434,7 +89434,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TINKATINK",
             "evolutions": [
@@ -89485,7 +89485,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TINKATINK",
             "parent": "tinkatink",
@@ -89543,10 +89543,10 @@
                 15
             ]
         },
-        "searchPriority": 3,
+        "searchPriority": 8,
         "buddyDistance": 3,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TINKATINK",
             "parent": "tinkatuff"

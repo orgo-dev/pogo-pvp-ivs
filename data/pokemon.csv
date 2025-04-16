@@ -1572,9 +1572,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 954,rabsca,Rabsca,201,178,181,"['bug', 'psychic']","['BUG_BITE', 'CONFUSION']","['DIG', 'BUG_BUZZ', 'LUNGE', 'PSYBEAM']",nan,nan,5.0,75000,False,FAMILY_RELLOR,nan,rellor,nan
 955,flittle,Flittle,105,60,102,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3.0,50000,False,FAMILY_FLITTLE,['espathra'],,nan
 956,espathra,Espathra,204,127,216,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,3.0,50000,False,FAMILY_FLITTLE,nan,flittle,nan
-957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkatuff'],,nan
-958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
-959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,3.0,75000,False,FAMILY_TINKATINK,nan,tinkatuff,nan
+957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,True,FAMILY_TINKATINK,['tinkatuff'],,nan
+958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3.0,75000,True,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
+959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON', 'HEAVY_SLAM', 'BULLDOZE']",nan,nan,3.0,75000,True,FAMILY_TINKATINK,nan,tinkatuff,nan
 960,wiglett,Wiglett,109,52,67,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,['wugtrio'],,nan
 961,wugtrio,Wugtrio,205,136,111,"['water', 'none']","['WATER_GUN', 'MUD_SLAP']","['LIQUIDATION', 'DIG', 'SURF']",nan,nan,3.0,50000,True,FAMILY_WIGLETT,nan,wiglett,nan
 962,bombirdier,Bombirdier,198,172,172,"['flying', 'dark']","['WING_ATTACK', 'ROCK_THROW', 'SUCKER_PUNCH']","['PAYBACK', 'AERIAL_ACE', 'FLY', 'ROCK_TOMB']",nan,nan,5.0,75000,True,,nan,,nan
