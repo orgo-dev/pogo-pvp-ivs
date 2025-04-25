@@ -1430,9 +1430,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 837,rolycoly,Rolycoly,73,91,102,"['rock', 'none']","['SMACK_DOWN', 'TACKLE']","['ROCK_BLAST', 'ROCK_SLIDE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,['carkol'],,nan
 838,carkol,Carkol,114,157,190,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,['coalossal'],boltund,nan
 839,coalossal,Coalossal,146,198,242,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,nan,rolycoly,nan
-840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5.0,75000,False,FAMILY_APPLIN,"['flapple', 'appletun']",,nan
-841,flapple,Flapple,214,144,172,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_BREATH']","['DRAGON_PULSE', 'FLY', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5.0,75000,False,FAMILY_APPLIN,nan,applin,nan
-842,appletun,Appletun,178,146,242,"['grass', 'dragon']","['BULLET_SEED', 'ASTONISH']","['DRAGON_PULSE', 'ENERGY_BALL', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5.0,75000,False,FAMILY_APPLIN,nan,applin,nan
+840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5.0,75000,True,FAMILY_APPLIN,"['flapple', 'appletun']",,nan
+841,flapple,Flapple,214,144,172,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_BREATH']","['DRAGON_PULSE', 'FLY', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5.0,75000,True,FAMILY_APPLIN,nan,applin,nan
+842,appletun,Appletun,178,146,242,"['grass', 'dragon']","['BULLET_SEED', 'ASTONISH']","['DRAGON_PULSE', 'ENERGY_BALL', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5.0,75000,True,FAMILY_APPLIN,nan,applin,nan
 843,silicobra,Silicobra,103,123,141,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3.0,50000,False,FAMILY_SILICOBRA,['sandaconda'],,nan
 844,sandaconda,Sandaconda,202,207,176,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3.0,50000,False,FAMILY_SILICOBRA,nan,silicobra,nan
 845,cramorant,Cramorant,173,163,172,"['flying', 'water']","['PECK', 'WATER_GUN']","['DRILL_PECK', 'FLY', 'HYDRO_PUMP']",nan,nan,3.0,50000,False,,nan,,nan
