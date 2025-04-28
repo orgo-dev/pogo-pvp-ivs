@@ -1101,7 +1101,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 581,swanna_shadow,Swanna (Shadow),182,132,181,"['water', 'flying']","['WATER_GUN', 'AIR_SLASH']","['ICE_BEAM', 'BUBBLE_BEAM', 'HURRICANE', 'FLY', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_DUCKLETT,nan,ducklett_shadow,['shadow']
 582,vanillite,Vanillite,118,106,113,"['ice', 'none']","['POWDER_SNOW', 'ASTONISH']","['ICY_WIND', 'ICE_BEAM', 'SIGNAL_BEAM']",nan,nan,3.0,50000,True,FAMILY_VANILLITE,['vanillish'],,nan
 583,vanillish,Vanillish,151,138,139,"['ice', 'none']","['FROST_BREATH', 'ASTONISH']","['ICY_WIND', 'ICE_BEAM', 'SIGNAL_BEAM']",nan,nan,3.0,50000,True,FAMILY_VANILLITE,['vanilluxe'],vanillite,nan
-584,vanilluxe,Vanilluxe,218,184,174,"['ice', 'none']","['FROST_BREATH', 'ASTONISH']","['BLIZZARD', 'FLASH_CANNON', 'SIGNAL_BEAM']",nan,nan,3.0,50000,True,FAMILY_VANILLITE,nan,vanillish,nan
+584,vanilluxe,Vanilluxe,218,184,174,"['ice', 'none']","['FROST_BREATH', 'ASTONISH']","['BLIZZARD', 'FLASH_CANNON', 'SIGNAL_BEAM', 'AVALANCHE']",['AVALANCHE'],nan,3.0,50000,True,FAMILY_VANILLITE,nan,vanillish,nan
 585,deerling,Deerling,115,100,155,"['normal', 'grass']","['TACKLE', 'TAKE_DOWN']","['ENERGY_BALL', 'SEED_BOMB', 'WILD_CHARGE', 'TRAILBLAZE']",nan,nan,3.0,50000,True,FAMILY_DEERLING,['sawsbuck'],,nan
 586,sawsbuck,Sawsbuck,198,146,190,"['normal', 'grass']","['FEINT_ATTACK', 'TAKE_DOWN']","['MEGAHORN', 'SOLAR_BEAM', 'WILD_CHARGE', 'HYPER_BEAM', 'TRAILBLAZE']",nan,nan,3.0,50000,True,FAMILY_DEERLING,nan,deerling,nan
 587,emolga,Emolga,158,127,146,"['electric', 'flying']","['THUNDER_SHOCK', 'QUICK_ATTACK']","['DISCHARGE', 'AERIAL_ACE', 'THUNDERBOLT', 'ACROBATICS']",nan,nan,1.0,10000,True,,nan,,nan

@@ -64218,7 +64218,11 @@
         "chargedMoves": [
             "BLIZZARD",
             "FLASH_CANNON",
-            "SIGNAL_BEAM"
+            "SIGNAL_BEAM",
+            "AVALANCHE"
+        ],
+        "eliteMoves": [
+            "AVALANCHE"
         ],
         "defaultIVs": {
             "cp500": [

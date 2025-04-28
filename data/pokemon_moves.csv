@@ -10743,6 +10743,7 @@ Vanillite,Icy Wind,charged,ice,1.2,60,0,1,,,45.0,1.33,100% chance -1 Atk opponen
 Vanillite,Signal Beam,charged,bug,1.0,75,0,1,,,55.0,1.36,20.0% chance -1 Atk -1 Def opponent,High Energy Debuff,
 Vanilluxe,Astonish,fast,ghost,1.0,12,10,3,4.0,3.33,,,,Multipurpose,
 Vanilluxe,Frost Breath,fast,ice,1.2,7,5,2,3.5,2.5,,,,Heavy Damage,
+Vanilluxe,Avalanche,charged,ice,1.2,90,0,1,,,45.0,2.0,,General,elite
 Vanilluxe,Blizzard,charged,ice,1.2,140,0,1,,,75.0,1.87,,Nuke,
 Vanilluxe,Flash Cannon,charged,steel,1.0,110,0,1,,,70.0,1.57,,Nuke,
 Vanilluxe,Signal Beam,charged,bug,1.0,75,0,1,,,55.0,1.36,20.0% chance -1 Atk -1 Def opponent,High Energy Debuff,
