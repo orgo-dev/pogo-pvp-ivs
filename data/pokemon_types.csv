@@ -583,12 +583,12 @@ Pinsir (Shadow),bug
 Pinsir (Shadow),none
 Tauros,normal
 Tauros,none
-Tauros (Combat),fighting
-Tauros (Combat),none
 Tauros (Aqua),fighting
 Tauros (Aqua),water
 Tauros (Blaze),fighting
 Tauros (Blaze),fire
+Tauros (Combat),fighting
+Tauros (Combat),none
 Magikarp,water
 Magikarp,none
 Magikarp (Shadow),water
@@ -1155,10 +1155,16 @@ Breloom,grass
 Breloom,fighting
 Slakoth,normal
 Slakoth,none
+Slakoth (Shadow),normal
+Slakoth (Shadow),none
 Vigoroth,normal
 Vigoroth,none
+Vigoroth (Shadow),normal
+Vigoroth (Shadow),none
 Slaking,normal
 Slaking,none
+Slaking (Shadow),normal
+Slaking (Shadow),none
 Nincada,bug
 Nincada,ground
 Ninjask,bug
@@ -1843,6 +1849,8 @@ Dialga,steel
 Dialga,dragon
 Dialga (Origin),steel
 Dialga (Origin),dragon
+Dialga (Shadow),steel
+Dialga (Shadow),dragon
 Palkia,water
 Palkia,dragon
 Palkia (Origin),water
@@ -2473,8 +2481,12 @@ Slurpuff,fairy
 Slurpuff,none
 Inkay,dark
 Inkay,psychic
+Inkay (Shadow),dark
+Inkay (Shadow),psychic
 Malamar,dark
 Malamar,psychic
+Malamar (Shadow),dark
+Malamar (Shadow),psychic
 Binacle,rock
 Binacle,water
 Barbaracle,rock
@@ -2493,12 +2505,20 @@ Heliolisk,electric
 Heliolisk,normal
 Tyrunt,rock
 Tyrunt,dragon
+Tyrunt (Shadow),rock
+Tyrunt (Shadow),dragon
 Tyrantrum,rock
 Tyrantrum,dragon
+Tyrantrum (Shadow),rock
+Tyrantrum (Shadow),dragon
 Amaura,rock
 Amaura,ice
+Amaura (Shadow),rock
+Amaura (Shadow),ice
 Aurorus,rock
 Aurorus,ice
+Aurorus (Shadow),rock
+Aurorus (Shadow),ice
 Sylveon,fairy
 Sylveon,none
 Hawlucha,fighting

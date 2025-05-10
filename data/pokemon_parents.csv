@@ -1052,9 +1052,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 287,slakoth,Slakoth,287,slakoth,Slakoth,True
 287,slakoth,Slakoth,288,vigoroth,Vigoroth,False
 287,slakoth,Slakoth,289,slaking,Slaking,False
+287,slakoth_shadow,Slakoth (Shadow),287,slakoth_shadow,Slakoth (Shadow),True
+287,slakoth_shadow,Slakoth (Shadow),288,vigoroth_shadow,Vigoroth (Shadow),False
+287,slakoth_shadow,Slakoth (Shadow),289,slaking_shadow,Slaking (Shadow),False
 288,vigoroth,Vigoroth,288,vigoroth,Vigoroth,True
 288,vigoroth,Vigoroth,289,slaking,Slaking,False
+288,vigoroth_shadow,Vigoroth (Shadow),288,vigoroth_shadow,Vigoroth (Shadow),True
+288,vigoroth_shadow,Vigoroth (Shadow),289,slaking_shadow,Slaking (Shadow),False
 289,slaking,Slaking,289,slaking,Slaking,True
+289,slaking_shadow,Slaking (Shadow),289,slaking_shadow,Slaking (Shadow),True
 290,nincada,Nincada,290,nincada,Nincada,True
 290,nincada,Nincada,291,ninjask,Ninjask,False
 290,nincada,Nincada,292,shedinja,Shedinja,False
@@ -1591,6 +1597,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 482,azelf,Azelf,482,azelf,Azelf,True
 483,dialga,Dialga,483,dialga,Dialga,True
 483,dialga_origin,Dialga (Origin),483,dialga_origin,Dialga (Origin),True
+483,dialga_shadow,Dialga (Shadow),483,dialga_shadow,Dialga (Shadow),True
 484,palkia,Palkia,484,palkia,Palkia,True
 484,palkia_origin,Palkia (Origin),484,palkia_origin,Palkia (Origin),True
 484,palkia_shadow,Palkia (Shadow),484,palkia_shadow,Palkia (Shadow),True
@@ -2091,7 +2098,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 685,slurpuff,Slurpuff,685,slurpuff,Slurpuff,True
 686,inkay,Inkay,686,inkay,Inkay,True
 686,inkay,Inkay,687,malamar,Malamar,False
+686,inkay_shadow,Inkay (Shadow),686,inkay_shadow,Inkay (Shadow),True
+686,inkay_shadow,Inkay (Shadow),687,malamar_shadow,Malamar (Shadow),False
 687,malamar,Malamar,687,malamar,Malamar,True
+687,malamar_shadow,Malamar (Shadow),687,malamar_shadow,Malamar (Shadow),True
 688,binacle,Binacle,688,binacle,Binacle,True
 688,binacle,Binacle,689,barbaracle,Barbaracle,False
 689,barbaracle,Barbaracle,689,barbaracle,Barbaracle,True
@@ -2106,10 +2116,16 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 695,heliolisk,Heliolisk,695,heliolisk,Heliolisk,True
 696,tyrunt,Tyrunt,696,tyrunt,Tyrunt,True
 696,tyrunt,Tyrunt,697,tyrantrum,Tyrantrum,False
+696,tyrunt_shadow,Tyrunt (Shadow),696,tyrunt_shadow,Tyrunt (Shadow),True
+696,tyrunt_shadow,Tyrunt (Shadow),697,tyrantrum_shadow,Tyrantrum (Shadow),False
 697,tyrantrum,Tyrantrum,697,tyrantrum,Tyrantrum,True
+697,tyrantrum_shadow,Tyrantrum (Shadow),697,tyrantrum_shadow,Tyrantrum (Shadow),True
 698,amaura,Amaura,698,amaura,Amaura,True
 698,amaura,Amaura,699,aurorus,Aurorus,False
+698,amaura_shadow,Amaura (Shadow),698,amaura_shadow,Amaura (Shadow),True
+698,amaura_shadow,Amaura (Shadow),699,aurorus_shadow,Aurorus (Shadow),False
 699,aurorus,Aurorus,699,aurorus,Aurorus,True
+699,aurorus_shadow,Aurorus (Shadow),699,aurorus_shadow,Aurorus (Shadow),True
 700,sylveon,Sylveon,700,sylveon,Sylveon,True
 701,hawlucha,Hawlucha,701,hawlucha,Hawlucha,True
 702,dedenne,Dedenne,702,dedenne,Dedenne,True

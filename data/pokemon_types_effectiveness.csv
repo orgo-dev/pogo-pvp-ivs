@@ -5255,24 +5255,6 @@ Tauros,ice,1.0
 Tauros,dragon,1.0
 Tauros,dark,1.0
 Tauros,fairy,1.0
-Tauros (Combat),normal,1.0
-Tauros (Combat),fighting,1.0
-Tauros (Combat),flying,1.6
-Tauros (Combat),poison,1.0
-Tauros (Combat),ground,1.0
-Tauros (Combat),rock,0.625
-Tauros (Combat),bug,0.625
-Tauros (Combat),ghost,1.0
-Tauros (Combat),steel,1.0
-Tauros (Combat),fire,1.0
-Tauros (Combat),water,1.0
-Tauros (Combat),grass,1.0
-Tauros (Combat),electric,1.0
-Tauros (Combat),psychic,1.6
-Tauros (Combat),ice,1.0
-Tauros (Combat),dragon,1.0
-Tauros (Combat),dark,0.625
-Tauros (Combat),fairy,1.6
 Tauros (Aqua),normal,1.0
 Tauros (Aqua),fighting,1.0
 Tauros (Aqua),flying,1.6
@@ -5309,6 +5291,24 @@ Tauros (Blaze),ice,0.625
 Tauros (Blaze),dragon,1.0
 Tauros (Blaze),dark,0.625
 Tauros (Blaze),fairy,1.0
+Tauros (Combat),normal,1.0
+Tauros (Combat),fighting,1.0
+Tauros (Combat),flying,1.6
+Tauros (Combat),poison,1.0
+Tauros (Combat),ground,1.0
+Tauros (Combat),rock,0.625
+Tauros (Combat),bug,0.625
+Tauros (Combat),ghost,1.0
+Tauros (Combat),steel,1.0
+Tauros (Combat),fire,1.0
+Tauros (Combat),water,1.0
+Tauros (Combat),grass,1.0
+Tauros (Combat),electric,1.0
+Tauros (Combat),psychic,1.6
+Tauros (Combat),ice,1.0
+Tauros (Combat),dragon,1.0
+Tauros (Combat),dark,0.625
+Tauros (Combat),fairy,1.6
 Magikarp,normal,1.0
 Magikarp,fighting,1.0
 Magikarp,flying,1.0
@@ -10385,6 +10385,24 @@ Slakoth,ice,1.0
 Slakoth,dragon,1.0
 Slakoth,dark,1.0
 Slakoth,fairy,1.0
+Slakoth (Shadow),normal,1.0
+Slakoth (Shadow),fighting,1.6
+Slakoth (Shadow),flying,1.0
+Slakoth (Shadow),poison,1.0
+Slakoth (Shadow),ground,1.0
+Slakoth (Shadow),rock,1.0
+Slakoth (Shadow),bug,1.0
+Slakoth (Shadow),ghost,0.391
+Slakoth (Shadow),steel,1.0
+Slakoth (Shadow),fire,1.0
+Slakoth (Shadow),water,1.0
+Slakoth (Shadow),grass,1.0
+Slakoth (Shadow),electric,1.0
+Slakoth (Shadow),psychic,1.0
+Slakoth (Shadow),ice,1.0
+Slakoth (Shadow),dragon,1.0
+Slakoth (Shadow),dark,1.0
+Slakoth (Shadow),fairy,1.0
 Vigoroth,normal,1.0
 Vigoroth,fighting,1.6
 Vigoroth,flying,1.0
@@ -10403,6 +10421,24 @@ Vigoroth,ice,1.0
 Vigoroth,dragon,1.0
 Vigoroth,dark,1.0
 Vigoroth,fairy,1.0
+Vigoroth (Shadow),normal,1.0
+Vigoroth (Shadow),fighting,1.6
+Vigoroth (Shadow),flying,1.0
+Vigoroth (Shadow),poison,1.0
+Vigoroth (Shadow),ground,1.0
+Vigoroth (Shadow),rock,1.0
+Vigoroth (Shadow),bug,1.0
+Vigoroth (Shadow),ghost,0.391
+Vigoroth (Shadow),steel,1.0
+Vigoroth (Shadow),fire,1.0
+Vigoroth (Shadow),water,1.0
+Vigoroth (Shadow),grass,1.0
+Vigoroth (Shadow),electric,1.0
+Vigoroth (Shadow),psychic,1.0
+Vigoroth (Shadow),ice,1.0
+Vigoroth (Shadow),dragon,1.0
+Vigoroth (Shadow),dark,1.0
+Vigoroth (Shadow),fairy,1.0
 Slaking,normal,1.0
 Slaking,fighting,1.6
 Slaking,flying,1.0
@@ -10421,6 +10457,24 @@ Slaking,ice,1.0
 Slaking,dragon,1.0
 Slaking,dark,1.0
 Slaking,fairy,1.0
+Slaking (Shadow),normal,1.0
+Slaking (Shadow),fighting,1.6
+Slaking (Shadow),flying,1.0
+Slaking (Shadow),poison,1.0
+Slaking (Shadow),ground,1.0
+Slaking (Shadow),rock,1.0
+Slaking (Shadow),bug,1.0
+Slaking (Shadow),ghost,0.391
+Slaking (Shadow),steel,1.0
+Slaking (Shadow),fire,1.0
+Slaking (Shadow),water,1.0
+Slaking (Shadow),grass,1.0
+Slaking (Shadow),electric,1.0
+Slaking (Shadow),psychic,1.0
+Slaking (Shadow),ice,1.0
+Slaking (Shadow),dragon,1.0
+Slaking (Shadow),dark,1.0
+Slaking (Shadow),fairy,1.0
 Nincada,normal,1.0
 Nincada,fighting,0.625
 Nincada,flying,1.6
@@ -16577,6 +16631,24 @@ Dialga (Origin),ice,1.0
 Dialga (Origin),dragon,1.0
 Dialga (Origin),dark,1.0
 Dialga (Origin),fairy,1.0
+Dialga (Shadow),normal,0.625
+Dialga (Shadow),fighting,1.6
+Dialga (Shadow),flying,0.625
+Dialga (Shadow),poison,0.391
+Dialga (Shadow),ground,1.6
+Dialga (Shadow),rock,0.625
+Dialga (Shadow),bug,0.625
+Dialga (Shadow),ghost,1.0
+Dialga (Shadow),steel,0.625
+Dialga (Shadow),fire,1.0
+Dialga (Shadow),water,0.625
+Dialga (Shadow),grass,0.391
+Dialga (Shadow),electric,0.625
+Dialga (Shadow),psychic,0.625
+Dialga (Shadow),ice,1.0
+Dialga (Shadow),dragon,1.0
+Dialga (Shadow),dark,1.0
+Dialga (Shadow),fairy,1.0
 Palkia,normal,1.0
 Palkia,fighting,1.0
 Palkia,flying,1.0
@@ -22247,6 +22319,24 @@ Inkay,ice,1.0
 Inkay,dragon,1.0
 Inkay,dark,1.0
 Inkay,fairy,1.6
+Inkay (Shadow),normal,1.0
+Inkay (Shadow),fighting,1.0
+Inkay (Shadow),flying,1.0
+Inkay (Shadow),poison,1.0
+Inkay (Shadow),ground,1.0
+Inkay (Shadow),rock,1.0
+Inkay (Shadow),bug,2.56
+Inkay (Shadow),ghost,1.0
+Inkay (Shadow),steel,1.0
+Inkay (Shadow),fire,1.0
+Inkay (Shadow),water,1.0
+Inkay (Shadow),grass,1.0
+Inkay (Shadow),electric,1.0
+Inkay (Shadow),psychic,0.244
+Inkay (Shadow),ice,1.0
+Inkay (Shadow),dragon,1.0
+Inkay (Shadow),dark,1.0
+Inkay (Shadow),fairy,1.6
 Malamar,normal,1.0
 Malamar,fighting,1.0
 Malamar,flying,1.0
@@ -22265,6 +22355,24 @@ Malamar,ice,1.0
 Malamar,dragon,1.0
 Malamar,dark,1.0
 Malamar,fairy,1.6
+Malamar (Shadow),normal,1.0
+Malamar (Shadow),fighting,1.0
+Malamar (Shadow),flying,1.0
+Malamar (Shadow),poison,1.0
+Malamar (Shadow),ground,1.0
+Malamar (Shadow),rock,1.0
+Malamar (Shadow),bug,2.56
+Malamar (Shadow),ghost,1.0
+Malamar (Shadow),steel,1.0
+Malamar (Shadow),fire,1.0
+Malamar (Shadow),water,1.0
+Malamar (Shadow),grass,1.0
+Malamar (Shadow),electric,1.0
+Malamar (Shadow),psychic,0.244
+Malamar (Shadow),ice,1.0
+Malamar (Shadow),dragon,1.0
+Malamar (Shadow),dark,1.0
+Malamar (Shadow),fairy,1.6
 Binacle,normal,0.625
 Binacle,fighting,1.6
 Binacle,flying,0.625
@@ -22427,6 +22535,24 @@ Tyrunt,ice,1.6
 Tyrunt,dragon,1.6
 Tyrunt,dark,1.0
 Tyrunt,fairy,1.6
+Tyrunt (Shadow),normal,0.625
+Tyrunt (Shadow),fighting,1.6
+Tyrunt (Shadow),flying,0.625
+Tyrunt (Shadow),poison,0.625
+Tyrunt (Shadow),ground,1.6
+Tyrunt (Shadow),rock,1.0
+Tyrunt (Shadow),bug,1.0
+Tyrunt (Shadow),ghost,1.0
+Tyrunt (Shadow),steel,1.6
+Tyrunt (Shadow),fire,0.391
+Tyrunt (Shadow),water,1.0
+Tyrunt (Shadow),grass,1.0
+Tyrunt (Shadow),electric,0.625
+Tyrunt (Shadow),psychic,1.0
+Tyrunt (Shadow),ice,1.6
+Tyrunt (Shadow),dragon,1.6
+Tyrunt (Shadow),dark,1.0
+Tyrunt (Shadow),fairy,1.6
 Tyrantrum,normal,0.625
 Tyrantrum,fighting,1.6
 Tyrantrum,flying,0.625
@@ -22445,6 +22571,24 @@ Tyrantrum,ice,1.6
 Tyrantrum,dragon,1.6
 Tyrantrum,dark,1.0
 Tyrantrum,fairy,1.6
+Tyrantrum (Shadow),normal,0.625
+Tyrantrum (Shadow),fighting,1.6
+Tyrantrum (Shadow),flying,0.625
+Tyrantrum (Shadow),poison,0.625
+Tyrantrum (Shadow),ground,1.6
+Tyrantrum (Shadow),rock,1.0
+Tyrantrum (Shadow),bug,1.0
+Tyrantrum (Shadow),ghost,1.0
+Tyrantrum (Shadow),steel,1.6
+Tyrantrum (Shadow),fire,0.391
+Tyrantrum (Shadow),water,1.0
+Tyrantrum (Shadow),grass,1.0
+Tyrantrum (Shadow),electric,0.625
+Tyrantrum (Shadow),psychic,1.0
+Tyrantrum (Shadow),ice,1.6
+Tyrantrum (Shadow),dragon,1.6
+Tyrantrum (Shadow),dark,1.0
+Tyrantrum (Shadow),fairy,1.6
 Amaura,normal,0.625
 Amaura,fighting,2.56
 Amaura,flying,0.625
@@ -22463,6 +22607,24 @@ Amaura,ice,0.625
 Amaura,dragon,1.0
 Amaura,dark,1.0
 Amaura,fairy,1.0
+Amaura (Shadow),normal,0.625
+Amaura (Shadow),fighting,2.56
+Amaura (Shadow),flying,0.625
+Amaura (Shadow),poison,0.625
+Amaura (Shadow),ground,1.6
+Amaura (Shadow),rock,1.6
+Amaura (Shadow),bug,1.0
+Amaura (Shadow),ghost,1.0
+Amaura (Shadow),steel,2.56
+Amaura (Shadow),fire,1.0
+Amaura (Shadow),water,1.6
+Amaura (Shadow),grass,1.6
+Amaura (Shadow),electric,1.0
+Amaura (Shadow),psychic,1.0
+Amaura (Shadow),ice,0.625
+Amaura (Shadow),dragon,1.0
+Amaura (Shadow),dark,1.0
+Amaura (Shadow),fairy,1.0
 Aurorus,normal,0.625
 Aurorus,fighting,2.56
 Aurorus,flying,0.625
@@ -22481,6 +22643,24 @@ Aurorus,ice,0.625
 Aurorus,dragon,1.0
 Aurorus,dark,1.0
 Aurorus,fairy,1.0
+Aurorus (Shadow),normal,0.625
+Aurorus (Shadow),fighting,2.56
+Aurorus (Shadow),flying,0.625
+Aurorus (Shadow),poison,0.625
+Aurorus (Shadow),ground,1.6
+Aurorus (Shadow),rock,1.6
+Aurorus (Shadow),bug,1.0
+Aurorus (Shadow),ghost,1.0
+Aurorus (Shadow),steel,2.56
+Aurorus (Shadow),fire,1.0
+Aurorus (Shadow),water,1.6
+Aurorus (Shadow),grass,1.6
+Aurorus (Shadow),electric,1.0
+Aurorus (Shadow),psychic,1.0
+Aurorus (Shadow),ice,0.625
+Aurorus (Shadow),dragon,1.0
+Aurorus (Shadow),dark,1.0
+Aurorus (Shadow),fairy,1.0
 Sylveon,normal,1.0
 Sylveon,fighting,0.625
 Sylveon,flying,1.0
