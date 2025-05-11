@@ -1542,7 +1542,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 920,lokix,Lokix,199,144,174,"['bug', 'dark']","['BUG_BITE', 'SUCKER_PUNCH', 'COUNTER']","['X_SCISSOR', 'BUG_BUZZ', 'DARK_PULSE', 'TRAILBLAZE']",nan,nan,1.0,50000,True,FAMILY_NYMBLE,nan,nymble,nan
 921,pawmi,Pawmi,95,45,128,"['electric', 'none']","['SPARK', 'CHARGE_BEAM']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE']",nan,nan,3.0,75000,True,FAMILY_PAWMI,['pawmo'],,nan
 922,pawmo,Pawmo,147,82,155,"['electric', 'fighting']","['SPARK', 'CHARGE_BEAM']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE', 'THUNDER_PUNCH']",nan,nan,3.0,75000,True,FAMILY_PAWMI,['pawmot'],pawmi,nan
-923,pawmot,Pawmot,232,141,172,"['electric', 'fighting']","['SPARK', 'CHARGE_BEAM', 'LOW_KICK']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE', 'CLOSE_COMBAT', 'THUNDER_PUNCH']",nan,nan,3.0,75000,True,FAMILY_PAWMI,nan,pawmo,nan
+923,pawmot,Pawmot,232,141,172,"['electric', 'fighting']","['SPARK', 'CHARGE_BEAM', 'LOW_KICK']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE', 'CLOSE_COMBAT', 'THUNDER_PUNCH', 'BRICK_BREAK']",['BRICK_BREAK'],nan,3.0,75000,True,FAMILY_PAWMI,nan,pawmo,nan
 924,tandemaus,Tandemaus,98,90,137,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1.0,10000,True,FAMILY_TANDEMAUS,"['maushold', 'maushold']",,nan
 925,maushold,Maushold,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1.0,10000,True,FAMILY_TANDEMAUS,nan,tandemaus,nan
 925,maushold_family_of_four,Maushold_family_of_four,159,157,179,"['normal', 'none']","['TAKE_DOWN', 'MUD_SHOT', 'BULLET_SEED']","['SWIFT', 'PLAY_ROUGH', 'CRUNCH']",nan,nan,1.0,10000,False,FAMILY_TANDEMAUS,nan,tandemaus,nan

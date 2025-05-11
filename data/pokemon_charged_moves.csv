@@ -4363,6 +4363,7 @@ Pawmo,Discharge,charged,electric,1.2,55,40,1.38,,General,
 Pawmo,Thunder Punch,charged,electric,1.2,60,40,1.5,,Spam/Bait,
 Pawmo,Thunderbolt,charged,electric,1.2,90,55,1.64,,High Energy,
 Pawmo,Wild Charge,charged,electric,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
+Pawmot,Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,elite
 Pawmot,Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Pawmot,Discharge,charged,electric,1.2,55,40,1.38,,General,
 Pawmot,Thunder Punch,charged,electric,1.2,60,40,1.5,,Spam/Bait,

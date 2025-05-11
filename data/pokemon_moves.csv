@@ -6927,6 +6927,7 @@ Pawmo,Wild Charge,charged,electric,1.2,100,0,1,,,45.0,2.22,100% chance -2 Def se
 Pawmot,Charge Beam,fast,electric,1.2,5,11,3,1.67,3.67,,,,Fast Charge,
 Pawmot,Low Kick,fast,fighting,1.2,4,5,2,2.0,2.5,,,,Low Quality,
 Pawmot,Spark,fast,electric,1.2,5,7,2,2.5,3.5,,,,General,
+Pawmot,Brick Break,charged,fighting,1.2,40,0,1,,,40.0,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,elite
 Pawmot,Close Combat,charged,fighting,1.2,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,
 Pawmot,Discharge,charged,electric,1.2,55,0,1,,,40.0,1.38,,General,
 Pawmot,Thunder Punch,charged,electric,1.2,60,0,1,,,40.0,1.5,,Spam/Bait,

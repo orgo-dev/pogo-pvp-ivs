@@ -87928,7 +87928,11 @@
             "DISCHARGE",
             "WILD_CHARGE",
             "CLOSE_COMBAT",
-            "THUNDER_PUNCH"
+            "THUNDER_PUNCH",
+            "BRICK_BREAK"
+        ],
+        "eliteMoves": [
+            "BRICK_BREAK"
         ],
         "defaultIVs": {
             "cp500": [
