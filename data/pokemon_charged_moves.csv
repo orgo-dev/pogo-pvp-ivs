@@ -6641,9 +6641,6 @@ Ursaring (Shadow),Hyper Beam,charged,normal,1.2,150,80,1.88,,Nuke,
 Ursaring (Shadow),Play Rough,charged,fairy,1.0,90,60,1.5,,High Energy,
 Ursaring (Shadow),Swift,charged,normal,1.2,55,35,1.57,,Spam/Bait,
 Ursaring (Shadow),Trailblaze,charged,grass,1.0,65,45,1.44,100% chance +1 Atk self,Boost,
-Urshifu,Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
-Urshifu,Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
-Urshifu,Dynamic Punch,charged,fighting,1.2,90,45,2.0,,General,
 Urshifu (Rapid Strike),Aqua Jet,charged,water,1.2,70,40,1.75,,General,
 Urshifu (Rapid Strike),Brick Break,charged,fighting,1.2,40,40,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
 Urshifu (Rapid Strike),Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
@@ -7055,7 +7052,7 @@ Yveltal,Hurricane,charged,flying,1.2,110,65,1.69,,Nuke,
 Yveltal,Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
 Yveltal,Oblivion Wing,charged,flying,1.2,85,50,1.7,,General,elite
 Yveltal,Psychic,charged,psychic,1.0,75,55,1.36,10.0% chance -1 Def opponent,High Energy Debuff,
-Zacian (Crowned Sword),Behemoth Blade,charged,steel,1.2,100,55,1.82,,High Energy,legacy
+Zacian (Crowned Sword),Behemoth Blade,charged,steel,1.2,110,50,2.2,,Nuke,legacy
 Zacian (Crowned Sword),Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Zacian (Crowned Sword),Giga Impact,charged,normal,1.0,150,80,1.88,,Nuke,
 Zacian (Crowned Sword),Play Rough,charged,fairy,1.2,90,60,1.5,,High Energy,
@@ -7063,7 +7060,7 @@ Zacian (Hero),Close Combat,charged,fighting,1.0,100,45,2.22,100% chance -2 Def s
 Zacian (Hero),Iron Head,charged,steel,1.0,70,50,1.4,,General,
 Zacian (Hero),Play Rough,charged,fairy,1.2,90,60,1.5,,High Energy,
 Zacian (Hero),Wild Charge,charged,electric,1.0,100,45,2.22,100% chance -2 Def self,Self-Debuff,
-Zamazenta (Crowned Shield),Behemoth Bash,charged,steel,1.2,80,45,1.78,,General,legacy
+Zamazenta (Crowned Shield),Behemoth Bash,charged,steel,1.2,230,100,2.3,,General,legacy
 Zamazenta (Crowned Shield),Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,Self-Debuff,
 Zamazenta (Crowned Shield),Giga Impact,charged,normal,1.0,150,80,1.88,,Nuke,
 Zamazenta (Crowned Shield),Moonblast,charged,fairy,1.0,110,60,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,

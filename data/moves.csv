@@ -15,8 +15,8 @@ AURA_WHEEL_ELECTRIC,Aura Wheel,charged,electric,100,0,1,,,45,2.22,100% chance +1
 AURA_WHEEL_DARK,Aura Wheel,charged,dark,100,0,1,,,45,2.22,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 AURORA_BEAM,Aurora Beam,charged,ice,80,0,1,,,60,1.33,,High Energy,nan,,,nan,nan
 AVALANCHE,Avalanche,charged,ice,90,0,1,,,45,2.0,,General,nan,,,nan,nan
-BEHEMOTH_BASH,Behemoth Bash,charged,steel,80,0,1,,,45,1.78,,General,nan,,,nan,nan
-BEHEMOTH_BLADE,Behemoth Blade,charged,steel,100,0,1,,,55,1.82,,High Energy,nan,,,nan,nan
+BEHEMOTH_BASH,Behemoth Bash,charged,steel,230,0,1,,,100,2.3,,General,nan,,,nan,nan
+BEHEMOTH_BLADE,Behemoth Blade,charged,steel,110,0,1,,,50,2.2,,Nuke,nan,,,nan,nan
 BITE,Bite,fast,dark,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
 BLAST_BURN,Blast Burn,charged,fire,110,0,1,,,50,2.2,,General,nan,,,nan,nan
 BLEAKWIND_STORM,Bleakwind Storm,charged,flying,60,0,1,,,45,1.33,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan

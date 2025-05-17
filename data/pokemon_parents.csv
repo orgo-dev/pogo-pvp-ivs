@@ -2473,10 +2473,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 890,eternatus,Eternatus,890,eternatus,Eternatus,True
 890,eternatus_eternamax,Eternatus (Eternamax),890,eternatus_eternamax,Eternatus (Eternamax),True
 891,kubfu,Kubfu,891,kubfu,Kubfu,True
-891,kubfu,Kubfu,892,urshifu,Urshifu,False
 891,kubfu,Kubfu,892,urshifu_rapid_strike,Urshifu (Rapid Strike),False
 891,kubfu,Kubfu,892,urshifu_single_strike,Urshifu (Single Strike),False
-892,urshifu,Urshifu,892,urshifu,Urshifu,True
 892,urshifu_rapid_strike,Urshifu (Rapid Strike),892,urshifu_rapid_strike,Urshifu (Rapid Strike),True
 892,urshifu_single_strike,Urshifu (Single Strike),892,urshifu_single_strike,Urshifu (Single Strike),True
 893,zarude,Zarude,893,zarude,Zarude,True
