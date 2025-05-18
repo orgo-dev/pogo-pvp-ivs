@@ -85836,8 +85836,8 @@
         "family": {
             "id": "FAMILY_KUBFU",
             "evolutions": [
-                "urshifu",
-                "urshifu"
+                "urshifu_rapid_strike",
+                "urshifu_single_strike"
             ]
         }
     },
@@ -85892,7 +85892,7 @@
         "levelFloor": 15,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_KUBFU",
             "parent": "kubfu"
@@ -85949,7 +85949,8 @@
         "levelFloor": 15,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "searchPriority": 3,
+        "released": true,
         "family": {
             "id": "FAMILY_KUBFU",
             "parent": "kubfu"
