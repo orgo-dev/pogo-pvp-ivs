@@ -2260,7 +2260,9 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 766,passimian,Passimian,766,passimian,Passimian,True
 767,wimpod,Wimpod,767,wimpod,Wimpod,True
 767,wimpod,Wimpod,768,golisopod,Golisopod,False
+767,wimpod,Wimpod,768,golisopodsh,Golisopod,False
 768,golisopod,Golisopod,768,golisopod,Golisopod,True
+768,golisopodsh,Golisopod,768,golisopodsh,Golisopod,True
 769,sandygast,Sandygast,769,sandygast,Sandygast,True
 769,sandygast,Sandygast,770,palossand,Palossand,False
 770,palossand,Palossand,770,palossand,Palossand,True
