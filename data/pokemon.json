@@ -74807,27 +74807,33 @@
         ],
         "defaultIVs": {
             "cp500": [
-                5.5,
-                6,
-                4,
-                5
+                5,
+                15,
+                15,
+                10
             ],
             "cp1500": [
                 15,
-                5,
-                15,
-                13
+                10,
+                11,
+                10
             ],
             "cp2500": [
-                25,
-                8,
+                24,
                 15,
-                11
+                15,
+                15
             ]
         },
+        "tags": [
+            "mythical",
+            "untradeable"
+        ],
+        "searchPriority": 2,
+        "levelFloor": 15,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     },
     {
         "dex": 722,
@@ -82425,7 +82431,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_YAMPER",
             "evolutions": [
@@ -82476,7 +82482,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_YAMPER",
             "parent": "yamper"

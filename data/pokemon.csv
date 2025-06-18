@@ -1292,7 +1292,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 720,hoopa,Hoopa,261,187,173,"['psychic', 'ghost']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'PSYBEAM', 'PSYCHIC']",nan,nan,20.0,100000,True,,nan,,"['mythical', 'untradeable']"
 720,hoopa_confined,Hoopa (Confined),261,187,173,"['psychic', 'ghost']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'PSYBEAM', 'PSYCHIC']",nan,nan,20.0,100000,False,,nan,,['mythical']
 720,hoopa_unbound,Hoopa (Unbound),311,191,173,"['psychic', 'dark']","['CONFUSION', 'ASTONISH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,20.0,100000,True,,nan,,"['mythical', 'untradeable']"
-721,volcanion,Volcanion,252,216,190,"['fire', 'water']","['INCINERATE', 'WATER_GUN', 'TAKE_DOWN']","['HYDRO_PUMP', 'OVERHEAT', 'EARTH_POWER', 'SLUDGE_BOMB']",nan,nan,20.0,100000,False,,nan,,nan
+721,volcanion,Volcanion,252,216,190,"['fire', 'water']","['INCINERATE', 'WATER_GUN', 'TAKE_DOWN']","['HYDRO_PUMP', 'OVERHEAT', 'EARTH_POWER', 'SLUDGE_BOMB']",nan,nan,20.0,100000,True,,nan,,"['mythical', 'untradeable']"
 722,rowlet,Rowlet,102,99,169,"['grass', 'flying']","['TACKLE', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL']",nan,nan,3.0,10000,True,FAMILY_ROWLET,['dartrix'],,['starter']
 723,dartrix,Dartrix,142,139,186,"['grass', 'flying']","['PECK', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SEED_BOMB', 'ENERGY_BALL', 'BRAVE_BIRD']",nan,nan,3.0,10000,True,FAMILY_ROWLET,['decidueye'],rowlet,['starter']
 724,decidueye,Decidueye,210,179,186,"['grass', 'ghost']","['ASTONISH', 'RAZOR_LEAF', 'LEAFAGE', 'MAGICAL_LEAF']","['SHADOW_SNEAK', 'ENERGY_BALL', 'BRAVE_BIRD', 'FRENZY_PLANT', 'SPIRIT_SHACKLE']",['FRENZY_PLANT'],nan,3.0,10000,True,FAMILY_ROWLET,nan,dartrix,['starter']
@@ -1436,8 +1436,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 832,dubwool,Dubwool,159,198,176,"['normal', 'none']","['TACKLE', 'TAKE_DOWN', 'DOUBLE_KICK']","['WILD_CHARGE', 'PAYBACK', 'BODY_SLAM']",nan,nan,3.0,10000,True,FAMILY_WOOLOO,nan,wooloo,nan
 833,chewtle,Chewtle,114,85,137,"['water', 'none']","['WATER_GUN', 'BITE']","['BODY_SLAM', 'SURF']",nan,nan,3.0,50000,False,FAMILY_CHEWTLE,['drednaw'],,nan
 834,drednaw,Drednaw,213,164,207,"['water', 'rock']","['WATERFALL', 'BITE']","['BODY_SLAM', 'SURF', 'ROCK_BLAST', 'CRUNCH']",nan,nan,3.0,50000,False,FAMILY_CHEWTLE,nan,chewtle,nan
-835,yamper,Yamper,80,90,153,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1.0,50000,False,FAMILY_YAMPER,['boltund'],,nan
-836,boltund,Boltund,197,131,170,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1.0,50000,False,FAMILY_YAMPER,nan,yamper,nan
+835,yamper,Yamper,80,90,153,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1.0,50000,True,FAMILY_YAMPER,['boltund'],,nan
+836,boltund,Boltund,197,131,170,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1.0,50000,True,FAMILY_YAMPER,nan,yamper,nan
 837,rolycoly,Rolycoly,73,91,102,"['rock', 'none']","['SMACK_DOWN', 'TACKLE']","['ROCK_BLAST', 'ROCK_SLIDE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,['carkol'],,nan
 838,carkol,Carkol,114,157,190,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,['coalossal'],boltund,nan
 839,coalossal,Coalossal,146,198,242,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3.0,10000,False,FAMILY_ROLYCOLY,nan,rolycoly,nan
