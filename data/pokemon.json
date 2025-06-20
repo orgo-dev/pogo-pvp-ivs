@@ -21115,10 +21115,10 @@
                 9
             ],
             "cp1500": [
-                20,
-                1,
-                1,
-                2
+                18.5,
+                5,
+                11,
+                14
             ],
             "cp2500": [
                 31.5,
@@ -21127,7 +21127,7 @@
                 14
             ]
         },
-        "levelFloor": 20,
+        "levelFloor": 15,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -79527,7 +79527,11 @@
             "CLOSE_COMBAT",
             "FLAMETHROWER",
             "BOOMBURST",
-            "BRICK_BREAK"
+            "BRICK_BREAK",
+            "CLANGING_SCALES"
+        ],
+        "eliteMoves": [
+            "CLANGING_SCALES"
         ],
         "defaultIVs": {
             "cp500": [

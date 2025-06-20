@@ -4906,6 +4906,7 @@ Kommo-o,Dragon Tail,fast,dragon,1.2,13,9,3,4.33,3.0,,,,Multipurpose,
 Kommo-o,Poison Jab,fast,poison,1.0,7,7,2,3.5,3.5,,,,General,
 Kommo-o,Boomburst,charged,normal,1.0,150,0,1,,,70.0,2.14,,Nuke,
 Kommo-o,Brick Break,charged,fighting,1.2,40,0,1,,,40.0,1.0,100% chance -1 Def opponent,Debuff Spam/Bait,
+Kommo-o,Clanging Scales,charged,dragon,1.2,120,0,1,,,45.0,2.67,100% chance -1 Def self,General,elite
 Kommo-o,Close Combat,charged,fighting,1.2,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,
 Kommo-o,Dragon Claw,charged,dragon,1.2,50,0,1,,,35.0,1.43,,Spam/Bait,
 Kommo-o,Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
