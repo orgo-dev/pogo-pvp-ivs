@@ -834,7 +834,7 @@
         "turns": 1
     },
     {
-        "moveId": "DRAGON_Energy",
+        "moveId": "DRAGON_ENERGY",
         "name": "Dragon Energy",
         "abbreviation": "DrE",
         "type": "dragon",

@@ -61,7 +61,7 @@ DRACO_METEOR,Draco Meteor,charged,dragon,150,0,1,,,65,2.31,100% chance -2 Atk se
 DRAGON_ASCENT,Dragon Ascent,charged,flying,150,0,1,,,70,2.14,100% chance -1 Def self,Self-Debuff Nuke,"[0, -1]",self,1,nan,nan
 DRAGON_BREATH,Dragon Breath,fast,dragon,4,3,1,4.0,3.0,0,,,Multipurpose,nan,,,nan,nan
 DRAGON_CLAW,Dragon Claw,charged,dragon,50,0,1,,,35,1.43,,Spam/Bait,nan,,,nan,nan
-DRAGON_Energy,Dragon Energy,charged,dragon,100,0,1,,,45,2.22,,General,nan,,,nan,nan
+DRAGON_ENERGY,Dragon Energy,charged,dragon,100,0,1,,,45,2.22,,General,nan,,,nan,nan
 DRAGON_PULSE,Dragon Pulse,charged,dragon,90,0,1,,,60,1.5,,High Energy,nan,,,nan,nan
 DRAGON_TAIL,Dragon Tail,fast,dragon,13,9,3,4.33,3.0,0,,,Multipurpose,nan,,,nan,nan
 DRAIN_PUNCH,Drain Punch,charged,fighting,20,0,1,,,40,0.5,100% chance +1 Def self,Boost Spam/Bait,"[0, 1]",self,1,nan,nan
