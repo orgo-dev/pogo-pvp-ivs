@@ -4939,16 +4939,20 @@ Regice (Shadow),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Regice (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Regice (Shadow),Thunder,charged,electric,1.0,100,60,1.67,,High Energy,elite
 Regidrago,Breaking Swipe,charged,dragon,1.2,50,35,1.43,50.0% chance -1 Atk opponent,Debuff Spam/Bait,
+Regidrago,Dragon Energy,charged,dragon,1.2,100,45,2.22,,General,elite
 Regidrago,Dragon Pulse,charged,dragon,1.2,90,60,1.5,,High Energy,
 Regidrago,Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
 Regidrago,Outrage,charged,dragon,1.2,110,60,1.83,,Nuke,
 Regieleki,Hyper Beam,charged,normal,1.0,150,80,1.88,,Nuke,
 Regieleki,Thunder,charged,electric,1.2,100,60,1.67,,High Energy,
+Regieleki,Thunder Cage,charged,electric,1.2,60,40,1.5,100% chance -1 Def opponent,Debuff,elite
 Regieleki,Zap Cannon,charged,electric,1.2,150,80,1.88,33.0% chance -1 Atk opponent,Debuff Nuke,
+Regigigas,Crush Grip,charged,normal,1.2,110,50,2.2,,General,elite
 Regigigas,Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Regigigas,Giga Impact,charged,normal,1.2,150,80,1.88,,Nuke,
 Regigigas,Return,charged,normal,1.2,130,70,1.86,,Nuke,
 Regigigas,Thunder,charged,electric,1.0,100,60,1.67,,High Energy,
+Regigigas (Shadow),Crush Grip,charged,normal,1.2,110,50,2.2,,General,elite
 Regigigas (Shadow),Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Regigigas (Shadow),Frustration,charged,normal,1.2,10,70,0.14,,High Energy,
 Regigigas (Shadow),Giga Impact,charged,normal,1.2,150,80,1.88,,Nuke,

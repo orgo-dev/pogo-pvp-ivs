@@ -7924,7 +7924,9 @@ Regice (Shadow),Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
 Regice (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy,
 Regice (Shadow),Thunder,charged,electric,1.0,100,0,1,,,60.0,1.67,,High Energy,elite
 Regidrago,Bite,fast,dark,1.0,4,2,1,4.0,2.0,,,,Heavy Damage,
+Regidrago,Dragon Breath,fast,dragon,1.2,4,3,1,4.0,3.0,,,,Multipurpose,elite
 Regidrago,Breaking Swipe,charged,dragon,1.2,50,0,1,,,35.0,1.43,50.0% chance -1 Atk opponent,Debuff Spam/Bait,
+Regidrago,Dragon Energy,charged,dragon,1.2,100,0,1,,,45.0,2.22,,General,elite
 Regidrago,Dragon Pulse,charged,dragon,1.2,90,0,1,,,60.0,1.5,,High Energy,
 Regidrago,Hyper Beam,charged,normal,1.0,150,0,1,,,80.0,1.88,,Nuke,
 Regidrago,Outrage,charged,dragon,1.2,110,0,1,,,60.0,1.83,,Nuke,
@@ -7933,6 +7935,7 @@ Regieleki,Thunder Shock,fast,electric,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Regieleki,Volt Switch,fast,electric,1.2,12,16,4,3.0,4.0,,,,Multipurpose,
 Regieleki,Hyper Beam,charged,normal,1.0,150,0,1,,,80.0,1.88,,Nuke,
 Regieleki,Thunder,charged,electric,1.2,100,0,1,,,60.0,1.67,,High Energy,
+Regieleki,Thunder Cage,charged,electric,1.2,60,0,1,,,40.0,1.5,100% chance -1 Def opponent,Debuff,elite
 Regieleki,Zap Cannon,charged,electric,1.2,150,0,1,,,80.0,1.88,33.0% chance -1 Atk opponent,Debuff Nuke,
 Regigigas,Hidden Power (Bug),fast,bug,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas,Hidden Power (Dark),fast,dark,1.0,9,8,3,3.0,2.67,,,,Low Quality,
@@ -7951,6 +7954,7 @@ Regigigas,Hidden Power (Rock),fast,rock,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas,Hidden Power (Steel),fast,steel,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas,Hidden Power (Water),fast,water,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas,Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
+Regigigas,Crush Grip,charged,normal,1.2,110,0,1,,,50.0,2.2,,General,elite
 Regigigas,Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
 Regigigas,Giga Impact,charged,normal,1.2,150,0,1,,,80.0,1.88,,Nuke,
 Regigigas,Return,charged,normal,1.2,130,0,1,,,70.0,1.86,,Nuke,
@@ -7972,6 +7976,7 @@ Regigigas (Shadow),Hidden Power (Rock),fast,rock,1.0,9,8,3,3.0,2.67,,,,Low Quali
 Regigigas (Shadow),Hidden Power (Steel),fast,steel,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas (Shadow),Hidden Power (Water),fast,water,1.0,9,8,3,3.0,2.67,,,,Low Quality,
 Regigigas (Shadow),Zen Headbutt,fast,psychic,1.0,8,6,3,2.67,2.0,,,,Low Quality,
+Regigigas (Shadow),Crush Grip,charged,normal,1.2,110,0,1,,,50.0,2.2,,General,elite
 Regigigas (Shadow),Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
 Regigigas (Shadow),Frustration,charged,normal,1.2,10,0,1,,,70.0,0.14,,High Energy,
 Regigigas (Shadow),Giga Impact,charged,normal,1.2,150,0,1,,,80.0,1.88,,Nuke,

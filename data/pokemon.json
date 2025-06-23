@@ -54636,7 +54636,11 @@
         "chargedMoves": [
             "GIGA_IMPACT",
             "FOCUS_BLAST",
-            "THUNDER"
+            "THUNDER",
+            "CRUSH_GRIP"
+        ],
+        "eliteMoves": [
+            "CRUSH_GRIP"
         ],
         "tags": [
             "legendary",
@@ -54702,7 +54706,11 @@
         "chargedMoves": [
             "GIGA_IMPACT",
             "FOCUS_BLAST",
-            "THUNDER"
+            "THUNDER",
+            "CRUSH_GRIP"
+        ],
+        "eliteMoves": [
+            "CRUSH_GRIP"
         ],
         "tags": [
             "legendary",
@@ -86143,7 +86151,11 @@
         "chargedMoves": [
             "ZAP_CANNON",
             "THUNDER",
-            "HYPER_BEAM"
+            "HYPER_BEAM",
+            "THUNDER_CAGE"
+        ],
+        "eliteMoves": [
+            "THUNDER_CAGE"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86187,13 +86199,19 @@
             "none"
         ],
         "fastMoves": [
-            "BITE"
+            "BITE",
+            "DRAGON_BREATH"
         ],
         "chargedMoves": [
             "HYPER_BEAM",
             "OUTRAGE",
             "DRAGON_PULSE",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "DRAGON_ENERGY"
+        ],
+        "eliteMoves": [
+            "DRAGON_BREATH",
+            "DRAGON_ENERGY"
         ],
         "defaultIVs": {
             "cp500": [
