@@ -12408,7 +12408,6 @@
             "dark"
         ],
         "fastMoves": [
-            "ACID",
             "BITE",
             "POISON_JAB"
         ],
@@ -12420,9 +12419,6 @@
         "tags": [
             "alolan",
             "shadoweligible"
-        ],
-        "legacyMoves": [
-            "ACID"
         ],
         "defaultIVs": {
             "cp500": [

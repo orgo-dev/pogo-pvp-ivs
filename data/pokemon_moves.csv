@@ -3960,7 +3960,6 @@ Grimer,Mud Bomb,charged,ground,1.0,60,0,1,,,40.0,1.5,,Spam/Bait,
 Grimer,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Grimer,Sludge,charged,poison,1.2,70,0,1,,,40.0,1.75,,Spam/Bait,
 Grimer,Sludge Bomb,charged,poison,1.2,80,0,1,,,50.0,1.6,,General,
-Grimer (Alolan),Acid,fast,poison,1.2,6,8,2,3.0,4.0,,,,Multipurpose,legacy
 Grimer (Alolan),Bite,fast,dark,1.2,4,2,1,4.0,2.0,,,,Heavy Damage,
 Grimer (Alolan),Poison Jab,fast,poison,1.2,7,7,2,3.5,3.5,,,,General,
 Grimer (Alolan),Crunch,charged,dark,1.2,70,0,1,,,45.0,1.56,20.0% chance -1 Def opponent,Debuff,
