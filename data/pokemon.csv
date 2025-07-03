@@ -1084,7 +1084,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 569,garbodor,Garbodor,181,164,190,"['poison', 'none']","['INFESTATION', 'TAKE_DOWN']","['ACID_SPRAY', 'SEED_BOMB', 'GUNK_SHOT', 'BODY_SLAM', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_TRUBBISH,nan,trubbish,['shadoweligible']
 569,garbodor_shadow,Garbodor (Shadow),181,164,190,"['poison', 'none']","['INFESTATION', 'TAKE_DOWN']","['ACID_SPRAY', 'SEED_BOMB', 'GUNK_SHOT', 'BODY_SLAM', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_TRUBBISH,nan,trubbish_shadow,['shadow']
 570,zorua,Zorua,153,78,120,"['dark', 'none']","['SCRATCH', 'FEINT_ATTACK']","['FOUL_PLAY', 'AERIAL_ACE', 'DARK_PULSE', 'NIGHT_SHADE']",nan,nan,5.0,75000,True,FAMILY_ZORUA,['zoroark'],,nan
+570,zorua_hisuian,Zorua (Hisuian),162,79,111,"['normal', 'ghost']","['SCRATCH', 'SNARL']","['FOUL_PLAY', 'SHADOW_BALL', 'DARK_PULSE', 'NIGHT_SHADE']",nan,nan,5.0,75000,False,FAMILY_ZORUA,['zoroark'],,nan
 571,zoroark,Zoroark,250,127,155,"['dark', 'none']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER', 'NIGHT_SHADE']",nan,nan,5.0,75000,True,FAMILY_ZORUA,nan,zorua,nan
+571,zoroark_hisuian,Zoroark (Hisuian),261,128,146,"['normal', 'ghost']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_ZORUA,nan,zorua,['hisuian']
 572,minccino,Minccino,98,80,146,"['normal', 'none']","['POUND', 'CHARM']","['SWIFT', 'THUNDERBOLT', 'AQUA_TAIL']",nan,nan,3.0,50000,True,FAMILY_MINCCINO,['cinccino'],,nan
 573,cinccino,Cinccino,198,130,181,"['normal', 'none']","['POUND', 'CHARM']","['HYPER_BEAM', 'THUNDERBOLT', 'AQUA_TAIL']",nan,nan,3.0,50000,True,FAMILY_MINCCINO,nan,minccino,nan
 574,gothita,Gothita,98,112,128,"['psychic', 'none']","['POUND', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_GOTHITA,['gothorita'],,['shadoweligible']

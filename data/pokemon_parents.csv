@@ -1849,7 +1849,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 569,garbodor_shadow,Garbodor (Shadow),569,garbodor_shadow,Garbodor (Shadow),True
 570,zorua,Zorua,570,zorua,Zorua,True
 570,zorua,Zorua,571,zoroark,Zoroark,False
+570,zorua,Zorua,571,zoroark_hisuian,Zoroark (Hisuian),False
+570,zorua_hisuian,Zorua (Hisuian),570,zorua_hisuian,Zorua (Hisuian),True
 571,zoroark,Zoroark,571,zoroark,Zoroark,True
+571,zoroark_hisuian,Zoroark (Hisuian),571,zoroark_hisuian,Zoroark (Hisuian),True
 572,minccino,Minccino,572,minccino,Minccino,True
 572,minccino,Minccino,573,cinccino,Cinccino,False
 573,cinccino,Cinccino,573,cinccino,Cinccino,True
