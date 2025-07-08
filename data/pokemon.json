@@ -63230,9 +63230,12 @@
                 15
             ]
         },
+        "tags": [
+            "hisuian"
+        ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ZORUA",
             "evolutions": [
@@ -63341,11 +63344,12 @@
             ]
         },
         "tags": [
-            "hisuian"
+            "hisuian",
+            "include1500"
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ZORUA",
             "parent": "zorua"
@@ -76868,7 +76872,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_MUDBRAY",
             "evolutions": [
@@ -76921,7 +76925,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_MUDBRAY",
             "parent": "mudbray"

@@ -1084,9 +1084,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 569,garbodor,Garbodor,181,164,190,"['poison', 'none']","['INFESTATION', 'TAKE_DOWN']","['ACID_SPRAY', 'SEED_BOMB', 'GUNK_SHOT', 'BODY_SLAM', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_TRUBBISH,nan,trubbish,['shadoweligible']
 569,garbodor_shadow,Garbodor (Shadow),181,164,190,"['poison', 'none']","['INFESTATION', 'TAKE_DOWN']","['ACID_SPRAY', 'SEED_BOMB', 'GUNK_SHOT', 'BODY_SLAM', 'FRUSTRATION']",nan,nan,3.0,50000,True,FAMILY_TRUBBISH,nan,trubbish_shadow,['shadow']
 570,zorua,Zorua,153,78,120,"['dark', 'none']","['SCRATCH', 'FEINT_ATTACK']","['FOUL_PLAY', 'AERIAL_ACE', 'DARK_PULSE', 'NIGHT_SHADE']",nan,nan,5.0,75000,True,FAMILY_ZORUA,['zoroark'],,nan
-570,zorua_hisuian,Zorua (Hisuian),162,79,111,"['normal', 'ghost']","['SCRATCH', 'SNARL']","['FOUL_PLAY', 'SHADOW_BALL', 'DARK_PULSE', 'NIGHT_SHADE']",nan,nan,5.0,75000,False,FAMILY_ZORUA,['zoroark'],,nan
+570,zorua_hisuian,Zorua (Hisuian),162,79,111,"['normal', 'ghost']","['SCRATCH', 'SNARL']","['FOUL_PLAY', 'SHADOW_BALL', 'DARK_PULSE', 'NIGHT_SHADE']",nan,nan,5.0,75000,True,FAMILY_ZORUA,['zoroark'],,['hisuian']
 571,zoroark,Zoroark,250,127,155,"['dark', 'none']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER', 'NIGHT_SHADE']",nan,nan,5.0,75000,True,FAMILY_ZORUA,nan,zorua,nan
-571,zoroark_hisuian,Zoroark (Hisuian),261,128,146,"['normal', 'ghost']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_ZORUA,nan,zorua,['hisuian']
+571,zoroark_hisuian,Zoroark (Hisuian),261,128,146,"['normal', 'ghost']","['SHADOW_CLAW', 'SNARL']","['FOUL_PLAY', 'SLUDGE_BOMB', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5.0,75000,True,FAMILY_ZORUA,nan,zorua,"['hisuian', 'include1500']"
 572,minccino,Minccino,98,80,146,"['normal', 'none']","['POUND', 'CHARM']","['SWIFT', 'THUNDERBOLT', 'AQUA_TAIL']",nan,nan,3.0,50000,True,FAMILY_MINCCINO,['cinccino'],,nan
 573,cinccino,Cinccino,198,130,181,"['normal', 'none']","['POUND', 'CHARM']","['HYPER_BEAM', 'THUNDERBOLT', 'AQUA_TAIL']",nan,nan,3.0,50000,True,FAMILY_MINCCINO,nan,minccino,nan
 574,gothita,Gothita,98,112,128,"['psychic', 'none']","['POUND', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'RETURN']",nan,nan,3.0,50000,True,FAMILY_GOTHITA,['gothorita'],,['shadoweligible']
@@ -1330,8 +1330,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 746,wishiwashi_solo,Wishiwashi (Solo),46,43,128,"['water', 'none']","['WATER_GUN', 'WATERFALL', 'IRON_TAIL']","['BRINE', 'SURF', 'AQUA_TAIL']",nan,nan,1.0,75000,False,,nan,,nan
 747,mareanie,Mareanie,98,110,137,"['poison', 'water']","['POISON_STING', 'BITE']","['BRINE', 'GUNK_SHOT', 'SLUDGE_WAVE']",nan,nan,3.0,50000,True,FAMILY_MAREANIE,['toxapex'],,nan
 748,toxapex,Toxapex,114,273,137,"['poison', 'water']","['POISON_JAB', 'BITE']","['BRINE', 'GUNK_SHOT', 'SLUDGE_WAVE']",nan,nan,3.0,50000,True,FAMILY_MAREANIE,nan,mareanie,nan
-749,mudbray,Mudbray,175,121,172,"['ground', 'none']","['MUD_SLAP', 'ROCK_SMASH']","['BULLDOZE', 'BODY_SLAM', 'EARTHQUAKE']",nan,nan,3.0,50000,False,FAMILY_MUDBRAY,['mudsdale'],,nan
-750,mudsdale,Mudsdale,214,174,225,"['ground', 'none']","['MUD_SLAP', 'ROCK_SMASH']","['BULLDOZE', 'BODY_SLAM', 'EARTHQUAKE', 'HEAVY_SLAM']",nan,nan,3.0,50000,False,FAMILY_MUDBRAY,nan,mudbray,nan
+749,mudbray,Mudbray,175,121,172,"['ground', 'none']","['MUD_SLAP', 'ROCK_SMASH']","['BULLDOZE', 'BODY_SLAM', 'EARTHQUAKE']",nan,nan,3.0,50000,True,FAMILY_MUDBRAY,['mudsdale'],,nan
+750,mudsdale,Mudsdale,214,174,225,"['ground', 'none']","['MUD_SLAP', 'ROCK_SMASH']","['BULLDOZE', 'BODY_SLAM', 'EARTHQUAKE', 'HEAVY_SLAM']",nan,nan,3.0,50000,True,FAMILY_MUDBRAY,nan,mudbray,nan
 751,dewpider,Dewpider,72,117,116,"['water', 'bug']","['INFESTATION', 'BUG_BITE']","['WATER_PULSE', 'BUBBLE_BEAM', 'MIRROR_COAT']",nan,nan,3.0,50000,True,FAMILY_DEWPIDER,['araquanid'],,nan
 752,araquanid,Araquanid,126,219,169,"['water', 'bug']","['INFESTATION', 'BUG_BITE']","['BUG_BUZZ', 'BUBBLE_BEAM', 'MIRROR_COAT', 'WATER_PULSE']",nan,nan,3.0,50000,True,FAMILY_DEWPIDER,nan,dewpider,nan
 753,fomantis,Fomantis,100,64,120,"['grass', 'none']","['RAZOR_LEAF', 'FURY_CUTTER', 'LEAFAGE']","['LEAF_BLADE', 'ENERGY_BALL', 'GRASS_KNOT', 'TRAILBLAZE']",nan,nan,3.0,50000,True,FAMILY_FOMANTIS,['lurantis'],,nan
