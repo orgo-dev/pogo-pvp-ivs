@@ -1790,7 +1790,9 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 547,whimsicott,Whimsicott,547,whimsicott,Whimsicott,True
 548,petilil,Petilil,548,petilil,Petilil,True
 548,petilil,Petilil,549,lilligant,Lilligant,False
+548,petilil,Petilil,549,lilligant_hisuian,Lilligant (Hisuian),False
 549,lilligant,Lilligant,549,lilligant,Lilligant,True
+549,lilligant_hisuian,Lilligant (Hisuian),549,lilligant_hisuian,Lilligant (Hisuian),True
 550,basculin,Basculin,550,basculin,Basculin,True
 550,basculin,Basculin,902,basculegion_female,Basculegion (Female),False
 550,basculin,Basculin,902,basculegion_male,Basculegion (Male),False
