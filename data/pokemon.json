@@ -53796,7 +53796,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     },
     {
         "dex": 479,
@@ -63299,7 +63299,7 @@
         "family": {
             "id": "FAMILY_ZORUA",
             "evolutions": [
-                "zoroark"
+                "zoroark_hisuian"
             ]
         }
     },
@@ -67875,7 +67875,10 @@
         "released": true,
         "family": {
             "id": "FAMILY_PAWNIARD",
-            "parent": "pawniard"
+            "parent": "pawniard",
+            "evolutions": [
+                "kingambit"
+            ]
         }
     },
     {
@@ -71608,7 +71611,7 @@
         ],
         "fastMoves": [
             "TACKLE",
-            "FURY_CUTTER"
+            "PSYCHO_CUT"
         ],
         "chargedMoves": [
             "IRON_HEAD",
@@ -71665,7 +71668,7 @@
         ],
         "fastMoves": [
             "PSYCHO_CUT",
-            "FURY_CUTTER"
+            "TACKLE"
         ],
         "chargedMoves": [
             "IRON_HEAD",
@@ -71724,7 +71727,7 @@
         ],
         "fastMoves": [
             "PSYCHO_CUT",
-            "FURY_CUTTER"
+            "AIR_SLASH"
         ],
         "chargedMoves": [
             "FLASH_CANNON",
@@ -86000,9 +86003,10 @@
             "POISON_JAB"
         ],
         "chargedMoves": [
-            "CROSS_POISON",
+            "SLUDGE_BOMB",
             "DRAGON_PULSE",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "HYPER_BEAM"
         ],
         "defaultIVs": {
             "cp500": [
@@ -86046,7 +86050,7 @@
             "POISON_JAB"
         ],
         "chargedMoves": [
-            "CROSS_POISON",
+            "SLUDGE_BOMB",
             "DRAGON_PULSE",
             "FLAMETHROWER",
             "HYPER_BEAM"
@@ -86348,7 +86352,6 @@
         "tags": [
             "legendary"
         ],
-        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -86404,7 +86407,6 @@
         "tags": [
             "legendary"
         ],
-        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true

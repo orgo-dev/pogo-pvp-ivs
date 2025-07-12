@@ -68,6 +68,7 @@ DRAIN_PUNCH,Drain Punch,charged,fighting,20,0,1,,,40,0.5,100% chance +1 Def self
 DRAINING_KISS,Draining Kiss,charged,fairy,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
 DRILL_PECK,Drill Peck,charged,flying,65,0,1,,,40,1.62,,Spam/Bait,nan,,,nan,nan
 DRILL_RUN,Drill Run,charged,ground,80,0,1,,,45,1.78,,General,nan,,,nan,nan
+DYNAMAX_CANNON,Dynamax Cannon,charged,dragon,80,0,1,,,45,1.78,,General,nan,,,nan,nan
 DYNAMIC_PUNCH,Dynamic Punch,charged,fighting,90,0,1,,,45,2.0,,General,nan,,,nan,nan
 EARTHQUAKE,Earthquake,charged,ground,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
 EARTH_POWER,Earth Power,charged,ground,90,0,1,,,55,1.64,10.0% chance -1 Def opponent,High Energy Debuff,"[0, -1]",opponent,.1,nan,nan
