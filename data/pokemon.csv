@@ -1237,7 +1237,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 679,honedge,Honedge,135,139,128,"['steel', 'ghost']","['TACKLE', 'PSYCHO_CUT']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,['doublade'],,nan
 680,doublade,Doublade,188,206,153,"['steel', 'ghost']","['PSYCHO_CUT', 'TACKLE']","['IRON_HEAD', 'GYRO_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,['aegislash'],honedge,nan
 681,aegislash_blade,Aegislash (Blade),291,97,155,"['steel', 'ghost']","['PSYCHO_CUT', 'AIR_SLASH']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
-681,aegislash_shield,Aegislash (Shield),97,291,155,"['steel', 'ghost']","['PSYCHO_CUT', 'FURY_CUTTER']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
+681,aegislash_shield,Aegislash (Shield),97,291,155,"['steel', 'ghost']","['PSYCHO_CUT', 'AIR_SLASH']","['FLASH_CANNON', 'GYRO_BALL', 'SHADOW_BALL']",nan,nan,5.0,75000,False,FAMILY_HONEDGE,nan,doublade,nan
 682,spritzee,Spritzee,110,113,186,"['fairy', 'none']","['CHARM', 'CHARGE_BEAM']","['DRAINING_KISS', 'THUNDERBOLT']",nan,nan,3.0,50000,True,FAMILY_SPRITZEE,['aromatisse'],,nan
 683,aromatisse,Aromatisse,173,150,226,"['fairy', 'none']","['CHARM', 'CHARGE_BEAM']","['MOONBLAST', 'THUNDERBOLT', 'PSYCHIC', 'DRAINING_KISS']",nan,nan,3.0,50000,True,FAMILY_SPRITZEE,nan,spritzee,nan
 684,swirlix,Swirlix,109,119,158,"['fairy', 'none']",['TACKLE'],"['DRAINING_KISS', 'ENERGY_BALL']",nan,nan,3.0,50000,True,FAMILY_SWIRLIX,['slurpuff'],,nan
