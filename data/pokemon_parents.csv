@@ -2631,10 +2631,9 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 975,cetitan,Cetitan,975,cetitan,Cetitan,True
 976,veluza,Veluza,976,veluza,Veluza,True
 977,dondozo,Dondozo,977,dondozo,Dondozo,True
-978,tatsugiri,Tatsugiri,978,tatsugiri,Tatsugiri,True
-978,tatsugiri_curly,Tatsugiri_curly,978,tatsugiri_curly,Tatsugiri_curly,True
-978,tatsugiri_droopy,Tatsugiri_droopy,978,tatsugiri_droopy,Tatsugiri_droopy,True
-978,tatsugiri_stretchy,Tatsugiri_stretchy,978,tatsugiri_stretchy,Tatsugiri_stretchy,True
+978,tatsugiri_curly,Tatsugiri (Curly),978,tatsugiri_curly,Tatsugiri (Curly),True
+978,tatsugiri_droopy,Tatsugiri (Droopy),978,tatsugiri_droopy,Tatsugiri (Droopy),True
+978,tatsugiri_stretchy,Tatsugiri (Stretchy),978,tatsugiri_stretchy,Tatsugiri (Stretchy),True
 979,annihilape,Annihilape,979,annihilape,Annihilape,True
 979,annihilape_shadow,Annihilape (Shadow),979,annihilape_shadow,Annihilape (Shadow),True
 980,clodsire,Clodsire,980,clodsire,Clodsire,True

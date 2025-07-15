@@ -1608,10 +1608,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 975,cetitan,Cetitan,208,123,347,"['ice', 'none']","['ICE_SHARD', 'TACKLE', 'POWDER_SNOW']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3.0,50000,True,FAMILY_CETODDLE,nan,cetoddle,nan
 976,veluza,Veluza,196,139,207,"['water', 'psychic']","['ICE_FANG', 'ZEN_HEADBUTT']","['WATER_PULSE', 'PSYCHIC_FANGS', 'DRILL_RUN', 'CRUNCH']",nan,nan,3.0,75000,False,,nan,,nan
 977,dondozo,Dondozo,176,178,312,"['water', 'none']","['WATERFALL', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'LIQUIDATION']",nan,nan,5.0,75000,False,,nan,,nan
-978,tatsugiri,Tatsugiri,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,False,,nan,,nan
-978,tatsugiri_curly,Tatsugiri_curly,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,False,,nan,,nan
-978,tatsugiri_droopy,Tatsugiri_droopy,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,False,,nan,,nan
-978,tatsugiri_stretchy,Tatsugiri_stretchy,226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,False,,nan,,nan
+978,tatsugiri_curly,Tatsugiri (Curly),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,True,,nan,,['regional']
+978,tatsugiri_droopy,Tatsugiri (Droopy),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,True,,nan,,['regional']
+978,tatsugiri_stretchy,Tatsugiri (Stretchy),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5.0,75000,True,,nan,,['regional']
 979,annihilape,Annihilape,220,178,242,"['fighting', 'ghost']","['LOW_KICK', 'COUNTER']","['CLOSE_COMBAT', 'LOW_SWEEP', 'NIGHT_SLASH', 'ICE_PUNCH', 'SHADOW_BALL', 'RAGE_FIST', 'RETURN']",['RAGE_FIST'],nan,3.0,50000,True,FAMILY_MANKEY,nan,primeape,['shadoweligible']
 979,annihilape_shadow,Annihilape (Shadow),220,178,242,"['fighting', 'ghost']","['LOW_KICK', 'COUNTER']","['CLOSE_COMBAT', 'LOW_SWEEP', 'NIGHT_SLASH', 'ICE_PUNCH', 'SHADOW_BALL', 'RAGE_FIST', 'FRUSTRATION']",['RAGE_FIST'],nan,3.0,50000,True,FAMILY_MANKEY,nan,primeape_shadow,['shadow']
 980,clodsire,Clodsire,127,151,277,"['poison', 'ground']","['POISON_STING', 'MUD_SHOT']","['SLUDGE_BOMB', 'EARTHQUAKE', 'STONE_EDGE', 'ACID_SPRAY', 'WATER_PULSE', 'MEGAHORN']",['MEGAHORN'],nan,3.0,50000,True,FAMILY_WOOPER_PALDEAN,nan,wooper_paldean,nan
