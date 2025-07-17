@@ -8,6 +8,7 @@ AIR_CUTTER,Air Cutter,charged,flying,45,0,1,,,35,1.29,30.0% chance +1 Atk self,B
 AIR_SLASH,Air Slash,fast,flying,9,9,3,3.0,3.0,0,,,General,nan,,,nan,nan
 ANCIENT_POWER,Ancient Power,charged,rock,60,0,1,,,45,1.33,10.0% chance +1 Atk +1 Def self,Boost,"[1, 1]",self,.1,nan,nan
 AQUA_JET,Aqua Jet,charged,water,70,0,1,,,40,1.75,,General,nan,,,nan,nan
+AQUA_STEP,Aqua Step,charged,water,55,0,1,,,40,1.38,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 AQUA_TAIL,Aqua Tail,charged,water,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 ASTONISH,Astonish,fast,ghost,12,10,3,4.0,3.33,0,,,Multipurpose,nan,,,nan,nan
 AURA_SPHERE,Aura Sphere,charged,fighting,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan
