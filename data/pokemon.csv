@@ -1535,7 +1535,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 911,skeledirge,Skeledirge,207,178,232,"['fire', 'ghost']","['INCINERATE', 'BITE', 'HEX']","['FLAMETHROWER', 'DISARMING_VOICE', 'CRUNCH', 'SHADOW_BALL', 'BLAST_BURN', 'TORCH_SONG']",['BLAST_BURN'],nan,3.0,10000,True,FAMILY_FUECOCO,nan,crocalor,nan
 912,quaxly,Quaxly,120,86,146,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,['quaxwell'],,nan
 913,quaxwell,Quaxwell,162,123,172,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,['quaquaval'],quaxly,nan
-914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT']",nan,nan,3.0,10000,True,FAMILY_QUAXLY,nan,quaxwell,nan
+914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT', 'AQUA_STEP', 'HYDRO_CANNON']",['HYDRO_CANNON'],nan,3.0,10000,True,FAMILY_QUAXLY,nan,quaxwell,nan
 915,lechonk,Lechonk,81,79,144,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1.0,10000,True,FAMILY_LECHONK,"['oinkologne', 'oinkologne']",,nan
 916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1.0,10000,True,FAMILY_LECHONK,nan,lechonk,nan
 916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1.0,10000,True,FAMILY_LECHONK,nan,lechonk,nan

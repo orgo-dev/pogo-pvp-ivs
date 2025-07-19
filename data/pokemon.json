@@ -87636,7 +87636,12 @@
             "AQUA_JET",
             "AERIAL_ACE",
             "LIQUIDATION",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "AQUA_STEP",
+            "HYDRO_CANNON"
+        ],
+        "eliteMoves": [
+            "HYDRO_CANNON"
         ],
         "defaultIVs": {
             "cp500": [
