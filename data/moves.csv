@@ -2,6 +2,8 @@ move_id,move,move_kind,type,damage,energy_gain,turns,damage_per_turn,energy_per_
 ACID,Acid,fast,poison,6,8,2,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
 ACID_SPRAY,Acid Spray,charged,poison,20,0,1,,,45,0.44,100% chance -2 Def opponent,Debuff,"[0, -2]",opponent,1,nan,nan
 ACROBATICS,Acrobatics,charged,flying,110,0,1,,,55,2.0,,General,nan,,,nan,nan
+AEGISLASH_CHARGE_PSYCHO_CUT,Psycho Cut,fast,psychic,0,6,2,0.0,3.0,0,,,Low Quality,nan,,,nan,nan
+AEGISLASH_CHARGE_AIR_SLASH,Air Slash,fast,flying,0,6,3,0.0,2.0,0,,,Low Quality,nan,,,nan,nan
 AERIAL_ACE,Aerial Ace,charged,flying,55,0,1,,,40,1.38,,General,nan,,,nan,nan
 AEROBLAST,Aeroblast,charged,flying,170,0,1,,,75,2.27,12.5% chance +2 Atk self,Boost Nuke,"[2, 0]",self,.125,nan,nan
 AIR_CUTTER,Air Cutter,charged,flying,45,0,1,,,35,1.29,30.0% chance +1 Atk self,Boost Spam/Bait,"[1, 0]",self,.3,nan,nan
