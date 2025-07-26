@@ -1576,8 +1576,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 945,grafaiai,Grafaiai,199,149,160,"['poison', 'normal']","['MUD_SLAP', 'POISON_JAB']","['ACID_SPRAY', 'POISON_FANG', 'SLUDGE_BOMB']",nan,nan,3.0,50000,True,FAMILY_SHROODLE,nan,shroodle,nan
 946,bramblin,Bramblin,121,64,120,"['grass', 'ghost']","['ASTONISH', 'BULLET_SEED']","['SHADOW_SNEAK', 'NIGHT_SHADE', 'POWER_WHIP']",nan,nan,5.0,75000,False,FAMILY_BRAMBLIN,['brambleghast'],,nan
 947,brambleghast,Brambleghast,228,144,146,"['grass', 'ghost']","['HEX', 'BULLET_SEED']","['SHADOW_SNEAK', 'NIGHT_SHADE', 'POWER_WHIP']",nan,nan,5.0,75000,False,FAMILY_BRAMBLIN,nan,bramblin,nan
-948,toedscool,Toedscool,97,149,120,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'WRAP']",nan,nan,3.0,50000,False,FAMILY_TOEDSCOOL,['toedscruel'],,nan
-949,toedscruel,Toedscruel,166,209,190,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'ACID_SPRAY', 'WRAP']",nan,nan,3.0,50000,False,FAMILY_TOEDSCOOL,nan,toedscool,nan
+948,toedscool,Toedscool,97,149,120,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'WRAP']",nan,nan,3.0,50000,True,FAMILY_TOEDSCOOL,['toedscruel'],,nan
+949,toedscruel,Toedscruel,166,209,190,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'ACID_SPRAY', 'WRAP']",nan,nan,3.0,50000,True,FAMILY_TOEDSCOOL,nan,toedscool,nan
 950,klawf,Klawf,184,185,172,"['rock', 'none']","['ROCK_THROW', 'MUD_SLAP']","['ROCK_SLIDE', 'ROCK_TOMB', 'BULLDOZE']",nan,nan,3.0,75000,False,,nan,,nan
 951,capsakid,Capsakid,118,76,137,"['grass', 'none']","['LEAFAGE', 'RAZOR_LEAF']","['LEAF_STORM', 'GRASS_KNOT', 'SEED_BOMB']",nan,nan,3.0,10000,False,FAMILY_CAPSAKID,['scovillain'],,nan
 952,scovillain,Scovillain,216,130,163,"['grass', 'fire']","['LEAFAGE', 'FIRE_FANG']","['LEAF_STORM', 'GRASS_KNOT', 'OVERHEAT', 'FLAMETHROWER']",nan,nan,3.0,10000,False,FAMILY_CAPSAKID,nan,capsakid,nan
