@@ -75245,7 +75245,7 @@
         "tags": [
             "starter"
         ],
-        "levelFloor": 20,
+        "levelFloor": 15,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true,
@@ -77979,6 +77979,9 @@
                 15
             ]
         },
+        "nicknames": [
+            "pod"
+        ],
         "searchPriority": 8,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
