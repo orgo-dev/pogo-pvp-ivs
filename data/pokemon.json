@@ -84759,9 +84759,10 @@
                 15
             ]
         },
+        "levelFloor": 20,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SNOM",
             "evolutions": [
@@ -84812,9 +84813,10 @@
                 14
             ]
         },
+        "levelFloor": 20,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SNOM",
             "parent": "snom"

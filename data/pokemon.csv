@@ -1479,8 +1479,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 869,alcremie,Alcremie,203,203,163,"['fairy', 'none']","['TACKLE', 'CHARM']","['DAZZLING_GLEAM', 'PSYSHOCK', 'ENERGY_BALL']",nan,nan,3.0,50000,False,FAMILY_MILCERY,nan,milcery,nan
 870,falinks,Falinks,193,170,163,"['fighting', 'none']","['ROCK_SMASH', 'COUNTER']","['SUPER_POWER', 'BRICK_BREAK', 'MEGAHORN']",nan,nan,5.0,75000,True,,nan,,nan
 871,pincurchin,Pincurchin,176,161,134,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN', 'POISON_JAB']","['DISCHARGE', 'THUNDERBOLT', 'BUBBLE_BEAM']",nan,nan,5.0,75000,False,,nan,,nan
-872,snom,Snom,76,59,102,"['ice', 'bug']","['POWDER_SNOW', 'STRUGGLE_BUG']","['ICY_WIND', 'BUG_BUZZ']",nan,nan,5.0,75000,False,FAMILY_SNOM,['frosmoth'],,nan
-873,frosmoth,Frosmoth,230,155,172,"['ice', 'bug']","['POWDER_SNOW', 'BUG_BITE']","['ICY_WIND', 'BUG_BUZZ', 'ICE_BEAM', 'HURRICANE']",nan,nan,5.0,75000,False,FAMILY_SNOM,nan,snom,nan
+872,snom,Snom,76,59,102,"['ice', 'bug']","['POWDER_SNOW', 'STRUGGLE_BUG']","['ICY_WIND', 'BUG_BUZZ']",nan,nan,5.0,75000,True,FAMILY_SNOM,['frosmoth'],,nan
+873,frosmoth,Frosmoth,230,155,172,"['ice', 'bug']","['POWDER_SNOW', 'BUG_BITE']","['ICY_WIND', 'BUG_BUZZ', 'ICE_BEAM', 'HURRICANE']",nan,nan,5.0,75000,True,FAMILY_SNOM,nan,snom,nan
 874,stonjourner,Stonjourner,222,182,225,"['rock', 'none']",['ROCK_THROW'],"['STONE_EDGE', 'ROCK_SLIDE', 'STOMP']",nan,nan,5.0,75000,True,,nan,,['regional']
 875,eiscue,Eiscue,148,195,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5.0,75000,False,,nan,,nan
 875,eiscue_ice,Eiscue (Ice),148,195,181,"['ice', 'none']",['POWDER_SNOW'],"['ICY_WIND', 'WEATHER_BALL_ICE', 'SURF']",nan,nan,5.0,75000,False,,nan,,nan
