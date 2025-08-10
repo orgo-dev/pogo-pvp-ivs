@@ -555,8 +555,12 @@ Seaking,water
 Seaking,none
 Staryu,water
 Staryu,none
+Staryu (Shadow),water
+Staryu (Shadow),none
 Starmie,water
 Starmie,psychic
+Starmie (Shadow),water
+Starmie (Shadow),psychic
 Mr. Mime,psychic
 Mr. Mime,fairy
 Mr. Mime (Galarian),ice
@@ -1869,6 +1873,10 @@ Giratina (Altered),ghost
 Giratina (Altered),dragon
 Giratina (Origin),ghost
 Giratina (Origin),dragon
+Giratina (Altered) (Shadow),ghost
+Giratina (Altered) (Shadow),dragon
+Giratina (Altered) (Shadow),ghost
+Giratina (Altered) (Shadow),dragon
 Cresselia,psychic
 Cresselia,none
 Cresselia (Shadow),psychic
@@ -2433,10 +2441,16 @@ Diggersby (Shadow),normal
 Diggersby (Shadow),ground
 Fletchling,normal
 Fletchling,flying
+Fletchling (Shadow),normal
+Fletchling (Shadow),flying
 Fletchinder,fire
 Fletchinder,flying
+Fletchinder (Shadow),fire
+Fletchinder (Shadow),flying
 Talonflame,fire
 Talonflame,flying
+Talonflame (Shadow),fire
+Talonflame (Shadow),flying
 Scatterbug,bug
 Scatterbug,none
 Spewpa,bug
@@ -2615,20 +2629,32 @@ Primarina,water
 Primarina,fairy
 Pikipek,normal
 Pikipek,flying
+Pikipek (Shadow),normal
+Pikipek (Shadow),flying
 Trumbeak,normal
 Trumbeak,flying
+Trumbeak (Shadow),normal
+Trumbeak (Shadow),flying
 Toucannon,normal
 Toucannon,flying
+Toucannon (Shadow),normal
+Toucannon (Shadow),flying
 Yungoos,normal
 Yungoos,none
 Gumshoos,normal
 Gumshoos,none
 Grubbin,bug
 Grubbin,none
+Grubbin (Shadow),bug
+Grubbin (Shadow),none
 Charjabug,bug
 Charjabug,electric
+Charjabug (Shadow),bug
+Charjabug (Shadow),electric
 Vikavolt,bug
 Vikavolt,electric
+Vikavolt (Shadow),bug
+Vikavolt (Shadow),electric
 Crabrawler,fighting
 Crabrawler,none
 Crabominable,fighting

@@ -517,7 +517,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 119,seaking,Seaking,119,seaking,Seaking,True
 120,staryu,Staryu,120,staryu,Staryu,True
 120,staryu,Staryu,121,starmie,Starmie,False
+120,staryu_shadow,Staryu (Shadow),120,staryu_shadow,Staryu (Shadow),True
+120,staryu_shadow,Staryu (Shadow),121,starmie_shadow,Starmie (Shadow),False
 121,starmie,Starmie,121,starmie,Starmie,True
+121,starmie_shadow,Starmie (Shadow),121,starmie_shadow,Starmie (Shadow),True
 122,mr_mime,Mr. Mime,122,mr_mime,Mr. Mime,True
 122,mr_mime_galarian,Mr. Mime (Galarian),122,mr_mime_galarian,Mr. Mime (Galarian),True
 122,mr_mime_galarian,Mr. Mime (Galarian),866,mr_rime,Mr. Rime,False
@@ -1606,6 +1609,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 486,regigigas,Regigigas,486,regigigas,Regigigas,True
 486,regigigas_shadow,Regigigas (Shadow),486,regigigas_shadow,Regigigas (Shadow),True
 487,giratina_altered,Giratina (Altered),487,giratina_altered,Giratina (Altered),True
+487,giratina_altered_shadow,Giratina (Altered) (Shadow),487,giratina_altered_shadow,Giratina (Altered) (Shadow),True
+487,giratina_altered_shadow_b,Giratina (Altered) (Shadow),487,giratina_altered_shadow_b,Giratina (Altered) (Shadow),True
 487,giratina_origin,Giratina (Origin),487,giratina_origin,Giratina (Origin),True
 488,cresselia,Cresselia,488,cresselia,Cresselia,True
 488,cresselia_shadow,Cresselia (Shadow),488,cresselia_shadow,Cresselia (Shadow),True
@@ -2056,9 +2061,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 661,fletchling,Fletchling,661,fletchling,Fletchling,True
 661,fletchling,Fletchling,662,fletchinder,Fletchinder,False
 661,fletchling,Fletchling,663,talonflame,Talonflame,False
+661,fletchling_shadow,Fletchling (Shadow),661,fletchling_shadow,Fletchling (Shadow),True
+661,fletchling_shadow,Fletchling (Shadow),662,fletchinder_shadow,Fletchinder (Shadow),False
+661,fletchling_shadow,Fletchling (Shadow),663,talonflame_shadow,Talonflame (Shadow),False
 662,fletchinder,Fletchinder,662,fletchinder,Fletchinder,True
 662,fletchinder,Fletchinder,663,talonflame,Talonflame,False
+662,fletchinder_shadow,Fletchinder (Shadow),662,fletchinder_shadow,Fletchinder (Shadow),True
+662,fletchinder_shadow,Fletchinder (Shadow),663,talonflame_shadow,Talonflame (Shadow),False
 663,talonflame,Talonflame,663,talonflame,Talonflame,True
+663,talonflame_shadow,Talonflame (Shadow),663,talonflame_shadow,Talonflame (Shadow),True
 664,scatterbug,Scatterbug,664,scatterbug,Scatterbug,True
 664,scatterbug,Scatterbug,665,spewpa,Spewpa,False
 664,scatterbug,Scatterbug,666,vivillon,Vivillon,False
@@ -2201,18 +2212,30 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 731,pikipek,Pikipek,731,pikipek,Pikipek,True
 731,pikipek,Pikipek,732,trumbeak,Trumbeak,False
 731,pikipek,Pikipek,733,toucannon,Toucannon,False
+731,pikipek_shadow,Pikipek (Shadow),731,pikipek_shadow,Pikipek (Shadow),True
+731,pikipek_shadow,Pikipek (Shadow),732,trumbeak_shadow,Trumbeak (Shadow),False
+731,pikipek_shadow,Pikipek (Shadow),733,toucannon_shadow,Toucannon (Shadow),False
 732,trumbeak,Trumbeak,732,trumbeak,Trumbeak,True
 732,trumbeak,Trumbeak,733,toucannon,Toucannon,False
+732,trumbeak_shadow,Trumbeak (Shadow),732,trumbeak_shadow,Trumbeak (Shadow),True
+732,trumbeak_shadow,Trumbeak (Shadow),733,toucannon_shadow,Toucannon (Shadow),False
 733,toucannon,Toucannon,733,toucannon,Toucannon,True
+733,toucannon_shadow,Toucannon (Shadow),733,toucannon_shadow,Toucannon (Shadow),True
 734,yungoos,Yungoos,734,yungoos,Yungoos,True
 734,yungoos,Yungoos,735,gumshoos,Gumshoos,False
 735,gumshoos,Gumshoos,735,gumshoos,Gumshoos,True
 736,grubbin,Grubbin,736,grubbin,Grubbin,True
 736,grubbin,Grubbin,737,charjabug,Charjabug,False
 736,grubbin,Grubbin,738,vikavolt,Vikavolt,False
+736,grubbin_shadow,Grubbin (Shadow),736,grubbin_shadow,Grubbin (Shadow),True
+736,grubbin_shadow,Grubbin (Shadow),737,charjabug_shadow,Charjabug (Shadow),False
+736,grubbin_shadow,Grubbin (Shadow),738,vikavolt_shadow,Vikavolt (Shadow),False
 737,charjabug,Charjabug,737,charjabug,Charjabug,True
 737,charjabug,Charjabug,738,vikavolt,Vikavolt,False
+737,charjabug_shadow,Charjabug (Shadow),737,charjabug_shadow,Charjabug (Shadow),True
+737,charjabug_shadow,Charjabug (Shadow),738,vikavolt_shadow,Vikavolt (Shadow),False
 738,vikavolt,Vikavolt,738,vikavolt,Vikavolt,True
+738,vikavolt_shadow,Vikavolt (Shadow),738,vikavolt_shadow,Vikavolt (Shadow),True
 739,crabrawler,Crabrawler,739,crabrawler,Crabrawler,True
 739,crabrawler,Crabrawler,740,crabominable,Crabominable,False
 740,crabominable,Crabominable,740,crabominable,Crabominable,True
