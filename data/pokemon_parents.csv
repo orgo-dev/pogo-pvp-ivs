@@ -1213,9 +1213,11 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 344,claydol,Claydol,344,claydol,Claydol,True
 345,lileep,Lileep,345,lileep,Lileep,True
 345,lileep,Lileep,346,cradily,Cradily,False
+345,lileep,Lileep,346,cradily_b,Cradily,False
 345,lileep_shadow,Lileep (Shadow),345,lileep_shadow,Lileep (Shadow),True
 345,lileep_shadow,Lileep (Shadow),346,cradily_shadow,Cradily (Shadow),False
 346,cradily,Cradily,346,cradily,Cradily,True
+346,cradily_b,Cradily,346,cradily_b,Cradily,True
 346,cradily_shadow,Cradily (Shadow),346,cradily_shadow,Cradily (Shadow),True
 347,anorith,Anorith,347,anorith,Anorith,True
 347,anorith,Anorith,348,armaldo,Armaldo,False
