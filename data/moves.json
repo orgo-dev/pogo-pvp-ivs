@@ -106,7 +106,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": ".3",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -401,7 +401,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".5",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -419,7 +419,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -472,7 +472,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -502,7 +502,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".3",
-        "archetype": "High Energy Debuff",
+        "archetype": "Debuff",
         "turns": 1
     },
     {
@@ -520,7 +520,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".5",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -688,7 +688,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": ".125",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -942,7 +942,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": "1",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -1029,7 +1029,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".1",
-        "archetype": "High Energy Debuff",
+        "archetype": "High Energy",
         "turns": 1
     },
     {
@@ -1057,7 +1057,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".1",
-        "archetype": "High Energy Debuff",
+        "archetype": "High Energy",
         "turns": 1
     },
     {
@@ -1098,7 +1098,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": "1",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -2031,7 +2031,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".5",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -2299,7 +2299,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".3",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -2374,7 +2374,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".3",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 2
     },
     {
@@ -2460,7 +2460,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": ".125",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -2498,7 +2498,7 @@
         ],
         "buffTarget": "both",
         "buffApplyChance": "1",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -2655,7 +2655,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -2741,7 +2741,7 @@
         ],
         "buffTarget": "self",
         "buffApplyChance": "1",
-        "archetype": "Boost Spam/Bait",
+        "archetype": "Boost Spam",
         "turns": 1
     },
     {
@@ -2805,7 +2805,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".1",
-        "archetype": "High Energy Debuff",
+        "archetype": "High Energy",
         "turns": 1
     },
     {
@@ -2823,7 +2823,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -2944,7 +2944,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "0.5",
-        "archetype": "Spam/Bait Debuff",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -3122,7 +3122,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "1",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -3158,7 +3158,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "0.3",
-        "archetype": "High Energy Debuff",
+        "archetype": "Debuff",
         "turns": 1
     },
     {
@@ -3176,7 +3176,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": "0.3",
-        "archetype": "High Energy Debuff",
+        "archetype": "Debuff",
         "turns": 1
     },
     {
@@ -3218,7 +3218,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".4",
-        "archetype": "Nuke Debuff",
+        "archetype": "Debuff Nuke",
         "turns": 1
     },
     {
@@ -3311,7 +3311,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".2",
-        "archetype": "High Energy Debuff",
+        "archetype": "High Energy",
         "turns": 1
     },
     {
@@ -3482,7 +3482,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".33",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {
@@ -3921,7 +3921,7 @@
         ],
         "buffTarget": "opponent",
         "buffApplyChance": ".3",
-        "archetype": "Debuff Spam/Bait",
+        "archetype": "Debuff Spam",
         "turns": 1
     },
     {

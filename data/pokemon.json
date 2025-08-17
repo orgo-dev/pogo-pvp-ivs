@@ -87783,7 +87783,8 @@
             "id": "FAMILY_BASCULIN",
             "parent": "basculin"
         },
-        "tags": []
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000
     },
     {
         "dex": 902,
@@ -87829,7 +87830,8 @@
             "id": "FAMILY_BASCULIN",
             "parent": "basculin"
         },
-        "tags": []
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000
     },
     {
         "dex": 903,
