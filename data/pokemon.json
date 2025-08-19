@@ -86917,33 +86917,40 @@
             "POISON_JAB"
         ],
         "chargedMoves": [
-            "CROSS_POISON",
+            "SLUDGE_BOMB",
             "FLAMETHROWER",
-            "HYPER_BEAM"
+            "HYPER_BEAM",
+            "DYNAMAX_CANNON"
         ],
         "defaultIVs": {
             "cp500": [
-                4.5,
                 4,
                 10,
-                11
+                15,
+                14
             ],
             "cp1500": [
-                12.5,
-                4,
-                14,
-                8
+                12,
+                12,
+                15,
+                14
             ],
             "cp2500": [
-                20.5,
-                5,
+                20,
                 14,
-                15
+                14,
+                11
             ]
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true,
+        "levelFloor": 15,
+        "tags": [
+            "legendary",
+            "untradeable"
+        ],
+        "searchPriority": 5
     },
     {
         "dex": 890,
@@ -86963,7 +86970,7 @@
             "POISON_JAB"
         ],
         "chargedMoves": [
-            "CROSS_POISON",
+            "SLUDGE_BOMB",
             "FLAMETHROWER",
             "HYPER_BEAM"
         ],
