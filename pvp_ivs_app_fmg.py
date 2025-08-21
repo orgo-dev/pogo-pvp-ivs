@@ -686,6 +686,13 @@ def app(app="GBL IV Stats", **kwargs):
             "Show search and filter result details",
             default_show_search_filter_details,
         )
+        default_use_row_selections = (
+            kwargs.get("use_row_selections", ["False"])[0] == "True"
+        )
+        use_row_selections = st.checkbox(
+            "Use row selections for config outputs",
+            default_use_row_selections,
+        )
 
     ############################################################################
     # MAIN APP
@@ -809,10 +816,22 @@ def app(app="GBL IV Stats", **kwargs):
                 df = df[["Pokemon"] + tmp_cols]
                 # df["Selected Pokemon"] = pokemon
 
-                st.dataframe(df)
+                st_df_selection = st.dataframe(
+                    df,
+                    hide_index=True,
+                    on_select="rerun",
+                    selection_mode="multi-row",
+                )
+                st.code(st_df_selection)
+
+                df_fmg = (
+                    df.iloc[st_df_selection.get("selection", []).get("rows", [])]
+                    if use_row_selections
+                    else df
+                )
 
                 # option to display pokemon + parent dex ids with list of selected ivs
-                if len(pokemon_fmg_config["filter_dex_ids"]) and len(df):
+                if len(pokemon_fmg_config["filter_dex_ids"]) and len(df_fmg):
                     # fmg old output
                     if kwargs.get("fmg_old"):
                         selected_ivs_str = (
@@ -849,24 +868,29 @@ def app(app="GBL IV Stats", **kwargs):
                         )
                         for dex_id in pokemon_fmg_config["filter_dex_ids"]
                     ]
+                    fmg_min_level = df_fmg["Level"].min()
                     fmg_filters = [
                         json.dumps(
                             {
-                                "title": f"{input_pokemon} {r['League'][0]}L R{r[f'Rank']:04d}",
+                                "title": f"{input_pokemon} {league[0]}L",
                                 "enabled": True,
                                 "pokemonIdList": fmg_pokemon_id_list,
                                 "filterPokemonId": True,
                                 "levelMin": 1,
-                                "levelMax": int(r["Level"]),
+                                "levelMax": int(fmg_min_level),
                                 "filterLevel": True,
-                                "specificIvAtk": r["IV Atk"],
-                                "specificIvDef": r["IV Def"],
-                                "specificIvSta": r["IV HP"],
-                                "filterSpecificIv": True,
-                            }
+                                "specificIvs": [
+                                    {
+                                        "ivAtk": r["IV Atk"],
+                                        "ivDef": r["IV Def"],
+                                        "ivSta": r["IV HP"],
+                                    }
+                                    for i, r in df_fmg.iterrows()
+                                ],
+                                "filterSpecificIvs": True,
+                            },
                         )
                         # for r in selected_ivs
-                        for i, r in df.iterrows()
                     ]
                     # st.code(fmg_filters)
                     fmg_added_titles = [json.loads(f)["title"] for f in fmg_filters]
