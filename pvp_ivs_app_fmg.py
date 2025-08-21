@@ -693,6 +693,13 @@ def app(app="GBL IV Stats", **kwargs):
             "Use row selections for config outputs",
             default_use_row_selections,
         )
+        default_limit_output_rows = int(kwargs.get("limit_output_rows", [0])[0])
+        limit_output_rows = st.number_input(
+            "Limit rows of final outputs (0 = no limit)",
+            min_value=0,
+            max_value=9999,
+            value=default_limit_output_rows,
+        )
 
     ############################################################################
     # MAIN APP
@@ -816,13 +823,14 @@ def app(app="GBL IV Stats", **kwargs):
                 df = df[["Pokemon"] + tmp_cols]
                 # df["Selected Pokemon"] = pokemon
 
+                df = df.head(limit_output_rows) if limit_output_rows else df
+
                 st_df_selection = st.dataframe(
                     df,
                     hide_index=True,
                     on_select="rerun",
                     selection_mode="multi-row",
                 )
-                st.code(st_df_selection)
 
                 df_fmg = (
                     df.iloc[st_df_selection.get("selection", []).get("rows", [])]
