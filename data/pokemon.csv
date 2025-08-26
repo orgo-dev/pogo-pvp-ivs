@@ -1621,7 +1621,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 974,cetoddle,Cetoddle,119,80,239,"['ice', 'none']","['ICE_SHARD', 'TACKLE', 'POWDER_SNOW']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,True,FAMILY_CETODDLE,['cetitan'],,nan
 975,cetitan,Cetitan,208,123,347,"['ice', 'none']","['ICE_SHARD', 'TACKLE', 'POWDER_SNOW']","['BODY_SLAM', 'AVALANCHE', 'HEAVY_SLAM']",nan,nan,3,50000,True,FAMILY_CETODDLE,nan,cetoddle,nan
 976,veluza,Veluza,196,139,207,"['water', 'psychic']","['ICE_FANG', 'ZEN_HEADBUTT']","['WATER_PULSE', 'PSYCHIC_FANGS', 'DRILL_RUN', 'CRUNCH']",nan,nan,3,75000,False,,nan,,nan
-977,dondozo,Dondozo,176,178,312,"['water', 'none']","['WATERFALL', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'LIQUIDATION']",nan,nan,5,75000,False,,nan,,nan
+977,dondozo,Dondozo,176,178,312,"['water', 'none']","['WATERFALL', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'LIQUIDATION']",nan,nan,5,75000,True,,nan,,nan
 978,tatsugiri_curly,Tatsugiri (Curly),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,True,,nan,,['regional']
 978,tatsugiri_droopy,Tatsugiri (Droopy),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,True,,nan,,['regional']
 978,tatsugiri_stretchy,Tatsugiri (Stretchy),226,166,169,"['dragon', 'water']","['TAKE_DOWN', 'WATER_GUN']","['OUTRAGE', 'SURF', 'HYDRO_PUMP', 'MUDDY_WATER']",nan,nan,5,75000,True,,nan,,['regional']
