@@ -41,7 +41,7 @@ app.add_page("GBL IV Stats", gbl_iv_stats)
 # app.add_page("GBL IV Stats - new", gbl_iv_stats_new)
 app.add_page("Move Counts", move_counts)
 app.add_page("Pokemon Types and Moves", types_and_moves)
-if st.query_params.get_all("fmg") or st.query_params.get_all("fmg_old"):
+if st.query_params.get_all("fmg"):
     app.add_page("FMG Configs", fmg)
 
 qp = {k:st.query_params.get_all(k) for k in st.query_params}

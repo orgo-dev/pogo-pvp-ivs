@@ -840,30 +840,6 @@ def app(app="GBL IV Stats", **kwargs):
 
                 # option to display pokemon + parent dex ids with list of selected ivs
                 if len(pokemon_fmg_config["filter_dex_ids"]) and len(df_fmg):
-                    # fmg old output
-                    if kwargs.get("fmg_old"):
-                        selected_ivs_str = (
-                            f"# {input_pokemon}-{league}\n"
-                            + ",".join(
-                                [
-                                    "{dex_id}${IV Atk}/{IV Def}/{IV HP}L1-{lvl_max}".format(
-                                        dex_id=(
-                                            f'{dex_id}:{pokemon_fmg_config["form_id"]}'
-                                            if pokemon_fmg_config["form_id"]
-                                            else dex_id
-                                        ),
-                                        lvl_max=int(row["Level"]),
-                                        **row,
-                                    )
-                                    for i, row in df.iterrows()
-                                    for dex_id in pokemon_fmg_config["filter_dex_ids"]
-                                ]
-                            )
-                            + ","
-                        )
-                        selected_ivs_str_list.append(selected_ivs_str)
-                        st.code(selected_ivs_str, language=None)
-
                     # fmg output
                     fmg_pokemon_id_list = [
                         (
@@ -925,9 +901,6 @@ def app(app="GBL IV Stats", **kwargs):
         + "\n  }"
         + "\n}"
     )
-    if kwargs.get("fmg_old"):
-        with st.expander("See old FMG config"):
-            st.code("\n".join(selected_ivs_str_list), language=None)
     with st.expander("See FMG config"):
         st.code(fmg_json, language=None)
     st.download_button(
@@ -941,7 +914,6 @@ def app(app="GBL IV Stats", **kwargs):
         params_list = [
             "app",
             "fmg",
-            "fmg_old",
             "leagues",
             "selected_pokemons",
             "pokemon_fmg_configs",
