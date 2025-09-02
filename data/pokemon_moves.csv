@@ -1766,6 +1766,7 @@ Corsola (Galarian),Rock Blast,charged,rock,1.0,50,0,1,,,40.0,1.25,,Spam/Bait,
 Corviknight,Air Slash,fast,flying,1.2,9,9,3,3.0,3.0,,,,General,
 Corviknight,Sand Attack,fast,ground,1.0,2,4,1,2.0,4.0,,,,Fast Charge,
 Corviknight,Steel Wing,fast,steel,1.2,7,6,2,3.5,3.0,,,,General,
+Corviknight,Air Cutter,charged,flying,1.2,45,0,1,,,35.0,1.29,30.0% chance +1 Atk self,Boost Spam,elite
 Corviknight,Iron Head,charged,steel,1.2,70,0,1,,,50.0,1.4,,General,elite
 Corviknight,Payback,charged,dark,1.0,110,0,1,,,60.0,1.83,,Nuke,
 Corviknight,Sky Attack,charged,flying,1.2,85,0,1,,,55.0,1.55,,High Energy,
