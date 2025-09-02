@@ -945,9 +945,6 @@ def app(app="GBL IV Stats", **kwargs):
             "leagues",
             "selected_pokemons",
             "pokemon_fmg_configs",
-            "custom_base_atk",
-            "custom_base_def",
-            "custom_base_sta",
             "input_ivs",
             "stats_rank",
             "stats_rank_non_bb",
@@ -970,6 +967,7 @@ def app(app="GBL IV Stats", **kwargs):
             "filter_inputs",
             "efficient_max_level",
             "efficient_best_buddy",
+            "iv_floor",
             "iv_atk_ge",
             "iv_def_ge",
             "iv_hp_ge",
@@ -979,10 +977,13 @@ def app(app="GBL IV Stats", **kwargs):
             "min_cp",
             "level_ge",
             "level_le",
+            "cmp_filter",
             "show_cmp",
-            "show_individual_ivs",
             "show_prod_cols",
+            "show_individual_ivs",
             "show_search_filter_details",
+            "use_row_selections",
+            "limit_output_rows",
         ]
         url = get_query_params_url(params_list, {**kwargs, **locals()})
         st.markdown("---")
