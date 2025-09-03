@@ -15,12 +15,7 @@ IVS_ALL = [
     for d in range(16)
     for s in range(16)
 ]
-IVS_ARRAY = np.array([
-    [a,d,s]
-    for a in range(16)
-    for d in range(16)
-    for s in range(16)
-])
+IVS_ARRAY = np.array([[a, d, s] for a in range(16) for d in range(16) for s in range(16)])
 
 
 def jupyter_safe_cache_data(*args, **kwargs):
@@ -171,7 +166,7 @@ def listify(o=None):
     return res
 
 
-def get_query_params_url(params_list, params_dict, **kwargs):
+def get_query_params_url(params_list, params_dict, defaults=None, **kwargs):
     """
     Create url params from alist of parameters and a dictionary with values.
 
@@ -183,8 +178,13 @@ def get_query_params_url(params_list, params_dict, **kwargs):
         **kwargs :
             Extra keyword args to add to the url
     """
+    defaults_dict = defaults or {}
     params_dict.update(kwargs)
-    filtered_params_dict = {k: v for k, v in params_dict.items() if k in params_list}
+    filtered_params_dict = {
+        k: params_dict.get(k)
+        for k in params_list
+        if k in params_dict and params_dict.get(k) != defaults_dict.get(k)
+    }
     return "?" + "&".join(
         [
             f"{key}={quote_plus(str(value))}"

@@ -18,6 +18,7 @@ from app_utils import (
     LEAGUE_CPS,
     IVS_ALL,
 )
+from config import DEFAULTS
 
 
 def calc_level_stats(
@@ -389,30 +390,20 @@ def app(app="GBL IV Stats", **kwargs):
 
         # inputs
         league_options = ["Little", "Great", "Ultra", "Master"]
-        default_leagues = kwargs.get("leagues", ["Great"])
-        default_league_idx = (
-            1
-            if default_leagues not in league_options
-            else league_options.index(default_leagues)
-        )
-        leagues = st.multiselect("Select league(s)", league_options, default_leagues)
+        kwargs_leagues = kwargs.get("leagues", list(DEFAULTS["leagues"]))
+        leagues = st.multiselect("Select league(s)", league_options, kwargs_leagues)
 
-        default_pokemons = kwargs.get("selected_pokemons", ["Swampert"])
-        default_pokemon_idx = (
-            0
-            if default_pokemons not in pokemon_candidates
-            else pokemon_candidates.index(default_pokemons)
-        )
+        kwargs_pokemons = kwargs.get("selected_pokemons", list(DEFAULTS["selected_pokemons"]))
         selected_pokemons = st.multiselect(
-            "Select Pokemon(s)", pokemon_candidates, default_pokemons
+            "Select Pokemon(s)", pokemon_candidates, kwargs_pokemons
         )
 
         try:
-            default_pokemon_fmg_configs = ast.literal_eval(
-                kwargs.get("pokemon_fmg_configs", ["{}"])[0]
+            kwargs_pokemon_fmg_configs = ast.literal_eval(
+                kwargs.get("pokemon_fmg_configs", [DEFAULTS["pokemon_fmg_configs"]])[0]
             )
         except:
-            default_pokemon_fmg_configs = {}
+            kwargs_pokemon_fmg_configs = {}
         pokemon_fmg_configs = {}
         for pokemon in selected_pokemons:
             pokemon_fmg_configs[pokemon] = {}
@@ -422,13 +413,13 @@ def app(app="GBL IV Stats", **kwargs):
                 "Form id",
                 step=1,
                 key=f"{pokemon}-form_id",
-                value=default_pokemon_fmg_configs.get(pokemon, {}).get("form_id", 0),
+                value=kwargs_pokemon_fmg_configs.get(pokemon, {}).get("form_id", 0),
             )
             st.markdown("Spawn filters:")
             pokemon_fmg_configs[pokemon]["filter_dex_ids"] = []
             for p in POKE_PARENTS.get(pokemon, []):
                 dex_id = POKE_DEX_IDS[p]
-                value = dex_id in default_pokemon_fmg_configs.get(pokemon, {}).get(
+                value = dex_id in kwargs_pokemon_fmg_configs.get(pokemon, {}).get(
                     "filter_dex_ids", [dex_id]
                 )
                 if st.checkbox(p, value, key=f"{pokemon}-{p}-filter_dex_id"):
@@ -436,13 +427,13 @@ def app(app="GBL IV Stats", **kwargs):
             st.markdown("Evolution IVs:")
             pokemon_fmg_configs[pokemon]["pokemon_evos"] = []
             for p in POKE_CHILDREN.get(pokemon, []):
-                value = p in default_pokemon_fmg_configs.get(pokemon, {}).get(
+                value = p in kwargs_pokemon_fmg_configs.get(pokemon, {}).get(
                     "pokemon_evos", [p]
                 )
                 if st.checkbox(p, value, key=f"{pokemon}-{p}-evos"):
                     pokemon_fmg_configs[pokemon]["pokemon_evos"].append(p)
 
-        default_ivs = kwargs.get("input_ivs", [""])[0]
+        kwargs_ivs = kwargs.get("input_ivs", [DEFAULTS["input_ivs"]])[0]
         input_ivs = ""
         ivs = parse_ivs(input_ivs)
         st.markdown("---")
@@ -453,94 +444,94 @@ def app(app="GBL IV Stats", **kwargs):
         # stats / bulk product rank
         # show_ranks_below_cols = st.columns(2)
         # with show_ranks_below_cols[0]:
-        default_stats_rank = int(kwargs.get("stats_rank", [20])[0])
+        kwargs_stats_rank = int(kwargs.get("stats_rank", [DEFAULTS["stats_rank"]])[0])
         stats_rank = st.number_input(
             "Rank (Best Buddy) <=",
             min_value=0,
             max_value=99999,
-            value=default_stats_rank,
+            value=kwargs_stats_rank,
         )
-        default_stats_rank_non_bb = int(kwargs.get("stats_rank_non_bb", [1])[0])
+        kwargs_stats_rank_non_bb = int(kwargs.get("stats_rank_non_bb", [DEFAULTS["stats_rank_non_bb"]])[0])
         stats_rank_non_bb = st.number_input(
             f"Rank @{MAX_LEVEL} <=",
             min_value=0,
             max_value=99999,
-            value=default_stats_rank_non_bb,
+            value=kwargs_stats_rank_non_bb,
         )
         # with show_ranks_below_cols[1]:
-        default_bulk_rank = int(kwargs.get("bulk_rank", [0])[0])
+        kwargs_bulk_rank = int(kwargs.get("bulk_rank", [DEFAULTS["bulk_rank"]])[0])
         bulk_rank = st.number_input(
-            "Bulk Rank <=", min_value=0, max_value=99999, value=default_bulk_rank
+            "Bulk Rank <=", min_value=0, max_value=99999, value=kwargs_bulk_rank
         )
 
         # level max stats / hundo ivs
         search_options_row1 = st.columns(3)
         with search_options_row1[0]:
-            default_all_ivs = kwargs.get("all_ivs", ["False"])[0] == "True"
-            all_ivs = st.checkbox("All IVs", default_all_ivs)
+            kwargs_all_ivs = kwargs.get("all_ivs", [DEFAULTS["all_ivs"]])[0] == True
+            all_ivs = st.checkbox("All IVs", kwargs_all_ivs)
         with search_options_row1[1]:
-            default_level_max_stats = (
-                kwargs.get("level_max_stats", ["False"])[0] == "True"
+            kwargs_level_max_stats = (
+                kwargs.get("level_max_stats", [DEFAULTS["level_max_stats"]])[0] == True
             )
-            level_max_stats = st.checkbox("Level Maxes", default_level_max_stats)
+            level_max_stats = st.checkbox("Level Maxes", kwargs_level_max_stats)
         with search_options_row1[2]:
-            default_show_100 = kwargs.get("show_100", ["False"])[0] == "True"
-            show_100 = st.checkbox("15/15/15 IV", default_show_100)
+            kwargs_show_100 = kwargs.get("show_100", [DEFAULTS["show_100"]])[0] == True
+            show_100 = st.checkbox("15/15/15 IV", kwargs_show_100)
 
         iv_stat_cols = ["Atk", "Def", "HP"]
 
         # max stat cols
         search_options_row2 = st.columns(3)
         with search_options_row2[0]:
-            default_max_atk = kwargs.get("max_atk", ["False"])[0] == "True"
-            max_atk = st.checkbox("Max Atk", default_max_atk)
+            kwargs_max_atk = kwargs.get("max_atk", [DEFAULTS["max_atk"]])[0] == True
+            max_atk = st.checkbox("Max Atk", kwargs_max_atk)
         with search_options_row2[1]:
-            default_max_def = kwargs.get("max_def", ["False"])[0] == "True"
-            max_def = st.checkbox("Max Def", default_max_def)
+            kwargs_max_def = kwargs.get("max_def", [DEFAULTS["max_def"]])[0] == True
+            max_def = st.checkbox("Max Def", kwargs_max_def)
         with search_options_row2[2]:
-            default_max_hp = kwargs.get("max_hp", ["False"])[0] == "True"
-            max_hp = st.checkbox("Max HP", default_max_hp)
+            kwargs_max_hp = kwargs.get("max_hp", [DEFAULTS["max_hp"]])[0] == True
+            max_hp = st.checkbox("Max HP", kwargs_max_hp)
 
         # 15 iv cols
         search_options_row3 = st.columns(3)
         with search_options_row3[0]:
-            default_iv_atk_15 = kwargs.get("iv_atk_15", ["False"])[0] == "True"
-            iv_atk_15 = st.checkbox("15 Atk IV", default_iv_atk_15)
+            kwargs_iv_atk_15 = kwargs.get("iv_atk_15", [DEFAULTS["iv_atk_15"]])[0] == True
+            iv_atk_15 = st.checkbox("15 Atk IV", kwargs_iv_atk_15)
         with search_options_row3[1]:
-            default_iv_def_15 = kwargs.get("iv_def_15", ["False"])[0] == "True"
-            iv_def_15 = st.checkbox("15 Def IV", default_iv_def_15)
+            kwargs_iv_def_15 = kwargs.get("iv_def_15", [DEFAULTS["iv_def_15"]])[0] == True
+            iv_def_15 = st.checkbox("15 Def IV", kwargs_iv_def_15)
         with search_options_row3[2]:
-            default_iv_hp_15 = kwargs.get("iv_hp_15", ["False"])[0] == "True"
-            iv_hp_15 = st.checkbox("15 HP IV", default_iv_hp_15)
+            kwargs_iv_hp_15 = kwargs.get("iv_hp_15", [DEFAULTS["iv_hp_15"]])[0] == True
+            iv_hp_15 = st.checkbox("15 HP IV", kwargs_iv_hp_15)
 
         # 0 iv cols
         search_options_row4 = st.columns(3)
         with search_options_row4[0]:
-            default_iv_atk_0 = kwargs.get("iv_atk_0", ["False"])[0] == "True"
-            iv_atk_0 = st.checkbox("0 Atk IV", default_iv_atk_0)
+            kwargs_iv_atk_0 = kwargs.get("iv_atk_0", [DEFAULTS["iv_atk_0"]])[0] == True
+            iv_atk_0 = st.checkbox("0 Atk IV", kwargs_iv_atk_0)
         with search_options_row4[1]:
-            default_iv_def_0 = kwargs.get("iv_def_0", ["False"])[0] == "True"
-            iv_def_0 = st.checkbox("0 Def IV", default_iv_def_0)
+            kwargs_iv_def_0 = kwargs.get("iv_def_0", [DEFAULTS["iv_def_0"]])[0] == True
+            iv_def_0 = st.checkbox("0 Def IV", kwargs_iv_def_0)
         with search_options_row4[2]:
-            default_iv_hp_0 = kwargs.get("iv_hp_0", ["False"])[0] == "True"
-            iv_hp_0 = st.checkbox("0 HP IV", default_iv_hp_0)
+            kwargs_iv_hp_0 = kwargs.get("iv_hp_0", [DEFAULTS["iv_hp_0"]])[0] == True
+            iv_hp_0 = st.checkbox("0 HP IV", kwargs_iv_hp_0)
 
         # exact iv cols
         show_exact_iv_cols = st.columns(3)
         with show_exact_iv_cols[0]:
-            default_iv_atk_exact = int(kwargs.get("iv_atk_exact", [-1])[0])
+            kwargs_iv_atk_exact = int(kwargs.get("iv_atk_exact", [DEFAULTS["iv_atk_exact"]])[0])
             iv_atk_exact = st.number_input(
-                "Atk IV =", min_value=-1, max_value=15, value=default_iv_atk_exact
+                "Atk IV =", min_value=-1, max_value=15, value=kwargs_iv_atk_exact
             )
         with show_exact_iv_cols[1]:
-            default_iv_def_exact = int(kwargs.get("iv_def_exact", [-1])[0])
+            kwargs_iv_def_exact = int(kwargs.get("iv_def_exact", [DEFAULTS["iv_def_exact"]])[0])
             iv_def_exact = st.number_input(
-                "Def IV =", min_value=-1, max_value=15, value=default_iv_def_exact
+                "Def IV =", min_value=-1, max_value=15, value=kwargs_iv_def_exact
             )
         with show_exact_iv_cols[2]:
-            default_iv_hp_exact = int(kwargs.get("iv_hp_exact", [-1])[0])
+            kwargs_iv_hp_exact = int(kwargs.get("iv_hp_exact", [DEFAULTS["iv_hp_exact"]])[0])
             iv_hp_exact = st.number_input(
-                "HP IV =", min_value=-1, max_value=15, value=default_iv_hp_exact
+                "HP IV =", min_value=-1, max_value=15, value=kwargs_iv_hp_exact
             )
         st.markdown("---")
 
@@ -548,21 +539,21 @@ def app(app="GBL IV Stats", **kwargs):
         st.markdown("Filters Options")
         filter_check_boxes = st.columns(3)
         with filter_check_boxes[0]:
-            default_filter_inputs = kwargs.get("filter_inputs", ["False"])[0] == "True"
-            filter_inputs = st.checkbox("Filter inputs", default_filter_inputs)
+            kwargs_filter_inputs = kwargs.get("filter_inputs", [DEFAULTS["filter_inputs"]])[0] == True
+            filter_inputs = st.checkbox("Filter inputs", kwargs_filter_inputs)
         with filter_check_boxes[1]:
-            default_efficient_max_level = (
-                kwargs.get("efficient_max_level", ["True"])[0] == "True"
+            kwargs_efficient_max_level = (
+                kwargs.get("efficient_max_level", [DEFAULTS["efficient_max_level"]])[0] == True
             )
             efficient_max_level = st.checkbox(
-                f"Efficient@{MAX_LEVEL}", default_efficient_max_level
+                f"Efficient@{MAX_LEVEL}", kwargs_efficient_max_level
             )
         with filter_check_boxes[2]:
-            default_efficient_best_buddy = (
-                kwargs.get("efficient_best_buddy", ["False"])[0] == "True"
+            kwargs_efficient_best_buddy = (
+                kwargs.get("efficient_best_buddy", [DEFAULTS["efficient_best_buddy"]])[0] == True
             )
             efficient_best_buddy = st.checkbox(
-                f"Efficient@{MAX_LEVEL+1}", default_efficient_best_buddy
+                f"Efficient@{MAX_LEVEL+1}", kwargs_efficient_best_buddy
             )
 
         # min iv slider
@@ -578,22 +569,22 @@ def app(app="GBL IV Stats", **kwargs):
             "12: Lucky Trade",
         ]
         iv_floor_options_ints = [int(x.split(":")[0]) for x in iv_floor_options]
-        default_iv_floor = int(kwargs.get("iv_floor", [0])[0])
+        kwargs_iv_floor = int(kwargs.get("iv_floor", [DEFAULTS["iv_floor"]])[0])
         # iv_floor = st.slider("IV floor (Good Friend=1, Great=2, Ultra=3, Best=5)", 0, 15, 0)
         # iv_floor = st.number_input(
-        #     "All IVs floor\n(Good Friend=1, Great=2, Ultra=3, Best=5)", min_value=0, max_value=15, value=default_iv_floor
+        #     "All IVs floor\n(Good Friend=1, Great=2, Ultra=3, Best=5)", min_value=0, max_value=15, value=kwargs_iv_floor
         # )
         idx = (
-            iv_floor_options_ints.index(default_iv_floor)
-            if default_iv_floor in iv_floor_options_ints
+            iv_floor_options_ints.index(kwargs_iv_floor)
+            if kwargs_iv_floor in iv_floor_options_ints
             else 0
         )
         iv_floor_str = st.selectbox(
             "IV floor",
             iv_floor_options,
             (
-                iv_floor_options_ints.index(default_iv_floor)
-                if default_iv_floor in iv_floor_options_ints
+                iv_floor_options_ints.index(kwargs_iv_floor)
+                if kwargs_iv_floor in iv_floor_options_ints
                 else 0
             ),
         )
@@ -602,103 +593,103 @@ def app(app="GBL IV Stats", **kwargs):
         # min iv cols
         min_ivs_cols = st.columns(3)
         with min_ivs_cols[0]:
-            default_iv_atk_ge = int(kwargs.get("iv_atk_ge", [iv_floor])[0])
+            kwargs_iv_atk_ge = int(kwargs.get("iv_atk_ge", [DEFAULTS["iv_atk_ge"]])[0])
             iv_atk_ge = st.number_input(
-                "Atk IV >=", min_value=0, max_value=15, value=default_iv_atk_ge
+                "Atk IV >=", min_value=0, max_value=15, value=kwargs_iv_atk_ge
             )
         with min_ivs_cols[1]:
-            default_iv_def_ge = int(kwargs.get("iv_def_ge", [iv_floor])[0])
+            kwargs_iv_def_ge = int(kwargs.get("iv_def_ge", [DEFAULTS["iv_def_ge"]])[0])
             iv_def_ge = st.number_input(
-                "Def IV >=", min_value=0, max_value=15, value=default_iv_def_ge
+                "Def IV >=", min_value=0, max_value=15, value=kwargs_iv_def_ge
             )
         with min_ivs_cols[2]:
-            default_iv_hp_ge = int(kwargs.get("iv_hp_ge", [iv_floor])[0])
+            kwargs_iv_hp_ge = int(kwargs.get("iv_hp_ge", [DEFAULTS["iv_hp_ge"]])[0])
             iv_hp_ge = st.number_input(
-                "HP IV >=", min_value=0, max_value=15, value=default_iv_hp_ge
+                "HP IV >=", min_value=0, max_value=15, value=kwargs_iv_hp_ge
             )
 
         # min stats cols
         min_stats_cols = st.columns(3)
         with min_stats_cols[0]:
-            default_stats_atk_ge = float(kwargs.get("stats_atk_ge", [0.0])[0])
+            kwargs_stats_atk_ge = float(kwargs.get("stats_atk_ge", [DEFAULTS["stats_atk_ge"]])[0])
             stats_atk_ge = st.number_input(
-                "Atk Stat >=", min_value=0.0, max_value=9001.0, value=default_stats_atk_ge
+                "Atk Stat >=", min_value=0.0, max_value=9001.0, value=kwargs_stats_atk_ge
             )
         with min_stats_cols[1]:
-            default_stats_def_ge = float(kwargs.get("stats_def_ge", [0.0])[0])
+            kwargs_stats_def_ge = float(kwargs.get("stats_def_ge", [DEFAULTS["stats_def_ge"]])[0])
             stats_def_ge = st.number_input(
-                "Def Stat >=", min_value=0.0, max_value=9001.0, value=default_stats_def_ge
+                "Def Stat >=", min_value=0.0, max_value=9001.0, value=kwargs_stats_def_ge
             )
         with min_stats_cols[2]:
-            default_stats_hp_ge = int(kwargs.get("stats_hp_ge", [0])[0])
+            kwargs_stats_hp_ge = int(kwargs.get("stats_hp_ge", [DEFAULTS["stats_hp_ge"]])[0])
             stats_hp_ge = st.number_input(
-                "HP Stat >=", min_value=0, max_value=9001, value=default_stats_hp_ge
+                "HP Stat >=", min_value=0, max_value=9001, value=kwargs_stats_hp_ge
             )
 
         filter_level_cp = st.columns(3)
         with filter_level_cp[0]:
-            default_cp_ge = int(kwargs.get("min_cp", [0])[0])
+            kwargs_cp_ge = int(kwargs.get("min_cp", [DEFAULTS["min_cp"]])[0])
             min_cp = st.number_input(
-                "CP >=", min_value=0, max_value=9999, value=default_cp_ge
+                "CP >=", min_value=0, max_value=9999, value=kwargs_cp_ge
             )
         with filter_level_cp[1]:
-            default_level_ge = int(kwargs.get("level_ge", [0])[0])
+            kwargs_level_ge = int(kwargs.get("level_ge", [DEFAULTS["level_ge"]])[0])
             level_ge = st.number_input(
-                "Level >=", min_value=0, max_value=50, value=default_level_ge
+                "Level >=", min_value=0, max_value=50, value=kwargs_level_ge
             )
         with filter_level_cp[2]:
-            default_level_le = int(kwargs.get("level_le", [51])[0])
+            kwargs_level_le = int(kwargs.get("level_le", [DEFAULTS["level_le"]])[0])
             level_le = st.number_input(
-                "Level <=", min_value=0, max_value=51, value=default_level_le
+                "Level <=", min_value=0, max_value=51, value=kwargs_level_le
             )
         # cmp filter
         cmp_filter_options = ["Win", "Tie", "Lose"]
-        default_cmp_filter = kwargs.get("cmp_filter", cmp_filter_options)
+        kwargs_cmp_filter = kwargs.get("cmp_filter", list(DEFAULTS["cmp_filter"]))
         cmp_filter = st.multiselect(
             "Charged Move Priority vs Rank1 Filter",
             cmp_filter_options,
-            [o for o in default_cmp_filter if o in cmp_filter_options],
+            [o for o in kwargs_cmp_filter if o in cmp_filter_options],
         )
         cmp_filter_values = [f[0] for f in cmp_filter]
         st.markdown("---")
 
         # ~~~ COLUMN OPTIONS ~~~
         st.markdown("Column Options")
-        default_show_cmp = kwargs.get("show_cmp", ["True"])[0] == "True"
-        show_cmp = st.checkbox("Show CMP vs Rank 1 column", default_show_cmp)
-        default_show_prod_cols = kwargs.get("show_prod_cols", ["False"])[0] == "True"
-        show_prod_cols = st.checkbox("Show stats/bulk columns", default_show_prod_cols)
+        kwargs_show_cmp = kwargs.get("show_cmp", [DEFAULTS["show_cmp"]])[0] == True
+        show_cmp = st.checkbox("Show CMP vs Rank 1 column", kwargs_show_cmp)
+        kwargs_show_prod_cols = kwargs.get("show_prod_cols", [DEFAULTS["show_prod_cols"]])[0] == True
+        show_prod_cols = st.checkbox("Show stats/bulk columns", kwargs_show_prod_cols)
 
-        default_show_individual_ivs = (
-            kwargs.get("show_individual_ivs", ["False"])[0] == "True"
+        kwargs_show_individual_ivs = (
+            kwargs.get("show_individual_ivs", [DEFAULTS["show_individual_ivs"]])[0] == True
         )
         show_individual_ivs = st.checkbox(
-            "Show individual IV columns", default_show_individual_ivs
+            "Show individual IV columns", kwargs_show_individual_ivs
         )
         st.markdown("---")
 
         # ~~~ OUTPUT OPTIONS ~~~
         st.markdown("Output Options")
-        default_show_search_filter_details = (
-            kwargs.get("show_search_filter_details", ["False"])[0] == "True"
+        kwargs_show_search_filter_details = (
+            kwargs.get("show_search_filter_details", [DEFAULTS["show_search_filter_details"]])[0] == True
         )
         show_search_filter_details = st.checkbox(
             "Show search and filter result details",
-            default_show_search_filter_details,
+            kwargs_show_search_filter_details,
         )
-        default_use_row_selections = (
-            kwargs.get("use_row_selections", ["False"])[0] == "True"
+        kwargs_use_row_selections = (
+            kwargs.get("use_row_selections", [DEFAULTS["use_row_selections"]])[0] == True
         )
         use_row_selections = st.checkbox(
             "Use row selections for config outputs",
-            default_use_row_selections,
+            kwargs_use_row_selections,
         )
-        default_limit_output_rows = int(kwargs.get("limit_output_rows", [0])[0])
+        kwargs_limit_output_rows = int(kwargs.get("limit_output_rows", [DEFAULTS["limit_output_rows"]])[0])
         limit_output_rows = st.number_input(
             "Limit rows of final outputs (0 = no limit)",
             min_value=0,
             max_value=9999,
-            value=default_limit_output_rows,
+            value=kwargs_limit_output_rows,
         )
 
     ############################################################################
@@ -773,7 +764,7 @@ def app(app="GBL IV Stats", **kwargs):
                 )
 
                 # mask inputs
-                mask_inputs = (df["Input"] == "True") & (
+                mask_inputs = (df["Input"] == True) & (
                     mask_filter if filter_inputs else mask_t
                 )
                 mask_inputs_with_filter = mask_inputs & (
@@ -957,7 +948,7 @@ def app(app="GBL IV Stats", **kwargs):
             "use_row_selections",
             "limit_output_rows",
         ]
-        url = get_query_params_url(params_list, {**kwargs, **locals()})
+        url = get_query_params_url(params_list, {**kwargs, **locals()}, DEFAULTS)
         st.markdown("---")
         st.markdown(f"[Share this app's output]({url})")
         st.markdown("---")
