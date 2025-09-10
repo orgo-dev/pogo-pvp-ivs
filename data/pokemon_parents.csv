@@ -1144,9 +1144,12 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 317,swalot,Swalot,317,swalot,Swalot,True
 318,carvanha,Carvanha,318,carvanha,Carvanha,True
 318,carvanha,Carvanha,319,sharpedo,Sharpedo,False
+318,carvanha,Carvanha,319,sharpedo_mega,Sharpedo (Mega),False
 318,carvanha_shadow,Carvanha (Shadow),318,carvanha_shadow,Carvanha (Shadow),True
 318,carvanha_shadow,Carvanha (Shadow),319,sharpedo_shadow,Sharpedo (Shadow),False
 319,sharpedo,Sharpedo,319,sharpedo,Sharpedo,True
+319,sharpedo,Sharpedo,319,sharpedo_mega,Sharpedo (Mega),False
+319,sharpedo_mega,Sharpedo (Mega),319,sharpedo_mega,Sharpedo (Mega),True
 319,sharpedo_shadow,Sharpedo (Shadow),319,sharpedo_shadow,Sharpedo (Shadow),True
 320,wailmer,Wailmer,320,wailmer,Wailmer,True
 320,wailmer,Wailmer,321,wailord,Wailord,False
@@ -1156,9 +1159,12 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 321,wailord_shadow,Wailord (Shadow),321,wailord_shadow,Wailord (Shadow),True
 322,numel,Numel,322,numel,Numel,True
 322,numel,Numel,323,camerupt,Camerupt,False
+322,numel,Numel,323,camerupt_mega,Camerupt (Mega),False
 322,numel_shadow,Numel (Shadow),322,numel_shadow,Numel (Shadow),True
 322,numel_shadow,Numel (Shadow),323,camerupt_shadow,Camerupt (Shadow),False
 323,camerupt,Camerupt,323,camerupt,Camerupt,True
+323,camerupt,Camerupt,323,camerupt_mega,Camerupt (Mega),False
+323,camerupt_mega,Camerupt (Mega),323,camerupt_mega,Camerupt (Mega),True
 323,camerupt_shadow,Camerupt (Shadow),323,camerupt_shadow,Camerupt (Shadow),True
 324,torkoal,Torkoal,324,torkoal,Torkoal,True
 325,spoink,Spoink,325,spoink,Spoink,True
@@ -1306,14 +1312,18 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 374,beldum,Beldum,374,beldum,Beldum,True
 374,beldum,Beldum,375,metang,Metang,False
 374,beldum,Beldum,376,metagross,Metagross,False
+374,beldum,Beldum,376,metagross_mega,Metagross (Mega),False
 374,beldum_shadow,Beldum (Shadow),374,beldum_shadow,Beldum (Shadow),True
 374,beldum_shadow,Beldum (Shadow),375,metang_shadow,Metang (Shadow),False
 374,beldum_shadow,Beldum (Shadow),376,metagross_shadow,Metagross (Shadow),False
 375,metang,Metang,375,metang,Metang,True
 375,metang,Metang,376,metagross,Metagross,False
+375,metang,Metang,376,metagross_mega,Metagross (Mega),False
 375,metang_shadow,Metang (Shadow),375,metang_shadow,Metang (Shadow),True
 375,metang_shadow,Metang (Shadow),376,metagross_shadow,Metagross (Shadow),False
 376,metagross,Metagross,376,metagross,Metagross,True
+376,metagross,Metagross,376,metagross_mega,Metagross (Mega),False
+376,metagross_mega,Metagross (Mega),376,metagross_mega,Metagross (Mega),True
 376,metagross_shadow,Metagross (Shadow),376,metagross_shadow,Metagross (Shadow),True
 377,regirock,Regirock,377,regirock,Regirock,True
 377,regirock_shadow,Regirock (Shadow),377,regirock_shadow,Regirock (Shadow),True

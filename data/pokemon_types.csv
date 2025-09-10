@@ -1267,6 +1267,8 @@ Carvanha (Shadow),water
 Carvanha (Shadow),dark
 Sharpedo,water
 Sharpedo,dark
+Sharpedo (Mega),water
+Sharpedo (Mega),dark
 Sharpedo (Shadow),water
 Sharpedo (Shadow),dark
 Wailmer,water
@@ -1283,6 +1285,8 @@ Numel (Shadow),fire
 Numel (Shadow),ground
 Camerupt,fire
 Camerupt,ground
+Camerupt (Mega),fire
+Camerupt (Mega),ground
 Camerupt (Shadow),fire
 Camerupt (Shadow),ground
 Torkoal,fire
@@ -1469,6 +1473,8 @@ Metang (Shadow),steel
 Metang (Shadow),psychic
 Metagross,steel
 Metagross,psychic
+Metagross (Mega),steel
+Metagross (Mega),psychic
 Metagross (Shadow),steel
 Metagross (Shadow),psychic
 Regirock,rock
