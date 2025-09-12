@@ -930,7 +930,7 @@
         "nicknames": [
             "zard"
         ],
-        "searchPriority": 6
+        "searchPriority": 8
     },
     {
         "dex": 7,
@@ -71861,7 +71861,8 @@
             "PETAL_BLIZZARD",
             "PSYCHIC",
             "DISARMING_VOICE",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "CHILLING_WATER"
         ],
         "defaultIVs": {
             "cp500": [
@@ -71890,7 +71891,10 @@
         "family": {
             "id": "FAMILY_FLABEBE",
             "parent": "floette"
-        }
+        },
+        "eliteMoves": [
+            "CHILLING_WATER"
+        ]
     },
     {
         "dex": 672,
@@ -76928,7 +76932,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "searchPriority": 8,
+        "searchPriority": 7,
         "released": true,
         "family": {
             "id": "FAMILY_GRUBBIN",
@@ -76990,7 +76994,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "searchPriority": 8,
+        "searchPriority": 7,
         "released": true,
         "family": {
             "id": "FAMILY_GRUBBIN",

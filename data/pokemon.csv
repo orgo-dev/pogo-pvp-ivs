@@ -1235,7 +1235,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 668,pyroar,Pyroar,221,149,200,"['fire', 'normal']","['FIRE_FANG', 'TAKE_DOWN', 'INCINERATE', 'EMBER']","['FLAME_CHARGE', 'SOLAR_BEAM', 'DARK_PULSE', 'OVERHEAT']",nan,nan,3,10000,True,FAMILY_LITLEO,nan,litleo,nan
 669,flabebe,Flabebe,108,120,127,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLABEBE,['floette'],,nan
 670,floette,Floette,136,151,144,"['fairy', 'none']","['VINE_WHIP', 'TACKLE']","['DAZZLING_GLEAM', 'PETAL_BLIZZARD', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLABEBE,['florges'],flabebe,nan
-671,florges,Florges,212,244,186,"['fairy', 'none']","['VINE_WHIP', 'TACKLE', 'RAZOR_LEAF', 'FAIRY_WIND']","['MOONBLAST', 'PETAL_BLIZZARD', 'PSYCHIC', 'DISARMING_VOICE', 'TRAILBLAZE']",nan,nan,3,50000,True,FAMILY_FLABEBE,nan,floette,nan
+671,florges,Florges,212,244,186,"['fairy', 'none']","['VINE_WHIP', 'TACKLE', 'RAZOR_LEAF', 'FAIRY_WIND']","['MOONBLAST', 'PETAL_BLIZZARD', 'PSYCHIC', 'DISARMING_VOICE', 'TRAILBLAZE', 'CHILLING_WATER']",['CHILLING_WATER'],nan,3,50000,True,FAMILY_FLABEBE,nan,floette,nan
 672,skiddo,Skiddo,123,102,165,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH']","['BRICK_BREAK', 'SEED_BOMB']",nan,nan,3,50000,True,FAMILY_SKIDDO,['gogoat'],,nan
 673,gogoat,Gogoat,196,146,265,"['grass', 'none']","['ZEN_HEADBUTT', 'ROCK_SMASH', 'VINE_WHIP']","['BRICK_BREAK', 'LEAF_BLADE', 'SEED_BOMB']",nan,nan,3,50000,True,FAMILY_SKIDDO,nan,skiddo,nan
 674,pancham,Pancham,145,107,167,"['fighting', 'none']","['LOW_KICK', 'TACKLE']","['LOW_SWEEP', 'CRUNCH', 'BODY_SLAM']",nan,nan,3,50000,True,FAMILY_PANCHAM,['pangoro'],,nan

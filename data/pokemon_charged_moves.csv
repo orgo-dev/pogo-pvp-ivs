@@ -2007,6 +2007,7 @@ Floette,Psychic,charged,psychic,1.0,75,55,1.36,10.0% chance -1 Def opponent,High
 Floragato,Energy Ball,charged,grass,1.2,90,55,1.64,10.0% chance -1 Def opponent,High Energy,
 Floragato,Grass Knot,charged,grass,1.2,90,50,1.8,,General,
 Floragato,Play Rough,charged,fairy,1.0,90,60,1.5,,High Energy,
+Florges,Chilling Water,charged,water,1.0,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Florges,Disarming Voice,charged,fairy,1.2,70,45,1.56,,General,
 Florges,Moonblast,charged,fairy,1.2,110,60,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,
 Florges,Petal Blizzard,charged,grass,1.0,110,65,1.69,,Nuke,

@@ -3191,6 +3191,7 @@ Florges,Fairy Wind,fast,fairy,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Florges,Razor Leaf,fast,grass,1.0,9,4,2,4.5,2.0,,,,Heavy Damage,
 Florges,Tackle,fast,normal,1.0,3,3,1,3.0,3.0,,,,General,
 Florges,Vine Whip,fast,grass,1.0,5,8,2,2.5,4.0,,,,Fast Charge,
+Florges,Chilling Water,charged,water,1.0,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,elite
 Florges,Disarming Voice,charged,fairy,1.2,70,0,1,,,45.0,1.56,,General,
 Florges,Moonblast,charged,fairy,1.2,110,0,1,,,60.0,1.83,10.0% chance -1 Atk opponent,Debuff Nuke,
 Florges,Petal Blizzard,charged,grass,1.0,110,0,1,,,65.0,1.69,,Nuke,
