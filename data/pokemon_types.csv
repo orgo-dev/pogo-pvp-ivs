@@ -889,6 +889,8 @@ Qwilfish,water
 Qwilfish,poison
 Qwilfish (Hisuian),dark
 Qwilfish (Hisuian),poison
+Qwilfish (Shadow),water
+Qwilfish (Shadow),poison
 Scizor,bug
 Scizor,steel
 Scizor (Mega),bug
@@ -1323,10 +1325,14 @@ Cacturne (Shadow),grass
 Cacturne (Shadow),dark
 Swablu,normal
 Swablu,flying
+Swablu (Shadow),normal
+Swablu (Shadow),flying
 Altaria,dragon
 Altaria,flying
 Altaria (Mega),dragon
 Altaria (Mega),fairy
+Altaria (Shadow),dragon
+Altaria (Shadow),flying
 Zangoose,normal
 Zangoose,none
 Seviper,poison
@@ -1353,8 +1359,12 @@ Crawdaunt (Shadow),water
 Crawdaunt (Shadow),dark
 Baltoy,ground
 Baltoy,psychic
+Baltoy (Shadow),ground
+Baltoy (Shadow),psychic
 Claydol,ground
 Claydol,psychic
+Claydol (Shadow),ground
+Claydol (Shadow),psychic
 Lileep,rock
 Lileep,grass
 Lileep (Shadow),rock
@@ -2365,10 +2375,16 @@ Durant,bug
 Durant,steel
 Deino,dark
 Deino,dragon
+Deino (Shadow),dark
+Deino (Shadow),dragon
 Zweilous,dark
 Zweilous,dragon
+Zweilous (Shadow),dark
+Zweilous (Shadow),dragon
 Hydreigon,dark
 Hydreigon,dragon
+Hydreigon (Shadow),dark
+Hydreigon (Shadow),dragon
 Larvesta,bug
 Larvesta,fire
 Volcarona,bug
@@ -2383,6 +2399,8 @@ Tornadus (Incarnate),flying
 Tornadus (Incarnate),none
 Tornadus (Therian),flying
 Tornadus (Therian),none
+Tornadus (Incarnate) (Shadow),flying
+Tornadus (Incarnate) (Shadow),none
 Thundurus (Incarnate),electric
 Thundurus (Incarnate),flying
 Thundurus (Therian),electric
@@ -3003,8 +3021,6 @@ Eiscue (Ice),ice
 Eiscue (Ice),none
 Eiscue (Noice),ice
 Eiscue (Noice),none
-Indeedee,psychic
-Indeedee,normal
 Indeedee (Female),psychic
 Indeedee (Female),normal
 Indeedee (Male),psychic

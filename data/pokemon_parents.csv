@@ -805,6 +805,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 211,qwilfish,Qwilfish,211,qwilfish,Qwilfish,True
 211,qwilfish_hisuian,Qwilfish (Hisuian),211,qwilfish_hisuian,Qwilfish (Hisuian),True
 211,qwilfish_hisuian,Qwilfish (Hisuian),904,overqwil,Overqwil,False
+211,qwilfish_shadow,Qwilfish (Shadow),211,qwilfish_shadow,Qwilfish (Shadow),True
 212,scizor,Scizor,212,scizor,Scizor,True
 212,scizor,Scizor,212,scizor_mega,Scizor (Mega),False
 212,scizor_mega,Scizor (Mega),212,scizor_mega,Scizor (Mega),True
@@ -1195,9 +1196,12 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 333,swablu,Swablu,333,swablu,Swablu,True
 333,swablu,Swablu,334,altaria,Altaria,False
 333,swablu,Swablu,334,altaria_mega,Altaria (Mega),False
+333,swablu_shadow,Swablu (Shadow),333,swablu_shadow,Swablu (Shadow),True
+333,swablu_shadow,Swablu (Shadow),334,altaria_shadow,Altaria (Shadow),False
 334,altaria,Altaria,334,altaria,Altaria,True
 334,altaria,Altaria,334,altaria_mega,Altaria (Mega),False
 334,altaria_mega,Altaria (Mega),334,altaria_mega,Altaria (Mega),True
+334,altaria_shadow,Altaria (Shadow),334,altaria_shadow,Altaria (Shadow),True
 335,zangoose,Zangoose,335,zangoose,Zangoose,True
 336,seviper,Seviper,336,seviper,Seviper,True
 337,lunatone,Lunatone,337,lunatone,Lunatone,True
@@ -1216,7 +1220,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 342,crawdaunt_shadow,Crawdaunt (Shadow),342,crawdaunt_shadow,Crawdaunt (Shadow),True
 343,baltoy,Baltoy,343,baltoy,Baltoy,True
 343,baltoy,Baltoy,344,claydol,Claydol,False
+343,baltoy_shadow,Baltoy (Shadow),343,baltoy_shadow,Baltoy (Shadow),True
+343,baltoy_shadow,Baltoy (Shadow),344,claydol_shadow,Claydol (Shadow),False
 344,claydol,Claydol,344,claydol,Claydol,True
+344,claydol_shadow,Claydol (Shadow),344,claydol_shadow,Claydol (Shadow),True
 345,lileep,Lileep,345,lileep,Lileep,True
 345,lileep,Lileep,346,cradily,Cradily,False
 345,lileep,Lileep,346,cradily_b,Cradily,False
@@ -2016,9 +2023,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 633,deino,Deino,633,deino,Deino,True
 633,deino,Deino,634,zweilous,Zweilous,False
 633,deino,Deino,635,hydreigon,Hydreigon,False
+633,deino_shadow,Deino (Shadow),633,deino_shadow,Deino (Shadow),True
+633,deino_shadow,Deino (Shadow),634,zweilous_shadow,Zweilous (Shadow),False
+633,deino_shadow,Deino (Shadow),635,hydreigon_shadow,Hydreigon (Shadow),False
 634,zweilous,Zweilous,634,zweilous,Zweilous,True
 634,zweilous,Zweilous,635,hydreigon,Hydreigon,False
+634,zweilous_shadow,Zweilous (Shadow),634,zweilous_shadow,Zweilous (Shadow),True
+634,zweilous_shadow,Zweilous (Shadow),635,hydreigon_shadow,Hydreigon (Shadow),False
 635,hydreigon,Hydreigon,635,hydreigon,Hydreigon,True
+635,hydreigon_shadow,Hydreigon (Shadow),635,hydreigon_shadow,Hydreigon (Shadow),True
 636,larvesta,Larvesta,636,larvesta,Larvesta,True
 636,larvesta,Larvesta,637,volcarona,Volcarona,False
 637,volcarona,Volcarona,637,volcarona,Volcarona,True
@@ -2026,6 +2039,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 639,terrakion,Terrakion,639,terrakion,Terrakion,True
 640,virizion,Virizion,640,virizion,Virizion,True
 641,tornadus_incarnate,Tornadus (Incarnate),641,tornadus_incarnate,Tornadus (Incarnate),True
+641,tornadus_incarnate_shadow,Tornadus (Incarnate) (Shadow),641,tornadus_incarnate_shadow,Tornadus (Incarnate) (Shadow),True
 641,tornadus_therian,Tornadus (Therian),641,tornadus_therian,Tornadus (Therian),True
 642,thundurus_incarnate,Thundurus (Incarnate),642,thundurus_incarnate,Thundurus (Incarnate),True
 642,thundurus_therian,Thundurus (Therian),642,thundurus_therian,Thundurus (Therian),True
@@ -2488,7 +2502,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 875,eiscue,Eiscue,875,eiscue,Eiscue,True
 875,eiscue_ice,Eiscue (Ice),875,eiscue_ice,Eiscue (Ice),True
 875,eiscue_noice,Eiscue (Noice),875,eiscue_noice,Eiscue (Noice),True
-876,indeedee,Indeedee,876,indeedee,Indeedee,True
 876,indeedee_female,Indeedee (Female),876,indeedee_female,Indeedee (Female),True
 876,indeedee_male,Indeedee (Male),876,indeedee_male,Indeedee (Male),True
 877,morpeko_full_belly,Morpeko (Full Belly),877,morpeko_full_belly,Morpeko (Full Belly),True
