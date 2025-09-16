@@ -1240,7 +1240,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 348,armaldo_shadow,Armaldo (Shadow),348,armaldo_shadow,Armaldo (Shadow),True
 349,feebas,Feebas,349,feebas,Feebas,True
 349,feebas,Feebas,350,milotic,Milotic,False
+349,feebas_shadow,Feebas (Shadow),349,feebas_shadow,Feebas (Shadow),True
+349,feebas_shadow,Feebas (Shadow),350,milotic_shadow,Milotic (Shadow),False
 350,milotic,Milotic,350,milotic,Milotic,True
+350,milotic_shadow,Milotic (Shadow),350,milotic_shadow,Milotic (Shadow),True
 351,castform,Castform,351,castform,Castform,True
 351,castform_rainy,Castform (Rainy),351,castform_rainy,Castform (Rainy),True
 351,castform_snowy,Castform (Snowy),351,castform_snowy,Castform (Snowy),True

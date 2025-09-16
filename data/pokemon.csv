@@ -691,8 +691,10 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 347,anorith_shadow,Anorith (Shadow),176,100,128,"['rock', 'bug']","['SCRATCH', 'STRUGGLE_BUG']","['ANCIENT_POWER', 'AQUA_JET', 'CROSS_POISON', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_ANORITH,['armaldo_shadow'],,['shadow']
 348,armaldo,Armaldo,222,174,181,"['rock', 'bug']","['FURY_CUTTER', 'STRUGGLE_BUG']","['CROSS_POISON', 'ROCK_BLAST', 'WATER_PULSE', 'LIQUIDATION', 'RETURN']",nan,nan,3,50000,True,FAMILY_ANORITH,nan,anorith,['shadoweligible']
 348,armaldo_shadow,Armaldo (Shadow),222,174,181,"['rock', 'bug']","['FURY_CUTTER', 'STRUGGLE_BUG']","['CROSS_POISON', 'ROCK_BLAST', 'WATER_PULSE', 'LIQUIDATION', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_ANORITH,nan,anorith_shadow,['shadow']
-349,feebas,Feebas,29,85,85,"['water', 'none']","['SPLASH', 'TACKLE']",['MIRROR_COAT'],nan,nan,5,75000,True,FAMILY_FEEBAS,['milotic'],,nan
-350,milotic,Milotic,192,219,216,"['water', 'none']","['DRAGON_TAIL', 'WATERFALL']","['BLIZZARD', 'HYPER_BEAM', 'SURF', 'WRAP']",nan,nan,5,75000,True,FAMILY_FEEBAS,nan,feebas,nan
+349,feebas,Feebas,29,85,85,"['water', 'none']","['SPLASH', 'TACKLE']","['MIRROR_COAT', 'RETURN']",nan,nan,5,75000,True,FAMILY_FEEBAS,['milotic'],,['shadoweligible']
+349,feebas_shadow,Feebas (Shadow),29,85,85,"['water', 'none']","['SPLASH', 'TACKLE']","['MIRROR_COAT', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_FEEBAS,['milotic_shadow'],,['shadow']
+350,milotic,Milotic,192,219,216,"['water', 'none']","['DRAGON_TAIL', 'WATERFALL']","['BLIZZARD', 'HYPER_BEAM', 'SURF', 'WRAP', 'RETURN']",nan,nan,5,75000,True,FAMILY_FEEBAS,nan,feebas,['shadoweligible']
+350,milotic_shadow,Milotic (Shadow),192,219,216,"['water', 'none']","['DRAGON_TAIL', 'WATERFALL']","['BLIZZARD', 'HYPER_BEAM', 'SURF', 'WRAP', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_FEEBAS,nan,feebas_shadow,['shadow']
 351,castform,Castform,139,139,172,"['normal', 'none']","['HEX', 'TACKLE']","['ENERGY_BALL', 'HURRICANE', 'WEATHER_BALL_ROCK', 'WEATHER_BALL_NORMAL']",nan,nan,5,75000,True,,nan,,nan
 351,castform_rainy,Castform (Rainy),139,139,172,"['water', 'none']","['TACKLE', 'WATER_GUN']","['HYDRO_PUMP', 'THUNDER', 'WEATHER_BALL_WATER']",nan,nan,5,75000,True,,nan,,nan
 351,castform_snowy,Castform (Snowy),139,139,172,"['ice', 'none']","['POWDER_SNOW', 'TACKLE']","['BLIZZARD', 'ICE_BEAM', 'WEATHER_BALL_ICE']",nan,nan,5,75000,True,,nan,,nan
@@ -1198,8 +1200,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 639,terrakion,Terrakion,260,192,209,"['rock', 'fighting']","['SMACK_DOWN', 'ZEN_HEADBUTT', 'DOUBLE_KICK']","['CLOSE_COMBAT', 'EARTHQUAKE', 'ROCK_SLIDE', 'SACRED_SWORD']",['SACRED_SWORD'],nan,20,100000,True,,nan,,['legendary']
 640,virizion,Virizion,192,229,209,"['grass', 'fighting']","['QUICK_ATTACK', 'ZEN_HEADBUTT', 'DOUBLE_KICK']","['CLOSE_COMBAT', 'LEAF_BLADE', 'STONE_EDGE', 'SACRED_SWORD']",['SACRED_SWORD'],nan,20,100000,True,,nan,,['legendary']
 641,tornadus_incarnate,Tornadus (Incarnate),266,164,188,"['flying', 'none']","['BITE', 'AIR_SLASH']","['GRASS_KNOT', 'DARK_PULSE', 'HYPER_BEAM', 'HURRICANE', 'RETURN']",nan,nan,20,100000,True,,nan,,"['legendary', 'shadoweligible']"
-641,tornadus_therian,Tornadus (Therian),238,189,188,"['flying', 'none']","['ASTONISH', 'GUST']","['HEAT_WAVE', 'PSYCHIC', 'FOCUS_BLAST', 'HURRICANE', 'BLEAKWIND_STORM']",['BLEAKWIND_STORM'],nan,20,100000,True,,nan,,['legendary']
 641,tornadus_incarnate_shadow,Tornadus (Incarnate) (Shadow),266,164,188,"['flying', 'none']","['BITE', 'AIR_SLASH']","['GRASS_KNOT', 'DARK_PULSE', 'HYPER_BEAM', 'HURRICANE', 'FRUSTRATION']",nan,nan,20,100000,True,,nan,,"['legendary', 'shadow']"
+641,tornadus_therian,Tornadus (Therian),238,189,188,"['flying', 'none']","['ASTONISH', 'GUST']","['HEAT_WAVE', 'PSYCHIC', 'FOCUS_BLAST', 'HURRICANE', 'BLEAKWIND_STORM']",['BLEAKWIND_STORM'],nan,20,100000,True,,nan,,['legendary']
 642,thundurus_incarnate,Thundurus (Incarnate),266,164,188,"['electric', 'flying']","['ASTONISH', 'THUNDER_SHOCK']","['CRUNCH', 'THUNDER', 'BRICK_BREAK', 'THUNDER_PUNCH']",nan,nan,20,100000,True,,nan,,['legendary']
 642,thundurus_therian,Thundurus (Therian),295,161,188,"['electric', 'flying']","['BITE', 'VOLT_SWITCH']","['SLUDGE_WAVE', 'THUNDER', 'FOCUS_BLAST', 'THUNDERBOLT', 'WILDBOLT_STORM']",['WILDBOLT_STORM'],nan,20,100000,True,,nan,,['legendary']
 643,reshiram,Reshiram,275,211,205,"['dragon', 'fire']","['DRAGON_BREATH', 'FIRE_FANG']","['CRUNCH', 'OVERHEAT', 'DRACO_METEOR', 'STONE_EDGE', 'FUSION_FLARE']",['FUSION_FLARE'],nan,20,100000,True,,nan,,['legendary']

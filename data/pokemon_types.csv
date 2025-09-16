@@ -1385,8 +1385,12 @@ Armaldo (Shadow),rock
 Armaldo (Shadow),bug
 Feebas,water
 Feebas,none
+Feebas (Shadow),water
+Feebas (Shadow),none
 Milotic,water
 Milotic,none
+Milotic (Shadow),water
+Milotic (Shadow),none
 Castform,normal
 Castform,none
 Castform (Rainy),water
@@ -2397,10 +2401,10 @@ Virizion,grass
 Virizion,fighting
 Tornadus (Incarnate),flying
 Tornadus (Incarnate),none
-Tornadus (Therian),flying
-Tornadus (Therian),none
 Tornadus (Incarnate) (Shadow),flying
 Tornadus (Incarnate) (Shadow),none
+Tornadus (Therian),flying
+Tornadus (Therian),none
 Thundurus (Incarnate),electric
 Thundurus (Incarnate),flying
 Thundurus (Therian),electric

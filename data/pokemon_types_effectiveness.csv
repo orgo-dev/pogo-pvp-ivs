@@ -12437,6 +12437,24 @@ Feebas,ice,0.625
 Feebas,dragon,1.0
 Feebas,dark,1.0
 Feebas,fairy,1.0
+Feebas (Shadow),normal,1.0
+Feebas (Shadow),fighting,1.0
+Feebas (Shadow),flying,1.0
+Feebas (Shadow),poison,1.0
+Feebas (Shadow),ground,1.0
+Feebas (Shadow),rock,1.0
+Feebas (Shadow),bug,1.0
+Feebas (Shadow),ghost,1.0
+Feebas (Shadow),steel,0.625
+Feebas (Shadow),fire,0.625
+Feebas (Shadow),water,0.625
+Feebas (Shadow),grass,1.6
+Feebas (Shadow),electric,1.6
+Feebas (Shadow),psychic,1.0
+Feebas (Shadow),ice,0.625
+Feebas (Shadow),dragon,1.0
+Feebas (Shadow),dark,1.0
+Feebas (Shadow),fairy,1.0
 Milotic,normal,1.0
 Milotic,fighting,1.0
 Milotic,flying,1.0
@@ -12455,6 +12473,24 @@ Milotic,ice,0.625
 Milotic,dragon,1.0
 Milotic,dark,1.0
 Milotic,fairy,1.0
+Milotic (Shadow),normal,1.0
+Milotic (Shadow),fighting,1.0
+Milotic (Shadow),flying,1.0
+Milotic (Shadow),poison,1.0
+Milotic (Shadow),ground,1.0
+Milotic (Shadow),rock,1.0
+Milotic (Shadow),bug,1.0
+Milotic (Shadow),ghost,1.0
+Milotic (Shadow),steel,0.625
+Milotic (Shadow),fire,0.625
+Milotic (Shadow),water,0.625
+Milotic (Shadow),grass,1.6
+Milotic (Shadow),electric,1.6
+Milotic (Shadow),psychic,1.0
+Milotic (Shadow),ice,0.625
+Milotic (Shadow),dragon,1.0
+Milotic (Shadow),dark,1.0
+Milotic (Shadow),fairy,1.0
 Castform,normal,1.0
 Castform,fighting,1.6
 Castform,flying,1.0
@@ -21545,24 +21581,6 @@ Tornadus (Incarnate),ice,1.6
 Tornadus (Incarnate),dragon,1.0
 Tornadus (Incarnate),dark,1.0
 Tornadus (Incarnate),fairy,1.0
-Tornadus (Therian),normal,1.0
-Tornadus (Therian),fighting,0.625
-Tornadus (Therian),flying,1.0
-Tornadus (Therian),poison,1.0
-Tornadus (Therian),ground,0.391
-Tornadus (Therian),rock,1.6
-Tornadus (Therian),bug,1.0
-Tornadus (Therian),ghost,1.0
-Tornadus (Therian),steel,1.0
-Tornadus (Therian),fire,1.0
-Tornadus (Therian),water,1.0
-Tornadus (Therian),grass,0.625
-Tornadus (Therian),electric,1.6
-Tornadus (Therian),psychic,1.0
-Tornadus (Therian),ice,1.6
-Tornadus (Therian),dragon,1.0
-Tornadus (Therian),dark,1.0
-Tornadus (Therian),fairy,1.0
 Tornadus (Incarnate) (Shadow),normal,1.0
 Tornadus (Incarnate) (Shadow),fighting,0.625
 Tornadus (Incarnate) (Shadow),flying,1.0
@@ -21581,6 +21599,24 @@ Tornadus (Incarnate) (Shadow),ice,1.6
 Tornadus (Incarnate) (Shadow),dragon,1.0
 Tornadus (Incarnate) (Shadow),dark,1.0
 Tornadus (Incarnate) (Shadow),fairy,1.0
+Tornadus (Therian),normal,1.0
+Tornadus (Therian),fighting,0.625
+Tornadus (Therian),flying,1.0
+Tornadus (Therian),poison,1.0
+Tornadus (Therian),ground,0.391
+Tornadus (Therian),rock,1.6
+Tornadus (Therian),bug,1.0
+Tornadus (Therian),ghost,1.0
+Tornadus (Therian),steel,1.0
+Tornadus (Therian),fire,1.0
+Tornadus (Therian),water,1.0
+Tornadus (Therian),grass,0.625
+Tornadus (Therian),electric,1.6
+Tornadus (Therian),psychic,1.0
+Tornadus (Therian),ice,1.6
+Tornadus (Therian),dragon,1.0
+Tornadus (Therian),dark,1.0
+Tornadus (Therian),fairy,1.0
 Thundurus (Incarnate),normal,1.0
 Thundurus (Incarnate),fighting,0.625
 Thundurus (Incarnate),flying,0.625
