@@ -411,7 +411,7 @@
             0
         ],
         "buffTarget": "opponent",
-        "buffApplyChance": 1,
+        "buffApplyChance": "1",
         "archetype": "Debuff",
         "turns": 1
     },
@@ -3175,7 +3175,7 @@
             0
         ],
         "buffTarget": "opponent",
-        "buffApplyChance": 0.1,
+        "buffApplyChance": "0.1",
         "archetype": "Debuff",
         "turns": 1
     },
