@@ -930,7 +930,7 @@
         "nicknames": [
             "zard"
         ],
-        "searchPriority": 8
+        "searchPriority": 6
     },
     {
         "dex": 7,
@@ -18204,7 +18204,7 @@
             "DRAGON_PULSE",
             "AQUA_TAIL"
         ],
-        "searchPriority": 9,
+        "searchPriority": 6,
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -49155,7 +49155,7 @@
         "tags": [
             "regional"
         ],
-        "searchPriority": 7,
+        "searchPriority": 9,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
