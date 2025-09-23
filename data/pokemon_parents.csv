@@ -754,7 +754,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 194,wooper,Wooper,195,quagsire,Quagsire,False
 194,wooper_paldean,Wooper (Paldean),194,wooper_paldean,Wooper (Paldean),True
 194,wooper_paldean,Wooper (Paldean),980,clodsire,Clodsire,False
-194,wooper_paldean,Wooper (Paldean),980,clodsiresb,Clodsire,False
 194,wooper_shadow,Wooper (Shadow),194,wooper_shadow,Wooper (Shadow),True
 194,wooper_shadow,Wooper (Shadow),195,quagsire_shadow,Quagsire (Shadow),False
 195,quagsire,Quagsire,195,quagsire,Quagsire,True
@@ -2687,7 +2686,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 979,annihilape,Annihilape,979,annihilape,Annihilape,True
 979,annihilape_shadow,Annihilape (Shadow),979,annihilape_shadow,Annihilape (Shadow),True
 980,clodsire,Clodsire,980,clodsire,Clodsire,True
-980,clodsiresb,Clodsire,980,clodsiresb,Clodsire,True
 981,farigiraf,Farigiraf,981,farigiraf,Farigiraf,True
 982,dudunsparce,Dudunsparce,982,dudunsparce,Dudunsparce,True
 982,dudunsparce_three,Dudunsparce_three,982,dudunsparce_three,Dudunsparce_three,True
