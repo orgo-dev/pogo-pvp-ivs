@@ -26079,7 +26079,13 @@
         "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "family": {
+            "id": "FAMILY_DUNSPARCE",
+            "evolutions": [
+                "dudunsparce"
+            ]
+        }
     },
     {
         "dex": 207,
@@ -54451,7 +54457,8 @@
         "family": {
             "id": "FAMILY_DUSKULL",
             "parent": "dusclops_shadow"
-        }
+        },
+        "searchPriority": 5
     },
     {
         "dex": 478,
@@ -82481,7 +82488,7 @@
             "dm",
             "dusk mane"
         ],
-        "searchPriority": 5,
+        "searchPriority": 4,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -93637,109 +93644,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_DUNSPARCE",
-            "parent": "dunsparce"
-        }
-    },
-    {
-        "dex": 982,
-        "speciesName": "Dudunsparce_three",
-        "speciesId": "dudunsparce_three",
-        "baseStats": {
-            "atk": 188,
-            "def": 150,
-            "hp": 268
-        },
-        "types": [
-            "normal",
-            "none"
-        ],
-        "fastMoves": [
-            "BITE",
-            "ASTONISH",
-            "ROLLOUT"
-        ],
-        "chargedMoves": [
-            "DIG",
-            "ROCK_SLIDE",
-            "DRILL_RUN"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                7,
-                4,
-                14,
-                10
-            ],
-            "cp1500": [
-                20.5,
-                4,
-                13,
-                12
-            ],
-            "cp2500": [
-                38,
-                4,
-                15,
-                11
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_DUNSPARCE",
-            "parent": "dunsparce"
-        }
-    },
-    {
-        "dex": 982,
-        "speciesName": "Dudunsparce_two",
-        "speciesId": "dudunsparce_two",
-        "baseStats": {
-            "atk": 188,
-            "def": 150,
-            "hp": 268
-        },
-        "types": [
-            "normal",
-            "none"
-        ],
-        "fastMoves": [
-            "BITE",
-            "ASTONISH",
-            "ROLLOUT"
-        ],
-        "chargedMoves": [
-            "DIG",
-            "ROCK_SLIDE",
-            "DRILL_RUN"
-        ],
-        "defaultIVs": {
-            "cp500": [
-                7,
-                4,
-                14,
-                10
-            ],
-            "cp1500": [
-                20.5,
-                4,
-                13,
-                12
-            ],
-            "cp2500": [
-                38,
-                4,
-                15,
-                11
-            ]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_DUNSPARCE",
             "parent": "dunsparce"

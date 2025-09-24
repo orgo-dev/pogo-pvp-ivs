@@ -785,8 +785,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 205,forretress_shadow,Forretress (Shadow),205,forretress_shadow,Forretress (Shadow),True
 206,dunsparce,Dunsparce,206,dunsparce,Dunsparce,True
 206,dunsparce,Dunsparce,982,dudunsparce,Dudunsparce,False
-206,dunsparce,Dunsparce,982,dudunsparce_three,Dudunsparce_three,False
-206,dunsparce,Dunsparce,982,dudunsparce_two,Dudunsparce_two,False
 207,gligar,Gligar,207,gligar,Gligar,True
 207,gligar,Gligar,472,gliscor,Gliscor,False
 207,gligar_shadow,Gligar (Shadow),207,gligar_shadow,Gligar (Shadow),True
@@ -2688,8 +2686,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 980,clodsire,Clodsire,980,clodsire,Clodsire,True
 981,farigiraf,Farigiraf,981,farigiraf,Farigiraf,True
 982,dudunsparce,Dudunsparce,982,dudunsparce,Dudunsparce,True
-982,dudunsparce_three,Dudunsparce_three,982,dudunsparce_three,Dudunsparce_three,True
-982,dudunsparce_two,Dudunsparce_two,982,dudunsparce_two,Dudunsparce_two,True
 983,kingambit,Kingambit,983,kingambit,Kingambit,True
 984,greattusk,Greattusk,984,greattusk,Greattusk,True
 985,screamtail,Screamtail,985,screamtail,Screamtail,True

@@ -432,7 +432,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 204,pineco_shadow,Pineco (Shadow),108,122,137,"['bug', 'none']","['BUG_BITE', 'TACKLE']","['GYRO_BALL', 'ROCK_TOMB', 'SAND_TOMB', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_PINECO,['forretress_shadow'],,['shadow']
 205,forretress,Forretress,161,205,181,"['bug', 'steel']","['BUG_BITE', 'STRUGGLE_BUG', 'VOLT_SWITCH']","['EARTHQUAKE', 'HEAVY_SLAM', 'ROCK_TOMB', 'SAND_TOMB', 'MIRROR_SHOT', 'RETURN']",nan,nan,5,75000,True,FAMILY_PINECO,nan,pineco,['shadoweligible']
 205,forretress_shadow,Forretress (Shadow),161,205,181,"['bug', 'steel']","['BUG_BITE', 'STRUGGLE_BUG', 'VOLT_SWITCH']","['EARTHQUAKE', 'HEAVY_SLAM', 'ROCK_TOMB', 'SAND_TOMB', 'MIRROR_SHOT', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_PINECO,nan,pineco_shadow,['shadow']
-206,dunsparce,Dunsparce,131,128,225,"['normal', 'none']","['ASTONISH', 'BITE', 'ROLLOUT']","['DIG', 'DRILL_RUN', 'ROCK_SLIDE']",nan,nan,3,50000,True,,nan,,nan
+206,dunsparce,Dunsparce,131,128,225,"['normal', 'none']","['ASTONISH', 'BITE', 'ROLLOUT']","['DIG', 'DRILL_RUN', 'ROCK_SLIDE']",nan,nan,3,50000,True,FAMILY_DUNSPARCE,['dudunsparce'],,nan
 207,gligar,Gligar,143,184,163,"['ground', 'flying']","['FURY_CUTTER', 'WING_ATTACK']","['AERIAL_ACE', 'DIG', 'NIGHT_SLASH', 'RETURN']",nan,nan,5,75000,True,FAMILY_GLIGAR,['gliscor'],,['shadoweligible']
 207,gligar_shadow,Gligar (Shadow),143,184,163,"['ground', 'flying']","['FURY_CUTTER', 'WING_ATTACK']","['AERIAL_ACE', 'DIG', 'NIGHT_SLASH', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_GLIGAR,['gliscor_shadow'],,['shadow']
 208,steelix,Steelix,148,272,181,"['steel', 'ground']","['DRAGON_TAIL', 'IRON_TAIL', 'THUNDER_FANG']","['CRUNCH', 'EARTHQUAKE', 'HEAVY_SLAM', 'PSYCHIC_FANGS', 'BREAKING_SWIPE', 'RETURN']",nan,nan,5,75000,True,FAMILY_ONIX,nan,onix,['shadoweligible']
@@ -1641,9 +1641,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 979,annihilape_shadow,Annihilape (Shadow),220,178,242,"['fighting', 'ghost']","['LOW_KICK', 'COUNTER']","['CLOSE_COMBAT', 'LOW_SWEEP', 'NIGHT_SLASH', 'ICE_PUNCH', 'SHADOW_BALL', 'RAGE_FIST', 'FRUSTRATION']",['RAGE_FIST'],nan,3,50000,True,FAMILY_MANKEY,nan,primeape_shadow,['shadow']
 980,clodsire,Clodsire,127,151,277,"['poison', 'ground']","['POISON_STING', 'MUD_SHOT']","['SLUDGE_BOMB', 'EARTHQUAKE', 'STONE_EDGE', 'ACID_SPRAY', 'WATER_PULSE', 'MEGAHORN']",['MEGAHORN'],nan,3,50000,True,FAMILY_WOOPER_PALDEAN,nan,wooper_paldean,nan
 981,farigiraf,Farigiraf,209,136,260,"['normal', 'psychic']","['TACKLE', 'CONFUSION', 'DOUBLE_KICK']","['PSYCHIC', 'THUNDERBOLT', 'MIRROR_COAT', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_GIRAFARIG,nan,girafarig,nan
-982,dudunsparce,Dudunsparce,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
-982,dudunsparce_three,Dudunsparce_three,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
-982,dudunsparce_two,Dudunsparce_two,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,False,FAMILY_DUNSPARCE,nan,dunsparce,nan
+982,dudunsparce,Dudunsparce,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN']",nan,nan,3,50000,True,FAMILY_DUNSPARCE,nan,dunsparce,nan
 983,kingambit,Kingambit,238,203,225,"['dark', 'steel']","['SNARL', 'METAL_CLAW', 'METAL_SOUND']","['DARK_PULSE', 'IRON_HEAD', 'X_SCISSOR', 'FOCUS_BLAST', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PAWNIARD,nan,bisharp,nan
 984,greattusk,Greattusk,249,209,251,"['ground', 'fighting']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
 985,screamtail,Screamtail,139,234,251,"['fairy', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
