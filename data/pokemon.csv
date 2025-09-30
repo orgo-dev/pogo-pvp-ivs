@@ -1522,7 +1522,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 881,arctozolt,Arctozolt,190,166,207,"['electric', 'ice']","['POWDER_SNOW', 'THUNDER_SHOCK']","['DISCHARGE', 'AVALANCHE', 'ANCIENT_POWER']",nan,nan,5,75000,False,,nan,,nan
 882,dracovish,Dracovish,175,185,207,"['water', 'dragon']","['DRAGON_BREATH', 'WATER_GUN']","['BRINE', 'DRAGON_PULSE', 'ANCIENT_POWER']",nan,nan,5,75000,False,,nan,,nan
 883,arctovish,Arctovish,171,185,207,"['water', 'ice']","['POWDER_SNOW', 'WATER_GUN']","['BRINE', 'AVALANCHE', 'ANCIENT_POWER']",nan,nan,5,75000,False,,nan,,nan
-884,duraludon,Duraludon,239,185,172,"['steel', 'dragon']","['DRAGON_TAIL', 'METAL_CLAW']","['FLASH_CANNON', 'DRAGON_CLAW', 'HYPER_BEAM']",nan,nan,5,75000,False,,nan,,nan
+884,duraludon,Duraludon,239,185,172,"['steel', 'dragon']","['DRAGON_TAIL', 'METAL_CLAW']","['FLASH_CANNON', 'DRAGON_CLAW', 'HYPER_BEAM']",nan,nan,5,75000,True,,nan,,nan
 885,dreepy,Dreepy,117,61,99,"['dragon', 'ghost']","['ASTONISH', 'QUICK_ATTACK']",['STRUGGLE'],nan,nan,5,75000,True,FAMILY_DREEPY,['drakloak'],,nan
 886,drakloak,Drakloak,163,105,169,"['dragon', 'ghost']","['ASTONISH', 'DRAGON_TAIL']","['DRAGON_PULSE', 'SHADOW_BALL', 'OUTRAGE']",nan,nan,5,75000,True,FAMILY_DREEPY,['dragapult'],dreepy,nan
 887,dragapult,Dragapult,266,170,204,"['dragon', 'ghost']","['ASTONISH', 'DRAGON_TAIL']","['DRAGON_PULSE', 'SHADOW_BALL', 'OUTRAGE', 'BREAKING_SWIPE']",nan,nan,5,75000,True,FAMILY_DREEPY,nan,drakloak,nan
