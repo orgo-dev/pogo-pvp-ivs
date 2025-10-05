@@ -2274,12 +2274,15 @@ Mesprit,Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
 Mesprit,Extrasensory,fast,psychic,1.2,8,10,3,2.67,3.33,General,
 Metagross,Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,Multipurpose,
 Metagross,Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,Multipurpose,
+Metagross,Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,Multipurpose,elite
 Metagross,Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,Low Quality,
 Metagross (Mega),Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,Multipurpose,
 Metagross (Mega),Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,Multipurpose,
+Metagross (Mega),Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,Multipurpose,elite
 Metagross (Mega),Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,Low Quality,
 Metagross (Shadow),Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,Multipurpose,
 Metagross (Shadow),Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,Multipurpose,
+Metagross (Shadow),Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,Multipurpose,elite
 Metagross (Shadow),Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,Low Quality,
 Metang,Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,Multipurpose,
 Metang,Metal Claw,fast,steel,1.2,5,7,2,2.5,3.5,General,

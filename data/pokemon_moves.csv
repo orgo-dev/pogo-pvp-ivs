@@ -6155,6 +6155,7 @@ Mesprit,Future Sight,charged,psychic,1.2,110,0,1,,,65.0,1.69,,Nuke,
 Mesprit,Swift,charged,normal,1.0,55,0,1,,,35.0,1.57,,Spam/Bait,
 Metagross,Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,,,,Multipurpose,
 Metagross,Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,,,,Multipurpose,
+Metagross,Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,,,,Multipurpose,elite
 Metagross,Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,,,,Low Quality,
 Metagross,Earthquake,charged,ground,1.0,110,0,1,,,65.0,1.69,,Nuke,
 Metagross,Flash Cannon,charged,steel,1.2,110,0,1,,,70.0,1.57,,Nuke,
@@ -6163,6 +6164,7 @@ Metagross,Psychic,charged,psychic,1.2,75,0,1,,,55.0,1.36,10.0% chance -1 Def opp
 Metagross,Return,charged,normal,1.0,130,0,1,,,70.0,1.86,,Nuke,
 Metagross (Mega),Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,,,,Multipurpose,
 Metagross (Mega),Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,,,,Multipurpose,
+Metagross (Mega),Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,,,,Multipurpose,elite
 Metagross (Mega),Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,,,,Low Quality,
 Metagross (Mega),Earthquake,charged,ground,1.0,110,0,1,,,65.0,1.69,,Nuke,
 Metagross (Mega),Flash Cannon,charged,steel,1.2,110,0,1,,,70.0,1.57,,Nuke,
@@ -6170,6 +6172,7 @@ Metagross (Mega),Meteor Mash,charged,steel,1.2,100,0,1,,,50.0,2.0,,General,elite
 Metagross (Mega),Psychic,charged,psychic,1.2,75,0,1,,,55.0,1.36,10.0% chance -1 Def opponent,High Energy,
 Metagross (Shadow),Bullet Punch,fast,steel,1.2,8,7,2,4.0,3.5,,,,Multipurpose,
 Metagross (Shadow),Fury Cutter,fast,bug,1.0,3,4,1,3.0,4.0,,,,Multipurpose,
+Metagross (Shadow),Shadow Claw,fast,ghost,1.0,6,8,2,3.0,4.0,,,,Multipurpose,elite
 Metagross (Shadow),Zen Headbutt,fast,psychic,1.2,8,6,3,2.67,2.0,,,,Low Quality,
 Metagross (Shadow),Earthquake,charged,ground,1.0,110,0,1,,,65.0,1.69,,Nuke,
 Metagross (Shadow),Flash Cannon,charged,steel,1.2,110,0,1,,,70.0,1.57,,Nuke,
