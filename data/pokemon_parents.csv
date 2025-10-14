@@ -2446,6 +2446,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 840,applin,Applin,840,applin,Applin,True
 840,applin,Applin,841,flapple,Flapple,False
 840,applin,Applin,842,appletun,Appletun,False
+840,applin,Applin,1011,dipplin,Dipplin,False
+840,applin,Applin,1019,hydrapple,Hydrapple,False
 841,flapple,Flapple,841,flapple,Flapple,True
 842,appletun,Appletun,842,appletun,Appletun,True
 843,silicobra,Silicobra,843,silicobra,Silicobra,True
@@ -2514,6 +2516,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 882,dracovish,Dracovish,882,dracovish,Dracovish,True
 883,arctovish,Arctovish,883,arctovish,Arctovish,True
 884,duraludon,Duraludon,884,duraludon,Duraludon,True
+884,duraludon,Duraludon,1018,archaludon,Archaludon,False
 885,dreepy,Dreepy,885,dreepy,Dreepy,True
 885,dreepy,Dreepy,886,drakloak,Drakloak,False
 885,dreepy,Dreepy,887,dragapult,Dragapult,False
@@ -2718,3 +2721,22 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 1007,koraidon_apex,Koraidon_apex,1007,koraidon_apex,Koraidon_apex,True
 1008,miraidon,Miraidon,1008,miraidon,Miraidon,True
 1008,miraidon_ultimate,Miraidon_ultimate,1008,miraidon_ultimate,Miraidon_ultimate,True
+1009,walking_wake,Walking Wake,1009,walking_wake,Walking Wake,True
+1010,iron_leaves,Iron Leaves,1010,iron_leaves,Iron Leaves,True
+1011,dipplin,Dipplin,1011,dipplin,Dipplin,True
+1011,dipplin,Dipplin,1019,hydrapple,Hydrapple,False
+1012,poltchageist,Poltchageist,1012,poltchageist,Poltchageist,True
+1013,sinistcha,Sinistcha,1012,poltchageist,Poltchageist,False
+1013,sinistcha,Sinistcha,1013,sinistcha,Sinistcha,True
+1014,okidogi,Okidogi,1014,okidogi,Okidogi,True
+1015,munkidori,Munkidori,1015,munkidori,Munkidori,True
+1016,fezandipiti,Fezandipiti,1016,fezandipiti,Fezandipiti,True
+1017,ogerpon,Ogerpon,1017,ogerpon,Ogerpon,True
+1018,archaludon,Archaludon,1018,archaludon,Archaludon,True
+1019,hydrapple,Hydrapple,1019,hydrapple,Hydrapple,True
+1020,gouging_fire,Gouging Fire,1020,gouging_fire,Gouging Fire,True
+1021,raging_bolt,Raging Bolt,1021,raging_bolt,Raging Bolt,True
+1022,iron_boulder,Iron Boulder,1022,iron_boulder,Iron Boulder,True
+1023,iron_crown,Iron Crown,1023,iron_crown,Iron Crown,True
+1024,terapagos,Terapagos,1024,terapagos,Terapagos,True
+1025,pecharunt,Pecharunt,1025,pecharunt,Pecharunt,True
