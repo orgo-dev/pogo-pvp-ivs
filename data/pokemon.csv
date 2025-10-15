@@ -1471,7 +1471,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 837,rolycoly,Rolycoly,73,91,102,"['rock', 'none']","['SMACK_DOWN', 'TACKLE']","['ROCK_BLAST', 'ROCK_SLIDE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,['carkol'],,nan
 838,carkol,Carkol,114,157,190,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,['coalossal'],boltund,nan
 839,coalossal,Coalossal,146,198,242,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,nan,rolycoly,nan
-840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5,75000,True,FAMILY_APPLIN,"['flapple', 'appletun']",,nan
+840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5,75000,True,FAMILY_APPLIN,"['flapple', 'appletun', 'dipplin']",,nan
 841,flapple,Flapple,214,144,172,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_BREATH']","['DRAGON_PULSE', 'FLY', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
 842,appletun,Appletun,178,146,242,"['grass', 'dragon']","['BULLET_SEED', 'ASTONISH']","['DRAGON_PULSE', 'ENERGY_BALL', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
 843,silicobra,Silicobra,103,123,141,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3,50000,False,FAMILY_SILICOBRA,['sandaconda'],,nan
@@ -1672,7 +1672,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 1008,miraidon_ultimate,Miraidon_ultimate,263,223,205,"['electric', 'dragon']","['THUNDER_SHOCK', 'DRAGON_TAIL']","['HYPER_BEAM', 'DRAGON_PULSE', 'THUNDER', 'OUTRAGE']",nan,nan,20,100000,False,,nan,,nan
 1009,walking_wake,Walking Wake,233,171,203,"['water', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['legendary']
 1010,iron_leaves,Iron Leaves,236,194,189,"['grass', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['legendary']
-1011,dipplin,Dipplin,173,184,190,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_TAIL', 'ROLLOUT']","['DRAGON_PULSE', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
+1011,dipplin,Dipplin,173,184,190,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_TAIL', 'ROLLOUT']","['DRAGON_PULSE', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,['hydrapple'],applin,nan
 1012,poltchageist,Poltchageist,134,96,120,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,False,FAMILY_SINISTCHA,nan,sinistcha,nan
 1013,sinistcha,Sinistcha,225,191,174,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,False,FAMILY_SINISTCHA,['poltchageist'],,nan
 1014,okidogi,Okidogi,220,191,186,"['poison', 'fighting']","['POISON_JAB', 'FORCE_PALM']","['SUPER_POWER', 'UPPER_HAND', 'SLUDGE_BOMB']",nan,nan,20,100000,False,,nan,,['legendary']
