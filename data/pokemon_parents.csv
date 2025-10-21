@@ -1853,7 +1853,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 562,yamask,Yamask,563,cofagrigus,Cofagrigus,False
 562,yamask_galarian,Yamask (Galarian),562,yamask_galarian,Yamask (Galarian),True
 562,yamask_galarian,Yamask (Galarian),867,runerigus,Runerigus,False
+562,yamask_shadow,Yamask (Shadow),562,yamask_shadow,Yamask (Shadow),True
+562,yamask_shadow,Yamask (Shadow),563,cofagrigus_shadow,Cofagrigus (Shadow),False
 563,cofagrigus,Cofagrigus,563,cofagrigus,Cofagrigus,True
+563,cofagrigus_shadow,Cofagrigus (Shadow),563,cofagrigus_shadow,Cofagrigus (Shadow),True
 564,tirtouga,Tirtouga,564,tirtouga,Tirtouga,True
 564,tirtouga,Tirtouga,565,carracosta,Carracosta,False
 564,tirtouga_shadow,Tirtouga (Shadow),564,tirtouga_shadow,Tirtouga (Shadow),True
@@ -2180,7 +2183,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 707,klefki,Klefki,707,klefki,Klefki,True
 708,phantump,Phantump,708,phantump,Phantump,True
 708,phantump,Phantump,709,trevenant,Trevenant,False
+708,phantump_shadow,Phantump (Shadow),708,phantump_shadow,Phantump (Shadow),True
+708,phantump_shadow,Phantump (Shadow),709,trevenant_shadow,Trevenant (Shadow),False
 709,trevenant,Trevenant,709,trevenant,Trevenant,True
+709,trevenant_shadow,Trevenant (Shadow),709,trevenant_shadow,Trevenant (Shadow),True
 710,pumpkaboo_average,Pumpkaboo (Average),710,pumpkaboo_average,Pumpkaboo (Average),True
 710,pumpkaboo_average,Pumpkaboo (Average),711,gourgeist_average,Gourgeist (Average),False
 710,pumpkaboo_large,Pumpkaboo (Large),710,pumpkaboo_large,Pumpkaboo (Large),True

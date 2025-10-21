@@ -2171,8 +2171,12 @@ Yamask,ghost
 Yamask,none
 Yamask (Galarian),ground
 Yamask (Galarian),ghost
+Yamask (Shadow),ghost
+Yamask (Shadow),none
 Cofagrigus,ghost
 Cofagrigus,none
+Cofagrigus (Shadow),ghost
+Cofagrigus (Shadow),none
 Tirtouga,water
 Tirtouga,rock
 Tirtouga (Shadow),water
@@ -2585,8 +2589,12 @@ Klefki,steel
 Klefki,fairy
 Phantump,ghost
 Phantump,grass
+Phantump (Shadow),ghost
+Phantump (Shadow),grass
 Trevenant,ghost
 Trevenant,grass
+Trevenant (Shadow),ghost
+Trevenant (Shadow),grass
 Pumpkaboo (Average),ghost
 Pumpkaboo (Average),grass
 Pumpkaboo (Large),ghost

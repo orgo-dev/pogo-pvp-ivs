@@ -1083,9 +1083,11 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 559,scraggy,Scraggy,132,132,137,"['dark', 'fighting']","['ROCK_SMASH', 'FEINT_ATTACK']","['ACID_SPRAY', 'BRICK_BREAK', 'FOUL_PLAY', 'THUNDER_PUNCH', 'UPPER_HAND']",nan,nan,3,50000,True,FAMILY_SCRAGGY,['scrafty'],,nan
 560,scrafty,Scrafty,163,222,163,"['dark', 'fighting']","['COUNTER', 'SNARL']","['ACID_SPRAY', 'POWER_UP_PUNCH', 'FOUL_PLAY', 'THUNDER_PUNCH', 'UPPER_HAND']",nan,nan,3,50000,True,FAMILY_SCRAGGY,nan,scraggy,nan
 561,sigilyph,Sigilyph,204,167,176,"['psychic', 'flying']","['AIR_SLASH', 'ZEN_HEADBUTT']","['AIR_CUTTER', 'PSYBEAM', 'ANCIENT_POWER', 'SIGNAL_BEAM']",nan,nan,5,75000,True,,nan,,['regional']
-562,yamask,Yamask,95,141,116,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT']","['SHADOW_BALL', 'DARK_PULSE', 'OMINOUS_WIND']",nan,nan,3,50000,True,FAMILY_YAMASK,['cofagrigus'],,nan
+562,yamask,Yamask,95,141,116,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT']","['SHADOW_BALL', 'DARK_PULSE', 'OMINOUS_WIND', 'RETURN']",nan,nan,3,50000,True,FAMILY_YAMASK,['cofagrigus'],,['shadoweligible']
 562,yamask_galarian,Yamask (Galarian),95,141,116,"['ground', 'ghost']",['ASTONISH'],"['NIGHT_SHADE', 'ROCK_TOMB']",nan,nan,3,50000,True,FAMILY_YAMASK,['runerigus'],,['galarian']
-563,cofagrigus,Cofagrigus,163,237,151,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT', 'SHADOW_CLAW']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_YAMASK,nan,yamask,nan
+562,yamask_shadow,Yamask (Shadow),95,141,116,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT']","['SHADOW_BALL', 'DARK_PULSE', 'OMINOUS_WIND', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_YAMASK,['cofagrigus_shadow'],,['shadow']
+563,cofagrigus,Cofagrigus,163,237,151,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT', 'SHADOW_CLAW']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC', 'RETURN']",nan,nan,3,50000,True,FAMILY_YAMASK,nan,yamask,['shadoweligible']
+563,cofagrigus_shadow,Cofagrigus (Shadow),163,237,151,"['ghost', 'none']","['ASTONISH', 'ZEN_HEADBUTT', 'SHADOW_CLAW']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_YAMASK,nan,yamask_shadow,['shadow']
 564,tirtouga,Tirtouga,134,146,144,"['water', 'rock']","['WATER_GUN', 'BITE']","['SURF', 'ANCIENT_POWER', 'BODY_SLAM', 'RETURN']",nan,nan,5,75000,True,FAMILY_TIRTOUGA,['carracosta'],,['shadoweligible']
 564,tirtouga_shadow,Tirtouga (Shadow),134,146,144,"['water', 'rock']","['WATER_GUN', 'BITE']","['SURF', 'ANCIENT_POWER', 'BODY_SLAM', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_TIRTOUGA,['carracosta_shadow'],,['shadow']
 565,carracosta,Carracosta,192,197,179,"['water', 'rock']","['WATER_GUN', 'ROCK_THROW']","['SURF', 'ANCIENT_POWER', 'BODY_SLAM', 'LIQUIDATION', 'RETURN']",nan,nan,5,75000,True,FAMILY_TIRTOUGA,nan,tirtouga,['shadoweligible']
@@ -1291,8 +1293,10 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 705,sliggoo,Sliggoo,159,176,169,"['dragon', 'none']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER', 'WATER_PULSE']",nan,nan,5,75000,True,FAMILY_GOOMY,['goodra'],goomy,nan
 706,goodra,Goodra,220,242,207,"['dragon', 'none']","['WATER_GUN', 'DRAGON_BREATH']","['DRACO_METEOR', 'SLUDGE_WAVE', 'MUDDY_WATER', 'POWER_WHIP', 'AQUA_TAIL', 'THUNDER_PUNCH']",['THUNDER_PUNCH'],nan,5,75000,True,FAMILY_GOOMY,nan,sliggoo,nan
 707,klefki,Klefki,160,179,149,"['steel', 'fairy']","['ASTONISH', 'TACKLE']","['FLASH_CANNON', 'PLAY_ROUGH', 'DRAINING_KISS', 'FOUL_PLAY']",nan,nan,3,50000,True,,nan,,['regional']
-708,phantump,Phantump,125,103,125,"['ghost', 'grass']","['ASTONISH', 'TACKLE']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PHANTUMP,['trevenant'],,nan
-709,trevenant,Trevenant,201,154,198,"['ghost', 'grass']","['SHADOW_CLAW', 'SUCKER_PUNCH']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PHANTUMP,nan,phantump,nan
+708,phantump,Phantump,125,103,125,"['ghost', 'grass']","['ASTONISH', 'TACKLE']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'RETURN']",nan,nan,5,75000,True,FAMILY_PHANTUMP,['trevenant'],,['shadoweligible']
+708,phantump_shadow,Phantump (Shadow),125,103,125,"['ghost', 'grass']","['ASTONISH', 'TACKLE']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_PHANTUMP,['trevenant_shadow'],,['shadow']
+709,trevenant,Trevenant,201,154,198,"['ghost', 'grass']","['SHADOW_CLAW', 'SUCKER_PUNCH']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'RETURN']",nan,nan,5,75000,True,FAMILY_PHANTUMP,nan,phantump,['shadoweligible']
+709,trevenant_shadow,Trevenant (Shadow),201,154,198,"['ghost', 'grass']","['SHADOW_CLAW', 'SUCKER_PUNCH']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_PHANTUMP,nan,phantump_shadow,['shadow']
 710,pumpkaboo_average,Pumpkaboo (Average),121,123,135,"['ghost', 'grass']","['ASTONISH', 'RAZOR_LEAF']","['GRASS_KNOT', 'SHADOW_SNEAK', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,['gourgeist_average'],,['teambuilderexclude']
 710,pumpkaboo_large,Pumpkaboo (Large),120,122,144,"['ghost', 'grass']","['ASTONISH', 'RAZOR_LEAF']","['GRASS_KNOT', 'SHADOW_SNEAK', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,['gourgeist_large'],,['teambuilderexclude']
 710,pumpkaboo_small,Pumpkaboo (Small),122,124,127,"['ghost', 'grass']","['ASTONISH', 'RAZOR_LEAF']","['GRASS_KNOT', 'SHADOW_SNEAK', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PUMPKABOO,['gourgeist_small'],,['teambuilderexclude']
@@ -1673,7 +1677,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 1009,walking_wake,Walking Wake,233,171,203,"['water', 'dragon']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['legendary']
 1010,iron_leaves,Iron Leaves,236,194,189,"['grass', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['legendary']
 1011,dipplin,Dipplin,173,184,190,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_TAIL', 'ROLLOUT']","['DRAGON_PULSE', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,['hydrapple'],applin,nan
-1012,poltchageist,Poltchageist,134,96,120,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,False,FAMILY_SINISTCHA,nan,sinistcha,nan
+1012,poltchageist,Poltchageist,134,96,120,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,True,FAMILY_SINISTCHA,nan,sinistcha,nan
 1013,sinistcha,Sinistcha,225,191,174,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,False,FAMILY_SINISTCHA,['poltchageist'],,nan
 1014,okidogi,Okidogi,220,191,186,"['poison', 'fighting']","['POISON_JAB', 'FORCE_PALM']","['SUPER_POWER', 'UPPER_HAND', 'SLUDGE_BOMB']",nan,nan,20,100000,False,,nan,,['legendary']
 1015,munkidori,Munkidori,238,157,186,"['poison', 'psychic']","['POISON_JAB', 'CONFUSION']","['SLUDGE_BOMB', 'FUTURE_SIGHT', 'PSYCHIC']",nan,nan,20,100000,False,,nan,,['legendary']
