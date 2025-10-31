@@ -89924,7 +89924,8 @@
         ],
         "fastMoves": [
             "BUG_BITE",
-            "COUNTER"
+            "COUNTER",
+            "SHADOW_CLAW"
         ],
         "chargedMoves": [
             "X_SCISSOR",

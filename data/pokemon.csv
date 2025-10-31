@@ -1570,7 +1570,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
 916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
 917,tarountula,Tarountula,70,77,111,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,['spidops'],,nan
-918,spidops,Spidops,139,166,155,"['bug', 'none']","['BUG_BITE', 'COUNTER']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE', 'ROCK_TOMB']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,nan,tarountula,nan
+918,spidops,Spidops,139,166,155,"['bug', 'none']","['BUG_BITE', 'COUNTER', 'SHADOW_CLAW']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE', 'ROCK_TOMB']",nan,nan,1,50000,False,FAMILY_TAROUNTULA,nan,tarountula,nan
 919,nymble,Nymble,81,65,107,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'BUG_BUZZ', 'TRAILBLAZE']",nan,nan,1,50000,True,FAMILY_NYMBLE,['lokix'],,nan
 920,lokix,Lokix,199,144,174,"['bug', 'dark']","['BUG_BITE', 'SUCKER_PUNCH', 'COUNTER']","['X_SCISSOR', 'BUG_BUZZ', 'DARK_PULSE', 'TRAILBLAZE']",nan,nan,1,50000,True,FAMILY_NYMBLE,nan,nymble,nan
 921,pawmi,Pawmi,95,45,128,"['electric', 'none']","['SPARK', 'CHARGE_BEAM', 'THUNDER_SHOCK']","['THUNDERBOLT', 'DISCHARGE', 'WILD_CHARGE']",nan,nan,3,75000,True,FAMILY_PAWMI,['pawmo'],,nan
