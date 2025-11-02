@@ -44047,7 +44047,7 @@
         "searchPriority": 4,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_BELDUM",
             "parent": "metang"
@@ -66723,9 +66723,6 @@
         "level25CP": 1330,
         "tags": [
             "shadoweligible"
-        ],
-        "nicknames": [
-            "spooder"
         ]
     },
     {
@@ -66782,9 +66779,6 @@
         },
         "tags": [
             "shadow"
-        ],
-        "nicknames": [
-            "spooder"
         ]
     },
     {
@@ -89901,7 +89895,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TAROUNTULA",
             "evolutions": [
@@ -89955,11 +89949,12 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TAROUNTULA",
             "parent": "tarountula"
-        }
+        },
+        "searchPriority": 2
     },
     {
         "dex": 919,
