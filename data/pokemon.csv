@@ -1678,7 +1678,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 1010,iron_leaves,Iron Leaves,236,194,189,"['grass', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,['legendary']
 1011,dipplin,Dipplin,173,184,190,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_TAIL', 'ROLLOUT']","['DRAGON_PULSE', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,['hydrapple'],applin,nan
 1012,poltchageist,Poltchageist,134,96,120,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,True,FAMILY_SINISTCHA,nan,sinistcha,nan
-1013,sinistcha,Sinistcha,225,191,174,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,False,FAMILY_SINISTCHA,['poltchageist'],,nan
+1013,sinistcha,Sinistcha,225,191,174,"['grass', 'ghost']","['ASTONISH', 'MAGICAL_LEAF']","['SHADOW_BALL', 'ENERGY_BALL', 'POLTERGEIST']",nan,nan,3,50000,True,FAMILY_SINISTCHA,['poltchageist'],,nan
 1014,okidogi,Okidogi,220,191,186,"['poison', 'fighting']","['POISON_JAB', 'FORCE_PALM']","['SUPER_POWER', 'UPPER_HAND', 'SLUDGE_BOMB']",nan,nan,20,100000,False,,nan,,['legendary']
 1015,munkidori,Munkidori,238,157,186,"['poison', 'psychic']","['POISON_JAB', 'CONFUSION']","['SLUDGE_BOMB', 'FUTURE_SIGHT', 'PSYCHIC']",nan,nan,20,100000,False,,nan,,['legendary']
 1016,fezandipiti,Fezandipiti,169,208,186,"['poison', 'fairy']","['POISON_JAB', 'CHARM']","['SLUDGE_BOMB', 'MOONBLAST', 'DISARMING_VOICE']",nan,nan,20,100000,False,,nan,,['legendary']
