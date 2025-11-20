@@ -1636,6 +1636,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 489,phione,Phione,490,manaphy,Manaphy,False
 490,manaphy,Manaphy,490,manaphy,Manaphy,True
 491,darkrai,Darkrai,491,darkrai,Darkrai,True
+491,darkrai_shadow,Darkrai (Shadow),491,darkrai_shadow,Darkrai (Shadow),True
 492,shaymin_land,Shaymin (Land),492,shaymin_land,Shaymin (Land),True
 492,shaymin_sky,Shaymin (Sky),492,shaymin_sky,Shaymin (Sky),True
 493,arceus,Arceus,493,arceus,Arceus,True
