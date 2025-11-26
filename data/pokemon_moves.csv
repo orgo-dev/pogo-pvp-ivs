@@ -4947,7 +4947,7 @@ Keldeo (Resolute),Poison Jab,fast,poison,1.0,7,7,2,3.5,3.5,,,,General,
 Keldeo (Resolute),Aqua Jet,charged,water,1.2,70,0,1,,,40.0,1.75,,General,
 Keldeo (Resolute),Close Combat,charged,fighting,1.2,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,
 Keldeo (Resolute),Hydro Pump,charged,water,1.2,130,0,1,,,75.0,1.73,,Nuke,
-Keldeo (Resolute),Sacred Sword,charged,fighting,1.2,60,0,1,,,35.0,1.71,,Spam/Bait,elite
+Keldeo (Resolute),Secret Sword,charged,fighting,1.2,70,0,1,,,35.0,2.0,,Spam/Bait,legacy
 Keldeo (Resolute),X-Scissor,charged,bug,1.0,65,0,1,,,40.0,1.62,,Spam/Bait,
 Kilowattrel,Air Slash,fast,flying,1.2,9,9,3,3.0,3.0,,,,General,
 Kilowattrel,Thunder Shock,fast,electric,1.2,4,9,2,2.0,4.5,,,,Fast Charge,

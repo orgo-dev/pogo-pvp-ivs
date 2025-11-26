@@ -18,6 +18,7 @@ AURA_WHEEL_DARK,Aura Wheel,charged,dark,100,0,1,,,45,2.22,100% chance +1 Atk sel
 AURA_WHEEL_ELECTRIC,Aura Wheel,charged,electric,100,0,1,,,45,2.22,100% chance +1 Atk self,Boost,"[1, 0]",self,1,nan,nan
 AURORA_BEAM,Aurora Beam,charged,ice,80,0,1,,,60,1.33,,High Energy,nan,,,nan,nan
 AVALANCHE,Avalanche,charged,ice,90,0,1,,,45,2.0,,General,nan,,,nan,nan
+BEAK_BLAST,Beak Blast,charged,flying,110,0,1,,,55,2.0,100% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,1,nan,nan
 BEHEMOTH_BASH,Behemoth Bash,charged,steel,80,0,1,,,45,1.78,,General,nan,,,nan,nan
 BEHEMOTH_BLADE,Behemoth Blade,charged,steel,100,0,1,,,55,1.82,,High Energy,nan,,,nan,nan
 BITE,Bite,fast,dark,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
@@ -243,6 +244,7 @@ SAND_TOMB,Sand Tomb,charged,ground,25,0,1,,,40,0.62,100% chance -1 Def opponent,
 SCALD,Scald,charged,water,85,0,1,,,50,1.7,30.0% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,0.3,nan,nan
 SCORCHING_SANDS,Scorching Sands,charged,ground,80,0,1,,,50,1.6,10.0% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,0.1,nan,nan
 SCRATCH,Scratch,fast,normal,4,2,1,4.0,2.0,0,,,Heavy Damage,nan,,,nan,nan
+SECRET_SWORD,Secret Sword,charged,fighting,70,0,1,,,35,2.0,,Spam/Bait,nan,,,nan,nan
 SEED_BOMB,Seed Bomb,charged,grass,55,0,1,,,40,1.38,,Spam/Bait,nan,,,nan,nan
 SEED_FLARE,Seed Flare,charged,grass,130,0,1,,,75,1.73,40.0% chance -2 Def opponent,Debuff Nuke,"[0, -2]",opponent,.4,nan,nan
 SHADOW_BALL,Shadow Ball,charged,ghost,100,0,1,,,55,1.82,,Nuke,nan,,,nan,nan

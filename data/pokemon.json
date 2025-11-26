@@ -70770,10 +70770,10 @@
             "CLOSE_COMBAT",
             "HYDRO_PUMP",
             "X_SCISSOR",
-            "SACRED_SWORD"
+            "SECRET_SWORD"
         ],
-        "eliteMoves": [
-            "SACRED_SWORD"
+        "legacyMoves": [
+            "SECRET_SWORD"
         ],
         "defaultIVs": {
             "cp500": [
@@ -70801,7 +70801,8 @@
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true,
+        "searchPriority": 2
     },
     {
         "dex": 648,
