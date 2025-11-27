@@ -42324,6 +42324,9 @@
             "PAYBACK",
             "BRUTAL_SWING"
         ],
+        "eliteMoves": [
+            "BRUTAL_SWING"
+        ],
         "defaultIVs": {
             "cp500": [
                 7.5,
