@@ -6715,10 +6715,12 @@ Totodile (Shadow),Aqua Jet,charged,water,1.2,70,40,1.75,,General,
 Totodile (Shadow),Crunch,charged,dark,1.0,70,45,1.56,20.0% chance -1 Def opponent,Debuff,
 Totodile (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Totodile (Shadow),Water Pulse,charged,water,1.2,80,50,1.6,,General,
+Toucannon,Beak Blast,charged,flying,1.2,110,55,2.0,100% chance -1 Atk opponent,Debuff Nuke,elite
 Toucannon,Drill Peck,charged,flying,1.2,70,40,1.75,,Spam/Bait,
 Toucannon,Flash Cannon,charged,steel,1.0,110,70,1.57,,Nuke,
 Toucannon,Return,charged,normal,1.2,130,70,1.86,,Nuke,
 Toucannon,Rock Blast,charged,rock,1.0,50,40,1.25,,Spam/Bait,
+Toucannon (Shadow),Beak Blast,charged,flying,1.2,110,55,2.0,100% chance -1 Atk opponent,Debuff Nuke,elite
 Toucannon (Shadow),Drill Peck,charged,flying,1.2,70,40,1.75,,Spam/Bait,
 Toucannon (Shadow),Flash Cannon,charged,steel,1.0,110,70,1.57,,Nuke,
 Toucannon (Shadow),Frustration,charged,normal,1.2,10,70,0.14,,High Energy,

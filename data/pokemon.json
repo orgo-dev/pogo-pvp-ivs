@@ -77559,7 +77559,11 @@
         "chargedMoves": [
             "DRILL_PECK",
             "ROCK_BLAST",
-            "FLASH_CANNON"
+            "FLASH_CANNON",
+            "BEAK_BLAST"
+        ],
+        "eliteMoves": [
+            "BEAK_BLAST"
         ],
         "defaultIVs": {
             "cp500": [
@@ -77614,7 +77618,11 @@
         "chargedMoves": [
             "DRILL_PECK",
             "ROCK_BLAST",
-            "FLASH_CANNON"
+            "FLASH_CANNON",
+            "BEAK_BLAST"
+        ],
+        "eliteMoves": [
+            "BEAK_BLAST"
         ],
         "defaultIVs": {
             "cp500": [
