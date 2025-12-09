@@ -1490,8 +1490,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 849,toxtricity_low_key,Toxtricity (Low Key),224,140,181,"['electric', 'poison']","['ACID', 'SPARK', 'POISON_JAB']","['ACID_SPRAY', 'DISCHARGE', 'WILD_CHARGE', 'POWER_UP_PUNCH']",nan,nan,5,75000,False,FAMILY_TOXEL,nan,toxel,nan
 850,sizzlipede,Sizzlipede,118,90,137,"['fire', 'bug']","['BUG_BITE', 'EMBER']","['HEAT_WAVE', 'BUG_BUZZ', 'CRUNCH']",nan,nan,5,75000,True,FAMILY_SIZZLIPEDE,['centiskorch'],,nan
 851,centiskorch,Centiskorch,220,158,225,"['fire', 'bug']","['BUG_BITE', 'EMBER']","['HEAT_WAVE', 'BUG_BUZZ', 'CRUNCH', 'LUNGE']",nan,nan,5,75000,True,FAMILY_SIZZLIPEDE,nan,sizzlipede,nan
-852,clobbopus,Clobbopus,121,103,137,"['fighting', 'none']",['ROCK_SMASH'],"['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH']",nan,nan,3,50000,False,FAMILY_CLOBBOPUS,['grapploct'],,nan
-853,grapploct,Grapploct,209,162,190,"['fighting', 'none']","['ROCK_SMASH', 'WATERFALL']","['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH', 'SURF']",nan,nan,3,50000,False,FAMILY_CLOBBOPUS,nan,clobbopus,nan
+852,clobbopus,Clobbopus,121,103,137,"['fighting', 'none']",['ROCK_SMASH'],"['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH']",nan,nan,3,50000,True,FAMILY_CLOBBOPUS,['grapploct'],,nan
+853,grapploct,Grapploct,209,162,190,"['fighting', 'none']","['ROCK_SMASH', 'WATERFALL']","['BRICK_BREAK', 'SUPER_POWER', 'ICE_PUNCH', 'SURF']",nan,nan,3,50000,True,FAMILY_CLOBBOPUS,nan,clobbopus,nan
 854,sinistea,Sinistea,134,96,120,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_SINISTEA,['polteageist'],,nan
 855,polteageist,Polteageist,248,189,155,"['ghost', 'none']","['ASTONISH', 'SUCKER_PUNCH', 'HEX']","['SHADOW_BALL', 'DARK_PULSE', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_SINISTEA,nan,sinistea,nan
 856,hatenna,Hatenna,98,93,123,"['psychic', 'none']","['CONFUSION', 'CHARM']","['PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,5,50000,True,FAMILY_HATENNA,['hattrem'],,nan

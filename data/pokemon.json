@@ -85773,7 +85773,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CLOBBOPUS",
             "evolutions": [
@@ -85826,7 +85826,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CLOBBOPUS",
             "parent": "clobbopus"
