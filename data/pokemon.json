@@ -84861,7 +84861,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROLYCOLY",
             "evolutions": [
@@ -84883,8 +84883,7 @@
             "fire"
         ],
         "fastMoves": [
-            "SMACK_DOWN",
-            "INCINERATE"
+            "SMACK_DOWN"
         ],
         "chargedMoves": [
             "ROCK_BLAST",
@@ -84919,7 +84918,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROLYCOLY",
             "parent": "boltund",
@@ -84943,7 +84942,7 @@
         ],
         "fastMoves": [
             "SMACK_DOWN",
-            "INCINERATE"
+            "FIRE_SPIN"
         ],
         "chargedMoves": [
             "ROCK_BLAST",
@@ -84978,7 +84977,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROLYCOLY",
             "parent": "rolycoly"

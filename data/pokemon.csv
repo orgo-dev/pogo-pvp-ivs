@@ -1473,9 +1473,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 834,drednaw,Drednaw,213,164,207,"['water', 'rock']","['WATERFALL', 'BITE']","['BODY_SLAM', 'SURF', 'ROCK_BLAST', 'CRUNCH']",nan,nan,3,50000,False,FAMILY_CHEWTLE,nan,chewtle,nan
 835,yamper,Yamper,80,90,153,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1,50000,True,FAMILY_YAMPER,['boltund'],,nan
 836,boltund,Boltund,197,131,170,"['electric', 'none']","['SPARK', 'BITE']","['CRUNCH', 'THUNDER']",nan,nan,1,50000,True,FAMILY_YAMPER,nan,yamper,nan
-837,rolycoly,Rolycoly,73,91,102,"['rock', 'none']","['SMACK_DOWN', 'TACKLE']","['ROCK_BLAST', 'ROCK_SLIDE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,['carkol'],,nan
-838,carkol,Carkol,114,157,190,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,['coalossal'],boltund,nan
-839,coalossal,Coalossal,146,198,242,"['rock', 'fire']","['SMACK_DOWN', 'INCINERATE']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,False,FAMILY_ROLYCOLY,nan,rolycoly,nan
+837,rolycoly,Rolycoly,73,91,102,"['rock', 'none']","['SMACK_DOWN', 'TACKLE']","['ROCK_BLAST', 'ROCK_SLIDE']",nan,nan,3,10000,True,FAMILY_ROLYCOLY,['carkol'],,nan
+838,carkol,Carkol,114,157,190,"['rock', 'fire']",['SMACK_DOWN'],"['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,True,FAMILY_ROLYCOLY,['coalossal'],boltund,nan
+839,coalossal,Coalossal,146,198,242,"['rock', 'fire']","['SMACK_DOWN', 'FIRE_SPIN']","['ROCK_BLAST', 'ROCK_SLIDE', 'FLAME_CHARGE']",nan,nan,3,10000,True,FAMILY_ROLYCOLY,nan,rolycoly,nan
 840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5,75000,True,FAMILY_APPLIN,"['flapple', 'appletun', 'dipplin']",,nan
 841,flapple,Flapple,214,144,172,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_BREATH']","['DRAGON_PULSE', 'FLY', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
 842,appletun,Appletun,178,146,242,"['grass', 'dragon']","['BULLET_SEED', 'ASTONISH']","['DRAGON_PULSE', 'ENERGY_BALL', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
