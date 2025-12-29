@@ -600,6 +600,7 @@ Bisharp,Dark Pulse,charged,dark,1.2,80,50,1.6,,General,
 Bisharp,Focus Blast,charged,fighting,1.0,150,75,2.0,,Nuke,
 Bisharp,Iron Head,charged,steel,1.2,70,50,1.4,,General,
 Bisharp,X-Scissor,charged,bug,1.0,65,40,1.62,,Spam/Bait,
+Blacephalon,Mind Blown,charged,fire,1.2,90,35,2.57,100% chance -4 Def self,Debuff,elite
 Blacephalon,Mystical Fire,charged,fire,1.2,60,45,1.33,100% chance -1 Atk opponent,Debuff,
 Blacephalon,Overheat,charged,fire,1.2,130,55,2.36,100% chance -2 Atk self,Self-Debuff Nuke,
 Blacephalon,Shadow Ball,charged,ghost,1.2,100,50,2.0,,General,

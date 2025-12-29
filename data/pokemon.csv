@@ -1442,7 +1442,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 803,poipole,Poipole,145,133,167,"['poison', 'none']","['POISON_JAB', 'PECK']","['SLUDGE_BOMB', 'SLUDGE_WAVE', 'FELL_STINGER']",nan,nan,20,100000,True,FAMILY_POIPOLE,['naganadel'],,"['ultrabeast', 'untradeable']"
 804,naganadel,Naganadel,263,159,177,"['poison', 'dragon']","['POISON_JAB', 'AIR_SLASH']","['SLUDGE_BOMB', 'ACROBATICS', 'FELL_STINGER', 'DRAGON_PULSE', 'DRAGON_CLAW']",nan,nan,20,100000,True,FAMILY_POIPOLE,nan,poipole,['ultrabeast']
 805,stakataka,Stakataka,213,298,156,"['rock', 'steel']","['ROCK_THROW', 'TAKE_DOWN']","['FLASH_CANNON', 'STONE_EDGE', 'BULLDOZE']",nan,nan,20,100000,True,,nan,,['ultrabeast']
-806,blacephalon,Blacephalon,315,148,142,"['fire', 'ghost']","['INCINERATE', 'ASTONISH']","['MYSTICAL_FIRE', 'SHADOW_BALL', 'OVERHEAT']",nan,nan,20,100000,True,,nan,,['ultrabeast']
+806,blacephalon,Blacephalon,315,148,142,"['fire', 'ghost']","['INCINERATE', 'ASTONISH']","['MYSTICAL_FIRE', 'SHADOW_BALL', 'OVERHEAT', 'MIND_BLOWN']",['MIND_BLOWN'],nan,20,100000,True,,nan,,"['ultrabeast', 'include1500', 'include2500', 'include10000']"
 807,zeraora,Zeraora,252,177,204,"['electric', 'none']","['SPARK', 'VOLT_SWITCH']","['THUNDER_PUNCH', 'DISCHARGE', 'WILD_CHARGE']",nan,nan,20,100000,False,,nan,,nan
 808,meltan,Meltan,118,99,130,"['steel', 'none']",['THUNDER_SHOCK'],"['FLASH_CANNON', 'THUNDERBOLT']",nan,nan,20,100000,True,FAMILY_MELTAN,['melmetal'],,"['mythical', 'include1500']"
 809,melmetal,Melmetal,226,190,264,"['steel', 'none']",['THUNDER_SHOCK'],"['FLASH_CANNON', 'HYPER_BEAM', 'ROCK_SLIDE', 'THUNDERBOLT', 'SUPER_POWER', 'DOUBLE_IRON_BASH']",['DOUBLE_IRON_BASH'],nan,20,100000,True,FAMILY_MELTAN,nan,meltan,['mythical']

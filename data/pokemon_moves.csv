@@ -940,6 +940,7 @@ Bisharp,Iron Head,charged,steel,1.2,70,0,1,,,50.0,1.4,,General,
 Bisharp,X-Scissor,charged,bug,1.0,65,0,1,,,40.0,1.62,,Spam/Bait,
 Blacephalon,Astonish,fast,ghost,1.2,12,10,3,4.0,3.33,,,,Multipurpose,
 Blacephalon,Incinerate,fast,fire,1.2,20,20,5,4.0,4.0,,,,Multipurpose,
+Blacephalon,Mind Blown,charged,fire,1.2,90,0,1,,,35.0,2.57,100% chance -4 Def self,Debuff,elite
 Blacephalon,Mystical Fire,charged,fire,1.2,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,
 Blacephalon,Overheat,charged,fire,1.2,130,0,1,,,55.0,2.36,100% chance -2 Atk self,Self-Debuff Nuke,
 Blacephalon,Shadow Ball,charged,ghost,1.2,100,0,1,,,50.0,2.0,,General,

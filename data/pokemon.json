@@ -83194,7 +83194,11 @@
         "chargedMoves": [
             "MYSTICAL_FIRE",
             "SHADOW_BALL",
-            "OVERHEAT"
+            "OVERHEAT",
+            "MIND_BLOWN"
+        ],
+        "eliteMoves": [
+            "MIND_BLOWN"
         ],
         "defaultIVs": {
             "cp500": [
@@ -83217,7 +83221,10 @@
             ]
         },
         "tags": [
-            "ultrabeast"
+            "ultrabeast",
+            "include1500",
+            "include2500",
+            "include10000"
         ],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,

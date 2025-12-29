@@ -178,7 +178,7 @@ METAL_CLAW,Metal Claw,fast,steel,5,7,2,2.5,3.5,0,,,General,nan,,,nan,nan
 METAL_SOUND,Metal Sound,fast,steel,5,8,2,2.5,4.0,0,,,Fast Charge,nan,,,nan,nan
 METEOR_BEAM,Meteor Beam,charged,rock,120,0,1,,,60,2.0,100% chance +1 Atk self,Boost Nuke,"[1, 0]",self,1,nan,nan
 METEOR_MASH,Meteor Mash,charged,steel,100,0,1,,,45,2.22,,General,nan,,,nan,nan
-MIND_BLOWN,Mind Blown,charged,fire,90,0,1,,,35,2.57,100% chance -4 Def opponent,Debuff,"[0, -4]",opponent,1,nan,nan
+MIND_BLOWN,Mind Blown,charged,fire,90,0,1,,,35,2.57,100% chance -4 Def self,Debuff,"[0, -4]",self,1,nan,nan
 MIRROR_COAT,Mirror Coat,charged,psychic,60,0,1,,,55,1.09,,High Energy,nan,,,nan,nan
 MIRROR_SHOT,Mirror Shot,charged,steel,35,0,1,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam,"[-1, 0]",opponent,.3,nan,nan
 MIST_BALL,Mist Ball,charged,psychic,120,0,1,,,60,2.0,50.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,0.5,nan,nan
