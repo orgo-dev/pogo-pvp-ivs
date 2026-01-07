@@ -1609,7 +1609,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 947,brambleghast,Brambleghast,228,144,146,"['grass', 'ghost']","['HEX', 'BULLET_SEED']","['SHADOW_SNEAK', 'NIGHT_SHADE', 'POWER_WHIP']",nan,nan,5,75000,False,FAMILY_BRAMBLIN,nan,bramblin,nan
 948,toedscool,Toedscool,97,149,120,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'WRAP']",nan,nan,3,50000,True,FAMILY_TOEDSCOOL,['toedscruel'],,nan
 949,toedscruel,Toedscruel,166,209,190,"['ground', 'grass']","['MUD_SLAP', 'MUD_SHOT']","['EARTH_POWER', 'SEED_BOMB', 'ACID_SPRAY', 'WRAP']",nan,nan,3,50000,True,FAMILY_TOEDSCOOL,nan,toedscool,nan
-950,klawf,Klawf,184,185,172,"['rock', 'none']","['ROCK_THROW', 'MUD_SLAP']","['ROCK_SLIDE', 'ROCK_TOMB', 'BULLDOZE']",nan,nan,3,75000,False,,nan,,nan
+950,klawf,Klawf,184,185,172,"['rock', 'none']","['ROCK_THROW', 'MUD_SLAP']","['ROCK_SLIDE', 'ROCK_TOMB', 'BULLDOZE']",nan,nan,3,75000,True,,nan,,nan
 951,capsakid,Capsakid,118,76,137,"['grass', 'none']","['LEAFAGE', 'RAZOR_LEAF']","['LEAF_STORM', 'GRASS_KNOT', 'SEED_BOMB']",nan,nan,3,10000,False,FAMILY_CAPSAKID,['scovillain'],,nan
 952,scovillain,Scovillain,216,130,163,"['grass', 'fire']","['LEAFAGE', 'FIRE_FANG']","['LEAF_STORM', 'GRASS_KNOT', 'OVERHEAT', 'FLAMETHROWER']",nan,nan,3,10000,False,FAMILY_CAPSAKID,nan,capsakid,nan
 953,rellor,Rellor,86,108,121,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['DIG', 'BUG_BUZZ', 'LUNGE']",nan,nan,5,75000,False,FAMILY_RELLOR,['rabsca'],,nan
