@@ -1599,8 +1599,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 937,ceruledge,Ceruledge,239,189,181,"['fire', 'ghost']","['EMBER', 'INCINERATE']","['FLAME_CHARGE', 'HEAT_WAVE', 'FLAMETHROWER', 'SHADOW_BALL']",nan,nan,5,50000,True,FAMILY_CHARCADET,nan,charcadet,nan
 938,tadbulb,Tadbulb,104,73,156,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1,50000,True,FAMILY_TADBULB,['bellibolt'],,nan
 939,bellibolt,Bellibolt,184,165,240,"['electric', 'none']","['THUNDER_SHOCK', 'WATER_GUN', 'SUCKER_PUNCH']","['PARABOLIC_CHARGE', 'DISCHARGE', 'ZAP_CANNON']",nan,nan,1,50000,True,FAMILY_TADBULB,nan,tadbulb,nan
-940,wattrel,Wattrel,105,75,120,"['electric', 'flying']","['THUNDER_SHOCK', 'PECK']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,False,FAMILY_WATTREL,['kilowattrel'],,nan
-941,kilowattrel,Kilowattrel,221,132,172,"['electric', 'flying']","['THUNDER_SHOCK', 'AIR_SLASH']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,False,FAMILY_WATTREL,nan,wattrel,nan
+940,wattrel,Wattrel,105,75,120,"['electric', 'flying']","['THUNDER_SHOCK', 'PECK']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,True,FAMILY_WATTREL,['kilowattrel'],,nan
+941,kilowattrel,Kilowattrel,221,132,172,"['electric', 'flying']","['THUNDER_SHOCK', 'AIR_SLASH']","['ACROBATICS', 'AERIAL_ACE', 'THUNDERBOLT']",nan,nan,1,10000,True,FAMILY_WATTREL,nan,wattrel,nan
 942,maschiff,Maschiff,140,108,155,"['dark', 'none']","['SNARL', 'BITE']","['CRUNCH', 'PAYBACK', 'DIG']",nan,nan,3,50000,False,FAMILY_MASCHIFF,['mabosstiff'],,nan
 943,mabosstiff,Mabosstiff,230,168,190,"['dark', 'none']","['SNARL', 'BITE']","['CRUNCH', 'PAYBACK', 'DIG']",nan,nan,3,50000,False,FAMILY_MASCHIFF,nan,maschiff,nan
 944,shroodle,Shroodle,124,70,120,"['poison', 'normal']","['MUD_SLAP', 'POISON_JAB']","['ACID_SPRAY', 'POISON_FANG', 'SLUDGE_BOMB']",nan,nan,3,50000,True,FAMILY_SHROODLE,['grafaiai'],,nan
