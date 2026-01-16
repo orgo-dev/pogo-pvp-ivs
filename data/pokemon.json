@@ -93215,7 +93215,8 @@
         "chargedMoves": [
             "DAZZLING_GLEAM",
             "POWER_GEM",
-            "SLUDGE_WAVE"
+            "SLUDGE_WAVE",
+            "METEOR_BEAM"
         ],
         "defaultIVs": {
             "cp500": [
