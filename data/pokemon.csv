@@ -1448,7 +1448,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 809,melmetal,Melmetal,226,190,264,"['steel', 'none']",['THUNDER_SHOCK'],"['FLASH_CANNON', 'HYPER_BEAM', 'ROCK_SLIDE', 'THUNDERBOLT', 'SUPER_POWER', 'DOUBLE_IRON_BASH']",['DOUBLE_IRON_BASH'],nan,20,100000,True,FAMILY_MELTAN,nan,meltan,['mythical']
 810,grookey,Grookey,122,91,137,"['grass', 'none']","['SCRATCH', 'RAZOR_LEAF']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3,10000,True,FAMILY_GROOKEY,['thwackey'],,['starter']
 811,thwackey,Thwackey,165,134,172,"['grass', 'none']","['SCRATCH', 'RAZOR_LEAF']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3,10000,True,FAMILY_GROOKEY,['rillaboom'],grookey,['starter']
-812,rillaboom,Rillaboom,239,168,225,"['grass', 'none']","['SCRATCH', 'RAZOR_LEAF']","['ENERGY_BALL', 'GRASS_KNOT', 'EARTH_POWER']",nan,nan,3,10000,True,FAMILY_GROOKEY,nan,thwackey,['starter']
+812,rillaboom,Rillaboom,239,168,225,"['grass', 'none']","['SCRATCH', 'RAZOR_LEAF']","['ENERGY_BALL', 'GRASS_KNOT', 'EARTH_POWER', 'DRUM_BEATING', 'FRENZY_PLANT']",['FRENZY_PLANT'],nan,3,10000,True,FAMILY_GROOKEY,nan,thwackey,['starter']
 813,scorbunny,Scorbunny,132,79,137,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,['raboot'],,['starter']
 814,raboot,Raboot,170,125,163,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,['cinderace'],scorbunny,['starter']
 815,cinderace,Cinderace,238,163,190,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER', 'FOCUS_BLAST']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,nan,raboot,['starter']
