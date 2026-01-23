@@ -2415,6 +2415,8 @@ Thundurus (Incarnate),electric
 Thundurus (Incarnate),flying
 Thundurus (Therian),electric
 Thundurus (Therian),flying
+Thundurus (Incarnate) (Shadow),electric
+Thundurus (Incarnate) (Shadow),flying
 Reshiram,dragon
 Reshiram,fire
 Zekrom,dragon
@@ -2449,22 +2451,40 @@ Genesect (Shock),bug
 Genesect (Shock),steel
 Chespin,grass
 Chespin,none
+Chespin (Shadow),grass
+Chespin (Shadow),none
 Quilladin,grass
 Quilladin,none
+Quilladin (Shadow),grass
+Quilladin (Shadow),none
 Chesnaught,grass
 Chesnaught,fighting
+Chesnaught (Shadow),grass
+Chesnaught (Shadow),fighting
 Fennekin,fire
 Fennekin,none
+Fennekin (Shadow),fire
+Fennekin (Shadow),none
 Braixen,fire
 Braixen,none
+Braixen (Shadow),fire
+Braixen (Shadow),none
 Delphox,fire
 Delphox,psychic
+Delphox (Shadow),fire
+Delphox (Shadow),psychic
 Froakie,water
 Froakie,none
+Froakie (Shadow),water
+Froakie (Shadow),none
 Frogadier,water
 Frogadier,none
+Frogadier (Shadow),water
+Frogadier (Shadow),none
 Greninja,water
 Greninja,dark
+Greninja (Shadow),water
+Greninja (Shadow),dark
 Bunnelby,normal
 Bunnelby,none
 Bunnelby (Shadow),normal
