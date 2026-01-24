@@ -354,8 +354,11 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 77,ponyta,Ponyta,78,rapidash,Rapidash,False
 77,ponyta_galarian,Ponyta (Galarian),77,ponyta_galarian,Ponyta (Galarian),True
 77,ponyta_galarian,Ponyta (Galarian),78,rapidash_galarian,Rapidash (Galarian),False
+77,ponyta_shadow,Ponyta (Shadow),77,ponyta_shadow,Ponyta (Shadow),True
+77,ponyta_shadow,Ponyta (Shadow),78,rapidash_shadow,Rapidash (Shadow),False
 78,rapidash,Rapidash,78,rapidash,Rapidash,True
 78,rapidash_galarian,Rapidash (Galarian),78,rapidash_galarian,Rapidash (Galarian),True
+78,rapidash_shadow,Rapidash (Shadow),78,rapidash_shadow,Rapidash (Shadow),True
 79,slowpoke,Slowpoke,79,slowpoke,Slowpoke,True
 79,slowpoke,Slowpoke,80,slowbro,Slowbro,False
 79,slowpoke,Slowpoke,199,slowking,Slowking,False
@@ -585,7 +588,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 139,omastar_shadow,Omastar (Shadow),139,omastar_shadow,Omastar (Shadow),True
 140,kabuto,Kabuto,140,kabuto,Kabuto,True
 140,kabuto,Kabuto,141,kabutops,Kabutops,False
+140,kabuto_shadow,Kabuto (Shadow),140,kabuto_shadow,Kabuto (Shadow),True
+140,kabuto_shadow,Kabuto (Shadow),141,kabutops_shadow,Kabutops (Shadow),False
 141,kabutops,Kabutops,141,kabutops,Kabutops,True
+141,kabutops_shadow,Kabutops (Shadow),141,kabutops_shadow,Kabutops (Shadow),True
 142,aerodactyl,Aerodactyl,142,aerodactyl,Aerodactyl,True
 142,aerodactyl,Aerodactyl,142,aerodactyl_mega,Aerodactyl (Mega),False
 142,aerodactyl_mega,Aerodactyl (Mega),142,aerodactyl_mega,Aerodactyl (Mega),True

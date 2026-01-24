@@ -373,10 +373,14 @@ Ponyta,fire
 Ponyta,none
 Ponyta (Galarian),psychic
 Ponyta (Galarian),none
+Ponyta (Shadow),fire
+Ponyta (Shadow),none
 Rapidash,fire
 Rapidash,none
 Rapidash (Galarian),psychic
 Rapidash (Galarian),fairy
+Rapidash (Shadow),fire
+Rapidash (Shadow),none
 Slowpoke,water
 Slowpoke,psychic
 Slowpoke (Galarian),psychic
@@ -631,8 +635,12 @@ Omastar (Shadow),rock
 Omastar (Shadow),water
 Kabuto,rock
 Kabuto,water
+Kabuto (Shadow),rock
+Kabuto (Shadow),water
 Kabutops,rock
 Kabutops,water
+Kabutops (Shadow),rock
+Kabutops (Shadow),water
 Aerodactyl,rock
 Aerodactyl,flying
 Aerodactyl (Mega),rock
@@ -2413,10 +2421,10 @@ Tornadus (Therian),flying
 Tornadus (Therian),none
 Thundurus (Incarnate),electric
 Thundurus (Incarnate),flying
-Thundurus (Therian),electric
-Thundurus (Therian),flying
 Thundurus (Incarnate) (Shadow),electric
 Thundurus (Incarnate) (Shadow),flying
+Thundurus (Therian),electric
+Thundurus (Therian),flying
 Reshiram,dragon
 Reshiram,fire
 Zekrom,dragon

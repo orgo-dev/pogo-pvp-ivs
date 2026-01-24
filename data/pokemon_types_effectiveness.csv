@@ -3365,6 +3365,24 @@ Ponyta (Galarian),ice,1.0
 Ponyta (Galarian),dragon,1.0
 Ponyta (Galarian),dark,1.6
 Ponyta (Galarian),fairy,1.0
+Ponyta (Shadow),normal,1.0
+Ponyta (Shadow),fighting,1.0
+Ponyta (Shadow),flying,1.0
+Ponyta (Shadow),poison,1.0
+Ponyta (Shadow),ground,1.6
+Ponyta (Shadow),rock,1.6
+Ponyta (Shadow),bug,0.625
+Ponyta (Shadow),ghost,1.0
+Ponyta (Shadow),steel,0.625
+Ponyta (Shadow),fire,0.625
+Ponyta (Shadow),water,1.6
+Ponyta (Shadow),grass,0.625
+Ponyta (Shadow),electric,1.0
+Ponyta (Shadow),psychic,1.0
+Ponyta (Shadow),ice,0.625
+Ponyta (Shadow),dragon,1.0
+Ponyta (Shadow),dark,1.0
+Ponyta (Shadow),fairy,0.625
 Rapidash,normal,1.0
 Rapidash,fighting,1.0
 Rapidash,flying,1.0
@@ -3401,6 +3419,24 @@ Rapidash (Galarian),ice,1.0
 Rapidash (Galarian),dragon,0.391
 Rapidash (Galarian),dark,1.0
 Rapidash (Galarian),fairy,1.0
+Rapidash (Shadow),normal,1.0
+Rapidash (Shadow),fighting,1.0
+Rapidash (Shadow),flying,1.0
+Rapidash (Shadow),poison,1.0
+Rapidash (Shadow),ground,1.6
+Rapidash (Shadow),rock,1.6
+Rapidash (Shadow),bug,0.625
+Rapidash (Shadow),ghost,1.0
+Rapidash (Shadow),steel,0.625
+Rapidash (Shadow),fire,0.625
+Rapidash (Shadow),water,1.6
+Rapidash (Shadow),grass,0.625
+Rapidash (Shadow),electric,1.0
+Rapidash (Shadow),psychic,1.0
+Rapidash (Shadow),ice,0.625
+Rapidash (Shadow),dragon,1.0
+Rapidash (Shadow),dark,1.0
+Rapidash (Shadow),fairy,0.625
 Slowpoke,normal,1.0
 Slowpoke,fighting,0.625
 Slowpoke,flying,1.0
@@ -5687,6 +5723,24 @@ Kabuto,ice,0.625
 Kabuto,dragon,1.0
 Kabuto,dark,1.0
 Kabuto,fairy,1.0
+Kabuto (Shadow),normal,0.625
+Kabuto (Shadow),fighting,1.6
+Kabuto (Shadow),flying,0.625
+Kabuto (Shadow),poison,0.625
+Kabuto (Shadow),ground,1.6
+Kabuto (Shadow),rock,1.0
+Kabuto (Shadow),bug,1.0
+Kabuto (Shadow),ghost,1.0
+Kabuto (Shadow),steel,1.0
+Kabuto (Shadow),fire,0.391
+Kabuto (Shadow),water,1.0
+Kabuto (Shadow),grass,2.56
+Kabuto (Shadow),electric,1.6
+Kabuto (Shadow),psychic,1.0
+Kabuto (Shadow),ice,0.625
+Kabuto (Shadow),dragon,1.0
+Kabuto (Shadow),dark,1.0
+Kabuto (Shadow),fairy,1.0
 Kabutops,normal,0.625
 Kabutops,fighting,1.6
 Kabutops,flying,0.625
@@ -5705,6 +5759,24 @@ Kabutops,ice,0.625
 Kabutops,dragon,1.0
 Kabutops,dark,1.0
 Kabutops,fairy,1.0
+Kabutops (Shadow),normal,0.625
+Kabutops (Shadow),fighting,1.6
+Kabutops (Shadow),flying,0.625
+Kabutops (Shadow),poison,0.625
+Kabutops (Shadow),ground,1.6
+Kabutops (Shadow),rock,1.0
+Kabutops (Shadow),bug,1.0
+Kabutops (Shadow),ghost,1.0
+Kabutops (Shadow),steel,1.0
+Kabutops (Shadow),fire,0.391
+Kabutops (Shadow),water,1.0
+Kabutops (Shadow),grass,2.56
+Kabutops (Shadow),electric,1.6
+Kabutops (Shadow),psychic,1.0
+Kabutops (Shadow),ice,0.625
+Kabutops (Shadow),dragon,1.0
+Kabutops (Shadow),dark,1.0
+Kabutops (Shadow),fairy,1.0
 Aerodactyl,normal,0.625
 Aerodactyl,fighting,1.0
 Aerodactyl,flying,0.625
@@ -21689,24 +21761,6 @@ Thundurus (Incarnate),ice,1.6
 Thundurus (Incarnate),dragon,1.0
 Thundurus (Incarnate),dark,1.0
 Thundurus (Incarnate),fairy,1.0
-Thundurus (Therian),normal,1.0
-Thundurus (Therian),fighting,0.625
-Thundurus (Therian),flying,0.625
-Thundurus (Therian),poison,1.0
-Thundurus (Therian),ground,0.625
-Thundurus (Therian),rock,1.6
-Thundurus (Therian),bug,1.0
-Thundurus (Therian),ghost,1.0
-Thundurus (Therian),steel,0.625
-Thundurus (Therian),fire,1.0
-Thundurus (Therian),water,1.0
-Thundurus (Therian),grass,0.625
-Thundurus (Therian),electric,1.0
-Thundurus (Therian),psychic,1.0
-Thundurus (Therian),ice,1.6
-Thundurus (Therian),dragon,1.0
-Thundurus (Therian),dark,1.0
-Thundurus (Therian),fairy,1.0
 Thundurus (Incarnate) (Shadow),normal,1.0
 Thundurus (Incarnate) (Shadow),fighting,0.625
 Thundurus (Incarnate) (Shadow),flying,0.625
@@ -21725,6 +21779,24 @@ Thundurus (Incarnate) (Shadow),ice,1.6
 Thundurus (Incarnate) (Shadow),dragon,1.0
 Thundurus (Incarnate) (Shadow),dark,1.0
 Thundurus (Incarnate) (Shadow),fairy,1.0
+Thundurus (Therian),normal,1.0
+Thundurus (Therian),fighting,0.625
+Thundurus (Therian),flying,0.625
+Thundurus (Therian),poison,1.0
+Thundurus (Therian),ground,0.625
+Thundurus (Therian),rock,1.6
+Thundurus (Therian),bug,1.0
+Thundurus (Therian),ghost,1.0
+Thundurus (Therian),steel,0.625
+Thundurus (Therian),fire,1.0
+Thundurus (Therian),water,1.0
+Thundurus (Therian),grass,0.625
+Thundurus (Therian),electric,1.0
+Thundurus (Therian),psychic,1.0
+Thundurus (Therian),ice,1.6
+Thundurus (Therian),dragon,1.0
+Thundurus (Therian),dark,1.0
+Thundurus (Therian),fairy,1.0
 Reshiram,normal,1.0
 Reshiram,fighting,1.0
 Reshiram,flying,1.0
