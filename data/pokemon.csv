@@ -1644,8 +1644,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 966,revavroom,Revavroom,229,168,190,"['steel', 'poison']","['LICK', 'POISON_JAB', 'METAL_SOUND']","['ACID_SPRAY', 'GUNK_SHOT', 'GYRO_BALL', 'OVERHEAT']",nan,nan,3,50000,True,FAMILY_VAROOM,nan,varoom,nan
 967,cyclizar,Cyclizar,205,142,172,"['dragon', 'normal']","['DRAGON_TAIL', 'TAKE_DOWN']","['DRAGON_CLAW', 'BODY_SLAM']",nan,nan,3,75000,False,,nan,,nan
 968,orthworm,Orthworm,161,219,172,"['steel', 'none']","['IRON_TAIL', 'MUD_SLAP']","['ROCK_TOMB', 'EARTHQUAKE', 'IRON_HEAD']",nan,nan,5,75000,False,,nan,,nan
-969,glimmet,Glimmet,187,104,134,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'POWER_GEM', 'SLUDGE_WAVE']",nan,nan,3,50000,False,FAMILY_GLIMMET,['glimmora'],,nan
-970,glimmora,Glimmora,246,177,195,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'POWER_GEM', 'SLUDGE_WAVE', 'METEOR_BEAM']",nan,nan,3,50000,False,FAMILY_GLIMMET,nan,glimmet,nan
+969,glimmet,Glimmet,187,104,134,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'POWER_GEM', 'SLUDGE_WAVE']",nan,nan,3,50000,True,FAMILY_GLIMMET,['glimmora'],,nan
+970,glimmora,Glimmora,246,177,195,"['rock', 'poison']","['ROCK_THROW', 'SMACK_DOWN']","['DAZZLING_GLEAM', 'POWER_GEM', 'SLUDGE_WAVE', 'METEOR_BEAM']",nan,nan,3,50000,True,FAMILY_GLIMMET,nan,glimmet,nan
 971,greavard,Greavard,105,106,137,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS']",nan,nan,3,50000,True,FAMILY_GREAVARD,['houndstone'],,nan
 972,houndstone,Houndstone,186,195,176,"['ghost', 'none']","['LICK', 'BITE']","['SHADOW_BALL', 'DIG', 'PSYCHIC_FANGS', 'PLAY_ROUGH']",nan,nan,3,50000,True,FAMILY_GREAVARD,nan,greavard,nan
 973,flamigo,Flamigo,227,145,193,"['flying', 'fighting']","['WING_ATTACK', 'DOUBLE_KICK']","['AERIAL_ACE', 'BRAVE_BIRD', 'CLOSE_COMBAT']",nan,nan,3,75000,False,,nan,,nan
