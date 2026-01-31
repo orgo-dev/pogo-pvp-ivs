@@ -5562,7 +5562,8 @@
             "PSYSHOCK",
             "SOLAR_BEAM",
             "WEATHER_BALL_FIRE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "ENERGY_BALL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5597,7 +5598,8 @@
         "eliteMoves": [
             "EMBER",
             "FIRE_BLAST",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "ENERGY_BALL"
         ],
         "searchPriority": 3,
         "buddyDistance": 3,
@@ -5634,7 +5636,11 @@
             "DAZZLING_GLEAM",
             "ICE_BEAM",
             "PSYSHOCK",
-            "WEATHER_BALL_ICE"
+            "WEATHER_BALL_ICE",
+            "CHILLING_WATER"
+        ],
+        "eliteMoves": [
+            "CHILLING_WATER"
         ],
         "tags": [
             "alolan",
@@ -5702,7 +5708,11 @@
             "DAZZLING_GLEAM",
             "ICE_BEAM",
             "PSYSHOCK",
-            "WEATHER_BALL_ICE"
+            "WEATHER_BALL_ICE",
+            "CHILLING_WATER"
+        ],
+        "eliteMoves": [
+            "CHILLING_WATER"
         ],
         "tags": [
             "alolan",
@@ -5772,7 +5782,8 @@
             "PSYSHOCK",
             "SOLAR_BEAM",
             "WEATHER_BALL_FIRE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "ENERGY_BALL"
         ],
         "defaultIVs": {
             "cp500": [
@@ -5806,7 +5817,8 @@
         "eliteMoves": [
             "EMBER",
             "FIRE_BLAST",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "ENERGY_BALL"
         ],
         "searchPriority": 6,
         "buddyDistance": 3,

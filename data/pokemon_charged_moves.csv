@@ -4359,6 +4359,7 @@ Nihilego,Sludge Bomb,charged,poison,1.2,80,50,1.6,,General,
 Nincada,Aerial Ace,charged,flying,1.0,60,45,1.33,,General,
 Nincada,Bug Buzz,charged,bug,1.2,100,60,1.67,30.0% chance -1 Def opponent,Debuff,
 Nincada,Night Slash,charged,dark,1.0,50,35,1.43,12.5% chance +2 Atk self,Boost Spam,
+Ninetales,Energy Ball,charged,grass,1.0,90,55,1.64,10.0% chance -1 Def opponent,High Energy,elite
 Ninetales,Fire Blast,charged,fire,1.2,140,80,1.75,,Nuke,elite
 Ninetales,Flamethrower,charged,fire,1.2,90,55,1.64,,High Energy,elite
 Ninetales,Heat Wave,charged,fire,1.2,95,75,1.27,,High Energy,
@@ -4369,17 +4370,20 @@ Ninetales,Scorching Sands,charged,ground,1.0,80,50,1.6,10.0% chance -1 Atk oppon
 Ninetales,Solar Beam,charged,grass,1.0,150,80,1.88,,Nuke,
 Ninetales,Weather Ball (Fire),charged,fire,1.2,60,35,1.71,,Spam/Bait,
 Ninetales (Alolan),Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
+Ninetales (Alolan),Chilling Water,charged,water,1.0,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Ninetales (Alolan),Dazzling Gleam,charged,fairy,1.2,90,55,1.64,,Nuke,
 Ninetales (Alolan),Ice Beam,charged,ice,1.2,90,55,1.64,,High Energy,
 Ninetales (Alolan),Psyshock,charged,psychic,1.0,70,40,1.75,,General,
 Ninetales (Alolan),Return,charged,normal,1.0,130,70,1.86,,Nuke,
 Ninetales (Alolan),Weather Ball (Ice),charged,ice,1.2,60,35,1.71,,Spam/Bait,
 Ninetales (Alolan) (Shadow),Blizzard,charged,ice,1.2,140,75,1.87,,Nuke,
+Ninetales (Alolan) (Shadow),Chilling Water,charged,water,1.0,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Ninetales (Alolan) (Shadow),Dazzling Gleam,charged,fairy,1.2,90,55,1.64,,Nuke,
 Ninetales (Alolan) (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,
 Ninetales (Alolan) (Shadow),Ice Beam,charged,ice,1.2,90,55,1.64,,High Energy,
 Ninetales (Alolan) (Shadow),Psyshock,charged,psychic,1.0,70,40,1.75,,General,
 Ninetales (Alolan) (Shadow),Weather Ball (Ice),charged,ice,1.2,60,35,1.71,,Spam/Bait,
+Ninetales (Shadow),Energy Ball,charged,grass,1.0,90,55,1.64,10.0% chance -1 Def opponent,High Energy,elite
 Ninetales (Shadow),Fire Blast,charged,fire,1.2,140,80,1.75,,Nuke,elite
 Ninetales (Shadow),Flamethrower,charged,fire,1.2,90,55,1.64,,High Energy,elite
 Ninetales (Shadow),Frustration,charged,normal,1.0,10,70,0.14,,High Energy,

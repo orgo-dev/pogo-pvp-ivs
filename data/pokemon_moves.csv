@@ -6919,6 +6919,7 @@ Nincada,Night Slash,charged,dark,1.0,50,0,1,,,35.0,1.43,12.5% chance +2 Atk self
 Ninetales,Ember,fast,fire,1.2,4,9,2,2.0,4.5,,,,Fast Charge,elite
 Ninetales,Feint Attack,fast,dark,1.0,6,6,2,3.0,3.0,,,,General,
 Ninetales,Fire Spin,fast,fire,1.2,11,10,3,3.67,3.33,,,,General,
+Ninetales,Energy Ball,charged,grass,1.0,90,0,1,,,55.0,1.64,10.0% chance -1 Def opponent,High Energy,elite
 Ninetales,Fire Blast,charged,fire,1.2,140,0,1,,,80.0,1.75,,Nuke,elite
 Ninetales,Flamethrower,charged,fire,1.2,90,0,1,,,55.0,1.64,,High Energy,elite
 Ninetales,Heat Wave,charged,fire,1.2,95,0,1,,,75.0,1.27,,High Energy,
@@ -6932,6 +6933,7 @@ Ninetales (Alolan),Charm,fast,fairy,1.2,13,8,3,4.33,2.67,,,,Heavy Damage,
 Ninetales (Alolan),Feint Attack,fast,dark,1.0,6,6,2,3.0,3.0,,,,General,
 Ninetales (Alolan),Powder Snow,fast,ice,1.2,6,8,2,3.0,4.0,,,,Multipurpose,
 Ninetales (Alolan),Blizzard,charged,ice,1.2,140,0,1,,,75.0,1.87,,Nuke,
+Ninetales (Alolan),Chilling Water,charged,water,1.0,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,elite
 Ninetales (Alolan),Dazzling Gleam,charged,fairy,1.2,90,0,1,,,55.0,1.64,,Nuke,
 Ninetales (Alolan),Ice Beam,charged,ice,1.2,90,0,1,,,55.0,1.64,,High Energy,
 Ninetales (Alolan),Psyshock,charged,psychic,1.0,70,0,1,,,40.0,1.75,,General,
@@ -6941,6 +6943,7 @@ Ninetales (Alolan) (Shadow),Charm,fast,fairy,1.2,13,8,3,4.33,2.67,,,,Heavy Damag
 Ninetales (Alolan) (Shadow),Feint Attack,fast,dark,1.0,6,6,2,3.0,3.0,,,,General,
 Ninetales (Alolan) (Shadow),Powder Snow,fast,ice,1.2,6,8,2,3.0,4.0,,,,Multipurpose,
 Ninetales (Alolan) (Shadow),Blizzard,charged,ice,1.2,140,0,1,,,75.0,1.87,,Nuke,
+Ninetales (Alolan) (Shadow),Chilling Water,charged,water,1.0,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,elite
 Ninetales (Alolan) (Shadow),Dazzling Gleam,charged,fairy,1.2,90,0,1,,,55.0,1.64,,Nuke,
 Ninetales (Alolan) (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy,
 Ninetales (Alolan) (Shadow),Ice Beam,charged,ice,1.2,90,0,1,,,55.0,1.64,,High Energy,
@@ -6949,6 +6952,7 @@ Ninetales (Alolan) (Shadow),Weather Ball (Ice),charged,ice,1.2,60,0,1,,,35.0,1.7
 Ninetales (Shadow),Ember,fast,fire,1.2,4,9,2,2.0,4.5,,,,Fast Charge,elite
 Ninetales (Shadow),Feint Attack,fast,dark,1.0,6,6,2,3.0,3.0,,,,General,
 Ninetales (Shadow),Fire Spin,fast,fire,1.2,11,10,3,3.67,3.33,,,,General,
+Ninetales (Shadow),Energy Ball,charged,grass,1.0,90,0,1,,,55.0,1.64,10.0% chance -1 Def opponent,High Energy,elite
 Ninetales (Shadow),Fire Blast,charged,fire,1.2,140,0,1,,,80.0,1.75,,Nuke,elite
 Ninetales (Shadow),Flamethrower,charged,fire,1.2,90,0,1,,,55.0,1.64,,High Energy,elite
 Ninetales (Shadow),Frustration,charged,normal,1.0,10,0,1,,,70.0,0.14,,High Energy,
