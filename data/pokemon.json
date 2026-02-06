@@ -90159,13 +90159,14 @@
         ],
         "fastMoves": [
             "ASTONISH",
-            "ZEN_HEADBUTT",
+            "EXTRASENSORY",
             "FAIRY_WIND"
         ],
         "chargedMoves": [
-            "DAZZLING_GLEAM",
+            "MOONBLAST",
             "FLY",
-            "GRASS_KNOT"
+            "EARTH_POWER",
+            "MYSTICAL_FIRE"
         ],
         "defaultIVs": {
             "cp500": [
