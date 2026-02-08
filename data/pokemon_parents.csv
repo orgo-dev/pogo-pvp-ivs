@@ -311,14 +311,18 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 69,bellsprout,Bellsprout,69,bellsprout,Bellsprout,True
 69,bellsprout,Bellsprout,70,weepinbell,Weepinbell,False
 69,bellsprout,Bellsprout,71,victreebel,Victreebel,False
+69,bellsprout,Bellsprout,71,victreebel_mega,Victreebel (Mega),False
 69,bellsprout_shadow,Bellsprout (Shadow),69,bellsprout_shadow,Bellsprout (Shadow),True
 69,bellsprout_shadow,Bellsprout (Shadow),70,weepinbell_shadow,Weepinbell (Shadow),False
 69,bellsprout_shadow,Bellsprout (Shadow),71,victreebel_shadow,Victreebel (Shadow),False
 70,weepinbell,Weepinbell,70,weepinbell,Weepinbell,True
 70,weepinbell,Weepinbell,71,victreebel,Victreebel,False
+70,weepinbell,Weepinbell,71,victreebel_mega,Victreebel (Mega),False
 70,weepinbell_shadow,Weepinbell (Shadow),70,weepinbell_shadow,Weepinbell (Shadow),True
 70,weepinbell_shadow,Weepinbell (Shadow),71,victreebel_shadow,Victreebel (Shadow),False
 71,victreebel,Victreebel,71,victreebel,Victreebel,True
+71,victreebel,Victreebel,71,victreebel_mega,Victreebel (Mega),False
+71,victreebel_mega,Victreebel (Mega),71,victreebel_mega,Victreebel (Mega),True
 71,victreebel_shadow,Victreebel (Shadow),71,victreebel_shadow,Victreebel (Shadow),True
 72,tentacool,Tentacool,72,tentacool,Tentacool,True
 72,tentacool,Tentacool,73,tentacruel,Tentacruel,False
@@ -2168,9 +2172,12 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 685,slurpuff,Slurpuff,685,slurpuff,Slurpuff,True
 686,inkay,Inkay,686,inkay,Inkay,True
 686,inkay,Inkay,687,malamar,Malamar,False
+686,inkay,Inkay,687,malamar_mega,Malamar (Mega),False
 686,inkay_shadow,Inkay (Shadow),686,inkay_shadow,Inkay (Shadow),True
 686,inkay_shadow,Inkay (Shadow),687,malamar_shadow,Malamar (Shadow),False
 687,malamar,Malamar,687,malamar,Malamar,True
+687,malamar,Malamar,687,malamar_mega,Malamar (Mega),False
+687,malamar_mega,Malamar (Mega),687,malamar_mega,Malamar (Mega),True
 687,malamar_shadow,Malamar (Shadow),687,malamar_shadow,Malamar (Shadow),True
 688,binacle,Binacle,688,binacle,Binacle,True
 688,binacle,Binacle,689,barbaracle,Barbaracle,False
