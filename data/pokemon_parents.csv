@@ -614,14 +614,18 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 147,dratini,Dratini,147,dratini,Dratini,True
 147,dratini,Dratini,148,dragonair,Dragonair,False
 147,dratini,Dratini,149,dragonite,Dragonite,False
+147,dratini,Dratini,149,dragonite_mega,Dragonite (Mega),False
 147,dratini_shadow,Dratini (Shadow),147,dratini_shadow,Dratini (Shadow),True
 147,dratini_shadow,Dratini (Shadow),148,dragonair_shadow,Dragonair (Shadow),False
 147,dratini_shadow,Dratini (Shadow),149,dragonite_shadow,Dragonite (Shadow),False
 148,dragonair,Dragonair,148,dragonair,Dragonair,True
 148,dragonair,Dragonair,149,dragonite,Dragonite,False
+148,dragonair,Dragonair,149,dragonite_mega,Dragonite (Mega),False
 148,dragonair_shadow,Dragonair (Shadow),148,dragonair_shadow,Dragonair (Shadow),True
 148,dragonair_shadow,Dragonair (Shadow),149,dragonite_shadow,Dragonite (Shadow),False
 149,dragonite,Dragonite,149,dragonite,Dragonite,True
+149,dragonite,Dragonite,149,dragonite_mega,Dragonite (Mega),False
+149,dragonite_mega,Dragonite (Mega),149,dragonite_mega,Dragonite (Mega),True
 149,dragonite_shadow,Dragonite (Shadow),149,dragonite_shadow,Dragonite (Shadow),True
 150,mewtwo,Mewtwo,150,mewtwo,Mewtwo,True
 150,mewtwo_armored,Mewtwo (Armored),150,mewtwo_armored,Mewtwo (Armored),True
