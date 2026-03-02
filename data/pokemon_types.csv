@@ -335,6 +335,8 @@ Weepinbell (Shadow),grass
 Weepinbell (Shadow),poison
 Victreebel,grass
 Victreebel,poison
+Victreebel (Mega),grass
+Victreebel (Mega),poison
 Victreebel (Shadow),grass
 Victreebel (Shadow),poison
 Tentacool,water
@@ -373,10 +375,14 @@ Ponyta,fire
 Ponyta,none
 Ponyta (Galarian),psychic
 Ponyta (Galarian),none
+Ponyta (Shadow),fire
+Ponyta (Shadow),none
 Rapidash,fire
 Rapidash,none
 Rapidash (Galarian),psychic
 Rapidash (Galarian),fairy
+Rapidash (Shadow),fire
+Rapidash (Shadow),none
 Slowpoke,water
 Slowpoke,psychic
 Slowpoke (Galarian),psychic
@@ -631,8 +637,12 @@ Omastar (Shadow),rock
 Omastar (Shadow),water
 Kabuto,rock
 Kabuto,water
+Kabuto (Shadow),rock
+Kabuto (Shadow),water
 Kabutops,rock
 Kabutops,water
+Kabutops (Shadow),rock
+Kabutops (Shadow),water
 Aerodactyl,rock
 Aerodactyl,flying
 Aerodactyl (Mega),rock
@@ -673,6 +683,8 @@ Dragonite,dragon
 Dragonite,flying
 Dragonite (Shadow),dragon
 Dragonite (Shadow),flying
+Dragonite (Mega),dragon
+Dragonite (Mega),flying
 Mewtwo,psychic
 Mewtwo,none
 Mewtwo (Armored),psychic
@@ -889,6 +901,8 @@ Qwilfish,water
 Qwilfish,poison
 Qwilfish (Hisuian),dark
 Qwilfish (Hisuian),poison
+Qwilfish (Shadow),water
+Qwilfish (Shadow),poison
 Scizor,bug
 Scizor,steel
 Scizor (Mega),bug
@@ -1267,6 +1281,8 @@ Carvanha (Shadow),water
 Carvanha (Shadow),dark
 Sharpedo,water
 Sharpedo,dark
+Sharpedo (Mega),water
+Sharpedo (Mega),dark
 Sharpedo (Shadow),water
 Sharpedo (Shadow),dark
 Wailmer,water
@@ -1283,6 +1299,8 @@ Numel (Shadow),fire
 Numel (Shadow),ground
 Camerupt,fire
 Camerupt,ground
+Camerupt (Mega),fire
+Camerupt (Mega),ground
 Camerupt (Shadow),fire
 Camerupt (Shadow),ground
 Torkoal,fire
@@ -1319,10 +1337,14 @@ Cacturne (Shadow),grass
 Cacturne (Shadow),dark
 Swablu,normal
 Swablu,flying
+Swablu (Shadow),normal
+Swablu (Shadow),flying
 Altaria,dragon
 Altaria,flying
 Altaria (Mega),dragon
 Altaria (Mega),fairy
+Altaria (Shadow),dragon
+Altaria (Shadow),flying
 Zangoose,normal
 Zangoose,none
 Seviper,poison
@@ -1349,8 +1371,12 @@ Crawdaunt (Shadow),water
 Crawdaunt (Shadow),dark
 Baltoy,ground
 Baltoy,psychic
+Baltoy (Shadow),ground
+Baltoy (Shadow),psychic
 Claydol,ground
 Claydol,psychic
+Claydol (Shadow),ground
+Claydol (Shadow),psychic
 Lileep,rock
 Lileep,grass
 Lileep (Shadow),rock
@@ -1371,8 +1397,12 @@ Armaldo (Shadow),rock
 Armaldo (Shadow),bug
 Feebas,water
 Feebas,none
+Feebas (Shadow),water
+Feebas (Shadow),none
 Milotic,water
 Milotic,none
+Milotic (Shadow),water
+Milotic (Shadow),none
 Castform,normal
 Castform,none
 Castform (Rainy),water
@@ -1469,6 +1499,8 @@ Metang (Shadow),steel
 Metang (Shadow),psychic
 Metagross,steel
 Metagross,psychic
+Metagross (Mega),steel
+Metagross (Mega),psychic
 Metagross (Shadow),steel
 Metagross (Shadow),psychic
 Regirock,rock
@@ -1875,8 +1907,6 @@ Giratina (Altered),ghost
 Giratina (Altered),dragon
 Giratina (Altered) (Shadow),ghost
 Giratina (Altered) (Shadow),dragon
-Giratina (Altered) (Shadow),ghost
-Giratina (Altered) (Shadow),dragon
 Giratina (Origin),ghost
 Giratina (Origin),dragon
 Cresselia,psychic
@@ -1889,6 +1919,8 @@ Manaphy,water
 Manaphy,none
 Darkrai,dark
 Darkrai,none
+Darkrai (Shadow),dark
+Darkrai (Shadow),none
 Shaymin (Land),grass
 Shaymin (Land),none
 Shaymin (Sky),grass
@@ -2153,8 +2185,12 @@ Yamask,ghost
 Yamask,none
 Yamask (Galarian),ground
 Yamask (Galarian),ghost
+Yamask (Shadow),ghost
+Yamask (Shadow),none
 Cofagrigus,ghost
 Cofagrigus,none
+Cofagrigus (Shadow),ghost
+Cofagrigus (Shadow),none
 Tirtouga,water
 Tirtouga,rock
 Tirtouga (Shadow),water
@@ -2361,10 +2397,16 @@ Durant,bug
 Durant,steel
 Deino,dark
 Deino,dragon
+Deino (Shadow),dark
+Deino (Shadow),dragon
 Zweilous,dark
 Zweilous,dragon
+Zweilous (Shadow),dark
+Zweilous (Shadow),dragon
 Hydreigon,dark
 Hydreigon,dragon
+Hydreigon (Shadow),dark
+Hydreigon (Shadow),dragon
 Larvesta,bug
 Larvesta,fire
 Volcarona,bug
@@ -2377,10 +2419,14 @@ Virizion,grass
 Virizion,fighting
 Tornadus (Incarnate),flying
 Tornadus (Incarnate),none
+Tornadus (Incarnate) (Shadow),flying
+Tornadus (Incarnate) (Shadow),none
 Tornadus (Therian),flying
 Tornadus (Therian),none
 Thundurus (Incarnate),electric
 Thundurus (Incarnate),flying
+Thundurus (Incarnate) (Shadow),electric
+Thundurus (Incarnate) (Shadow),flying
 Thundurus (Therian),electric
 Thundurus (Therian),flying
 Reshiram,dragon
@@ -2417,22 +2463,40 @@ Genesect (Shock),bug
 Genesect (Shock),steel
 Chespin,grass
 Chespin,none
+Chespin (Shadow),grass
+Chespin (Shadow),none
 Quilladin,grass
 Quilladin,none
+Quilladin (Shadow),grass
+Quilladin (Shadow),none
 Chesnaught,grass
 Chesnaught,fighting
+Chesnaught (Shadow),grass
+Chesnaught (Shadow),fighting
 Fennekin,fire
 Fennekin,none
+Fennekin (Shadow),fire
+Fennekin (Shadow),none
 Braixen,fire
 Braixen,none
+Braixen (Shadow),fire
+Braixen (Shadow),none
 Delphox,fire
 Delphox,psychic
+Delphox (Shadow),fire
+Delphox (Shadow),psychic
 Froakie,water
 Froakie,none
+Froakie (Shadow),water
+Froakie (Shadow),none
 Frogadier,water
 Frogadier,none
+Frogadier (Shadow),water
+Frogadier (Shadow),none
 Greninja,water
 Greninja,dark
+Greninja (Shadow),water
+Greninja (Shadow),dark
 Bunnelby,normal
 Bunnelby,none
 Bunnelby (Shadow),normal
@@ -2507,6 +2571,8 @@ Inkay (Shadow),dark
 Inkay (Shadow),psychic
 Malamar,dark
 Malamar,psychic
+Malamar (Mega),dark
+Malamar (Mega),psychic
 Malamar (Shadow),dark
 Malamar (Shadow),psychic
 Binacle,rock
@@ -2559,8 +2625,12 @@ Klefki,steel
 Klefki,fairy
 Phantump,ghost
 Phantump,grass
+Phantump (Shadow),ghost
+Phantump (Shadow),grass
 Trevenant,ghost
 Trevenant,grass
+Trevenant (Shadow),ghost
+Trevenant (Shadow),grass
 Pumpkaboo (Average),ghost
 Pumpkaboo (Average),grass
 Pumpkaboo (Large),ghost
@@ -2999,8 +3069,6 @@ Eiscue (Ice),ice
 Eiscue (Ice),none
 Eiscue (Noice),ice
 Eiscue (Noice),none
-Indeedee,psychic
-Indeedee,normal
 Indeedee (Female),psychic
 Indeedee (Female),normal
 Indeedee (Male),psychic
@@ -3257,16 +3325,10 @@ Annihilape (Shadow),fighting
 Annihilape (Shadow),ghost
 Clodsire,poison
 Clodsire,ground
-Clodsire,poison
-Clodsire,ground
 Farigiraf,normal
 Farigiraf,psychic
 Dudunsparce,normal
 Dudunsparce,none
-Dudunsparce_three,normal
-Dudunsparce_three,none
-Dudunsparce_two,normal
-Dudunsparce_two,none
 Kingambit,dark
 Kingambit,steel
 Greattusk,ground
@@ -3323,3 +3385,37 @@ Miraidon,electric
 Miraidon,dragon
 Miraidon_ultimate,electric
 Miraidon_ultimate,dragon
+Walking Wake,water
+Walking Wake,dragon
+Iron Leaves,grass
+Iron Leaves,psychic
+Dipplin,grass
+Dipplin,dragon
+Poltchageist,grass
+Poltchageist,ghost
+Sinistcha,grass
+Sinistcha,ghost
+Okidogi,poison
+Okidogi,fighting
+Munkidori,poison
+Munkidori,psychic
+Fezandipiti,poison
+Fezandipiti,fairy
+Ogerpon,grass
+Ogerpon,none
+Archaludon,steel
+Archaludon,dragon
+Hydrapple,grass
+Hydrapple,dragon
+Gouging Fire,fire
+Gouging Fire,dragon
+Raging Bolt,electric
+Raging Bolt,dragon
+Iron Boulder,rock
+Iron Boulder,psychic
+Iron Crown,steel
+Iron Crown,psychic
+Terapagos,normal
+Terapagos,none
+Pecharunt,poison
+Pecharunt,ghost
