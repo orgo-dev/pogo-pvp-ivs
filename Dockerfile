@@ -1,4 +1,4 @@
-FROM python:3.10.14-slim-bookworm
+FROM python:3.13-slim-bookworm
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 RUN mkdir -p /app/data
