@@ -1468,7 +1468,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 812,rillaboom,Rillaboom,239,168,225,"['grass', 'none']","['SCRATCH', 'RAZOR_LEAF']","['ENERGY_BALL', 'GRASS_KNOT', 'EARTH_POWER', 'DRUM_BEATING', 'FRENZY_PLANT']",['FRENZY_PLANT'],nan,3,10000,True,FAMILY_GROOKEY,nan,thwackey,['starter']
 813,scorbunny,Scorbunny,132,79,137,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,['raboot'],,['starter']
 814,raboot,Raboot,170,125,163,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,['cinderace'],scorbunny,['starter']
-815,cinderace,Cinderace,238,163,190,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER', 'FOCUS_BLAST']",nan,nan,3,10000,True,FAMILY_SCORBUNNY,nan,raboot,['starter']
+815,cinderace,Cinderace,238,163,190,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER', 'FOCUS_BLAST', 'PYRO_BALL', 'BLAST_BURN']",['BLAST_BURN'],nan,3,10000,True,FAMILY_SCORBUNNY,nan,raboot,['starter']
 816,sobble,Sobble,132,79,137,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF']",nan,nan,3,10000,True,FAMILY_SOBBLE,['drizzile'],,['starter']
 817,drizzile,Drizzile,186,113,163,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF']",nan,nan,3,10000,True,FAMILY_SOBBLE,['inteleon'],sobble,['starter']
 818,inteleon,Inteleon,262,142,172,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF', 'SHADOW_BALL']",nan,nan,3,10000,True,FAMILY_SOBBLE,nan,drizzile,['starter']
