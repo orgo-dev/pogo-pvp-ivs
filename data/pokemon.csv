@@ -1428,7 +1428,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 775,komala,Komala,216,165,163,"['normal', 'none']","['ROLLOUT', 'YAWN']","['PLAY_ROUGH', 'BULLDOZE', 'PAYBACK']",nan,nan,3,50000,True,,nan,,nan
 776,turtonator,Turtonator,165,215,155,"['fire', 'dragon']","['EMBER', 'FIRE_SPIN', 'INCINERATE']","['OVERHEAT', 'FLAMETHROWER', 'DRAGON_PULSE', 'FLASH_CANNON', 'BRUTAL_SWING', 'DRAGON_CLAW']",nan,nan,5,75000,True,,nan,,nan
 777,togedemaru,Togedemaru,190,145,163,"['electric', 'steel']","['THUNDER_SHOCK', 'SPARK']","['FELL_STINGER', 'WILD_CHARGE', 'GYRO_BALL']",nan,nan,3,50000,True,,nan,,nan
-778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'CHARM']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'SHADOW_BALL']",nan,nan,5,50000,False,,nan,,nan
+778,mimikyu,Mimikyu,177,199,146,"['ghost', 'fairy']","['SHADOW_CLAW', 'HEX']","['SHADOW_SNEAK', 'PLAY_ROUGH', 'THUNDER']",nan,nan,5,50000,False,,nan,,nan
 779,bruxish,Bruxish,208,145,169,"['water', 'psychic']","['WATER_GUN', 'CONFUSION', 'BITE']","['PSYCHIC_FANGS', 'AQUA_TAIL', 'CRUNCH', 'PSYSHOCK']",nan,nan,3,50000,True,,nan,,nan
 780,drampa,Drampa,231,164,186,"['normal', 'dragon']","['DRAGON_BREATH', 'EXTRASENSORY']","['OUTRAGE', 'DRAGON_PULSE', 'FLY', 'SWIFT']",nan,nan,5,75000,True,,nan,,nan
 781,dhelmise,Dhelmise,233,179,172,"['ghost', 'grass']","['ASTONISH', 'SHADOW_CLAW', 'METAL_SOUND']","['POWER_WHIP', 'SHADOW_BALL', 'HEAVY_SLAM', 'WRAP', 'BRUTAL_SWING']",nan,nan,5,50000,True,,nan,,nan
@@ -1477,9 +1477,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 821,rookidee,Rookidee,88,67,116,"['flying', 'none']","['PECK', 'AIR_SLASH', 'SAND_ATTACK']","['SKY_ATTACK', 'PAYBACK']",nan,nan,1,10000,True,FAMILY_ROOKIDEE,['corvisquire'],,nan
 822,corvisquire,Corvisquire,129,110,169,"['flying', 'none']","['PECK', 'AIR_SLASH', 'SAND_ATTACK']","['SKY_ATTACK', 'PAYBACK']",nan,nan,1,10000,True,FAMILY_ROOKIDEE,['corviknight'],rookidee,nan
 823,corviknight,Corviknight,163,192,221,"['flying', 'steel']","['STEEL_WING', 'AIR_SLASH', 'SAND_ATTACK']","['SKY_ATTACK', 'PAYBACK', 'IRON_HEAD', 'AIR_CUTTER']","['IRON_HEAD', 'AIR_CUTTER']",nan,1,10000,True,FAMILY_ROOKIDEE,nan,corvisquire,nan
-824,blipbug,Blipbug,46,67,93,"['bug', 'none']",['STRUGGLE_BUG'],['STRUGGLE'],nan,nan,1,10000,False,FAMILY_BLIPBUG,['dottler'],,nan
-825,dottler,Dottler,87,157,137,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION']","['BUG_BUZZ', 'PSYCHIC']",nan,nan,1,10000,False,FAMILY_BLIPBUG,['orbeetle'],blipbug,nan
-826,orbeetle,Orbeetle,156,240,155,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION']","['BUG_BUZZ', 'PSYCHIC']",nan,nan,1,10000,False,FAMILY_BLIPBUG,nan,dottler,nan
+824,blipbug,Blipbug,46,67,93,"['bug', 'none']",['STRUGGLE_BUG'],['STRUGGLE'],nan,nan,1,10000,True,FAMILY_BLIPBUG,['dottler'],,nan
+825,dottler,Dottler,87,157,137,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION']","['BUG_BUZZ', 'PSYCHIC']",nan,nan,1,10000,True,FAMILY_BLIPBUG,['orbeetle'],blipbug,nan
+826,orbeetle,Orbeetle,156,240,155,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION', 'PSYCHO_CUT']","['BUG_BUZZ', 'PSYCHIC', 'PSYSHOCK']",nan,nan,1,10000,True,FAMILY_BLIPBUG,nan,dottler,nan
 827,nickit,Nickit,85,82,120,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1,10000,True,FAMILY_NICKIT,['thievul'],,nan
 828,thievul,Thievul,172,164,172,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1,10000,True,FAMILY_NICKIT,nan,nickit,nan
 829,gossifleur,Gossifleur,70,104,120,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3,50000,True,FAMILY_GOSSIFLEUR,['eldegoss'],,nan
