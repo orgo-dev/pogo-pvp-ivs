@@ -1497,8 +1497,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 840,applin,Applin,71,116,120,"['grass', 'dragon']",['ASTONISH'],['STRUGGLE'],nan,nan,5,75000,True,FAMILY_APPLIN,"['flapple', 'appletun', 'dipplin']",,nan
 841,flapple,Flapple,214,144,172,"['grass', 'dragon']","['BULLET_SEED', 'DRAGON_BREATH']","['DRAGON_PULSE', 'FLY', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
 842,appletun,Appletun,178,146,242,"['grass', 'dragon']","['BULLET_SEED', 'ASTONISH']","['DRAGON_PULSE', 'ENERGY_BALL', 'OUTRAGE', 'SEED_BOMB']",nan,nan,5,75000,True,FAMILY_APPLIN,nan,applin,nan
-843,silicobra,Silicobra,103,123,141,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3,50000,False,FAMILY_SILICOBRA,['sandaconda'],,nan
-844,sandaconda,Sandaconda,202,207,176,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3,50000,False,FAMILY_SILICOBRA,nan,silicobra,nan
+843,silicobra,Silicobra,103,123,141,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3,50000,True,FAMILY_SILICOBRA,['sandaconda'],,nan
+844,sandaconda,Sandaconda,202,207,176,"['ground', 'none']","['MUD_SLAP', 'MUD_SHOT']","['DIG', 'BULLDOZE', 'EARTH_POWER', 'WRAP']",nan,nan,3,50000,True,FAMILY_SILICOBRA,nan,silicobra,nan
 845,cramorant,Cramorant,173,163,172,"['flying', 'water']","['PECK', 'WATER_GUN']","['DRILL_PECK', 'FLY', 'HYDRO_PUMP']",nan,nan,3,50000,False,,nan,,nan
 846,arrokuda,Arrokuda,118,72,121,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3,50000,False,FAMILY_ARROKUDA,['barraskewda'],,nan
 847,barraskewda,Barraskewda,258,127,156,"['water', 'none']","['WATERFALL', 'BITE', 'PECK']","['CRUNCH', 'AQUA_JET', 'CLOSE_COMBAT']",nan,nan,3,50000,False,FAMILY_ARROKUDA,nan,arrokuda,nan
