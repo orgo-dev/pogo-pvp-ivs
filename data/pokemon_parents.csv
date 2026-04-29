@@ -2065,6 +2065,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 643,reshiram,Reshiram,643,reshiram,Reshiram,True
 644,zekrom,Zekrom,644,zekrom,Zekrom,True
 645,landorus_incarnate,Landorus (Incarnate),645,landorus_incarnate,Landorus (Incarnate),True
+645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),True
 645,landorus_therian,Landorus (Therian),645,landorus_therian,Landorus (Therian),True
 646,kyurem,Kyurem,646,kyurem,Kyurem,True
 646,kyurem_black,Kyurem (Black),646,kyurem_black,Kyurem (Black),True
@@ -2194,7 +2195,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 693,clawitzer,Clawitzer,693,clawitzer,Clawitzer,True
 694,helioptile,Helioptile,694,helioptile,Helioptile,True
 694,helioptile,Helioptile,695,heliolisk,Heliolisk,False
+694,helioptile_shadow,Helioptile (Shadow),694,helioptile_shadow,Helioptile (Shadow),True
+694,helioptile_shadow,Helioptile (Shadow),695,heliolisk_shadow,Heliolisk (Shadow),False
 695,heliolisk,Heliolisk,695,heliolisk,Heliolisk,True
+695,heliolisk_shadow,Heliolisk (Shadow),695,heliolisk_shadow,Heliolisk (Shadow),True
 696,tyrunt,Tyrunt,696,tyrunt,Tyrunt,True
 696,tyrunt,Tyrunt,697,tyrantrum,Tyrantrum,False
 696,tyrunt_shadow,Tyrunt (Shadow),696,tyrunt_shadow,Tyrunt (Shadow),True
@@ -2332,19 +2336,27 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 750,mudsdale,Mudsdale,750,mudsdale,Mudsdale,True
 751,dewpider,Dewpider,751,dewpider,Dewpider,True
 751,dewpider,Dewpider,752,araquanid,Araquanid,False
+751,dewpider_shadow,Dewpider (Shadow),751,dewpider_shadow,Dewpider (Shadow),True
+751,dewpider_shadow,Dewpider (Shadow),752,araquanid_shadow,Araquanid (Shadow),False
 752,araquanid,Araquanid,752,araquanid,Araquanid,True
+752,araquanid_shadow,Araquanid (Shadow),752,araquanid_shadow,Araquanid (Shadow),True
 753,fomantis,Fomantis,753,fomantis,Fomantis,True
 753,fomantis,Fomantis,754,lurantis,Lurantis,False
 754,lurantis,Lurantis,754,lurantis,Lurantis,True
 755,morelull,Morelull,755,morelull,Morelull,True
 755,morelull,Morelull,756,shiinotic,Shiinotic,False
+755,morelull,Morelull,756,shiinotic_shadow,Shiinotic (Shadow),False
 756,shiinotic,Shiinotic,756,shiinotic,Shiinotic,True
+756,shiinotic_shadow,Shiinotic (Shadow),756,shiinotic_shadow,Shiinotic (Shadow),True
 757,salandit,Salandit,757,salandit,Salandit,True
 757,salandit,Salandit,758,salazzle,Salazzle,False
 758,salazzle,Salazzle,758,salazzle,Salazzle,True
 759,stufful,Stufful,759,stufful,Stufful,True
 759,stufful,Stufful,760,bewear,Bewear,False
+759,stufful_shadow,Stufful (Shadow),759,stufful_shadow,Stufful (Shadow),True
+759,stufful_shadow,Stufful (Shadow),760,bewear_shadow,Bewear (Shadow),False
 760,bewear,Bewear,760,bewear,Bewear,True
+760,bewear_shadow,Bewear (Shadow),760,bewear_shadow,Bewear (Shadow),True
 761,bounsweet,Bounsweet,761,bounsweet,Bounsweet,True
 761,bounsweet,Bounsweet,762,steenee,Steenee,False
 761,bounsweet,Bounsweet,763,tsareena,Tsareena,False

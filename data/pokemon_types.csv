@@ -681,10 +681,10 @@ Dragonair (Shadow),dragon
 Dragonair (Shadow),none
 Dragonite,dragon
 Dragonite,flying
-Dragonite (Shadow),dragon
-Dragonite (Shadow),flying
 Dragonite (Mega),dragon
 Dragonite (Mega),flying
+Dragonite (Shadow),dragon
+Dragonite (Shadow),flying
 Mewtwo,psychic
 Mewtwo,none
 Mewtwo (Armored),psychic
@@ -2437,6 +2437,8 @@ Landorus (Incarnate),ground
 Landorus (Incarnate),flying
 Landorus (Therian),ground
 Landorus (Therian),flying
+Landorus (Incarnate) (Shadow),ground
+Landorus (Incarnate) (Shadow),flying
 Kyurem,dragon
 Kyurem,ice
 Kyurem (Black),dragon
@@ -2589,8 +2591,12 @@ Clawitzer,water
 Clawitzer,none
 Helioptile,electric
 Helioptile,normal
+Helioptile (Shadow),electric
+Helioptile (Shadow),normal
 Heliolisk,electric
 Heliolisk,normal
+Heliolisk (Shadow),electric
+Heliolisk (Shadow),normal
 Tyrunt,rock
 Tyrunt,dragon
 Tyrunt (Shadow),rock
@@ -2767,8 +2773,12 @@ Mudsdale,ground
 Mudsdale,none
 Dewpider,water
 Dewpider,bug
+Dewpider (Shadow),water
+Dewpider (Shadow),bug
 Araquanid,water
 Araquanid,bug
+Araquanid (Shadow),water
+Araquanid (Shadow),bug
 Fomantis,grass
 Fomantis,none
 Lurantis,grass
@@ -2777,14 +2787,20 @@ Morelull,grass
 Morelull,fairy
 Shiinotic,grass
 Shiinotic,fairy
+Shiinotic (Shadow),grass
+Shiinotic (Shadow),fairy
 Salandit,poison
 Salandit,fire
 Salazzle,poison
 Salazzle,fire
 Stufful,normal
 Stufful,fighting
+Stufful (Shadow),normal
+Stufful (Shadow),fighting
 Bewear,normal
 Bewear,fighting
+Bewear (Shadow),normal
+Bewear (Shadow),fighting
 Bounsweet,grass
 Bounsweet,none
 Steenee,grass
