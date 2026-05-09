@@ -1594,8 +1594,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 913,quaxwell,Quaxwell,162,123,172,"['water', 'none']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION']",nan,nan,3,10000,True,FAMILY_QUAXLY,['quaquaval'],quaxly,nan
 914,quaquaval,Quaquaval,236,159,198,"['water', 'fighting']","['WATER_GUN', 'WING_ATTACK']","['AQUA_JET', 'AERIAL_ACE', 'LIQUIDATION', 'CLOSE_COMBAT', 'AQUA_STEP', 'HYDRO_CANNON']",['HYDRO_CANNON'],nan,3,10000,True,FAMILY_QUAXLY,nan,quaxwell,nan
 915,lechonk,Lechonk,81,79,144,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,"['oinkologne', 'oinkologne']",,nan
-916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
-916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
+916,oinkologne,Oinkologne,186,153,242,"['normal', 'none']","['TACKLE', 'TAKE_DOWN', 'MUD_SLAP']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",['MUD_SLAP'],nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
+916,oinkologne_female,Oinkologne (Female),169,162,251,"['normal', 'none']","['TACKLE', 'TAKE_DOWN', 'MUD_SLAP']","['DIG', 'BODY_SLAM', 'TRAILBLAZE']",['MUD_SLAP'],nan,1,10000,True,FAMILY_LECHONK,nan,lechonk,nan
 917,tarountula,Tarountula,70,77,111,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE']",nan,nan,1,50000,True,FAMILY_TAROUNTULA,['spidops'],,nan
 918,spidops,Spidops,139,166,155,"['bug', 'none']","['BUG_BITE', 'COUNTER', 'SHADOW_CLAW']","['X_SCISSOR', 'GRASS_KNOT', 'LUNGE', 'ROCK_TOMB']",nan,nan,1,50000,True,FAMILY_TAROUNTULA,nan,tarountula,nan
 919,nymble,Nymble,81,65,107,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['X_SCISSOR', 'BUG_BUZZ', 'TRAILBLAZE']",nan,nan,1,50000,True,FAMILY_NYMBLE,['lokix'],,nan
