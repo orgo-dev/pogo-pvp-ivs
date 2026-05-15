@@ -1640,8 +1640,8 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 952,scovillain,Scovillain,216,130,163,"['grass', 'fire']","['LEAFAGE', 'FIRE_FANG']","['LEAF_STORM', 'GRASS_KNOT', 'OVERHEAT', 'FLAMETHROWER']",nan,nan,3,10000,False,FAMILY_CAPSAKID,nan,capsakid,nan
 953,rellor,Rellor,86,108,121,"['bug', 'none']","['BUG_BITE', 'STRUGGLE_BUG']","['DIG', 'BUG_BUZZ', 'LUNGE']",nan,nan,5,75000,False,FAMILY_RELLOR,['rabsca'],,nan
 954,rabsca,Rabsca,201,178,181,"['bug', 'psychic']","['BUG_BITE', 'CONFUSION']","['DIG', 'BUG_BUZZ', 'LUNGE', 'PSYBEAM']",nan,nan,5,75000,False,FAMILY_RELLOR,nan,rellor,nan
-955,flittle,Flittle,105,60,102,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3,50000,False,FAMILY_FLITTLE,['espathra'],,nan
-956,espathra,Espathra,204,127,216,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,3,50000,False,FAMILY_FLITTLE,nan,flittle,nan
+955,flittle,Flittle,105,60,102,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC']",nan,nan,3,50000,True,FAMILY_FLITTLE,['espathra'],,nan
+956,espathra,Espathra,204,127,216,"['psychic', 'none']","['PECK', 'CONFUSION']","['PSYBEAM', 'PSYSHOCK', 'PSYCHIC', 'DAZZLING_GLEAM']",nan,nan,3,50000,True,FAMILY_FLITTLE,nan,flittle,nan
 957,tinkatink,Tinkatink,85,110,137,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3,75000,True,FAMILY_TINKATINK,['tinkatuff'],,nan
 958,tinkatuff,Tinkatuff,109,145,163,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON']",nan,nan,3,75000,True,FAMILY_TINKATINK,['tinkaton'],tinkatink,nan
 959,tinkaton,Tinkaton,155,196,198,"['fairy', 'steel']","['FAIRY_WIND', 'ROCK_SMASH']","['PLAY_ROUGH', 'FLASH_CANNON', 'HEAVY_SLAM', 'BULLDOZE', 'GIGATON_HAMMER']",['GIGATON_HAMMER'],nan,3,75000,True,FAMILY_TINKATINK,nan,tinkatuff,nan
