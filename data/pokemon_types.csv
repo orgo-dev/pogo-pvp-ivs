@@ -687,6 +687,10 @@ Dragonite (Shadow),dragon
 Dragonite (Shadow),flying
 Mewtwo,psychic
 Mewtwo,none
+Mewtwo (Mega X),psychic
+Mewtwo (Mega X),fighting
+Mewtwo (Mega Y),psychic
+Mewtwo (Mega Y),none
 Mewtwo (Armored),psychic
 Mewtwo (Armored),none
 Mewtwo (Shadow),psychic
@@ -3073,6 +3077,8 @@ Alcremie,fairy
 Alcremie,none
 Falinks,fighting
 Falinks,none
+Falinks (Mega),fighting
+Falinks (Mega),none
 Pincurchin,electric
 Pincurchin,none
 Snom,ice

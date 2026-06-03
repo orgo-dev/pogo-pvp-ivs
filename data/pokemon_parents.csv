@@ -628,7 +628,11 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 149,dragonite_mega,Dragonite (Mega),149,dragonite_mega,Dragonite (Mega),True
 149,dragonite_shadow,Dragonite (Shadow),149,dragonite_shadow,Dragonite (Shadow),True
 150,mewtwo,Mewtwo,150,mewtwo,Mewtwo,True
+150,mewtwo,Mewtwo,150,mewtwo_mega_x,Mewtwo (Mega X),False
+150,mewtwo,Mewtwo,150,mewtwo_mega_y,Mewtwo (Mega Y),False
 150,mewtwo_armored,Mewtwo (Armored),150,mewtwo_armored,Mewtwo (Armored),True
+150,mewtwo_mega_x,Mewtwo (Mega X),150,mewtwo_mega_x,Mewtwo (Mega X),True
+150,mewtwo_mega_y,Mewtwo (Mega Y),150,mewtwo_mega_y,Mewtwo (Mega Y),True
 150,mewtwo_shadow,Mewtwo (Shadow),150,mewtwo_shadow,Mewtwo (Shadow),True
 151,mew,Mew,151,mew,Mew,True
 152,chikorita,Chikorita,152,chikorita,Chikorita,True
@@ -2552,6 +2556,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 868,milcery,Milcery,869,alcremie,Alcremie,False
 869,alcremie,Alcremie,869,alcremie,Alcremie,True
 870,falinks,Falinks,870,falinks,Falinks,True
+870,falinks,Falinks,870,falinks_mega,Falinks (Mega),False
+870,falinks_mega,Falinks (Mega),870,falinks_mega,Falinks (Mega),True
 871,pincurchin,Pincurchin,871,pincurchin,Pincurchin,True
 872,snom,Snom,872,snom,Snom,True
 872,snom,Snom,873,frosmoth,Frosmoth,False
