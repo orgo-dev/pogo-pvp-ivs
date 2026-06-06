@@ -204,7 +204,6 @@ PARABOLIC_CHARGE,Parabolic Charge,charged,electric,70,0,1,,,50,1.4,100% chance +
 PAYBACK,Payback,charged,dark,110,0,1,,,60,1.83,,Nuke,nan,,,nan,nan
 PECK,Peck,fast,flying,6,8,2,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
 PETAL_BLIZZARD,Petal Blizzard,charged,grass,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
-PLASMA_FISTS,Plasma Fists,charged,electric,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
 PLAY_ROUGH,Play Rough,charged,fairy,90,0,1,,,60,1.5,,High Energy,nan,,,nan,nan
 PLASMA_FISTS,Plasma Fists,charged,electric,60,0,1,,,35,1.71,,Spam/Bait,nan,,,nan,nan
 POISON_FANG,Poison Fang,charged,poison,45,0,1,,,40,1.12,100% chance -1 Def opponent,Debuff Spam,"[0, -1]",opponent,1,nan,nan
