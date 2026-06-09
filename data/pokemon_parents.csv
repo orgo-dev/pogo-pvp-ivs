@@ -444,7 +444,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 97,hypno_shadow,Hypno (Shadow),97,hypno_shadow,Hypno (Shadow),True
 98,krabby,Krabby,98,krabby,Krabby,True
 98,krabby,Krabby,99,kingler,Kingler,False
+98,krabby_shadow,Krabby (Shadow),98,krabby_shadow,Krabby (Shadow),True
+98,krabby_shadow,Krabby (Shadow),99,kingler_shadow,Kingler (Shadow),False
 99,kingler,Kingler,99,kingler,Kingler,True
+99,kingler_shadow,Kingler (Shadow),99,kingler_shadow,Kingler (Shadow),True
 100,voltorb,Voltorb,100,voltorb,Voltorb,True
 100,voltorb,Voltorb,101,electrode,Electrode,False
 100,voltorb_hisuian,Voltorb (Hisuian),100,voltorb_hisuian,Voltorb (Hisuian),True
