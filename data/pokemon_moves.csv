@@ -6547,6 +6547,7 @@ Mew,Thunder,charged,electric,1.0,100,0,1,,,60.0,1.67,,High Energy,
 Mew,Thunderbolt,charged,electric,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mew,Wild Charge,charged,electric,1.0,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,
 Mewtwo,Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,,,,Multipurpose,
+Mewtwo,Counter,fast,fighting,1.0,8,6,2,4.0,3.0,,,,Multipurpose,legacy
 Mewtwo,Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Mewtwo,Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mewtwo,Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
@@ -6565,6 +6566,7 @@ Mewtwo (Armored),Future Sight,charged,psychic,1.2,110,0,1,,,65.0,1.69,,Nuke,
 Mewtwo (Armored),Psystrike,charged,psychic,1.2,90,0,1,,,45.0,2.0,,General,elite
 Mewtwo (Armored),Rock Slide,charged,rock,1.0,75,0,1,,,45.0,1.67,,General,
 Mewtwo (Mega X),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,,,,Multipurpose,
+Mewtwo (Mega X),Counter,fast,fighting,1.2,8,6,2,4.0,3.0,,,,Multipurpose,legacy
 Mewtwo (Mega X),Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Mewtwo (Mega X),Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mewtwo (Mega X),Focus Blast,charged,fighting,1.2,150,0,1,,,75.0,2.0,,Nuke,
@@ -6575,6 +6577,7 @@ Mewtwo (Mega X),Psystrike,charged,psychic,1.2,90,0,1,,,45.0,2.0,,General,elite
 Mewtwo (Mega X),Shadow Ball,charged,ghost,1.0,100,0,1,,,50.0,2.0,,General,elite
 Mewtwo (Mega X),Thunderbolt,charged,electric,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mewtwo (Mega Y),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,,,,Multipurpose,
+Mewtwo (Mega Y),Counter,fast,fighting,1.0,8,6,2,4.0,3.0,,,,Multipurpose,legacy
 Mewtwo (Mega Y),Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Mewtwo (Mega Y),Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mewtwo (Mega Y),Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,

@@ -2410,12 +2410,15 @@ Mew,Struggle Bug,fast,bug,1.0,9,8,3,3.0,2.67,Low Quality,
 Mew,Volt Switch,fast,electric,1.0,14,16,4,3.5,4.0,Multipurpose,
 Mew,Waterfall,fast,water,1.0,11,10,3,3.67,3.33,Heavy Damage,
 Mewtwo,Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
+Mewtwo,Counter,fast,fighting,1.0,8,6,2,4.0,3.0,Multipurpose,legacy
 Mewtwo,Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,Fast Charge,
 Mewtwo (Armored),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
 Mewtwo (Armored),Iron Tail,fast,steel,1.0,10,7,3,3.33,2.33,General,
 Mewtwo (Mega X),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
+Mewtwo (Mega X),Counter,fast,fighting,1.2,8,6,2,4.0,3.0,Multipurpose,legacy
 Mewtwo (Mega X),Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,Fast Charge,
 Mewtwo (Mega Y),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
+Mewtwo (Mega Y),Counter,fast,fighting,1.0,8,6,2,4.0,3.0,Multipurpose,legacy
 Mewtwo (Mega Y),Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,Fast Charge,
 Mewtwo (Shadow),Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,Multipurpose,
 Mewtwo (Shadow),Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,Fast Charge,
