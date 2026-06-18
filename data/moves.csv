@@ -112,6 +112,7 @@ GIGATON_HAMMER,Gigaton Hammer,charged,steel,130,0,1,,,60,2.17,,Nuke,nan,,,nan,na
 GIGA_DRAIN,Giga Drain,charged,grass,50,0,1,,,80,0.62,,High Energy,nan,,,nan,nan
 GIGA_IMPACT,Giga Impact,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 GLACIATE,Glaciate,charged,ice,60,0,1,,,40,1.5,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
+GLAIVE_RUSH,Glaive Rush,charged,dragon,90,0,1,,,40,2.25,100% chance -1 Def self,Self-Debuff,"[0, -1]",self,1,nan,nan
 GRASS_KNOT,Grass Knot,charged,grass,90,0,1,,,50,1.8,,General,nan,,,nan,nan
 GUNK_SHOT,Gunk Shot,charged,poison,130,0,1,,,75,1.73,,Nuke,nan,,,nan,nan
 GUST,Gust,fast,flying,16,14,4,4.0,3.5,0,,,Multipurpose,nan,,,nan,nan

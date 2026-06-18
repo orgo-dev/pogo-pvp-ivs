@@ -1693,7 +1693,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 995,ironthorns,Ironthorns,250,200,225,"['rock', 'electric']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
 996,frigibax,Frigibax,134,86,163,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE', 'ICY_WIND']",nan,nan,5,75000,True,FAMILY_FRIGIBAX,['arctibax'],,nan
 997,arctibax,Arctibax,173,128,207,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE', 'ICY_WIND']",nan,nan,5,75000,True,FAMILY_FRIGIBAX,['baxcalibur'],frigibax,nan
-998,baxcalibur,Baxcalibur,254,168,229,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE', 'BLIZZARD', 'ICY_WIND']",nan,nan,5,75000,True,FAMILY_FRIGIBAX,nan,arctibax,nan
+998,baxcalibur,Baxcalibur,254,168,229,"['dragon', 'ice']","['DRAGON_BREATH', 'ICE_FANG']","['DRAGON_CLAW', 'AVALANCHE', 'OUTRAGE', 'BLIZZARD', 'ICY_WIND', 'GLAIVE_RUSH']",['GLAIVE_RUSH'],nan,5,75000,True,FAMILY_FRIGIBAX,nan,arctibax,nan
 999,gimmighoul,Gimmighoul,140,76,128,"['ghost', 'none']",['ASTONISH'],['SHADOW_BALL'],nan,nan,5,10000,True,FAMILY_GIMMIGHOUL,['gholdengo'],,nan
 1000,gholdengo,Gholdengo,252,190,202,"['steel', 'ghost']","['ASTONISH', 'HEX']","['SHADOW_BALL', 'DAZZLING_GLEAM', 'FOCUS_BLAST', 'POWER_GEM']",nan,nan,5,10000,True,FAMILY_GIMMIGHOUL,nan,gimmighoul,nan
 1001,wo_chien,Wo-Chien,186,242,198,"['dark', 'grass']","['MAGICAL_LEAF', 'SNARL']","['DARK_PULSE', 'GRASS_KNOT', 'LEAF_STORM']",nan,nan,20,100000,False,,nan,,nan
