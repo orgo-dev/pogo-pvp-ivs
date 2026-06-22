@@ -2669,10 +2669,6 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 929,dolliv,Dolliv,930,arboliva,Arboliva,False
 930,arboliva,Arboliva,930,arboliva,Arboliva,True
 931,squawkabilly,Squawkabilly,931,squawkabilly,Squawkabilly,True
-931,squawkabilly_blue,Squawkabilly_blue,931,squawkabilly_blue,Squawkabilly_blue,True
-931,squawkabilly_green,Squawkabilly_green,931,squawkabilly_green,Squawkabilly_green,True
-931,squawkabilly_white,Squawkabilly_white,931,squawkabilly_white,Squawkabilly_white,True
-931,squawkabilly_yellow,Squawkabilly_yellow,931,squawkabilly_yellow,Squawkabilly_yellow,True
 932,nacli,Nacli,932,nacli,Nacli,True
 932,nacli,Nacli,933,naclstack,Naclstack,False
 932,nacli,Nacli,934,garganacl,Garganacl,False
