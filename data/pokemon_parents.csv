@@ -396,7 +396,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 85,dodrio,Dodrio,85,dodrio,Dodrio,True
 86,seel,Seel,86,seel,Seel,True
 86,seel,Seel,87,dewgong,Dewgong,False
+86,seel_shadow,Seel (Shadow),86,seel_shadow,Seel (Shadow),True
+86,seel_shadow,Seel (Shadow),87,dewgong_shadow,Dewgong (Shadow),False
 87,dewgong,Dewgong,87,dewgong,Dewgong,True
+87,dewgong_shadow,Dewgong (Shadow),87,dewgong_shadow,Dewgong (Shadow),True
 88,grimer,Grimer,88,grimer,Grimer,True
 88,grimer,Grimer,89,muk,Muk,False
 88,grimer_alolan,Grimer (Alolan),88,grimer_alolan,Grimer (Alolan),True
@@ -682,7 +685,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 162,furret,Furret,162,furret,Furret,True
 163,hoothoot,Hoothoot,163,hoothoot,Hoothoot,True
 163,hoothoot,Hoothoot,164,noctowl,Noctowl,False
+163,hoothoot_shadow,Hoothoot (Shadow),163,hoothoot_shadow,Hoothoot (Shadow),True
+163,hoothoot_shadow,Hoothoot (Shadow),164,noctowl_shadow,Noctowl (Shadow),False
 164,noctowl,Noctowl,164,noctowl,Noctowl,True
+164,noctowl_shadow,Noctowl (Shadow),164,noctowl_shadow,Noctowl (Shadow),True
 165,ledyba,Ledyba,165,ledyba,Ledyba,True
 165,ledyba,Ledyba,166,ledian,Ledian,False
 165,ledyba_shadow,Ledyba (Shadow),165,ledyba_shadow,Ledyba (Shadow),True
@@ -2070,6 +2076,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 642,thundurus_incarnate_shadow,Thundurus (Incarnate) (Shadow),642,thundurus_incarnate_shadow,Thundurus (Incarnate) (Shadow),True
 642,thundurus_therian,Thundurus (Therian),642,thundurus_therian,Thundurus (Therian),True
 643,reshiram,Reshiram,643,reshiram,Reshiram,True
+643,reshiram_shadow,Reshiram (Shadow),643,reshiram_shadow,Reshiram (Shadow),True
 644,zekrom,Zekrom,644,zekrom,Zekrom,True
 645,landorus_incarnate,Landorus (Incarnate),645,landorus_incarnate,Landorus (Incarnate),True
 645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),True
@@ -2254,7 +2261,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 713,avalugg_hisuian,Avalugg (Hisuian),713,avalugg_hisuian,Avalugg (Hisuian),True
 714,noibat,Noibat,714,noibat,Noibat,True
 714,noibat,Noibat,715,noivern,Noivern,False
+714,noibat_shadow,Noibat (Shadow),714,noibat_shadow,Noibat (Shadow),True
+714,noibat_shadow,Noibat (Shadow),715,noivern_shadow,Noivern (Shadow),False
 715,noivern,Noivern,715,noivern,Noivern,True
+715,noivern_shadow,Noivern (Shadow),715,noivern_shadow,Noivern (Shadow),True
 716,xerneas,Xerneas,716,xerneas,Xerneas,True
 717,yveltal,Yveltal,717,yveltal,Yveltal,True
 718,zygarde,Zygarde (50% Forme),718,zygarde,Zygarde (50% Forme),True
@@ -2476,9 +2486,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 821,rookidee,Rookidee,821,rookidee,Rookidee,True
 821,rookidee,Rookidee,822,corvisquire,Corvisquire,False
 821,rookidee,Rookidee,823,corviknight,Corviknight,False
+821,rookidee_shadow,Rookidee (Shadow),821,rookidee_shadow,Rookidee (Shadow),True
+821,rookidee_shadow,Rookidee (Shadow),822,corvisquire_shadow,Corvisquire (Shadow),False
+821,rookidee_shadow,Rookidee (Shadow),823,corviknight_shadow,Corviknight (Shadow),False
 822,corvisquire,Corvisquire,822,corvisquire,Corvisquire,True
 822,corvisquire,Corvisquire,823,corviknight,Corviknight,False
+822,corvisquire_shadow,Corvisquire (Shadow),822,corvisquire_shadow,Corvisquire (Shadow),True
+822,corvisquire_shadow,Corvisquire (Shadow),823,corviknight_shadow,Corviknight (Shadow),False
 823,corviknight,Corviknight,823,corviknight,Corviknight,True
+823,corviknight_shadow,Corviknight (Shadow),823,corviknight_shadow,Corviknight (Shadow),True
 824,blipbug,Blipbug,824,blipbug,Blipbug,True
 824,blipbug,Blipbug,825,dottler,Dottler,False
 824,blipbug,Blipbug,826,orbeetle,Orbeetle,False

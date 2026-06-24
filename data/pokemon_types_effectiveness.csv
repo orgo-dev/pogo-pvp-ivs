@@ -3743,6 +3743,24 @@ Seel,ice,0.625
 Seel,dragon,1.0
 Seel,dark,1.0
 Seel,fairy,1.0
+Seel (Shadow),normal,1.0
+Seel (Shadow),fighting,1.0
+Seel (Shadow),flying,1.0
+Seel (Shadow),poison,1.0
+Seel (Shadow),ground,1.0
+Seel (Shadow),rock,1.0
+Seel (Shadow),bug,1.0
+Seel (Shadow),ghost,1.0
+Seel (Shadow),steel,0.625
+Seel (Shadow),fire,0.625
+Seel (Shadow),water,0.625
+Seel (Shadow),grass,1.6
+Seel (Shadow),electric,1.6
+Seel (Shadow),psychic,1.0
+Seel (Shadow),ice,0.625
+Seel (Shadow),dragon,1.0
+Seel (Shadow),dark,1.0
+Seel (Shadow),fairy,1.0
 Dewgong,normal,1.0
 Dewgong,fighting,1.6
 Dewgong,flying,1.0
@@ -3761,6 +3779,24 @@ Dewgong,ice,0.391
 Dewgong,dragon,1.0
 Dewgong,dark,1.0
 Dewgong,fairy,1.0
+Dewgong (Shadow),normal,1.0
+Dewgong (Shadow),fighting,1.6
+Dewgong (Shadow),flying,1.0
+Dewgong (Shadow),poison,1.0
+Dewgong (Shadow),ground,1.0
+Dewgong (Shadow),rock,1.6
+Dewgong (Shadow),bug,1.0
+Dewgong (Shadow),ghost,1.0
+Dewgong (Shadow),steel,1.0
+Dewgong (Shadow),fire,1.0
+Dewgong (Shadow),water,0.625
+Dewgong (Shadow),grass,1.6
+Dewgong (Shadow),electric,1.6
+Dewgong (Shadow),psychic,1.0
+Dewgong (Shadow),ice,0.391
+Dewgong (Shadow),dragon,1.0
+Dewgong (Shadow),dark,1.0
+Dewgong (Shadow),fairy,1.0
 Grimer,normal,1.0
 Grimer,fighting,0.625
 Grimer,flying,1.0
@@ -6227,6 +6263,24 @@ Mewtwo,ice,1.0
 Mewtwo,dragon,1.0
 Mewtwo,dark,1.6
 Mewtwo,fairy,1.0
+Mewtwo (Armored),normal,1.0
+Mewtwo (Armored),fighting,0.625
+Mewtwo (Armored),flying,1.0
+Mewtwo (Armored),poison,1.0
+Mewtwo (Armored),ground,1.0
+Mewtwo (Armored),rock,1.0
+Mewtwo (Armored),bug,1.6
+Mewtwo (Armored),ghost,1.6
+Mewtwo (Armored),steel,1.0
+Mewtwo (Armored),fire,1.0
+Mewtwo (Armored),water,1.0
+Mewtwo (Armored),grass,1.0
+Mewtwo (Armored),electric,1.0
+Mewtwo (Armored),psychic,0.625
+Mewtwo (Armored),ice,1.0
+Mewtwo (Armored),dragon,1.0
+Mewtwo (Armored),dark,1.6
+Mewtwo (Armored),fairy,1.0
 Mewtwo (Mega X),normal,1.0
 Mewtwo (Mega X),fighting,0.625
 Mewtwo (Mega X),flying,1.6
@@ -6263,24 +6317,6 @@ Mewtwo (Mega Y),ice,1.0
 Mewtwo (Mega Y),dragon,1.0
 Mewtwo (Mega Y),dark,1.6
 Mewtwo (Mega Y),fairy,1.0
-Mewtwo (Armored),normal,1.0
-Mewtwo (Armored),fighting,0.625
-Mewtwo (Armored),flying,1.0
-Mewtwo (Armored),poison,1.0
-Mewtwo (Armored),ground,1.0
-Mewtwo (Armored),rock,1.0
-Mewtwo (Armored),bug,1.6
-Mewtwo (Armored),ghost,1.6
-Mewtwo (Armored),steel,1.0
-Mewtwo (Armored),fire,1.0
-Mewtwo (Armored),water,1.0
-Mewtwo (Armored),grass,1.0
-Mewtwo (Armored),electric,1.0
-Mewtwo (Armored),psychic,0.625
-Mewtwo (Armored),ice,1.0
-Mewtwo (Armored),dragon,1.0
-Mewtwo (Armored),dark,1.6
-Mewtwo (Armored),fairy,1.0
 Mewtwo (Shadow),normal,1.0
 Mewtwo (Shadow),fighting,0.625
 Mewtwo (Shadow),flying,1.0
@@ -6713,6 +6749,24 @@ Hoothoot,ice,1.6
 Hoothoot,dragon,1.0
 Hoothoot,dark,1.0
 Hoothoot,fairy,1.0
+Hoothoot (Shadow),normal,1.0
+Hoothoot (Shadow),fighting,1.0
+Hoothoot (Shadow),flying,1.0
+Hoothoot (Shadow),poison,1.0
+Hoothoot (Shadow),ground,0.391
+Hoothoot (Shadow),rock,1.6
+Hoothoot (Shadow),bug,1.0
+Hoothoot (Shadow),ghost,0.391
+Hoothoot (Shadow),steel,1.0
+Hoothoot (Shadow),fire,1.0
+Hoothoot (Shadow),water,1.0
+Hoothoot (Shadow),grass,0.625
+Hoothoot (Shadow),electric,1.6
+Hoothoot (Shadow),psychic,1.0
+Hoothoot (Shadow),ice,1.6
+Hoothoot (Shadow),dragon,1.0
+Hoothoot (Shadow),dark,1.0
+Hoothoot (Shadow),fairy,1.0
 Noctowl,normal,1.0
 Noctowl,fighting,1.0
 Noctowl,flying,1.0
@@ -6731,6 +6785,24 @@ Noctowl,ice,1.6
 Noctowl,dragon,1.0
 Noctowl,dark,1.0
 Noctowl,fairy,1.0
+Noctowl (Shadow),normal,1.0
+Noctowl (Shadow),fighting,1.0
+Noctowl (Shadow),flying,1.0
+Noctowl (Shadow),poison,1.0
+Noctowl (Shadow),ground,0.391
+Noctowl (Shadow),rock,1.6
+Noctowl (Shadow),bug,1.0
+Noctowl (Shadow),ghost,0.391
+Noctowl (Shadow),steel,1.0
+Noctowl (Shadow),fire,1.0
+Noctowl (Shadow),water,1.0
+Noctowl (Shadow),grass,0.625
+Noctowl (Shadow),electric,1.6
+Noctowl (Shadow),psychic,1.0
+Noctowl (Shadow),ice,1.6
+Noctowl (Shadow),dragon,1.0
+Noctowl (Shadow),dark,1.0
+Noctowl (Shadow),fairy,1.0
 Ledyba,normal,1.0
 Ledyba,fighting,0.391
 Ledyba,flying,1.6
@@ -21923,6 +21995,24 @@ Reshiram,ice,1.0
 Reshiram,dragon,1.6
 Reshiram,dark,1.0
 Reshiram,fairy,1.0
+Reshiram (Shadow),normal,1.0
+Reshiram (Shadow),fighting,1.0
+Reshiram (Shadow),flying,1.0
+Reshiram (Shadow),poison,1.0
+Reshiram (Shadow),ground,1.6
+Reshiram (Shadow),rock,1.6
+Reshiram (Shadow),bug,0.625
+Reshiram (Shadow),ghost,1.0
+Reshiram (Shadow),steel,0.625
+Reshiram (Shadow),fire,0.391
+Reshiram (Shadow),water,1.0
+Reshiram (Shadow),grass,0.391
+Reshiram (Shadow),electric,0.625
+Reshiram (Shadow),psychic,1.0
+Reshiram (Shadow),ice,1.0
+Reshiram (Shadow),dragon,1.6
+Reshiram (Shadow),dark,1.0
+Reshiram (Shadow),fairy,1.0
 Zekrom,normal,1.0
 Zekrom,fighting,1.0
 Zekrom,flying,0.625
@@ -21959,24 +22049,6 @@ Landorus (Incarnate),ice,2.56
 Landorus (Incarnate),dragon,1.0
 Landorus (Incarnate),dark,1.0
 Landorus (Incarnate),fairy,1.0
-Landorus (Therian),normal,1.0
-Landorus (Therian),fighting,0.625
-Landorus (Therian),flying,1.0
-Landorus (Therian),poison,0.625
-Landorus (Therian),ground,0.391
-Landorus (Therian),rock,1.0
-Landorus (Therian),bug,1.0
-Landorus (Therian),ghost,1.0
-Landorus (Therian),steel,1.0
-Landorus (Therian),fire,1.0
-Landorus (Therian),water,1.6
-Landorus (Therian),grass,1.0
-Landorus (Therian),electric,0.625
-Landorus (Therian),psychic,1.0
-Landorus (Therian),ice,2.56
-Landorus (Therian),dragon,1.0
-Landorus (Therian),dark,1.0
-Landorus (Therian),fairy,1.0
 Landorus (Incarnate) (Shadow),normal,1.0
 Landorus (Incarnate) (Shadow),fighting,0.625
 Landorus (Incarnate) (Shadow),flying,1.0
@@ -21995,6 +22067,24 @@ Landorus (Incarnate) (Shadow),ice,2.56
 Landorus (Incarnate) (Shadow),dragon,1.0
 Landorus (Incarnate) (Shadow),dark,1.0
 Landorus (Incarnate) (Shadow),fairy,1.0
+Landorus (Therian),normal,1.0
+Landorus (Therian),fighting,0.625
+Landorus (Therian),flying,1.0
+Landorus (Therian),poison,0.625
+Landorus (Therian),ground,0.391
+Landorus (Therian),rock,1.0
+Landorus (Therian),bug,1.0
+Landorus (Therian),ghost,1.0
+Landorus (Therian),steel,1.0
+Landorus (Therian),fire,1.0
+Landorus (Therian),water,1.6
+Landorus (Therian),grass,1.0
+Landorus (Therian),electric,0.625
+Landorus (Therian),psychic,1.0
+Landorus (Therian),ice,2.56
+Landorus (Therian),dragon,1.0
+Landorus (Therian),dark,1.0
+Landorus (Therian),fairy,1.0
 Kyurem,normal,1.0
 Kyurem,fighting,1.6
 Kyurem,flying,1.0
@@ -23993,6 +24083,24 @@ Noibat,ice,2.56
 Noibat,dragon,1.6
 Noibat,dark,1.0
 Noibat,fairy,1.6
+Noibat (Shadow),normal,1.0
+Noibat (Shadow),fighting,0.625
+Noibat (Shadow),flying,1.0
+Noibat (Shadow),poison,1.0
+Noibat (Shadow),ground,0.391
+Noibat (Shadow),rock,1.6
+Noibat (Shadow),bug,1.0
+Noibat (Shadow),ghost,1.0
+Noibat (Shadow),steel,1.0
+Noibat (Shadow),fire,0.625
+Noibat (Shadow),water,0.625
+Noibat (Shadow),grass,0.391
+Noibat (Shadow),electric,1.0
+Noibat (Shadow),psychic,1.0
+Noibat (Shadow),ice,2.56
+Noibat (Shadow),dragon,1.6
+Noibat (Shadow),dark,1.0
+Noibat (Shadow),fairy,1.6
 Noivern,normal,1.0
 Noivern,fighting,0.625
 Noivern,flying,1.0
@@ -24011,6 +24119,24 @@ Noivern,ice,2.56
 Noivern,dragon,1.6
 Noivern,dark,1.0
 Noivern,fairy,1.6
+Noivern (Shadow),normal,1.0
+Noivern (Shadow),fighting,0.625
+Noivern (Shadow),flying,1.0
+Noivern (Shadow),poison,1.0
+Noivern (Shadow),ground,0.391
+Noivern (Shadow),rock,1.6
+Noivern (Shadow),bug,1.0
+Noivern (Shadow),ghost,1.0
+Noivern (Shadow),steel,1.0
+Noivern (Shadow),fire,0.625
+Noivern (Shadow),water,0.625
+Noivern (Shadow),grass,0.391
+Noivern (Shadow),electric,1.0
+Noivern (Shadow),psychic,1.0
+Noivern (Shadow),ice,2.56
+Noivern (Shadow),dragon,1.6
+Noivern (Shadow),dark,1.0
+Noivern (Shadow),fairy,1.6
 Xerneas,normal,1.0
 Xerneas,fighting,0.625
 Xerneas,flying,1.0
@@ -26747,6 +26873,24 @@ Rookidee,ice,1.6
 Rookidee,dragon,1.0
 Rookidee,dark,1.0
 Rookidee,fairy,1.0
+Rookidee (Shadow),normal,1.0
+Rookidee (Shadow),fighting,0.625
+Rookidee (Shadow),flying,1.0
+Rookidee (Shadow),poison,1.0
+Rookidee (Shadow),ground,0.391
+Rookidee (Shadow),rock,1.6
+Rookidee (Shadow),bug,1.0
+Rookidee (Shadow),ghost,1.0
+Rookidee (Shadow),steel,1.0
+Rookidee (Shadow),fire,1.0
+Rookidee (Shadow),water,1.0
+Rookidee (Shadow),grass,0.625
+Rookidee (Shadow),electric,1.6
+Rookidee (Shadow),psychic,1.0
+Rookidee (Shadow),ice,1.6
+Rookidee (Shadow),dragon,1.0
+Rookidee (Shadow),dark,1.0
+Rookidee (Shadow),fairy,1.0
 Corvisquire,normal,1.0
 Corvisquire,fighting,0.625
 Corvisquire,flying,1.0
@@ -26765,6 +26909,24 @@ Corvisquire,ice,1.6
 Corvisquire,dragon,1.0
 Corvisquire,dark,1.0
 Corvisquire,fairy,1.0
+Corvisquire (Shadow),normal,1.0
+Corvisquire (Shadow),fighting,0.625
+Corvisquire (Shadow),flying,1.0
+Corvisquire (Shadow),poison,1.0
+Corvisquire (Shadow),ground,0.391
+Corvisquire (Shadow),rock,1.6
+Corvisquire (Shadow),bug,1.0
+Corvisquire (Shadow),ghost,1.0
+Corvisquire (Shadow),steel,1.0
+Corvisquire (Shadow),fire,1.0
+Corvisquire (Shadow),water,1.0
+Corvisquire (Shadow),grass,0.625
+Corvisquire (Shadow),electric,1.6
+Corvisquire (Shadow),psychic,1.0
+Corvisquire (Shadow),ice,1.6
+Corvisquire (Shadow),dragon,1.0
+Corvisquire (Shadow),dark,1.0
+Corvisquire (Shadow),fairy,1.0
 Corviknight,normal,0.625
 Corviknight,fighting,1.0
 Corviknight,flying,0.625
@@ -26783,6 +26945,24 @@ Corviknight,ice,1.0
 Corviknight,dragon,0.625
 Corviknight,dark,1.0
 Corviknight,fairy,0.625
+Corviknight (Shadow),normal,0.625
+Corviknight (Shadow),fighting,1.0
+Corviknight (Shadow),flying,0.625
+Corviknight (Shadow),poison,0.391
+Corviknight (Shadow),ground,0.625
+Corviknight (Shadow),rock,1.0
+Corviknight (Shadow),bug,0.625
+Corviknight (Shadow),ghost,1.0
+Corviknight (Shadow),steel,0.625
+Corviknight (Shadow),fire,1.6
+Corviknight (Shadow),water,1.0
+Corviknight (Shadow),grass,0.391
+Corviknight (Shadow),electric,1.6
+Corviknight (Shadow),psychic,0.625
+Corviknight (Shadow),ice,1.0
+Corviknight (Shadow),dragon,0.625
+Corviknight (Shadow),dark,1.0
+Corviknight (Shadow),fairy,0.625
 Blipbug,normal,1.0
 Blipbug,fighting,0.625
 Blipbug,flying,1.6

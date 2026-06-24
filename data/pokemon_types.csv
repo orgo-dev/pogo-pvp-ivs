@@ -415,8 +415,12 @@ Dodrio,normal
 Dodrio,flying
 Seel,water
 Seel,none
+Seel (Shadow),water
+Seel (Shadow),none
 Dewgong,water
 Dewgong,ice
+Dewgong (Shadow),water
+Dewgong (Shadow),ice
 Grimer,poison
 Grimer,none
 Grimer (Alolan),poison
@@ -691,12 +695,12 @@ Dragonite (Shadow),dragon
 Dragonite (Shadow),flying
 Mewtwo,psychic
 Mewtwo,none
+Mewtwo (Armored),psychic
+Mewtwo (Armored),none
 Mewtwo (Mega X),psychic
 Mewtwo (Mega X),fighting
 Mewtwo (Mega Y),psychic
 Mewtwo (Mega Y),none
-Mewtwo (Armored),psychic
-Mewtwo (Armored),none
 Mewtwo (Shadow),psychic
 Mewtwo (Shadow),none
 Mew,psychic
@@ -745,8 +749,12 @@ Furret,normal
 Furret,none
 Hoothoot,normal
 Hoothoot,flying
+Hoothoot (Shadow),normal
+Hoothoot (Shadow),flying
 Noctowl,normal
 Noctowl,flying
+Noctowl (Shadow),normal
+Noctowl (Shadow),flying
 Ledyba,bug
 Ledyba,flying
 Ledyba (Shadow),bug
@@ -2439,14 +2447,16 @@ Thundurus (Therian),electric
 Thundurus (Therian),flying
 Reshiram,dragon
 Reshiram,fire
+Reshiram (Shadow),dragon
+Reshiram (Shadow),fire
 Zekrom,dragon
 Zekrom,electric
 Landorus (Incarnate),ground
 Landorus (Incarnate),flying
-Landorus (Therian),ground
-Landorus (Therian),flying
 Landorus (Incarnate) (Shadow),ground
 Landorus (Incarnate) (Shadow),flying
+Landorus (Therian),ground
+Landorus (Therian),flying
 Kyurem,dragon
 Kyurem,ice
 Kyurem (Black),dragon
@@ -2669,8 +2679,12 @@ Avalugg (Hisuian),ice
 Avalugg (Hisuian),rock
 Noibat,flying
 Noibat,dragon
+Noibat (Shadow),flying
+Noibat (Shadow),dragon
 Noivern,flying
 Noivern,dragon
+Noivern (Shadow),flying
+Noivern (Shadow),dragon
 Xerneas,fairy
 Xerneas,none
 Yveltal,dark
@@ -2977,10 +2991,16 @@ Greedent,normal
 Greedent,none
 Rookidee,flying
 Rookidee,none
+Rookidee (Shadow),flying
+Rookidee (Shadow),none
 Corvisquire,flying
 Corvisquire,none
+Corvisquire (Shadow),flying
+Corvisquire (Shadow),none
 Corviknight,flying
 Corviknight,steel
+Corviknight (Shadow),flying
+Corviknight (Shadow),steel
 Blipbug,bug
 Blipbug,none
 Dottler,bug
