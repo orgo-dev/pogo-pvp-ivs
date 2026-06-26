@@ -2010,9 +2010,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 610,axew,Axew,610,axew,Axew,True
 610,axew,Axew,611,fraxure,Fraxure,False
 610,axew,Axew,612,haxorus,Haxorus,False
+610,axew_shadow,Axew (Shadow),610,axew_shadow,Axew (Shadow),True
+610,axew_shadow,Axew (Shadow),611,fraxure_shadow,Fraxure (Shadow),False
+610,axew_shadow,Axew (Shadow),612,haxorus_shadow,Haxorus (Shadow),False
 611,fraxure,Fraxure,611,fraxure,Fraxure,True
 611,fraxure,Fraxure,612,haxorus,Haxorus,False
+611,fraxure_shadow,Fraxure (Shadow),611,fraxure_shadow,Fraxure (Shadow),True
+611,fraxure_shadow,Fraxure (Shadow),612,haxorus_shadow,Haxorus (Shadow),False
 612,haxorus,Haxorus,612,haxorus,Haxorus,True
+612,haxorus_shadow,Haxorus (Shadow),612,haxorus_shadow,Haxorus (Shadow),True
 613,cubchoo,Cubchoo,613,cubchoo,Cubchoo,True
 613,cubchoo,Cubchoo,614,beartic,Beartic,False
 614,beartic,Beartic,614,beartic,Beartic,True
