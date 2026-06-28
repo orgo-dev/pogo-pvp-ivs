@@ -267,6 +267,7 @@ SLUDGE_BOMB,Sludge Bomb,charged,poison,80,0,1,,,50,1.6,,General,nan,,,nan,nan
 SLUDGE_WAVE,Sludge Wave,charged,poison,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
 SMACK_DOWN,Smack Down,fast,rock,11,8,3,3.67,2.67,0,,,Heavy Damage,nan,,,nan,nan
 SNARL,Snarl,fast,dark,5,13,3,1.67,4.33,0,,,Fast Charge,nan,,,nan,nan
+SNIPE_SHOT,Snipe Shot,charged,water,65,0,1,,,35,1.86,12.5% chance +2 Atk opponent,Boost Spam,"[2, 0]",opponent,.125,nan,nan
 SOLAR_BEAM,Solar Beam,charged,grass,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 SPACIAL_REND,Spacial Rend,charged,dragon,95,0,1,,,55,1.73,,High Energy,nan,,,nan,nan
 SPARK,Spark,fast,electric,5,7,2,2.5,3.5,0,,,General,nan,,,nan,nan

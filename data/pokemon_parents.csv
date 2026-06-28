@@ -880,6 +880,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 225,delibird_shadow,Delibird (Shadow),225,delibird_shadow,Delibird (Shadow),True
 226,mantine,Mantine,226,mantine,Mantine,True
 227,skarmory,Skarmory,227,skarmory,Skarmory,True
+227,skarmory,Skarmory,227,skarmory_mega,Skarmory (Mega),False
+227,skarmory_mega,Skarmory (Mega),227,skarmory_mega,Skarmory (Mega),True
 227,skarmory_shadow,Skarmory (Shadow),227,skarmory_shadow,Skarmory (Shadow),True
 228,houndour,Houndour,228,houndour,Houndour,True
 228,houndour,Houndour,229,houndoom,Houndoom,False

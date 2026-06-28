@@ -489,6 +489,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 226,mantine,Mantine,148,226,163,"['water', 'flying']","['BUBBLE', 'BULLET_SEED', 'WING_ATTACK']","['AERIAL_ACE', 'ICE_BEAM', 'WATER_PULSE', 'BUBBLE_BEAM', 'TWISTER']",nan,nan,5,75000,True,FAMILY_MANTINE,nan,mantyke,nan
 227,skarmory,Skarmory,148,226,163,"['steel', 'flying']","['AIR_SLASH', 'STEEL_WING']","['BRAVE_BIRD', 'FLASH_CANNON', 'SKY_ATTACK', 'RETURN']",nan,nan,5,75000,True,,nan,,['shadoweligible']
 227,skarmory_shadow,Skarmory (Shadow),148,226,163,"['steel', 'flying']","['AIR_SLASH', 'STEEL_WING']","['BRAVE_BIRD', 'FLASH_CANNON', 'SKY_ATTACK', 'FRUSTRATION']",nan,nan,5,75000,True,,nan,,['shadow']
+227,skarmory_mega,Skarmory (Mega),273,228,163,"['steel', 'flying']","['AIR_SLASH', 'STEEL_WING']","['BRAVE_BIRD', 'FLASH_CANNON', 'SKY_ATTACK']",nan,nan,5,75000,True,,nan,,"['shadoweligible', 'mega']"
 228,houndour,Houndour,152,83,128,"['dark', 'fire']","['EMBER', 'FEINT_ATTACK']","['CRUNCH', 'DARK_PULSE', 'FLAMETHROWER', 'RETURN']",nan,nan,3,50000,True,FAMILY_HOUNDOUR,['houndoom'],,['shadoweligible']
 228,houndour_shadow,Houndour (Shadow),152,83,128,"['dark', 'fire']","['EMBER', 'FEINT_ATTACK']","['CRUNCH', 'DARK_PULSE', 'FLAMETHROWER', 'FRUSTRATION']",nan,nan,3,50000,True,FAMILY_HOUNDOUR,['houndoom_shadow'],,['shadow']
 229,houndoom,Houndoom,224,144,181,"['dark', 'fire']","['FIRE_FANG', 'SNARL']","['CRUNCH', 'FIRE_BLAST', 'FLAMETHROWER', 'FOUL_PLAY', 'RETURN']",nan,nan,3,50000,True,FAMILY_HOUNDOUR,nan,houndour,['shadoweligible']
