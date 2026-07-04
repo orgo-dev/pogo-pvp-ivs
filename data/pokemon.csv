@@ -1495,7 +1495,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 815,cinderace,Cinderace,238,163,190,"['fire', 'none']","['TACKLE', 'FIRE_SPIN']","['FLAME_CHARGE', 'FLAMETHROWER', 'FOCUS_BLAST', 'PYRO_BALL', 'BLAST_BURN']",['BLAST_BURN'],nan,3,10000,True,FAMILY_SCORBUNNY,nan,raboot,['starter']
 816,sobble,Sobble,132,79,137,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF']",nan,nan,3,10000,True,FAMILY_SOBBLE,['drizzile'],,['starter']
 817,drizzile,Drizzile,186,113,163,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF']",nan,nan,3,10000,True,FAMILY_SOBBLE,['inteleon'],sobble,['starter']
-818,inteleon,Inteleon,262,142,172,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF', 'SHADOW_BALL']",nan,nan,3,10000,True,FAMILY_SOBBLE,nan,drizzile,['starter']
+818,inteleon,Inteleon,262,142,172,"['water', 'none']","['POUND', 'WATER_GUN']","['WATER_PULSE', 'SURF', 'SHADOW_BALL', 'SNIPE_SHOT', 'HYDRO_CANNON']",['HYDRO_CANNON'],nan,3,10000,True,FAMILY_SOBBLE,nan,drizzile,['starter']
 819,skwovet,Skwovet,95,86,172,"['normal', 'none']","['TACKLE', 'BITE', 'BULLET_SEED']","['BODY_SLAM', 'CRUNCH', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_SKWOVET,['greedent'],,nan
 820,greedent,Greedent,160,156,260,"['normal', 'none']","['TACKLE', 'BITE', 'BULLET_SEED', 'MUD_SHOT']","['BODY_SLAM', 'CRUNCH', 'TRAILBLAZE']",nan,nan,1,10000,True,FAMILY_SKWOVET,nan,skwovet,nan
 821,rookidee,Rookidee,88,67,116,"['flying', 'none']","['PECK', 'AIR_SLASH', 'SAND_ATTACK']","['SKY_ATTACK', 'PAYBACK', 'RETURN']",nan,nan,1,10000,True,FAMILY_ROOKIDEE,['corvisquire'],,['shadoweligible']
