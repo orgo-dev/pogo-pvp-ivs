@@ -119,6 +119,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 25,pikachu,Pikachu,25,pikachu,Pikachu,True
 25,pikachu,Pikachu,26,raichu,Raichu,False
 25,pikachu,Pikachu,26,raichu_alolan,Raichu (Alolan),False
+25,pikachu,Pikachu,26,raichu_mega_x,Raichu (Mega X),False
+25,pikachu,Pikachu,26,raichu_mega_y,Raichu (Mega Y),False
 25,pikachu_5th_anniversary,Pikachu (5th Anniversary),25,pikachu_5th_anniversary,Pikachu (5th Anniversary),True
 25,pikachu_flying,Pikachu (Flying),25,pikachu_flying,Pikachu (Flying),True
 25,pikachu_horizons,Pikachu (Horizons),25,pikachu_horizons,Pikachu (Horizons),True
@@ -128,7 +130,11 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 25,pikachu_rock_star,Pikachu (Rock Star),25,pikachu_rock_star,Pikachu (Rock Star),True
 25,pikachu_shaymin,Pikachu (Shaymin Scarf),25,pikachu_shaymin,Pikachu (Shaymin Scarf),True
 26,raichu,Raichu,26,raichu,Raichu,True
+26,raichu,Raichu,26,raichu_mega_x,Raichu (Mega X),False
+26,raichu,Raichu,26,raichu_mega_y,Raichu (Mega Y),False
 26,raichu_alolan,Raichu (Alolan),26,raichu_alolan,Raichu (Alolan),True
+26,raichu_mega_x,Raichu (Mega X),26,raichu_mega_x,Raichu (Mega X),True
+26,raichu_mega_y,Raichu (Mega Y),26,raichu_mega_y,Raichu (Mega Y),True
 27,sandshrew,Sandshrew,27,sandshrew,Sandshrew,True
 27,sandshrew,Sandshrew,28,sandslash,Sandslash,False
 27,sandshrew_alolan,Sandshrew (Alolan),27,sandshrew_alolan,Sandshrew (Alolan),True
@@ -713,6 +719,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 172,pichu,Pichu,25,pikachu_shaymin,Pikachu (Shaymin Scarf),False
 172,pichu,Pichu,26,raichu,Raichu,False
 172,pichu,Pichu,26,raichu_alolan,Raichu (Alolan),False
+172,pichu,Pichu,26,raichu_mega_x,Raichu (Mega X),False
+172,pichu,Pichu,26,raichu_mega_y,Raichu (Mega Y),False
 172,pichu,Pichu,172,pichu,Pichu,True
 173,cleffa,Cleffa,35,clefairy,Clefairy,False
 173,cleffa,Cleffa,36,clefable,Clefable,False

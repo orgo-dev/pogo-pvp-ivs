@@ -58,6 +58,7 @@ DAZZLING_GLEAM,Dazzling Gleam,charged,fairy,90,0,1,,,55,1.64,,Nuke,nan,,,nan,nan
 DIG,Dig,charged,ground,70,0,1,,,50,1.4,,High Energy,nan,,,nan,nan
 DISARMING_VOICE,Disarming Voice,charged,fairy,70,0,1,,,45,1.56,,General,nan,,,nan,nan
 DISCHARGE,Discharge,charged,electric,55,0,1,,,40,1.38,,General,nan,,,nan,nan
+DIVE,Dive,charged,water,50,0,1,,,40,1.25,,Spam/Bait,nan,,,nan,nan
 DOOM_DESIRE,Doom Desire,charged,steel,80,0,1,,,40,2.0,,Spam/Bait,nan,,,nan,nan
 DOUBLE_IRON_BASH,Double Iron Bash,charged,steel,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 DOUBLE_KICK,Double Kick,fast,fighting,8,12,3,2.67,4.0,0,,,Multipurpose,nan,,,nan,nan
