@@ -536,9 +536,12 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 119,seaking,Seaking,119,seaking,Seaking,True
 120,staryu,Staryu,120,staryu,Staryu,True
 120,staryu,Staryu,121,starmie,Starmie,False
+120,staryu,Staryu,121,starmie_mega,Starmie (Mega),False
 120,staryu_shadow,Staryu (Shadow),120,staryu_shadow,Staryu (Shadow),True
 120,staryu_shadow,Staryu (Shadow),121,starmie_shadow,Starmie (Shadow),False
 121,starmie,Starmie,121,starmie,Starmie,True
+121,starmie,Starmie,121,starmie_mega,Starmie (Mega),False
+121,starmie_mega,Starmie (Mega),121,starmie_mega,Starmie (Mega),True
 121,starmie_shadow,Starmie (Shadow),121,starmie_shadow,Starmie (Shadow),True
 122,mr_mime,Mr. Mime,122,mr_mime,Mr. Mime,True
 122,mr_mime_galarian,Mr. Mime (Galarian),122,mr_mime_galarian,Mr. Mime (Galarian),True
