@@ -2505,6 +2505,8 @@ Quilladin (Shadow),grass
 Quilladin (Shadow),none
 Chesnaught,grass
 Chesnaught,fighting
+Chesnaught (Mega),grass
+Chesnaught (Mega),fighting
 Chesnaught (Shadow),grass
 Chesnaught (Shadow),fighting
 Fennekin,fire
@@ -2517,6 +2519,8 @@ Braixen (Shadow),fire
 Braixen (Shadow),none
 Delphox,fire
 Delphox,psychic
+Delphox (Mega),fire
+Delphox (Mega),psychic
 Delphox (Shadow),fire
 Delphox (Shadow),psychic
 Froakie,water
@@ -2529,6 +2533,8 @@ Frogadier (Shadow),water
 Frogadier (Shadow),none
 Greninja,water
 Greninja,dark
+Greninja (Mega),water
+Greninja (Mega),dark
 Greninja (Shadow),water
 Greninja (Shadow),dark
 Bunnelby,normal
