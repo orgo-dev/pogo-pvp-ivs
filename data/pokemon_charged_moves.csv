@@ -6964,6 +6964,7 @@ Terrakion,Close Combat,charged,fighting,1.2,100,45,2.22,100% chance -2 Def self,
 Terrakion,Earthquake,charged,ground,1.0,120,65,1.85,,Nuke,
 Terrakion,Rock Slide,charged,rock,1.2,75,45,1.67,,General,
 Terrakion,Sacred Sword,charged,fighting,1.2,60,35,1.71,,Spam/Bait,elite
+Thievul,Icy Wind,charged,ice,1.0,60,45,1.33,100% chance -1 Atk opponent,Debuff,elite
 Thievul,Night Slash,charged,dark,1.2,50,35,1.43,12.5% chance +1 Atk self,Boost Spam,
 Thievul,Play Rough,charged,fairy,1.0,90,60,1.5,,High Energy,
 Throh,Body Slam,charged,normal,1.0,55,35,1.57,,Spam/Bait,

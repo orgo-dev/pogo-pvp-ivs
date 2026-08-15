@@ -1514,7 +1514,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 825,dottler,Dottler,87,157,137,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION']","['BUG_BUZZ', 'PSYCHIC']",nan,nan,1,10000,True,FAMILY_BLIPBUG,['orbeetle'],blipbug,nan
 826,orbeetle,Orbeetle,156,240,155,"['bug', 'psychic']","['STRUGGLE_BUG', 'CONFUSION', 'PSYCHO_CUT']","['BUG_BUZZ', 'PSYCHIC', 'PSYSHOCK']",nan,nan,1,10000,True,FAMILY_BLIPBUG,nan,dottler,nan
 827,nickit,Nickit,85,82,120,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1,10000,True,FAMILY_NICKIT,['thievul'],,nan
-828,thievul,Thievul,172,164,172,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH']",nan,nan,1,10000,True,FAMILY_NICKIT,nan,nickit,nan
+828,thievul,Thievul,172,164,172,"['dark', 'none']","['QUICK_ATTACK', 'SNARL', 'SUCKER_PUNCH']","['NIGHT_SLASH', 'PLAY_ROUGH', 'ICY_WIND']",['ICY_WIND'],nan,1,10000,True,FAMILY_NICKIT,nan,nickit,nan
 829,gossifleur,Gossifleur,70,104,120,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3,50000,True,FAMILY_GOSSIFLEUR,['eldegoss'],,nan
 830,eldegoss,Eldegoss,148,211,155,"['grass', 'none']","['RAZOR_LEAF', 'BULLET_SEED']","['ENERGY_BALL', 'GRASS_KNOT']",nan,nan,3,50000,True,FAMILY_GOSSIFLEUR,nan,gossifleur,nan
 831,wooloo,Wooloo,76,97,123,"['normal', 'none']","['TACKLE', 'TAKE_DOWN']","['WILD_CHARGE', 'PAYBACK', 'STOMP']",nan,nan,3,10000,True,FAMILY_WOOLOO,['dubwool'],,nan

@@ -11197,6 +11197,7 @@ Terrakion,Sacred Sword,charged,fighting,1.2,60,0,1,,,35.0,1.71,,Spam/Bait,elite
 Thievul,Quick Attack,fast,normal,1.0,5,8,2,2.5,4.0,,,,Fast Charge,
 Thievul,Snarl,fast,dark,1.2,5,13,3,1.67,4.33,,,,Fast Charge,
 Thievul,Sucker Punch,fast,dark,1.2,8,7,2,4.0,3.5,,,,Multipurpose,
+Thievul,Icy Wind,charged,ice,1.0,60,0,1,,,45.0,1.33,100% chance -1 Atk opponent,Debuff,elite
 Thievul,Night Slash,charged,dark,1.2,50,0,1,,,35.0,1.43,12.5% chance +1 Atk self,Boost Spam,
 Thievul,Play Rough,charged,fairy,1.0,90,0,1,,,60.0,1.5,,High Energy,
 Throh,Low Kick,fast,fighting,1.2,5,8,2,2.5,4.0,,,,Fast Charge,
