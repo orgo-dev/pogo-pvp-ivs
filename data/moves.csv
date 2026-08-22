@@ -120,6 +120,8 @@ GIGA_IMPACT,Giga Impact,charged,normal,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 GLACIATE,Glaciate,charged,ice,60,0,1,,,40,1.5,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 GLAIVE_RUSH,Glaive Rush,charged,dragon,90,0,1,,,40,2.25,100% chance -1 Def self,Self-Debuff,"[0, -1]",self,1,nan,nan
 GRASS_KNOT,Grass Knot,charged,grass,90,0,1,,,50,1.8,,General,nan,,,nan,nan
+GULP_MISSILE_ARROKUDA,Gulp Missile (Arrokuda),fast,water,15,0,1,15.0,0.0,0,,100% chance -1 Def opponent,Debuff,"[0, -1]",opponent,1,nan,nan
+GULP_MISSILE_PIKACHU,Gulp Missile (Pikachu),fast,water,15,0,1,15.0,0.0,0,,100% chance -2 Atk opponent,Debuff,"[-2, 0]",opponent,1,nan,nan
 GUNK_SHOT,Gunk Shot,charged,poison,130,0,1,,,75,1.73,,Nuke,nan,,,nan,nan
 GUST,Gust,fast,flying,16,14,4,4.0,3.5,0,,,Multipurpose,nan,,,nan,nan
 GYRO_BALL,Gyro Ball,charged,steel,80,0,1,,,50,1.6,,General,nan,,,nan,nan

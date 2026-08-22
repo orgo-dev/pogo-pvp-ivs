@@ -2564,6 +2564,8 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 843,silicobra,Silicobra,844,sandaconda,Sandaconda,False
 844,sandaconda,Sandaconda,844,sandaconda,Sandaconda,True
 845,cramorant,Cramorant,845,cramorant,Cramorant,True
+845,cramorant_gorging,Cramorant (Gorging),845,cramorant_gorging,Cramorant (Gorging),True
+845,cramorant_gulping,Cramorant (Gulping),845,cramorant_gulping,Cramorant (Gulping),True
 846,arrokuda,Arrokuda,846,arrokuda,Arrokuda,True
 846,arrokuda,Arrokuda,847,barraskewda,Barraskewda,False
 847,barraskewda,Barraskewda,847,barraskewda,Barraskewda,True
