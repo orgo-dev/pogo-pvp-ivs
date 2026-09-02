@@ -21283,9 +21283,7 @@
         "eliteMoves": [
             "PSYSTRIKE",
             "SHADOW_BALL",
-            "HYPER_BEAM"
-        ],
-        "legacyMoves": [
+            "HYPER_BEAM",
             "COUNTER"
         ],
         "buddyDistance": 20,
@@ -73206,7 +73204,7 @@
         "searchPriority": null,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CHESPIN",
             "parent": "quilladin"
@@ -73627,7 +73625,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FENNEKIN",
             "parent": "braixen"
@@ -74046,7 +74044,7 @@
         "searchPriority": null,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_FROAKIE",
             "parent": "frogadier"

@@ -6649,7 +6649,7 @@ Mew,Thunder,charged,electric,1.0,100,0,1,,,60.0,1.67,,High Energy,
 Mew,Thunderbolt,charged,electric,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mew,Wild Charge,charged,electric,1.0,100,0,1,,,45.0,2.22,100% chance -2 Def self,Self-Debuff,
 Mewtwo,Confusion,fast,psychic,1.2,16,14,4,4.0,3.5,,,,Multipurpose,
-Mewtwo,Counter,fast,fighting,1.0,8,6,2,4.0,3.0,,,,Multipurpose,legacy
+Mewtwo,Counter,fast,fighting,1.0,8,6,2,4.0,3.0,,,,Multipurpose,elite
 Mewtwo,Psycho Cut,fast,psychic,1.2,4,9,2,2.0,4.5,,,,Fast Charge,
 Mewtwo,Flamethrower,charged,fire,1.0,90,0,1,,,55.0,1.64,,High Energy,
 Mewtwo,Focus Blast,charged,fighting,1.0,150,0,1,,,75.0,2.0,,Nuke,
