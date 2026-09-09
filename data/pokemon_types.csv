@@ -1407,8 +1407,6 @@ Lileep (Shadow),rock
 Lileep (Shadow),grass
 Cradily,rock
 Cradily,grass
-Cradily,rock
-Cradily,grass
 Cradily (Shadow),rock
 Cradily (Shadow),grass
 Anorith,rock
@@ -1625,6 +1623,8 @@ Staraptor,normal
 Staraptor,flying
 Staraptor (Shadow),normal
 Staraptor (Shadow),flying
+Staraptor (Mega),fighting
+Staraptor (Mega),flying
 Bidoof,normal
 Bidoof,none
 Bidoof (Shadow),normal

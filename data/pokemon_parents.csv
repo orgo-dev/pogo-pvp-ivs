@@ -1263,11 +1263,9 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 344,claydol_shadow,Claydol (Shadow),344,claydol_shadow,Claydol (Shadow),True
 345,lileep,Lileep,345,lileep,Lileep,True
 345,lileep,Lileep,346,cradily,Cradily,False
-345,lileep,Lileep,346,cradily_b,Cradily,False
 345,lileep_shadow,Lileep (Shadow),345,lileep_shadow,Lileep (Shadow),True
 345,lileep_shadow,Lileep (Shadow),346,cradily_shadow,Cradily (Shadow),False
 346,cradily,Cradily,346,cradily,Cradily,True
-346,cradily_b,Cradily,346,cradily_b,Cradily,True
 346,cradily_shadow,Cradily (Shadow),346,cradily_shadow,Cradily (Shadow),True
 347,anorith,Anorith,347,anorith,Anorith,True
 347,anorith,Anorith,348,armaldo,Armaldo,False
@@ -1441,14 +1439,18 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 396,starly,Starly,396,starly,Starly,True
 396,starly,Starly,397,staravia,Staravia,False
 396,starly,Starly,398,staraptor,Staraptor,False
+396,starly,Starly,398,staraptor_mega,Staraptor (Mega),False
 396,starly_shadow,Starly (Shadow),396,starly_shadow,Starly (Shadow),True
 396,starly_shadow,Starly (Shadow),397,staravia_shadow,Staravia (Shadow),False
 396,starly_shadow,Starly (Shadow),398,staraptor_shadow,Staraptor (Shadow),False
 397,staravia,Staravia,397,staravia,Staravia,True
 397,staravia,Staravia,398,staraptor,Staraptor,False
+397,staravia,Staravia,398,staraptor_mega,Staraptor (Mega),False
 397,staravia_shadow,Staravia (Shadow),397,staravia_shadow,Staravia (Shadow),True
 397,staravia_shadow,Staravia (Shadow),398,staraptor_shadow,Staraptor (Shadow),False
 398,staraptor,Staraptor,398,staraptor,Staraptor,True
+398,staraptor,Staraptor,398,staraptor_mega,Staraptor (Mega),False
+398,staraptor_mega,Staraptor (Mega),398,staraptor_mega,Staraptor (Mega),True
 398,staraptor_shadow,Staraptor (Shadow),398,staraptor_shadow,Staraptor (Shadow),True
 399,bidoof,Bidoof,399,bidoof,Bidoof,True
 399,bidoof,Bidoof,400,bibarel,Bibarel,False
