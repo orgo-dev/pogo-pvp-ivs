@@ -56,6 +56,7 @@ CRUSH_GRIP,Crush Grip,charged,normal,110,0,1,,,50,2.2,,General,nan,,,nan,nan
 CUT,Cut,fast,normal,3,2,1,3.0,2.0,0,,,Low Quality,nan,,,nan,nan
 DARKEST_LARIAT,Darkest Lariat,charged,dark,120,0,1,,,60,2.0,,Nuke,nan,,,nan,nan
 DARK_PULSE,Dark Pulse,charged,dark,80,0,1,,,45,1.78,,General,nan,,,nan,nan
+DARK_PULSE_PLUS,Dark Pulse+,charged,dark,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
 DAZZLING_GLEAM,Dazzling Gleam,charged,fairy,90,0,1,,,55,1.64,,Nuke,nan,,,nan,nan
 DIG,Dig,charged,ground,70,0,1,,,50,1.4,,High Energy,nan,,,nan,nan
 DISARMING_VOICE,Disarming Voice,charged,fairy,70,0,1,,,45,1.56,,General,nan,,,nan,nan
@@ -89,7 +90,7 @@ FAIRY_WIND,Fairy Wind,fast,fairy,4,9,2,2.0,4.5,0,,,Fast Charge,nan,,,nan,nan
 FEATHER_DANCE,Feather Dance,charged,flying,35,0,1,,,50,0.7,100% chance -2 Atk opponent,Debuff,"[-2, 0]",opponent,1,nan,nan
 FEINT_ATTACK,Feint Attack,fast,dark,6,6,2,3.0,3.0,0,,,General,nan,,,nan,nan
 FELL_STINGER,Fell Stinger,charged,bug,20,0,1,,,35,0.57,100% chance +1 Atk self,Boost Spam,"[1, 0]",self,1,nan,nan
-FELL_STINGER_PLUS,Fell Stinger,charged,bug,40,0,1,,,35,1.14,100% chance +1 Atk self,Boost Spam,"[1, 0]",self,1,nan,nan
+FELL_STINGER_PLUS,Fell Stinger+,charged,bug,40,0,1,,,35,1.14,100% chance +1 Atk self,Boost Spam,"[1, 0]",self,1,nan,nan
 FIRE_BLAST,Fire Blast,charged,fire,140,0,1,,,80,1.75,,Nuke,nan,,,nan,nan
 FIRE_FANG,Fire Fang,fast,fire,8,6,2,4.0,3.0,0,,,Multipurpose,nan,,,nan,nan
 FIRE_PUNCH,Fire Punch,charged,fire,60,0,1,,,40,1.5,,Spam/Bait,nan,,,nan,nan
