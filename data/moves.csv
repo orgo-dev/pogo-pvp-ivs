@@ -29,6 +29,7 @@ BODY_SLAM,Body Slam,charged,normal,65,0,1,,,40,1.62,,Spam/Bait,nan,,,nan,nan
 BONE_CLUB,Bone Club,charged,ground,55,0,1,,,35,1.57,,Spam/Bait,nan,,,nan,nan
 BOOMBURST,Boomburst,charged,normal,150,0,1,,,70,2.14,,Nuke,nan,,,nan,nan
 BRAVE_BIRD,Brave Bird,charged,flying,130,0,1,,,55,2.36,100% chance -3 Def self,Self-Debuff Nuke,"[0, -3]",self,1,nan,nan
+BRAVE_BIRD_PLUS,Brave Bird+,charged,flying,70,0,1,,,40,1.75,100% chance -3 Def self,Self-Debuff,"[0, -3]",self,1,nan,nan
 BREAKING_SWIPE,Breaking Swipe,charged,dragon,50,0,1,,,50,1.0,100% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,1,nan,nan
 BRICK_BREAK,Brick Break,charged,fighting,50,0,1,,,40,1.25,100% chance -1 Def opponent,Debuff Spam,"[0, -1]",opponent,1,nan,nan
 BRICK_BREAK_PLUS,Brick Break+,charged,fighting,40,0,1,,,35,1.14,100% chance -1 Def opponent,Debuff Spam,"[0, -1]",opponent,1,nan,nan
