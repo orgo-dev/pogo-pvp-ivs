@@ -1187,6 +1187,24 @@ Raichu,ice,1.0
 Raichu,dragon,1.0
 Raichu,dark,1.0
 Raichu,fairy,1.0
+Raichu (Alolan),normal,1.0
+Raichu (Alolan),fighting,0.625
+Raichu (Alolan),flying,0.625
+Raichu (Alolan),poison,1.0
+Raichu (Alolan),ground,1.6
+Raichu (Alolan),rock,1.0
+Raichu (Alolan),bug,1.6
+Raichu (Alolan),ghost,1.6
+Raichu (Alolan),steel,0.625
+Raichu (Alolan),fire,1.0
+Raichu (Alolan),water,1.0
+Raichu (Alolan),grass,1.0
+Raichu (Alolan),electric,0.625
+Raichu (Alolan),psychic,0.625
+Raichu (Alolan),ice,1.0
+Raichu (Alolan),dragon,1.0
+Raichu (Alolan),dark,1.6
+Raichu (Alolan),fairy,1.0
 Raichu (Mega X),normal,1.0
 Raichu (Mega X),fighting,1.0
 Raichu (Mega X),flying,0.625
@@ -1223,24 +1241,6 @@ Raichu (Mega Y),ice,1.0
 Raichu (Mega Y),dragon,1.0
 Raichu (Mega Y),dark,1.0
 Raichu (Mega Y),fairy,1.0
-Raichu (Alolan),normal,1.0
-Raichu (Alolan),fighting,0.625
-Raichu (Alolan),flying,0.625
-Raichu (Alolan),poison,1.0
-Raichu (Alolan),ground,1.6
-Raichu (Alolan),rock,1.0
-Raichu (Alolan),bug,1.6
-Raichu (Alolan),ghost,1.6
-Raichu (Alolan),steel,0.625
-Raichu (Alolan),fire,1.0
-Raichu (Alolan),water,1.0
-Raichu (Alolan),grass,1.0
-Raichu (Alolan),electric,0.625
-Raichu (Alolan),psychic,0.625
-Raichu (Alolan),ice,1.0
-Raichu (Alolan),dragon,1.0
-Raichu (Alolan),dark,1.6
-Raichu (Alolan),fairy,1.0
 Sandshrew,normal,1.0
 Sandshrew,fighting,1.0
 Sandshrew,flying,1.0
@@ -5201,24 +5201,6 @@ Starmie,ice,0.625
 Starmie,dragon,1.0
 Starmie,dark,1.6
 Starmie,fairy,1.0
-Starmie (Shadow),normal,1.0
-Starmie (Shadow),fighting,0.625
-Starmie (Shadow),flying,1.0
-Starmie (Shadow),poison,1.0
-Starmie (Shadow),ground,1.0
-Starmie (Shadow),rock,1.0
-Starmie (Shadow),bug,1.6
-Starmie (Shadow),ghost,1.6
-Starmie (Shadow),steel,0.625
-Starmie (Shadow),fire,0.625
-Starmie (Shadow),water,0.625
-Starmie (Shadow),grass,1.6
-Starmie (Shadow),electric,1.6
-Starmie (Shadow),psychic,0.625
-Starmie (Shadow),ice,0.625
-Starmie (Shadow),dragon,1.0
-Starmie (Shadow),dark,1.6
-Starmie (Shadow),fairy,1.0
 Starmie (Mega),normal,1.0
 Starmie (Mega),fighting,0.625
 Starmie (Mega),flying,1.0
@@ -5237,6 +5219,24 @@ Starmie (Mega),ice,0.625
 Starmie (Mega),dragon,1.0
 Starmie (Mega),dark,1.6
 Starmie (Mega),fairy,1.0
+Starmie (Shadow),normal,1.0
+Starmie (Shadow),fighting,0.625
+Starmie (Shadow),flying,1.0
+Starmie (Shadow),poison,1.0
+Starmie (Shadow),ground,1.0
+Starmie (Shadow),rock,1.0
+Starmie (Shadow),bug,1.6
+Starmie (Shadow),ghost,1.6
+Starmie (Shadow),steel,0.625
+Starmie (Shadow),fire,0.625
+Starmie (Shadow),water,0.625
+Starmie (Shadow),grass,1.6
+Starmie (Shadow),electric,1.6
+Starmie (Shadow),psychic,0.625
+Starmie (Shadow),ice,0.625
+Starmie (Shadow),dragon,1.0
+Starmie (Shadow),dark,1.6
+Starmie (Shadow),fairy,1.0
 Mr. Mime,normal,1.0
 Mr. Mime,fighting,0.391
 Mr. Mime,flying,1.0
@@ -8837,24 +8837,6 @@ Skarmory,ice,1.0
 Skarmory,dragon,0.625
 Skarmory,dark,1.0
 Skarmory,fairy,0.625
-Skarmory (Shadow),normal,0.625
-Skarmory (Shadow),fighting,1.0
-Skarmory (Shadow),flying,0.625
-Skarmory (Shadow),poison,0.391
-Skarmory (Shadow),ground,0.625
-Skarmory (Shadow),rock,1.0
-Skarmory (Shadow),bug,0.625
-Skarmory (Shadow),ghost,1.0
-Skarmory (Shadow),steel,0.625
-Skarmory (Shadow),fire,1.6
-Skarmory (Shadow),water,1.0
-Skarmory (Shadow),grass,0.391
-Skarmory (Shadow),electric,1.6
-Skarmory (Shadow),psychic,0.625
-Skarmory (Shadow),ice,1.0
-Skarmory (Shadow),dragon,0.625
-Skarmory (Shadow),dark,1.0
-Skarmory (Shadow),fairy,0.625
 Skarmory (Mega),normal,0.625
 Skarmory (Mega),fighting,1.0
 Skarmory (Mega),flying,0.625
@@ -8873,6 +8855,24 @@ Skarmory (Mega),ice,1.0
 Skarmory (Mega),dragon,0.625
 Skarmory (Mega),dark,1.0
 Skarmory (Mega),fairy,0.625
+Skarmory (Shadow),normal,0.625
+Skarmory (Shadow),fighting,1.0
+Skarmory (Shadow),flying,0.625
+Skarmory (Shadow),poison,0.391
+Skarmory (Shadow),ground,0.625
+Skarmory (Shadow),rock,1.0
+Skarmory (Shadow),bug,0.625
+Skarmory (Shadow),ghost,1.0
+Skarmory (Shadow),steel,0.625
+Skarmory (Shadow),fire,1.6
+Skarmory (Shadow),water,1.0
+Skarmory (Shadow),grass,0.391
+Skarmory (Shadow),electric,1.6
+Skarmory (Shadow),psychic,0.625
+Skarmory (Shadow),ice,1.0
+Skarmory (Shadow),dragon,0.625
+Skarmory (Shadow),dark,1.0
+Skarmory (Shadow),fairy,0.625
 Houndour,normal,1.0
 Houndour,fighting,1.6
 Houndour,flying,1.0
@@ -14579,24 +14579,6 @@ Staraptor,ice,1.6
 Staraptor,dragon,1.0
 Staraptor,dark,1.0
 Staraptor,fairy,1.0
-Staraptor (Shadow),normal,1.0
-Staraptor (Shadow),fighting,1.0
-Staraptor (Shadow),flying,1.0
-Staraptor (Shadow),poison,1.0
-Staraptor (Shadow),ground,0.391
-Staraptor (Shadow),rock,1.6
-Staraptor (Shadow),bug,1.0
-Staraptor (Shadow),ghost,0.391
-Staraptor (Shadow),steel,1.0
-Staraptor (Shadow),fire,1.0
-Staraptor (Shadow),water,1.0
-Staraptor (Shadow),grass,0.625
-Staraptor (Shadow),electric,1.6
-Staraptor (Shadow),psychic,1.0
-Staraptor (Shadow),ice,1.6
-Staraptor (Shadow),dragon,1.0
-Staraptor (Shadow),dark,1.0
-Staraptor (Shadow),fairy,1.0
 Staraptor (Mega),normal,1.0
 Staraptor (Mega),fighting,0.625
 Staraptor (Mega),flying,1.6
@@ -14615,6 +14597,24 @@ Staraptor (Mega),ice,1.6
 Staraptor (Mega),dragon,1.0
 Staraptor (Mega),dark,0.625
 Staraptor (Mega),fairy,1.6
+Staraptor (Shadow),normal,1.0
+Staraptor (Shadow),fighting,1.0
+Staraptor (Shadow),flying,1.0
+Staraptor (Shadow),poison,1.0
+Staraptor (Shadow),ground,0.391
+Staraptor (Shadow),rock,1.6
+Staraptor (Shadow),bug,1.0
+Staraptor (Shadow),ghost,0.391
+Staraptor (Shadow),steel,1.0
+Staraptor (Shadow),fire,1.0
+Staraptor (Shadow),water,1.0
+Staraptor (Shadow),grass,0.625
+Staraptor (Shadow),electric,1.6
+Staraptor (Shadow),psychic,1.0
+Staraptor (Shadow),ice,1.6
+Staraptor (Shadow),dragon,1.0
+Staraptor (Shadow),dark,1.0
+Staraptor (Shadow),fairy,1.0
 Bidoof,normal,1.0
 Bidoof,fighting,1.6
 Bidoof,flying,1.0
@@ -22175,6 +22175,24 @@ Zekrom,ice,1.6
 Zekrom,dragon,1.6
 Zekrom,dark,1.0
 Zekrom,fairy,1.6
+Zekrom (Shadow),normal,1.0
+Zekrom (Shadow),fighting,1.0
+Zekrom (Shadow),flying,0.625
+Zekrom (Shadow),poison,1.0
+Zekrom (Shadow),ground,1.6
+Zekrom (Shadow),rock,1.0
+Zekrom (Shadow),bug,1.0
+Zekrom (Shadow),ghost,1.0
+Zekrom (Shadow),steel,0.625
+Zekrom (Shadow),fire,0.625
+Zekrom (Shadow),water,0.625
+Zekrom (Shadow),grass,0.625
+Zekrom (Shadow),electric,0.391
+Zekrom (Shadow),psychic,1.0
+Zekrom (Shadow),ice,1.6
+Zekrom (Shadow),dragon,1.6
+Zekrom (Shadow),dark,1.0
+Zekrom (Shadow),fairy,1.6
 Landorus (Incarnate),normal,1.0
 Landorus (Incarnate),fighting,0.625
 Landorus (Incarnate),flying,1.0
@@ -23201,6 +23219,24 @@ Pancham,ice,1.0
 Pancham,dragon,1.0
 Pancham,dark,0.625
 Pancham,fairy,1.6
+Pancham (Shadow),normal,1.0
+Pancham (Shadow),fighting,1.0
+Pancham (Shadow),flying,1.6
+Pancham (Shadow),poison,1.0
+Pancham (Shadow),ground,1.0
+Pancham (Shadow),rock,0.625
+Pancham (Shadow),bug,0.625
+Pancham (Shadow),ghost,1.0
+Pancham (Shadow),steel,1.0
+Pancham (Shadow),fire,1.0
+Pancham (Shadow),water,1.0
+Pancham (Shadow),grass,1.0
+Pancham (Shadow),electric,1.0
+Pancham (Shadow),psychic,1.6
+Pancham (Shadow),ice,1.0
+Pancham (Shadow),dragon,1.0
+Pancham (Shadow),dark,0.625
+Pancham (Shadow),fairy,1.6
 Pangoro,normal,1.0
 Pangoro,fighting,1.6
 Pangoro,flying,1.6
@@ -23219,6 +23255,24 @@ Pangoro,ice,1.0
 Pangoro,dragon,1.0
 Pangoro,dark,0.391
 Pangoro,fairy,2.56
+Pangoro (Shadow),normal,1.0
+Pangoro (Shadow),fighting,1.6
+Pangoro (Shadow),flying,1.6
+Pangoro (Shadow),poison,1.0
+Pangoro (Shadow),ground,1.0
+Pangoro (Shadow),rock,0.625
+Pangoro (Shadow),bug,1.0
+Pangoro (Shadow),ghost,0.625
+Pangoro (Shadow),steel,1.0
+Pangoro (Shadow),fire,1.0
+Pangoro (Shadow),water,1.0
+Pangoro (Shadow),grass,1.0
+Pangoro (Shadow),electric,1.0
+Pangoro (Shadow),psychic,0.625
+Pangoro (Shadow),ice,1.0
+Pangoro (Shadow),dragon,1.0
+Pangoro (Shadow),dark,0.391
+Pangoro (Shadow),fairy,2.56
 Furfrou,normal,1.0
 Furfrou,fighting,1.6
 Furfrou,flying,1.0
@@ -25397,6 +25451,24 @@ Fomantis,ice,1.6
 Fomantis,dragon,1.0
 Fomantis,dark,1.0
 Fomantis,fairy,1.0
+Fomantis (Shadow),normal,1.0
+Fomantis (Shadow),fighting,1.0
+Fomantis (Shadow),flying,1.6
+Fomantis (Shadow),poison,1.6
+Fomantis (Shadow),ground,0.625
+Fomantis (Shadow),rock,1.0
+Fomantis (Shadow),bug,1.6
+Fomantis (Shadow),ghost,1.0
+Fomantis (Shadow),steel,1.0
+Fomantis (Shadow),fire,1.6
+Fomantis (Shadow),water,0.625
+Fomantis (Shadow),grass,0.625
+Fomantis (Shadow),electric,0.625
+Fomantis (Shadow),psychic,1.0
+Fomantis (Shadow),ice,1.6
+Fomantis (Shadow),dragon,1.0
+Fomantis (Shadow),dark,1.0
+Fomantis (Shadow),fairy,1.0
 Lurantis,normal,1.0
 Lurantis,fighting,1.0
 Lurantis,flying,1.6
@@ -25415,6 +25487,24 @@ Lurantis,ice,1.6
 Lurantis,dragon,1.0
 Lurantis,dark,1.0
 Lurantis,fairy,1.0
+Lurantis (Shadow),normal,1.0
+Lurantis (Shadow),fighting,1.0
+Lurantis (Shadow),flying,1.6
+Lurantis (Shadow),poison,1.6
+Lurantis (Shadow),ground,0.625
+Lurantis (Shadow),rock,1.0
+Lurantis (Shadow),bug,1.6
+Lurantis (Shadow),ghost,1.0
+Lurantis (Shadow),steel,1.0
+Lurantis (Shadow),fire,1.6
+Lurantis (Shadow),water,0.625
+Lurantis (Shadow),grass,0.625
+Lurantis (Shadow),electric,0.625
+Lurantis (Shadow),psychic,1.0
+Lurantis (Shadow),ice,1.6
+Lurantis (Shadow),dragon,1.0
+Lurantis (Shadow),dark,1.0
+Lurantis (Shadow),fairy,1.0
 Morelull,normal,1.0
 Morelull,fighting,0.625
 Morelull,flying,1.6
@@ -25703,6 +25793,24 @@ Wimpod,ice,0.625
 Wimpod,dragon,1.0
 Wimpod,dark,1.0
 Wimpod,fairy,1.0
+Wimpod (Shadow),normal,1.0
+Wimpod (Shadow),fighting,0.625
+Wimpod (Shadow),flying,1.6
+Wimpod (Shadow),poison,1.0
+Wimpod (Shadow),ground,0.625
+Wimpod (Shadow),rock,1.6
+Wimpod (Shadow),bug,1.0
+Wimpod (Shadow),ghost,1.0
+Wimpod (Shadow),steel,0.625
+Wimpod (Shadow),fire,1.0
+Wimpod (Shadow),water,0.625
+Wimpod (Shadow),grass,1.0
+Wimpod (Shadow),electric,1.6
+Wimpod (Shadow),psychic,1.0
+Wimpod (Shadow),ice,0.625
+Wimpod (Shadow),dragon,1.0
+Wimpod (Shadow),dark,1.0
+Wimpod (Shadow),fairy,1.0
 Golisopod,normal,1.0
 Golisopod,fighting,0.625
 Golisopod,flying,1.6
@@ -25721,6 +25829,24 @@ Golisopod,ice,0.625
 Golisopod,dragon,1.0
 Golisopod,dark,1.0
 Golisopod,fairy,1.0
+Golisopod (Shadow),normal,1.0
+Golisopod (Shadow),fighting,0.625
+Golisopod (Shadow),flying,1.6
+Golisopod (Shadow),poison,1.0
+Golisopod (Shadow),ground,0.625
+Golisopod (Shadow),rock,1.6
+Golisopod (Shadow),bug,1.0
+Golisopod (Shadow),ghost,1.0
+Golisopod (Shadow),steel,0.625
+Golisopod (Shadow),fire,1.0
+Golisopod (Shadow),water,0.625
+Golisopod (Shadow),grass,1.0
+Golisopod (Shadow),electric,1.6
+Golisopod (Shadow),psychic,1.0
+Golisopod (Shadow),ice,0.625
+Golisopod (Shadow),dragon,1.0
+Golisopod (Shadow),dark,1.0
+Golisopod (Shadow),fairy,1.0
 Sandygast,normal,0.391
 Sandygast,fighting,0.391
 Sandygast,flying,1.0
@@ -25739,6 +25865,24 @@ Sandygast,ice,1.6
 Sandygast,dragon,1.0
 Sandygast,dark,1.6
 Sandygast,fairy,1.0
+Sandygast (Shadow),normal,0.391
+Sandygast (Shadow),fighting,0.391
+Sandygast (Shadow),flying,1.0
+Sandygast (Shadow),poison,0.391
+Sandygast (Shadow),ground,1.0
+Sandygast (Shadow),rock,0.625
+Sandygast (Shadow),bug,0.625
+Sandygast (Shadow),ghost,1.6
+Sandygast (Shadow),steel,1.0
+Sandygast (Shadow),fire,1.0
+Sandygast (Shadow),water,1.6
+Sandygast (Shadow),grass,1.6
+Sandygast (Shadow),electric,0.391
+Sandygast (Shadow),psychic,1.0
+Sandygast (Shadow),ice,1.6
+Sandygast (Shadow),dragon,1.0
+Sandygast (Shadow),dark,1.6
+Sandygast (Shadow),fairy,1.0
 Palossand,normal,0.391
 Palossand,fighting,0.391
 Palossand,flying,1.0
@@ -25757,6 +25901,24 @@ Palossand,ice,1.6
 Palossand,dragon,1.0
 Palossand,dark,1.6
 Palossand,fairy,1.0
+Palossand (Shadow),normal,0.391
+Palossand (Shadow),fighting,0.391
+Palossand (Shadow),flying,1.0
+Palossand (Shadow),poison,0.391
+Palossand (Shadow),ground,1.0
+Palossand (Shadow),rock,0.625
+Palossand (Shadow),bug,0.625
+Palossand (Shadow),ghost,1.6
+Palossand (Shadow),steel,1.0
+Palossand (Shadow),fire,1.0
+Palossand (Shadow),water,1.6
+Palossand (Shadow),grass,1.6
+Palossand (Shadow),electric,0.391
+Palossand (Shadow),psychic,1.0
+Palossand (Shadow),ice,1.6
+Palossand (Shadow),dragon,1.0
+Palossand (Shadow),dark,1.6
+Palossand (Shadow),fairy,1.0
 Pyukumuku,normal,1.0
 Pyukumuku,fighting,1.0
 Pyukumuku,flying,1.0
@@ -27557,24 +27719,6 @@ Cramorant,ice,1.0
 Cramorant,dragon,1.0
 Cramorant,dark,1.0
 Cramorant,fairy,1.0
-Cramorant (Gulping),normal,1.0
-Cramorant (Gulping),fighting,0.625
-Cramorant (Gulping),flying,1.0
-Cramorant (Gulping),poison,1.0
-Cramorant (Gulping),ground,0.391
-Cramorant (Gulping),rock,1.6
-Cramorant (Gulping),bug,1.0
-Cramorant (Gulping),ghost,1.0
-Cramorant (Gulping),steel,0.625
-Cramorant (Gulping),fire,0.625
-Cramorant (Gulping),water,0.625
-Cramorant (Gulping),grass,1.0
-Cramorant (Gulping),electric,2.56
-Cramorant (Gulping),psychic,1.0
-Cramorant (Gulping),ice,1.0
-Cramorant (Gulping),dragon,1.0
-Cramorant (Gulping),dark,1.0
-Cramorant (Gulping),fairy,1.0
 Cramorant (Gorging),normal,1.0
 Cramorant (Gorging),fighting,0.625
 Cramorant (Gorging),flying,1.0
@@ -27593,6 +27737,24 @@ Cramorant (Gorging),ice,1.0
 Cramorant (Gorging),dragon,1.0
 Cramorant (Gorging),dark,1.0
 Cramorant (Gorging),fairy,1.0
+Cramorant (Gulping),normal,1.0
+Cramorant (Gulping),fighting,0.625
+Cramorant (Gulping),flying,1.0
+Cramorant (Gulping),poison,1.0
+Cramorant (Gulping),ground,0.391
+Cramorant (Gulping),rock,1.6
+Cramorant (Gulping),bug,1.0
+Cramorant (Gulping),ghost,1.0
+Cramorant (Gulping),steel,0.625
+Cramorant (Gulping),fire,0.625
+Cramorant (Gulping),water,0.625
+Cramorant (Gulping),grass,1.0
+Cramorant (Gulping),electric,2.56
+Cramorant (Gulping),psychic,1.0
+Cramorant (Gulping),ice,1.0
+Cramorant (Gulping),dragon,1.0
+Cramorant (Gulping),dark,1.0
+Cramorant (Gulping),fairy,1.0
 Arrokuda,normal,1.0
 Arrokuda,fighting,1.0
 Arrokuda,flying,1.0

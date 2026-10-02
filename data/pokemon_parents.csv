@@ -711,9 +711,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 169,crobat_shadow,Crobat (Shadow),169,crobat_shadow,Crobat (Shadow),True
 170,chinchou,Chinchou,170,chinchou,Chinchou,True
 170,chinchou,Chinchou,171,lanturn,Lanturn,False
-170,chinchou,Chinchou,171,lanturnw,Lanturn,False
 171,lanturn,Lanturn,171,lanturn,Lanturn,True
-171,lanturnw,Lanturn,171,lanturnw,Lanturn,True
 172,pichu,Pichu,25,pikachu,Pikachu,False
 172,pichu,Pichu,25,pikachu_horizons,Pikachu (Horizons),False
 172,pichu,Pichu,25,pikachu_kariyushi,Pikachu (Kariyushi),False
@@ -2099,6 +2097,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 643,reshiram,Reshiram,643,reshiram,Reshiram,True
 643,reshiram_shadow,Reshiram (Shadow),643,reshiram_shadow,Reshiram (Shadow),True
 644,zekrom,Zekrom,644,zekrom,Zekrom,True
+644,zekrom_shadow,Zekrom (Shadow),644,zekrom_shadow,Zekrom (Shadow),True
 645,landorus_incarnate,Landorus (Incarnate),645,landorus_incarnate,Landorus (Incarnate),True
 645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),645,landorus_incarnate_shadow,Landorus (Incarnate) (Shadow),True
 645,landorus_therian,Landorus (Therian),645,landorus_therian,Landorus (Therian),True
@@ -2200,7 +2199,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 673,gogoat,Gogoat,673,gogoat,Gogoat,True
 674,pancham,Pancham,674,pancham,Pancham,True
 674,pancham,Pancham,675,pangoro,Pangoro,False
+674,pancham_shadow,Pancham (Shadow),674,pancham_shadow,Pancham (Shadow),True
+674,pancham_shadow,Pancham (Shadow),675,pangoro_shadow,Pangoro (Shadow),False
 675,pangoro,Pangoro,675,pangoro,Pangoro,True
+675,pangoro_shadow,Pangoro (Shadow),675,pangoro_shadow,Pangoro (Shadow),True
 676,furfrou,Furfrou,676,furfrou,Furfrou,True
 677,espurr,Espurr,677,espurr,Espurr,True
 677,espurr,Espurr,678,meowstic,Meowstic (Male),False
@@ -2392,7 +2394,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 752,araquanid_shadow,Araquanid (Shadow),752,araquanid_shadow,Araquanid (Shadow),True
 753,fomantis,Fomantis,753,fomantis,Fomantis,True
 753,fomantis,Fomantis,754,lurantis,Lurantis,False
+753,fomantis_shadow,Fomantis (Shadow),753,fomantis_shadow,Fomantis (Shadow),True
+753,fomantis_shadow,Fomantis (Shadow),754,lurantis_shadow,Lurantis (Shadow),False
 754,lurantis,Lurantis,754,lurantis,Lurantis,True
+754,lurantis_shadow,Lurantis (Shadow),754,lurantis_shadow,Lurantis (Shadow),True
 755,morelull,Morelull,755,morelull,Morelull,True
 755,morelull,Morelull,756,shiinotic,Shiinotic,False
 755,morelull,Morelull,756,shiinotic_shadow,Shiinotic (Shadow),False
@@ -2418,12 +2423,16 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 766,passimian,Passimian,766,passimian,Passimian,True
 767,wimpod,Wimpod,767,wimpod,Wimpod,True
 767,wimpod,Wimpod,768,golisopod,Golisopod,False
-767,wimpod,Wimpod,768,golisopodsh,Golisopod,False
+767,wimpod_shadow,Wimpod (Shadow),767,wimpod_shadow,Wimpod (Shadow),True
+767,wimpod_shadow,Wimpod (Shadow),768,golisopod_shadow,Golisopod (Shadow),False
 768,golisopod,Golisopod,768,golisopod,Golisopod,True
-768,golisopodsh,Golisopod,768,golisopodsh,Golisopod,True
+768,golisopod_shadow,Golisopod (Shadow),768,golisopod_shadow,Golisopod (Shadow),True
 769,sandygast,Sandygast,769,sandygast,Sandygast,True
 769,sandygast,Sandygast,770,palossand,Palossand,False
+769,sandygast_shadow,Sandygast (Shadow),769,sandygast_shadow,Sandygast (Shadow),True
+769,sandygast_shadow,Sandygast (Shadow),770,palossand_shadow,Palossand (Shadow),False
 770,palossand,Palossand,770,palossand,Palossand,True
+770,palossand_shadow,Palossand (Shadow),770,palossand_shadow,Palossand (Shadow),True
 771,pyukumuku,Pyukumuku,771,pyukumuku,Pyukumuku,True
 772,type_null,Type (Null),772,type_null,Type (Null),True
 773,silvally,Silvally,773,silvally,Silvally,True

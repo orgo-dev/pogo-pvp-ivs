@@ -131,12 +131,12 @@ Pikachu (Shaymin Scarf),electric
 Pikachu (Shaymin Scarf),none
 Raichu,electric
 Raichu,none
+Raichu (Alolan),electric
+Raichu (Alolan),psychic
 Raichu (Mega X),electric
 Raichu (Mega X),none
 Raichu (Mega Y),electric
 Raichu (Mega Y),none
-Raichu (Alolan),electric
-Raichu (Alolan),psychic
 Sandshrew,ground
 Sandshrew,none
 Sandshrew (Alolan),ice
@@ -577,10 +577,10 @@ Staryu (Shadow),water
 Staryu (Shadow),none
 Starmie,water
 Starmie,psychic
-Starmie (Shadow),water
-Starmie (Shadow),psychic
 Starmie (Mega),water
 Starmie (Mega),psychic
+Starmie (Shadow),water
+Starmie (Shadow),psychic
 Mr. Mime,psychic
 Mr. Mime,fairy
 Mr. Mime (Galarian),ice
@@ -779,8 +779,6 @@ Crobat (Shadow),poison
 Crobat (Shadow),flying
 Chinchou,water
 Chinchou,electric
-Lanturn,water
-Lanturn,electric
 Lanturn,water
 Lanturn,electric
 Pichu,electric
@@ -983,10 +981,10 @@ Mantine,water
 Mantine,flying
 Skarmory,steel
 Skarmory,flying
-Skarmory (Shadow),steel
-Skarmory (Shadow),flying
 Skarmory (Mega),steel
 Skarmory (Mega),flying
+Skarmory (Shadow),steel
+Skarmory (Shadow),flying
 Houndour,dark
 Houndour,fire
 Houndour (Shadow),dark
@@ -1621,10 +1619,10 @@ Staravia (Shadow),normal
 Staravia (Shadow),flying
 Staraptor,normal
 Staraptor,flying
-Staraptor (Shadow),normal
-Staraptor (Shadow),flying
 Staraptor (Mega),fighting
 Staraptor (Mega),flying
+Staraptor (Shadow),normal
+Staraptor (Shadow),flying
 Bidoof,normal
 Bidoof,none
 Bidoof (Shadow),normal
@@ -2465,6 +2463,8 @@ Reshiram (Shadow),dragon
 Reshiram (Shadow),fire
 Zekrom,dragon
 Zekrom,electric
+Zekrom (Shadow),dragon
+Zekrom (Shadow),electric
 Landorus (Incarnate),ground
 Landorus (Incarnate),flying
 Landorus (Incarnate) (Shadow),ground
@@ -2579,8 +2579,12 @@ Gogoat,grass
 Gogoat,none
 Pancham,fighting
 Pancham,none
+Pancham (Shadow),fighting
+Pancham (Shadow),none
 Pangoro,fighting
 Pangoro,dark
+Pangoro (Shadow),fighting
+Pangoro (Shadow),dark
 Furfrou,normal
 Furfrou,none
 Espurr,psychic
@@ -2823,8 +2827,12 @@ Araquanid (Shadow),water
 Araquanid (Shadow),bug
 Fomantis,grass
 Fomantis,none
+Fomantis (Shadow),grass
+Fomantis (Shadow),none
 Lurantis,grass
 Lurantis,none
+Lurantis (Shadow),grass
+Lurantis (Shadow),none
 Morelull,grass
 Morelull,fairy
 Shiinotic,grass
@@ -2857,14 +2865,20 @@ Passimian,fighting
 Passimian,none
 Wimpod,bug
 Wimpod,water
+Wimpod (Shadow),bug
+Wimpod (Shadow),water
 Golisopod,bug
 Golisopod,water
-Golisopod,bug
-Golisopod,water
+Golisopod (Shadow),bug
+Golisopod (Shadow),water
 Sandygast,ghost
 Sandygast,ground
+Sandygast (Shadow),ghost
+Sandygast (Shadow),ground
 Palossand,ghost
 Palossand,ground
+Palossand (Shadow),ghost
+Palossand (Shadow),ground
 Pyukumuku,water
 Pyukumuku,none
 Type (Null),normal
@@ -3065,10 +3079,10 @@ Sandaconda,ground
 Sandaconda,none
 Cramorant,flying
 Cramorant,water
-Cramorant (Gulping),flying
-Cramorant (Gulping),water
 Cramorant (Gorging),flying
 Cramorant (Gorging),water
+Cramorant (Gulping),flying
+Cramorant (Gulping),water
 Arrokuda,water
 Arrokuda,none
 Barraskewda,water
