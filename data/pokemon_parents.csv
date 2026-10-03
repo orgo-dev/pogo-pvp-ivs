@@ -2266,10 +2266,15 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 703,carbink,Carbink,703,carbink,Carbink,True
 704,goomy,Goomy,704,goomy,Goomy,True
 704,goomy,Goomy,705,sliggoo,Sliggoo,False
+704,goomy,Goomy,705,sliggoo_hisuian,Sliggoo (Hisuian),False
 704,goomy,Goomy,706,goodra,Goodra,False
+704,goomy,Goomy,706,goodra_hisuian,Goodra (Hisuian),False
 705,sliggoo,Sliggoo,705,sliggoo,Sliggoo,True
 705,sliggoo,Sliggoo,706,goodra,Goodra,False
+705,sliggoo,Sliggoo,706,goodra_hisuian,Goodra (Hisuian),False
+705,sliggoo_hisuian,Sliggoo (Hisuian),705,sliggoo_hisuian,Sliggoo (Hisuian),True
 706,goodra,Goodra,706,goodra,Goodra,True
+706,goodra_hisuian,Goodra (Hisuian),706,goodra_hisuian,Goodra (Hisuian),True
 707,klefki,Klefki,707,klefki,Klefki,True
 708,phantump,Phantump,708,phantump,Phantump,True
 708,phantump,Phantump,709,trevenant,Trevenant,False

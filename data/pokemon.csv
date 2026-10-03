@@ -1333,7 +1333,9 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 703,carbink,Carbink,95,285,137,"['rock', 'fairy']","['TACKLE', 'ROCK_THROW']","['ROCK_SLIDE', 'MOONBLAST', 'POWER_GEM']",nan,nan,5,75000,True,,nan,,nan
 704,goomy,Goomy,101,112,128,"['dragon', 'none']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER']",nan,nan,5,75000,True,FAMILY_GOOMY,['sliggoo'],,nan
 705,sliggoo,Sliggoo,159,176,169,"['dragon', 'none']","['WATER_GUN', 'TACKLE', 'DRAGON_BREATH']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'MUDDY_WATER', 'WATER_PULSE', 'BODY_SLAM']",nan,nan,5,75000,True,FAMILY_GOOMY,['goodra'],goomy,nan
+705,sliggoo_hisuian,Sliggoo (Hisuian),153,190,151,"['dragon', 'steel']","['WATER_GUN', 'TACKLE']","['DRAGON_PULSE', 'SLUDGE_WAVE', 'WATER_PULSE', 'HEAVY_SLAM']",nan,nan,5,75000,False,FAMILY_GOOMY,['goodra'],goomy,['hisuian']
 706,goodra,Goodra,220,242,207,"['dragon', 'none']","['WATER_GUN', 'DRAGON_BREATH']","['DRACO_METEOR', 'SLUDGE_WAVE', 'MUDDY_WATER', 'POWER_WHIP', 'AQUA_TAIL', 'THUNDER_PUNCH']",['THUNDER_PUNCH'],nan,5,75000,True,FAMILY_GOOMY,nan,sliggoo,nan
+706,goodra_hisuian,Goodra (Hisuian),211,255,190,"['dragon', 'steel']","['WATER_GUN', 'DRAGON_TAIL', 'IRON_TAIL']","['DRACO_METEOR', 'SLUDGE_WAVE', 'HYDRO_PUMP', 'HEAVY_SLAM']",nan,nan,5,75000,False,FAMILY_GOOMY,nan,sliggoo,['hisuian']
 707,klefki,Klefki,160,179,149,"['steel', 'fairy']","['ASTONISH', 'TACKLE']","['FLASH_CANNON', 'PLAY_ROUGH', 'DRAINING_KISS', 'FOUL_PLAY']",nan,nan,3,50000,True,,nan,,['regional']
 708,phantump,Phantump,125,103,125,"['ghost', 'grass']","['ASTONISH', 'TACKLE']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'RETURN']",nan,nan,5,75000,True,FAMILY_PHANTUMP,['trevenant'],,['shadoweligible']
 708,phantump_shadow,Phantump (Shadow),125,103,125,"['ghost', 'grass']","['ASTONISH', 'TACKLE']","['SEED_BOMB', 'SHADOW_BALL', 'FOUL_PLAY', 'FRUSTRATION']",nan,nan,5,75000,True,FAMILY_PHANTUMP,['trevenant_shadow'],,['shadow']
