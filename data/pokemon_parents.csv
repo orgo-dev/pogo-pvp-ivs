@@ -2011,14 +2011,18 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 607,litwick,Litwick,607,litwick,Litwick,True
 607,litwick,Litwick,608,lampent,Lampent,False
 607,litwick,Litwick,609,chandelure,Chandelure,False
+607,litwick,Litwick,609,chandelure_mega,Chandelure (Mega),False
 607,litwick_shadow,Litwick (Shadow),607,litwick_shadow,Litwick (Shadow),True
 607,litwick_shadow,Litwick (Shadow),608,lampent_shadow,Lampent (Shadow),False
 607,litwick_shadow,Litwick (Shadow),609,chandelure_shadow,Chandelure (Shadow),False
 608,lampent,Lampent,608,lampent,Lampent,True
 608,lampent,Lampent,609,chandelure,Chandelure,False
+608,lampent,Lampent,609,chandelure_mega,Chandelure (Mega),False
 608,lampent_shadow,Lampent (Shadow),608,lampent_shadow,Lampent (Shadow),True
 608,lampent_shadow,Lampent (Shadow),609,chandelure_shadow,Chandelure (Shadow),False
 609,chandelure,Chandelure,609,chandelure,Chandelure,True
+609,chandelure,Chandelure,609,chandelure_mega,Chandelure (Mega),False
+609,chandelure_mega,Chandelure (Mega),609,chandelure_mega,Chandelure (Mega),True
 609,chandelure_shadow,Chandelure (Shadow),609,chandelure_shadow,Chandelure (Shadow),True
 610,axew,Axew,610,axew,Axew,True
 610,axew,Axew,611,fraxure,Fraxure,False

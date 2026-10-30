@@ -170,6 +170,7 @@ INFESTATION,Infestation,fast,bug,10,12,3,3.33,4.0,0,,,Multipurpose,nan,,,nan,nan
 IRON_HEAD,Iron Head,charged,steel,85,0,1,,,50,1.7,,General,nan,,,nan,nan
 IRON_TAIL,Iron Tail,fast,steel,10,7,3,3.33,2.33,0,,,General,nan,,,nan,nan
 KARATE_CHOP,Karate Chop,fast,fighting,5,9,2,2.5,4.5,0,,,Fast Charge,nan,,,nan,nan
+KOWTOW_CLEAVE,Kowtow Cleave,charged,dark,75,0,1,,,40,1.88,,Spam/Bait,nan,,,nan,nan
 LAST_RESORT,Last Resort,charged,normal,90,0,1,,,55,1.64,,High Energy,nan,,,nan,nan
 LEAFAGE,Leafage,fast,grass,6,8,2,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
 LEAF_BLADE,Leaf Blade,charged,grass,70,0,1,,,35,2.0,,Spam/Bait,nan,,,nan,nan
@@ -210,7 +211,8 @@ NIGHT_SLASH,Night Slash,charged,dark,50,0,1,,,35,1.43,12.5% chance +1 Atk self,B
 OBLIVION_WING,Oblivion Wing,charged,flying,85,0,1,,,50,1.7,100% chance +1 Def self,Boost,"[0, 1]",self,1,nan,nan
 OBSTRUCT,Obstruct,charged,dark,15,0,1,,,40,0.38,"100% chance +1 Def self, -1 Def opponent",Boost Spam,"[0, 1]",both,1,"[0, 1]","[0, -1]"
 OCTAZOOKA,Octazooka,charged,water,50,0,1,,,50,1.0,50.0% chance -2 Atk opponent,Debuff,"[-2, 0]",opponent,0.5,nan,nan
-OMINOUS_WIND,Ominous Wind,charged,ghost,45,0,1,,,45,1.0,10.0% chance +1 Atk +1 Def self,Boost,"[1, 1]",self,.1,nan,nan
+OMINOUS_WIND,Ominous Wind,charged,ghost,45,0,1,,,45,1.0,10.0% chance +1 Atk +1 Def self,Boost Spam,"[1, 1]",self,.1,nan,nan
+OMINOUS_WIND_PLUS,Ominous Wind+,charged,ghost,50,0,1,,,40,1.25,10.0% chance +1 Atk +1 Def self,Boost,"[1, 1]",self,.1,nan,nan
 ORIGIN_PULSE,Origin Pulse,charged,water,130,0,1,,,60,2.17,,Nuke,nan,,,nan,nan
 OUTRAGE,Outrage,charged,dragon,110,0,1,,,60,1.83,,Nuke,nan,,,nan,nan
 OUTRAGE_PLUS,Outrage+,charged,dragon,80,0,1,,,50,1.6,,General,nan,,,nan,nan
