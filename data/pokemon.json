@@ -37411,6 +37411,9 @@
             "DAZZLING_GLEAM",
             "DRAIN_PUNCH"
         ],
+        "extraChargedMoves": [
+            "NIGHT_SHADE_PLUS"
+        ],
         "defaultIVs": {
             "cp500": [
                 9.5,
@@ -37434,7 +37437,8 @@
         "level25CP": 1158,
         "tags": [
             "shadoweligible",
-            "mega"
+            "mega",
+            "supermega"
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
