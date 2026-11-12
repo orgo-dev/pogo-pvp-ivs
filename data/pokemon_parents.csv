@@ -173,7 +173,10 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 34,nidoking_shadow,Nidoking (Shadow),34,nidoking_shadow,Nidoking (Shadow),True
 35,clefairy,Clefairy,35,clefairy,Clefairy,True
 35,clefairy,Clefairy,36,clefable,Clefable,False
+35,clefairy,Clefairy,36,clefable_mega,Clefable (Mega),False
 36,clefable,Clefable,36,clefable,Clefable,True
+36,clefable,Clefable,36,clefable_mega,Clefable (Mega),False
+36,clefable_mega,Clefable (Mega),36,clefable_mega,Clefable (Mega),True
 37,vulpix,Vulpix,37,vulpix,Vulpix,True
 37,vulpix,Vulpix,38,ninetales,Ninetales,False
 37,vulpix_alolan,Vulpix (Alolan),37,vulpix_alolan,Vulpix (Alolan),True
@@ -725,6 +728,7 @@ dex_parent,pokemon_id_parent,pokemon_parent,dex_child,pokemon_id_child,pokemon_c
 172,pichu,Pichu,172,pichu,Pichu,True
 173,cleffa,Cleffa,35,clefairy,Clefairy,False
 173,cleffa,Cleffa,36,clefable,Clefable,False
+173,cleffa,Cleffa,36,clefable_mega,Clefable (Mega),False
 173,cleffa,Cleffa,173,cleffa,Cleffa,True
 174,igglybuff,Igglybuff,39,jigglypuff,Jigglypuff,False
 174,igglybuff,Igglybuff,40,wigglytuff,Wigglytuff,False

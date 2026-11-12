@@ -198,6 +198,7 @@ MIRROR_COAT,Mirror Coat,charged,psychic,75,0,1,,,45,1.67,,General,nan,,,nan,nan
 MIRROR_SHOT,Mirror Shot,charged,steel,35,0,1,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam,"[-1, 0]",opponent,.3,nan,nan
 MIST_BALL,Mist Ball,charged,psychic,120,0,1,,,60,2.0,50.0% chance -1 Atk opponent,Debuff Nuke,"[-1, 0]",opponent,0.5,nan,nan
 MOONBLAST,Moonblast,charged,fairy,90,0,1,,,50,1.8,10.0% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,.1,nan,nan
+MOONBLAST_PLUS,Moonblast+,charged,fairy,80,0,1,,,50,1.6,10.0% chance -1 Atk opponent,Debuff,"[-1, 0]",opponent,.1,nan,nan
 MOONGEIST_BEAM,Moongeist Beam,charged,ghost,135,0,1,,,65,2.08,,Nuke,nan,,,nan,nan
 MUDDY_WATER,Muddy Water,charged,water,35,0,2,,,35,1.0,30.0% chance -1 Atk opponent,Debuff Spam,"[-1, 0]",opponent,.3,nan,nan
 MUD_BOMB,Mud Bomb,charged,ground,65,0,1,,,45,1.44,,General,nan,,,nan,nan
@@ -287,6 +288,7 @@ SLUDGE_WAVE,Sludge Wave,charged,poison,110,0,1,,,65,1.69,,Nuke,nan,,,nan,nan
 SMACK_DOWN,Smack Down,fast,rock,11,8,3,3.67,2.67,0,,,Heavy Damage,nan,,,nan,nan
 SNARL,Snarl,fast,dark,5,13,3,1.67,4.33,0,,,Fast Charge,nan,,,nan,nan
 SNIPE_SHOT,Snipe Shot,charged,water,65,0,1,,,35,1.86,12.5% chance +2 Atk self,Boost Spam,"[2, 0]",self,.125,nan,nan
+SOAK,Soak,fast,water,6,8,2,3.0,4.0,0,,,Multipurpose,nan,,,nan,nan
 SOLAR_BEAM,Solar Beam,charged,grass,150,0,1,,,80,1.88,,Nuke,nan,,,nan,nan
 SPACIAL_REND,Spacial Rend,charged,dragon,95,0,1,,,55,1.73,,High Energy,nan,,,nan,nan
 SPARK,Spark,fast,electric,5,7,2,2.5,3.5,0,,,General,nan,,,nan,nan
