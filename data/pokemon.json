@@ -78092,7 +78092,7 @@
         ],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GOOMY",
             "parent": "goomy",
@@ -78209,7 +78209,7 @@
         "searchPriority": 6,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GOOMY",
             "parent": "sliggoo"
@@ -91663,6 +91663,14 @@
                 15,
                 15
             ]
+        },
+        "formChange": {
+            "type": "toggle",
+            "trigger": "charged_move",
+            "moveId": "ANY",
+            "defaultFormId": "morpeko_full_belly",
+            "alternativeFormId": "morpeko_full_belly",
+            "resetOnSwitch": true
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
