@@ -54165,7 +54165,11 @@
             "FLASH_CANNON",
             "WILD_CHARGE",
             "ZAP_CANNON",
-            "MIRROR_SHOT"
+            "MIRROR_SHOT",
+            "MAGNET_BOMB"
+        ],
+        "eliteMoves": [
+            "MAGNET_BOMB"
         ],
         "defaultIVs": {
             "cp500": [
@@ -54226,7 +54230,11 @@
             "FLASH_CANNON",
             "WILD_CHARGE",
             "ZAP_CANNON",
-            "MIRROR_SHOT"
+            "MIRROR_SHOT",
+            "MAGNET_BOMB"
+        ],
+        "eliteMoves": [
+            "MAGNET_BOMB"
         ],
         "defaultIVs": {
             "cp500": [
