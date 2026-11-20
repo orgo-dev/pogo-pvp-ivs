@@ -1707,7 +1707,7 @@ dex,pokemon_id,pokemon,base_attack,base_defense,base_stamina,types,fast_moves,ch
 980,clodsire,Clodsire,127,151,277,"['poison', 'ground']","['POISON_STING', 'MUD_SHOT']","['SLUDGE_BOMB', 'EARTHQUAKE', 'STONE_EDGE', 'ACID_SPRAY', 'WATER_PULSE', 'MEGAHORN']",['MEGAHORN'],nan,3,50000,True,FAMILY_WOOPER_PALDEAN,nan,wooper_paldean,nan
 981,farigiraf,Farigiraf,209,136,260,"['normal', 'psychic']","['TACKLE', 'CONFUSION', 'DOUBLE_KICK']","['PSYCHIC', 'THUNDERBOLT', 'MIRROR_COAT', 'PSYCHIC_FANGS']",nan,nan,3,50000,False,FAMILY_GIRAFARIG,nan,girafarig,nan
 982,dudunsparce,Dudunsparce,188,150,268,"['normal', 'none']","['BITE', 'ASTONISH', 'ROLLOUT', 'DRAGON_TAIL']","['DIG', 'ROCK_SLIDE', 'DRILL_RUN', 'BODY_SLAM']",nan,nan,3,50000,True,FAMILY_DUNSPARCE,nan,dunsparce,nan
-983,kingambit,Kingambit,238,203,225,"['dark', 'steel']","['SNARL', 'METAL_CLAW', 'METAL_SOUND', 'LOW_KICK']","['DARK_PULSE', 'IRON_HEAD', 'X_SCISSOR', 'FOCUS_BLAST', 'FOUL_PLAY']",nan,nan,5,75000,True,FAMILY_PAWNIARD,nan,bisharp,nan
+983,kingambit,Kingambit,238,203,225,"['dark', 'steel']","['SNARL', 'METAL_CLAW', 'METAL_SOUND', 'LOW_KICK']","['DARK_PULSE', 'IRON_HEAD', 'X_SCISSOR', 'FOCUS_BLAST', 'FOUL_PLAY', 'KOWTOW_CLEAVE']",['KOWTOW_CLEAVE'],nan,5,75000,True,FAMILY_PAWNIARD,nan,bisharp,nan
 984,greattusk,Greattusk,249,209,251,"['ground', 'fighting']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
 985,screamtail,Screamtail,139,234,251,"['fairy', 'psychic']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
 986,brutebonnet,Brutebonnet,232,190,244,"['grass', 'dark']",['SPLASH'],['STRUGGLE'],nan,nan,20,100000,False,,nan,,nan
